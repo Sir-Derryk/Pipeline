@@ -73,7 +73,7 @@ gantt
 9. **`TSK-NML-01` (Docstring Normalizer to CommonMark)** [COMPLETED]
    * *Goal*: Convert Javadoc-style (`@param`/`@return`) and Doxygen-style (`\param`/`\return`) docstring layouts to clean Markdown, populating parameter metadata tables in the IR.
    * *Success Criterion*: Homogeneous, clean Markdown output regardless of original raw commenting styles in source files.
-10. **`TSK-NML-02` (Exclusion Tag and Ignore Filters)**
+10. **`TSK-NML-02` (Exclusion Tag and Ignore Filters)** [COMPLETED]
     * *Goal*: Implement structural filtering of classes and members enclosed within `DOM-IGNORE-BEGIN`/`DOM-IGNORE-END`, `@cond`/`@endcond`, or annotated with `@internal`/`\internal` tags.
     * *Success Criterion*: Excluded entities are entirely absent from the generated `ProjectCatalog`.
 

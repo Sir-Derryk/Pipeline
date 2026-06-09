@@ -81,5 +81,6 @@ Pipeline/ (Umbrella Repository)
 - [x] Implement TSK-PAR-02 (Doxygen XML Parser Engine) with 100% test coverage and update compliance registries.
 - [x] Implement TSK-COL-01 (BaseCollector Interface and DoxygenXmlCollector) with 95% statement coverage and safe cleanup guard rails.
 - [x] Implement TSK-NML-01 (Docstring Normalizer to CommonMark Markdown) with 100% statement coverage and Javadoc/Doxygen/Google support.
+- [x] Implement TSK-NML-02 (Exclusion Filters and Hidden Code Blocks) with 100% statement coverage and support for DOM-IGNORE, cond, and internal.
 
 
