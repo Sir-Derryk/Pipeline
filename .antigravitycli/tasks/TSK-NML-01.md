@@ -1,48 +1,47 @@
-# Задача: TSK-NML-01 — Нормализатор комментариев в CommonMark Markdown
+# Task: TSK-NML-01 — Docstring Normalizer to CommonMark Markdown
 
-## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
-1. **Цель**: Реализовать нормализацию сырых docstring-блоков (Javadoc, Google Style, Doxygen) в чистый стандартный Markdown формата CommonMark.
-2. **Шаги реализации**:
-   * Создать файл `ude/normalizer.py`.
-   * Реализовать класс `CommentNormalizer`:
-     * Написать правила регулярных выражений (regex) для выявления тегов параметров (таких как `\param`, `@param`), возвращаемых значений (`\return`, `@return`), авторов и версий.
-     * Отделять метаданные и заносить их в специальные поля параметров в IR.
-     * Заменять специфичную разметку на чистый CommonMark (например, убирать лишние слеши, звездочки Javadoc, оформлять списки).
+## 📌 Part 1: Implementation Guide
+1. **Goal**: Standardize diverse raw docstring formats (Javadoc, Google Style, Doxygen) into uniform, clean CommonMark-compliant Markdown documentation blocks.
+2. **Implementation Steps**:
+   * Create file `ude/normalizer.py`.
+   * Implement class `CommentNormalizer`:
+     * Design regular expressions to parse parameter markers (`\param`, `@param`), return annotations (`eturn`, `@return`), authors, and versions.
+     * Extract these annotations as semantic metadata, populating individual argument metadata models inside the IR.
+     * Strip block slashes, Javadoc decorations, and convert custom Doxygen tags into standard CommonMark layouts.
 
-## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
-1. **Тестовый сценарий (TDD Red Phase)**:
-   * Написать `tests/test_normalizer.py`.
-   * Проверить:
-     1. Строка `/** @param count Кол-во */` превращается в описание параметра `count` ("Кол-во"), а в основном тексте комментарий очищается от тегов.
-     2. Doxygen-разметка нормализуется в стандартный markdown без сырых служебных символов.
-   * Тесты должны упасть.
-2. **Реализация (TDD Green Phase)**:
-   * Реализовать класс `CommentNormalizer` с регулярными выражениями и алгоритмами очистки строк.
-3. **Запуск и валидация (TDD Refactor Phase)**:
-   * Запустить команду проверки:
+## 🧪 Part 2: Verification & TDD Scenarios
+1. **TDD Red Phase**:
+   * Write unit test `tests/test_normalizer.py` verifying:
+     1. An annotation like `/** @param count Total size */` correctly extracts into parameter metadata (`count` -> `"Total size"`) while removing the Javadoc tag from the main docstring text.
+     2. Doxygen comment tokens are stripped and normalized into standard CommonMark without raw compiler symbols.
+   * Verify test failure.
+2. **TDD Green Phase**:
+   * Implement `CommentNormalizer` using robust regular expression string manipulations and formatting sanitizers.
+3. **TDD Refactor Phase**:
+   * Run verification command:
      ```bash
      poetry run pytest tests/test_normalizer.py
      ```
-   * **Ожидаемый успешный результат**: тесты зеленые, комментарии отвязаны от исходного стиля и приведены к единому стандарту.
+   * **Expected Success Result**: Tests pass successfully, demonstrating clean extraction and formatting of diverse docstring styles.
 
-## 👥 Часть 3: Инструкция по приемке пользователем (User Acceptance Scenario)
-После завершения шагов 1 (разработка кода) и 2 (проверка тестами) со стороны ИИ, вам необходимо выполнить финальную приемку задачи:
+## 👥 Part 3: User Acceptance Scenario
+After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
 
-1. **Запуск автоматических тестов для ручной проверки**:
-   Выполните в терминале команду:
+1. **Run automated tests for manual validation**:
+   Execute in your terminal:
    ```bash
    cd engine
-poetry run pytest tests/test_normalizer.py
+   poetry run pytest tests/test_normalizer.py
    ```
-   *Ожидаемый результат:* Тесты подтверждают полное приведение разнородных стилей docstring к единой нормализованной форме.
+   *Expected Result:* All test assertions pass, proving normalized markdown conversion.
 
-2. **Проверка ключевых критериев выполнения задачи**:
-   * [ ] Проверить в `ude/normalizer.py` класс `CommentNormalizer`.
-   * [ ] Убедиться, что маркеры комментариев Javadoc (например, `@param`, `@return`) и Doxygen (`\param`, `\return`) преобразуются в структурированные поля метаданных.
-   * [ ] Проверить, что остальной текст очищается от тегов разметки и приводится к стандартному Markdown (CommonMark).
+2. **Verify key task requirements**:
+   * [ ] Verify class `CommentNormalizer` is declared inside `ude/normalizer.py`.
+   * [ ] Verify that parameter (`@param`/`\param`) and return (`@return`/`eturn`) tags are extracted as structured IR metadata fields.
+   * [ ] Confirm that docstring bodies are stripped of legacy styling characters and formatted as standard CommonMark.
 
-3. **Проверка портативности путей**:
-   * [ ] Убедиться, что в кодовой базе отсутствуют захардкоженные абсолютные пути, привязанные к локальному окружению разработчика (все пути должны разрешаться динамически).
+3. **Verify path portability**:
+   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
 
-4. **Обновление реестра соответствия**:
-   * [ ] Проверить, что статус задачи в файле реестра `design-docs/docs/srs/task_compliance.md` переведен в актуальное состояние и зафиксирован процент покрытия тестами.
+4. **Update compliance registry**:
+   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.

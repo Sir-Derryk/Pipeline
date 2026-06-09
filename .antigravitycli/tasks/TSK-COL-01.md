@@ -1,52 +1,52 @@
-# Задача: TSK-COL-01 — Интерфейс BaseCollector и реализация DoxygenXmlCollector
+# Task: TSK-COL-01 — BaseCollector Interface and DoxygenXmlCollector
 
-## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
-1. **Цель**: Создать уровень предобработки исходного кода, обеспечив запуск Doxygen для компиляции исходников в XML и гарантированное удаление временных файлов (`REQ-FUN-01`, `REQ-FUN-22`).
-2. **Шаги реализации**:
-   * Объявить абстрактный класс `BaseCollector` в `ude/interfaces.py` с методами:
-     * `validate_environment(self, config_path: Path) -> None` (проверка бинарников и путей).
-     * `collect(self, config_path: Path) -> Path` (запуск сбора данных, возвращает путь к временной папке).
-     * `cleanup(self, temp_path: Path) -> None` (удаление временной папки).
-   * Создать файл `ude/collectors/doxygen.py` и реализовать класс `DoxygenXmlCollector(BaseCollector)`:
-     * `validate_environment`: Проверяет доступность Python и бинарника `doxygen` в PATH (или по путям в `ude_global.json`), наличие `Doxyfile` (если он используется) и существование исходной директории `src_dir` для целевого языка.
-     * `collect`: Запускает команду `doxygen` через `subprocess.run`, динамически генерируя временный файл конфигурации Doxygen (Doxyfile) под конкретный язык программирования (`cpp` / `cs` / `java` / `python`), настраивая правильные паттерны файлов (`**/*.cs`, `**/*.py` и т.д.) и опции (например, `OPTIMIZE_OUTPUT_JAVA = YES` для C#/Java), перенаправляя вывод XML во временную изолированную папку внутри SDK проекта.
-     * `cleanup`: Рекурсивно и безопасно удаляет созданную временную папку. **Внимание (Защитная оговорка!)**: В целях безопасности метод должен содержать жесткие защитные проверки путей (guard clauses). Метод `cleanup` обязан выбросить исключение (например, `ValueError`), если переданный путь:
-       * Является пустым или корневым диском (`/`, `C:\`, `D:\` и т.д.).
-       * Совпадает с текущим каталогом (`.`) или родительским каталогом (`..`).
-       * Находится за пределами временной системной директории или рабочей директории проекта.
+## 📌 Part 1: Implementation Guide
+1. **Goal**: Set up a pre-processing compilation tier to trigger external Doxygen commands, generating raw XML assets, and ensuring guaranteed secure removal of temporary workspace folder directories (`REQ-FUN-01`, `REQ-FUN-22`).
+2. **Implementation Steps**:
+   * Define interface `BaseCollector` inside `ude/interfaces.py` exposing:
+     * `validate_environment(self, config_path: Path) -> None` (validates executable paths).
+     * `collect(self, config_path: Path) -> Path` (runs compilation, returning the path to temporary XML folders).
+     * `cleanup(self, temp_path: Path) -> None` (cleans up temporary workspaces).
+   * Create `ude/collectors/doxygen.py` and implement subclass `DoxygenXmlCollector(BaseCollector)`:
+     * `validate_environment`: Asserts availability of Python and `doxygen` binaries in PATH (or paths defined in `ude_global.json`), checks for localized `Doxyfile` templates, and asserts existence of source files directories `src_dir`.
+     * `collect`: Spawns the Doxygen process utilizing `subprocess.run`, generating custom localized Doxygen configurations dynamically per target language (`cpp` / `cs` / `java` / `python`), applying appropriate parameters (such as file glob mappings `**/*.cs` or `OPTIMIZE_OUTPUT_JAVA = YES`), and directing output XML streams to dedicated, isolated temp folders under the target product directory.
+     * `cleanup`: Recursively and safely removes the specified temporary folder. **CRITICAL WARNING (Guard Rails)**: To protect filesystems, the `cleanup` routine must enforce strict guard clauses. Raise a `ValueError` if the supplied path:
+       * Is empty, null, or a root directory (`/`, `C:\`, `D:\`, etc.).
+       * Points to the current directory (`.`) or parent directory (`..`).
+       * Resolves to paths outside the project's temporary directory or working tree.
 
-## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
-1. **Тестовый сценарий (TDD Red Phase)**:
-   * Написать `tests/test_doxygen_collector.py`.
-   * Написать тесты, которые проверяют вызов методов коллектора. Тесты должны падать.
-   * Написать отдельный тест для проверки защитных проверок в методе `cleanup()`, передав туда недопустимые пути (`/`, `""`, `.`) и ожидая возбуждения ошибки `ValueError`.
-2. **Реализация (TDD Green Phase)**:
-   * Написать полноценную реализацию класса `DoxygenXmlCollector` с защитными проверками в `cleanup()`.
-3. **Запуск и валидация (TDD Refactor Phase)**:
-   * Запустить команду проверки:
+## 🧪 Part 2: Verification & TDD Scenarios
+1. **TDD Red Phase**:
+   * Write unit test `tests/test_doxygen_collector.py`.
+   * Prepare mock collector verification scenarios. Verify assertions fail.
+   * Add a specific test checking the `cleanup` guard rails by passing forbidden paths (`/`, `""`, `.`) and asserting they raise `ValueError`.
+2. **TDD Green Phase**:
+   * Implement `DoxygenXmlCollector` with strict path validation policies.
+3. **TDD Refactor Phase**:
+   * Run verification command:
      ```bash
      poetry run pytest tests/test_doxygen_collector.py
      ```
-   * **Ожидаемый успешный результат**: тесты успешно имитируют запуск Doxygen, проверяют валидацию окружения и гарантируют удаление временных директорий, а также безопасность выполнения `cleanup()`.
+   * **Expected Success Result**: Tests successfully mock Doxygen execution, verify environment checks, and assert that `cleanup` behaves securely.
 
-## 👥 Часть 3: Инструкция по приемке пользователем (User Acceptance Scenario)
-После завершения шагов 1 (разработка кода) и 2 (проверка тестами) со стороны ИИ, вам необходимо выполнить финальную приемку задачи:
+## 👥 Part 3: User Acceptance Scenario
+After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
 
-1. **Запуск автоматических тестов для ручной проверки**:
-   Выполните в терминале команду:
+1. **Run automated tests for manual validation**:
+   Execute in your terminal:
    ```bash
    cd engine
-poetry run pytest tests/test_doxygen_collector.py
+   poetry run pytest tests/test_doxygen_collector.py
    ```
-   *Ожидаемый результат:* Тесты подтверждают безопасность работы с каталогами, корректный сбор XML и запуск внешних утилит.
+   *Expected Result:* pytest runs green, asserting environment checks, execution, and secure directory clean-up boundaries.
 
-2. **Проверка ключевых критериев выполнения задачи**:
-   * [ ] Проверить в `ude/collectors/doxygen.py` класс `DoxygenXmlCollector`, реализующий методы `validate_environment`, `collect` и `cleanup`.
-   * [ ] Проверить, что метод очистки `cleanup` блокирует передачу небезопасных системных папок (типа корневой папки, текущей или родительской) и выдает `ValueError`.
-   * [ ] Убедиться, что сборщик успешно запускает Doxygen как subprocess для автоматической сборки исходных файлов во временный каталог.
+2. **Verify key task requirements**:
+   * [ ] Verify that `DoxygenXmlCollector` is declared inside `ude/collectors/doxygen.py` inheriting from `BaseCollector`.
+   * [ ] Verify that `cleanup` blocks attempts to delete root, relative, or system paths, raising a `ValueError`.
+   * [ ] Confirm the collector triggers Doxygen as a subprocess, outputting XML structures to an isolated temporary directory.
 
-3. **Проверка портативности путей**:
-   * [ ] Убедиться, что в кодовой базе отсутствуют захардкоженные абсолютные пути, привязанные к локальному окружению разработчика (все пути должны разрешаться динамически).
+3. **Verify path portability**:
+   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
 
-4. **Обновление реестра соответствия**:
-   * [ ] Проверить, что статус задачи в файле реестра `design-docs/docs/srs/task_compliance.md` переведен в актуальное состояние и зафиксирован процент покрытия тестами.
+4. **Update compliance registry**:
+   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.

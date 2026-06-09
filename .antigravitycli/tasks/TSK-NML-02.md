@@ -1,47 +1,47 @@
-# Задача: TSK-NML-02 — Фильтры игнорирования DOM-IGNORE и скрытия кода
+# Task: TSK-NML-02 — Exclusion Filters and Hidden Code Blocks (DOM-IGNORE)
 
-## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
-1. **Цель**: Реализовать механизм исключения блоков кода из финального каталога документации на основе тегов игнорирования (`REQ-FUN-13`).
-2. **Шаги реализации**:
-   * Расширить функционал `DoxygenXmlParser` фильтрацией элементов:
-     * Отслеживать диапазонные комментарии: полностью исключать все классы, методы и структуры, расположенные между `DOM-IGNORE-BEGIN` и `DOM-IGNORE-END`.
-     * Исключать условные блоки, помеченные Doxygen-директивами `\cond`/`@cond` и `\endcond`/`@endcond`.
-     * Исключать любые сущности, содержащие в своих комментариях тег `\internal` или `@internal`.
+## 📌 Part 1: Implementation Guide
+1. **Goal**: Implement filtering rules to omit specified internal or private codebase sections from compiled catalogs using exclusion markers (`REQ-FUN-13`).
+2. **Implementation Steps**:
+   * Integrate exclusion filtering checks into `DoxygenXmlParser`:
+     * Skip all entities (classes, methods, structures, or variables) enclosed within the range markers `DOM-IGNORE-BEGIN` and `DOM-IGNORE-END`.
+     * Skip conditional blocks marked by Doxygen-specific tags `\cond`/`@cond` and `\endcond`/`@endcond`.
+     * Skip any code entities containing `@internal` or `\internal` within their docstrings.
 
-## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
-1. **Тестовый сценарий (TDD Red Phase)**:
-   * Написать `tests/test_exclusions.py`.
-   * Подать на вход парсеру тестовый XML-слепок, где:
-     * Один класс находится внутри блока `DOM-IGNORE-BEGIN` / `DOM-IGNORE-END`.
-     * Второй метод класса помечен тегом `@internal`.
-   * Написать ассерт, что в итоговом `ProjectCatalog` **полностью отсутствуют** эти элементы.
-   * Тесты должны упасть.
-2. **Реализация (TDD Green Phase)**:
-   * Добавить в цикл парсинга проверку флагов игнорирования и пропускать элементы, подпадающие под условия исключения.
-3. **Запуск и валидация (TDD Refactor Phase)**:
-   * Запустить команду проверки:
+## 🧪 Part 2: Verification & TDD Scenarios
+1. **TDD Red Phase**:
+   * Create unit test file `tests/test_exclusions.py`.
+   * Feed parser with XML mock files where:
+     * A class is wrapped between `DOM-IGNORE-BEGIN` and `DOM-IGNORE-END` blocks.
+     * A method is marked with the `@internal` tag.
+   * Assert that the generated `ProjectCatalog` contains **absolutely no reference** to these excluded elements.
+   * Verify test failure.
+2. **TDD Green Phase**:
+   * Update the XML parsing routines in `DoxygenXmlParser` to skip elements matching ignore conditions during ingestion.
+3. **TDD Refactor Phase**:
+   * Run verification command:
      ```bash
      poetry run pytest tests/test_exclusions.py
      ```
-   * **Ожидаемый успешный результат**: зеленый статус, исключаемый код гарантированно отсекается на этапе парсинга.
+   * **Expected Success Result**: Test suite is green, confirming complete removal of hidden or internal APIs at parser level.
 
-## 👥 Часть 3: Инструкция по приемке пользователем (User Acceptance Scenario)
-После завершения шагов 1 (разработка кода) и 2 (проверка тестами) со стороны ИИ, вам необходимо выполнить финальную приемку задачи:
+## 👥 Part 3: User Acceptance Scenario
+After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
 
-1. **Запуск автоматических тестов для ручной проверки**:
-   Выполните в терминале команду:
+1. **Run automated tests for manual validation**:
+   Execute in your terminal:
    ```bash
    cd engine
-poetry run pytest tests/test_exclusions.py
+   poetry run pytest tests/test_exclusions.py
    ```
-   *Ожидаемый результат:* Тесты проходят успешно, подтверждая 100% сокрытие конфиденциальных или служебных элементов кода.
+   *Expected Result:* All tests pass successfully, verifying that internal, private, or ignore-tagged elements are omitted.
 
-2. **Проверка ключевых критериев выполнения задачи**:
-   * [ ] Проверить фильтрацию исключений в XML-парсере.
-   * [ ] Убедиться, что элементы кода, расположенные внутри блоков `DOM-IGNORE-BEGIN` ... `DOM-IGNORE-END`, а также помеченные тегами `\cond`/`\endcond` или `\internal`/`@internal`, полностью удаляются из выходного каталога `ProjectCatalog`.
+2. **Verify key task requirements**:
+   * [ ] Verify the parsing engine filters out ignore-tagged code blocks.
+   * [ ] Confirm that members inside `DOM-IGNORE-BEGIN` ... `DOM-IGNORE-END` boundaries or marked with `\cond` / `\internal` are absent from generated `ProjectCatalog` trees.
 
-3. **Проверка портативности путей**:
-   * [ ] Убедиться, что в кодовой базе отсутствуют захардкоженные абсолютные пути, привязанные к локальному окружению разработчика (все пути должны разрешаться динамически).
+3. **Verify path portability**:
+   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
 
-4. **Обновление реестра соответствия**:
-   * [ ] Проверить, что статус задачи в файле реестра `design-docs/docs/srs/task_compliance.md` переведен в актуальное состояние и зафиксирован процент покрытия тестами.
+4. **Update compliance registry**:
+   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.

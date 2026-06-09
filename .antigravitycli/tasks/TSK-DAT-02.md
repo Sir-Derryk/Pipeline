@@ -1,48 +1,48 @@
-# Задача: TSK-DAT-02 — Сжатие дискового кэша Gzip (.json.gz)
+# Task: TSK-DAT-02 — Gzip Compression of Disk Caches (.json.gz)
 
-## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
-1. **Цель**: Реализовать прозрачное чтение и запись сериализованных IR-файлов на диск с использованием алгоритма Gzip для предотвращения загрязнения репозитория.
-2. **Шаги реализации**:
-   * Создать файл `ude/storage.py`.
-   * Реализовать функции:
-     * `save_compressed_ir(catalog: ProjectCatalog, file_path: str)`: сериализует объект Pydantic в JSON, сжимает на лету с помощью `gzip` и записывает файл с расширением `.json.gz`.
-     * `load_compressed_ir(file_path: str) -> ProjectCatalog`: считывает сжатый файл, распаковывает в памяти и десериализует обратно в типизированный объект `ProjectCatalog`.
+## 📌 Part 1: Implementation Guide
+1. **Goal**: Implement transparent compression and decompression for serialized IR structures on disk using Gzip, optimizing disk footprints and preventing Git pollution in line with `REQ-BUS-03` and `REQ-FUN-11`.
+2. **Implementation Steps**:
+   * Create file `ude/storage.py`.
+   * Implement helper functions:
+     * `save_compressed_ir(catalog: ProjectCatalog, file_path: str)`: Serializes a Pydantic model into JSON, compresses it on-the-fly using the `gzip` module, and writes it to disk with a `.json.gz` extension.
+     * `load_compressed_ir(file_path: str) -> ProjectCatalog`: Reads a compressed file, decompresses it in memory, and parses it back into a typed `ProjectCatalog` instance.
 
-## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
-1. **Тестовый сценарий (TDD Red Phase)**:
-   * Написать `tests/test_storage.py`.
-   * Проверить:
-     1. Запись каталога во временный файл `tests/scratch/temp_ir.json.gz`.
-     2. Что файл на диске сжат (бинарный заголовок gzip).
-     3. Что при чтении этого файла обратно восстанавливается идентичный исходному объект `ProjectCatalog`.
-   * Убедиться, что тесты падают.
-2. **Реализация (TDD Green Phase)**:
-   * Реализовать методы в `ude/storage.py` с использованием стандартных модулей Python `gzip` и `json`.
-3. **Запуск и валидация (TDD Refactor Phase)**:
-   * Запустить команду проверки:
+## 🧪 Part 2: Verification & TDD Scenarios
+1. **TDD Red Phase**:
+   * Write unit test `tests/test_storage.py`.
+   * Verify:
+     1. Writing a catalog model to a temporary file path `tests/scratch/temp_ir.json.gz`.
+     2. Checking that the physical file is indeed a Gzip-compressed archive (asserting gzip magic header bytes).
+     3. Loading the compressed file back and asserting that the deserialized object is equivalent to the original `ProjectCatalog`.
+   * Verify tests fail due to missing modules.
+2. **TDD Green Phase**:
+   * Implement `save_compressed_ir` and `load_compressed_ir` in `ude/storage.py` using standard `gzip` and `json` libraries.
+3. **TDD Refactor Phase**:
+   * Run verification command:
      ```bash
      poetry run pytest tests/test_storage.py
      ```
-   * **Ожидаемый успешный результат**: зеленый статус, кэш сжимается и считывается без малейших потерь данных.
+   * **Expected Success Result**: Test suite is green, verifying lossless compression and transparent disk serialization/deserialization.
 
-## 👥 Часть 3: Инструкция по приемке пользователем (User Acceptance Scenario)
-После завершения шагов 1 (разработка кода) и 2 (проверка тестами) со стороны ИИ, вам необходимо выполнить финальную приемку задачи:
+## 👥 Part 3: User Acceptance Scenario
+After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
 
-1. **Запуск автоматических тестов для ручной проверки**:
-   Выполните в терминале команду:
+1. **Run automated tests for manual validation**:
+   Execute in your terminal:
    ```bash
    cd engine
-poetry run pytest tests/test_storage.py
+   poetry run pytest tests/test_storage.py
    ```
-   *Ожидаемый результат:* Тесты проходят успешно, подтверждая бинарную идентичность и целостность сжатых данных.
+   *Expected Result:* Tests pass successfully, proving binary equivalence and integrity of serialized caches.
 
-2. **Проверка ключевых критериев выполнения задачи**:
-   * [ ] Проверить в `ude/storage.py` функции `save_compressed_ir` и `load_compressed_ir`.
-   * [ ] Проверить, что при сериализации каталога на диск записывается сжатый бинарный файл с расширением `.json.gz`.
-   * [ ] Убедиться, что при чтении файла данные полностью декомпрессируются и восстанавливают исходную Pydantic-модель.
+2. **Verify key task requirements**:
+   * [ ] Verify functions `save_compressed_ir` and `load_compressed_ir` are implemented inside `ude/storage.py`.
+   * [ ] Verify that serializing a catalog writes a binary Gzip-compressed file with `.json.gz` extension.
+   * [ ] Confirm that loading a compressed catalog decompresses files transparently, restoring the validated Pydantic models.
 
-3. **Проверка портативности путей**:
-   * [ ] Убедиться, что в кодовой базе отсутствуют захардкоженные абсолютные пути, привязанные к локальному окружению разработчика (все пути должны разрешаться динамически).
+3. **Verify path portability**:
+   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
 
-4. **Обновление реестра соответствия**:
-   * [ ] Проверить, что статус задачи в файле реестра `design-docs/docs/srs/task_compliance.md` переведен в актуальное состояние и зафиксирован процент покрытия тестами.
+4. **Update compliance registry**:
+   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.

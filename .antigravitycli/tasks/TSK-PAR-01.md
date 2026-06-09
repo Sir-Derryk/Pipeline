@@ -1,58 +1,58 @@
-# Задача: TSK-PAR-01 — Интерфейсы BaseParser, BaseRenderer и Иерархия ошибок
+# Task: TSK-PAR-01 — Abstract Contracts BaseParser, BaseRenderer and Exceptions
 
-## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
-1. **Цель**: Определить жесткие контракты для расширения парсеров и рендереров (включая поддержку будущих AST-парсер-движков, таких как tree-sitter и libclang, без изменения сигнатур интерфейсов — Рекомендация 1), а также создать структурированную иерархию исключений UDE.
-2. **Шаги реализации**:
-   * Создать файл `ude/interfaces.py`.
-   * Использовать модуль `abc` для объявления абстрактных классов:
-     * `BaseParser` с абстрактным методом `.parse(self, input_path: str) -> ProjectCatalog`. Дизайн абстрактного интерфейса должен позволять в будущем передавать как пути к XML-директориям, так и пути к исходным кодовым файлам напрямую.
-     * `BaseRenderer` с абстрактным методом `.render(self, catalog: ProjectCatalog, output_path: str)`.
-   * **Требование к документированию и трассировке (Traceability)**: Каждый интерфейс, базовый класс и метод обязаны содержать структурированные docstring-блоки, в которых в обязательном порядке указывается строка трассировки требований в формате:
+## 📌 Part 1: Implementation Guide
+1. **Goal**: Define strict interfaces for parsers and renderers to support future direct AST parsers (like tree-sitter or libclang) without altering pipeline signatures (Recommendation 1), and establish UDE custom exceptions.
+2. **Implementation Steps**:
+   * Create file `ude/interfaces.py`.
+   * Declare abstract classes utilizing Python's `abc` module:
+     * `BaseParser` defining abstract method `.parse(self, input_path: str) -> ProjectCatalog`. The interface path parameter must support directories of XMLs as well as native code file paths for future ast frontends.
+     * `BaseRenderer` defining abstract method `.render(self, catalog: ProjectCatalog, output_path: str)`.
+   * **Traceability and Documenting Requirement**: Every interface, base class, and method must contain clear, structured docstrings outlining their behavior and featuring explicit traceability tags in the format:
      ```python
      """
-     ...описание назначения класса/метода...
+     ...brief explanation...
 
      Satisfies REQ-FUN-XX
      """
      ```
-     Для `BaseParser` указать трассировку `Satisfies REQ-FUN-02`. Для `BaseRenderer` указать `Satisfies REQ-FUN-03`.
-   * Объявить базовые исключения: `UdeException` (от `Exception`), `ParserError` (от `UdeException`), `RendererError` (от `UdeException`). Все исключения должны также документироваться с указанием трассируемых функциональных требований.
+     For `BaseParser`, trace with `Satisfies REQ-FUN-02`. For `BaseRenderer`, trace with `Satisfies REQ-FUN-03`.
+   * Define exception hierarchy classes: `UdeException` (inheriting from `Exception`), `ParserError` (inheriting from `UdeException`), and `RendererError` (inheriting from `UdeException`). Document exceptions with traceable functional requirement references.
 
-## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
-1. **Тестовый сценарий (TDD Red Phase)**:
-   * Написать `tests/test_interfaces.py`.
-   * Проверить:
-     1. Попытка инстанцировать `BaseParser()` или `BaseRenderer()` напрямую вызывает `TypeError`.
-     2. Наследник `BaseParser`, не реализовавший метод `.parse()`, также падает с `TypeError` при попытке инстанцирования.
-     3. Наличие docstrings и строк `Satisfies` в базовых классах через интроспекцию `__doc__`.
-   * Тесты должны упасть.
-2. **Реализация (TDD Green Phase)**:
-   * Реализовать интерфейсы, исключения и подробное документирование с трассировкой в `ude/interfaces.py`.
-3. **Запуск и валидация (TDD Refactor Phase)**:
-   * Запустить команду проверки:
+## 🧪 Part 2: Verification & TDD Scenarios
+1. **TDD Red Phase**:
+   * Write unit test `tests/test_interfaces.py`.
+   * Assert:
+     1. Attempting to directly instantiate `BaseParser()` or `BaseRenderer()` raises a `TypeError`.
+     2. A concrete subclass of `BaseParser` that fails to implement `.parse()` raises a `TypeError` during instantiation.
+     3. Reflection assertions verifying that the abstract classes and methods contain `Satisfies` tracing tags in their `__doc__` properties.
+   * Verify tests fail.
+2. **TDD Green Phase**:
+   * Implement the base interfaces, exception classes, and complete traceability metadata inside `ude/interfaces.py`.
+3. **TDD Refactor Phase**:
+   * Run verification command:
      ```bash
      poetry run pytest tests/test_interfaces.py
      ```
-   * **Ожидаемый успешный результат**: зеленые тесты подтверждают стабильность модульной архитектуры, полную трассируемость кода и запрет на создание недоопределенных модулей.
+   * **Expected Success Result**: All tests pass, proving structural layout safety, trace alignment, and type contract restrictions.
 
-## 👥 Часть 3: Инструкция по приемке пользователем (User Acceptance Scenario)
-После завершения шагов 1 (разработка кода) и 2 (проверка тестами) со стороны ИИ, вам необходимо выполнить финальную приемку задачи:
+## 👥 Part 3: User Acceptance Scenario
+After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
 
-1. **Запуск автоматических тестов для ручной проверки**:
-   Выполните в терминале команду:
+1. **Run automated tests for manual validation**:
+   Execute in your terminal:
    ```bash
    cd engine
-poetry run pytest tests/test_interfaces.py
+   poetry run pytest tests/test_interfaces.py
    ```
-   *Ожидаемый результат:* pytest подтверждает, что попытки прямого инстанцирования абстрактных классов или неполной реализации интерфейсов пресекаются Python.
+   *Expected Result:* pytest verifies that attempts to directly instantiate abstract classes or incomplete subclasses are prevented.
 
-2. **Проверка ключевых критериев выполнения задачи**:
-   * [ ] Проверить в `ude/interfaces.py` наличие абстрактных классов `BaseParser`, `BaseRenderer` и интерфейса коллектора, использующих `abc.ABC`.
-   * [ ] Проверить наличие кастомных исключений: `UdeException`, `ParserError`, `RendererError`.
-   * [ ] Проверить наличие структурированных docstring-комментариев с обязательной трассировкой к ID требований (например, `Satisfies REQ-FUN-02`).
+2. **Verify key task requirements**:
+   * [ ] Verify abstract classes `BaseParser` and `BaseRenderer` exist inside `ude/interfaces.py` using `abc.ABC` structures.
+   * [ ] Verify custom exceptions `UdeException`, `ParserError`, and `RendererError` are declared.
+   * [ ] Verify that all interfaces feature docstrings explicitly traced to requirement IDs (e.g., `Satisfies REQ-FUN-02`).
 
-3. **Проверка портативности путей**:
-   * [ ] Убедиться, что в кодовой базе отсутствуют захардкоженные абсолютные пути, привязанные к локальному окружению разработчика (все пути должны разрешаться динамически).
+3. **Verify path portability**:
+   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
 
-4. **Обновление реестра соответствия**:
-   * [ ] Проверить, что статус задачи в файле реестра `design-docs/docs/srs/task_compliance.md` переведен в актуальное состояние и зафиксирован процент покрытия тестами.
+4. **Update compliance registry**:
+   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.

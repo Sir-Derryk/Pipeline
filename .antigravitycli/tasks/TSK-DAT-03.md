@@ -1,47 +1,47 @@
-# Задача: TSK-DAT-03 — Двухуровневое инкрементальное кэширование (.build_cache.json.gz)
+# Task: TSK-DAT-03 — Two-Level Incremental Build Cache Manager (.build_cache.json.gz)
 
-## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
-1. **Цель**: Оптимизировать локальную разработку и сборки в CI/CD, избегая повторного парсинга XML и перезаписи неизменившихся файлов на диск.
-2. **Шаги реализации**:
-   * В `ude/storage.py` реализовать класс `BuildCacheManager`, сохраняющий кэш в сжатом gzip-файле `.build_cache.json.gz` внутри директории SDK.
-   * **Уровень 1 (Парсинговый кэш)**:
-     * Сохранять для каждого обрабатываемого XML-файла его путь, дату модификации (`mtime`) и хэш SHA-256, а также сериализованные сущности IR.
-     * При повторном парсинге, если файл не изменился, загружать сущности из кэша.
-   * **Уровень 2 (Рендеринговый кэш)**:
-     * Сохранять для каждого генерируемого файла хэш сигнатуры сущности IR + хэш используемого шаблона Jinja2.
-     * При рендеринге, если хэш совпадает и целевой файл физически существует на диске, **пропускать физическую запись на диск**, чтобы не перегружать I/O и не вызывать лишних пересборок в Hugo.
+## 📌 Part 1: Implementation Guide
+1. **Goal**: Optimize local builds and CI/CD compiler speeds by introducing a two-level cache to skip parsing unchanged XML files and writing unchanged Markdown/HTML outputs to disk (`REQ-FUN-26`, `REQ-FUN-27`).
+2. **Implementation Steps**:
+   * Create `BuildCacheManager` inside `ude/storage.py`, persisting cache states as compressed archives named `.build_cache.json.gz` inside targeted product directories.
+   * **Level 1 (Parsing Cache)**:
+     * Record for each ingested XML source file its path, modification timestamp (`mtime`), file size, content SHA-256 hash, and serialized IR output.
+     * During parsing, if the file's metadata and hash match the cache, load the entities directly from the cache, skipping XML processing.
+   * **Level 2 (Rendering Cache)**:
+     * Record for each target output file the hash of its corresponding IR entity signature combined with the SHA-256 hash of the Jinja2 template utilized.
+     * During rendering, if hashes align and the target file physically exists on disk, **skip the disk write operation**. This reduces disk I/O and prevents trigger cascades in Hugo/Docusaurus.
 
-## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
-1. **Тестовый сценарий (TDD Red Phase)**:
-   * Написать `tests/test_caching.py`.
-   * Подать на вход тестовый XML, запустить парсинг/рендер дважды и убедиться, что при втором запуске количество операций чтения XML и записи файлов равно нулю. Тесты должны упасть.
-2. **Реализация (TDD Green Phase)**:
-   * Реализовать логику `BuildCacheManager` и интегрировать её проверки в парсер и рендерер.
-3. **Запуск и валидация (TDD Refactor Phase)**:
-   * Запустить проверку:
+## 🧪 Part 2: Verification & TDD Scenarios
+1. **TDD Red Phase**:
+   * Write unit test `tests/test_caching.py`.
+   * Feed a sample XML file, execute parsing/rendering twice, and assert that the second run results in zero XML parsing operations and zero disk writes. Verify tests fail since the caching system is unintegrated.
+2. **TDD Green Phase**:
+   * Implement `BuildCacheManager` and integrate its checks inside the parser and renderer pipelines.
+3. **TDD Refactor Phase**:
+   * Run verification command:
      ```bash
      poetry run pytest tests/test_caching.py
      ```
-   * **Ожидаемый успешный результат**: зеленый статус, кэш корректно сохраняется в gzip, повторные сборки выполняются мгновенно без дисковых операций для неизменившихся файлов.
+   * **Expected Success Result**: Test suite is green, proving the caching manager accurately bypasses redundant processing and writes.
 
-## 👥 Часть 3: Инструкция по приемке пользователем (User Acceptance Scenario)
-После завершения шагов 1 (разработка кода) и 2 (проверка тестами) со стороны ИИ, вам необходимо выполнить финальную приемку задачи:
+## 👥 Part 3: User Acceptance Scenario
+After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
 
-1. **Запуск автоматических тестов для ручной проверки**:
-   Выполните в терминале команду:
+1. **Run automated tests for manual validation**:
+   Execute in your terminal:
    ```bash
    cd engine
-poetry run pytest tests/test_caching.py
+   poetry run pytest tests/test_caching.py
    ```
-   *Ожидаемый результат:* Тестовый сценарий успешно подтверждает отсутствие лишних I/O вызовов на повторных шагах (инкрементальность).
+   *Expected Result:* Tests pass successfully, verifying that unchanged inputs bypass disk writing routines (incrementalism).
 
-2. **Проверка ключевых критериев выполнения задачи**:
-   * [ ] Проверить наличие класса `BuildCacheManager` в `ude/storage.py`.
-   * [ ] Проверить, что повторный запуск парсинга и рендеринга без изменений исходных файлов не вызывает обращений к XML-парсеру и записи на диск.
-   * [ ] Убедиться, что файлы кэша сохраняются в файл `.build_cache.json.gz` внутри целевой папки.
+2. **Verify key task requirements**:
+   * [ ] Verify the presence of class `BuildCacheManager` in `ude/storage.py`.
+   * [ ] Verify that secondary parsing and rendering of unchanged sources perform zero physical file writes or XML parses.
+   * [ ] Verify that cache databases are written as `.build_cache.json.gz` inside product target directories.
 
-3. **Проверка портативности путей**:
-   * [ ] Убедиться, что в кодовой базе отсутствуют захардкоженные абсолютные пути, привязанные к локальному окружению разработчика (все пути должны разрешаться динамически).
+3. **Verify path portability**:
+   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
 
-4. **Обновление реестра соответствия**:
-   * [ ] Проверить, что статус задачи в файле реестра `design-docs/docs/srs/task_compliance.md` переведен в актуальное состояние и зафиксирован процент покрытия тестами.
+4. **Update compliance registry**:
+   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.

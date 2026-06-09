@@ -1,50 +1,44 @@
-# Задача: TSK-CLI-02 — Сквозной интеграционный тест и Покрытие тестами >= 90%
+# Task: TSK-CLI-02 — E2E Integration and Coverage Verification (>= 90%)
 
-## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
-1. **Цель**: Написать комплексный сквозной (E2E) интеграционный тест работы компилятора и довести суммарное покрытие кодовой базы юнит-тестами до уровня не менее 90% (`REQ-NFN-03`).
-2. **Шаги реализации**:
-   * Создать файл интеграционного теста `tests/test_integration_pipeline.py`.
-   * Настроить сквозной сценарий:
-     1. Запуск парсера по реальной тестовой папке Doxygen XML.
-     2. Компиляция и сохранение сжатого IR-файла кэша `.json.gz`.
-     3. Загрузка файла кэша, запуск рендеринга в форматы Markdown и HTML.
-     4. Проверка существования и структуры выходных файлов на диске.
-   * Выполнить рефакторинг кода и добавить недостающие тесты для покрытия редких ветвей условий и обработки ошибок, пока отчет pytest-cov не покажет `>= 90%` суммарно.
+## 📌 Part 1: Implementation Guide
+1. **Goal**: Implement complete end-to-end integration tests to assert data flow and maintain codebase test statement coverage strictly `>= 90%` (`REQ-NFN-03`).
+2. **Implementation Steps**:
+   * Create `tests/test_integration_pipeline.py`.
+   * Design E2E pipeline scripts:
+     * Ingest sample source codes, coordinate the process collector, execute parsing, normalizations, and render target Markdown/HTML pages.
+     * Verify that output files exist, feature accurate links, and have correct data parameters.
+     * Expand the test suite until statement coverage verified by `pytest-cov` is `>= 90%`.
 
-## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
-1. **Тестовый сценарий (TDD Red Phase)**:
-   * Написать `tests/test_integration_pipeline.py`.
-   * Запустить проверку покрытия:
+## 🧪 Part 2: Verification & TDD Scenarios
+1. **TDD Red Phase**:
+   * Write E2E pipeline test structure. Assert coverage levels.
+   * Run checks and verify test failure (due to incomplete code coverage).
+2. **TDD Green Phase**:
+   * Write complete tests verifying edge cases, error handlers, and pipeline variations.
+3. **TDD Refactor Phase**:
+   * Run verification command:
      ```bash
      poetry run pytest --cov=ude tests/
      ```
-   * Убедиться, что тесты падают или показывают недостаточное покрытие (менее 90%).
-2. **Реализация (TDD Green Phase)**:
-   * Написать недостающие тесты, исправить мелкие баги в обработке ошибок, оптимизировать импорты.
-3. **Запуск и валидация (TDD Refactor Phase)**:
-   * Запустить команду финальной проверки:
-     ```bash
-     poetry run pytest --cov=ude --cov-fail-under=90 tests/
-     ```
-   * **Ожидаемый успешный результат**: все тесты зеленые, общий процент покрытия кодовой базы строго **не менее `90%`**.
+   * **Expected Success Result**: Test suite is green, and coverage report confirms statement coverage `>= 90%`.
 
-## 👥 Часть 3: Инструкция по приемке пользователем (User Acceptance Scenario)
-После завершения шагов 1 (разработка кода) и 2 (проверка тестами) со стороны ИИ, вам необходимо выполнить финальную приемку задачи:
+## 👥 Part 3: User Acceptance Scenario
+After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
 
-1. **Запуск автоматических тестов для ручной проверки**:
-   Выполните в терминале команду:
+1. **Run automated tests for manual validation**:
+   Execute in your terminal:
    ```bash
    cd engine
-poetry run pytest --cov=ude tests/
+   poetry run pytest --cov=ude tests/
    ```
-   *Ожидаемый результат:* Сквозные тесты успешно отрабатывают, а суммарный процент покрытия в терминале выводится в значении >= 90%.
+   *Expected Result:* All E2E scenarios pass successfully, and total statement coverage is `>= 90%`.
 
-2. **Проверка ключевых критериев выполнения задачи**:
-   * [ ] Убедиться в наличии сквозного интеграционного сценария `tests/test_integration_pipeline.py`, запускающего весь конвейер сборки.
-   * [ ] Проверить, что общее покрытие кода тестами в директории `ude/` достигает или превышает жесткий лимит **`90%`**.
+2. **Verify key task requirements**:
+   * [ ] Verify integration test file `tests/test_integration_pipeline.py`.
+   * [ ] Verify that statement coverage is `>= 90%`.
 
-3. **Проверка портативности путей**:
-   * [ ] Убедиться, что в кодовой базе отсутствуют захардкоженные абсолютные пути, привязанные к локальному окружению разработчика (все пути должны разрешаться динамически).
+3. **Verify path portability**:
+   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
 
-4. **Обновление реестра соответствия**:
-   * [ ] Проверить, что статус задачи в файле реестра `design-docs/docs/srs/task_compliance.md` переведен в актуальное состояние и зафиксирован процент покрытия тестами.
+4. **Update compliance registry**:
+   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.

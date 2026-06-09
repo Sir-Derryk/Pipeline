@@ -1,68 +1,68 @@
-# Задача: TSK-PAR-02 — Парсер Doxygen XML (C++, C#, Java, Python)
+# Task: TSK-PAR-02 — Doxygen XML Parser Engine (C++, C#, Java, Python)
 
-## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
-1. **Цель**: Реализовать парсер выгрузки Doxygen XML с поддержкой четырех языков программирования, трансляцией структуры в объект IR и автоматической фильтрацией служебной SWIG-обвязки и экспортных макросов.
-2. **Шаги реализации**:
-   * Создать файл `ude/parsers/doxygen.py`, унаследовав класс `DoxygenXmlParser` от `BaseParser`.
-   * **Требование к документированию и трассировке (Traceability)**: Класс `DoxygenXmlParser` и все его ключевые внутренние методы парсинга обязаны содержать структурированные docstring-блоки со строками трассировки требований в формате:
+## 📌 Part 1: Implementation Guide
+1. **Goal**: Implement the parser engine to read Doxygen XML outputs for C++, C#, Java, and Python, mapping entities into Intermediate Representation (IR) structures while filtering SWIG bindings and compiler export macros.
+2. **Implementation Steps**:
+   * Create `ude/parsers/doxygen.py`, subclassing `DoxygenXmlParser` from `BaseParser`.
+   * **Traceability and Documenting Requirement**: Define explicit structured docstrings across `DoxygenXmlParser` and all inner parsing routines using the traceback pattern:
      ```python
      """
-     ...описание назначения...
+     ...behavior details...
 
      Satisfies REQ-FUN-02, REQ-FUN-19, REQ-FUN-20
      """
      ```
-   * Реализовать логику:
-     * Чтение корневого файла `index.xml` для поиска всех связующих файлов (`class`, `namespace` и др.).
-     * Рекурсивный парсинг XML-файлов сущностей (с использованием `lxml` или `xml.etree`).
-     * Извлечение пространств имен, классов, методов (включая параметры, типы, возвращаемое значение и области видимости).
-     * **Поддержка специфики реального C++**:
-       * Парсинг вложенных пространств имен и классов с разделителями `::` (двойное двоеточие) с корректным воссозданием иерархии в `ProjectCatalog`.
-       * Выделение конструкторов и деструкторов (начинающихся с `~`) — они не должны приводить к ошибкам из-за отсутствия возвращаемого типа.
-       * Парсинг псевдонимов типов (`typedef` / `type alias`).
-       * Идентификация шаблонов (с угловыми скобками `< >`) в названиях классов и структур (например, `NwExchangeTraits< NwExchangeType::kNw2Ifc >`), чтобы в последующих рендерерах символы `<` и `>` экранировались для корректного отображения на портале.
-       * Автоматическое отсечение компиляторных экспортных макросов (например, `NWDBEXPORT`, `MAPEXPORT`).
-       * Опциональная фильтрация низкоуровневой служебной обвязки SWIG (поля `swigCPtr`, `swigCMemOwn`, методы `Dispose()`, `getCPtr()` и др.) при выставленном флаге `exclude_swig_internals` в `ude_config.json`.
-     * Конвертация данных в типизированную схему `ProjectCatalog`.
+   * Implement parsing logic:
+     * Ingest the main catalog manifest `index.xml` to locate all nested compound files (`class`, `struct`, `namespace`, etc.).
+     * Recursively parse XML definitions utilizing `lxml` or standard `xml.etree`.
+     * Extract packages/namespaces, classes/interfaces, methods (parameters, return types, visibilities), and docstrings.
+     * **Support specific structural characteristics**:
+       * Reconstruct nested namespaces and nested classes utilizing double colon separators `::` (e.g. C++ layout) inside the `ProjectCatalog`.
+       * Correctly extract constructors and destructors (e.g., starting with `~`), ensuring no errors occur due to missing return values.
+       * Resolve type aliases and `typedef` scopes.
+       * Detect templates containing angle brackets `< >` in entity names (e.g. `Traits<Type::Value>`), ensuring subsequent renderers escape these characters to prevent compilation issues.
+       * Automatically filter out compiler-specific export macros (e.g. `NWDBEXPORT`, `MAPEXPORT`).
+       * Strip SWIG-specific wrapper members and fields (`swigCPtr`, `swigCMemOwn`, `Dispose()`, `getCPtr()`, etc.) if `exclude_swig_internals` is enabled in `ude_config.json`.
+     * Map all validated attributes to a typed `ProjectCatalog` container.
 
-## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
-1. **Тестовый сценарий (TDD Red Phase)**:
-   * Написать `tests/test_doxygen_parser.py`.
-   * Подать на вход парсеру подготовленные XML-ассеты C++, C#, Java и Python, включая новые ассеты с SWIG и макросами из `TSK-INF-02` (`class_with_macros.xml`, `class_swig_wrapper.xml`).
-   * Написать ассерты, проверяющие:
-     * Извлечение классов с правильным `fully_qualified_name` и пространствами имен.
-     * Корректную типизацию аргументов и возвращаемых типов для каждого языка.
-     * Корректное отсечение макросов экспорта в `class_with_macros.xml` (`REQ-FUN-19`).
-     * Корректную фильтрацию SWIG-оберточных полей и методов в `class_swig_wrapper.xml` при активированном флаге фильтрации SWIG в конфигурации (`REQ-FUN-20`).
-     * Наличие docstrings и строк `Satisfies` в классах/методах парсера через интроспекцию `__doc__`.
-   * Тесты должны упасть (так как парсера нет или он пустой).
-2. **Реализация (TDD Green Phase)**:
-   * Реализовать парсер в `ude/parsers/doxygen.py`, аккуратно проходясь по тегам `<compounddef>` и `<memberdef>`.
-3. **Запуск и валидация (TDD Refactor Phase)**:
-   * Запустить команду проверки:
+## 🧪 Part 2: Verification & TDD Scenarios
+1. **TDD Red Phase**:
+   * Write unit test `tests/test_doxygen_parser.py`.
+   * Feed parser with sample XML assets for C++, C#, Java, and Python, including custom macro and SWIG wrappers from `TSK-INF-02` (`class_with_macros.xml`, `class_swig_wrapper.xml`).
+   * Write assertions to verify:
+     * Accurate resolution of nested class trees and fully qualified names.
+     * Type assertions for method signatures and variable declarations.
+     * Export macros are stripped from the resulting entities (`REQ-FUN-19`).
+     * SWIG internals are filtered out when the configuration option is set (`REQ-FUN-20`).
+     * Reflection tests check for docstring traceability containing `Satisfies` lines.
+   * Verify test failure.
+2. **TDD Green Phase**:
+   * Implement parsing logic in `doxygen.py`, mapping XML elements `<compounddef>` and `<memberdef>` into Pydantic models.
+3. **TDD Refactor Phase**:
+   * Run verification command:
      ```bash
      poetry run pytest tests/test_doxygen_parser.py
      ```
-   * **Ожидаемый успешный результат**: зеленый статус, парсер корректно маппит XML в структуры IR Pydantic с полным покрытием требований фильтрации SWIG/макросов и соблюдением стандартов документирования.
+   * **Expected Success Result**: Tests pass, verifying correct extraction of structural XML elements into typed IR catalogs with exact macro/SWIG filtration.
 
-## 👥 Часть 3: Инструкция по приемке пользователем (User Acceptance Scenario)
-После завершения шагов 1 (разработка кода) и 2 (проверка тестами) со стороны ИИ, вам необходимо выполнить финальную приемку задачи:
+## 👥 Part 3: User Acceptance Scenario
+After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
 
-1. **Запуск автоматических тестов для ручной проверки**:
-   Выполните в терминале команду:
+1. **Run automated tests for manual validation**:
+   Execute in your terminal:
    ```bash
    cd engine
-poetry run pytest tests/test_doxygen_parser.py
+   poetry run pytest tests/test_doxygen_parser.py
    ```
-   *Ожидаемый результат:* Все тесты проходят (зеленый статус), подтверждая корректность парсинга структуры классов и методов для всех целевых языков.
+   *Expected Result:* All assertions pass, confirming accurate structural parsing across target programming languages.
 
-2. **Проверка ключевых критериев выполнения задачи**:
-   * [ ] Проверить в `ude/parsers/doxygen.py` класс `DoxygenXmlParser`, наследующий от `BaseParser`.
-   * [ ] Проверить корректность парсинга классов, методов, областей видимости и параметров из Doxygen-вывода.
-   * [ ] Убедиться, что внутренние SWIG-методы отсеиваются, а экспортируемые макросы компилятора (`NWDBEXPORT` и др.) корректно вырезаются.
+2. **Verify key task requirements**:
+   * [ ] Verify that `DoxygenXmlParser` inside `ude/parsers/doxygen.py` successfully inherits from `BaseParser`.
+   * [ ] Verify template angle bracket extraction and compiler export macro filtration.
+   * [ ] Verify SWIG-specific members are removed from catalogs when configured.
 
-3. **Проверка портативности путей**:
-   * [ ] Убедиться, что в кодовой базе отсутствуют захардкоженные абсолютные пути, привязанные к локальному окружению разработчика (все пути должны разрешаться динамически).
+3. **Verify path portability**:
+   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
 
-4. **Обновление реестра соответствия**:
-   * [ ] Проверить, что статус задачи в файле реестра `design-docs/docs/srs/task_compliance.md` переведен в актуальное состояние и зафиксирован процент покрытия тестами.
+4. **Update compliance registry**:
+   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.

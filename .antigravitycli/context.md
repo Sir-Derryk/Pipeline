@@ -1,83 +1,80 @@
-# Universal Documentation Engine (UDE) — Контекст Проекта
+# Universal Documentation Engine (UDE) — Project Context
 
-## 🎯 Суть проекта
-Универсальное ПО для генерации документации. Принимает исходный код (через выгрузку Doxygen XML), парсит его структуру и комментарии, преобразует в промежуточное представление (IR) и генерирует Markdown для SSG, HTML-страницы или структурированный JSON/XML.
+## 🎯 Project Core
+An extensible, pipeline-based software tool for technical documentation generation. It ingests source code metrics and layouts (via exported Doxygen XML), parses its structure and comments, maps them into an internal, language-agnostic Intermediate Representation (IR), and renders them into static website content (Markdown for Hugo/Docusaurus), standalone offline HTML pages, or structured data (RAG JSON/XML).
 
-## 🛠️ Технологический стек
-- **Язык разработки**: Python
-- **Стиль кодирования**: PEP 8 (стандарты из `.antigravitycli/styles/code_style.md`)
-- **Ключевые библиотеки**: `lxml` / `xml.etree` (XML-парсер), `Jinja2` (шаблонизатор)
-- **Ввод**: Doxygen XML
-- **Тестирование**: pytest (стандарты из `testing_style.md`)
+## 🛠️ Technology Stack
+- **Implementation Language**: Python
+- **Coding Style**: PEP 8 (standards defined in `.antigravitycli/styles/code_style.md`)
+- **Key Dependencies**: `lxml` / `xml.etree` (XML Parsing), `Jinja2` (Templating Engine)
+- **Primary Source Input**: Doxygen XML
+- **Testing Framework**: pytest (standards defined in `testing_style.md`)
 
-## 📐 Архитектура репозиториев и пайплайнов
-Проект организован как «зонтичный» репозиторий со связанными через **Git Submodules** подмодулями:
+## 📐 Repository and Pipeline Architecture
+The project is structured as an "umbrella" repository linking specialized Git Submodules:
 
 ```text
-Pipeline/ (Зонтичный репозиторий)
+Pipeline/ (Umbrella Repository)
 ├── design-docs/            # [Git Submodule] https://github.com/Sir-Derryk/ude-design-docs.git
-│                           # Пайплайн №1: Проектная база знаний (BRD, SRS, SDD) -> Docusaurus (с полной поддержкой версионирования проектных спецификаций)
+│                           # Pipeline #1: Project Knowledge Base (BRD, SRS, SDD) -> Docusaurus (fully versioned)
 ├── engine/                 # [Git Submodule] https://github.com/Sir-Derryk/universal-document-engine.git
-│                           # Код Universal Documentation Engine (Python; без внутреннего версионирования сгенерированных API-документов)
+│                           # Core UDE Source Code (Python; no internal Git-versioning of compiled API reference docs)
 └── user-docs/              # [Git Submodule] https://github.com/Sir-Derryk/ude-user-docs.git
-                            # Эксплуатационная документация и Портал (VitePress — премиальный дизайн)
+                            # User/Admin Guides and Portal (VitePress — premium layout and design)
 ```
 
-### Пайплайны документации и триггеры:
-1. **Пайплайн №1 (Проектный)**: 
-   - *Триггер*: коммиты в подмодуль `design-docs/**` (или изменения в `.antigravitycli/**`).
-   - *Результат*: Сборка проектной базы знаний в **Docusaurus** (изолированный поиск по спецификациям, полная поддержка версионирования архитектуры).
-2. **Пайплайн №2 (Эксплуатационный)**: 
-   - *Триггер*: коммиты в подмодуль `user-docs/content/**` (User/Admin Guides).
-   - *Результат*: Сборка статических руководств в **VitePress** (премиальный дизайн, мгновенная SPA-навигация).
-3. **Пайплайн №3 (API Reference)**: 
-   - *Триггер*: коммиты в исходный код ПО (`engine/**`).
-   - *Результат*: Компиляция API Reference (запуск UDE по исходному коду или XML -> прямая генерация статических Markdown/HTML/RAG JSON/XML без промежуточного версионирования в Git). Оптимально для высокой скорости работы и исключения «шума» в pull-requests.
+### Documentation Pipelines and Triggers:
+1. **Pipeline #1 (Project Documentation)**: 
+   - *Trigger*: Commits in `design-docs/**` or updates under `.antigravitycli/**`.
+   - *Result*: Compiles the design knowledge base using **Docusaurus** (isolated search and full versioning of the architecture).
+2. **Pipeline #2 (User Documentation)**: 
+   - *Trigger*: Commits in `user-docs/content/**` (User/Admin Guides).
+   - *Result*: Compiles public manuals using **VitePress** (premium aesthetics, instant client-side SPA navigation).
+3. **Pipeline #3 (API Reference)**: 
+   - *Trigger*: Commits in core source code (`engine/**`).
+   - *Result*: Generates API Reference on-the-fly (runs UDE compiler over source code/XML to output static Markdown/HTML/RAG JSON directly, avoiding any Git history noise or PR bloat).
 
-## 📋 Статус разработки документов
-- [x] BRD (Business Requirements Document) — *Обновлен и завершен (добавлены C++/C#/Java/Python, расширенные входы XML/AST и выходы HTML/Markdown/RAG JSON, добавлены боли автоматизации и устаревания инструментов, версионирование перенесено только на проектную базу)*
-- [x] SRS (Software Requirements Specification) — *Обновлен и приведен в полное соответствие с новым BRD*
-- [x] SDD (Software Design Document) — *Обновлен и детализирован (добавлены контракты классов BaseParser/BaseRenderer, децентрализованная иерархическая конфигурация JSON и Doxygen-автоматизация)*
-- [ ] User Guide / API Reference / Admin Guide — *После реализации кода*
+## 📋 Document Development Status
+- [x] BRD (Business Requirements Document) — *Updated & Completed (covers C++/C#/Java/Python, expanded XML/AST inputs and HTML/Markdown/RAG JSON outputs, addresses automation pain points and EOL tools, moves versioning strictly to project-docs level)*
+- [x] SRS (Software Requirements Specification) — *Updated & Synchronized with the new BRD*
+- [x] SDD (Software Design Document) — *Updated & Detailed (adds BaseParser/BaseRenderer class contracts, decentralized hierarchical JSON configurations, and Doxygen automation)*
+- [ ] User Guide / API Reference / Admin Guide — *To be implemented post-codebase development*
 
-## ❓ Вопросы для проектирования и архитектуры (Лог решений и открытых вопросов)
+## ❓ Architectural Decisions & Open Issues (Decision Log)
 
-### ✅ Согласованные решения (Вопросы и Ответы):
-* **Вопрос 1 (Раздел 2.2 — Боли)**: Все 18 выбранных пользователем болей интегрированы и детально расписаны по 6 категориям (A-F) в BRD.
-* **Вопрос 2 (Раздел 1.2 — Бизнес-цели)**: Сформулированы и утверждены 7 измеримых метрик (производительность для 10 000 сущностей в 1 000 файлах, 100% чистый Git, авто-дополнение кода через ИИ с ручной проверкой, инкрементальный ИИ-перевод с кэшированием, RAG JSON, отчетность о сборке/стоимости токенов и аудит покрытия документацией).
-* **Вопрос 1.1 (Область парсинга на старте)**: В первой версии UDE ограничивается парсингом XML из Doxygen. Контур извлекаемой информации и сущностей IR полностью соответствует возможностям и структурам, предоставляемым Doxygen XML.
-* **Вопрос 1.2 (Перспективные парсеры)**: В последующих версиях система будет дополнена специализированными парсерами для каждого языка с использованием `libclang`, `tree-sitter`, нативных AST (например, модуль `ast` в Python) и регулярных выражений (`regexp`), что подтверждает необходимость строгой изоляции уровня парсинга через абстрактный `BaseParser`.
-* **Вопрос 2.1 (Синхронизация кэша перевода в Git) [ОТЛОЖЕНО - БУДУЩИЕ ФАЗЫ (v2.0+)]**: Конфликты слияния и гонки коммитов в CI/CD устраняются путем ролевого разграничения прав доступа. Для рядовых разработчиков (в feature-ветках) парсинг и перевод осуществляются в режиме *Read-Only* (чтение кэша из репозитория без отправки коммитов). Обновление и запись в кэш переводов Git допускаются исключительно из-под авторизованной учетной записи Менеджера по переводам (или специализированного бота) с использованием защищенных CI/CD секретов/токенов. Дополнительно файлы кэша защищаются через механизм Git `CODEOWNERS`. (Данный функционал отложен до будущих фаз).
-* **Вопрос 2.2 (Режимы серверного гейта и извлечение контекста)**: При пуше недокументированного кода серверный гейт UDE поддерживает 4 режима: блокировка пуша (`reject` — выполняется оркестратором в безопасном режиме Read-Only), предупреждение (`allow`), авто-комментирование в код (`auto-document`) и интерактивная верификация разработчиком (`verify-document`). Генерация и запись docstring выполняются отдельным специализированным инструментом `ude-enrich` (или подкомандой `ude document`), что гарантирует безопасность кодовой базы и предотвращает случайные изменения. Базовым языком кода и docstring всегда является английский. Для максимальной точности генерации ИИ получает не только сигнатуры (declarations), но и тела функций (definitions) для анализа логики и side-effects. Локальный запуск UDE разработчиком по умолчанию работает в автономном (offline) режиме без обращения к платным внешним API ИИ для защиты бюджета.
-* **Вопрос 2.3 (Асинхронная верификация и поддержка XLIFF) [ОТЛОЖЕНО - БУДУЩИЕ ФАЗЫ (v2.0+)]**: Верификация локализации менеджером асинхронна и не блокирует разработку. ИИ генерирует черновики (`draft`) в фоне, причем генерация перевода запускается строго после успешного слияния (merge) кода в ветку **`master`**, что исключает затраты на перевод временного или чернового кода из feature-веток. В продакшене до верификации используется fallback (оригинальный английский) или плашка «AI-translated draft». Менеджер по переводам может экспортировать оригинальный английский текст и черновики в формат XLIFF (`.xlf`), передавать их переводчикам и импортировать обратно, автоматически утверждая переводы (`verified`). (Данный функционал отложен до будущих фаз).
-* **Вопрос 3 (Конфигурация, локальная автоматизация, кэширование и портативность)**:
-  1. **Децентрализованная конфигурация и три уровня пайплайна**: Согласована децентрализованная структура конфигурации в папке `ude/`. Файл настроек движка `ude_global.json` задает системные пути, журналирование, кэш и отказоустойчивость `error_policy` (`fail-fast` или `continue-on-error`). Каждый продукт содержит `product.json` с метаданными документации, а каждый целевой API-проект (Target) содержит `ude_config.json`. В `ude_config.json` явно настраиваются все три уровня пайплайна: `collector` (тип `doxygen`), `parser` (тип `doxygen_xml`) и `renderer` (тип `hugo_markdown` или `html`).
-  2. **Doxygen-backend для всех языков и очистка**: В версии 1.0 Doxygen используется как унифицированный инструмент препроцессинга для всех четырех языков (C++, C#, Java, Python). Коллектор проводит валидацию окружения (`validate_environment` — проверяет наличие Python, Doxygen, конфигурационных файлов и исходников). Очистка временных файлов Doxygen в блоке `try...finally` обязательна и выполняется для всех языков.
-  3. **Пакетные скрипты и автоустановка зависимостей**: Для запуска локально и в CI/CD автоматизация вызовов выстроена на трех уровнях: `engine/generate_all.bat` (все проекты), файлы для каждого SDK (например, `engine/generate_<product>.bat`) и для конкретных проектов (например, `generate_docs.bat` или `ude/<product>/<target>/generate_docs.bat`). Все `.bat`-файлы проверяют наличие Python на хосте (при отсутствии выходят с кодом `5`) и проверяют/автоматически устанавливают отсутствующие библиотеки (`pydantic`, `lxml`, `jinja2`) через `pip install` перед запуском оркестратора.
-  4. **Изоляция целевых папок и сжатие IR**: Промежуточное представление (`intermediate_representation.json.gz`) и база кэширования (`.build_cache.json.gz`) строго сохраняются внутри выделенной папки SDK и языка `<sdk>_<lang>` (например, `ude/Bimnv/bimnv_cpp/`), исключая засорение выходной папки `output_dir` (которая содержит исключительно финальные файлы документации). Папка `<sdk>_<lang>` является потомком `ude/`, находится под контролем версий и содержит пакетный файл генерации документации, `ude_config.json` и `Doxyfile`. IR сжимается с помощью Gzip.
-  5. **Инкрементальный кэш сборки (Парсинг и Рендеринг)**:
-     - *Парсинг*: Кэш отслеживает хэши содержимого/метки времени исходных XML-файлов. Если файл не менялся, сущности загружаются из `.build_cache.json.gz`, минуя ресурсоемкий разбор XML.
-     - *Рендеринг*: Кэш сравнивает хэш сигнатуры сущности IR и хэш шаблона Jinja2 с предыдущим запуском. Если изменений нет и файл существует на диске, renderer пропускает запись файла, исключая лишний ввод-вывод и ускоряя инкрементальную сборку Hugo.
-  6. **Портативность путей (Без хардкода)**: Все пути к файлам и каталогам должны определяться исключительно в файлах настроек (`ude_global.json`, `ude_config.json` и т.д.), в коде движка UDE хардкодить пути запрещено. В настройках все пути указываются как относительные (относительно файла конфигурации), а оркестратор при запуске автоматически преобразует их в абсолютные, гарантируя полную переносимость между локальными машинами и серверами CI/CD.
+### ✅ Agreed Decisions (Q&A):
+* **Question 1 (Section 2.2 — Pain Points)**: All 18 user-selected pain points have been integrated and detailed across 6 core categories (A-F) in the BRD.
+* **Question 2 (Section 1.2 — Business Goals)**: Defined and approved 7 quantitative quality metrics (performance handling 10,000 entities across 1,000 files in under 5 seconds, 100% clean Git, AI-driven code completion with manual validation, incremental AI translation caching, RAG JSON exports, compilation token cost reporting, and documentation coverage auditing).
+* **Question 1.1 (Initial Parsing Scope)**: For version 1.0, UDE limits its scope to parsing raw XML structures produced by Doxygen. The boundaries of extracted entities in the IR completely match Doxygen XML schemas and capabilities.
+* **Question 1.2 (Future Direct Parsers)**: In subsequent releases, UDE will introduce specialized native code parsers utilizing `libclang`, `tree-sitter`, native ASTs (e.g., Python's `ast` module), or `regexp`, reinforcing the need for strict parsing level isolation via the abstract `BaseParser`.
+* **Question 2.1 (Translation Cache Synchronization in Git) [DEFERRED - FUTURE PHASES (v2.0+)]**: Merge conflicts and pipeline race conditions in CI/CD are resolved using role-based access control. Standard developers (in feature branches) run parsing and translation in *Read-Only* mode (reading from the repository cache without writing back). Cache updates are performed strictly inside a protected CI/CD environment or by a dedicated Translation Manager account utilizing repository secrets and protected Git `CODEOWNERS` configurations. (This feature is deferred to future releases).
+* **Question 2.2 (Server-Side Push Gating and Context Extraction)**: During commits of undocumented code, the UDE gate supports 4 execution modes: `reject-undocumented` (strictly blocks merges via standard read-only verification), `allow-undocumented` (prints warnings but allows merge), `auto-document` (invokes write-enabled `ude-enrich` to generate English docstrings and write them back), and `verify-document` (generates non-blocking draft PR suggestions for review). The default language for all docstrings is English. To ensure accurate docstrings, the LLM receives function declarations and bodies. Local developer runs operate in offline mode by default to protect API budgets.
+* **Question 2.3 (Asynchronous Localization and XLIFF Support) [DEFERRED - FUTURE PHASES (v2.0+)]**: Localization verification is non-blocking. Draft AI translations are generated in the background strictly after a successful merge into `master`, preventing translation cost overhead for short-lived feature branches. Unverified pages display fallback English text or an "AI-translated draft" banner. Translation managers can export source text to `.xlf` format, send to translation partners, and import verified results. (This feature is deferred to future releases).
+* **Question 3 (Configuration, Local Automation, Caching, and Portability)**:
+  1. **Decentralized Config and Three-Level Pipelines**: Agreed on a decentralized structure under `ude/`. System configurations are defined in `ude_global.json` (logging, caching, fallback policies). Products contain `product.json` (metadata). Targets contain `ude_config.json` defining individual `collector`, `parser`, and `renderer` options.
+  2. **Doxygen-Backend and Resource Management**: Doxygen acts as the preprocessor for all languages in v1.0. The collector validates the environment (`validate_environment`) and executes a guaranteed clean-up routine under `try...finally` using strict guard rails (preventing deletion of `/`, `.`, or `..`).
+  3. **Batch Automation and Preflight Checks**: Three levels of batch files are used: `engine/generate_all.bat`, `engine/generate_<product>.bat`, and target-specific `generate_docs.bat` files. They verify Python on the host (exiting with code 5 if missing) and auto-install missing packages (`pydantic`, `lxml`, `jinja2`) via `pip install` before executing the orchestrator.
+  4. **Target Isolation and IR Compression**: Intermediate representation (`intermediate_representation.json.gz`) and cache databases (`.build_cache.json.gz`) are isolated inside product-specific subfolders (e.g., `ude/Bimnv/bimnv_cpp/`), keeping the output folder `output_dir` clean. IR files are compressed using Gzip.
+  5. **Two-Level Incremental Build Cache**:
+     - *Parsing (L1)*: Tracks mtime and contents hash of XML files. If unchanged, loads cached IR directly.
+     - *Rendering (L2)*: Compares IR signature hash and Jinja2 templates. If unchanged, skips writing target files.
+  6. **Path Portability**: Raw paths must not be hardcoded in Python modules. All configurations specify paths relative to their respective configuration files, and the orchestrator dynamically resolves them to absolute paths during execution.
 
+### ⏳ Open Issues (Awaiting Discussion):
+* **Question 5.1 (Single Sign-On (SSO) for Documentation Portals)**: Resolving SSO routing for static sites (Docusaurus and VitePress) hosted on GitHub Pages. Discussion deferred on custom domain routing via Cloudflare Zero Trust Access with OIDC/OAuth providers.
 
-
-### ⏳ Открытые вопросы (Ожидают обсуждения):
-* **Вопрос 5.1 (Единая авторизация SSO на порталах документации)**: Каким образом должна быть реализована единая авторизация SSO для статических сайтов Docusaurus (проектная база), Hugo/VitePress (руководства пользователя) при хостинге на GitHub Pages? Отложено обсуждение авторизации по Сценарию 2 (маршрутизация кастомного домена через Cloudflare Zero Trust Access с OIDC/OAuth провайдером без поддержки серверного бэкенда на хостинге).
-
-## 🗺️ Текущий шаг
-- [x] Разделение спецификаций на древовидную структуру.
-- [x] Добавление раздела планирования релизов (Roadmap) с версионированием 0.1 (Requirements).
-- [x] Настройка выпадающего списка выбора версий в навигационной панели (docsVersionDropdown).
-- [x] Исправление legacy синтаксиса admonitions в 11 файлах.
-- [x] Разработка контрактов компонентов (BaseParser, BaseRenderer, Exception hierarchy) и CLI-интерфейса.
-- [x] Верификация сборки Docusaurus локально (успешно).
-- [x] Создание структуры децентрализованной конфигурации UDE в папке `ude/` для всех целевых языков и проектов (BimNv, FacetModeler, IGES, Map).
-- [x] Полное исключение файлов `toc.yaml` из требований (SRS/SDD) и структуры папки `ude/`.
-- [x] Обновление отчета о качестве требований (`quality_audit.md`) по стандарту 10-балльной системы оценки.
-- [x] Анализ, актуализация и расширение списка задач в `.antigravitycli/tasks/` (добавлены коллекторы, кэш и оркестратор).
-- [x] Интеграция рекомендаций по дальнейшему развитию проекта и аудиту требований в спецификации задач.
-- [x] Пересмотр и актуализация дорожной карты выполнения работ (schedule.md и active_plan.md) в соответствии с изменениями в задачах.
-- [x] Сохранение версии спецификации 0.2 (TDD-планирование) и перевод проекта на версию 0.3 («Разработка прототипа»).
-- [ ] Подготовка окружения Python (виртуальное окружение, poetry/pip, pytest) для старта разработки ядра.
-
+## 🗺️ Current Roadmap & Status
+- [x] Hierarchical doc tree refactoring and clean layout division.
+- [x] Added Roadmap and Document Version History section starting with version 0.1 (Requirements).
+- [x] Configured Docusaurus version selector dropdown (`docsVersionDropdown`).
+- [x] Upgraded old legacy admonitions to modern syntax in 11 files.
+- [x] Designed core class contracts (`BaseParser`, `BaseRenderer`, exceptions, and CLI interfaces).
+- [x] Verified Docusaurus compilation integrity (compiled successfully).
+- [x] Set up decentralized target directory structure under `ude/` for BimNv, FacetModeler, IGES, and Map.
+- [x] Completely removed `toc.yaml` files from requirements and folder structures.
+- [x] Updated Requirements Quality Audit report using the 10-point scorecard.
+- [x] Expanded, verified, and detailed the developer TDD task specifications under `.antigravitycli/tasks/`.
+- [x] Integrated requirements audit recommendations into the task checklists.
+- [x] Aligned Gantt milestone schedules (`schedule.md` and `active_plan.md`) with task modifications.
+- [x] Freeze/save version 0.2 of specifications and transition current development focus to version 0.3 ("Prototype Development").
+- [ ] Prepare local Python development environment (virtual environment, poetry/pip, pytest) to begin core module coding.

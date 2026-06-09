@@ -1,104 +1,104 @@
-# План реализации MVP — Universal Documentation Engine (UDE)
+# MVP Implementation Plan — Universal Documentation Engine (UDE)
 
-Этот документ представляет собой пошаговый план разработки ядра **Universal Documentation Engine (UDE)**. План строго синхронизирован с физическими спецификациями задач в папке `.antigravitycli/tasks/` и проектной документацией.
+This document represents the step-by-step development roadmap for the core **Universal Documentation Engine (UDE)**. The plan is strictly synchronized with physical task specifications under `.antigravitycli/tasks/` and our project design documentation.
 
-Разработка ведётся по методологии **TDD (Test-Driven Development)**:
-1. **RED**: Пишем падающие тесты под интерфейс и требования.
-2. **GREEN**: Пишем минимальный рабочий код для прохождения тестов.
-3. **REFACTOR**: Рефакторим, чистим код, поддерживая покрытие тестов `>= 90%`.
+The development is conducted strictly following the **TDD (Test-Driven Development)** methodology:
+1. **RED**: Write failing tests for specified interfaces, requirements, and edge cases.
+2. **GREEN**: Implement the minimal, simplest functional code to satisfy and pass the tests.
+3. **REFACTOR**: Refactor and clean up code structures while ensuring code coverage remains `>= 90%`.
 
 ---
 
-## 🗓️ Еженедельный график реализации (5 недель)
+## 🗓️ Weekly Development Schedule (5 Weeks)
 
 ```mermaid
 gantt
-    title UDE MVP v1.0 Детальный график разработки
+    title UDE MVP v1.0 Detailed Implementation Timeline
     dateFormat  YYYY-MM-DD
-    section Неделя 1: База & Тесты
-    TSK-INF-01 (Окружение и Poetry)     :active, t1, 2026-06-08, 1d
-    TSK-INF-02 (Загрузчик мок-XML)       :active, t2, after t1, 1d
-    TSK-DAT-01 (Валидация Pydantic IR)   :active, t3, after t2, 2d
-    TSK-DAT-02 (Gzip хранилище IR)      :active, t4, after t3, 1d
-    TSK-DAT-03 (Двухуровневый кэш)       :active, t5, after t4, 2d
-    section Неделя 2: Парсинг и Сбор
-    TSK-PAR-01 (Интерфейсы ABC)          :t6, after t5, 2d
-    TSK-PAR-02 (Парсер Doxygen XML)      :t7, after t6, 3d
-    TSK-COL-01 (Коллектор Doxygen)       :t8, after t7, 2d
-    section Неделя 3: Нормализация
-    TSK-NML-01 (Комментарии CommonMark)  :t9, after t8, 4d
-    TSK-NML-02 (Фильтры исключений)      :t10, after t9, 3d
-    section Неделя 4: Рендеринг
+    section Week 1: Base & Storage
+    TSK-INF-01 (Env & Poetry Init)       :active, t1, 2026-06-08, 1d
+    TSK-INF-02 (Mock-XML Asset Loader)   :active, t2, after t1, 1d
+    TSK-DAT-01 (Pydantic IR Schema)      :active, t3, after t2, 2d
+    TSK-DAT-02 (Compressed Gzip Storage) :active, t4, after t3, 1d
+    TSK-DAT-03 (Two-Level Build Cache)   :active, t5, after t4, 2d
+    section Week 2: Parsing & Collection
+    TSK-PAR-01 (Abstract ABC Interfaces) :t6, after t5, 2d
+    TSK-PAR-02 (Doxygen XML Parser Core) :t7, after t6, 3d
+    TSK-COL-01 (Doxygen XML Collector)   :t8, after t7, 2d
+    section Week 3: Normalization & Filter
+    TSK-NML-01 (CommonMark Normalization):t9, after t8, 4d
+    TSK-NML-02 (Ignore Tags Filters)     :t10, after t9, 3d
+    section Week 4: Rendering Engines
     TSK-RND-01 (Jinja2 & Hugo Markdown)  :t11, after t10, 4d
-    TSK-RND-02 (Статический HTML)        :t12, after t11, 3d
-    section Неделя 5: CLI и Релиз
-    TSK-CLI-01 (Ядро CLI и коды)         :t13, after t12, 2d
-    TSK-CLI-03 (Мульти-таргет оркестр)   :t14, after t13, 2d
-    TSK-CLI-02 (Интеграция E2E и Покрытие):t15, after t14, 3d
+    TSK-RND-02 (Standalone Static HTML)  :t12, after t11, 3d
+    section Week 5: CLI & Orchestration
+    TSK-CLI-01 (Non-interactive CLI Core):t13, after t12, 2d
+    TSK-CLI-03 (Multi-Target Orchestration):t14, after t13, 2d
+    TSK-CLI-02 (E2E Integration & Coverage):t15, after t14, 3d
 ```
 
 ---
 
-## 🎯 Спецификация задач по этапам
+## 🎯 Task Specifications by Milestones
 
-### 📍 Неделя 1: Тестовое окружение и структуры хранения данных
-1. **`TSK-INF-01` (Инициализация Poetry и pytest)**
-   * *Цель*: Настройка окружения Python в подмодуле `engine/`, создание `pyproject.toml`, установка зависимостей (`pydantic>=2.0`, `jinja2`, `lxml`, `pytest`, `pytest-cov`, `black`).
-   * *Критерий успеха*: `pytest` успешно импортирует пустой модуль `ude` и проходит тест версии `__version__ = "0.1.0"`.
-2. **`TSK-INF-02` (Загрузчик мок-XML ассетов для тестов)**
-   * *Цель*: Создание класса `MockAssetLoader` в `tests/utils.py` и подготовка файлов `index.xml`, `class_definition.xml` для тестов.
-   * *Критерий успеха*: Тесты загружают тестовые XML как строки без хардкода путей.
-3. **`TSK-DAT-01` (Валидация схем Pydantic IR)**
-   * *Цель*: Разработка схем `ProjectCatalog`, `NamespaceEntity`, `ClassEntity`, `MethodEntity`, `ParameterField` в `ude/models.py`.
-   * *Критерий успеха*: Тесты верифицируют успешную валидацию валидных структур и корректные ошибки валидации для неверных типов.
-4. **`TSK-DAT-02` (Компрессия Gzip и прозрачный ввод-вывод)**
-   * *Цель*: Функции `save_compressed_ir` and `load_compressed_ir` в `ude/storage.py` для сериализации/десериализации Pydantic-моделей в `.json.gz`.
-   * *Критерий успеха*: Тесты записывают и читают сжатые файлы, гарантируя 100% бинарную идентичность восстановленных объектов.
-5. **`TSK-DAT-03` (Двухуровневый инкрементальный кэш сборки)**
-   * *Цель*: Разработка `BuildCacheManager`. Кэш парсинга (уровня 1) пропускает чтение неизмененных XML (проверка `mtime` и хэша), кэш рендеринга (уровня 2) пропускает физическую запись файлов, если сигнатуры сущностей и шаблоны не изменились.
-   * *Критерий успеха*: Повторный запуск сборки выполняется за 0 I/O операций перезаписи.
+### 📍 Week 1: Test Environment & Structured Persistence
+1. **`TSK-INF-01` (Poetry Init & pytest Harness)**
+   * *Goal*: Set up Python environment under the `engine/` submodule folder, create `pyproject.toml`, and install dependencies (`pydantic>=2.0`, `jinja2`, `lxml`, `pytest`, `pytest-cov`, `black`).
+   * *Success Criterion*: `pytest` successfully imports empty module `ude` and passes a basic version assert check (`__version__ == "0.1.0"`).
+2. **`TSK-INF-02` (Mock-XML Asset Loader for Unit Tests)**
+   * *Goal*: Create helper class `MockAssetLoader` in `tests/utils.py` and prepare test resources like `index.xml` and `class_definition.xml`.
+   * *Success Criterion*: Unit tests load target XML assets as strings dynamically without hardcoded filesytem paths.
+3. **`TSK-DAT-01` (Pydantic IR Schema Validation)**
+   * *Goal*: Implement schemas: `ProjectCatalog`, `NamespaceEntity`, `ClassEntity`, `MethodEntity`, `ParameterField` under `ude/models.py`.
+   * *Success Criterion*: Tests assert correct parsing of valid structures and proper validation errors for incorrect datatypes.
+4. **`TSK-DAT-02` (Gzip Compression & Transparent Stream I/O)**
+   * *Goal*: Develop `save_compressed_ir` and `load_compressed_ir` inside `ude/storage.py` to serialize/deserialize Pydantic models into Gzip-compressed `.json.gz` formats.
+   * *Success Criterion*: Tests verify that compressed binary files are read and written with 100% data integrity compared to their memory equivalents.
+5. **`TSK-DAT-03` (Two-Level Incremental Build Cache Manager)**
+   * *Goal*: Develop `BuildCacheManager`. L1 Parsing Cache skips processing unchanged XML files (validating file size/mtime and content checksums). L2 Rendering Cache skips writing final output documents if entity signatures and Jinja2 templates remain unaltered.
+   * *Success Criterion*: Sequential builds execute with zero redundant file write (I/O) operations.
 
-### 📍 Неделя 2: Абстрактные контракты и сбор Doxygen XML
-6. **`TSK-PAR-01` (Интерфейсы BaseParser и BaseRenderer)**
-   * *Цель*: Создание абстрактных классов (`BaseParser`, `BaseRenderer`) и иерархии исключений (`UdeException`, `ParserError`, `RendererError`) в `ude/interfaces.py`.
-   * *Критерий успеха*: Попытка инстанцировать интерфейсы напрямую падает с `TypeError`. Документированность классов через `Satisfies` строки трассировки.
-7. **`TSK-PAR-02` (Парсер Doxygen XML)**
-   * *Цель*: Класс `DoxygenXmlParser` в `ude/parsers/doxygen.py`. Извлекает структуру C++, C#, Java, Python. Корректно парсит пространства имен `::`, шаблоны `< >`, конструкторы/деструкторы `~`, отсекает экспортные макросы (например, `NWDBEXPORT`) и SWIG-поля (`swigCPtr`, `Dispose()`).
-   * *Критерий успеха*: Зеленый статус тестов, парсер преобразует сложные XML в валидный `ProjectCatalog`.
-8. **`TSK-COL-01` (Коллектор DoxygenXmlCollector)**
-   * *Цель*: Запуск Doxygen из Python подмодулем `subprocess.run`, динамическая генерация `Doxyfile` под язык, валидация окружения (`validate_environment`) и рекурсивная очистка временных папок (`cleanup`) с жёсткими guard clauses (исключения на удаление `/`, `.`, `..`).
-   * *Критерий успеха*: Doxygen отрабатывает, возвращает XML-файлы, временные папки удаляются без угроз системным файлам.
+### 📍 Week 2: Abstract Contracts & Doxygen XML Collection
+6. **`TSK-PAR-01` (Abstract Class Contracts BaseParser & BaseRenderer)**
+   * *Goal*: Set up interface definitions (`BaseParser`, `BaseRenderer`) and exception hierarchies (`UdeException`, `ParserError`, `RendererError`) under `ude/interfaces.py`.
+   * *Success Criterion*: Direct instantiation attempts of abstract interfaces raise `TypeError`. Classes are fully documented utilizing `Satisfies` tracing comments.
+7. **`TSK-PAR-02` (Doxygen XML Parsing Engine)**
+   * *Goal*: Build `DoxygenXmlParser` in `ude/parsers/doxygen.py` capable of analyzing structures from C++, C#, Java, and Python. Must parse nested namespaces `::`, templates `< >`, constructors `~`, filter export macros (e.g. `NWDBEXPORT`), and omit SWIG wrapper fields (`swigCPtr`, `Dispose()`).
+   * *Success Criterion*: Unit tests verify accurate extraction of complex class XML maps into a clean `ProjectCatalog`.
+8. **`TSK-COL-01` (Doxygen Process Collector)**
+   * *Goal*: Invoke Doxygen process via Python's `subprocess.run`, generate localized `Doxyfile` configurations dynamically, validate path environments (`validate_environment`), and recursively prune intermediate folders (`cleanup`) with strict guard rails (raising exceptions if attempting to delete `/`, `.`, or `..`).
+   * *Success Criterion*: Doxygen execution returns XML documents, and temporary files are fully cleaned up without security risks to other filesystem paths.
 
-### 📍 Неделя 3: Нормализация комментариев и обработка исключений
-9. **`TSK-NML-01` (Нормализатор комментариев в CommonMark)**
-   * *Цель*: Преобразование Javadoc `@param`/`@return` и Doxygen `\param`/`\return` в чистый Markdown-текст с заполнением метаданных параметров в IR-схеме.
-   * *Критерий успеха*: Единый оффлайн-формат Markdown на выходе вне зависимости от исходного стиля документирования в коде.
-10. **`TSK-NML-02` (Фильтры исключений и Ignore-теги)**
-    * *Цель*: Исключение сущностей, находящихся между тегами `DOM-IGNORE-BEGIN`/`DOM-IGNORE-END`, `@cond`/`@endcond`, а также содержащих `@internal`/`\internal`.
-    * *Критерий успеха*: Исключенные сущности полностью отсутствуют в генерируемом `ProjectCatalog`.
+### 📍 Week 3: Comment Normalization & Exclusion Tag Gating
+9. **`TSK-NML-01` (Docstring Normalizer to CommonMark)**
+   * *Goal*: Convert Javadoc-style (`@param`/`@return`) and Doxygen-style (`\param`/`\return`) docstring layouts to clean Markdown, populating parameter metadata tables in the IR.
+   * *Success Criterion*: Homogeneous, clean Markdown output regardless of original raw commenting styles in source files.
+10. **`TSK-NML-02` (Exclusion Tag and Ignore Filters)**
+    * *Goal*: Implement structural filtering of classes and members enclosed within `DOM-IGNORE-BEGIN`/`DOM-IGNORE-END`, `@cond`/`@endcond`, or annotated with `@internal`/`\internal` tags.
+    * *Success Criterion*: Excluded entities are entirely absent from the generated `ProjectCatalog`.
 
-### 📍 Неделя 4: Шаблонизация и Рендеринг мульти-форматов
-11. **`TSK-RND-01` (Рендерер Hugo Markdown и метаданные Front-Matter)**
-    * *Цель*: Класс `HugoMarkdownRenderer` в `ude/renderers/hugo_markdown.py`. Генерация Markdown-файлов с TOML/YAML заголовками (`title`, `sidebar_position`). Автоматическое экранирование угловых скобок `< >` для C++ шаблонов.
-    * *Критерий успеха*: Сгенерированные файлы успешно компилируются движком Hugo/Docusaurus без ошибок рендеринга тегов.
-12. **`TSK-RND-02` (Прямой компилятор статического HTML)**
-    * *Цель*: Класс `HtmlRenderer` в `ude/renderers/static_html.py` на базе шаблонов Jinja2. Генерация полностью автономных HTML-страниц с локальным CSS-оформлением и боковым меню навигации.
-    * *Критерий успеха*: Сборка выдает готовый оффлайн-сайт с кросс-ссылками классов.
+### 📍 Week 4: Template Customization & Multi-Format Rendering
+11. **`TSK-RND-01` (Hugo Markdown Renderer & Front-Matter Metadata)**
+    * *Goal*: Create `HugoMarkdownRenderer` under `ude/renderers/hugo_markdown.py`. Output pages must contain TOML/YAML front-matter (`title`, `sidebar_position`). Properly escape angle brackets `< >` for C++ templates to avoid parser issues in SSGs.
+    * *Success Criterion*: Generated Markdown compiles cleanly in Hugo or Docusaurus with zero route or tag formatting errors.
+12. **`TSK-RND-02` (Standalone Static HTML Compiler)**
+    * *Goal*: Implement `HtmlRenderer` in `ude/renderers/static_html.py` utilizing localized Jinja2 templates. Generate cohesive, offline-friendly HTML documentation portals equipped with sidebar navigation.
+    * *Success Criterion*: Production of an autonomous, cross-linked reference portal accessible directly inside any browser offline.
 
-### 📍 Неделя 5: CLI-интерфейс, Мульти-таргет Оркестрация и Сквозные Тесты
-13. **`TSK-CLI-01` (Ядро неинтерактивного CLI)**
-    * *Цель*: Создание `ude/cli.py` на базе `argparse`. Поддержка параметров `--config`, `--input`, `--format`, `--output`, а также возврат кода `0` при успехе и `1` при ошибке с выводом в `stderr`.
-    * *Критерий успеха*: Полная автоматизация вызовов без диалоговых окон.
-14. **`TSK-CLI-03` (Оркестратор UdeOrchestrator)**
-    * *Цель*: Класс `UdeOrchestrator` в `ude/orchestrator.py`. Читает децентрализованный `ude_config.json`, разрешает все относительные пути относительно расположения файла настроек, запускает коллектор ➡️ парсер ➡️ рендерер, обрабатывает `error_policy`.
-    * *Критерий успеха*: Оркестратор запускается корректно из любой CWD-папки (полная портативность путей).
-15. **`TSK-CLI-02` (Интеграционные тесты E2E и покрытие >= 90%)**
-    * *Цель*: Сквозной тест `tests/test_integration_pipeline.py`. Проходит весь путь: XML ➡️ IR ➡️ Gzip ➡️ HTML. Наращивание тестов до достижения суммарного покрытия `pytest-cov` `>= 90%`.
-    * *Критерий успеха*: Все тесты зеленые, общий процент покрытия кода строго `>= 90%`.
+### 📍 Week 5: Command Line Interface & E2E Orchestration
+13. **`TSK-CLI-01` (Non-Interactive CLI Command Processor)**
+    * *Goal*: Build `ude/cli.py` on top of `argparse`. Expose parameter switches: `--config`, `--input`, `--format`, `--output`. Return system exit code `0` on success, and custom non-zero codes (like `1` or `2`) on standard failures, logging messages to `stderr`.
+    * *Success Criterion*: Seamless, non-interactive execution inside automated scripts with zero prompt dialog blockers.
+14. **`TSK-CLI-03` (Multi-Target Orchestration Engine)**
+    * *Goal*: Build `UdeOrchestrator` in `ude/orchestrator.py`. Parse decentral `ude_config.json` templates, resolve relative paths relative to the config file's physical parent directory, execute the pipeline chain (collector ➡️ parser ➡️ renderer), and enforce custom error policies.
+    * *Success Criterion*: Seamless operation regardless of execution's Current Working Directory (CWD) - verifying path portability.
+15. **`TSK-CLI-02` (E2E Integration Testing & Coverage Verification)**
+    * *Goal*: Create a comprehensive integration script `tests/test_integration_pipeline.py`. Run a full E2E lifecycle (XML ➡️ IR ➡️ Gzip ➡️ HTML) and write targeted unit tests until total statement coverage reaches `>= 90%`.
+    * *Success Criterion*: All automated tests pass successfully, and `pytest-cov` reports a total statement coverage of `>= 90%`.
 
 ---
 
-## 📈 Критерии качества и приемки MVP
-1. **Тестовое покрытие**: pytest-cov показывает `>= 90%`.
-2. **Скорость работы**: Обработка 1000 API-классов занимает `< 5 секунд`.
-3. **Чистота Git**: Выходные папки сгенерированных страниц никогда не фиксируются в репозитории (100% Git Hygiene).
+## 📈 Quality Gates and Acceptance Criteria
+1. **Test Coverage**: statement coverage verified by `pytest-cov` is `>= 90%`.
+2. **Execution Speed**: Compiling 1,000 API-classes takes `< 5 seconds`.
+3. **Git Hygiene**: Output generated files must never be committed to active source control repositories (100% clean Git).

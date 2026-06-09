@@ -1,50 +1,48 @@
-# Задача: TSK-RND-01 — Шаблонизатор Jinja2 и Hugo Markdown
+# Task: TSK-RND-01 — Hugo/Docusaurus Markdown Renderer & Front-Matter
 
-## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
-1. **Цель**: Реализовать рендеринг каталога IR в структурированные Markdown-файлы с YAML-метаданными, полностью готовые для генератора статики Hugo.
-2. **Шаги реализации**:
-   * Создать файл `ude/renderers/hugo_markdown.py`, унаследовав класс `HugoMarkdownRenderer` от `BaseRenderer`.
-   * Настроить `jinja2.Environment` для поиска шаблонов разметки.
-   * Написать Jinja2-шаблоны для генерации страниц классов, методов и общего индекса.
-   * Обеспечить авто-инъекцию YAML-метаданных (front-matter с ключами `title`, `sidebar_position`, `parent`) в начало каждой генерируемой Markdown-страницы.
-   * **Экранирование специфики C++**: Обеспечить автоматическое экранирование угловых скобок `< >` (преобразуя их в `\<` и `\>`) во всех выводимых сигнатурах и именах шаблонов классов/структур, чтобы они не распознавались веб-браузерами или компиляторами markdown как битые HTML-теги.
+## 📌 Part 1: Implementation Guide
+1. **Goal**: Implement a renderer to translate Intermediate Representation (IR) structures into Markdown documents containing YAML/TOML metadata front-matter, optimized for static site generators (Docusaurus, Hugo) (`REQ-FUN-03`, `REQ-FUN-04`).
+2. **Implementation Steps**:
+   * Create file `ude/renderers/hugo_markdown.py` subclassing `HugoMarkdownRenderer` from `BaseRenderer`.
+   * Implement rendering structures:
+     * Translate namespaces and classes into individual Markdown pages.
+     * Inject front-matter headers (YAML/TOML block specifying `title`, `sidebar_position`, `id`).
+     * Structure method signature profiles, arguments, types, and return values into markdown tables.
+     * **Angle Bracket Escaping**: To prevent layout breakage or tag errors inside Docusaurus/Hugo, detect template symbols `< >` (e.g. C++ templates in class names) and convert them to escaped formats `&lt;` and `&gt;`.
 
-## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
-1. **Тестовый сценарий (TDD Red Phase)**:
-   * Написать `tests/test_hugo_renderer.py`.
-   * Инициализировать рендерер, передать тестовый `ProjectCatalog` и записать файлы на диск.
-   * Проверить ассертами:
-     1. Файл Markdown начинается со строки `---` (начало YAML front-matter).
-     2. В метаданных присутствуют правильные ключи разметки.
-     3. Заголовки классов и методов оформлены по стандарту Markdown.
-   * Тесты должны упасть.
-2. **Реализация (TDD Green Phase)**:
-   * Реализовать класс `HugoMarkdownRenderer` и настроить компиляцию шаблонов Jinja2.
-3. **Запуск и валидация (TDD Refactor Phase)**:
-   * Запустить команду проверки:
+## 🧪 Part 2: Verification & TDD Scenarios
+1. **TDD Red Phase**:
+   * Write unit test `tests/test_hugo_renderer.py` asserting:
+     1. Output files feature correct front-matter headers.
+     2. Class names containing template parameters (e.g. `ExchangeTraits<Type>`) are escaped into output streams as `ExchangeTraits&lt;Type&gt;`.
+   * Verify test failure.
+2. **TDD Green Phase**:
+   * Implement `HugoMarkdownRenderer` utilizing template schemas and strict escaping routines.
+3. **TDD Refactor Phase**:
+   * Run verification command:
      ```bash
      poetry run pytest tests/test_hugo_renderer.py
      ```
-   * **Ожидаемый успешный результат**: тесты зеленые, на диск записываются красиво структурированные файлы Markdown с YAML-шапками.
+   * **Expected Success Result**: Tests compile successfully, verifying output document structures, metadata generation, and escaping rules.
 
-## 👥 Часть 3: Инструкция по приемке пользователем (User Acceptance Scenario)
-После завершения шагов 1 (разработка кода) и 2 (проверка тестами) со стороны ИИ, вам необходимо выполнить финальную приемку задачи:
+## 👥 Part 3: User Acceptance Scenario
+After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
 
-1. **Запуск автоматических тестов для ручной проверки**:
-   Выполните в терминале команду:
+1. **Run automated tests for manual validation**:
+   Execute in your terminal:
    ```bash
    cd engine
-poetry run pytest tests/test_hugo_renderer.py
+   poetry run pytest tests/test_hugo_renderer.py
    ```
-   *Ожидаемый результат:* Все assertions зеленые; сгенерированные файлы Markdown полностью готовы для загрузки в Hugo.
+   *Expected Result:* pytest runs successfully (green status), proving formatting compliance.
 
-2. **Проверка ключевых критериев выполнения задачи**:
-   * [ ] Проверить в `ude/renderers/hugo_markdown.py` класс `HugoMarkdownRenderer`.
-   * [ ] Проверить, что генерируемый Markdown-код начинается с корректного YAML/TOML front-matter заголовка с обязательными метаданными (`title`, `sidebar_position`).
-   * [ ] Убедиться, что символы шаблонов классов C++ `< >` экранируются, чтобы не сломать рендеринг в веб-интерфейсе.
+2. **Verify key task requirements**:
+   * [ ] Verify class `HugoMarkdownRenderer` is implemented under `ude/renderers/hugo_markdown.py`.
+   * [ ] Confirm that template characters (`<` and `>`) are converted to `&lt;` and `&gt;`.
+   * [ ] Verify that rendered files feature correct metadata header headers (YAML/TOML front-matter).
 
-3. **Проверка портативности путей**:
-   * [ ] Убедиться, что в кодовой базе отсутствуют захардкоженные абсолютные пути, привязанные к локальному окружению разработчика (все пути должны разрешаться динамически).
+3. **Verify path portability**:
+   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
 
-4. **Обновление реестра соответствия**:
-   * [ ] Проверить, что статус задачи в файле реестра `design-docs/docs/srs/task_compliance.md` переведен в актуальное состояние и зафиксирован процент покрытия тестами.
+4. **Update compliance registry**:
+   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.

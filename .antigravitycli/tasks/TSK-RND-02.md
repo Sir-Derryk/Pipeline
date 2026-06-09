@@ -1,47 +1,50 @@
-# Задача: TSK-RND-02 — Прямой компилятор статического HTML
+# Task: TSK-RND-02 — Standalone Offline HTML Documentation Compiler
 
-## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
-1. **Цель**: Реализовать прямую компиляцию промежуточного представления (IR) в автономный локальный HTML-сайт документации без внешних зависимостей.
-2. **Шаги реализации**:
-   * Создать файл `ude/renderers/static_html.py`, унаследовав класс `HtmlRenderer` от `BaseRenderer`.
-   * Разработать базовые HTML/CSS макеты страниц на Jinja2 (главный индекс, страницы классов с таблицами методов и аргументов).
-   * Реализовать компиляцию каталога в структуру статических `.html` страниц, связанных относительными ссылками.
+## 📌 Part 1: Implementation Guide
+1. **Goal**: Implement a compiler using Jinja2 templates to compile structured API catalogs into offline-friendly, responsive HTML documentation portals (`REQ-FUN-03`).
+2. **Implementation Steps**:
+   * Create file `ude/renderers/static_html.py` subclassing `HtmlRenderer` from `BaseRenderer`.
+   * Structure the renderer:
+     * Ingest localized HTML/CSS templates under `ude/templates/`.
+     * Render the entire catalog hierarchy as cross-linked HTML documents.
+     * Construct a responsive navigation sidebar mapping namespaces and classes.
+     * Deliver CSS layouts as standalone assets directly written to output paths.
 
-## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
-1. **Тестовый сценарий (TDD Red Phase)**:
-   * Написать `tests/test_html_renderer.py`.
-   * Подать на вход рендереру каталог и запустить компиляцию в тестовую папку.
-   * Проверить ассертами:
-     1. Существование файлов `index.html` и страниц классов.
-     2. Наличие в HTML-коде правильных тегов (например, `<h1>` с именем класса, таблицы аргументов `<table class="params">`).
-   * Тесты должны упасть.
-2. **Реализация (TDD Green Phase)**:
-   * Реализовать класс `HtmlRenderer` и шаблоны макетов страниц на Jinja2.
-3. **Запуск и валидация (TDD Refactor Phase)**:
-   * Запустить команду проверки:
+## 🧪 Part 2: Verification & TDD Scenarios
+1. **TDD Red Phase**:
+   * Create test file `tests/test_html_renderer.py`.
+   * Write tests asserting:
+     1. HTML assets are correctly written to directories.
+     2. Page structures feature correct sidebar navigation tags.
+     3. Cross-linked class references resolve cleanly (internal relative hyperlinks).
+   * Verify test failure.
+2. **TDD Green Phase**:
+   * Implement `HtmlRenderer` using structured Jinja2 templates and assets.
+3. **TDD Refactor Phase**:
+   * Run verification command:
      ```bash
      poetry run pytest tests/test_html_renderer.py
      ```
-   * **Ожидаемый успешный результат**: зеленый статус, генерируется красивый локально открываемый HTML-сайт документации.
+   * **Expected Success Result**: All tests pass, verifying compiled static files, menu components, and relative navigations.
 
-## 👥 Часть 3: Инструкция по приемке пользователем (User Acceptance Scenario)
-После завершения шагов 1 (разработка кода) и 2 (проверка тестами) со стороны ИИ, вам необходимо выполнить финальную приемку задачи:
+## 👥 Part 3: User Acceptance Scenario
+After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
 
-1. **Запуск автоматических тестов для ручной проверки**:
-   Выполните в терминале команду:
+1. **Run automated tests for manual validation**:
+   Execute in your terminal:
    ```bash
    cd engine
-poetry run pytest tests/test_html_renderer.py
+   poetry run pytest tests/test_html_renderer.py
    ```
-   *Ожидаемый результат:* Тесты подтверждают генерацию автономного локального веб-интерфейса, пригодного для открытия в любом современном браузере.
+   *Expected Result:* All assertions pass, confirming the standalone compilation.
 
-2. **Проверка ключевых критериев выполнения задачи**:
-   * [ ] Проверить в `ude/renderers/static_html.py` класс `HtmlRenderer`.
-   * [ ] Убедиться, что рендерер компилирует IR напрямую в структурированные локальные HTML-страницы.
-   * [ ] Проверить наличие в статических HTML-страницах меню навигации, структурированного CSS-оформления и перекрестных ссылок между сущностями.
+2. **Verify key task requirements**:
+   * [ ] Verify `HtmlRenderer` is implemented inside `ude/renderers/static_html.py`.
+   * [ ] Verify compiled assets feature responsive design templates and sidebar navigations.
+   * [ ] Verify all cross-references resolve cleanly as offline-compatible links.
 
-3. **Проверка портативности путей**:
-   * [ ] Убедиться, что в кодовой базе отсутствуют захардкоженные абсолютные пути, привязанные к локальному окружению разработчика (все пути должны разрешаться динамически).
+3. **Verify path portability**:
+   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
 
-4. **Обновление реестра соответствия**:
-   * [ ] Проверить, что статус задачи в файле реестра `design-docs/docs/srs/task_compliance.md` переведен в актуальное состояние и зафиксирован процент покрытия тестами.
+4. **Update compliance registry**:
+   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.

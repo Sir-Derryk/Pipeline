@@ -1,58 +1,58 @@
-# Задача: TSK-INF-01 — Инициализация окружения и pytest
+# Task: TSK-INF-01 — Environment Initialization and pytest Setup
 
-## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
-1. **Цель**: Инициализировать Python-окружение в подмодуле `engine/`, настроить менеджер зависимостей Poetry и подготовить фреймворк для автоматического тестирования pytest.
-2. **Шаги реализации**:
-   * Перейти в директорию `engine/` (репозиторий ядра UDE).
-   * Инициализировать проект Poetry командой `poetry init` (или создать `pyproject.toml` вручную).
-   * Добавить основные зависимости проекта:
+## 📌 Part 1: Implementation Guide
+1. **Goal**: Initialize the Python environment in the `engine/` submodule, configure the Poetry package manager, and prepare the pytest automatic testing framework.
+2. **Implementation Steps**:
+   * Change directory to `engine/` (the UDE core repository).
+   * Initialize a Poetry project with `poetry init` (or create `pyproject.toml` manually).
+   * Add core production dependencies:
      * `pydantic>=2.0`
      * `jinja2`
      * `lxml`
-   * Добавить зависимости разработки (dev-dependencies):
+   * Add development dependencies:
      * `pytest`
      * `pytest-cov`
      * `black`
      * `mypy`
-   * Создать базовую структуру каталогов ядра:
-     * `ude/` — корневая папка кода.
-     * `tests/` — корневая папка тестов.
+   * Create the basic directory structure:
+     * `ude/` — core source code root.
+     * `tests/` — test suite root.
 
-## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
-1. **Тестовый сценарий (TDD Red Phase)**:
-   * Создать тестовый файл `tests/test_harness.py`.
-   * Написать тест, который проверяет:
-     * Что пакет `ude` импортируется без ошибок.
-     * Что версия пакета считывается и равна `"0.1.0"`.
-   * Запустить `poetry run pytest` (или `pytest`) и убедиться, что тест завершается с ошибкой (так как код ядра отсутствует).
-2. **Реализация (TDD Green Phase)**:
-   * Создать инициализационный файл `ude/__init__.py`.
-   * Объявить в нем строковую константу `__version__ = "0.1.0"`.
-3. **Запуск и валидация (TDD Refactor Phase)**:
-   * Запустить команду проверки:
+## 🧪 Part 2: Verification & TDD Scenarios
+1. **TDD Red Phase**:
+   * Create test file `tests/test_harness.py`.
+   * Write a test that verifies:
+     * The `ude` package can be imported without errors.
+     * The package version is readable and equal to `"0.1.0"`.
+   * Run `poetry run pytest` (or `pytest`) and verify that the test fails (since core code is missing).
+2. **TDD Green Phase**:
+   * Create initialization file `ude/__init__.py`.
+   * Declare the version string constant: `__version__ = "0.1.0"`.
+3. **TDD Refactor Phase**:
+   * Run verification command:
      ```bash
      poetry run pytest --cov=ude tests/
      ```
-   * **Ожидаемый успешный результат**: pytest завершается с кодом `0` (тесты зеленые), в консоли отображается 100% покрытие для `__init__.py`.
+   * **Expected Success Result**: pytest finishes with exit code `0` (all tests green), and the console displays 100% coverage for `__init__.py`.
 
-## 👥 Часть 3: Инструкция по приемке пользователем (User Acceptance Scenario)
-После завершения шагов 1 (разработка кода) и 2 (проверка тестами) со стороны ИИ, вам необходимо выполнить финальную приемку задачи:
+## 👥 Part 3: User Acceptance Scenario
+After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
 
-1. **Запуск автоматических тестов для ручной проверки**:
-   Выполните в терминале команду:
+1. **Run automated tests for manual validation**:
+   Execute in your terminal:
    ```bash
    cd engine
-poetry run pytest --cov=ude tests/
+   poetry run pytest --cov=ude tests/
    ```
-   *Ожидаемый результат:* pytest успешно отрабатывает (зеленый статус), возвращая код 0, отчет покрытия показывает 100% для `__init__.py`.
+   *Expected Result:* pytest finishes successfully (green status) returning code 0, and the coverage report shows 100% for `__init__.py`.
 
-2. **Проверка ключевых критериев выполнения задачи**:
-   * [ ] Убедиться, что в каталоге `engine/` присутствует `pyproject.toml` с корректными зависимостями (`pydantic>=2.0`, `jinja2`, `lxml`, `pytest`, `pytest-cov`, `black`, `mypy`).
-   * [ ] Проверить наличие стандартной структуры директорий `ude/` и `tests/`.
-   * [ ] Проверить наличие файла `ude/__init__.py` с объявленной константой версии `__version__ = "0.1.0"`.
+2. **Verify key task requirements**:
+   * [ ] Verify the presence of `pyproject.toml` in `engine/` with the correct dependencies (`pydantic>=2.0`, `jinja2`, `lxml`, `pytest`, `pytest-cov`, `black`, `mypy`).
+   * [ ] Verify the standard directory structure `ude/` and `tests/`.
+   * [ ] Verify the presence of `ude/__init__.py` with the declared version constant `__version__ = "0.1.0"`.
 
-3. **Проверка портативности путей**:
-   * [ ] Убедиться, что в кодовой базе отсутствуют захардкоженные абсолютные пути, привязанные к локальному окружению разработчика (все пути должны разрешаться динамически).
+3. **Verify path portability**:
+   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
 
-4. **Обновление реестра соответствия**:
-   * [ ] Проверить, что статус задачи в файле реестра `design-docs/docs/srs/task_compliance.md` переведен в актуальное состояние и зафиксирован процент покрытия тестами.
+4. **Update compliance registry**:
+   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.
