@@ -3,7 +3,7 @@ chcp 65001 >nul
 setlocal enabledelayedexpansion
 
 echo ============================================================
-echo   ODA UDE: Building all Map Documentation
+echo   UDE: Building all Map Documentation
 echo ============================================================
 
 set "PROJECTS=map_api_cpp map_api_cs"

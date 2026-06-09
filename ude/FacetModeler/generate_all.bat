@@ -3,7 +3,7 @@ chcp 65001 >nul
 setlocal enabledelayedexpansion
 
 echo ============================================================
-echo   ODA UDE: Building all FacetModeler Documentation
+echo   UDE: Building all FacetModeler Documentation
 echo ============================================================
 
 set "PROJECTS=facetmodeler_api_cpp facetmodeler_api_cs facetmodeler_api_java facetmodeler_api_py"

@@ -1,5 +1,5 @@
 {
-    "project_name": "ODA FacetModeler Python API Reference",
+    "project_name": "FacetModeler Python API Reference",
     "short_project_name": "FacetModeler",
     "src_dir": [
         "../../../src/_swig/Python/FacetModeler"

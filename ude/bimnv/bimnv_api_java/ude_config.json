@@ -1,5 +1,5 @@
 {
-    "project_name": "ODA BimNv Java API Reference",
+    "project_name": "BimNv Java API Reference",
     "short_project_name": "BimNv",
     "src_dir": [
         "../../../src/_swig/Java/com/opendesign/bimnv"

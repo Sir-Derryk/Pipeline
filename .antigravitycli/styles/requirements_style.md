@@ -1,6 +1,6 @@
 # Requirements Management Style and Guidelines (Docs-as-Code)
 
-This document establishes the standards for managing requirements, specifications, and design documents across all submodules of the Universal Document Engine (UDE) project, adhering strictly to the **Docs-as-Code** paradigm.
+This document establishes the standards for managing requirements, specifications, and design documents across all submodules of the Universal Documentation Engine (UDE) project, adhering strictly to the **Docs-as-Code** paradigm.
 
 ---
 

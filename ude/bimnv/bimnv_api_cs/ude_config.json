@@ -1,5 +1,5 @@
 {
-    "project_name": "ODA BimNv C# API Reference",
+    "project_name": "BimNv C# API Reference",
     "short_project_name": "BimNv",
     "src_dir": [
         "../../../src/_swig/CSharp/BimNv"

@@ -1,5 +1,5 @@
 {
-    "project_name": "ODA Map C# API Reference",
+    "project_name": "Map C# API Reference",
     "short_project_name": "Map",
     "src_dir": [
         "../../../src/_swig/CSharp/Map"

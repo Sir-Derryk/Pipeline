@@ -3,7 +3,7 @@ chcp 65001 >nul
 setlocal enabledelayedexpansion
 
 echo ============================================================
-echo   ODA UDE: Building all IGES Documentation
+echo   UDE: Building all IGES Documentation
 echo ============================================================
 
 set "PROJECTS=iges_api_cpp"

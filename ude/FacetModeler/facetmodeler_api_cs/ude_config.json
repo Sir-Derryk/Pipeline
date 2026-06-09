@@ -1,5 +1,5 @@
 {
-    "project_name": "ODA FacetModeler C# API Reference",
+    "project_name": "FacetModeler C# API Reference",
     "short_project_name": "FacetModeler",
     "src_dir": [
         "../../../src/_swig/CSharp/FacetModeler"

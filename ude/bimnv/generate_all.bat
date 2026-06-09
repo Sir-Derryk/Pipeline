@@ -3,7 +3,7 @@ chcp 65001 >nul
 setlocal enabledelayedexpansion
 
 echo ============================================================
-echo   ODA UDE: Building all BimNv Documentation
+echo   UDE: Building all BimNv Documentation
 echo ============================================================
 
 set "PROJECTS=bimnv_api_cpp bimnv_api_cs bimnv_api_java bimnv_api_py"
