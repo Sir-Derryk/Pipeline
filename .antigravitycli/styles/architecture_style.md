@@ -1,42 +1,42 @@
-# Архитектурные стили и парадигмы
+# Architectural Styles and Paradigms
 
-Этот документ определяет ведущие архитектурные парадигмы и принципы проектирования кодовой базы UDE.
-
----
-
-## 🏛️ 1. Объектно-Ориентированное Программирование (ООП)
-
-В качестве единой ведущей парадигмы программирования для всех компонентов проекта (как на **Python**, так и на **TypeScript**) выбрано **Объектно-Ориентированное Программирование (ООП)**. 
-
-Это обеспечивает согласованность кодовой базы, упрощает ее чтение и поддержку разработчиками, пишущими на разных языках.
-
-### Ключевые принципы применения ООП:
-1.  **Инкапсуляция**:
-    *   Все внутренние состояния классов (например, конфигурации сборки, промежуточные структуры парсера) должны быть скрыты от прямого доступа извне. Доступ к ним осуществляется через геттеры/сеттеры или специализированные публичные методы.
-2.  **Наследование и полиморфизм**:
-    *   **Общие базовые классы**: Создание абстрактных классов или интерфейсов для ключевых компонентов (например, базовый класс `Parser` или `Collector`), от которых наследуются конкретные реализации для различных типов продуктов или языков.
-    *   **Единый контракт**: Полиморфный вызов методов (например, вызов `.collect()` у всех зарегистрированных коллекторов) обеспечивает гибкость пайплайна генерации.
-3.  **Декомпозиция**:
-    *   Каждый класс должен решать одну четко очерченную задачу (принцип Single Responsibility из SOLID). Например, класс `ConfigLoader` отвечает только за чтение и валидацию настроек, а `HtmlRenderer` — только за сборку страниц из шаблонов.
+This document defines the primary architectural paradigms and design principles of the UDE codebase.
 
 ---
 
-## 🏗️ 2. Паттерны и логическая структура
+## 🏛️ 1. Object-Oriented Programming (OOP)
 
-Для реализации объектно-ориентированной архитектуры рекомендуется использовать проверенные паттерны проектирования:
+**Object-Oriented Programming (OOP)** is chosen as the unified primary programming paradigm for all project components (both in **Python** and **TypeScript**).
 
-*   **Фабричный метод / Абстрактная фабрика (Factory / Abstract Factory)**:
-    - Используется для инстанцирования парсеров, процессоров и рендереров в зависимости от переданной конфигурации (например, создание C++ коллектора или Java коллектора).
-*   **Стратегия (Strategy)**:
-    - Выделение алгоритмов парсинга или рендеринга в отдельные классы-стратегии для удобной подмены логики на лету без изменения основного кода оркестратора.
-*   **Шаблонный метод (Template Method)**:
-    - Определение общего скелета пайплайна генерации документации в базовом классе-оркестраторе с переопределением конкретных шагов в подклассах.
+This ensures codebase consistency and simplifies reading and maintenance for developers writing in different languages.
+
+### Key OOP Principles:
+1.  **Encapsulation**:
+    *   All internal states of classes (e.g., build configurations, parser intermediate structures) must be hidden from direct external access. They must be accessed via getters/setters or specialized public methods.
+2.  **Inheritance and Polymorphism**:
+    *   **Common Base Classes**: Creation of abstract classes or interfaces for key components (e.g., the base class `Parser` or `Collector`), from which specific implementations for different product types or languages inherit.
+    *   **Unified Contract**: Polymorphic method calls (e.g., calling `.collect()` on all registered collectors) provide flexibility to the generation pipeline.
+3.  **Decomposition**:
+    *   Each class must solve one clearly defined task (the Single Responsibility Principle from SOLID). For example, the `ConfigLoader` class is only responsible for reading and validating settings, while `HtmlRenderer` is only responsible for building pages from templates.
 
 ---
 
-## 🌐 3. Асинхронная архитектура и интеграция
+## 🏗️ 2. Design Patterns and Logical Structure
 
-Хотя ведущей парадигмой является ООП, в коде (особенно в TypeScript) активно используется асинхронный подход для параллельной обработки больших массивов данных:
+To implement the object-oriented architecture, it is recommended to use proven design patterns:
 
-*   **TS Promises & async/await**: Все операции ввода-вывода (чтение файлов, парсинг, запись готовых HTML) должны выполняться асинхронно, чтобы не блокировать основной поток выполнения.
-*   **Изоляция потоков**: При сборке крупных проектов документации задачи могут распределяться по параллельным процессам/потокам (worker threads) для ускорения вычислений.
+*   **Factory Method / Abstract Factory**:
+    - Used to instantiate parsers, processors, and renderers depending on the passed configuration (e.g., creating a C++ collector or a Java collector).
+*   **Strategy**:
+    - Isolating parsing or rendering algorithms into separate strategy classes for convenient on-the-fly logic replacement without modifying the main orchestrator code.
+*   **Template Method**:
+    - Defining the general skeleton of the documentation generation pipeline in the base orchestrator class with specific steps overridden in subclasses.
+
+---
+
+## 🌐 3. Asynchronous Architecture and Integration
+
+Although OOP is the primary paradigm, an asynchronous approach is actively used in the code (especially in TypeScript) for parallel processing of large datasets:
+
+*   **TS Promises & async/await**: All I/O operations (file reading, parsing, writing completed HTML) must be performed asynchronously to avoid blocking the main execution thread.
+*   **Thread Isolation**: When building large documentation projects, tasks can be distributed across parallel processes/threads (worker threads) to speed up computations.

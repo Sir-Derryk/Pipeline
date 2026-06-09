@@ -1,34 +1,34 @@
-# Правила работы с Git (Git Style)
+# Git Style Guidelines
 
-Этот документ регламентирует стратегию организации ветвления в Git и определяет стандарты оформления сообщений коммитов для обеспечения прозрачной истории разработки.
-
----
-
-## 🌿 1. Стратегия ветвления: GitHub Flow
-
-В качестве основной стратегии организации совместной работы в репозитории UDE принята модель **GitHub Flow**. Она проста в поддержке и идеально подходит для непрерывной интеграции.
-
-### Основные правила:
-1.  **Основная ветка**:
-    *   Ветка `master` (или `main`) является всегда стабильной, протестированной и готовой к использованию.
-    *   Прямые коммиты в `master` допускаются только для мелких административных правок (например, исправление опечатки, обновление документации) с последующим пушем.
-2.  **Работа над фичами и исправлениями (Feature-ветки)**:
-    *   Для любой новой задачи, фичи или исправления ошибки создается отдельная ветка от `master` с понятным именем:
-        *   `feature/parser-swig-implementation` (для фич)
-        *   `bugfix/broken-sidebar-links` (для исправления багов)
-        *   `docs/update-dev-guidelines` (для обновления доков)
-3.  **Слияние изменений**:
-    *   После завершения работы над задачей в своей ветке создается **Pull Request (PR)** в ветку `master`.
-    *   Код проходит автоматические тесты (если они настроены) и ручное ревью.
-    *   После одобрения PR ветка вливается в `master` методом **Squash and Merge** (для сохранения лаконичной истории) или стандартным слиянием.
+This document regulates the branching strategy in Git and defines standard commit message formats to ensure a clean and transparent development history.
 
 ---
 
-## 💬 2. Стандарт сообщений коммитов: Conventional Commits
+## 🌿 1. Branching Strategy: GitHub Flow
 
-Все сообщения коммитов в репозитории должны строго следовать спецификации **Conventional Commits**. Это позволяет автоматически генерировать списки изменений (ChangeLog) и упрощает понимание истории проекта.
+The **GitHub Flow** model is adopted as the primary branching strategy for collaboration in the UDE repository. It is simple to maintain and ideal for continuous integration.
 
-### Структура коммита:
+### Core Rules:
+1.  **Main Branch**:
+    *   The `master` (or `main`) branch is always stable, tested, and ready for deployment.
+    *   Direct commits to `master` are allowed only for minor administrative changes (e.g., fixing typos, updating documentation) followed by a push.
+2.  **Feature and Bug Branches**:
+    *   For any new task, feature, or bug fix, a separate branch is created from `master` with a descriptive name:
+        *   `feature/parser-swig-implementation` (for new features)
+        *   `bugfix/broken-sidebar-links` (for bug fixes)
+        *   `docs/update-dev-guidelines` (for documentation updates)
+3.  **Merging Changes**:
+    *   After completing work on a task, a **Pull Request (PR)** is created from the feature branch into `master`.
+    *   The code undergoes automated tests (if configured) and manual review.
+    *   After PR approval, the branch is merged into `master` using **Squash and Merge** (to preserve a concise history) or standard merge.
+
+---
+
+## 💬 2. Commit Message Standard: Conventional Commits
+
+All commit messages in the repository must strictly follow the **Conventional Commits** specification. This allows for automatic generation of change logs (ChangeLogs) and makes the project history easier to understand.
+
+### Commit Structure:
 ```
 <type>[optional scope]: <description>
 
@@ -37,16 +37,16 @@
 [optional footer(s)]
 ```
 
-### Основные типы коммитов (`<type>`):
-*   `feat`: Добавление новой функциональности (например, `feat: add TypeScript parser for SWIG wrappers`).
-*   `fix`: Исправление ошибки (например, `fix: resolve crash when parsing empty XML node`).
-*   `docs`: Изменения только в документации или правилах (например, `docs: refine code style rules`).
-*   `style`: Изменения, не влияющие на логику кода (пробелы, форматирование, точки с запятой — например, `style: format index.ts with prettier`).
-*   `refactor`: Рефакторинг кода, не добавляющий фич и не исправляющий багов (например, `refactor: extract collector base class`).
-*   `test`: Добавление или изменение тестов (например, `test: add unit tests for comment parser`).
-*   `chore`: Обновление задач сборки, зависимостей, конфигураций линтеров и т.д. (например, `chore: update typescript dependency to v5.4`).
+### Core Commit Types (`<type>`):
+*   `feat`: Adding new functionality (e.g., `feat: add TypeScript parser for SWIG wrappers`).
+*   `fix`: Fixing an error (e.g., `fix: resolve crash when parsing empty XML node`).
+*   `docs`: Changes to documentation or rules only (e.g., `docs: refine code style rules`).
+*   `style`: Formatting changes that do not affect logic (spaces, formatting, semicolons — e.g., `style: format index.ts with prettier`).
+*   `refactor`: Code refactoring that neither adds a feature nor fixes a bug (e.g., `refactor: extract collector base class`).
+*   `test`: Adding or modifying tests (e.g., `test: add unit tests for comment parser`).
+*   `chore`: Updating build tasks, dependencies, linter configs, etc. (e.g., `chore: update typescript dependency to v5.4`).
 
-### Пример хорошего коммита:
+### Example of a Good Commit Message:
 ```bash
 feat(parser): add support for parsing Java multi-line doc-comments
 

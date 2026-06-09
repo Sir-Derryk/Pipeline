@@ -1,48 +1,45 @@
-# Стандарты оформления кода (Code Style)
+# Code Style Standards
 
-Этот документ фиксирует единые правила оформления и форматирования кода в проекте UDE для языков **Python** и **TypeScript**, а также определяет статус исходного кода на **C++**.
+This document establishes unified rules for formatting and styling code in the UDE project for the **Python** and **TypeScript** languages, and also defines the status of raw **C++** source code.
 
 ---
 
 ## 🐍 1. Python Code Style
 
-Все компоненты на Python пишутся в строгом соответствии с рекомендациями **PEP 8**.
+All components written in Python must strictly comply with the **PEP 8** recommendations.
 
-### Инструменты контроля качества:
-*   **Форматирование**: **Black** (автоматическое приведение к стандарту).
-    - Длина строки (Line Length): по умолчанию **88 символов** (или **120 символов** для длинных выражений, если согласовано в конфигурации проекта).
-*   **Линтер**: **Flake8** (статический анализ потенциальных ошибок и нарушений стиля).
+### Quality Control Tools:
+*   **Formatting**: **Black** (automatic formatting to standard).
+    - Line Length: **88 characters** by default (or **120 characters** for long expressions, if agreed in the project configuration).
+*   **Linter**: **Flake8** (static analysis of potential errors and style violations).
 
-### Правила именования (Naming Conventions):
-*   **Классы**: `PascalCase` (например, `MetadataCollector`, `HtmlParser`).
-*   **Функции и методы**: `snake_case` (например, `collect_metadata()`, `parse_file()`).
-*   **Переменные**: `snake_case` (например, `file_path`, `output_directory`).
-*   **Глобальные константы**: `UPPER_SNAKE_CASE` (например, `DEFAULT_BUFFER_SIZE`, `MAX_RETRIES`).
-*   **Приватные члены (логически)**: префикс с одним подчеркиванием `_snake_case` (например, `_cache_data`).
+### Naming Conventions:
+*   **Classes**: `PascalCase` (e.g., `MetadataCollector`, `HtmlParser`).
+*   **Functions and Methods**: `snake_case` (e.g., `collect_metadata()`, `parse_file()`).
+*   **Variables**: `snake_case` (e.g., `file_path`, `output_directory`).
+*   **Global Constants**: `UPPER_SNAKE_CASE` (e.g., `DEFAULT_BUFFER_SIZE`, `MAX_RETRIES`).
+*   **Private Members (logically)**: prefixed with a single underscore `_snake_case` (e.g., `_cache_data`).
 
 ---
 
 ## ⚡ 2. TypeScript Code Style
 
-Компоненты на TypeScript пишутся с использованием современных стандартов и утилит автоформатирования.
+TypeScript components must be written using modern standards and auto-formatting utilities.
 
-### Инструменты контроля качества:
-*   **Линтер**: **ESLint** (проверка качества кода, предотвращение потенциальных ошибок, соблюдение чистоты синтаксиса).
-*   **Форматирование**: **Prettier** (автоматическое форматирование отступов, скобок, кавычек и т.д.).
-    - Символ конца строки: `LF`.
-    - Кавычки: Одинарные `'` (Single quotes) для строк, двойные `"` только при необходимости.
-    - Табуляция: 2 пробела (Spaces).
+### Quality Control Tools:
+*   **Linter**: **ESLint** (verifying code quality, preventing potential bugs, maintaining syntax purity).
+*   **Formatting**: **Prettier** (standardizing formatting for braces, semicolons, and indents).
+    - Line Length: **100 characters** by default.
 
-### Правила именования (Naming Conventions):
-*   **Классы, интерфейсы, типы**: `PascalCase` (например, `DocumentGenerator`, `IParserConfig`, `NodeType`).
-*   **Функции и методы**: `camelCase` (например, `generateHtml()`, `loadConfig()`).
-*   **Переменные**: `camelCase` (например, `outputPath`, `isInitialized`).
-*   **Глобальные константы**: `UPPER_SNAKE_CASE` (например, `API_VERSION`, `ROOT_DIR`).
-*   **Приватные свойства классов**: `camelCase` с префиксом `#` (приватные поля ES) или стандартным ключевым словом `private`.
+### Naming Conventions:
+*   **Classes**: `PascalCase` (e.g., `OrchestratorService`, `TemplateEngine`).
+*   **Interfaces**: prefixed with `I` in `PascalCase` or standard `PascalCase` (e.g., `IParserOptions` or `ParserConfig`).
+*   **Functions and Methods**: `camelCase` (e.g., `renderPage()`, `loadConfig()`).
+*   **Variables**: `camelCase` (e.g., `sourcePath`, `cacheManager`).
+*   **Constants**: `UPPER_SNAKE_CASE` (e.g., `PORT`, `API_URL`).
 
 ---
 
-## ⚙️ 3. C++ Code Style
+## ⚙️ 3. C++ Source Code Baseline
 
-*   **Статус кода**: Исходный код на C++, находящийся в папке `/main` (например, `BimNv`, `FacetModeler`, `IGES`, `Map`), является **внешним**.
-*   **Правила оформления**: Правила кодестайла для C++ **не фиксируются**, поскольку данный код поставляется извне и не подлежит нашему внутреннему форматированию или рефакторингу.
+For C++ modules that are processed by the pipeline, standard Doxygen structures are supported. The source code formatting does not strictly depend on PEP 8 or Prettier but must use clean, readable commenting structures (e.g., Qt-style or Javadoc-style comments) to allow the Doxygen parser to successfully extract descriptive attributes.

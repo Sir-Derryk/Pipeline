@@ -1,92 +1,92 @@
 ---
 name: task-verification
 description: >-
-  Автоматизированный скилл верификации технических задач (TSK) на соответствие 
-  методологии TDD, стандартам кодирования, архитектурной безопасности и полноте покрытия.
+  Automated task verification skill (TSK) for compliance with 
+  TDD methodology, coding standards, architectural safety, and coverage completeness.
 ---
 
-# Скилл: Верификация технических задач (Task Verification SOP)
+# Skill: Task Verification SOP
 
-## 🎯 Общее описание
-Данный скилл предназначен для автоматической и полуавтоматической проверки спецификаций технических задач (TSK-файлов) перед началом разработки, а также для верификации качества выполненной реализации при сдаче задачи. Использование этого стандарта исключает риски пропуска требований, уязвимостей безопасности и "слепого" кодирования без тестов.
-
----
-
-## 🔍 Пять критериев качества технической задачи (TSK)
-
-Каждая задача при аудите спецификации или приемке кода должна оцениваться по следующим критериям:
-
-### 1. Scope & Atomicity (Очерченность и Атомарность)
-*   *Вопрос для проверки*: Решает ли задача ровно одну неделимую техническую проблему в рамках своего компонента? Нет ли здесь "раздувания фич" (feature creep)?
-*   *Критерий успешности*: Спецификация задачи описывает строго ограниченный набор изменений в одном-двух связанных модулях.
-
-### 2. TDD Completeness (Полнота TDD-сценариев)
-*   *Вопрос для проверки*: Расписаны ли детально шаги падения (**RED**) и успеха (**GREEN**)? Указаны ли проверяемые файлы тестов, наборы входных данных и конкретные утверждения (assertions)?
-*   *Критерий успешности*: Наличие чёткой команды запуска тестов и детерминированного ожидаемого результата для обеих фаз.
-
-### 3. Architectural Traceability (Архитектурная прослеживаемость)
-*   *Вопрос для проверки*: Ссылается ли задача на функциональные или нефункциональные требования из SRS (`REQ-FUN-XX` / `REQ-NFN-XX`)? Требует ли спецификация внедрения docstring со строками трассировки `Satisfies REQ-FUN-XX` непосредственно в коде классов и методов?
-*   *Критерий успешности*: Наличие полной трассировки требований в спецификации и обязательного требования верификации метаданных docstring в коде.
-
-### 4. Safety & Guard Rails (Безопасность и защитные барьеры)
-*   *Вопрос для проверки*: Если задача выполняет опасные операции (запись файлов на диск, рекурсивное удаление папок, запуск системных процессов через `subprocess`), предусмотрены ли жесткие защитные проверки (guard clauses)? Обязан ли код выбрасывать стандартные исключения (например, `ValueError`, `PermissionError`) при передаче невалидных или потенциально деструктивных путей (таких как `/`, `.`, `..`)?
-*   *Критерий успешности*: Наличие явной секции по безопасности в спецификации и соответствующих тестов на вызов исключений при некорректных аргументах.
-
-### 5. Path Portability & Isolation (Портативность и изоляция путей)
-*   *Вопрос для проверки*: Исключен ли в задаче хардкод путей? Разрешаются ли все пути к файлам и каталогам динамически относительно конфигурационного файла (`ude_config.json`) или папки пакета, а не относительно текущей рабочей директории процесса (CWD)?
-*   *Критерий успешности*: Реализация гарантирует полную переносимость работы пайплайна между локальной ОС Windows разработчика и серверами CI/CD под Linux без ручной правки путей.
+## 🎯 General Description
+This skill is designed for automatic and semi-automatic verification of technical task specifications (TSK files) before development begins, as well as for verifying the quality of the completed implementation during task submission. Using this standard eliminates the risks of missed requirements, security vulnerabilities, and "blind" coding without tests.
 
 ---
 
-## ⚙️ Алгоритм работы (Workflow)
+## 🔍 Five Technical Task (TSK) Quality Criteria
 
-Когда пользователь или система запрашивает верификацию задачи (например, фразой *«Проверь выполнение задачи TSK-INF-01»* или *«Аудит спецификации TSK-PAR-02»*):
+Each task during specification audit or code acceptance must be evaluated against the following criteria:
 
-1.  **Анализ спецификации**: Прочесть файл задачи в `.antigravitycli/tasks/TSK-XXX.md`.
-2.  **Покомпонентный аудит**: Оценить спецификацию или текущий код по 5 критериям выше с выставлением оценок по 10-балльной шкале (где 10 — абсолютное соответствие, а оценки ниже 7 требуют обязательного разбора в рекомендациях).
-3.  **Локальное TDD-тестирование** (при приемке кода):
-    *   Проверить, что тесты запускаются изолированно.
-    *   Запустить тесты локально и убедиться, что они проходят (`Green Phase`).
-    *   Запустить расчет покрытия кода (`pytest --cov=ude tests/`) и проверить соблюдение лимита `>= 90%`.
-4.  **Формирование отчета**: Заполнить матрицу оценки и дать четкие рекомендации по устранению дефектов.
-5.  **Публикация результатов в документации**: После успешной верификации выполнения задачи обновить агрегированный реестр соответствия в проектной документации по пути `design-docs/docs/srs/task_compliance.md`, указав актуальный статус TDD, процент покрытия кода, статус безопасности и общий итог приемки.
+### 1. Scope & Atomicity
+*   *Review Question*: Does the task solve exactly one indivisible technical problem within its component? Is there any "feature creep"?
+*   *Success Criterion*: The task specification describes a strictly limited set of changes in one or two related modules.
+
+### 2. TDD Completeness
+*   *Review Question*: Are the failure (**RED**) and success (**GREEN**) phases described in detail? Are the target test files, input datasets, and specific assertions specified?
+*   *Success Criterion*: A clear test execution command and deterministic expected results are provided for both phases.
+
+### 3. Architectural Traceability
+*   *Review Question*: Does the task reference functional or non-functional requirements from the SRS (`REQ-FUN-XX` / `REQ-NFN-XX`)? Does the specification require the implementation of docstrings with tracing strings like `Satisfies REQ-FUN-XX` directly in class and method code?
+*   *Success Criterion*: Complete requirements tracing is present in the specification, and the verification of docstring metadata in the code is mandatory.
+
+### 4. Safety & Guard Rails
+*   *Review Question*: If the task performs dangerous operations (writing files to disk, recursive deletion of directories, running system processes via `subprocess`), are there strict defensive checks (guard clauses)? Must the code raise standard exceptions (e.g., `ValueError`, `PermissionError`) when passed invalid or potentially destructive paths (such as `/`, `.`, `..`)?
+*   *Success Criterion*: A dedicated safety section is present in the specification and corresponding tests for exception raising under invalid arguments are implemented.
+
+### 5. Path Portability & Isolation
+*   *Review Question*: Is hardcoding of paths eliminated in the task? Are all paths to files and directories resolved dynamically relative to the configuration file (`ude_config.json`) or package directory, rather than relative to the process's Current Working Directory (CWD)?
+*   *Success Criterion*: The implementation guarantees full portability of pipeline execution between the developer's local Windows OS and CI/CD servers under Linux without manual path edits.
 
 ---
 
-## 📄 Шаблон отчета о верификации (Output Template)
+## ⚙️ Workflow
 
-Ответ должен генерироваться строго в следующем формате:
+When a user or system requests task verification (e.g., with the phrase *"Verify task execution TSK-INF-01"* or *"Audit specification TSK-PAR-02"*):
+
+1.  **Analyze Specification**: Read the task file at `.antigravitycli/tasks/TSK-XXX.md`.
+2.  **Component Audit**: Evaluate the specification or current code against the 5 criteria above, assigning ratings on a 10-point scale (where 10 is absolute compliance, and ratings below 7 require mandatory resolution in recommendations).
+3.  **Local TDD Testing** (for code acceptance stage):
+    *   Verify that tests run in isolation.
+    *   Run tests locally and ensure they pass (`Green Phase`).
+    *   Run code coverage calculation (`pytest --cov=ude tests/`) and verify compliance with the `>= 90%` limit.
+4.  **Formulate the Report**: Complete the evaluation matrix and provide clear recommendations for eliminating defects.
+5.  **Publish Results in Documentation**: After successful task verification, update the aggregated compliance registry in the project documentation at `design-docs/docs/srs/task_compliance.md`, specifying the actual TDD status, code coverage percentage, safety status, and overall acceptance outcome.
+
+---
+
+## 📄 Output Template
+
+The response must be generated strictly in the following format:
 
 ```markdown
-# Отчет о верификации задачи: [ID Задачи — Название]
+# Task Verification Report: [Task ID — Title]
 
-## 📊 Матрица оценки качества
+## 📊 Quality Evaluation Matrix
 
-| Критерий качества | Статус | Оценка (1-10) | Ключевые выводы и наблюдения |
+| Quality Criterion | Status | Score (1-10) | Key Findings and Observations |
 | :--- | :---: | :---: | :--- |
-| **Scope & Atomicity (Атомарность)** | 🟢/🟡/🔴 | [1-10] | [Описание] |
-| **TDD Completeness (Полнота TDD)** | 🟢/🟡/🔴 | [1-10] | [Описание] |
-| **Traceability (Прослеживаемость)** | 🟢/🟡/🔴 | [1-10] | [Описание] |
-| **Safety & Guard Rails (Безопасность)** | 🟢/🟡/🔴 | [1-10] | [Описание] |
-| **Path Portability (Портативность)** | 🟢/🟡/🔴 | [1-10] | [Описание] |
+| **Scope & Atomicity** | 🟢/🟡/🔴 | [1-10] | [Description] |
+| **TDD Completeness** | 🟢/🟡/🔴 | [1-10] | [Description] |
+| **Traceability** | 🟢/🟡/🔴 | [1-10] | [Description] |
+| **Safety & Guard Rails** | 🟢/🟡/🔴 | [1-10] | [Description] |
+| **Path Portability** | 🟢/🟡/🔴 | [1-10] | [Description] |
 
-*Шкала статусов: 🟢 Отлично (соответствует на 100%), 🟡 Требует доработки (есть риски), 🔴 Критический дефект (блокирует разработку).*
-*Оценки ниже 7 баллов требуют обязательных рекомендаций по исправлению.*
+*Status Scale: 🟢 Excellent (100% compliant), 🟡 Requires Revision (minor risks), 🔴 Critical Defect (blocks development).*
+*Scores below 7 require mandatory resolution in recommendations.*
 
-## 🔍 Детальные выводы и рекомендации
-*   **Замечание 1 ([Критерий])**: Описание проблемы в спецификации или коде. *Рекомендация*: Конкретные шаги по исправлению или код-ревью.
-*   **Замечание 2 ([Критерий])**: Описание проблемы. *Рекомендация*: Как переписать.
+## 🔍 Detailed Findings and Recommendations
+*   **Observation 1 ([Criterion])**: Problem description in the specification or code. *Recommendation*: Specific steps for resolution or code review.
+*   **Observation 2 ([Criterion])**: Problem description. *Recommendation*: How to rewrite it.
 
-## 🧪 Результаты TDD-тестирования (для этапа приемки кода)
-- **Статус тестов**: `[Успешно / Падение]`
-- **Запущенная команда**: `poetry run pytest tests/test_...py`
-- **Процент покрытия кода затронутых файлов**: `[XX%]` (соответствует/не соответствует требованию `>= 90%`)
-- **Проверка Docstrings (Трассировка)**: `[Проверено: OK / Нарушено (описание)]`
+## 🧪 TDD Testing Results (for code acceptance stage)
+- **Test Status**: `[Passed / Failed]`
+- **Executed Command**: `poetry run pytest tests/test_...py`
+- **Code Coverage Percentage for Affected Files**: `[XX%]` (complies/does not comply with `>= 90%` requirement)
+- **Docstrings Verification (Traceability)**: `[Verified: OK / Violated (description)]`
 ```
 
 ---
 
-## ⚠️ Распространенные ошибки при верификации задач
-*   **Игнорирование TDD**: Принятие задачи, если тесты были написаны *после* реализации кода, без фиксации падающего состояния (RED Phase).
-*   **Отсутствие защитных проверок**: Согласование кода коллекторов или парсеров без обработки некорректных аргументов, пустых строк или путей за пределами папки проекта.
-*   **Локальная зависимость**: Написание тестов, которые успешно проходят на машине разработчика, но падают в CI/CD из-за разделителей путей (`\` vs `/`) или жестко закодированных дисков (`D:\`).
+## ⚠️ Common Verification Pitfalls
+*   **Ignoring TDD**: Accepting a task if tests were written *after* the implementation code, without capturing a failing state (RED Phase).
+*   **Lack of Defensive Checks**: Approving collector or parser code without handling incorrect arguments, empty strings, or paths outside the project directory.
+*   **Local Environment Dependency**: Writing tests that pass successfully on the developer's machine but fail in CI/CD due to path separators (`\` vs `/`) or hardcoded drive letters (`D:\`).

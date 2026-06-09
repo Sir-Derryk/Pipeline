@@ -1,58 +1,58 @@
-# Методологии и стили тестирования (Testing Style)
+# Testing Methodologies and Styles
 
-Этот документ регламентирует подход к тестированию кодовой базы UDE и детально описывает правила применения выбранной методологии разработки.
+This document regulates the approach to testing the UDE codebase and details the rules for applying the selected development methodology.
 
 ---
 
-## 🔴 1. Основной подход: TDD (Test-Driven Development)
+## 🔴 1. Primary Approach: TDD (Test-Driven Development)
 
-Основной методологией написания и проверки кода в проекте UDE утверждена **разработка через тестирование (Test-Driven Development — TDD)**.
+**Test-Driven Development (TDD)** is established as the primary methodology for writing and verifying code in the UDE project.
 
-Это означает, что **тесты пишутся до написания самого бизнес-кода**. Данный подход позволяет проектировать чистую архитектуру, минимизировать связность кода и гарантировать высокое покрытие тестами с самого начала.
+This means that **tests are written before the production code itself**. This approach ensures a clean architecture, minimizes code coupling, and guarantees high test coverage from the very beginning.
 
-### Жизненный цикл TDD (Red-Green-Refactor):
+### TDD Lifecycle (Red-Green-Refactor):
 
 ```mermaid
 graph TD
-    RED[1. RED: Написать тест, который падает] --> GREEN[2. GREEN: Написать минимальный код, чтобы тест прошел]
-    GREEN --> REFACTOR[3. REFACTOR: Улучшить структуру кода без изменения поведения]
+    RED["1. RED: Write a failing test"] --> GREEN["2. GREEN: Write minimal code to pass the test"]
+    GREEN --> REFACTOR["3. REFACTOR: Clean up code structure without changing behavior"]
     REFACTOR --> RED
 ```
 
-1.  **Красный этап (RED)**:
-    *   Разработчик пишет тест для новой функциональности (например, парсинг специфического тега в комментариях).
-    *   Тест запускается и **обязательно должен упасть** (или не скомпилироваться), подтверждая, что проверяемой логики еще нет.
-2.  **Зеленый этап (GREEN)**:
-    *   Разработчик пишет **минимально необходимый код**, чтобы тест успешно прошел.
-    *   На этом этапе допускается неоптимальный или "грязный" код — главная цель максимально быстро пройти тест.
-3.  **Этап рефакторинга (REFACTOR)**:
-    *   Разработчик проводит рефакторинг только что написанного кода: устраняет дублирование, выделяет абстракции, улучшает именование и структуру.
-    *   Тесты запускаются повторно и должны оставаться зелеными.
+1.  **Red Phase (RED)**:
+    *   The developer writes a test for a new piece of functionality (e.g., parsing a specific comment tag).
+    *   The test is executed and **must fail** (or fail to compile), confirming that the verified logic does not exist yet.
+2.  **Green Phase (GREEN)**:
+    *   The developer writes the **minimal code required** to make the test pass successfully.
+    *   Inbound non-optimal or "dirty" code is acceptable at this stage — the primary goal is to pass the test as quickly as possible.
+3.  **Refactoring Phase (REFACTOR)**:
+    *   The developer refactors the newly written code: removing duplication, isolating abstractions, improving naming and structure.
+    *   Tests are run again and must remain green.
 
 ---
 
-## 🛠️ 2. Инструменты тестирования
+## 🛠️ 2. Testing Tools
 
-### Для Python:
-*   Фреймворк: **pytest**.
-*   Команда запуска тестов: `pytest` из корня проекта или директории тестов.
-*   Рекомендуется использование фикстур (`fixtures`) для подготовки тестового окружения (например, мокирование файловой системы или передача тестовых конфигов).
+### For Python:
+*   Framework: **pytest**.
+*   Test Execution Command: `pytest` from the project root or the tests directory.
+*   The use of `fixtures` is recommended for preparing test environments (e.g., mocking the filesystem or injecting test configs).
 
-### Для TypeScript:
-*   Фреймворк: **Jest** (или **Vitest** в зависимости от финальной конфигурации окружения).
-*   Команда запуска тестов: `npm test` или `npm run test:watch` (для непрерывного перезапуска тестов в режиме TDD).
+### For TypeScript:
+*   Framework: **Jest** (or **Vitest** depending on the final environment configuration).
+*   Test Execution Command: `npm test` or `npm run test:watch` (for continuous test restarts in TDD mode).
 
 ---
 
-## 📏 3. Правила написания тестов
+## 📏 3. Rules for Writing Tests
 
-1.  **Чистота тестов (F.I.R.S.T.)**:
-    *   **Fast (Быстрые)**: Тесты должны выполняться за миллисекунды. Медленные тесты ломают цикл TDD.
-    *   **Independent (Изолированные)**: Тесты не должны зависеть друг от друга или от порядка их выполнения.
-    *   **Repeatable (Повторяемые)**: Тесты должны давать один и тот же результат в любой среде (на локальной машине, в CI/CD).
-    *   **Self-Validating (Самопроверяемые)**: Тест должен автоматически выдавать результат (успешно/упал) без необходимости ручного анализа логов.
-    *   **Timely (Своевременные)**: Тесты пишутся строго *до* написания продакшн-кода.
-2.  **Структурирование теста (AAA - Arrange, Act, Assert)**:
-    *   `Arrange` (Подготовка): инициализация объектов, подготовка входных данных.
-    *   `Act` (Действие): вызов тестируемого метода.
-    *   `Assert` (Проверка): сопоставление полученного результата с ожидаемым.
+1.  **Test Cleanliness (F.I.R.S.T.)**:
+    *   **Fast**: Tests must run within milliseconds. Slow tests disrupt the TDD loop.
+    *   **Independent**: Tests must not depend on each other or their execution order.
+    *   **Repeatable**: Tests must yield identical results in any environment (local machine, CI/CD).
+    *   **Self-Validating**: Tests must automatically report success/failure without requiring manual log analysis.
+    *   **Timely**: Tests are written strictly *before* writing production code.
+2.  **Test Structure (AAA - Arrange, Act, Assert)**:
+    *   `Arrange`: Instantiating objects, preparing input data.
+    *   `Act`: Invoking the method under test.
+    *   `Assert`: Comparing the obtained result with the expected value.
