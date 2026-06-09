@@ -3,7 +3,7 @@
 ## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
 1. **Цель**: Реализовать парсер выгрузки Doxygen XML с поддержкой четырех языков программирования и трансляцией структуры в объект IR.
 2. **Шаги реализации**:
-   * Создать файл `universal_document_engine/parsers/doxygen.py`, унаследовав класс `DoxygenXmlParser` от `BaseParser`.
+   * Создать файл `oda_ude/parsers/doxygen.py`, унаследовав класс `DoxygenXmlParser` от `BaseParser`.
    * Реализовать логику:
      * Чтение корневого файла `index.xml` для поиска всех связующих файлов (`class`, `namespace` и др.).
      * Рекурсивный парсинг XML-файлов сущностей (с использованием `lxml` или `xml.etree`).
@@ -14,7 +14,7 @@
        * Парсинг псевдонимов типов (`typedef` / `type alias`).
        * Идентификация шаблонов (с угловыми скобками `< >`) в названиях классов и структур (например, `NwExchangeTraits< NwExchangeType::kNw2Ifc >`), чтобы в последующих рендерерах символы `<` и `>` экранировались для корректного отображения на портале.
        * Автоматическое отсечение компиляторных экспортных макросов (например, `NWDBEXPORT`, `MAPEXPORT`).
-       * Опциональная фильтрация низкоуровневой служебной обвязки SWIG (поля `swigCPtr`, `swigCMemOwn`, методы `Dispose()`, `getCPtr()` и др.) при выставленном флаге `exclude_swig_internals` в `output.json`.
+       * Опциональная фильтрация низкоуровневой служебной обвязки SWIG (поля `swigCPtr`, `swigCMemOwn`, методы `Dispose()`, `getCPtr()` и др.) при выставленном флаге `exclude_swig_internals` в `ude_config.json`.
      * Конвертация данных в типизированную схему `ProjectCatalog`.
 
 ## 🧪 Часть 2: Инструкция по проверке результата (Verification & TDD Scenarios)
@@ -26,10 +26,11 @@
      * Корректную типизацию аргументов и возвращаемых типов для каждого языка.
    * Тесты должны упасть (так как парсера нет или он пустой).
 2. **Реализация (TDD Green Phase)**:
-   * Реализовать парсер в `universal_document_engine/parsers/doxygen.py`, аккуратно проходясь по тегам `<compounddef>` и `<memberdef>`.
+   * Реализовать парсер в `oda_ude/parsers/doxygen.py`, аккуратно проходясь по тегам `<compounddef>` и `<memberdef>`.
 3. **Запуск и валидация (TDD Refactor Phase)**:
    * Запустить команду проверки:
      ```bash
      poetry run pytest tests/test_doxygen_parser.py
      ```
    * **Ожидаемый успешный результат**: зеленый статус, парсер корректно маппит XML в структуры IR Pydantic.
+

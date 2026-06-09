@@ -16,7 +16,7 @@
    * Написать `tests/test_integration_pipeline.py`.
    * Запустить проверку покрытия:
      ```bash
-     poetry run pytest --cov=universal_document_engine tests/
+     poetry run pytest --cov=oda_ude tests/
      ```
    * Убедиться, что тесты падают или показывают недостаточное покрытие (менее 90%).
 2. **Реализация (TDD Green Phase)**:
@@ -24,6 +24,7 @@
 3. **Запуск и валидация (TDD Refactor Phase)**:
    * Запустить команду финальной проверки:
      ```bash
-     poetry run pytest --cov=universal_document_engine --cov-fail-under=90 tests/
+     poetry run pytest --cov=oda_ude --cov-fail-under=90 tests/
      ```
    * **Ожидаемый успешный результат**: все тесты зеленые, общий процент покрытия кодовой базы строго **не менее `90%`**.
+

@@ -3,7 +3,7 @@
 ## 📌 Часть 1: Инструкция по выполнению (Implementation Guide)
 1. **Цель**: Реализовать рендеринг каталога IR в структурированные Markdown-файлы с YAML-метаданными, полностью готовые для генератора статики Hugo.
 2. **Шаги реализации**:
-   * Создать файл `universal_document_engine/renderers/hugo_markdown.py`, унаследовав класс `HugoMarkdownRenderer` от `BaseRenderer`.
+   * Создать файл `oda_ude/renderers/hugo_markdown.py`, унаследовав класс `HugoMarkdownRenderer` от `BaseRenderer`.
    * Настроить `jinja2.Environment` для поиска шаблонов разметки.
    * Написать Jinja2-шаблоны для генерации страниц классов, методов и общего индекса.
    * Обеспечить авто-инъекцию YAML-метаданных (front-matter с ключами `title`, `sidebar_position`, `parent`) в начало каждой генерируемой Markdown-страницы.
