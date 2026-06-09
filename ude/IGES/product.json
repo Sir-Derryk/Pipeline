@@ -1,0 +1,14 @@
+{
+    "product_name": "IGES",
+    "docs": [
+        {
+            "type": "api",
+            "id": "iges_api_cpp",
+            "title": "C++ API Reference",
+            "lang": "cpp",
+            "devguide_lang_suffix": "",
+            "path": "iges_api_cpp",
+            "main_page": "index.html"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "product_name": "Map",
+    "docs": [
+        {
+            "type": "api",
+            "id": "map_api_cpp",
+            "title": "C++ API Reference",
+            "lang": "cpp",
+            "devguide_lang_suffix": "",
+            "path": "map_api_cpp",
+            "main_page": "index.html"
+        },
+        {
+            "type": "api",
+            "id": "map_api_cs",
+            "title": "C# API Reference",
+            "lang": "cs",
+            "devguide_lang_suffix": "net",
+            "path": "map_api_cs",
+            "main_page": "index.html"
+        }
+    ]
+}

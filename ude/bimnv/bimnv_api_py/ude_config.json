@@ -1,0 +1,25 @@
+{
+    "project_name": "ODA BimNv Python API Reference",
+    "short_project_name": "BimNv",
+    "src_dir": [
+        "../../../src/_swig/Python/BimNv"
+    ],
+    "static_pages_dir": "./",
+    "output_dir": "bimnv_api_py",
+    "copyright_start_year": 2002,
+    "incremental": true,
+    "max_workers": 8,
+    "collector": {
+        "type": "python",
+        "file_patterns": [
+            "**/*.py"
+        ],
+        "include_private": false
+    },
+    "parser": {
+        "type": "doxygen_xml"
+    },
+    "renderer": {
+        "type": "hugo_markdown"
+    }
+}
