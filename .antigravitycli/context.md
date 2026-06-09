@@ -80,4 +80,6 @@ Pipeline/ (Umbrella Repository)
 - [x] Prepare local Python development environment (virtual environment, poetry/pip, pytest) to begin core module coding.
 - [x] Implement TSK-PAR-02 (Doxygen XML Parser Engine) with 100% test coverage and update compliance registries.
 - [x] Implement TSK-COL-01 (BaseCollector Interface and DoxygenXmlCollector) with 95% statement coverage and safe cleanup guard rails.
+- [x] Implement TSK-NML-01 (Docstring Normalizer to CommonMark Markdown) with 100% statement coverage and Javadoc/Doxygen/Google support.
+
 
