@@ -23,7 +23,7 @@ gantt
     TSK-DAT-03 (Two-Level Build Cache)   :active, t5, after t4, 2d
     section Week 2: Parsing & Collection
     TSK-PAR-01 (Abstract ABC Interfaces) :t6, after t5, 2d
-    TSK-PAR-02 (Doxygen XML Parser Core) :t7, after t6, 3d
+    TSK-PAR-02 (Doxygen XML Parser Core) :active, t7, after t6, 3d
     TSK-COL-01 (Doxygen XML Collector)   :t8, after t7, 2d
     section Week 3: Normalization & Filter
     TSK-NML-01 (CommonMark Normalization):t9, after t8, 4d
@@ -62,7 +62,7 @@ gantt
 6. **`TSK-PAR-01` (Abstract Class Contracts BaseParser & BaseRenderer)**
    * *Goal*: Set up interface definitions (`BaseParser`, `BaseRenderer`) and exception hierarchies (`UdeException`, `ParserError`, `RendererError`) under `ude/interfaces.py`.
    * *Success Criterion*: Direct instantiation attempts of abstract interfaces raise `TypeError`. Classes are fully documented utilizing `Satisfies` tracing comments.
-7. **`TSK-PAR-02` (Doxygen XML Parsing Engine)**
+7. **`TSK-PAR-02` (Doxygen XML Parsing Engine)** [COMPLETED]
    * *Goal*: Build `DoxygenXmlParser` in `ude/parsers/doxygen.py` capable of analyzing structures from C++, C#, Java, and Python. Must parse nested namespaces `::`, templates `< >`, constructors `~`, filter export macros (e.g. `NWDBEXPORT`), and omit SWIG wrapper fields (`swigCPtr`, `Dispose()`).
    * *Success Criterion*: Unit tests verify accurate extraction of complex class XML maps into a clean `ProjectCatalog`.
 8. **`TSK-COL-01` (Doxygen Process Collector)**
