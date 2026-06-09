@@ -77,4 +77,4 @@ Pipeline/ (Umbrella Repository)
 - [x] Integrated requirements audit recommendations into the task checklists.
 - [x] Aligned Gantt milestone schedules (`schedule.md` and `active_plan.md`) with task modifications.
 - [x] Freeze/save version 0.2 of specifications and transition current development focus to version 0.3 ("Prototype Development").
-- [ ] Prepare local Python development environment (virtual environment, poetry/pip, pytest) to begin core module coding.
+- [x] Prepare local Python development environment (virtual environment, poetry/pip, pytest) to begin core module coding.
