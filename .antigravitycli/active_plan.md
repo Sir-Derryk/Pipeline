@@ -29,12 +29,12 @@ gantt
     TSK-NML-01 (CommonMark Normalization):done, t9, after t8, 4d
     TSK-NML-02 (Ignore Tags Filters)     :done, t10, after t9, 3d
     section Week 4: Rendering Engines
-    TSK-RND-01 (Jinja2 & Hugo Markdown)  :active, t11, after t10, 4d
-    TSK-RND-02 (Standalone Static HTML)  :active, t12, after t11, 3d
+    TSK-RND-01 (Jinja2 & Hugo Markdown)  :done, t11, after t10, 4d
+    TSK-RND-02 (Standalone Static HTML)  :done, t12, after t11, 3d
     section Week 5: CLI & Orchestration
-    TSK-CLI-01 (Non-interactive CLI Core):t13, after t12, 2d
-    TSK-CLI-03 (Multi-Target Orchestration):t14, after t13, 2d
-    TSK-CLI-02 (E2E Integration & Coverage):t15, after t14, 3d
+    TSK-CLI-01 (Non-interactive CLI Core):done, t13, after t12, 2d
+    TSK-CLI-03 (Multi-Target Orchestration):done, t14, after t13, 2d
+    TSK-CLI-02 (E2E Integration & Coverage):done, t15, after t14, 3d
 ```
 
 ---
@@ -78,21 +78,21 @@ gantt
     * *Success Criterion*: Excluded entities are entirely absent from the generated `ProjectCatalog`.
 
 ### 📍 Week 4: Template Customization & Multi-Format Rendering
-11. **`TSK-RND-01` (Hugo Markdown Renderer & Front-Matter Metadata)**
+11. **`TSK-RND-01` (Hugo Markdown Renderer & Front-Matter Metadata)** [COMPLETED]
     * *Goal*: Create `HugoMarkdownRenderer` under `ude/renderers/hugo_markdown.py`. Output pages must contain TOML/YAML front-matter (`title`, `sidebar_position`). Properly escape angle brackets `< >` for C++ templates, and compile logical ToC hierarchies into front-matter metadata headers to enable Hugo menu structure mapping.
     * *Success Criterion*: Generated Markdown compiles cleanly in Hugo or Docusaurus with zero route or tag formatting errors.
-12. **`TSK-RND-02` (Standalone Static HTML Compiler)**
+12. **`TSK-RND-02` (Standalone Static HTML Compiler)** [COMPLETED]
     * *Goal*: Implement `HtmlRenderer` in `ude/renderers/static_html.py` utilizing localized Jinja2 templates. Generate cohesive, offline-friendly HTML documentation portals equipped with an interactive responsive sidebar (dynamic folder tree collapsing, draggable vertical splitting with local storage retention, and real-time search filtering, loaded via `file:///` protocol without CORS blocks). Implement standardized entity-type page structures (Header badges, metadata panels, Highlight.js prototypes, and collapsible member lists with subtype indicators).
     * *Success Criterion*: Production of an autonomous, cross-linked reference portal accessible directly inside any browser offline.
 
 ### 📍 Week 5: Command Line Interface & E2E Orchestration
-13. **`TSK-CLI-01` (Non-Interactive CLI Command Processor)**
+13. **`TSK-CLI-01` (Non-Interactive CLI Command Processor)** [COMPLETED]
     * *Goal*: Build `ude/cli.py` on top of `argparse`. Expose parameter switches: `--config`, `--input`, `--format`, `--output`. Return system exit code `0` on success, and custom non-zero codes (like `1` or `2`) on standard failures, logging messages to `stderr`.
     * *Success Criterion*: Seamless, non-interactive execution inside automated scripts with zero prompt dialog blockers.
-14. **`TSK-CLI-03` (Multi-Target Orchestration Engine)**
+14. **`TSK-CLI-03` (Multi-Target Orchestration Engine)** [COMPLETED]
     * *Goal*: Build `UdeOrchestrator` in `ude/orchestrator.py`. Parse decentral `ude_config.json` templates, resolve relative paths relative to the config file's physical parent directory, execute the pipeline chain (collector ➡️ parser ➡️ renderer), and enforce custom error policies.
     * *Success Criterion*: Seamless operation regardless of execution's Current Working Directory (CWD) - verifying path portability.
-15. **`TSK-CLI-02` (E2E Integration Testing & Coverage Verification)**
+15. **`TSK-CLI-02` (E2E Integration Testing & Coverage Verification)** [COMPLETED]
     * *Goal*: Create a comprehensive integration script `tests/test_integration_pipeline.py`. Run a full E2E lifecycle (XML ➡️ IR ➡️ Gzip ➡️ HTML) and write targeted unit tests until total statement coverage reaches `>= 90%`.
     * *Success Criterion*: All automated tests pass successfully, and `pytest-cov` reports a total statement coverage of `>= 90%`.
 

@@ -82,5 +82,8 @@ Pipeline/ (Umbrella Repository)
 - [x] Implement TSK-COL-01 (BaseCollector Interface and DoxygenXmlCollector) with 95% statement coverage and safe cleanup guard rails.
 - [x] Implement TSK-NML-01 (Docstring Normalizer to CommonMark Markdown) with 100% statement coverage and Javadoc/Doxygen/Google support.
 - [x] Implement TSK-NML-02 (Exclusion Filters and Hidden Code Blocks) with 100% statement coverage and support for DOM-IGNORE, cond, and internal.
-
-
+- [x] Implement TSK-RND-01 (Hugo Markdown Renderer & Front-Matter Metadata) with 100% statement coverage.
+- [x] Implement TSK-RND-02 (Standalone Static HTML Compiler) with 100% statement coverage.
+- [x] Implement TSK-CLI-01 (Non-Interactive CLI Command Processor) with 100% statement coverage.
+- [x] Implement TSK-CLI-03 (Multi-Target Orchestration Engine) with 100% statement coverage.
+- [x] Implement TSK-CLI-02 (E2E Integration Testing & Coverage Verification) with 100% statement coverage.
