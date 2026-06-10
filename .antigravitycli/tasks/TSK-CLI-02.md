@@ -1,7 +1,7 @@
 # Task: TSK-CLI-02 — E2E Integration and Coverage Verification (>= 90%)
 
 ## 📌 Part 1: Implementation Guide
-1. **Goal**: Implement complete end-to-end integration tests to assert data flow, maintain codebase test statement coverage strictly `>= 90%` (`REQ-NFN-03`), and support dynamic file prefixing based on entity types across all supported languages (`REQ-FUN-33`).
+1. **Goal**: Implement complete end-to-end integration tests to assert data flow, maintain codebase test statement coverage strictly `>= 90%` (`REQ-NFN-03`), and support dynamic file prefixing based on entity types (classes, structures, interfaces) across all supported languages (`REQ-FUN-33`).
 2. **Implementation Steps**:
    * Create `tests/test_integration_pipeline.py`.
    * Add `entity_type` parameter to `ClassEntity` and resolve index `kind` in the Doxygen parser.
@@ -38,7 +38,7 @@ After the AI completes Part 1 (development) and Part 2 (test validation), you ne
 2. **Verify key task requirements**:
    * [x] Verify integration test file `tests/test_integration_pipeline.py`.
    * [x] Verify that statement coverage is `>= 90%`.
-   * [x] Verify dynamic entity-type prefixing on disk (e.g., `namespace_`, `class_`, `struct_`) for all languages except enum members (`REQ-FUN-33`).
+   * [x] Verify dynamic entity-type prefixing on disk (e.g., `class_`, `struct_`, `interface_`) for all languages (`REQ-FUN-33`).
 
 3. **Verify path portability**:
    * [x] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
