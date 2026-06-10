@@ -1,50 +1,51 @@
 # Task: TSK-RND-02 — Standalone Offline HTML Documentation Compiler
 
 ## 📌 Part 1: Implementation Guide
-1. **Goal**: Implement a compiler using Jinja2 templates to compile structured API catalogs into offline-friendly, responsive HTML documentation portals (`REQ-FUN-03`).
+1. **Goal**: Implement a compiler utilizing Jinja2 templates to build structured API catalogs into offline-friendly, highly responsive standalone HTML documentation portals with dynamic sidebars and premium aesthetic layouts (`REQ-FUN-03`, `REQ-FUN-30`, `REQ-FUN-31`, `REQ-FUN-32`).
+
 2. **Implementation Steps**:
    * Create file `ude/renderers/static_html.py` subclassing `HtmlRenderer` from `BaseRenderer`.
-   * Structure the renderer:
-     * Ingest localized HTML/CSS templates under `ude/templates/`.
-     * Render the entire catalog hierarchy as cross-linked HTML documents.
-     * Construct a responsive navigation sidebar mapping namespaces and classes.
-     * Deliver CSS layouts as standalone assets directly written to output paths.
+   * **CORS-Free Navigation Compile**: Compile the entire project's hierarchical ToC database into a nested JSON structure and serialize it as a global JavaScript variable assignment: `window.UDE_NAV_DATA = { ... };` inside a dedicated file named `nav_data.js`.
+   * **Page Generation**: Ingest standard layouts from `ude/templates/` and generate static HTML files using physical flat-mapped filenames (`REQ-FUN-30`). Ensure all relative hyperlinks among entities resolve correctly.
+   * **Asset Compilation**: The compiler must automatically copy the reference stylesheet `main.css` and all associated graphics (such as subtype indicator icons, e.g., `indicator-method-16.png`) from `refs/NewVersion/bimnv_api_cpp/` into the target output directory (`REQ-FUN-32`).
+   * **Interactive Sidebar Features**:
+     * Include a `<script>` tag in `index.html` loading `nav_data.js` and rendering the collapsible folder tree dynamically.
+     * **Resize Splitter**: Include a draggable element `.OdaDocSplitter` which dynamically changes the width of the sidebar. Write Javascript listener to persist the selected width inside the browser's `localStorage` under the key `ude_sidebar_width` and apply it during page load.
+     * **Real-time Search Filter**: Implement client-side keyup listener on `#sidebarSearch` input that matches search strings against entity labels, auto-expands parent folder nodes, and hides non-matching elements.
+   * **Standardized Entity Layouts**: Each output page must contain:
+     * Header badge with entity-type designation (`[class]`, `[method]`, etc.).
+     * Main description block styled with class `.OdaDocBrief`.
+     * Metadata details panel `.OdaDocContainerTable` showing source file, scope, and parent scopes.
+     * Code prototype block `.OdaDocCodeProto` containing Highlight.js tags.
+     * Collapsible member tables with graphical icons (e.g. `indicator-method-16.png`).
 
 ## 🧪 Part 2: Verification & TDD Scenarios
 1. **TDD Red Phase**:
    * Create test file `tests/test_html_renderer.py`.
    * Write tests asserting:
-     1. HTML assets are correctly written to directories.
-     2. Page structures feature correct sidebar navigation tags.
-     3. Cross-linked class references resolve cleanly (internal relative hyperlinks).
-   * Verify test failure.
+     1. `nav_data.js` is generated with valid JSON structure assigned to `window.UDE_NAV_DATA`.
+     2. Output HTML files include `.OdaDocBrief`, `.OdaDocContainerTable`, and `.OdaDocCodeProto` layout blocks.
+     3. Cross-linked relative paths resolve correctly without broken targets.
+   * Verify test failures.
 2. **TDD Green Phase**:
-   * Implement `HtmlRenderer` using structured Jinja2 templates and assets.
+   * Implement `HtmlRenderer` and associated assets and templates to pass all structure and JSON validation tests.
 3. **TDD Refactor Phase**:
    * Run verification command:
      ```bash
      poetry run pytest tests/test_html_renderer.py
      ```
-   * **Expected Success Result**: All tests pass, verifying compiled static files, menu components, and relative navigations.
 
 ## 👥 Part 3: User Acceptance Scenario
-After the AI completes Part 1 (development) and Part 2 (test validation), you need to perform the final acceptance check:
-
-1. **Run automated tests for manual validation**:
-   Execute in your terminal:
+1. **Run automated tests**:
    ```bash
    cd engine
    poetry run pytest tests/test_html_renderer.py
    ```
-   *Expected Result:* All assertions pass, confirming the standalone compilation.
+   *Expected Result:* Clean pytest run with zero errors.
 
 2. **Verify key task requirements**:
-   * [ ] Verify `HtmlRenderer` is implemented inside `ude/renderers/static_html.py`.
-   * [ ] Verify compiled assets feature responsive design templates and sidebar navigations.
-   * [ ] Verify all cross-references resolve cleanly as offline-compatible links.
-
-3. **Verify path portability**:
-   * [ ] Ensure that there are no hardcoded absolute developer paths in the codebase (all paths must resolve dynamically).
-
-4. **Update compliance registry**:
-   * [ ] Verify that the task status in `design-docs/docs/srs/task_compliance.md` is updated to reflect its current state and test coverage percentage.
+   * [ ] `nav_data.js` file is written, enabling оffline-friendly CORS-free navigation on `file:///` protocol.
+   * [ ] Draggable splitter writes state to `localStorage` under `ude_sidebar_width`.
+   * [ ] Sidebar includes `#sidebarSearch` filtering input.
+   * [ ] The compiler automatically copies the reference `main.css` and visual indicator assets to the output directory, and generated pages render identically to `refs/NewVersion/`.
+   * [ ] Pages feature standardized badges, `.OdaDocBrief`, `.OdaDocContainerTable`, and collapsible lists with indicators.

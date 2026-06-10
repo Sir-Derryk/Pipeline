@@ -16,21 +16,21 @@ gantt
     title UDE MVP v1.0 Detailed Implementation Timeline
     dateFormat  YYYY-MM-DD
     section Week 1: Base & Storage
-    TSK-INF-01 (Env & Poetry Init)       :active, t1, 2026-06-08, 1d
-    TSK-INF-02 (Mock-XML Asset Loader)   :active, t2, after t1, 1d
-    TSK-DAT-01 (Pydantic IR Schema)      :active, t3, after t2, 2d
-    TSK-DAT-02 (Compressed Gzip Storage) :active, t4, after t3, 1d
-    TSK-DAT-03 (Two-Level Build Cache)   :active, t5, after t4, 2d
+    TSK-INF-01 (Env & Poetry Init)       :done, t1, 2026-06-08, 1d
+    TSK-INF-02 (Mock-XML Asset Loader)   :done, t2, after t1, 1d
+    TSK-DAT-01 (Pydantic IR Schema)      :done, t3, after t2, 2d
+    TSK-DAT-02 (Compressed Gzip Storage) :done, t4, after t3, 1d
+    TSK-DAT-03 (Two-Level Build Cache)   :done, t5, after t4, 2d
     section Week 2: Parsing & Collection
-    TSK-PAR-01 (Abstract ABC Interfaces) :t6, after t5, 2d
-    TSK-PAR-02 (Doxygen XML Parser Core) :active, t7, after t6, 3d
-    TSK-COL-01 (Doxygen XML Collector)   :t8, after t7, 2d
+    TSK-PAR-01 (Abstract ABC Interfaces) :done, t6, after t5, 2d
+    TSK-PAR-02 (Doxygen XML Parser Core) :done, t7, after t6, 3d
+    TSK-COL-01 (Doxygen XML Collector)   :done, t8, after t7, 2d
     section Week 3: Normalization & Filter
-    TSK-NML-01 (CommonMark Normalization):t9, after t8, 4d
-    TSK-NML-02 (Ignore Tags Filters)     :t10, after t9, 3d
+    TSK-NML-01 (CommonMark Normalization):done, t9, after t8, 4d
+    TSK-NML-02 (Ignore Tags Filters)     :done, t10, after t9, 3d
     section Week 4: Rendering Engines
-    TSK-RND-01 (Jinja2 & Hugo Markdown)  :t11, after t10, 4d
-    TSK-RND-02 (Standalone Static HTML)  :t12, after t11, 3d
+    TSK-RND-01 (Jinja2 & Hugo Markdown)  :active, t11, after t10, 4d
+    TSK-RND-02 (Standalone Static HTML)  :active, t12, after t11, 3d
     section Week 5: CLI & Orchestration
     TSK-CLI-01 (Non-interactive CLI Core):t13, after t12, 2d
     TSK-CLI-03 (Multi-Target Orchestration):t14, after t13, 2d
@@ -42,24 +42,24 @@ gantt
 ## 🎯 Task Specifications by Milestones
 
 ### 📍 Week 1: Test Environment & Structured Persistence
-1. **`TSK-INF-01` (Poetry Init & pytest Harness)**
+1. **`TSK-INF-01` (Poetry Init & pytest Harness)** [COMPLETED]
    * *Goal*: Set up Python environment under the `engine/` submodule folder, create `pyproject.toml`, and install dependencies (`pydantic>=2.0`, `jinja2`, `lxml`, `pytest`, `pytest-cov`, `black`).
    * *Success Criterion*: `pytest` successfully imports empty module `ude` and passes a basic version assert check (`__version__ == "0.1.0"`).
-2. **`TSK-INF-02` (Mock-XML Asset Loader for Unit Tests)**
+2. **`TSK-INF-02` (Mock-XML Asset Loader for Unit Tests)** [COMPLETED]
    * *Goal*: Create helper class `MockAssetLoader` in `tests/utils.py` and prepare test resources like `index.xml` and `class_definition.xml`.
    * *Success Criterion*: Unit tests load target XML assets as strings dynamically without hardcoded filesytem paths.
-3. **`TSK-DAT-01` (Pydantic IR Schema Validation)**
+3. **`TSK-DAT-01` (Pydantic IR Schema Validation)** [COMPLETED]
    * *Goal*: Implement schemas: `ProjectCatalog`, `NamespaceEntity`, `ClassEntity`, `MethodEntity`, `ParameterField` under `ude/models.py`.
    * *Success Criterion*: Tests assert correct parsing of valid structures and proper validation errors for incorrect datatypes.
-4. **`TSK-DAT-02` (Gzip Compression & Transparent Stream I/O)**
+4. **`TSK-DAT-02` (Gzip Compression & Transparent Stream I/O)** [COMPLETED]
    * *Goal*: Develop `save_compressed_ir` and `load_compressed_ir` inside `ude/storage.py` to serialize/deserialize Pydantic models into Gzip-compressed `.json.gz` formats.
    * *Success Criterion*: Tests verify that compressed binary files are read and written with 100% data integrity compared to their memory equivalents.
-5. **`TSK-DAT-03` (Two-Level Incremental Build Cache Manager)**
+5. **`TSK-DAT-03` (Two-Level Incremental Build Cache Manager)** [COMPLETED]
    * *Goal*: Develop `BuildCacheManager`. L1 Parsing Cache skips processing unchanged XML files (validating file size/mtime and content checksums). L2 Rendering Cache skips writing final output documents if entity signatures and Jinja2 templates remain unaltered.
    * *Success Criterion*: Sequential builds execute with zero redundant file write (I/O) operations.
 
 ### 📍 Week 2: Abstract Contracts & Doxygen XML Collection
-6. **`TSK-PAR-01` (Abstract Class Contracts BaseParser & BaseRenderer)**
+6. **`TSK-PAR-01` (Abstract Class Contracts BaseParser & BaseRenderer)** [COMPLETED]
    * *Goal*: Set up interface definitions (`BaseParser`, `BaseRenderer`) and exception hierarchies (`UdeException`, `ParserError`, `RendererError`) under `ude/interfaces.py`.
    * *Success Criterion*: Direct instantiation attempts of abstract interfaces raise `TypeError`. Classes are fully documented utilizing `Satisfies` tracing comments.
 7. **`TSK-PAR-02` (Doxygen XML Parsing Engine)** [COMPLETED]
@@ -79,10 +79,10 @@ gantt
 
 ### 📍 Week 4: Template Customization & Multi-Format Rendering
 11. **`TSK-RND-01` (Hugo Markdown Renderer & Front-Matter Metadata)**
-    * *Goal*: Create `HugoMarkdownRenderer` under `ude/renderers/hugo_markdown.py`. Output pages must contain TOML/YAML front-matter (`title`, `sidebar_position`). Properly escape angle brackets `< >` for C++ templates to avoid parser issues in SSGs.
+    * *Goal*: Create `HugoMarkdownRenderer` under `ude/renderers/hugo_markdown.py`. Output pages must contain TOML/YAML front-matter (`title`, `sidebar_position`). Properly escape angle brackets `< >` for C++ templates, and compile logical ToC hierarchies into front-matter metadata headers to enable Hugo menu structure mapping.
     * *Success Criterion*: Generated Markdown compiles cleanly in Hugo or Docusaurus with zero route or tag formatting errors.
 12. **`TSK-RND-02` (Standalone Static HTML Compiler)**
-    * *Goal*: Implement `HtmlRenderer` in `ude/renderers/static_html.py` utilizing localized Jinja2 templates. Generate cohesive, offline-friendly HTML documentation portals equipped with sidebar navigation.
+    * *Goal*: Implement `HtmlRenderer` in `ude/renderers/static_html.py` utilizing localized Jinja2 templates. Generate cohesive, offline-friendly HTML documentation portals equipped with an interactive responsive sidebar (dynamic folder tree collapsing, draggable vertical splitting with local storage retention, and real-time search filtering, loaded via `file:///` protocol without CORS blocks). Implement standardized entity-type page structures (Header badges, metadata panels, Highlight.js prototypes, and collapsible member lists with subtype indicators).
     * *Success Criterion*: Production of an autonomous, cross-linked reference portal accessible directly inside any browser offline.
 
 ### 📍 Week 5: Command Line Interface & E2E Orchestration
