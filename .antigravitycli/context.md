@@ -87,3 +87,5 @@ Pipeline/ (Umbrella Repository)
 - [x] Implement TSK-CLI-01 (Non-Interactive CLI Command Processor) with 100% statement coverage.
 - [x] Implement TSK-CLI-03 (Multi-Target Orchestration Engine) with 100% statement coverage.
 - [x] Implement TSK-CLI-02 (E2E Integration Testing & Coverage Verification) with 100% statement coverage.
+- [x] Configure and implement combined VitePress + Hugo publication pipeline with cross-repo automated triggers.
+
