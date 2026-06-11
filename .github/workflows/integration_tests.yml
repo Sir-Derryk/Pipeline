@@ -54,8 +54,9 @@ jobs:
 
       - name: Run Page Existence & Signature Verification
         run: |
-          # Diagnostics: list all compiled files under the api directory to verify their structure
-          find ./user-docs/.vitepress/dist/api/ -type f || true
+          # Diagnostics: print all compiled HTML files inside user-docs/.vitepress/dist to trace their output paths
+          python -c "import os; [print(os.path.join(r, f).replace('\\\\', '/')) for r, _, fs in os.walk('user-docs/.vitepress/dist') for f in fs if f.endswith('.html')]" || true
           # Run our verification script against the locally compiled distribution
           python Tests/verify_pages.py --local-dir ./user-docs/.vitepress/dist
+
 
