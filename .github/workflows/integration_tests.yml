@@ -2,9 +2,9 @@ name: Portal Integration Tests
 
 on:
   push:
-    branches: [ master ]  # Запуск при изменениях в самом родительском репозитории
+    branches: [ master ]  # Trigger on changes in the parent repository itself
   repository_dispatch:
-    types: [ trigger-integration-tests ]  # Запуск по сигналу от сабмодулей
+    types: [ trigger-integration-tests ]  # Trigger on event dispatched from submodules
 
 jobs:
   run-tests:
@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           token: ${{ secrets.PIPELINE_GITHUB_TOKEN || github.token }}
-          submodules: 'recursive'  # Скачиваем абсолютно всё
+          submodules: 'recursive'  # Fetch all submodules recursively
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -35,21 +35,24 @@ jobs:
         env:
           PYTHONPATH: engine
         run: |
-          # Создаем симлинк для совместимости путей конфигурации на линукс-сервере
+          # Create symlink for configuration path compatibility on Linux server
           ln -s ../engine ./user-docs/engine
-          # 1. Сборка VitePress
+          # 1. VitePress Build
           cd user-docs
           npm install
           npm run docs:build
           cd ..
-          # 2. Сборка API-референса через UDE
+          # 2. API Reference Generation via UDE
           python -m ude.cli --config ./user-docs/ude_config_self.json
-          # 3. Компиляция Hugo API-референса во вложенную папку дистрибутива VitePress
+          # 3. Compile Hugo API Reference into the nested subdirectory of VitePress dist
           cd user-docs/hugo-site
+          echo "" >> hugo.toml
+          echo "[permalinks]" >> hugo.toml
+          echo "  api = \"/:filename/\"" >> hugo.toml
           hugo --destination ../.vitepress/dist/api
           cd ../..
 
       - name: Run Page Existence & Signature Verification
         run: |
-          # Запуск нашего скрипта верификации над собранным локальным дистрибутивом
+          # Run our verification script against the locally compiled distribution
           python Tests/verify_pages.py --local-dir ./user-docs/.vitepress/dist

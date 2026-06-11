@@ -5,7 +5,7 @@ import urllib.request
 import urllib.error
 from html.parser import HTMLParser
 
-# Простейший парсер для извлечения текстового содержимого из HTML
+# A simple parser to extract text content from HTML
 class HTMLTextExtractor(HTMLParser):
     def __init__(self):
         super().__init__()
@@ -18,28 +18,28 @@ class HTMLTextExtractor(HTMLParser):
         return " ".join(self.text_content)
 
 def extract_signature_from_md(md_path):
-    """Извлекает первый заголовок # в качестве сигнатуры страницы"""
+    """Extracts the first '#' heading as the page signature"""
     try:
         with open(md_path, 'r', encoding='utf-8') as f:
             for line in f:
                 line = line.strip()
                 if line.startswith('# '):
-                    # Возвращаем чистый текст заголовка без символа '#'
+                    # Return the clean heading text without the '#' character
                     return line[2:].strip()
     except Exception as e:
         print(f"[Warning] Failed to read {md_path}: {e}")
     return None
 
 def get_expected_pages(user_docs_root):
-    """Сканирует исходники и возвращает словарь {route: signature}"""
+    """Scans sources and returns a dictionary of {route: signature}"""
     expected = {}
 
-    # Добавляем главную страницу
+    # Add the main page
     index_md = os.path.join(user_docs_root, "index.md")
     if os.path.exists(index_md):
         expected["/"] = "Universal Document Engine"
 
-    # Обходим файлы руководств (VitePress)
+    # Traverse guide files (VitePress)
     docs_dir = os.path.join(user_docs_root, "docs")
     if os.path.exists(docs_dir):
         for root, _, files in os.walk(docs_dir):
@@ -47,23 +47,23 @@ def get_expected_pages(user_docs_root):
                 if file.endswith(".md"):
                     full_path = os.path.join(root, file)
                     rel_path = os.path.relpath(full_path, docs_dir).replace("\\", "/")
-                    route_name = rel_path[:-3]  # отрезаем .md
+                    route_name = rel_path[:-3]  # strip .md extension
                     route = f"/docs/{route_name}"
                     sig = extract_signature_from_md(full_path)
                     if sig:
                         expected[route] = sig
 
-    # Обходим файлы API Reference (Hugo)
+    # Traverse API Reference files (Hugo)
     api_dir = os.path.join(user_docs_root, "hugo-site", "content", "api")
     if os.path.exists(api_dir):
-        # Добавляем главную страницу API
+        # Add the main API page
         expected["/api"] = "UDE API Reference"
         for root, _, files in os.walk(api_dir):
             for file in files:
                 if file.endswith(".md") and file != "_index.md":
                     full_path = os.path.join(root, file)
                     rel_path = os.path.relpath(full_path, api_dir).replace("\\", "/")
-                    route_name = rel_path[:-3]  # отрезаем .md
+                    route_name = rel_path[:-3]  # strip .md extension
                     route = f"/api/{route_name}"
                     sig = extract_signature_from_md(full_path)
                     if sig:
@@ -72,15 +72,15 @@ def get_expected_pages(user_docs_root):
     return expected
 
 def verify_local(local_dir, route, signature):
-    """Локальная проверка файла на диске"""
-    # В VitePress/Docusaurus роуты компилируются в index.html во вложенных папках
+    """Local file check on disk"""
+    # In VitePress/Docusaurus, routes are compiled to index.html in nested directories
     if route == "/":
         file_path = os.path.join(local_dir, "index.html")
     else:
-        # Убираем ведущий слэш для корректного склеивания путей
+        # Remove the leading slash for correct path joining
         clean_route = route.lstrip("/")
         file_path = os.path.join(local_dir, clean_route, "index.html")
-        # Также проверяем альтернативный вариант flat-файлов (например, docs/getting-started.html)
+        # Also check the alternative flat file option (e.g., docs/getting-started.html)
         if not os.path.exists(file_path):
             file_path = os.path.join(local_dir, f"{clean_route}.html")
 
@@ -100,9 +100,9 @@ def verify_local(local_dir, route, signature):
         return False, f"Error reading file: {e}"
 
 def verify_remote(base_url, route, signature):
-    """Удаленная проверка страницы по HTTP"""
+    """Remote page check via HTTP"""
     url = base_url.rstrip("/") + route
-    # Для VitePress роуты обычно заканчиваются слэшем
+    # For VitePress, routes usually end with a slash
     if route != "/":
         url += "/"
         
