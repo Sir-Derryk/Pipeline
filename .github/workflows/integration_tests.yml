@@ -24,7 +24,7 @@ jobs:
       - name: Install System Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y doxygen
+          sudo apt-get install -y doxygen hugo
 
       - name: Install Python Dependencies
         run: |
@@ -44,6 +44,10 @@ jobs:
           cd ..
           # 2. Сборка API-референса через UDE
           python -m ude.cli --config ./user-docs/ude_config_self.json
+          # 3. Компиляция Hugo API-референса во вложенную папку дистрибутива VitePress
+          cd user-docs/hugo-site
+          hugo --destination ../.vitepress/dist/api
+          cd ../..
 
       - name: Run Page Existence & Signature Verification
         run: |

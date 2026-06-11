@@ -33,26 +33,42 @@ def extract_signature_from_md(md_path):
 def get_expected_pages(user_docs_root):
     """Сканирует исходники и возвращает словарь {route: signature}"""
     expected = {}
-    docs_dir = os.path.join(user_docs_root, "docs")
-    if not os.path.exists(docs_dir):
-        return expected
 
     # Добавляем главную страницу
     index_md = os.path.join(user_docs_root, "index.md")
     if os.path.exists(index_md):
         expected["/"] = "Universal Document Engine"
 
-    # Обходим файлы руководств
-    for root, _, files in os.walk(docs_dir):
-        for file in files:
-            if file.endswith(".md"):
-                full_path = os.path.join(root, file)
-                rel_path = os.path.relpath(full_path, docs_dir).replace("\\", "/")
-                route_name = rel_path[:-3]  # отрезаем .md
-                route = f"/docs/{route_name}"
-                sig = extract_signature_from_md(full_path)
-                if sig:
-                    expected[route] = sig
+    # Обходим файлы руководств (VitePress)
+    docs_dir = os.path.join(user_docs_root, "docs")
+    if os.path.exists(docs_dir):
+        for root, _, files in os.walk(docs_dir):
+            for file in files:
+                if file.endswith(".md"):
+                    full_path = os.path.join(root, file)
+                    rel_path = os.path.relpath(full_path, docs_dir).replace("\\", "/")
+                    route_name = rel_path[:-3]  # отрезаем .md
+                    route = f"/docs/{route_name}"
+                    sig = extract_signature_from_md(full_path)
+                    if sig:
+                        expected[route] = sig
+
+    # Обходим файлы API Reference (Hugo)
+    api_dir = os.path.join(user_docs_root, "hugo-site", "content", "api")
+    if os.path.exists(api_dir):
+        # Добавляем главную страницу API
+        expected["/api"] = "UDE API Reference"
+        for root, _, files in os.walk(api_dir):
+            for file in files:
+                if file.endswith(".md") and file != "_index.md":
+                    full_path = os.path.join(root, file)
+                    rel_path = os.path.relpath(full_path, api_dir).replace("\\", "/")
+                    route_name = rel_path[:-3]  # отрезаем .md
+                    route = f"/api/{route_name}"
+                    sig = extract_signature_from_md(full_path)
+                    if sig:
+                        expected[route] = sig
+
     return expected
 
 def verify_local(local_dir, route, signature):
