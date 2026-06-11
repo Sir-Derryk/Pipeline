@@ -10,7 +10,7 @@ An extensible, pipeline-based software tool for technical documentation generati
 - **Primary Source Input**: Doxygen XML
 - **Testing Framework**: pytest (standards defined in `testing_style.md`)
 
-## 📐 Repository and Pipeline Architecture
+## 📐 UDE Portal Architecture
 The project is structured as an "umbrella" repository linking specialized Git Submodules:
 
 ```text
@@ -23,7 +23,7 @@ Pipeline/ (Umbrella Repository)
                             # User/Admin Guides and Portal (VitePress — premium layout and design)
 ```
 
-### Documentation Pipelines and Triggers:
+### UDE Publisher Pipelines and Triggers:
 1. **Pipeline #1 (Project Documentation)**: 
    - *Trigger*: Commits in `design-docs/**` or updates under `.antigravitycli/**`.
    - *Result*: Compiles the design knowledge base using **Docusaurus** (isolated search and full versioning of the architecture).
@@ -76,7 +76,7 @@ Pipeline/ (Umbrella Repository)
 - [x] Expanded, verified, and detailed the developer TDD task specifications under `.antigravitycli/tasks/`.
 - [x] Integrated requirements audit recommendations into the task checklists.
 - [x] Aligned Gantt milestone schedules (`schedule.md` and `active_plan.md`) with task modifications.
-- [x] Freeze/save version 0.2 of specifications and transition current development focus to version 0.3 ("Prototype Development").
+- [x] Freeze/save version 0.3 of specifications and transition current development focus to version 0.4 ("Documentation").
 - [x] Prepare local Python development environment (virtual environment, poetry/pip, pytest) to begin core module coding.
 - [x] Implement TSK-PAR-02 (Doxygen XML Parser Engine) with 100% test coverage and update compliance registries.
 - [x] Implement TSK-COL-01 (BaseCollector Interface and DoxygenXmlCollector) with 95% statement coverage and safe cleanup guard rails.
@@ -87,5 +87,5 @@ Pipeline/ (Umbrella Repository)
 - [x] Implement TSK-CLI-01 (Non-Interactive CLI Command Processor) with 100% statement coverage.
 - [x] Implement TSK-CLI-03 (Multi-Target Orchestration Engine) with 100% statement coverage.
 - [x] Implement TSK-CLI-02 (E2E Integration Testing & Coverage Verification) with 100% statement coverage.
-- [x] Configure and implement combined VitePress + Hugo publication pipeline with cross-repo automated triggers.
+- [x] Configure and implement UDE Publisher (combined VitePress + Hugo publication pipeline with cross-repo automated triggers).
 
