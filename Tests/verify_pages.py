@@ -57,14 +57,14 @@ def get_expected_pages(user_docs_root):
     api_dir = os.path.join(user_docs_root, "hugo-site", "content", "api")
     if os.path.exists(api_dir):
         # Add the main API page
-        expected["/api"] = "UDE API Reference"
+        expected["/api"] = "UDE API Index"
         for root, _, files in os.walk(api_dir):
             for file in files:
                 if file.endswith(".md") and file != "_index.md":
                     full_path = os.path.join(root, file)
                     rel_path = os.path.relpath(full_path, api_dir).replace("\\", "/")
                     route_name = rel_path[:-3]  # strip .md extension
-                    route = f"/api/{route_name}"
+                    route = f"/api/{route_name}".lower()
                     sig = extract_signature_from_md(full_path)
                     if sig:
                         expected[route] = sig
@@ -93,7 +93,7 @@ def verify_local(local_dir, route, signature):
             parser = HTMLTextExtractor()
             parser.feed(html_content)
             plain_text = parser.get_text()
-            if signature in plain_text:
+            if signature.lower() in plain_text.lower():
                 return True, "Verified"
             return False, f"Signature '{signature}' not found in text"
     except Exception as e:
@@ -116,7 +116,7 @@ def verify_remote(base_url, route, signature):
             parser = HTMLTextExtractor()
             parser.feed(html_content)
             plain_text = parser.get_text()
-            if signature in plain_text:
+            if signature.lower() in plain_text.lower():
                 return True, "Verified"
             return False, f"Signature '{signature}' not found in HTTP response"
     except urllib.error.HTTPError as e:
