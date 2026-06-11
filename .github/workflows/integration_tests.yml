@@ -35,6 +35,8 @@ jobs:
         env:
           PYTHONPATH: engine
         run: |
+          # Создаем симлинк для совместимости путей конфигурации на линукс-сервере
+          ln -s ../engine ./user-docs/engine
           # 1. Сборка VitePress
           cd user-docs
           npm install
