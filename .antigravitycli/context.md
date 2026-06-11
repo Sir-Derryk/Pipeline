@@ -38,7 +38,7 @@ Pipeline/ (Umbrella Repository)
 - [x] BRD (Business Requirements Document) — *Updated & Completed (covers C++/C#/Java/Python, expanded XML/AST inputs and HTML/Markdown/RAG JSON outputs, addresses automation pain points and EOL tools, moves versioning strictly to project-docs level)*
 - [x] SRS (Software Requirements Specification) — *Updated & Synchronized with the new BRD*
 - [x] SDD (Software Design Document) — *Updated & Detailed (adds BaseParser/BaseRenderer class contracts, decentralized hierarchical JSON configurations, and Doxygen automation)*
-- [ ] User Guide / API Reference / Admin Guide — *To be implemented post-codebase development*
+- [x] User Guide & Admin Deployment Guides — *Completed (Comprehensive 4-chapter manuals written in VitePress portal, verified build integrity)*
 
 ## ❓ Architectural Decisions & Open Issues (Decision Log)
 
