@@ -46,11 +46,13 @@ jobs:
           python -m ude.cli --config ./user-docs/ude_config_self.json
           # 3. Compile Hugo API Reference into the nested subdirectory of VitePress dist
           cd user-docs/hugo-site
-          echo "" >> hugo.toml
-          echo "[permalinks]" >> hugo.toml
-          echo "  api = \"/:filename/\"" >> hugo.toml
           hugo --destination ../.vitepress/dist/api
           cd ../..
+          # 4. Correct the double API nesting in Hugo's output
+          if [ -d "./user-docs/.vitepress/dist/api/api" ]; then
+            mv ./user-docs/.vitepress/dist/api/api/* ./user-docs/.vitepress/dist/api/
+            rm -rf ./user-docs/.vitepress/dist/api/api
+          fi
 
       - name: Run Page Existence & Signature Verification
         run: |
@@ -58,5 +60,3 @@ jobs:
           python -c "import os; [print(os.path.join(r, f).replace('\\\\', '/')) for r, _, fs in os.walk('user-docs/.vitepress/dist') for f in fs if f.endswith('.html')]" || true
           # Run our verification script against the locally compiled distribution
           python Tests/verify_pages.py --local-dir ./user-docs/.vitepress/dist
-
-
