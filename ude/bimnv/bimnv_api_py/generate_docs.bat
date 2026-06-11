@@ -24,7 +24,7 @@ if %errorlevel% neq 0 (
     echo [INFO] Missing required python libraries. Attempting automatic installation...
     python -m pip install pydantic lxml jinja2
     if !errorlevel! neq 0 (
-        echo [ERROR] Failed to install required python packages (pydantic, lxml, jinja2).
+        echo [ERROR] Failed to install required python packages: pydantic, lxml, jinja2.
         exit /b 5
     )
 )
