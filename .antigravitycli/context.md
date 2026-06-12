@@ -89,5 +89,6 @@ Pipeline/ (Umbrella Repository)
 - [x] Implement TSK-CLI-02 (E2E Integration Testing & Coverage Verification) with 100% statement coverage.
 - [x] Configure and implement UDE Publisher (combined VitePress + Hugo publication pipeline with cross-repo automated triggers).
 - [x] Standardize and unify visual appearance and design theme across all three documentation portals (Docusaurus, VitePress, Hugo) to make them completely cohesive, utilizing matching fonts (Inter + JetBrains Mono) and brand color palettes.
+- [x] Freeze/save version 0.4 of specifications and transition current development focus to version 0.5 ("Testing of Documentation").
 
 
