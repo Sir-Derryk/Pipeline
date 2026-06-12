@@ -59,6 +59,11 @@ Pipeline/ (Umbrella Repository)
      - *Parsing (L1)*: Tracks mtime and contents hash of XML files. If unchanged, loads cached IR directly.
      - *Rendering (L2)*: Compares IR signature hash and Jinja2 templates. If unchanged, skips writing target files.
   6. **Path Portability**: Raw paths must not be hardcoded in Python modules. All configurations specify paths relative to their respective configuration files, and the orchestrator dynamically resolves them to absolute paths during execution.
+* **Question 4 (Git Repository Folder Structure & Gitignores Cleanup)**:
+  1. **Source Code Exclusion**: The local `/src` directory contains C++ source files, which are strictly outside of version control and must remain ignored.
+  2. **Precise UDE Exclusions**: Replaced the global `/ude` folder ignore with precise rules ignoring build outputs (Doxygen intermediate XML folders, generated HTML folders, `.json.gz` files, and `.build_cache.json` files) across all product directories (`bimnv`, `facetmodeler`, `iges`, `map`). This ensures that product configurations (such as `product.json` and `ude_config.json`) are correctly tracked by Git, while dynamic build outputs remain excluded.
+  3. **Specification Files Cleanup**: Staged the deletion of 5 obsolete legacy specification files from the parent root repository (`chapter_1_quick_start_structure.md`, `chapter_2_coding_standards_structure.md`, `chapter_3_configurations_structure.md`, `chapter_4_case_study_structure.md`, `ude_portal_blueprint.md`).
+  4. **Submodule Gitignore Upgrade**: Configured ignores for `hugo-site/public/`, `hugo-site/.hugo_build.lock`, and temporary `engine/` symlink in `user-docs/.gitignore`.
 
 ### ⏳ Open Issues (Awaiting Discussion):
 * **Question 5.1 (Single Sign-On (SSO) for Documentation Portals)**: Resolving SSO routing for static sites (Docusaurus and VitePress) hosted on GitHub Pages. Discussion deferred on custom domain routing via Cloudflare Zero Trust Access with OIDC/OAuth providers.
@@ -90,5 +95,6 @@ Pipeline/ (Umbrella Repository)
 - [x] Configure and implement UDE Publisher (combined VitePress + Hugo publication pipeline with cross-repo automated triggers).
 - [x] Standardize and unify visual appearance and design theme across all three documentation portals (Docusaurus, VitePress, Hugo) to make them completely cohesive, utilizing matching fonts (Inter + JetBrains Mono) and brand color palettes.
 - [x] Freeze/save version 0.4 of specifications and transition current development focus to version 0.5 ("Testing of Documentation").
+- [x] Analyze and clean up Git folder structures and `.gitignore` files in parent repository and submodules.
 
 
