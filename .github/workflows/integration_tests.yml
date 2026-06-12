@@ -24,7 +24,12 @@ jobs:
       - name: Install System Dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install -y doxygen hugo
+          sudo apt-get install -y doxygen
+
+      - name: Install Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest'
 
       - name: Install Python Dependencies
         run: |
