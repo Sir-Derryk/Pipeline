@@ -26,8 +26,8 @@ Each requirement or set of requirements must be evaluated against the following 
    * *Success Criterion*: Presence of complete bidirectional traceability, visualized via a Mermaid diagram.
 
 3. **Consistency**
-   * *Review Question*: Do any requirements contradict each other (e.g., speed performance requirements vs. security constraints, or offline local execution vs. cloud AI generation)?
-   * *Success Criterion*: All logical conflicts are resolved through explicit priorities or separation into distinct execution modes.
+   * *Review Question*: Do any requirements contradict each other, or is there a mixture of the universal engine's requirements (e.g., what UDE does as a tool) and the project's own dogfooding documentation portal specifics (VitePress/Docusaurus website integration)?
+   * *Success Criterion*: All logical conflicts are resolved, and universal engine features are strictly decoupled from project-level dogfooding configurations.
 
 4. **Unambiguity**
    * *Review Question*: Are precise mathematical and technical terms used instead of subjective adjectives ("fast", "user-friendly", "secure")?
@@ -101,3 +101,4 @@ graph TD
 * **Subjectivity**: Assigning an "🟢 Excellent / 10 points" score to requirements containing words like "efficiently" or "intuitively".
 * **Excessive Volume**: Copying the entire requirements text into the report. Refer to requirement IDs instead (e.g., `REQ-FUN-12`).
 * **Lack of Recommendations**: Assigning a 🟡 or 🔴 status (or a score < 7) without offering a specific formulation to fix it.
+* **Dogfooding & Scope Confusion**: Mixing requirements for the software engine itself (what UDE must do for *any* input) with requirements for the project's own documentation portal (the website that uses UDE). Specific details like VitePress configurations or UDE's own site-specific file structures must be segregated from the universal engine's functional requirements (SRS).

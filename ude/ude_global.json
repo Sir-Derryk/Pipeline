@@ -4,5 +4,7 @@
         "level": "INFO",
         "file": "../ude_system.log"
     },
-    "doxygen_binary": "doxygen"
+    "doxygen_binary": "doxygen",
+    "stylesheet_dir": "../engine/ude/templates/css/default",
+    "sidebar_structures_dir": "../engine/ude/templates/SidebarStructures/default"
 }

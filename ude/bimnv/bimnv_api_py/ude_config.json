@@ -5,7 +5,7 @@
         "../../../src/_swig/Python/BimNv"
     ],
     "static_pages_dir": "./",
-    "output_dir": "bimnv_api_py",
+    "output_dir": "../../../ude_output/bimnv_api_py",
     "copyright_start_year": 2002,
     "incremental": true,
     "max_workers": 8,
@@ -20,6 +20,6 @@
         "type": "doxygen_xml"
     },
     "renderer": {
-        "type": "hugo_markdown"
+        "type": "html"
     }
 }

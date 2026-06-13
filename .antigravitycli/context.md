@@ -96,5 +96,5 @@ Pipeline/ (Umbrella Repository)
 - [x] Standardize and unify visual appearance and design theme across all three documentation portals (Docusaurus, VitePress, Hugo) to make them completely cohesive, utilizing matching fonts (Inter + JetBrains Mono) and brand color palettes.
 - [x] Freeze/save version 0.4 of specifications and transition current development focus to version 0.5 ("Testing documentation").
 - [x] Analyze and clean up Git folder structures and `.gitignore` files in parent repository and submodules.
-
-
+- [x] Create root-level folder 'ude_output', update all 11 sub-projects to target 'ude_output/' subfolders, and configure bat files to generate only HTML help.
+- [x] Develop Table of Contents (toc_py.md) and machine-readable parser rules (toc_py.json) for Python, matching C++ and C# quality standards.

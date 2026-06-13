@@ -17,8 +17,8 @@ This skill is designed for automatic and semi-automatic verification of technica
 Each task during specification audit or code acceptance must be evaluated against the following criteria:
 
 ### 1. Scope & Atomicity
-*   *Review Question*: Does the task solve exactly one indivisible technical problem within its component? Is there any "feature creep"?
-*   *Success Criterion*: The task specification describes a strictly limited set of changes in one or two related modules.
+*   *Review Question*: Does the task solve exactly one indivisible technical problem within its component? Is there any "feature creep" or mixing of universal engine logic with project-specific documentation portal configurations (dogfooding)?
+*   *Success Criterion*: The task specification describes a strictly limited set of changes in one or two related modules, with clear boundaries between universal engine CLI/source code and site-specific manuals/assets.
 
 ### 2. TDD Completeness
 *   *Review Question*: Are the failure (**RED**) and success (**GREEN**) phases described in detail? Are the target test files, input datasets, and specific assertions specified?
@@ -90,3 +90,4 @@ The response must be generated strictly in the following format:
 *   **Ignoring TDD**: Accepting a task if tests were written *after* the implementation code, without capturing a failing state (RED Phase).
 *   **Lack of Defensive Checks**: Approving collector or parser code without handling incorrect arguments, empty strings, or paths outside the project directory.
 *   **Local Environment Dependency**: Writing tests that pass successfully on the developer's machine but fail in CI/CD due to path separators (`\` vs `/`) or hardcoded drive letters (`D:\`).
+*   **Dogfooding Scope Spillage**: Approving task specifications or implementations that hardcode project-specific assets (e.g., UDE's own website folders, logos, or `ude_portal_blueprint.md` links) directly inside the universal engine code. All such dependencies must be fully configurable and injected from target configurations.

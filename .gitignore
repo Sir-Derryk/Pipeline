@@ -222,18 +222,7 @@ __marimo__/
 /.vs
 
 # UDE Generated build outputs (XML intermediate folders, HTML outputs, and IRs)
-ude/**/facetmodeler_api_cpp/
-ude/**/facetmodeler_api_cs/
-ude/**/facetmodeler_api_java/
-ude/**/facetmodeler_api_py/
-ude/**/iges_api_cpp/
-ude/**/map_api_cpp/
-ude/**/map_api_cs/
-ude/**/bimnv_api_cpp/
-ude/**/bimnv_api_cs/
-ude/**/bimnv_api_java/
-ude/**/bimnv_api_py/
-ude/**/*_html/
+/ude_output/
 ude/**/*.json.gz
 ude/**/.build_cache.json
 

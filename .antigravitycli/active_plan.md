@@ -101,4 +101,4 @@ gantt
 ## 📈 Quality Gates and Acceptance Criteria
 1. **Test Coverage**: statement coverage verified by `pytest-cov` is `>= 90%`.
 2. **Execution Speed**: Compiling 1,000 API-classes takes `< 5 seconds`.
-3. **Git Hygiene**: Output generated files must never be committed to active source control repositories (100% clean Git).
+3. **Git Hygiene**: Output generated files must never be committed to active source control repositories (100% clean Git). All 11 projects output strictly to the unified, root-level `ude_output` directory which is kept out of source control.

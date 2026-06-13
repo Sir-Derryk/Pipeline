@@ -31,7 +31,7 @@ if %errorlevel% neq 0 (
 
 :: 3. Run UDE Orchestrator
 set "PYTHONPATH=%PYTHON_ROOT%"
-python -m ude.orchestrator "%CONFIG%"
+python -m ude.cli --config "%CONFIG%" --format html
 
 if %errorlevel% neq 0 (
     echo [ERROR] UDE Pipeline failed.

@@ -4,7 +4,7 @@
         "../../../src/FacetModeler/include"
     ],
     "static_pages_dir": "Dev_Guides/FacetModeler",
-    "output_dir": "facetmodeler_api_cpp",
+    "output_dir": "../../../ude_output/facetmodeler_api_cpp",
     "copyright_start_year": 2002,
     "incremental": true,
     "max_workers": 8,
@@ -19,6 +19,6 @@
         "type": "doxygen_xml"
     },
     "renderer": {
-        "type": "hugo_markdown"
+        "type": "html"
     }
 }
