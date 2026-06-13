@@ -47,7 +47,7 @@ When a user or system requests task verification (e.g., with the phrase *"Verify
 3.  **Local TDD Testing** (for code acceptance stage):
     *   Verify that tests run in isolation.
     *   Run tests locally and ensure they pass (`Green Phase`).
-    *   Run code coverage calculation (`pytest --cov=ude tests/`) and verify compliance with the `>= 90%` limit.
+    *   Run code coverage calculation (`pytest --cov=ude tests/`) and verify compliance with the `>= 98%` limit.
 4.  **Formulate the Report**: Complete the evaluation matrix and provide clear recommendations for eliminating defects.
 5.  **Publish Results in Documentation**: After successful task verification, update the aggregated compliance registry in the project documentation at `design-docs/docs/srs/task_compliance.md`, specifying the actual TDD status, code coverage percentage, safety status, and overall acceptance outcome.
 
@@ -80,7 +80,7 @@ The response must be generated strictly in the following format:
 ## 🧪 TDD Testing Results (for code acceptance stage)
 - **Test Status**: `[Passed / Failed]`
 - **Executed Command**: `poetry run pytest tests/test_...py`
-- **Code Coverage Percentage for Affected Files**: `[XX%]` (complies/does not comply with `>= 90%` requirement)
+- **Code Coverage Percentage for Affected Files**: `[XX%]` (complies/does not comply with `>= 98%` requirement)
 - **Docstrings Verification (Traceability)**: `[Verified: OK / Violated (description)]`
 ```
 

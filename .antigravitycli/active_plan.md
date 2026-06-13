@@ -5,7 +5,7 @@ This document represents the step-by-step development roadmap for the core **Uni
 The development is conducted strictly following the **TDD (Test-Driven Development)** methodology:
 1. **RED**: Write failing tests for specified interfaces, requirements, and edge cases.
 2. **GREEN**: Implement the minimal, simplest functional code to satisfy and pass the tests.
-3. **REFACTOR**: Refactor and clean up code structures while ensuring code coverage remains `>= 90%`.
+3. **REFACTOR**: Refactor and clean up code structures while ensuring code coverage remains `>= 98%`.
 
 ---
 
@@ -97,12 +97,12 @@ gantt
     * *Goal*: Build `UdeOrchestrator` in `ude/orchestrator.py`. Parse decentral `ude_config.json` templates, resolve relative paths relative to the config file's physical parent directory, execute the pipeline chain (collector ➡️ parser ➡️ renderer), and enforce custom error policies.
     * *Success Criterion*: Seamless operation regardless of execution's Current Working Directory (CWD) - verifying path portability.
 15. **`TSK-CLI-02` (E2E Integration Testing & Coverage Verification)** [COMPLETED]
-    * *Goal*: Create a comprehensive integration script `tests/test_integration_pipeline.py`. Run a full E2E lifecycle (XML ➡️ IR ➡️ Gzip ➡️ HTML) and write targeted unit tests until total statement coverage reaches `>= 90%`.
-    * *Success Criterion*: All automated tests pass successfully, and `pytest-cov` reports a total statement coverage of `>= 90%`.
+    * *Goal*: Create a comprehensive integration script `tests/test_integration_pipeline.py`. Run a full E2E lifecycle (XML ➡️ IR ➡️ Gzip ➡️ HTML) and write targeted unit tests until total statement coverage reaches `>= 98%`.
+    * *Success Criterion*: All automated tests pass successfully, and `pytest-cov` reports a total statement coverage of `>= 98%`.
 
 ---
 
 ## 📈 Quality Gates and Acceptance Criteria
-1. **Test Coverage**: statement coverage verified by `pytest-cov` is `>= 90%`.
+1. **Test Coverage**: statement coverage verified by `pytest-cov` is `>= 98%`.
 2. **Execution Speed**: Compiling 1,000 API-classes takes `< 5 seconds`.
 3. **Git Hygiene**: Output generated files must never be committed to active source control repositories (100% clean Git). All 11 projects output strictly to the unified, root-level `ude_output` directory which is kept out of source control.

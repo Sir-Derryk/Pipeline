@@ -7,7 +7,7 @@
    * **Pageless Node Elimination**: Refactor `engine/ude/renderers/static_html.py` to remove the redundant `Classes` grouping node (`classes_group`) from `nav_tree`. Ensure any collapsible directories in the sidebar map directly to a valid page on disk.
    * **Namespace Landing Pages**: Automatically generate a dedicated landing index page (`namespace_{ns_id}.html`) for every logical namespace/package parsed in the project.
    * **Namespace Template**: Develop a clean standard Jinja2 template (`engine/ude/templates/namespace.html`) detailing all enclosing members (classes, structs, global methods) with high-fidelity indicator icons.
-   * **E2E Integration & Verification**: Extend test suites in `tests/test_html_renderer.py` to assert the presence of namespace files and correctness of category links, keeping total statement coverage strictly >= 90%.
+   * **E2E Integration & Verification**: Extend test suites in `tests/test_html_renderer.py` to assert the presence of namespace files and correctness of category links, keeping total statement coverage strictly >= 98%.
 
 ## 🧪 Part 2: Verification & TDD Scenarios
 1. **TDD Red Phase**:
@@ -16,14 +16,14 @@
 2. **TDD Green Phase**:
    * Refactor rendering engine to output namespace landing pages and remove pageless collapsible nodes.
 3. **TDD Refactor Phase**:
-   * Ensure statement coverage remains `>= 90%` and code style conforms to standards.
+   * Ensure statement coverage remains `>= 98%` and code style conforms to standards.
 
 ## 👥 Part 3: User Acceptance Scenario
 1. **Run automated tests**:
    ```bash
    poetry run pytest tests/test_html_renderer.py
    ```
-   *Expected Result:* All tests pass, and coverage is >= 90%.
+   *Expected Result:* All tests pass, and coverage is >= 98%.
 
 2. **Verify requirements**:
    * [ ] Redundant `Classes` folders are removed from sidebar trees.
