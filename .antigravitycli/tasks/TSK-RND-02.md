@@ -1,7 +1,7 @@
 # Task: TSK-RND-02 — Standalone Offline HTML Documentation Compiler
 
 ## 📌 Part 1: Implementation Guide
-1. **Goal**: Implement a compiler utilizing Jinja2 templates to build structured API catalogs into offline-friendly, highly responsive standalone HTML documentation portals with dynamic sidebars and premium aesthetic layouts (`REQ-FUN-03`, `REQ-FUN-30`, `REQ-FUN-31`, `REQ-FUN-32`).
+1. **Goal**: Implement a compiler utilizing Jinja2 templates to build structured API catalogs into offline-friendly, highly responsive standalone HTML documentation portals with dynamic sidebars and premium aesthetic layouts (`REQ-FUN-03`, `REQ-FUN-30`, `REQ-FUN-31`, `REQ-FUN-32`, `REQ-FUN-34`, `REQ-FUN-35`).
 
 2. **Implementation Steps**:
    * Create file `ude/renderers/static_html.py` subclassing `HtmlRenderer` from `BaseRenderer`.
@@ -12,6 +12,8 @@
      * Include a `<script>` tag in `index.html` loading `nav_data.js` and rendering the collapsible folder tree dynamically.
      * **Resize Splitter**: Include a draggable element `.OdaDocSplitter` which dynamically changes the width of the sidebar. Write Javascript listener to persist the selected width inside the browser's `localStorage` under the key `ude_sidebar_width` and apply it during page load.
      * **Real-time Search Filter**: Implement client-side keyup listener on `#sidebarSearch` input that matches search strings against entity labels, auto-expands parent folder nodes, and hides non-matching elements.
+   * **Custom Catalog Links (`REQ-FUN-34`)**: Support injecting custom, user-defined catalog or index reference links (such as to the VitePress user guides) consistently inside the global navigation sidebar or footers of all compiled documentation types.
+   * **No Empty Sections & Auto-Linking (`REQ-FUN-35`)**: Enforce that every category or group node in the sidebar tree corresponds to a real, navigable page (preventing empty collapsible headers that do not open any page) by mapping category nodes to their first child document or a dynamically generated index page.
    * **Standardized Entity Layouts**: Each output page must contain:
      * Header badge with entity-type designation (`[class]`, `[method]`, etc.).
      * Main description block styled with class `.OdaDocBrief`.
@@ -49,3 +51,5 @@
    * [ ] Sidebar includes `#sidebarSearch` filtering input.
    * [ ] The compiler automatically copies the reference `main.css` and visual indicator assets to the output directory, and generated pages render identically to `refs/NewVersion/`.
    * [ ] Pages feature standardized badges, `.OdaDocBrief`, `.OdaDocContainerTable`, and collapsible lists with indicators.
+   * [ ] Custom catalog/index reference links are successfully injected inside sidebars or footers (`REQ-FUN-34`).
+   * [ ] No empty sidebar sections are left; all collapsible nodes point to valid target index or child pages (`REQ-FUN-35`).
