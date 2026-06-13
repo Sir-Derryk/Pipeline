@@ -84,6 +84,10 @@ gantt
 12. **`TSK-RND-02` (Standalone Static HTML Compiler)** [COMPLETED]
     * *Goal*: Implement `HtmlRenderer` in `ude/renderers/static_html.py` utilizing localized Jinja2 templates. Generate cohesive, offline-friendly HTML documentation portals equipped with an interactive responsive sidebar (dynamic folder tree collapsing, draggable vertical splitting with local storage retention, and real-time search filtering, loaded via `file:///` protocol without CORS blocks). Implement standardized entity-type page structures (Header badges, metadata panels, Highlight.js prototypes, and collapsible member lists with subtype indicators).
     * *Success Criterion*: Production of an autonomous, cross-linked reference portal accessible directly inside any browser offline.
+13. **`TSK-RND-03` (Sidebar Navigation Refactoring & Namespace Landing Pages)** [COMPLETED]
+    * *Goal*: Refactor the standalone HTML compiler sidebar tree to eliminate pageless category folders and implement dedicated index landing pages for all logical namespaces (`REQ-FUN-32`, `REQ-FUN-35`).
+    * *Success Criterion*: Redundant `Classes` folders are removed, and collapsible sidebar elements collapse or expand dynamically, resolving to valid target namespace landing pages.
+
 
 ### 📍 Week 5: Command Line Interface & E2E Orchestration
 13. **`TSK-CLI-01` (Non-Interactive CLI Command Processor)** [COMPLETED]
