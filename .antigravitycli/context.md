@@ -99,3 +99,7 @@ Pipeline/ (Umbrella Repository)
 - [x] Analyze and clean up Git folder structures and `.gitignore` files in parent repository and submodules.
 - [x] Create root-level folder 'ude_output', update all 11 sub-projects to target 'ude_output/' subfolders, and configure bat files to generate only HTML help.
 - [x] Develop Table of Contents (toc_py.md) and machine-readable parser rules (toc_py.json) for Python, matching C++ and C# quality standards.
+- [x] Implement active navigation item auto-focus and vertical scroll-top alignment (TSK-RND-04) for standalone HTML and Hugo layouts, synchronizing all specifications.
+- [x] Implement language-specific entity layouts, dynamic ToC sorting and pruning (TSK-RND-05) with 100% statement coverage.
+- [x] Implement Python SWIG wrapper docstring normalization (Sphinx/RST parsing) and logical parameter merging to produce clean HTML documentation tables.
+

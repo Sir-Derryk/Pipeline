@@ -87,6 +87,13 @@ gantt
 13. **`TSK-RND-03` (Sidebar Navigation Refactoring & Namespace Landing Pages)** [COMPLETED]
     * *Goal*: Refactor the standalone HTML compiler sidebar tree to eliminate pageless category folders and implement dedicated index landing pages for all logical namespaces (`REQ-FUN-32`, `REQ-FUN-35`).
     * *Success Criterion*: Redundant `Classes` folders are removed, and collapsible sidebar elements collapse or expand dynamically, resolving to valid target namespace landing pages.
+14. **`TSK-RND-04` (Sidebar Active Node Auto-Focus & Scroll-Top Alignment)** [COMPLETED]
+    * *Goal*: Implement dynamic navigation item auto-focus and vertical scrolling on page load for both offline HTML help (`sidebar.js`) and Hugo templates (`single.html`) according to `REQ-FUN-31`.
+    * *Success Criterion*: The active item expands parent categories and is positioned as high as possible inside the visible sidebar viewport on page load.
+15. **`TSK-RND-05` (Language-Specific Entity Layouts & Content Refinement)** [COMPLETED]
+    * *Goal*: Implement dynamic, language-specific entity layouts inside the static HTML reference generation engine to fully satisfy the visual representation guidelines (`REQ-FUN-32` and `REQ-FUN-35`). Group namespace classes dynamically into non-empty virtual folders (e.g., Classes, Structures, Interfaces, Exceptions) and prune empty folders on-the-fly, redirecting folder URLs to avoid dead links.
+    * *Success Criterion*: Standalone reference sites are fully generated with correct delimiter characters (`::` vs `.`), language syntax keywords in code prototypes, sorted folders, and perfect navigation hierarchies.
+
 
 
 ### 📍 Week 5: Command Line Interface & E2E Orchestration
