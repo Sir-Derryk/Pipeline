@@ -97,7 +97,7 @@ gantt
 15. **`TSK-RND-05` (Language-Specific Entity Layouts & Content Refinement)** [COMPLETED]
     * *Goal*: Implement dynamic, language-specific entity layouts inside the static HTML reference generation engine to fully satisfy the visual representation guidelines (`REQ-FUN-32` and `REQ-FUN-35`). Group namespace classes dynamically into non-empty virtual folders (e.g., Classes, Structures, Interfaces, Exceptions) and prune empty folders on-the-fly, redirecting folder URLs to avoid dead links.
     * *Success Criterion*: Standalone reference sites are fully generated with correct delimiter characters (`::` vs `.`), language syntax keywords in code prototypes, sorted folders, and perfect navigation hierarchies.
-16. **`TSK-RND-06` (Hugo Flatter Sidebar & Namespace Index Tables)** [PENDING]
+16. **`TSK-RND-06` (Hugo Flatter Sidebar & Namespace Index Tables)** [COMPLETED]
     * *Goal*: Refactor the Hugo markdown generator to support flatter sidebar navigation (removing intermediate folders like Classes/Structures) and dynamically compile Markdown index landing pages for each Namespace containing classes tables (`REQ-FUN-35`).
     * *Success Criterion*: No intermediate virtual folder pages are generated, and every Namespace directory has an `_index.md` listing nested classes with links and docstring brief blocks in a Markdown table.
 

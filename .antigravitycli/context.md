@@ -102,4 +102,6 @@ Pipeline/ (Umbrella Repository)
 - [x] Implement active navigation item auto-focus and vertical scroll-top alignment (TSK-RND-04) for standalone HTML and Hugo layouts, synchronizing all specifications.
 - [x] Implement language-specific entity layouts, dynamic ToC sorting and pruning (TSK-RND-05) with 100% statement coverage.
 - [x] Implement Python SWIG wrapper docstring normalization (Sphinx/RST parsing) and logical parameter merging to produce clean HTML documentation tables.
+- [x] Implement Hugo flatter sidebar layouts, namespace indices, and standalone HTML Python category index landing pages (TSK-RND-06) satisfying REQ-FUN-35 with 98% statement coverage.
+
 
