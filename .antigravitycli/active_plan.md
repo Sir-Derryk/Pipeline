@@ -70,9 +70,9 @@ gantt
    * *Success Criterion*: Doxygen execution returns XML documents, and temporary files are fully cleaned up without security risks to other filesystem paths.
 
 ### 📍 Week 3: Comment Normalization & Exclusion Tag Gating
-9. **`TSK-NML-01` (Docstring Normalizer to CommonMark)** [COMPLETED]
-   * *Goal*: Convert Javadoc-style (`@param`/`@return`) and Doxygen-style (`\param`/`\return`) docstring layouts to clean Markdown, populating parameter metadata tables in the IR.
-   * *Success Criterion*: Homogeneous, clean Markdown output regardless of original raw commenting styles in source files.
+9. **`TSK-NML-01`** (Docstring Normalizer to CommonMark) [COMPLETED]
+   * *Goal*: Convert Javadoc-style (`@param`/`@return`), Doxygen-style (`\param`/`\return`), and Sphinx/RST-style (`:param`/`:type`/`:return`/`:rtype`) docstring layouts to clean Markdown, populating parameter metadata tables and merging types in the IR.
+   * *Success Criterion*: Homogeneous, clean Markdown output regardless of original raw commenting styles in source files, with mapped parameter/return types.
 10. **`TSK-NML-02` (Exclusion Tag and Ignore Filters)** [COMPLETED]
     * *Goal*: Implement structural filtering of classes and members enclosed within `DOM-IGNORE-BEGIN`/`DOM-IGNORE-END`, `@cond`/`@endcond`, or annotated with `@internal`/`\internal` tags.
     * *Success Criterion*: Excluded entities are entirely absent from the generated `ProjectCatalog`.
