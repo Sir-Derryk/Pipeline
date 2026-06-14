@@ -31,10 +31,14 @@ gantt
     section Week 4: Rendering Engines
     TSK-RND-01 (Jinja2 & Hugo Markdown)  :done, t11, after t10, 4d
     TSK-RND-02 (Standalone Static HTML)  :done, t12, after t11, 3d
+    TSK-RND-03 (Sidebar Refactoring)     :done, t13, after t12, 2d
+    TSK-RND-04 (Auto-Focus & Scroll)     :done, t14, after t13, 2d
+    TSK-RND-05 (Language layouts HTML)   :done, t15, after t14, 3d
+    TSK-RND-06 (Hugo Flatter & Tables)   :active, t16, after t15, 2d
     section Week 5: CLI & Orchestration
-    TSK-CLI-01 (Non-interactive CLI Core):done, t13, after t12, 2d
-    TSK-CLI-03 (Multi-Target Orchestration):done, t14, after t13, 2d
-    TSK-CLI-02 (E2E Integration & Coverage):done, t15, after t14, 3d
+    TSK-CLI-01 (Non-interactive CLI Core):done, t17, after t16, 2d
+    TSK-CLI-03 (Multi-Target Orchestration):done, t18, after t17, 2d
+    TSK-CLI-02 (E2E Integration & Coverage):done, t19, after t18, 3d
 ```
 
 ---
@@ -93,6 +97,9 @@ gantt
 15. **`TSK-RND-05` (Language-Specific Entity Layouts & Content Refinement)** [COMPLETED]
     * *Goal*: Implement dynamic, language-specific entity layouts inside the static HTML reference generation engine to fully satisfy the visual representation guidelines (`REQ-FUN-32` and `REQ-FUN-35`). Group namespace classes dynamically into non-empty virtual folders (e.g., Classes, Structures, Interfaces, Exceptions) and prune empty folders on-the-fly, redirecting folder URLs to avoid dead links.
     * *Success Criterion*: Standalone reference sites are fully generated with correct delimiter characters (`::` vs `.`), language syntax keywords in code prototypes, sorted folders, and perfect navigation hierarchies.
+16. **`TSK-RND-06` (Hugo Flatter Sidebar & Namespace Index Tables)** [PENDING]
+    * *Goal*: Refactor the Hugo markdown generator to support flatter sidebar navigation (removing intermediate folders like Classes/Structures) and dynamically compile Markdown index landing pages for each Namespace containing classes tables (`REQ-FUN-35`).
+    * *Success Criterion*: No intermediate virtual folder pages are generated, and every Namespace directory has an `_index.md` listing nested classes with links and docstring brief blocks in a Markdown table.
 
 
 
