@@ -1,0 +1,9 @@
+[submodule "design-docs"]
+	path = design-docs
+	url = https://github.com/Sir-Derryk/ude-design-docs.git
+[submodule "engine"]
+	path = engine
+	url = https://github.com/Sir-Derryk/universal-document-engine.git
+[submodule "user-docs"]
+	path = user-docs
+	url = https://github.com/Sir-Derryk/ude-user-docs.git

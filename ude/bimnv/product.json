@@ -1,0 +1,41 @@
+{
+    "product_name": "BimNv",
+    "docs": [
+        {
+            "type": "api",
+            "id": "bimnv_api_cpp",
+            "title": "C++ API Reference",
+            "lang": "cpp",
+            "devguide_lang_suffix": "",
+            "path": "bimnv_api_cpp",
+            "main_page": "bimnv_api_ref.html"
+        },
+        {
+            "type": "api",
+            "id": "bimnv_api_cs",
+            "title": "C# API Reference",
+            "lang": "cs",
+            "devguide_lang_suffix": "net",
+            "path": "bimnv_api_cs",
+            "main_page": "bimnvnet_api_ref_cs_version.html"
+        },
+        {
+            "type": "api",
+            "id": "bimnv_api_java",
+            "title": "Java API Reference",
+            "lang": "java",
+            "devguide_lang_suffix": "java",
+            "path": "bimnv_api_java",
+            "main_page": "bimnv_api_ref.html"
+        },
+        {
+            "type": "api",
+            "id": "bimnv_api_py",
+            "title": "Python API Reference",
+            "lang": "py",
+            "devguide_lang_suffix": "py",
+            "path": "bimnv_api_py",
+            "main_page": "bimnv_api_ref.html"
+        }
+    ]
+}
