@@ -42,6 +42,7 @@ gantt
     TSK-CLI-01 (Non-interactive CLI Core):done, t17, after t16, 2d
     TSK-CLI-03 (Multi-Target Orchestration):done, t18, after t17, 2d
     TSK-CLI-02 (E2E Integration & Coverage):done, t19, after t18, 3d
+    TSK-TST-02 (Integration Tests Spec)  :done, t20, after t19, 1d
 ```
 
 ---
@@ -138,6 +139,9 @@ gantt
 18. **`TSK-RND-11` (Global Navigation Flat Refactoring & Fields/Structures/Enums Merging)** [COMPLETED]
     * *Goal*: Refactor the standalone HTML compiler and Hugo markdown generator to flat-render global-scope entities at the root of the sidebar, remove the Global Namespace landing page, merge variable fields, structures, and enums into a single combined folder named "Fields, Structures and Enums", and ensure actual namespaces sort first.
     * *Success Criterion*: Sidebar has namespaces first, then global entity folders in exact order: Classes, Fields, Structures and Enums, Functions, Types. The Global Namespace page is skipped entirely during build, and both HTML and Hugo renderers generate identical hierarchies.
+19. **`TSK-TST-02` (Integration Tests Specification Document)** [COMPLETED]
+    * *Goal*: Specify the 4 post-build integration and artifact verification tests in a dedicated document inside `design-docs` and link them relatively from the requirements specifications.
+    * *Success Criterion*: The integration specification is written to `design-docs/docs/srs/integration_tests_specification.md`, and all references in `functional.md` and `quality_audit.md` are relative and successfully validated.
 
 ---
 
