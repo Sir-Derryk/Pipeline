@@ -5,7 +5,6 @@
         "../../../src/_swig/CSharp/BimNv"
     ],
     "static_pages_dir": "./",
-    "output_dir": "../../../ude_output/bimnv_api_cs",
     "copyright_start_year": 2002,
     "incremental": true,
     "max_workers": 8,
@@ -21,5 +20,6 @@
     },
     "renderer": {
         "type": "html"
-    }
+    },
+    "output_subdir": "bimnv_api_cs"
 }
