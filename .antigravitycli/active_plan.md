@@ -152,3 +152,8 @@ gantt
 1. **Test Coverage**: statement coverage verified by `pytest-cov` is `>= 98%`.
 2. **Execution Speed**: Compiling 1,000 API-classes takes `< 5 seconds`.
 3. **Git Hygiene**: Output generated files must never be committed to active source control repositories (100% clean Git). All 11 projects output strictly to the unified, root-level `ude_output` directory which is kept out of source control.
+
+## 🧪 Дополнения к доработке тестовой инфраструктуры (Addenda)
+1. **Docomatic Comparison Count Header**: Тест сравнения Docomatic и UDE должен автоматически вычислять общее количество отклонений и записывать его в начало каждого файла различий JSON под ключом `"total_differences"`.
+2. **Golden Master Exception Gating**: Тест золотого стандарта должен на входе принимать список исключений — путей к выходным файлам (`exceptions`). Если расхождения обнаруживаются исключительно в этих файлах, тест не должен падать.
+
