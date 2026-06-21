@@ -33,7 +33,7 @@ gantt
     TSK-RND-01 (Jinja2 & Hugo Markdown)  :done, t11, after t10, 4d
     TSK-RND-02 (Standalone Static HTML)  :done, t12, after t11, 3d
     TSK-RND-09 (Signature Strategies)    :done, t12_1, after t12, 2d
-    TSK-RND-10 (Layout Fallbacks)        :done, t12_2, after t12_1, 2d
+    TSK-RND-10 (Strict Layout Loading)   :done, t12_2, after t12_1, 2d
     TSK-RND-03 (Sidebar Refactoring)     :done, t13, after t12_2, 2d
     TSK-RND-04 (Auto-Focus & Scroll)     :done, t14, after t13, 2d
     TSK-RND-05 (Language layouts HTML)   :done, t15, after t14, 3d
@@ -98,9 +98,9 @@ gantt
 13. **`TSK-RND-09` (Language-Specific Signature Formatting Strategy)** [COMPLETED]
     * *Goal*: Implement an extensible Strategy Pattern to handle formatting of code declarations, namespace structures, scopes, and names tailored to target programming languages (C++, C#, Java, Python).
     * *Success Criterion*: Formatters output exact language-compliant declarations, and scope delimiters (`::` for C++, `.` for other languages) are dynamically resolved.
-14. **`TSK-RND-10` (Robust Layout Template Loading & Inline Fallback)** [COMPLETED]
-    * *Goal*: Implement a dual-stage fallback layout loading mechanism with a fail-safe inline backup layout string to ensure complete resilience against physical filesystem template absence.
-    * *Success Criterion*: Physical template absence triggers fail-safe inline string loading, and no crashing occurs during rendering if standard folders are missing.
+14. **`TSK-RND-10` (Strict Layout Template Existence Policy)** [COMPLETED]
+    * *Goal*: Enforce strict pipeline validation where physical layout templates must exist on disk. Under the fail-fast standard, any absence of templates must immediately halt compilation and raise an explicit `RendererError`.
+    * *Success Criterion*: Render process crashes with `RendererError("Layout template not found: ...")` when templates are missing from disk, ensuring immediate visual regression detection.
 15. **`TSK-RND-03` (Sidebar Navigation Refactoring & Namespace Landing Pages)** [COMPLETED]
     * *Goal*: Refactor the standalone HTML compiler sidebar tree to eliminate pageless category folders and implement dedicated index landing pages for all logical namespaces (`REQ-FUN-32`, `REQ-FUN-35`).
     * *Success Criterion*: Redundant `Classes` folders are removed, and collapsible sidebar elements collapse or expand dynamically, resolving to valid target namespace landing pages.

@@ -1,12 +1,12 @@
-# Task: TSK-RND-10 — Robust Layout Template Loading & Inline Fallback
+# Task: TSK-RND-10 — Strict Layout Template Existence Policy
 
 ## 📌 Part 1: Implementation Guide
-1. **Goal**: Implement a dual-stage fallback layout loading mechanism with a fail-safe inline backup layout string to ensure complete resilience against physical filesystem template absence.
+1. **Goal**: Enforce strict pipeline validation where physical layout templates must exist on disk. Under the fail-fast standard, any absence of templates must immediately halt compilation and raise an explicit `RendererError`.
 2. **Implementation Steps**:
    - Create template loader in the static HTML rendering engine.
    - **Primary Loader**: Attempt to load language-specific layout template (e.g., `templates/<lang>/class_layout.html`).
    - **Secondary Fallback**: If missing, load default layout `templates/class_layout.html`.
-   - **Fail-Safe Inline Fallback**: If no physical templates exist, initialize a predefined, high-fidelity inline template string.
+   - **Strict Template Policy**: If no physical root template `templates/class_layout.html` exists, raise `RendererError` to immediately fail compilation instead of loading backup fallbacks.
    - Add structured docstring traceability:
      ```python
      """
@@ -18,16 +18,16 @@
 
 ## 🧪 Part 2: Verification & TDD Scenarios
 1. **TDD Red Phase**:
-   - Write unit tests in `tests/test_template_fallbacks.py`.
-   - Assert that missing directories/files trigger successful fallbacks to default and inline template states without crashing.
+   - Write unit tests in `tests/test_html_renderer.py`.
+   - Assert that missing layout directories/files trigger a strict `RendererError` exception.
 2. **TDD Green Phase**:
-   - Implement layout template fallback hierarchy inside `HtmlRenderer`.
+   - Implement strict template exists check inside `HtmlRenderer`.
 3. **TDD Refactor Phase**:
-   - Run `poetry run pytest tests/test_template_fallbacks.py`.
+   - Run `.venv\Scripts\pytest tests/test_html_renderer.py`.
 
 ## 👥 Part 3: User Acceptance Scenario
 1. **Run automated tests**:
-   - `poetry run pytest tests/test_template_fallbacks.py`
+   - `.venv\Scripts\pytest tests/test_html_renderer.py`
 2. **Verify key task requirements**:
-   - [ ] Verify physical template absence triggers fail-safe inline string loading.
-   - [ ] Confirm no crashing occurs during rendering if standard folders are missing.
+   - [x] Verify physical template absence triggers a strict `RendererError` crash.
+   - [x] Confirm compile process fails fast to catch visual layout omissions early.
