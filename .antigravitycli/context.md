@@ -224,4 +224,6 @@ Pipeline/ (Umbrella Repository)
 - [x] Integrate automated allowance file updating via UPDATE_ALLOWANCES=1 env flag to auto-generate baseline deviations, achieving a 100% green alignment suite with 99% statement coverage.
 - [x] Implement total discrepancy counter headers ("total_differences") at the beginning of Docomatic JSON difference files.
 - [x] Implement support for file exceptions lists inside Golden Master regression tests to bypass failures when differences occur only in excepted files.
+- [x] Refactor Golden Master regression tests (`test_golden_master.py`) into an extensible registry-based system (`PIPELINE_COMPLEXES`) to support multiple parser-renderer complexes.
+- [x] Implement regression baselines validation and generation for LegacyHtmlRenderer and LegacyHugoMarkdownRenderer under dedicated subfolders (`html_legacy` and `markdown_legacy`) across C++, C#, and Java.
 
