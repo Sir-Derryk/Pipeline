@@ -1,0 +1,25 @@
+{
+    "project_name": "Mock C# API Reference",
+    "short_project_name": "Mock",
+    "src_dir": [
+        "../../../engine/tests/assets/main/_swig/csharp/mock"
+    ],
+    "static_pages_dir": "./",
+    "copyright_start_year": 2026,
+    "incremental": true,
+    "max_workers": 8,
+    "collector": {
+        "type": "cs",
+        "file_patterns": [
+            "**/*.cs"
+        ],
+        "include_private": false
+    },
+    "parser": {
+        "type": "doxygen_xml"
+    },
+    "renderer": {
+        "type": "html"
+    },
+    "output_subdir": "mock_api_cs"
+}

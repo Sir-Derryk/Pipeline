@@ -1,0 +1,25 @@
+{
+    "project_name": "Mock Python API Reference",
+    "short_project_name": "Mock",
+    "src_dir": [
+        "../../../engine/tests/assets/main/_swig/python/mock"
+    ],
+    "static_pages_dir": "./",
+    "copyright_start_year": 2026,
+    "incremental": true,
+    "max_workers": 8,
+    "collector": {
+        "type": "python",
+        "file_patterns": [
+            "**/*.py"
+        ],
+        "include_private": false
+    },
+    "parser": {
+        "type": "doxygen_xml"
+    },
+    "renderer": {
+        "type": "html"
+    },
+    "output_subdir": "mock_api_py"
+}
