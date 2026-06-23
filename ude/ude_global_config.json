@@ -7,5 +7,6 @@
     "doxygen_binary": "doxygen",
     "stylesheet_dir": "../engine/ude/templates/css/default",
     "sidebar_structures_dir": "../engine/ude/templates/SidebarStructures/default",
-    "output_base_dir": "../ude_output"
+    "output_base_dir": "../ude_output",
+	"api_version": "27.6"
 }
