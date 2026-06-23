@@ -225,6 +225,9 @@ __marimo__/
 /ude_output/
 ude/**/*.json.gz
 ude/**/.build_cache.json
+ude/**/output/
+ude/**/xml/
+ude/**/html/
 
 # Golden baselines
 Tests/baseline/
