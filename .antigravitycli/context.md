@@ -226,4 +226,5 @@ Pipeline/ (Umbrella Repository)
 - [x] Implement support for file exceptions lists inside Golden Master regression tests to bypass failures when differences occur only in excepted files.
 - [x] Refactor Golden Master regression tests (`test_golden_master.py`) into an extensible registry-based system (`PIPELINE_COMPLEXES`) to support multiple parser-renderer complexes.
 - [x] Implement regression baselines validation and generation for LegacyHtmlRenderer and LegacyHugoMarkdownRenderer under dedicated subfolders (`html_legacy` and `markdown_legacy`) across C++, C#, and Java.
-
+- [x] Rename and integrate the Docomatic search script as `oda_search.js` inside CSS default templates and standard HTML layout templates for C++, C#, Java, and Python, positioning the search elements at the right-aligned section of the breadcrumbs bar.
+- [x] Enforce strict layout template existence gating by raising a `RendererError` when assets or templates are missing on disk, completely removing the `dummy_assets` fallback.
