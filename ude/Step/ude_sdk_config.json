@@ -1,0 +1,14 @@
+{
+    "product_name": "Step",
+    "docs": [
+        {
+            "type": "api",
+            "id": "step_api_py",
+            "title": "Python API Reference",
+            "lang": "py",
+            "devguide_lang_suffix": "py",
+            "path": "step_api_py",
+            "main_page": "step_api_ref.html"
+        }
+    ]
+}

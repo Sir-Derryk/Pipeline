@@ -1,0 +1,14 @@
+{
+    "product_name": "Drawings",
+    "docs": [
+        {
+            "type": "api",
+            "id": "drawings_api_py",
+            "title": "Python API Reference",
+            "lang": "py",
+            "devguide_lang_suffix": "py",
+            "path": "drawings_api_py",
+            "main_page": "drawings_api_ref.html"
+        }
+    ]
+}

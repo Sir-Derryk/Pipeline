@@ -1,0 +1,14 @@
+{
+    "product_name": "BrepModeler",
+    "docs": [
+        {
+            "type": "api",
+            "id": "brepmodeler_api_py",
+            "title": "Python API Reference",
+            "lang": "py",
+            "devguide_lang_suffix": "py",
+            "path": "brepmodeler_api_py",
+            "main_page": "brepmodeler_api_ref.html"
+        }
+    ]
+}
