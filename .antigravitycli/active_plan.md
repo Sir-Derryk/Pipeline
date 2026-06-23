@@ -125,7 +125,7 @@ gantt
     * *Goal*: Build `ude/cli.py` on top of `argparse`. Expose parameter switches: `--config`, `--input`, `--format`, `--output`. Return system exit code `0` on success, and custom non-zero codes (like `1` or `2`) on standard failures, logging messages to `stderr`.
     * *Success Criterion*: Seamless, non-interactive execution inside automated scripts with zero prompt dialog blockers.
 14. **`TSK-CLI-03` (Multi-Target Orchestration Engine)** [COMPLETED]
-    * *Goal*: Build `UdeOrchestrator` in `ude/orchestrator.py`. Parse decentral `ude_config.json` templates, resolve relative paths relative to the config file's physical parent directory, execute the pipeline chain (collector ➡️ parser ➡️ renderer), and enforce custom error policies.
+    * *Goal*: Build `UdeOrchestrator` in `ude/orchestrator.py`. Parse decentral `ude_doc_config.json` templates, resolve relative paths relative to the config file's physical parent directory, execute the pipeline chain (collector ➡️ parser ➡️ renderer), and enforce custom error policies.
     * *Success Criterion*: Seamless operation regardless of execution's Current Working Directory (CWD) - verifying path portability.
 15. **`TSK-CLI-02` (E2E Integration Testing & Coverage Verification)** [COMPLETED]
     * *Goal*: Create a comprehensive integration script `tests/test_integration_pipeline.py`. Run a full E2E lifecycle (XML ➡️ IR ➡️ Gzip ➡️ HTML) and write targeted unit tests until total statement coverage reaches `>= 98%`.

@@ -4,7 +4,10 @@ setlocal enabledelayedexpansion
 
 set "SCRIPT_DIR=%~dp0"
 set "PYTHON_ROOT=%SCRIPT_DIR%..\..\..\engine"
-set "CONFIG=%SCRIPT_DIR%ude_config.json"
+
+set "GLOBAL_CONFIG=..\..\ude_global_config.json"
+set "SDK_CONFIG=..\ude_sdk_config.json"
+set "DOC_CONFIG=ude_doc_config.json"
 
 echo ============================================================
 echo   Universal Doc Engine: UDE API Generation Launcher
@@ -29,9 +32,9 @@ if %errorlevel% neq 0 (
     )
 )
 
-:: 3. Run UDE Orchestrator
+:: 3. Run UDE CLI with 3 configurations
 set "PYTHONPATH=%PYTHON_ROOT%"
-python -m ude.cli --config "%CONFIG%" --format html
+python -m ude.cli --global-config "%GLOBAL_CONFIG%" --sdk-config "%SDK_CONFIG%" --doc-config "%DOC_CONFIG%" --format html
 
 if %errorlevel% neq 0 (
     echo [ERROR] UDE Pipeline failed.
