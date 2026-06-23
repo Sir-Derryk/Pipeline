@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcore__modeler_1_1_point3_dd" kind="class" language="Python" prot="public">
+    <compoundname>core_modeler::Point3Dd</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classcore__modeler_1_1_point3_dd_1a44c1928239b7b4d8d73bf74718fbfe0e" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type></type>
+        <definition>core_modeler.Point3Dd::thisown</definition>
+        <argsstring></argsstring>
+        <name>thisown</name>
+        <qualifiedname>core_modeler.Point3Dd.thisown</qualifiedname>
+        <initializer>=  property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc=&quot;The membership flag&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="238" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="238" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classcore__modeler_1_1_point3_dd_1aa0d9ef8974b093675baab8b1d7280e81" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type></type>
+        <definition>core_modeler.Point3Dd::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>core_modeler.Point3Dd.x</qualifiedname>
+        <initializer>=  property(_core_modeler.Point3Dd_x_get, _core_modeler.Point3Dd_x_set)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="240" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="240" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classcore__modeler_1_1_point3_dd_1a22061d1375634facf849ec8d358b716a" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type></type>
+        <definition>core_modeler.Point3Dd::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>core_modeler.Point3Dd.y</qualifiedname>
+        <initializer>=  property(_core_modeler.Point3Dd_y_get, _core_modeler.Point3Dd_y_set)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="241" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="241" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classcore__modeler_1_1_point3_dd_1ae4cf342366e0e3641ba1b3e21ed1d184" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type></type>
+        <definition>core_modeler.Point3Dd::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>core_modeler.Point3Dd.z</qualifiedname>
+        <initializer>=  property(_core_modeler.Point3Dd_z_get, _core_modeler.Point3Dd_z_set)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="242" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="242" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcore__modeler_1_1_point3_dd_1ae6c8fc84944c2ea6502f2db2ecd93d41" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>core_modeler.Point3Dd::__repr__</definition>
+        <argsstring></argsstring>
+        <name>__repr__</name>
+        <qualifiedname>core_modeler.Point3Dd.__repr__</qualifiedname>
+        <initializer>=  _swig_repr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="239" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="239" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_1_1_point3_dd_1add408c1027d5b1fd6d0beb636dfa5bfd" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>core_modeler.Point3Dd::__swig_destroy__</definition>
+        <argsstring></argsstring>
+        <name>__swig_destroy__</name>
+        <qualifiedname>core_modeler.Point3Dd.__swig_destroy__</qualifiedname>
+        <initializer>=  _core_modeler.delete_Point3Dd</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="253" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="253" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcore__modeler_1_1_point3_dd_1ac87276edbf609bdbf7cbf0ec22b14fc2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.Point3Dd.__init__</definition>
+        <argsstring>(self, *args)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>core_modeler.Point3Dd.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>__init__(Point3Dd self) -&gt; Point3Dd
+__init__(Point3Dd self, double valX, double valY, double valZ) -&gt; Point3Dd
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="244" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="244" bodyend="250"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1_1_point3_dd_1a2abf05631f18703c45e5de928989dfd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.Point3Dd.translate</definition>
+        <argsstring>(self, dx, dy, dz)</argsstring>
+        <name>translate</name>
+        <qualifiedname>core_modeler.Point3Dd.translate</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>dx</type>
+          <defname>dx</defname>
+        </param>
+        <param>
+          <type>dy</type>
+          <defname>dy</defname>
+        </param>
+        <param>
+          <type>dz</type>
+          <defname>dz</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="251" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="251" bodyend="252"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>core_modeler.Point3Dd</label>
+        <link refid="classcore__modeler_1_1_point3_dd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>core_modeler.Point3Dd</label>
+        <link refid="classcore__modeler_1_1_point3_dd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="237" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="237" bodyend="260"/>
+    <listofallmembers>
+      <member refid="classcore__modeler_1_1_point3_dd_1ac87276edbf609bdbf7cbf0ec22b14fc2" prot="public" virt="non-virtual"><scope>core_modeler::Point3Dd</scope><name>__init__</name></member>
+      <member refid="classcore__modeler_1_1_point3_dd_1ae6c8fc84944c2ea6502f2db2ecd93d41" prot="private" virt="non-virtual"><scope>core_modeler::Point3Dd</scope><name>__repr__</name></member>
+      <member refid="classcore__modeler_1_1_point3_dd_1add408c1027d5b1fd6d0beb636dfa5bfd" prot="private" virt="non-virtual"><scope>core_modeler::Point3Dd</scope><name>__swig_destroy__</name></member>
+      <member refid="classcore__modeler_1_1_point3_dd_1a44c1928239b7b4d8d73bf74718fbfe0e" prot="public" virt="non-virtual"><scope>core_modeler::Point3Dd</scope><name>thisown</name></member>
+      <member refid="classcore__modeler_1_1_point3_dd_1a2abf05631f18703c45e5de928989dfd8" prot="public" virt="non-virtual"><scope>core_modeler::Point3Dd</scope><name>translate</name></member>
+      <member refid="classcore__modeler_1_1_point3_dd_1aa0d9ef8974b093675baab8b1d7280e81" prot="public" virt="non-virtual"><scope>core_modeler::Point3Dd</scope><name>x</name></member>
+      <member refid="classcore__modeler_1_1_point3_dd_1a22061d1375634facf849ec8d358b716a" prot="public" virt="non-virtual"><scope>core_modeler::Point3Dd</scope><name>y</name></member>
+      <member refid="classcore__modeler_1_1_point3_dd_1ae4cf342366e0e3641ba1b3e21ed1d184" prot="public" virt="non-virtual"><scope>core_modeler::Point3Dd</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

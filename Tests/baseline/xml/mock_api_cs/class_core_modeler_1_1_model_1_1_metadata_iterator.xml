@@ -1,0 +1,357 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_model_1_1_metadata_iterator" kind="class" language="C#" prot="public">
+    <compoundname>CoreModeler::Model::MetadataIterator</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemIDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemIDisposable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1a4862555b42f19d211d972966a84ccaa1" prot="private" static="no" mutable="no">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>System Runtime InteropServices global::HandleRef CoreModeler.Model.MetadataIterator::swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="51" column="59" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1a47ac1fcc7aff38e63596b037df7a58c9" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CoreModeler.Model.MetadataIterator::swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="52" column="20" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1aed833a84214bee151fcf5bb97514e0f3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.MetadataIterator.MetadataIterator</definition>
+        <argsstring>(global::System.IntPtr cPtr, bool cMemoryOwn)</argsstring>
+        <name>MetadataIterator</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.MetadataIterator</qualifiedname>
+        <param>
+          <type>global::System.IntPtr</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="54" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="54" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1aed833a84214bee151fcf5bb97514e0f3" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.MetadataIterator.MetadataIterator</definition>
+        <argsstring>(global::System.IntPtr cPtr, bool cMemoryOwn)</argsstring>
+        <name>MetadataIterator</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.MetadataIterator</qualifiedname>
+        <param>
+          <type>global::System.IntPtr</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="54" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="54" bodyend="57"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1add4c39910098b824c9fec79d37d75128" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>static global::System.Runtime.InteropServices.HandleRef CoreModeler.Model.MetadataIterator.getCPtr</definition>
+        <argsstring>(MetadataIterator obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_model_1_1_metadata_iterator" kindref="compound">MetadataIterator</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="59" column="67" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1add4c39910098b824c9fec79d37d75128" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>static global::System.Runtime.InteropServices.HandleRef CoreModeler.Model.MetadataIterator.getCPtr</definition>
+        <argsstring>(MetadataIterator obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_model_1_1_metadata_iterator" kindref="compound">MetadataIterator</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="59" column="67" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="59" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1ab4f62ac7f60b6e8110e90a1b6e4f9814" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.MetadataIterator.~MetadataIterator</definition>
+        <argsstring>()</argsstring>
+        <name>~MetadataIterator</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.~MetadataIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="63" column="5" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1ab4f62ac7f60b6e8110e90a1b6e4f9814" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.MetadataIterator.~MetadataIterator</definition>
+        <argsstring>()</argsstring>
+        <name>~MetadataIterator</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.~MetadataIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="63" column="5" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="63" bodyend="65"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1af23b1281948939696b74cc6dd00a2016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Model.MetadataIterator.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="67" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1af58da6a6ac2b1228e932db95f0e3eec3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CoreModeler.Model.MetadataIterator.hasNext</definition>
+        <argsstring>()</argsstring>
+        <name>hasNext</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.hasNext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="84" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1a49f71ce29e2711afd2cdeaab669c3cfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CoreModeler.Model.MetadataIterator.next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.next</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="89" column="19" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac82903db56c4dcb44801a8ee0c4706dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.MetadataIterator.MetadataIterator</definition>
+        <argsstring>()</argsstring>
+        <name>MetadataIterator</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.MetadataIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="94" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="94" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1af23b1281948939696b74cc6dd00a2016" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Model.MetadataIterator.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="67" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="67" bodyend="70"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1af58da6a6ac2b1228e932db95f0e3eec3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CoreModeler.Model.MetadataIterator.hasNext</definition>
+        <argsstring>()</argsstring>
+        <name>hasNext</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.hasNext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="84" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="84" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1a49f71ce29e2711afd2cdeaab669c3cfe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CoreModeler.Model.MetadataIterator.next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.next</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="89" column="19" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="89" bodyend="92"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac82903db56c4dcb44801a8ee0c4706dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.MetadataIterator.MetadataIterator</definition>
+        <argsstring>()</argsstring>
+        <name>MetadataIterator</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.MetadataIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="94" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="94" bodyend="95"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1a734e30471cd3a992e80f23b78ac7cd0c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CoreModeler.Model.MetadataIterator.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="72" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="72" bodyend="82"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1a734e30471cd3a992e80f23b78ac7cd0c" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CoreModeler.Model.MetadataIterator.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="72" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="72" bodyend="82"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CoreModeler.Model.MetadataIterator</label>
+        <link refid="class_core_modeler_1_1_model_1_1_metadata_iterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CoreModeler.Model.MetadataIterator</label>
+        <link refid="class_core_modeler_1_1_model_1_1_metadata_iterator"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="50" column="9" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="50" bodyend="97"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1af23b1281948939696b74cc6dd00a2016" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a734e30471cd3a992e80f23b78ac7cd0c" prot="protected" virt="virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1af23b1281948939696b74cc6dd00a2016" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a734e30471cd3a992e80f23b78ac7cd0c" prot="protected" virt="virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1add4c39910098b824c9fec79d37d75128" prot="package" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1add4c39910098b824c9fec79d37d75128" prot="package" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1af58da6a6ac2b1228e932db95f0e3eec3" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>hasNext</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1af58da6a6ac2b1228e932db95f0e3eec3" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>hasNext</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1aed833a84214bee151fcf5bb97514e0f3" prot="package" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>MetadataIterator</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac82903db56c4dcb44801a8ee0c4706dd" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>MetadataIterator</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1aed833a84214bee151fcf5bb97514e0f3" prot="package" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>MetadataIterator</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac82903db56c4dcb44801a8ee0c4706dd" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>MetadataIterator</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a49f71ce29e2711afd2cdeaab669c3cfe" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>next</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a49f71ce29e2711afd2cdeaab669c3cfe" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>next</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a47ac1fcc7aff38e63596b037df7a58c9" prot="protected" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a4862555b42f19d211d972966a84ccaa1" prot="private" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>swigCPtr</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ab4f62ac7f60b6e8110e90a1b6e4f9814" prot="private" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>~MetadataIterator</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ab4f62ac7f60b6e8110e90a1b6e4f9814" prot="private" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>~MetadataIterator</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

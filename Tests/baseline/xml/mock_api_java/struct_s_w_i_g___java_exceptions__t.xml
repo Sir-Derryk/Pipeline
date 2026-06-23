@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_s_w_i_g___java_exceptions__t" kind="struct" language="C++" prot="public">
+    <compoundname>SWIG_JavaExceptions_t</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_w_i_g___java_exceptions__t_1a04044dfc89f07ed39fe7bbb23f120d5a" prot="public" static="no" mutable="no">
+        <type>SWIG_JavaExceptionCodes</type>
+        <definition>SWIG_JavaExceptionCodes SWIG_JavaExceptions_t::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <qualifiedname>SWIG_JavaExceptions_t::code</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="198" column="27" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="198" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_w_i_g___java_exceptions__t_1a38dd5a9090f6d6c09f43d85536bc3154" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char* SWIG_JavaExceptions_t::java_exception</definition>
+        <argsstring></argsstring>
+        <name>java_exception</name>
+        <qualifiedname>SWIG_JavaExceptions_t::java_exception</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="199" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="199" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="197" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="197" bodyend="200"/>
+    <listofallmembers>
+      <member refid="struct_s_w_i_g___java_exceptions__t_1a04044dfc89f07ed39fe7bbb23f120d5a" prot="public" virt="non-virtual"><scope>SWIG_JavaExceptions_t</scope><name>code</name></member>
+      <member refid="struct_s_w_i_g___java_exceptions__t_1a38dd5a9090f6d6c09f43d85536bc3154" prot="public" virt="non-virtual"><scope>SWIG_JavaExceptions_t</scope><name>java_exception</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

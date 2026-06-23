@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_i_drawable" kind="class" language="Java" prot="public">
+    <compoundname>CoreModeler::IDrawable</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_i_drawable_1a9519c4443f78d67c05b1e49283c2cc3f" prot="private" static="no" mutable="no">
+        <type>transient long</type>
+        <definition>transient long CoreModeler.IDrawable.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.IDrawable.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" line="12" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_i_drawable_1a5b934a38a80535e5967dc38541a8ef99" prot="protected" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean CoreModeler.IDrawable.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.IDrawable.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" line="13" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_i_drawable_1ad76da2b8cdc39c4252cf1cd1ec430934" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.IDrawable.IDrawable</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>IDrawable</name>
+        <qualifiedname>CoreModeler.IDrawable.IDrawable</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" line="15" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_i_drawable_1a85fe27bf6fa9b308bb0492619485bf52" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.IDrawable.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>CoreModeler.IDrawable.finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" line="25" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" bodystart="25" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_i_drawable_1ab932b7cb9467646405da853235863a01" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long CoreModeler.IDrawable.getCPtr</definition>
+        <argsstring>(IDrawable obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.IDrawable.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_i_drawable" kindref="compound">IDrawable</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" line="20" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_i_drawable_1af82b4b22ca1707ec2f59bbc3b95eee86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void CoreModeler.IDrawable.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>CoreModeler.IDrawable.delete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" line="29" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_i_drawable_1ac6e227dddd4b03acdb1c365c545a701c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.IDrawable.renderToScreen</definition>
+        <argsstring>()</argsstring>
+        <name>renderToScreen</name>
+        <qualifiedname>CoreModeler.IDrawable.renderToScreen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" line="39" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_i_drawable_1adf02c94c2c44ce55bb1b8cffe5b2d03c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CoreModeler.IDrawable.renderToScreen</definition>
+        <argsstring>(RenderMode mode)</argsstring>
+        <name>renderToScreen</name>
+        <qualifiedname>CoreModeler.IDrawable.renderToScreen</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" line="43" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" line="11" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/IDrawable.java" bodystart="11" bodyend="47"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_i_drawable_1af82b4b22ca1707ec2f59bbc3b95eee86" prot="public" virt="non-virtual"><scope>CoreModeler::IDrawable</scope><name>delete</name></member>
+      <member refid="class_core_modeler_1_1_i_drawable_1a85fe27bf6fa9b308bb0492619485bf52" prot="protected" virt="non-virtual"><scope>CoreModeler::IDrawable</scope><name>finalize</name></member>
+      <member refid="class_core_modeler_1_1_i_drawable_1ab932b7cb9467646405da853235863a01" prot="protected" virt="non-virtual"><scope>CoreModeler::IDrawable</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_i_drawable_1ad76da2b8cdc39c4252cf1cd1ec430934" prot="protected" virt="non-virtual"><scope>CoreModeler::IDrawable</scope><name>IDrawable</name></member>
+      <member refid="class_core_modeler_1_1_i_drawable_1ac6e227dddd4b03acdb1c365c545a701c" prot="public" virt="non-virtual"><scope>CoreModeler::IDrawable</scope><name>renderToScreen</name></member>
+      <member refid="class_core_modeler_1_1_i_drawable_1adf02c94c2c44ce55bb1b8cffe5b2d03c" prot="public" virt="non-virtual"><scope>CoreModeler::IDrawable</scope><name>renderToScreen</name></member>
+      <member refid="class_core_modeler_1_1_i_drawable_1a5b934a38a80535e5967dc38541a8ef99" prot="protected" virt="non-virtual"><scope>CoreModeler::IDrawable</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_i_drawable_1a9519c4443f78d67c05b1e49283c2cc3f" prot="private" virt="non-virtual"><scope>CoreModeler::IDrawable</scope><name>swigCPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

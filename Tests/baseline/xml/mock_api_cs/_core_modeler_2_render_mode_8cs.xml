@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_core_modeler_2_render_mode_8cs" kind="file" language="C#">
+    <compoundname>RenderMode.cs</compoundname>
+    <innernamespace refid="namespace_core_modeler">CoreModeler</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/RenderMode.cs"/>
+  </compounddef>
+</doxygen>

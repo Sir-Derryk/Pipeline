@@ -32,7 +32,13 @@ PROJECTS = [
     {"id": "bimnv_api_cs", "lang": "cs"},
     {"id": "bimnv_api_java", "lang": "java"},
     {"id": "bimnv_api_py", "lang": "py"},
+    # Mock Suite (Optional / Public)
+    {"id": "mock_api_cpp", "lang": "cpp"},
+    {"id": "mock_api_cs", "lang": "cs"},
+    {"id": "mock_api_java", "lang": "java"},
+    {"id": "mock_api_py", "lang": "py"},
 ]
+
 
 def compare_directories(dir1: Path, dir2: Path) -> List[str]:
     """Recursively compares two directories and returns differences."""

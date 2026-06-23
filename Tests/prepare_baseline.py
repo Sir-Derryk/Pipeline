@@ -38,6 +38,14 @@ BIMNV_PROJECTS = [
     {"id": "bimnv_api_py", "config": WORKSPACE_ROOT / "ude/bimnv/bimnv_api_py/ude_doc_config.json", "lang": "py"},
 ]
 
+MOCK_PROJECTS = [
+    {"id": "mock_api_cpp", "config": WORKSPACE_ROOT / "ude/mock/mock_api_cpp/ude_doc_config.json", "lang": "cpp"},
+    {"id": "mock_api_cs", "config": WORKSPACE_ROOT / "ude/mock/mock_api_cs/ude_doc_config.json", "lang": "cs"},
+    {"id": "mock_api_java", "config": WORKSPACE_ROOT / "ude/mock/mock_api_java/ude_doc_config.json", "lang": "java"},
+    {"id": "mock_api_py", "config": WORKSPACE_ROOT / "ude/mock/mock_api_py/ude_doc_config.json", "lang": "py"},
+]
+
+
 # Track current project being compiled for our hooks
 global_current_project_id = None
 global_current_project_lang = None
@@ -114,15 +122,22 @@ def main():
     parser = argparse.ArgumentParser(description="Prepare UDE test baselines.")
     parser.add_argument(
         "--suite",
-        choices=["facetmodeler", "both"],
+        choices=["facetmodeler", "both", "mock", "all"],
         default="facetmodeler",
         help="Which projects suite to run. Default is facetmodeler."
     )
     args = parser.parse_args()
     
-    projects_to_run = FACETMODELER_PROJECTS
-    if args.suite == "both":
+    projects_to_run = []
+    if args.suite == "facetmodeler":
+        projects_to_run = FACETMODELER_PROJECTS
+    elif args.suite == "both":
         projects_to_run = FACETMODELER_PROJECTS + BIMNV_PROJECTS
+    elif args.suite == "mock":
+        projects_to_run = MOCK_PROJECTS
+    elif args.suite == "all":
+        projects_to_run = FACETMODELER_PROJECTS + BIMNV_PROJECTS + MOCK_PROJECTS
+
         
     print("=" * 60)
     print(f"Preparing 3-Tier Golden Master baseline (Suite: {args.suite.upper()})...")

@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcore__modeler_1_1_i_drawable" kind="class" language="Python" prot="public">
+    <compoundname>core_modeler::IDrawable</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <derivedcompoundref refid="classcore__modeler_1_1_box" prot="public" virt="non-virtual">core_modeler.Box</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classcore__modeler_1_1_i_drawable_1a1d45f5d6c2e435d254372551e2b42cbd" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type></type>
+        <definition>core_modeler.IDrawable::thisown</definition>
+        <argsstring></argsstring>
+        <name>thisown</name>
+        <qualifiedname>core_modeler.IDrawable.thisown</qualifiedname>
+        <initializer>=  property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc=&quot;The membership flag&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="121" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="121" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcore__modeler_1_1_i_drawable_1a603f4550e5ee44c7329c1f31e0a537a3" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>core_modeler.IDrawable::__repr__</definition>
+        <argsstring></argsstring>
+        <name>__repr__</name>
+        <qualifiedname>core_modeler.IDrawable.__repr__</qualifiedname>
+        <initializer>=  _swig_repr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="125" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="125" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_1_1_i_drawable_1ab24f3e8a898ff8cfaf7a330421b7663f" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>core_modeler.IDrawable::__swig_destroy__</definition>
+        <argsstring></argsstring>
+        <name>__swig_destroy__</name>
+        <qualifiedname>core_modeler.IDrawable.__swig_destroy__</qualifiedname>
+        <initializer>=  _core_modeler.delete_IDrawable</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="126" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="126" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcore__modeler_1_1_i_drawable_1ad515e54368116d3ea0e71e071c52c98a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.IDrawable.__init__</definition>
+        <argsstring>(self, *args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>core_modeler.IDrawable.__init__</qualifiedname>
+        <reimplementedby refid="classcore__modeler_1_1_box_1a3e18dddb8a5518cb55dc74f896d55910">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="123" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="123" bodyend="124"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1_1_i_drawable_1a29efe1da54d7d942411b64e69fae3ed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.IDrawable.renderToScreen</definition>
+        <argsstring>(self, *args)</argsstring>
+        <name>renderToScreen</name>
+        <qualifiedname>core_modeler.IDrawable.renderToScreen</qualifiedname>
+        <reimplementedby refid="classcore__modeler_1_1_box_1a9ceb0bcc1e57f6d95bd214f1508cad0a">renderToScreen</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>renderToScreen(IDrawable self)
+renderToScreen(IDrawable self, RenderMode mode) -&gt; int
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="128" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="128" bodyend="135"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>core_modeler.IDrawable</label>
+        <link refid="classcore__modeler_1_1_i_drawable"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>core_modeler.Box</label>
+        <link refid="classcore__modeler_1_1_box"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>core_modeler.IDrawable</label>
+        <link refid="classcore__modeler_1_1_i_drawable"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="120" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="120" bodyend="137"/>
+    <listofallmembers>
+      <member refid="classcore__modeler_1_1_i_drawable_1ad515e54368116d3ea0e71e071c52c98a" prot="public" virt="non-virtual"><scope>core_modeler::IDrawable</scope><name>__init__</name></member>
+      <member refid="classcore__modeler_1_1_i_drawable_1a603f4550e5ee44c7329c1f31e0a537a3" prot="private" virt="non-virtual"><scope>core_modeler::IDrawable</scope><name>__repr__</name></member>
+      <member refid="classcore__modeler_1_1_i_drawable_1ab24f3e8a898ff8cfaf7a330421b7663f" prot="private" virt="non-virtual"><scope>core_modeler::IDrawable</scope><name>__swig_destroy__</name></member>
+      <member refid="classcore__modeler_1_1_i_drawable_1a29efe1da54d7d942411b64e69fae3ed0" prot="public" virt="non-virtual"><scope>core_modeler::IDrawable</scope><name>renderToScreen</name></member>
+      <member refid="classcore__modeler_1_1_i_drawable_1a1d45f5d6c2e435d254372551e2b42cbd" prot="public" virt="non-virtual"><scope>core_modeler::IDrawable</scope><name>thisown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

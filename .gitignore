@@ -216,7 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-/src
+# ==============================================================================
+# Source Folders /src/
+# ==============================================================================
+# --- Option A: Explicit blocklist of real proprietary products for safety ---
+/src/BimNv/
+/src/FacetModeler/
+/src/IGES/
+/src/Map/
+/src/_swig/
+
+# --- Option B: Wildcard default ignore + Mock SDK allowlist (Defense-in-depth) ---
+/src/*
+!/src/Mock*/
+!/src/mock*/
+!/src/Mock*/**
+!/src/mock*/**
+
 /refs
 /TOCStructures
 /.vs
@@ -229,7 +245,29 @@ ude/**/output/
 ude/**/xml/
 ude/**/html/
 
-# Golden baselines
-Tests/baseline/
+# ==============================================================================
+# Golden Baselines Tests/baseline/
+# ==============================================================================
+# --- Option A: Explicit blocklist of real proprietary product baselines ---
+/Tests/baseline/**/bimnv_api_*/
+/Tests/baseline/**/facetmodeler_api_*/
+/Tests/baseline/ir/bimnv_api_*.json.gz
+/Tests/baseline/ir/facetmodeler_api_*.json.gz
+
+# --- Option B: Wildcard default ignore + Mock baseline allowlist ---
+/Tests/baseline/**
+!/Tests/baseline/
+!/Tests/baseline/html/
+!/Tests/baseline/html/mock_api_*/
+!/Tests/baseline/html/mock_api_*/**
+!/Tests/baseline/hugo_md/
+!/Tests/baseline/hugo_md/mock_api_*/
+!/Tests/baseline/hugo_md/mock_api_*/**
+!/Tests/baseline/ir/
+!/Tests/baseline/ir/mock_api_*.json.gz
+!/Tests/baseline/xml/
+!/Tests/baseline/xml/mock_api_*/
+!/Tests/baseline/xml/mock_api_*/**
+
 
 

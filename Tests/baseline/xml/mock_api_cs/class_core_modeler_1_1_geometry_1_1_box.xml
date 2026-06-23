@@ -1,0 +1,262 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_geometry_1_1_box" kind="class" language="C#" prot="public">
+    <compoundname>CoreModeler::Geometry::Box</compoundname>
+    <basecompoundref refid="class_core_modeler_1_1_geometry_1_1_shape" prot="public" virt="non-virtual">CoreModeler.Geometry.Shape</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_box_1a74dbd7b006e6019a9457abc2a3a60535" prot="private" static="no" mutable="no">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>global::System.Runtime.InteropServices.HandleRef CoreModeler.Geometry.Box.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Geometry.Box.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" line="14" column="57" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_box_1a9f98ced90ba1d4113bb1561029396458" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Geometry.Box.Box</definition>
+        <argsstring>(global::System.IntPtr cPtr, bool cMemoryOwn)</argsstring>
+        <name>Box</name>
+        <qualifiedname>CoreModeler.Geometry.Box.Box</qualifiedname>
+        <param>
+          <type>global::System.IntPtr</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" line="16" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" bodystart="16" bodyend="18"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_box_1a1dcb3d5ab0e5111ede7f11dca711909a" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>static global::System.Runtime.InteropServices.HandleRef CoreModeler.Geometry.Box.getCPtr</definition>
+        <argsstring>(Box obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Geometry.Box.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_geometry_1_1_box" kindref="compound">Box</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" line="20" column="65" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" bodystart="20" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_box_1a08bab21f273d6d44957a7409b2ee0d30" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void CoreModeler.Geometry.Box.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Geometry.Box.Dispose</qualifiedname>
+        <reimplements refid="class_core_modeler_1_1_geometry_1_1_shape_1ad1ae8e0f8e74eeb335e54b19c2fbd8fa">Dispose</reimplements>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" line="24" column="27" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" bodystart="24" bodyend="35"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_box_1a64512d3fe5f5cb83e198c6eda162ec2b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Geometry.Box.Box</definition>
+        <argsstring>(double width, double height, double depth)</argsstring>
+        <name>Box</name>
+        <qualifiedname>CoreModeler.Geometry.Box.Box</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" line="37" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" bodystart="37" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_box_1a16e8a24ac44519566076f80ee1a5cf2a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override double</type>
+        <definition>override double CoreModeler.Geometry.Box.getVolume</definition>
+        <argsstring>()</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>CoreModeler.Geometry.Box.getVolume</qualifiedname>
+        <reimplements refid="class_core_modeler_1_1_geometry_1_1_shape_1a773a57f7a90469e82e097b1a7619d435">getVolume</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" line="40" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" bodystart="40" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_box_1a22122379fea47aa0e69694afe76f921a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void CoreModeler.Geometry.Box.renderToScreen</definition>
+        <argsstring>()</argsstring>
+        <name>renderToScreen</name>
+        <qualifiedname>CoreModeler.Geometry.Box.renderToScreen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" line="45" column="24" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_box_1a68ffb886858914bdbb7ed6176e7bc405" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override int</type>
+        <definition>override int CoreModeler.Geometry.Box.renderToScreen</definition>
+        <argsstring>(CoreModeler.RenderMode mode)</argsstring>
+        <name>renderToScreen</name>
+        <qualifiedname>CoreModeler.Geometry.Box.renderToScreen</qualifiedname>
+        <param>
+          <type>CoreModeler.RenderMode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" line="49" column="23" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" bodystart="49" bodyend="52"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_box_1aa521e5ac6b3db87fe6e5d8a45bfa78c3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Geometry.Box.scale</definition>
+        <argsstring>(double factor)</argsstring>
+        <name>scale</name>
+        <qualifiedname>CoreModeler.Geometry.Box.scale</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" line="54" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" bodystart="54" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_box_1aa668e5b998b6b7ffa1158cb3fdf2bff7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Geometry.Box.scale</definition>
+        <argsstring>(double xFactor, double yFactor, double zFactor)</argsstring>
+        <name>scale</name>
+        <qualifiedname>CoreModeler.Geometry.Box.scale</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>xFactor</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yFactor</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" line="58" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" bodystart="58" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CoreModeler.Geometry.Box</label>
+        <link refid="class_core_modeler_1_1_geometry_1_1_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreModeler::Geometry::Shape</label>
+        <link refid="class_core_modeler_1_1_geometry_1_1_shape"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CoreModeler.Geometry.Box</label>
+        <link refid="class_core_modeler_1_1_geometry_1_1_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreModeler::Geometry::Shape</label>
+        <link refid="class_core_modeler_1_1_geometry_1_1_shape"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" line="13" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Box.cs" bodystart="13" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_geometry_1_1_box_1a9f98ced90ba1d4113bb1561029396458" prot="package" virt="non-virtual"><scope>CoreModeler::Geometry::Box</scope><name>Box</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_box_1a64512d3fe5f5cb83e198c6eda162ec2b" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Box</scope><name>Box</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_box_1a08bab21f273d6d44957a7409b2ee0d30" prot="protected" virt="virtual"><scope>CoreModeler::Geometry::Box</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1ad55b0cfa524780d2281490f5cdb9c6bb" prot="public" virt="non-virtual" ambiguityscope="CoreModeler::Geometry::Shape."><scope>CoreModeler::Geometry::Box</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_box_1a1dcb3d5ab0e5111ede7f11dca711909a" prot="package" virt="non-virtual"><scope>CoreModeler::Geometry::Box</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a79905c2fa77d87aa315f50840961b5d5" prot="package" virt="non-virtual" ambiguityscope="CoreModeler::Geometry::Shape."><scope>CoreModeler::Geometry::Box</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_box_1a16e8a24ac44519566076f80ee1a5cf2a" prot="public" virt="virtual"><scope>CoreModeler::Geometry::Box</scope><name>getVolume</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_box_1a22122379fea47aa0e69694afe76f921a" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Box</scope><name>renderToScreen</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_box_1a68ffb886858914bdbb7ed6176e7bc405" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Box</scope><name>renderToScreen</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_box_1aa521e5ac6b3db87fe6e5d8a45bfa78c3" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Box</scope><name>scale</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_box_1aa668e5b998b6b7ffa1158cb3fdf2bff7" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Box</scope><name>scale</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1abf28786349076cddb4381230d21e2651" prot="package" virt="non-virtual"><scope>CoreModeler::Geometry::Box</scope><name>Shape</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1afd825bf03206be4054453820eb797d2c" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::Box</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_box_1a74dbd7b006e6019a9457abc2a3a60535" prot="private" virt="non-virtual"><scope>CoreModeler::Geometry::Box</scope><name>swigCPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

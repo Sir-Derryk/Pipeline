@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespaceswig" kind="namespace" language="C++">
+    <compoundname>swig</compoundname>
+    <innerclass refid="classswig_1_1_swig_ptr___py_object" prot="public">swig::SwigPtr_PyObject</innerclass>
+    <innerclass refid="structswig_1_1_swig_var___py_object" prot="public">swig::SwigVar_PyObject</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="2738" column="1"/>
+  </compounddef>
+</doxygen>

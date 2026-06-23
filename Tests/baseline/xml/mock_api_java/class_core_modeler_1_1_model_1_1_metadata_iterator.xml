@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_model_1_1_metadata_iterator" kind="class" language="Java" prot="public">
+    <compoundname>CoreModeler::Model::MetadataIterator</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1afe9747116856c607def6086e43d8d100" prot="private" static="no" mutable="no">
+        <type>transient long</type>
+        <definition>transient long CoreModeler.Model.MetadataIterator.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="44" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="44" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1aaa987f0eb309e14af27eebabfaecafa1" prot="protected" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean CoreModeler.Model.MetadataIterator.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="45" column="33" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="45" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1a55d93720831be817111714ebdb4bb585" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.MetadataIterator.MetadataIterator</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>MetadataIterator</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.MetadataIterator</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="47" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="47" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1ab9632b8e3bb839ff1bf1e9890a530319" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Model.MetadataIterator.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="57" column="20" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="57" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1a4a9b30981b724ac528271d2ff21cef52" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long CoreModeler.Model.MetadataIterator.getCPtr</definition>
+        <argsstring>(MetadataIterator obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.getCPtr</qualifiedname>
+        <param>
+          <type>MetadataIterator</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="52" column="27" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="52" bodyend="54"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1a251f983e364174206808852e22aa1489" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void CoreModeler.Model.MetadataIterator.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.delete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="61" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="61" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac4ceb3ff21f0683822247e1414d33d73" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean CoreModeler.Model.MetadataIterator.hasNext</definition>
+        <argsstring>()</argsstring>
+        <name>hasNext</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.hasNext</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="71" column="20" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="71" bodyend="73"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1afd2186351511a345fe13441295b140dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String CoreModeler.Model.MetadataIterator.next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.next</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="75" column="19" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="75" bodyend="77"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac82903db56c4dcb44801a8ee0c4706dd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.MetadataIterator.MetadataIterator</definition>
+        <argsstring>()</argsstring>
+        <name>MetadataIterator</name>
+        <qualifiedname>CoreModeler.Model.MetadataIterator.MetadataIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="79" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="43" column="16" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="43" bodyend="83"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a251f983e364174206808852e22aa1489" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>delete</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ab9632b8e3bb839ff1bf1e9890a530319" prot="protected" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>finalize</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a4a9b30981b724ac528271d2ff21cef52" prot="protected" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac4ceb3ff21f0683822247e1414d33d73" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>hasNext</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a55d93720831be817111714ebdb4bb585" prot="protected" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>MetadataIterator</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac82903db56c4dcb44801a8ee0c4706dd" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>MetadataIterator</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1afd2186351511a345fe13441295b140dd" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>next</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1aaa987f0eb309e14af27eebabfaecafa1" prot="protected" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1afe9747116856c607def6086e43d8d100" prot="private" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>swigCPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

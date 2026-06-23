@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_core_modeler_8h" kind="file" language="C++">
+    <compoundname>CoreModeler.h</compoundname>
+    <innerclass refid="class_core_modeler_1_1_model" prot="public">CoreModeler::Model</innerclass>
+    <innerclass refid="class_core_modeler_1_1_model_1_1_metadata_iterator" prot="public">CoreModeler::Model::MetadataIterator</innerclass>
+    <innerclass refid="class_core_modeler_1_1_geometry_1_1_i_drawable" prot="public">CoreModeler::Geometry::IDrawable</innerclass>
+    <innerclass refid="class_core_modeler_1_1_geometry_1_1_point3_d" prot="public">CoreModeler::Geometry::Point3D</innerclass>
+    <innerclass refid="class_core_modeler_1_1_geometry_1_1_shape" prot="public">CoreModeler::Geometry::Shape</innerclass>
+    <innerclass refid="class_core_modeler_1_1_geometry_1_1_box" prot="public">CoreModeler::Geometry::Box</innerclass>
+    <innernamespace refid="namespace_core_modeler">CoreModeler</innernamespace>
+    <innernamespace refid="namespace_core_modeler_1_1_geometry">CoreModeler::Geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h"/>
+  </compounddef>
+</doxygen>

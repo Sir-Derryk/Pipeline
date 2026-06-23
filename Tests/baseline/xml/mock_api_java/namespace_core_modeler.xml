@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespace_core_modeler" kind="namespace" language="Java">
+    <compoundname>CoreModeler</compoundname>
+    <innerclass refid="class_core_modeler_1_1_box" prot="public">CoreModeler::Box</innerclass>
+    <innerclass refid="class_core_modeler_1_1core__modeler" prot="public">CoreModeler::core_modeler</innerclass>
+    <innerclass refid="class_core_modeler_1_1core__modeler_j_n_i" prot="public">CoreModeler::core_modelerJNI</innerclass>
+    <innerclass refid="class_core_modeler_1_1_global_config" prot="public">CoreModeler::GlobalConfig</innerclass>
+    <innerclass refid="class_core_modeler_1_1_global_logger_proxy" prot="public">CoreModeler::GlobalLoggerProxy</innerclass>
+    <innerclass refid="class_core_modeler_1_1_global_status" prot="public">CoreModeler::GlobalStatus</innerclass>
+    <innerclass refid="class_core_modeler_1_1_i_drawable" prot="public">CoreModeler::IDrawable</innerclass>
+    <innerclass refid="class_core_modeler_1_1_model" prot="public">CoreModeler::Model</innerclass>
+    <innerclass refid="class_core_modeler_1_1_point3_dd" prot="public">CoreModeler::Point3Dd</innerclass>
+    <innerclass refid="class_core_modeler_1_1_point3_df" prot="public">CoreModeler::Point3Df</innerclass>
+    <innerclass refid="class_core_modeler_1_1_point3_di" prot="public">CoreModeler::Point3Di</innerclass>
+    <innerclass refid="class_core_modeler_1_1_render_mode" prot="public">CoreModeler::RenderMode</innerclass>
+    <innerclass refid="class_core_modeler_1_1_shape" prot="public">CoreModeler::Shape</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="9" column="15"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_point3_dd" kind="class" language="C#" prot="public">
+    <compoundname>CoreModeler::Point3Dd</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemIDisposable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_point3_dd_1a32859da85373c976cf696a00473debf3" prot="private" static="no" mutable="no">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>global::System.Runtime.InteropServices.HandleRef CoreModeler.Point3Dd.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Point3Dd.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="14" column="57" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_point3_dd_1a5aee33a899e7309884e5452571c5a769" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CoreModeler.Point3Dd.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.Point3Dd.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="15" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_core_modeler_1_1_point3_dd_1a80bceaca88af2a237bf9729ebf573eb3" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double CoreModeler.Point3Dd.x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>CoreModeler.Point3Dd.x</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="47" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="47" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="property" id="class_core_modeler_1_1_point3_dd_1a39a6d124998e173645518ecdd1f150ec" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double CoreModeler.Point3Dd.y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>CoreModeler.Point3Dd.y</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="57" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="57" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="property" id="class_core_modeler_1_1_point3_dd_1ae62440cd5d17f0997db612da21677b33" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double CoreModeler.Point3Dd.z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>CoreModeler.Point3Dd.z</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="67" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="67" bodyend="75"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_dd_1aeb1af415ae301c7a08c361304482e203" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Point3Dd.Point3Dd</definition>
+        <argsstring>(global::System.IntPtr cPtr, bool cMemoryOwn)</argsstring>
+        <name>Point3Dd</name>
+        <qualifiedname>CoreModeler.Point3Dd.Point3Dd</qualifiedname>
+        <param>
+          <type>global::System.IntPtr</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="17" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_dd_1a802be3b94f6f661bf2957f9003fa339f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>static global::System.Runtime.InteropServices.HandleRef CoreModeler.Point3Dd.getCPtr</definition>
+        <argsstring>(Point3Dd obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Point3Dd.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_dd" kindref="compound">Point3Dd</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="22" column="65" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="22" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_dd_1a0cc0b9c192209dbdb71867e5212402a7" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Point3Dd.~Point3Dd</definition>
+        <argsstring>()</argsstring>
+        <name>~Point3Dd</name>
+        <qualifiedname>CoreModeler.Point3Dd.~Point3Dd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="26" column="3" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="26" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_dd_1adbea6c9dbd9a74c362159ad9361c2907" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Point3Dd.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Point3Dd.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="30" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_dd_1a4a61b60f72afdc238ae159a9028d9499" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Point3Dd.Point3Dd</definition>
+        <argsstring>()</argsstring>
+        <name>Point3Dd</name>
+        <qualifiedname>CoreModeler.Point3Dd.Point3Dd</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="77" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="77" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_dd_1af4bb669482649ae3e096b3d91b21e9fb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Point3Dd.Point3Dd</definition>
+        <argsstring>(double valX, double valY, double valZ)</argsstring>
+        <name>Point3Dd</name>
+        <qualifiedname>CoreModeler.Point3Dd.Point3Dd</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>valX</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>valY</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>valZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="80" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="80" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_dd_1af8cd34dd3c11287a5bfe2fcf4efc9178" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Point3Dd.translate</definition>
+        <argsstring>(double dx, double dy, double dz)</argsstring>
+        <name>translate</name>
+        <qualifiedname>CoreModeler.Point3Dd.translate</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>dz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="83" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="83" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_dd_1a393ff5eb31a9c2e1eaede2969ad5b587" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CoreModeler.Point3Dd.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Point3Dd.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="35" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="35" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CoreModeler.Point3Dd</label>
+        <link refid="class_core_modeler_1_1_point3_dd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CoreModeler.Point3Dd</label>
+        <link refid="class_core_modeler_1_1_point3_dd"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" line="13" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Point3Dd.cs" bodystart="13" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_point3_dd_1adbea6c9dbd9a74c362159ad9361c2907" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1a393ff5eb31a9c2e1eaede2969ad5b587" prot="protected" virt="virtual"><scope>CoreModeler::Point3Dd</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1a802be3b94f6f661bf2957f9003fa339f" prot="package" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1aeb1af415ae301c7a08c361304482e203" prot="package" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>Point3Dd</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1a4a61b60f72afdc238ae159a9028d9499" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>Point3Dd</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1af4bb669482649ae3e096b3d91b21e9fb" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>Point3Dd</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1a5aee33a899e7309884e5452571c5a769" prot="protected" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1a32859da85373c976cf696a00473debf3" prot="private" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>swigCPtr</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1af8cd34dd3c11287a5bfe2fcf4efc9178" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>translate</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1a80bceaca88af2a237bf9729ebf573eb3" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>x</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1a39a6d124998e173645518ecdd1f150ec" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>y</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1ae62440cd5d17f0997db612da21677b33" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>z</name></member>
+      <member refid="class_core_modeler_1_1_point3_dd_1a0cc0b9c192209dbdb71867e5212402a7" prot="private" virt="non-virtual"><scope>CoreModeler::Point3Dd</scope><name>~Point3Dd</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

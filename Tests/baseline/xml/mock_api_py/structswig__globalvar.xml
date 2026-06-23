@@ -1,0 +1,84 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structswig__globalvar" kind="struct" language="C++" prot="public">
+    <compoundname>swig_globalvar</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structswig__globalvar_1a32fcb5efb741f97e5c53e1a253cafdd9" prot="public" static="no" mutable="no">
+        <type>char *</type>
+        <definition>char* swig_globalvar::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>swig_globalvar::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="5797" column="16" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="5797" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structswig__globalvar_1a0488c9478cca68db48f1cc5d8d520735" prot="public" static="no" mutable="no">
+        <type>PyObject *(*</type>
+        <definition>PyObject *(* swig_globalvar::get_attr) (void)</definition>
+        <argsstring>)(void)</argsstring>
+        <name>get_attr</name>
+        <qualifiedname>swig_globalvar::get_attr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="5798" column="5" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="5798" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structswig__globalvar_1acff619325c0e354df88508d64c1608e6" prot="public" static="no" mutable="no">
+        <type>int(*</type>
+        <definition>int(* swig_globalvar::set_attr) (PyObject *)</definition>
+        <argsstring>)(PyObject *)</argsstring>
+        <name>set_attr</name>
+        <qualifiedname>swig_globalvar::set_attr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="5799" column="5" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="5799" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structswig__globalvar_1a6b7f8fdec3a5c39a52b33c916d7ba028" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structswig__globalvar" kindref="compound">swig_globalvar</ref> *</type>
+        <definition>struct swig_globalvar* swig_globalvar::next</definition>
+        <argsstring></argsstring>
+        <name>next</name>
+        <qualifiedname>swig_globalvar::next</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="5800" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="5800" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>swig_globalvar</label>
+        <link refid="structswig__globalvar"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>next</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="5796" column="3" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="5796" bodyend="5801"/>
+    <listofallmembers>
+      <member refid="structswig__globalvar_1a0488c9478cca68db48f1cc5d8d520735" prot="public" virt="non-virtual"><scope>swig_globalvar</scope><name>get_attr</name></member>
+      <member refid="structswig__globalvar_1a32fcb5efb741f97e5c53e1a253cafdd9" prot="public" virt="non-virtual"><scope>swig_globalvar</scope><name>name</name></member>
+      <member refid="structswig__globalvar_1a6b7f8fdec3a5c39a52b33c916d7ba028" prot="public" virt="non-virtual"><scope>swig_globalvar</scope><name>next</name></member>
+      <member refid="structswig__globalvar_1acff619325c0e354df88508d64c1608e6" prot="public" virt="non-virtual"><scope>swig_globalvar</scope><name>set_attr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

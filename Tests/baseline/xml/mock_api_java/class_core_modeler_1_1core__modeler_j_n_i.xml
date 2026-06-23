@@ -1,0 +1,1700 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1core__modeler_j_n_i" kind="class" language="Java" prot="public">
+    <compoundname>CoreModeler::core_modelerJNI</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a8f9efbb52aadef5a9e0016dc74269b03" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.GlobalConfig_maxThreads_set</definition>
+        <argsstring>(long jarg1, GlobalConfig jarg1_, int jarg2)</argsstring>
+        <name>GlobalConfig_maxThreads_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.GlobalConfig_maxThreads_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_global_config" kindref="compound">GlobalConfig</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="12" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1af8fe76ea007f42005128bd58fe99ee68" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native int</type>
+        <definition>static final native int CoreModeler.core_modelerJNI.GlobalConfig_maxThreads_get</definition>
+        <argsstring>(long jarg1, GlobalConfig jarg1_)</argsstring>
+        <name>GlobalConfig_maxThreads_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.GlobalConfig_maxThreads_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_global_config" kindref="compound">GlobalConfig</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="13" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1af7397e5625f87171813c38d227dc830f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.GlobalConfig_enableLogging_set</definition>
+        <argsstring>(long jarg1, GlobalConfig jarg1_, boolean jarg2)</argsstring>
+        <name>GlobalConfig_enableLogging_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.GlobalConfig_enableLogging_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_global_config" kindref="compound">GlobalConfig</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="14" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1adaf0efbdf91eb3365f318ee79c7c882e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native boolean</type>
+        <definition>static final native boolean CoreModeler.core_modelerJNI.GlobalConfig_enableLogging_get</definition>
+        <argsstring>(long jarg1, GlobalConfig jarg1_)</argsstring>
+        <name>GlobalConfig_enableLogging_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.GlobalConfig_enableLogging_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_global_config" kindref="compound">GlobalConfig</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="15" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a9130ee07e46df5e79db8f581f9c844ab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.GlobalConfig_timeoutSeconds_set</definition>
+        <argsstring>(long jarg1, GlobalConfig jarg1_, double jarg2)</argsstring>
+        <name>GlobalConfig_timeoutSeconds_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.GlobalConfig_timeoutSeconds_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_global_config" kindref="compound">GlobalConfig</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="16" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a5d082105a3c3f283e9b83c86753a4257" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native double</type>
+        <definition>static final native double CoreModeler.core_modelerJNI.GlobalConfig_timeoutSeconds_get</definition>
+        <argsstring>(long jarg1, GlobalConfig jarg1_)</argsstring>
+        <name>GlobalConfig_timeoutSeconds_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.GlobalConfig_timeoutSeconds_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_global_config" kindref="compound">GlobalConfig</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="17" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a698b1fbe1f4328106a2662fa4f5e0950" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.new_GlobalConfig</definition>
+        <argsstring>()</argsstring>
+        <name>new_GlobalConfig</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.new_GlobalConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="18" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ae98ca7d1a7ad43f818a82dcc564c87a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.delete_GlobalConfig</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>delete_GlobalConfig</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.delete_GlobalConfig</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="19" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a17bd057fb4bb1f83e8944de5964f712c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.g_systemState_set</definition>
+        <argsstring>(int jarg1)</argsstring>
+        <name>g_systemState_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.g_systemState_set</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="20" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a60096114afda4765b786f16d79d1358d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native int</type>
+        <definition>static final native int CoreModeler.core_modelerJNI.g_systemState_get</definition>
+        <argsstring>()</argsstring>
+        <name>g_systemState_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.g_systemState_get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="21" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a541ff1a9349ace07af5912f0896106dd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.g_piValue_set</definition>
+        <argsstring>(double jarg1)</argsstring>
+        <name>g_piValue_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.g_piValue_set</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="22" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a006fce1f155447fd5664f4f028a3a37b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native double</type>
+        <definition>static final native double CoreModeler.core_modelerJNI.g_piValue_get</definition>
+        <argsstring>()</argsstring>
+        <name>g_piValue_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.g_piValue_get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="23" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a5f53e0172fa11710df0d5c3a8dd6c474" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.GlobalLoggerProxy_logMessage__SWIG_0</definition>
+        <argsstring>(long jarg1, GlobalLoggerProxy jarg1_, String jarg2)</argsstring>
+        <name>GlobalLoggerProxy_logMessage__SWIG_0</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.GlobalLoggerProxy_logMessage__SWIG_0</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_global_logger_proxy" kindref="compound">GlobalLoggerProxy</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="24" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1aa8fde1220dc68fe92222ca38a165e3d5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native boolean</type>
+        <definition>static final native boolean CoreModeler.core_modelerJNI.GlobalLoggerProxy_logMessage__SWIG_1</definition>
+        <argsstring>(long jarg1, GlobalLoggerProxy jarg1_, String jarg2, int jarg3)</argsstring>
+        <name>GlobalLoggerProxy_logMessage__SWIG_1</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.GlobalLoggerProxy_logMessage__SWIG_1</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_global_logger_proxy" kindref="compound">GlobalLoggerProxy</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>String</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="25" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a3fa0962ee4c58360aaa177f43dc689af" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.GlobalLoggerProxy_forceFlush</definition>
+        <argsstring>(long jarg1, GlobalLoggerProxy jarg1_)</argsstring>
+        <name>GlobalLoggerProxy_forceFlush</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.GlobalLoggerProxy_forceFlush</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_global_logger_proxy" kindref="compound">GlobalLoggerProxy</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="26" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a24d4276176d9f84d535560574046af9d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.new_GlobalLoggerProxy</definition>
+        <argsstring>()</argsstring>
+        <name>new_GlobalLoggerProxy</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.new_GlobalLoggerProxy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="27" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a2c4cf82c0f268a09db3799fd73f07609" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.delete_GlobalLoggerProxy</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>delete_GlobalLoggerProxy</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.delete_GlobalLoggerProxy</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="28" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ab1319c873fbf3ab888542348635fda54" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native int</type>
+        <definition>static final native int CoreModeler.core_modelerJNI.globalInitialize</definition>
+        <argsstring>(long jarg1, GlobalConfig jarg1_)</argsstring>
+        <name>globalInitialize</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.globalInitialize</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_global_config" kindref="compound">GlobalConfig</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="29" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a612663aab4eeead4f160e9072a725bf8" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.new_Model</definition>
+        <argsstring>(int jarg1)</argsstring>
+        <name>new_Model</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.new_Model</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="30" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a565fd56e8a7d441b448c401894b115a3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native boolean</type>
+        <definition>static final native boolean CoreModeler.core_modelerJNI.Model_MetadataIterator_hasNext</definition>
+        <argsstring>(long jarg1, Model.MetadataIterator jarg1_)</argsstring>
+        <name>Model_MetadataIterator_hasNext</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Model_MetadataIterator_hasNext</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>Model.MetadataIterator</type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="31" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a824816a195e15a5a60b0de6da5c4ee36" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native String</type>
+        <definition>static final native String CoreModeler.core_modelerJNI.Model_MetadataIterator_next</definition>
+        <argsstring>(long jarg1, Model.MetadataIterator jarg1_)</argsstring>
+        <name>Model_MetadataIterator_next</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Model_MetadataIterator_next</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>Model.MetadataIterator</type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="32" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a88ccac7db8920811036b8214b261bea2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.new_Model_MetadataIterator</definition>
+        <argsstring>()</argsstring>
+        <name>new_Model_MetadataIterator</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.new_Model_MetadataIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="33" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1af62345d51e4dea2ff1dff22407121be1" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.delete_Model_MetadataIterator</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>delete_Model_MetadataIterator</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.delete_Model_MetadataIterator</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="34" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a1021a49fbf5b7a7665a7d7a4bfb1b64e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.delete_Model</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>delete_Model</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.delete_Model</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="35" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a01e45127cb6eb4966670bfb1cae03d00" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.delete_IDrawable</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>delete_IDrawable</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.delete_IDrawable</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="36" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a143648d2202909859633c7db482e1070" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.IDrawable_renderToScreen__SWIG_0</definition>
+        <argsstring>(long jarg1, IDrawable jarg1_)</argsstring>
+        <name>IDrawable_renderToScreen__SWIG_0</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.IDrawable_renderToScreen__SWIG_0</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_i_drawable" kindref="compound">IDrawable</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="37" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ae82f8e39698544af2114e6b3f5587980" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native int</type>
+        <definition>static final native int CoreModeler.core_modelerJNI.IDrawable_renderToScreen__SWIG_1</definition>
+        <argsstring>(long jarg1, IDrawable jarg1_, int jarg2)</argsstring>
+        <name>IDrawable_renderToScreen__SWIG_1</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.IDrawable_renderToScreen__SWIG_1</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_i_drawable" kindref="compound">IDrawable</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="38" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1afb863ed5835c3931d2b6f903f8ca65bd" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.delete_Shape</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>delete_Shape</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.delete_Shape</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="39" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a93b3b06150cf4e5dfa864ed94ae02764" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native double</type>
+        <definition>static final native double CoreModeler.core_modelerJNI.Shape_getVolume</definition>
+        <argsstring>(long jarg1, Shape jarg1_)</argsstring>
+        <name>Shape_getVolume</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Shape_getVolume</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_shape" kindref="compound">Shape</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="40" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1af801c90cc794a45453170e86305343c3" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.new_Box</definition>
+        <argsstring>(double jarg1, double jarg2, double jarg3)</argsstring>
+        <name>new_Box</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.new_Box</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="41" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a76ca75d7d6b0f3b5dd2c7bd91afaaa3b" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native double</type>
+        <definition>static final native double CoreModeler.core_modelerJNI.Box_getVolume</definition>
+        <argsstring>(long jarg1, Box jarg1_)</argsstring>
+        <name>Box_getVolume</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Box_getVolume</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_box" kindref="compound">Box</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="42" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a6bff0c469a7d4ca574771d90eceec93d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Box_renderToScreen__SWIG_0</definition>
+        <argsstring>(long jarg1, Box jarg1_)</argsstring>
+        <name>Box_renderToScreen__SWIG_0</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Box_renderToScreen__SWIG_0</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_box" kindref="compound">Box</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="43" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ae56f6dead1b4e748e8446160a4f8d95e" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native int</type>
+        <definition>static final native int CoreModeler.core_modelerJNI.Box_renderToScreen__SWIG_1</definition>
+        <argsstring>(long jarg1, Box jarg1_, int jarg2)</argsstring>
+        <name>Box_renderToScreen__SWIG_1</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Box_renderToScreen__SWIG_1</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_box" kindref="compound">Box</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="44" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a7e9e2b50f0ca5712469931b20cde5978" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Box_scale__SWIG_0</definition>
+        <argsstring>(long jarg1, Box jarg1_, double jarg2)</argsstring>
+        <name>Box_scale__SWIG_0</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Box_scale__SWIG_0</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_box" kindref="compound">Box</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="45" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a55658a74ce03f72a266ba6f9a326f158" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Box_scale__SWIG_1</definition>
+        <argsstring>(long jarg1, Box jarg1_, double jarg2, double jarg3, double jarg4)</argsstring>
+        <name>Box_scale__SWIG_1</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Box_scale__SWIG_1</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_box" kindref="compound">Box</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="46" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a8d0d555dd91e5e358910a255a0321f24" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.delete_Box</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>delete_Box</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.delete_Box</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="47" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ade531b3486b9b109fed5542351218441" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.DIAG_SUCCESS_get</definition>
+        <argsstring>()</argsstring>
+        <name>DIAG_SUCCESS_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.DIAG_SUCCESS_get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="48" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a94b706c328664d7858c681487ed92b90" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.DIAG_FAILURE_get</definition>
+        <argsstring>()</argsstring>
+        <name>DIAG_FAILURE_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.DIAG_FAILURE_get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="49" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a28947b89737969e0cb48a925a77e1501" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.g_diagnosticRunCount_set</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>g_diagnosticRunCount_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.g_diagnosticRunCount_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="50" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a916ede6207a0c3068a3fa79eea6562a2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.g_diagnosticRunCount_get</definition>
+        <argsstring>()</argsstring>
+        <name>g_diagnosticRunCount_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.g_diagnosticRunCount_get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="51" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ac14a407b992ead3de48a83c4fc42c77c" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.checkSystemHealth</definition>
+        <argsstring>()</argsstring>
+        <name>checkSystemHealth</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.checkSystemHealth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="52" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a38bca32efc148bd56d9ae794adc0a88f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native boolean</type>
+        <definition>static final native boolean CoreModeler.core_modelerJNI.pingSubsystem__SWIG_0</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>pingSubsystem__SWIG_0</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.pingSubsystem__SWIG_0</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="53" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a54757539903123bb45a7e842ebeec559" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native boolean</type>
+        <definition>static final native boolean CoreModeler.core_modelerJNI.pingSubsystem__SWIG_1</definition>
+        <argsstring>()</argsstring>
+        <name>pingSubsystem__SWIG_1</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.pingSubsystem__SWIG_1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="54" column="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a13bdfe1c463a912b0dd2d13fe167a421" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.resetCounters</definition>
+        <argsstring>()</argsstring>
+        <name>resetCounters</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.resetCounters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="55" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ad030494deda29cee712322f74f22ef15" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Di_x_set</definition>
+        <argsstring>(long jarg1, Point3Di jarg1_, int jarg2)</argsstring>
+        <name>Point3Di_x_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Di_x_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_di" kindref="compound">Point3Di</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="56" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a3028fa78d89511e46f3b2d7113eb9326" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native int</type>
+        <definition>static final native int CoreModeler.core_modelerJNI.Point3Di_x_get</definition>
+        <argsstring>(long jarg1, Point3Di jarg1_)</argsstring>
+        <name>Point3Di_x_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Di_x_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_di" kindref="compound">Point3Di</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="57" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a87635da878af3f29b9937798fd0a34c4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Di_y_set</definition>
+        <argsstring>(long jarg1, Point3Di jarg1_, int jarg2)</argsstring>
+        <name>Point3Di_y_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Di_y_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_di" kindref="compound">Point3Di</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="58" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ab841f8ea989728359fca747cdc96e9bf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native int</type>
+        <definition>static final native int CoreModeler.core_modelerJNI.Point3Di_y_get</definition>
+        <argsstring>(long jarg1, Point3Di jarg1_)</argsstring>
+        <name>Point3Di_y_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Di_y_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_di" kindref="compound">Point3Di</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="59" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a57cb773303e21602b9924e10b1225365" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Di_z_set</definition>
+        <argsstring>(long jarg1, Point3Di jarg1_, int jarg2)</argsstring>
+        <name>Point3Di_z_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Di_z_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_di" kindref="compound">Point3Di</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="60" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a10d8c1e077ef64d175001cab0a850bdf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native int</type>
+        <definition>static final native int CoreModeler.core_modelerJNI.Point3Di_z_get</definition>
+        <argsstring>(long jarg1, Point3Di jarg1_)</argsstring>
+        <name>Point3Di_z_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Di_z_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_di" kindref="compound">Point3Di</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="61" column="34"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ab1319e8101d81222d05d38ce6fef9648" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.new_Point3Di__SWIG_0</definition>
+        <argsstring>()</argsstring>
+        <name>new_Point3Di__SWIG_0</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.new_Point3Di__SWIG_0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="62" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a8ebb0a0e431bf47a496ae4f40c18ab93" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.new_Point3Di__SWIG_1</definition>
+        <argsstring>(int jarg1, int jarg2, int jarg3)</argsstring>
+        <name>new_Point3Di__SWIG_1</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.new_Point3Di__SWIG_1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="63" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a8d491080cdb3bdab3c9efb88eca0e4a7" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Di_translate</definition>
+        <argsstring>(long jarg1, Point3Di jarg1_, int jarg2, int jarg3, int jarg4)</argsstring>
+        <name>Point3Di_translate</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Di_translate</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_di" kindref="compound">Point3Di</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="64" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a3a4adaa84e4a0b2c5b7db66f9acc2252" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.delete_Point3Di</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>delete_Point3Di</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.delete_Point3Di</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="65" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1af2a1c2d26c13ff3145c80996d14d990f" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Df_x_set</definition>
+        <argsstring>(long jarg1, Point3Df jarg1_, float jarg2)</argsstring>
+        <name>Point3Df_x_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Df_x_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_df" kindref="compound">Point3Df</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="66" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ad0ff3e915143f89e92eb04b8269b6bff" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native float</type>
+        <definition>static final native float CoreModeler.core_modelerJNI.Point3Df_x_get</definition>
+        <argsstring>(long jarg1, Point3Df jarg1_)</argsstring>
+        <name>Point3Df_x_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Df_x_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_df" kindref="compound">Point3Df</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="67" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a1db26e29886eaf47146f241fef941556" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Df_y_set</definition>
+        <argsstring>(long jarg1, Point3Df jarg1_, float jarg2)</argsstring>
+        <name>Point3Df_y_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Df_y_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_df" kindref="compound">Point3Df</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="68" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a4326953a537e391b2c46744ea0a1aaab" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native float</type>
+        <definition>static final native float CoreModeler.core_modelerJNI.Point3Df_y_get</definition>
+        <argsstring>(long jarg1, Point3Df jarg1_)</argsstring>
+        <name>Point3Df_y_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Df_y_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_df" kindref="compound">Point3Df</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="69" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a373bda3c9b64a0142646254893ae6e68" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Df_z_set</definition>
+        <argsstring>(long jarg1, Point3Df jarg1_, float jarg2)</argsstring>
+        <name>Point3Df_z_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Df_z_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_df" kindref="compound">Point3Df</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="70" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a375d694badcd40e75fe6a6005d1de2df" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native float</type>
+        <definition>static final native float CoreModeler.core_modelerJNI.Point3Df_z_get</definition>
+        <argsstring>(long jarg1, Point3Df jarg1_)</argsstring>
+        <name>Point3Df_z_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Df_z_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_df" kindref="compound">Point3Df</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="71" column="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a041605831bb993e00720cdca1074cbeb" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.new_Point3Df__SWIG_0</definition>
+        <argsstring>()</argsstring>
+        <name>new_Point3Df__SWIG_0</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.new_Point3Df__SWIG_0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="72" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a3483653080dff0ef2a6017e838efa1ec" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.new_Point3Df__SWIG_1</definition>
+        <argsstring>(float jarg1, float jarg2, float jarg3)</argsstring>
+        <name>new_Point3Df__SWIG_1</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.new_Point3Df__SWIG_1</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="73" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1acdb41d36c502d603c09154e69e95f938" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Df_translate</definition>
+        <argsstring>(long jarg1, Point3Df jarg1_, float jarg2, float jarg3, float jarg4)</argsstring>
+        <name>Point3Df_translate</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Df_translate</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_df" kindref="compound">Point3Df</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="74" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a0a46988474c29b117ef0620f3ac67423" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.delete_Point3Df</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>delete_Point3Df</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.delete_Point3Df</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="75" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a71329874e487f1157c262a3a8752c308" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Dd_x_set</definition>
+        <argsstring>(long jarg1, Point3Dd jarg1_, double jarg2)</argsstring>
+        <name>Point3Dd_x_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Dd_x_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_dd" kindref="compound">Point3Dd</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="76" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ad202322f394d0c3ba7ca373dc6510306" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native double</type>
+        <definition>static final native double CoreModeler.core_modelerJNI.Point3Dd_x_get</definition>
+        <argsstring>(long jarg1, Point3Dd jarg1_)</argsstring>
+        <name>Point3Dd_x_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Dd_x_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_dd" kindref="compound">Point3Dd</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="77" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a72175edece52c0954126ed2bad083664" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Dd_y_set</definition>
+        <argsstring>(long jarg1, Point3Dd jarg1_, double jarg2)</argsstring>
+        <name>Point3Dd_y_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Dd_y_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_dd" kindref="compound">Point3Dd</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="78" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ab5edb24a6ed66d55c64c1bf85253bc23" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native double</type>
+        <definition>static final native double CoreModeler.core_modelerJNI.Point3Dd_y_get</definition>
+        <argsstring>(long jarg1, Point3Dd jarg1_)</argsstring>
+        <name>Point3Dd_y_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Dd_y_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_dd" kindref="compound">Point3Dd</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="79" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a1d8a292dd200b83971e1d781df936998" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Dd_z_set</definition>
+        <argsstring>(long jarg1, Point3Dd jarg1_, double jarg2)</argsstring>
+        <name>Point3Dd_z_set</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Dd_z_set</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_dd" kindref="compound">Point3Dd</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="80" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a2a6e3dc7a8f1a41215e1c4eabf459b00" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native double</type>
+        <definition>static final native double CoreModeler.core_modelerJNI.Point3Dd_z_get</definition>
+        <argsstring>(long jarg1, Point3Dd jarg1_)</argsstring>
+        <name>Point3Dd_z_get</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Dd_z_get</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_dd" kindref="compound">Point3Dd</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="81" column="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ad4efb8cf6a4f0eee19f12ea52a15cbf5" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.new_Point3Dd__SWIG_0</definition>
+        <argsstring>()</argsstring>
+        <name>new_Point3Dd__SWIG_0</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.new_Point3Dd__SWIG_0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="82" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a6572ee264b12634741a2b8fbd2a9ad83" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.new_Point3Dd__SWIG_1</definition>
+        <argsstring>(double jarg1, double jarg2, double jarg3)</argsstring>
+        <name>new_Point3Dd__SWIG_1</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.new_Point3Dd__SWIG_1</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="83" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1a208c6a049da01456168d517fcef51cfc" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.Point3Dd_translate</definition>
+        <argsstring>(long jarg1, Point3Dd jarg1_, double jarg2, double jarg3, double jarg4)</argsstring>
+        <name>Point3Dd_translate</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Point3Dd_translate</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_dd" kindref="compound">Point3Dd</ref></type>
+          <declname>jarg1_</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="84" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ab6fb1d8b364ab0417bc4db74887769cf" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native void</type>
+        <definition>static final native void CoreModeler.core_modelerJNI.delete_Point3Dd</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>delete_Point3Dd</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.delete_Point3Dd</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="85" column="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1core__modeler_j_n_i_1ad5966b592896e8468954ba387f6972b2" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>final native long</type>
+        <definition>static final native long CoreModeler.core_modelerJNI.Box_SWIGUpcast</definition>
+        <argsstring>(long jarg1)</argsstring>
+        <name>Box_SWIGUpcast</name>
+        <qualifiedname>CoreModeler.core_modelerJNI.Box_SWIGUpcast</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="86" column="35"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" line="11" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modelerJNI.java" bodystart="11" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a76ca75d7d6b0f3b5dd2c7bd91afaaa3b" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Box_getVolume</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a6bff0c469a7d4ca574771d90eceec93d" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Box_renderToScreen__SWIG_0</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ae56f6dead1b4e748e8446160a4f8d95e" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Box_renderToScreen__SWIG_1</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a7e9e2b50f0ca5712469931b20cde5978" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Box_scale__SWIG_0</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a55658a74ce03f72a266ba6f9a326f158" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Box_scale__SWIG_1</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ad5966b592896e8468954ba387f6972b2" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Box_SWIGUpcast</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ac14a407b992ead3de48a83c4fc42c77c" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>checkSystemHealth</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a8d0d555dd91e5e358910a255a0321f24" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>delete_Box</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ae98ca7d1a7ad43f818a82dcc564c87a2" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>delete_GlobalConfig</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a2c4cf82c0f268a09db3799fd73f07609" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>delete_GlobalLoggerProxy</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a01e45127cb6eb4966670bfb1cae03d00" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>delete_IDrawable</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a1021a49fbf5b7a7665a7d7a4bfb1b64e" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>delete_Model</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1af62345d51e4dea2ff1dff22407121be1" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>delete_Model_MetadataIterator</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ab6fb1d8b364ab0417bc4db74887769cf" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>delete_Point3Dd</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a0a46988474c29b117ef0620f3ac67423" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>delete_Point3Df</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a3a4adaa84e4a0b2c5b7db66f9acc2252" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>delete_Point3Di</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1afb863ed5835c3931d2b6f903f8ca65bd" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>delete_Shape</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a94b706c328664d7858c681487ed92b90" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>DIAG_FAILURE_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ade531b3486b9b109fed5542351218441" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>DIAG_SUCCESS_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a916ede6207a0c3068a3fa79eea6562a2" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>g_diagnosticRunCount_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a28947b89737969e0cb48a925a77e1501" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>g_diagnosticRunCount_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a006fce1f155447fd5664f4f028a3a37b" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>g_piValue_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a541ff1a9349ace07af5912f0896106dd" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>g_piValue_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a60096114afda4765b786f16d79d1358d" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>g_systemState_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a17bd057fb4bb1f83e8944de5964f712c" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>g_systemState_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1adaf0efbdf91eb3365f318ee79c7c882e" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>GlobalConfig_enableLogging_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1af7397e5625f87171813c38d227dc830f" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>GlobalConfig_enableLogging_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1af8fe76ea007f42005128bd58fe99ee68" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>GlobalConfig_maxThreads_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a8f9efbb52aadef5a9e0016dc74269b03" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>GlobalConfig_maxThreads_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a5d082105a3c3f283e9b83c86753a4257" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>GlobalConfig_timeoutSeconds_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a9130ee07e46df5e79db8f581f9c844ab" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>GlobalConfig_timeoutSeconds_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ab1319c873fbf3ab888542348635fda54" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>globalInitialize</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a3fa0962ee4c58360aaa177f43dc689af" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>GlobalLoggerProxy_forceFlush</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a5f53e0172fa11710df0d5c3a8dd6c474" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>GlobalLoggerProxy_logMessage__SWIG_0</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1aa8fde1220dc68fe92222ca38a165e3d5" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>GlobalLoggerProxy_logMessage__SWIG_1</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a143648d2202909859633c7db482e1070" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>IDrawable_renderToScreen__SWIG_0</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ae82f8e39698544af2114e6b3f5587980" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>IDrawable_renderToScreen__SWIG_1</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a565fd56e8a7d441b448c401894b115a3" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Model_MetadataIterator_hasNext</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a824816a195e15a5a60b0de6da5c4ee36" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Model_MetadataIterator_next</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1af801c90cc794a45453170e86305343c3" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>new_Box</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a698b1fbe1f4328106a2662fa4f5e0950" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>new_GlobalConfig</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a24d4276176d9f84d535560574046af9d" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>new_GlobalLoggerProxy</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a612663aab4eeead4f160e9072a725bf8" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>new_Model</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a88ccac7db8920811036b8214b261bea2" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>new_Model_MetadataIterator</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ad4efb8cf6a4f0eee19f12ea52a15cbf5" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>new_Point3Dd__SWIG_0</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a6572ee264b12634741a2b8fbd2a9ad83" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>new_Point3Dd__SWIG_1</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a041605831bb993e00720cdca1074cbeb" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>new_Point3Df__SWIG_0</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a3483653080dff0ef2a6017e838efa1ec" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>new_Point3Df__SWIG_1</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ab1319e8101d81222d05d38ce6fef9648" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>new_Point3Di__SWIG_0</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a8ebb0a0e431bf47a496ae4f40c18ab93" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>new_Point3Di__SWIG_1</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a38bca32efc148bd56d9ae794adc0a88f" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>pingSubsystem__SWIG_0</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a54757539903123bb45a7e842ebeec559" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>pingSubsystem__SWIG_1</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a208c6a049da01456168d517fcef51cfc" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Dd_translate</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ad202322f394d0c3ba7ca373dc6510306" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Dd_x_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a71329874e487f1157c262a3a8752c308" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Dd_x_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ab5edb24a6ed66d55c64c1bf85253bc23" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Dd_y_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a72175edece52c0954126ed2bad083664" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Dd_y_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a2a6e3dc7a8f1a41215e1c4eabf459b00" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Dd_z_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a1d8a292dd200b83971e1d781df936998" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Dd_z_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1acdb41d36c502d603c09154e69e95f938" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Df_translate</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ad0ff3e915143f89e92eb04b8269b6bff" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Df_x_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1af2a1c2d26c13ff3145c80996d14d990f" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Df_x_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a4326953a537e391b2c46744ea0a1aaab" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Df_y_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a1db26e29886eaf47146f241fef941556" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Df_y_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a375d694badcd40e75fe6a6005d1de2df" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Df_z_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a373bda3c9b64a0142646254893ae6e68" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Df_z_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a8d491080cdb3bdab3c9efb88eca0e4a7" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Di_translate</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a3028fa78d89511e46f3b2d7113eb9326" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Di_x_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ad030494deda29cee712322f74f22ef15" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Di_x_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ab841f8ea989728359fca747cdc96e9bf" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Di_y_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a87635da878af3f29b9937798fd0a34c4" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Di_y_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a10d8c1e077ef64d175001cab0a850bdf" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Di_z_get</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a57cb773303e21602b9924e10b1225365" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Point3Di_z_set</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a13bdfe1c463a912b0dd2d13fe167a421" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>resetCounters</name></member>
+      <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a93b3b06150cf4e5dfa864ed94ae02764" prot="public" virt="non-virtual"><scope>CoreModeler::core_modelerJNI</scope><name>Shape_getVolume</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

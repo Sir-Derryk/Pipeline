@@ -1,0 +1,16 @@
+---
+title: "_wrap_Point3Dd_y_set function"
+sidebar_position: 197
+parent: "Functions"
+---
+
+## Methods
+
+### _wrap_Point3Dd_y_set
+`SWIGINTERN PyObject * _wrap_Point3Dd_y_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+
+| Parameter | Type | Description |
+| --- | --- | --- |
+| SWIGUNUSEDPARM | `PyObject *` |  |
+| args | `PyObject *` |  |
+

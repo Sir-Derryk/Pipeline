@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_core_modeler_2_geometry_2_point3_dd_8cs" kind="file" language="C#">
+    <compoundname>Point3Dd.cs</compoundname>
+    <innerclass refid="class_core_modeler_1_1_geometry_1_1_point3_dd" prot="public">CoreModeler::Geometry::Point3Dd</innerclass>
+    <innernamespace refid="namespace_core_modeler">CoreModeler</innernamespace>
+    <innernamespace refid="namespace_core_modeler_1_1_geometry">CoreModeler::Geometry</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Point3Dd.cs"/>
+  </compounddef>
+</doxygen>

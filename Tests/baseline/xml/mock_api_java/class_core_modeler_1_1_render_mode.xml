@@ -1,0 +1,269 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_render_mode" kind="class" language="Java" prot="public">
+    <compoundname>CoreModeler::RenderMode</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_render_mode_1aa24c32e644db9dffde3a3cfe3f96961f" prot="public" static="yes" mutable="no">
+        <type>final <ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref></type>
+        <definition>final RenderMode CoreModeler.RenderMode.Wireframe</definition>
+        <argsstring></argsstring>
+        <name>Wireframe</name>
+        <qualifiedname>CoreModeler.RenderMode.Wireframe</qualifiedname>
+        <initializer>= new <ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref>(&quot;Wireframe&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="12" column="34" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_modeler_1_1_render_mode_1aaf400b9a1cba0f1a36324af009cbdf38" prot="public" static="yes" mutable="no">
+        <type>final <ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref></type>
+        <definition>final RenderMode CoreModeler.RenderMode.Shaded</definition>
+        <argsstring></argsstring>
+        <name>Shaded</name>
+        <qualifiedname>CoreModeler.RenderMode.Shaded</qualifiedname>
+        <initializer>= new <ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref>(&quot;Shaded&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="13" column="34" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_modeler_1_1_render_mode_1ac7873a37bb6a647224ddf06187e771c3" prot="public" static="yes" mutable="no">
+        <type>final <ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref></type>
+        <definition>final RenderMode CoreModeler.RenderMode.Textured</definition>
+        <argsstring></argsstring>
+        <name>Textured</name>
+        <qualifiedname>CoreModeler.RenderMode.Textured</qualifiedname>
+        <initializer>= new <ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref>(&quot;Textured&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="14" column="34" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_render_mode_1a37f2e9a62414df508c832599a57b2738" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref>[]</type>
+        <definition>RenderMode [] CoreModeler.RenderMode.swigValues</definition>
+        <argsstring></argsstring>
+        <name>swigValues</name>
+        <qualifiedname>CoreModeler.RenderMode.swigValues</qualifiedname>
+        <initializer>= { Wireframe, Shaded, Textured }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="50" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="50" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_modeler_1_1_render_mode_1a197501b3071f4d338ed988cd13b6858d" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int CoreModeler.RenderMode.swigNext</definition>
+        <argsstring></argsstring>
+        <name>swigNext</name>
+        <qualifiedname>CoreModeler.RenderMode.swigNext</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="51" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="51" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_render_mode_1ae359a615e95fa209d129b175679ec3b5" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int CoreModeler.RenderMode.swigValue</definition>
+        <argsstring></argsstring>
+        <name>swigValue</name>
+        <qualifiedname>CoreModeler.RenderMode.swigValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="52" column="21" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_modeler_1_1_render_mode_1a8e65c57b3f5cbe27d74d1e176af10044" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String CoreModeler.RenderMode.swigName</definition>
+        <argsstring></argsstring>
+        <name>swigName</name>
+        <qualifiedname>CoreModeler.RenderMode.swigName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="53" column="24" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="53" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_render_mode_1a889c1e7297d23d2a5888e5605638b68e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int CoreModeler.RenderMode.swigValue</definition>
+        <argsstring>()</argsstring>
+        <name>swigValue</name>
+        <qualifiedname>CoreModeler.RenderMode.swigValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="16" column="20" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="16" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_render_mode_1aafa4a5578ac96e7eb67af1fac0bd2177" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String CoreModeler.RenderMode.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>CoreModeler.RenderMode.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="20" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_render_mode_1a2d1da0b755aa70d2a92cf985a9f5031d" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref></type>
+        <definition>static RenderMode CoreModeler.RenderMode.swigToEnum</definition>
+        <argsstring>(int swigValue)</argsstring>
+        <name>swigToEnum</name>
+        <qualifiedname>CoreModeler.RenderMode.swigToEnum</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>swigValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="24" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="24" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_render_mode_1ab3c22abf003835ce13261fd2926c58fc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.RenderMode.RenderMode</definition>
+        <argsstring>(String swigName)</argsstring>
+        <name>RenderMode</name>
+        <qualifiedname>CoreModeler.RenderMode.RenderMode</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>swigName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="33" column="11" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="33" bodyend="36"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_render_mode_1a17fdb24d566ba5076201270aa55683bc" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.RenderMode.RenderMode</definition>
+        <argsstring>(String swigName, int swigValue)</argsstring>
+        <name>RenderMode</name>
+        <qualifiedname>CoreModeler.RenderMode.RenderMode</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>swigName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>swigValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="38" column="11" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="38" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_render_mode_1a97aa9249d37cc39eb30cf328d256b449" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.RenderMode.RenderMode</definition>
+        <argsstring>(String swigName, RenderMode swigEnum)</argsstring>
+        <name>RenderMode</name>
+        <qualifiedname>CoreModeler.RenderMode.RenderMode</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>swigName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref></type>
+          <declname>swigEnum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="44" column="11" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="44" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>CoreModeler.RenderMode</label>
+        <link refid="class_core_modeler_1_1_render_mode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Shaded</edgelabel>
+          <edgelabel>Textured</edgelabel>
+          <edgelabel>Wireframe</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreModeler.RenderMode</label>
+        <link refid="class_core_modeler_1_1_render_mode"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>Shaded</edgelabel>
+          <edgelabel>Textured</edgelabel>
+          <edgelabel>Wireframe</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" line="11" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/RenderMode.java" bodystart="11" bodyend="54"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_render_mode_1ab3c22abf003835ce13261fd2926c58fc" prot="private" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>RenderMode</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1a17fdb24d566ba5076201270aa55683bc" prot="private" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>RenderMode</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1a97aa9249d37cc39eb30cf328d256b449" prot="private" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>RenderMode</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1aaf400b9a1cba0f1a36324af009cbdf38" prot="public" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>Shaded</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1a8e65c57b3f5cbe27d74d1e176af10044" prot="private" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>swigName</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1a197501b3071f4d338ed988cd13b6858d" prot="private" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>swigNext</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1a2d1da0b755aa70d2a92cf985a9f5031d" prot="public" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>swigToEnum</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1ae359a615e95fa209d129b175679ec3b5" prot="private" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>swigValue</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1a889c1e7297d23d2a5888e5605638b68e" prot="public" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>swigValue</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1a37f2e9a62414df508c832599a57b2738" prot="private" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>swigValues</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1ac7873a37bb6a647224ddf06187e771c3" prot="public" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>Textured</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1aafa4a5578ac96e7eb67af1fac0bd2177" prot="public" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>toString</name></member>
+      <member refid="class_core_modeler_1_1_render_mode_1aa24c32e644db9dffde3a3cfe3f96961f" prot="public" virt="non-virtual"><scope>CoreModeler::RenderMode</scope><name>Wireframe</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

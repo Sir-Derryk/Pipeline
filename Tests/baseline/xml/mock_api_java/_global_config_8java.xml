@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_global_config_8java" kind="file" language="Java">
+    <compoundname>GlobalConfig.java</compoundname>
+    <innerclass refid="class_core_modeler_1_1_global_config" prot="public">CoreModeler::GlobalConfig</innerclass>
+    <innernamespace refid="namespace_core_modeler">CoreModeler</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java"/>
+  </compounddef>
+</doxygen>

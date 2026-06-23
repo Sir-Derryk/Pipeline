@@ -1,0 +1,54 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_model_1_1_metadata_iterator" kind="class" language="C++" prot="public">
+    <compoundname>CoreModeler::Model::MetadataIterator</compoundname>
+    <includes refid="_core_modeler_8h" local="no">CoreModeler.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1af4c685b23b5e7952834e3f42ae1d5ec2" prot="public" static="no" const="yes" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool CoreModeler::Model::MetadataIterator::hasNext</definition>
+        <argsstring>() const</argsstring>
+        <name>hasNext</name>
+        <qualifiedname>CoreModeler::Model::MetadataIterator::hasNext</qualifiedname>
+        <briefdescription>
+<para>Checks if there are more metadata items. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="37" column="14"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1_1_metadata_iterator_1af23dc198754664541589cd89f9957157" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>const char *</type>
+        <definition>const char * CoreModeler::Model::MetadataIterator::next</definition>
+        <argsstring>()</argsstring>
+        <name>next</name>
+        <qualifiedname>CoreModeler::Model::MetadataIterator::next</qualifiedname>
+        <briefdescription>
+<para>Moves to the next item and returns its key. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Missing </para>
+</simplesect>
+<simplesect kind="return"><para>tag. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="43" column="20"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Nested class representing a metadata iterator. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="32" column="5" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="32" bodyend="44"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1af4c685b23b5e7952834e3f42ae1d5ec2" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>hasNext</name></member>
+      <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1af23dc198754664541589cd89f9957157" prot="public" virt="non-virtual"><scope>CoreModeler::Model::MetadataIterator</scope><name>next</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
