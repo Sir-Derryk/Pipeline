@@ -1,7 +1,7 @@
 window.UDE_NAV_DATA = [
   {
     "id": "api_ref_root",
-    "label": "Mock SDK Python API Reference",
+    "label": "API Reference (PY)",
     "type": "topic",
     "url": "index.html",
     "children": [

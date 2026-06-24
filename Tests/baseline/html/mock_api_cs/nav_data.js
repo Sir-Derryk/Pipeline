@@ -1,7 +1,7 @@
 window.UDE_NAV_DATA = [
   {
     "id": "api_ref_root",
-    "label": "Mock SDK C# API Reference",
+    "label": "API Reference (CS)",
     "type": "topic",
     "url": "index.html",
     "children": [

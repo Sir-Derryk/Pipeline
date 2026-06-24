@@ -1,7 +1,7 @@
 window.UDE_NAV_DATA = [
   {
     "id": "api_ref_root",
-    "label": "Mock SDK Java API Reference",
+    "label": "API Reference (JAVA)",
     "type": "topic",
     "url": "index.html",
     "children": [
