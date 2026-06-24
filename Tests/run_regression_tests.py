@@ -39,6 +39,8 @@ PROJECTS = [
     {"id": "mock_api_py", "lang": "py"},
 ]
 
+UPDATE_BASELINES = os.environ.get("UPDATE_BASELINES") == "1"
+
 
 def compare_directories(dir1: Path, dir2: Path) -> List[str]:
     """Recursively compares two directories and returns differences."""
@@ -129,7 +131,13 @@ def run_project_test(p_id: str, lang: str, temp_out_root: Path) -> Tuple[bool, s
             html_renderer = HtmlRenderer(language=language, assets_src_dir=str(assets_src_dir))
             html_renderer.render(catalog_to_render, str(temp_out_html))
             
-            differences = compare_directories(temp_out_html, html_baseline)
+            if UPDATE_BASELINES:
+                if html_baseline.exists():
+                    shutil.rmtree(html_baseline)
+                shutil.copytree(temp_out_html, html_baseline)
+                differences = []
+            else:
+                differences = compare_directories(temp_out_html, html_baseline)
             if differences:
                 print("  [ERROR] HTML Renderer output mismatches:")
                 for d in differences[:10]:
@@ -153,7 +161,13 @@ def run_project_test(p_id: str, lang: str, temp_out_root: Path) -> Tuple[bool, s
             hugo_renderer = HugoMarkdownRenderer(language=language)
             hugo_renderer.render(catalog_to_render, str(temp_out_hugo))
             
-            differences = compare_directories(temp_out_hugo, hugo_baseline)
+            if UPDATE_BASELINES:
+                if hugo_baseline.exists():
+                    shutil.rmtree(hugo_baseline)
+                shutil.copytree(temp_out_hugo, hugo_baseline)
+                differences = []
+            else:
+                differences = compare_directories(temp_out_hugo, hugo_baseline)
             if differences:
                 print("  [ERROR] Hugo Markdown Renderer output mismatches:")
                 for d in differences[:10]:

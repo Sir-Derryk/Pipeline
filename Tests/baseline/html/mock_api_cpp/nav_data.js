@@ -1,5 +1,12 @@
 window.UDE_NAV_DATA = [
   {
+    "id": "node_mock_sdk_c++_api_version",
+    "label": "Mock SDK C++ API Version",
+    "type": "topic",
+    "url": "api_ref_version.html",
+    "children": []
+  },
+  {
     "id": "api_ref_root",
     "label": "API Reference (CPP)",
     "type": "topic",

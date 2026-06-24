@@ -1,5 +1,12 @@
 window.UDE_NAV_DATA = [
   {
+    "id": "node_mock_sdk_python_api_version",
+    "label": "Mock SDK Python API Version",
+    "type": "topic",
+    "url": "api_ref_version.html",
+    "children": []
+  },
+  {
     "id": "api_ref_root",
     "label": "API Reference (PY)",
     "type": "topic",

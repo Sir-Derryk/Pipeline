@@ -231,3 +231,5 @@ Pipeline/ (Umbrella Repository)
 - [x] Rename configurations to `ude_global_config.json` and `ude_doc_config.json` in test files and docstrings.
 - [x] Implement support for class-specific TOC files `toc_<RendererClassName>.json` across the 16 concrete renderer classes.
 - [x] Implement parsing of custom pages (`static`, `inline`, `redirect`) inside TOC sidebar layouts with Jinja2 variable interpolation.
+- [x] Prepend the custom inline version page as the first entry in the sidebar for all 16 concrete renderers with dynamic Jinja2 variable interpolation of labels and page body contents.
+- [x] Omit the OdaDocContainerInfoPanel (showing Scope and Fully Qualified Name) on all portal/custom first-level pages.

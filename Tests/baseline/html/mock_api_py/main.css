@@ -459,7 +459,7 @@ nav.OdaDocTOC {
   color: var(--color-primary); /* Выделение текста полужирным и акцентным цветом */
 }
 
-.OdaDocTOCItem.node-type-group > .OdaDocTOCRow .OdaDocTOCLabel {
+.OdaDocTOCItem.node-type-group > .OdaDocTOCRow:not(.active):not(:hover) .OdaDocTOCLabel {
   font-weight: normal;
   color: var(--color-header);
 }

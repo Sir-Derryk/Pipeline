@@ -1,6 +1,6 @@
 ---
 title: "API Reference (JAVA)"
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # API Reference (JAVA) Welcome

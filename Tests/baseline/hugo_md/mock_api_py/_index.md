@@ -1,6 +1,6 @@
 ---
 title: "API Reference (PY)"
-sidebar_position: 1
+sidebar_position: 2
 ---
 
 # API Reference (PY) Welcome
