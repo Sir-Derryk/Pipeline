@@ -1,6 +1,6 @@
 ---
 title: "swig_varlinkobject typedef"
-sidebar_position: 230
+sidebar_position: 451
 parent: "Typedefs"
 ---
 

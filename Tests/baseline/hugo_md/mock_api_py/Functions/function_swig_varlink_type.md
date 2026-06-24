@@ -1,6 +1,6 @@
 ---
 title: "swig_varlink_type function"
-sidebar_position: 217
+sidebar_position: 430
 parent: "Functions"
 ---
 

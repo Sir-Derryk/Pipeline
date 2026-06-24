@@ -1,6 +1,6 @@
 ---
 title: "SwigPyObject_compare function"
-sidebar_position: 52
+sidebar_position: 265
 parent: "Functions"
 ---
 

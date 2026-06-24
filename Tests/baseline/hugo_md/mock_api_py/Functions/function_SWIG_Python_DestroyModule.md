@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_DestroyModule function"
-sidebar_position: 85
+sidebar_position: 298
 parent: "Functions"
 ---
 

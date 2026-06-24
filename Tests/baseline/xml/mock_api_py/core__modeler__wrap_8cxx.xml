@@ -1445,7 +1445,7 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="2713" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="2705" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="define" id="core__modeler__wrap_8cxx_1acd0853cfe9c5701f9b72b91b469dee35" prot="public" static="no">
+      <memberdef kind="define" id="core__modeler__wrap_8cxx_1a2d71dac1020240ec6993bfc5048a5988" prot="public" static="no">
         <name>SWIG_init</name>
         <initializer>init_core_modeler</initializer>
         <briefdescription>

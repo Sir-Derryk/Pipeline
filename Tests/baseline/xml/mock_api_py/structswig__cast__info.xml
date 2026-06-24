@@ -3,9 +3,9 @@
   <compounddef id="structswig__cast__info" kind="struct" language="C++" prot="public">
     <compoundname>swig_cast_info</compoundname>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structswig__cast__info_1a1c9023a301c8d6806209f4e10df6e9e0" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="structswig__cast__info_1a06b74832d16cc0c4fd147e4c39095cd9" prot="public" static="no" mutable="no">
         <type><ref refid="structswig__type__info" kindref="compound">swig_type_info</ref> *</type>
-        <definition>swig_type_info* swig_cast_info::type</definition>
+        <definition>swig_type_info * swig_cast_info::type</definition>
         <argsstring></argsstring>
         <name>type</name>
         <qualifiedname>swig_cast_info::type</qualifiedname>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="378" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="378" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="378" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="378" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structswig__cast__info_1aa630fddfbb1bf9c97a03f9479ba32f76" prot="public" static="no" mutable="no">
         <type>swig_converter_func</type>
@@ -29,11 +29,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="379" column="27" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="379" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="379" column="27" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="379" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structswig__cast__info_1ae79c6fa058a9d908bbdac14db0c9db5e" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="structswig__cast__info_1a2fc1b5702ec07bc23135df5c5db8e53e" prot="public" static="no" mutable="no">
         <type>struct <ref refid="structswig__cast__info" kindref="compound">swig_cast_info</ref> *</type>
-        <definition>struct swig_cast_info* swig_cast_info::next</definition>
+        <definition>struct swig_cast_info * swig_cast_info::next</definition>
         <argsstring></argsstring>
         <name>next</name>
         <qualifiedname>swig_cast_info::next</qualifiedname>
@@ -43,11 +43,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="380" column="23" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="380" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="380" column="23" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="380" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structswig__cast__info_1afc685bcf38a5a06c6601775138c5999c" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="structswig__cast__info_1a0f5d1fc81b494c3e032a153609fd3268" prot="public" static="no" mutable="no">
         <type>struct <ref refid="structswig__cast__info" kindref="compound">swig_cast_info</ref> *</type>
-        <definition>struct swig_cast_info* swig_cast_info::prev</definition>
+        <definition>struct swig_cast_info * swig_cast_info::prev</definition>
         <argsstring></argsstring>
         <name>prev</name>
         <qualifiedname>swig_cast_info::prev</qualifiedname>
@@ -57,7 +57,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="381" column="23" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="381" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="381" column="23" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="381" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -87,12 +87,12 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="377" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="377" bodyend="382"/>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="377" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="377" bodyend="382"/>
     <listofallmembers>
       <member refid="structswig__cast__info_1aa630fddfbb1bf9c97a03f9479ba32f76" prot="public" virt="non-virtual"><scope>swig_cast_info</scope><name>converter</name></member>
-      <member refid="structswig__cast__info_1ae79c6fa058a9d908bbdac14db0c9db5e" prot="public" virt="non-virtual"><scope>swig_cast_info</scope><name>next</name></member>
-      <member refid="structswig__cast__info_1afc685bcf38a5a06c6601775138c5999c" prot="public" virt="non-virtual"><scope>swig_cast_info</scope><name>prev</name></member>
-      <member refid="structswig__cast__info_1a1c9023a301c8d6806209f4e10df6e9e0" prot="public" virt="non-virtual"><scope>swig_cast_info</scope><name>type</name></member>
+      <member refid="structswig__cast__info_1a2fc1b5702ec07bc23135df5c5db8e53e" prot="public" virt="non-virtual"><scope>swig_cast_info</scope><name>next</name></member>
+      <member refid="structswig__cast__info_1a0f5d1fc81b494c3e032a153609fd3268" prot="public" virt="non-virtual"><scope>swig_cast_info</scope><name>prev</name></member>
+      <member refid="structswig__cast__info_1a06b74832d16cc0c4fd147e4c39095cd9" prot="public" virt="non-virtual"><scope>swig_cast_info</scope><name>type</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

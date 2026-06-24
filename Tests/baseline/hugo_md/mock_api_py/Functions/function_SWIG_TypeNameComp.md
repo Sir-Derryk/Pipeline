@@ -1,6 +1,6 @@
 ---
 title: "SWIG_TypeNameComp function"
-sidebar_position: 10
+sidebar_position: 223
 parent: "Functions"
 ---
 

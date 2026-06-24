@@ -1,0 +1,333 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_geometry_1_1_point3_di" kind="class" language="Java" prot="public">
+    <compoundname>CoreModeler::Geometry::Point3Di</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_point3_di_1aeb07049bacddf0eddd46e20191393395" prot="private" static="no" mutable="no">
+        <type>transient long</type>
+        <definition>transient long CoreModeler.Geometry.Point3Di.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="16" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a715796fcc6fda25de03145116393b65f" prot="protected" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean CoreModeler.Geometry.Point3Di.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="17" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a1fb4407b2bdbf0506ed70e10199a46c6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Geometry.Point3Di.Point3Di</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>Point3Di</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.Point3Di</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="19" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a11fa74d067da57c6286c68ef096e1063" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Geometry.Point3Di.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="29" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="29" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a16d91823d387eea50c27d3eea591723a" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long CoreModeler.Geometry.Point3Di.getCPtr</definition>
+        <argsstring>(Point3Di obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_geometry_1_1_point3_di" kindref="compound">Point3Di</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="24" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="24" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a91e284045d1c8f0cd2f490362852f0fa" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void CoreModeler.Geometry.Point3Di.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.delete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="33" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="33" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a8e88e792c63246af317cbee27d421c1b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Geometry.Point3Di.setX</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setX</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.setX</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>X coordinate. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="46" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a13b803cfd4b167cbcfc776471918c051" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CoreModeler.Geometry.Point3Di.getX</definition>
+        <argsstring>()</argsstring>
+        <name>getX</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.getX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>X coordinate. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="53" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="53" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a270bbc652b985a4b89258555217373f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Geometry.Point3Di.setY</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setY</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.setY</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Y coordinate. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="60" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="60" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a65c39b4e584f2be862139b0d4bc2e757" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CoreModeler.Geometry.Point3Di.getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.getY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Y coordinate. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="67" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="67" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a94be9512a6865cf3a215f91edb5ebd5d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Geometry.Point3Di.setZ</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setZ</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.setZ</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Z coordinate. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="74" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="74" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a57200b852c3d1aab2aaca191c1c49fc4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CoreModeler.Geometry.Point3Di.getZ</definition>
+        <argsstring>()</argsstring>
+        <name>getZ</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.getZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Z coordinate. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="81" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="81" bodyend="83"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a3e9bdf1e5837d451319b24d011652230" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Geometry.Point3Di.Point3Di</definition>
+        <argsstring>()</argsstring>
+        <name>Point3Di</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.Point3Di</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="85" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1a82f7301ac4788ee35aa83bbd5b103205" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Geometry.Point3Di.Point3Di</definition>
+        <argsstring>(int valX, int valY, int valZ)</argsstring>
+        <name>Point3Di</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.Point3Di</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>valX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>valY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>valZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="89" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_di_1ae07e21044ceac2f0c3091115b538252d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Geometry.Point3Di.translate</definition>
+        <argsstring>(int dx, int dy, int dz)</argsstring>
+        <name>translate</name>
+        <qualifiedname>CoreModeler.Geometry.Point3Di.translate</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Translates the point by given offsets.<linebreak/>
+ <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Offset in X direction.<linebreak/>
+ </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Offset in Y direction.<linebreak/>
+ Note: Missing</para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>documentation tag. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="99" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="99" bodyend="101"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Generic template representing a 3D coordinate point.<linebreak/>
+ </para>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" line="15" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Point3Di.java" bodystart="15" bodyend="103"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a91e284045d1c8f0cd2f490362852f0fa" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>delete</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a11fa74d067da57c6286c68ef096e1063" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>finalize</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a16d91823d387eea50c27d3eea591723a" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a13b803cfd4b167cbcfc776471918c051" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>getX</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a65c39b4e584f2be862139b0d4bc2e757" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>getY</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a57200b852c3d1aab2aaca191c1c49fc4" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>getZ</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a1fb4407b2bdbf0506ed70e10199a46c6" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>Point3Di</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a3e9bdf1e5837d451319b24d011652230" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>Point3Di</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a82f7301ac4788ee35aa83bbd5b103205" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>Point3Di</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a8e88e792c63246af317cbee27d421c1b" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>setX</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a270bbc652b985a4b89258555217373f1" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>setY</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a94be9512a6865cf3a215f91edb5ebd5d" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>setZ</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a715796fcc6fda25de03145116393b65f" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1aeb07049bacddf0eddd46e20191393395" prot="private" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>swigCPtr</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1ae07e21044ceac2f0c3091115b538252d" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3Di</scope><name>translate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

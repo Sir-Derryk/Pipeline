@@ -1,6 +1,6 @@
 ---
 title: "SWIG_TypePrettyName function"
-sidebar_position: 18
+sidebar_position: 231
 parent: "Functions"
 ---
 

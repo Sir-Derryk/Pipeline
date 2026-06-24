@@ -265,11 +265,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="203" column="24" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="203" bodyend="227"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1affa1b70f404e1cfd1035059da7b23fbf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a2af1e00973b6c35697cfba5c5ae7b031" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_GlobalConfig_1maxThreads_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_GlobalConfig_1maxThreads_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1maxThreads_1set</name>
+        <name>Java_core_1modelerJNI_GlobalConfig_1maxThreads_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -298,11 +298,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="244" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="244" bodyend="254"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae1087e737647e9ecaef626c19d92535c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a484ba456c10150bcd362c24379437b55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jint JNICALL</type>
-        <definition>SWIGEXPORT jint JNICALL Java_CoreModeler_core_1modelerJNI_GlobalConfig_1maxThreads_1get</definition>
+        <definition>SWIGEXPORT jint JNICALL Java_core_1modelerJNI_GlobalConfig_1maxThreads_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1maxThreads_1get</name>
+        <name>Java_core_1modelerJNI_GlobalConfig_1maxThreads_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -327,11 +327,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="257" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="257" bodyend="269"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a36c6b51b4f2be275424ba96cf7194b8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a38a0e9611c18ce1bd9648db21b999881" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_GlobalConfig_1enableLogging_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_GlobalConfig_1enableLogging_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jboolean jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1enableLogging_1set</name>
+        <name>Java_core_1modelerJNI_GlobalConfig_1enableLogging_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -360,11 +360,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="272" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="272" bodyend="282"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ac5abda3289f82ca59b2f0533e730cc60" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aae62e5e0effd7a5e9fc00d30c0f23d98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jboolean JNICALL</type>
-        <definition>SWIGEXPORT jboolean JNICALL Java_CoreModeler_core_1modelerJNI_GlobalConfig_1enableLogging_1get</definition>
+        <definition>SWIGEXPORT jboolean JNICALL Java_core_1modelerJNI_GlobalConfig_1enableLogging_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1enableLogging_1get</name>
+        <name>Java_core_1modelerJNI_GlobalConfig_1enableLogging_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -389,11 +389,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="285" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="285" bodyend="297"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a0693e7c156dc824cc56998ad56e0983d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a1d1e6cb44ad5db2a9c97f86729e874a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jdouble jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1set</name>
+        <name>Java_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -422,11 +422,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="300" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="300" bodyend="310"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a29337f8ca9876c301ba56eeb618b35a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a00d5e5dee34561893e67d7fa7bc45da2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jdouble JNICALL</type>
-        <definition>SWIGEXPORT jdouble JNICALL Java_CoreModeler_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1get</definition>
+        <definition>SWIGEXPORT jdouble JNICALL Java_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1get</name>
+        <name>Java_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -451,11 +451,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="313" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="313" bodyend="325"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a4fbb9a88ee33d4098b43f47e9b24b7c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a6f45ca1c29041baa51e5da6238625bf1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_new_1GlobalConfig</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_new_1GlobalConfig</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_new_1GlobalConfig</name>
+        <name>Java_core_1modelerJNI_new_1GlobalConfig</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -472,11 +472,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="328" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="328" bodyend="337"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab006332bcc1502ede58a380017584a1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a68dc9b2d71a28e5968bb233da9c37bed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_delete_1GlobalConfig</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_delete_1GlobalConfig</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_delete_1GlobalConfig</name>
+        <name>Java_core_1modelerJNI_delete_1GlobalConfig</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -497,11 +497,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="340" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="340" bodyend="347"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a0ee337026b0d291c903592d26c1b4978" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a5ae01b6156b376203afff8da83e4a849" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_g_1systemState_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_g_1systemState_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jint jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_g_1systemState_1set</name>
+        <name>Java_core_1modelerJNI_g_1systemState_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -522,11 +522,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="350" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="350" bodyend="357"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a14fa61440b51d237dad9398964fd8be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a53de751058a64a79971caa6a4afe4b6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jint JNICALL</type>
-        <definition>SWIGEXPORT jint JNICALL Java_CoreModeler_core_1modelerJNI_g_1systemState_1get</definition>
+        <definition>SWIGEXPORT jint JNICALL Java_core_1modelerJNI_g_1systemState_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_g_1systemState_1get</name>
+        <name>Java_core_1modelerJNI_g_1systemState_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -543,11 +543,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="360" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="360" bodyend="369"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a7c304da96e2eefddb509b190eda4f08f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a332809424d8229d004fa98412d883a4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_g_1piValue_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_g_1piValue_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jdouble jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_g_1piValue_1set</name>
+        <name>Java_core_1modelerJNI_g_1piValue_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -568,11 +568,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="372" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="372" bodyend="379"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a76d204aaace88602e2165049c8cdfd9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a34b9ec64e1d8a9abc19766688c75a17e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jdouble JNICALL</type>
-        <definition>SWIGEXPORT jdouble JNICALL Java_CoreModeler_core_1modelerJNI_g_1piValue_1get</definition>
+        <definition>SWIGEXPORT jdouble JNICALL Java_core_1modelerJNI_g_1piValue_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_g_1piValue_1get</name>
+        <name>Java_core_1modelerJNI_g_1piValue_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -589,11 +589,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="382" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="382" bodyend="391"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a46a061b6614ff9a5dd46e6e548e2deda" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a3d7d359dfe6142399edbd213c7a59443" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_10</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_10</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_10</name>
+        <name>Java_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_10</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -622,11 +622,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="394" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="394" bodyend="409"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a4447b561648b918f33a74b5789fc5795" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae4740b4e7fe758ccbaaf7e858cdcae3c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jboolean JNICALL</type>
-        <definition>SWIGEXPORT jboolean JNICALL Java_CoreModeler_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_11</definition>
+        <definition>SWIGEXPORT jboolean JNICALL Java_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_11</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jstring jarg2, jint jarg3)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_11</name>
+        <name>Java_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_11</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -659,11 +659,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="412" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="412" bodyend="433"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a4dc6650f6d96086c3ca7bb8d31167df6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a112a3adf7eb50337e4778134555a161d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_GlobalLoggerProxy_1forceFlush</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_GlobalLoggerProxy_1forceFlush</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_GlobalLoggerProxy_1forceFlush</name>
+        <name>Java_core_1modelerJNI_GlobalLoggerProxy_1forceFlush</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -688,11 +688,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="436" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="436" bodyend="444"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a476848e1c88b3a5caf5bb9162f21cbe4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aee71bbb6083c4e0624f5fec61b6778a5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_new_1GlobalLoggerProxy</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_new_1GlobalLoggerProxy</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_new_1GlobalLoggerProxy</name>
+        <name>Java_core_1modelerJNI_new_1GlobalLoggerProxy</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -709,11 +709,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="447" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="447" bodyend="456"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a3342efc29bf37701cc3528e983bfca62" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a547174c181afe36db5ebf8fe2c668ea3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_delete_1GlobalLoggerProxy</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_delete_1GlobalLoggerProxy</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_delete_1GlobalLoggerProxy</name>
+        <name>Java_core_1modelerJNI_delete_1GlobalLoggerProxy</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -734,11 +734,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="459" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="459" bodyend="466"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a622465fc2903acfbcfe1c96d9dff6a08" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1abe320c9979dd49d3b7800ffffdf1d5bb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jint JNICALL</type>
-        <definition>SWIGEXPORT jint JNICALL Java_CoreModeler_core_1modelerJNI_globalInitialize</definition>
+        <definition>SWIGEXPORT jint JNICALL Java_core_1modelerJNI_globalInitialize</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_globalInitialize</name>
+        <name>Java_core_1modelerJNI_globalInitialize</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -763,11 +763,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="469" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="469" bodyend="485"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a655accfc82804477180c17bceae6ac4e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a336309bb902fafd51185a5e766133951" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_new_1Model</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_new_1CoreModeler_1Model</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jint jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_new_1Model</name>
+        <name>Java_core_1modelerJNI_new_1CoreModeler_1Model</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -788,11 +788,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="488" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="488" bodyend="499"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1abf056dc5554eecc0af31f48833975a16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a84190477bbf7b62c6bcb27f70758610e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jboolean JNICALL</type>
-        <definition>SWIGEXPORT jboolean JNICALL Java_CoreModeler_core_1modelerJNI_Model_1MetadataIterator_1hasNext</definition>
+        <definition>SWIGEXPORT jboolean JNICALL Java_core_1modelerJNI_CoreModeler_1Model_1MetadataIterator_1hasNext</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Model_1MetadataIterator_1hasNext</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Model_1MetadataIterator_1hasNext</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -817,11 +817,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="502" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="502" bodyend="514"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a101b3bbfd068b496efae1e59f937d20d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a319b374b25fa30275d56a7050814e5c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jstring JNICALL</type>
-        <definition>SWIGEXPORT jstring JNICALL Java_CoreModeler_core_1modelerJNI_Model_1MetadataIterator_1next</definition>
+        <definition>SWIGEXPORT jstring JNICALL Java_core_1modelerJNI_CoreModeler_1Model_1MetadataIterator_1next</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Model_1MetadataIterator_1next</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Model_1MetadataIterator_1next</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -846,11 +846,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="517" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="517" bodyend="529"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1af3e4eca2dd57d476ee32227244c8d577" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1acd95d0dd91e8ebb425d4258907322e01" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_new_1Model_1MetadataIterator</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_new_1CoreModeler_1Model_1MetadataIterator</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_new_1Model_1MetadataIterator</name>
+        <name>Java_core_1modelerJNI_new_1CoreModeler_1Model_1MetadataIterator</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -867,11 +867,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="532" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="532" bodyend="541"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1afd2fb59e0c6485760655de099b01cbae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1adf664b0253c36cb1f8353af2c3b684f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_delete_1Model_1MetadataIterator</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_delete_1CoreModeler_1Model_1MetadataIterator</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_delete_1Model_1MetadataIterator</name>
+        <name>Java_core_1modelerJNI_delete_1CoreModeler_1Model_1MetadataIterator</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -892,11 +892,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="544" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="544" bodyend="551"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a354ccb5e69da34512fcce170359add4f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab9fcf8b4ea4c1803c38ba6c2aa97e0b0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_delete_1Model</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_delete_1CoreModeler_1Model</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_delete_1Model</name>
+        <name>Java_core_1modelerJNI_delete_1CoreModeler_1Model</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -917,11 +917,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="554" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="554" bodyend="561"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1adb50d36ebd52d849840954bde84e12c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1acb975b986efa8acb15e3d6cac1a95886" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_delete_1IDrawable</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1IDrawable</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_delete_1IDrawable</name>
+        <name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1IDrawable</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -942,11 +942,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="564" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="564" bodyend="571"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab3d234fb1590faba0024190e1c4374a1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a00ec51a32438233f39dacb7d8b0f5407" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_IDrawable_1renderToScreen_1_1SWIG_10</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1IDrawable_1renderToScreen_1_1SWIG_10</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_IDrawable_1renderToScreen_1_1SWIG_10</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1IDrawable_1renderToScreen_1_1SWIG_10</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -971,11 +971,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="574" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="574" bodyend="582"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a3f102d7e82b18a8c2ed761b94f552a34" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aa5604c0e9be36b0628ba1ee9d1b573d6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jint JNICALL</type>
-        <definition>SWIGEXPORT jint JNICALL Java_CoreModeler_core_1modelerJNI_IDrawable_1renderToScreen_1_1SWIG_11</definition>
+        <definition>SWIGEXPORT jint JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1IDrawable_1renderToScreen_1_1SWIG_11</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_IDrawable_1renderToScreen_1_1SWIG_11</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1IDrawable_1renderToScreen_1_1SWIG_11</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1004,11 +1004,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="585" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="585" bodyend="599"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a0ab31a34836b3597d6a37cdf466edff7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ac3b16e70ec418031ebd37647d494c510" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_delete_1Shape</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Shape</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_delete_1Shape</name>
+        <name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Shape</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1029,11 +1029,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="602" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="602" bodyend="609"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a99197177b4ee236dcc7c6735afaec106" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a361f844bfe9ac27486cd6c1607527b6e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jdouble JNICALL</type>
-        <definition>SWIGEXPORT jdouble JNICALL Java_CoreModeler_core_1modelerJNI_Shape_1getVolume</definition>
+        <definition>SWIGEXPORT jdouble JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Shape_1getVolume</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Shape_1getVolume</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Shape_1getVolume</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1058,11 +1058,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="612" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="612" bodyend="624"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae44cc4528b3560f472e3c83f6b7a0336" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aa09a70493a866ea2ec55f068e97ed674" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_new_1Box</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Box</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jdouble jarg1, jdouble jarg2, jdouble jarg3)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_new_1Box</name>
+        <name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Box</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1091,11 +1091,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="627" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="627" bodyend="642"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a0ca4c29331e8a2a9df6ef8ab57b855df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a6df11aa3ecc9270816329a72abce60af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jdouble JNICALL</type>
-        <definition>SWIGEXPORT jdouble JNICALL Java_CoreModeler_core_1modelerJNI_Box_1getVolume</definition>
+        <definition>SWIGEXPORT jdouble JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1getVolume</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Box_1getVolume</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1getVolume</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1120,11 +1120,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="645" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="645" bodyend="657"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aac0af5c453ab9aebb6cdf4c428f392e8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab782e9df6dd7131d56e20d37aa577502" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Box_1renderToScreen_1_1SWIG_10</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1renderToScreen_1_1SWIG_10</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Box_1renderToScreen_1_1SWIG_10</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1renderToScreen_1_1SWIG_10</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1149,11 +1149,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="660" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="660" bodyend="668"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a16eed4dab63129684de01e4ce25e2640" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a03dc37084c2077ece030947a4be22191" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jint JNICALL</type>
-        <definition>SWIGEXPORT jint JNICALL Java_CoreModeler_core_1modelerJNI_Box_1renderToScreen_1_1SWIG_11</definition>
+        <definition>SWIGEXPORT jint JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1renderToScreen_1_1SWIG_11</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Box_1renderToScreen_1_1SWIG_11</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1renderToScreen_1_1SWIG_11</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1182,11 +1182,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="671" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="671" bodyend="685"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a83399e739411124370f71d9751e945f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1addd1a2fdc2cec76f6c2f157d8a312c02" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Box_1scale_1_1SWIG_10</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1scale_1_1SWIG_10</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jdouble jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Box_1scale_1_1SWIG_10</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1scale_1_1SWIG_10</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1215,11 +1215,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="688" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="688" bodyend="698"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1acc4810ff60fef6925bf20e091acffed3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aaf096fa3185aca860922c7fbe2b36fbb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Box_1scale_1_1SWIG_11</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1scale_1_1SWIG_11</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jdouble jarg2, jdouble jarg3, jdouble jarg4)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Box_1scale_1_1SWIG_11</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1scale_1_1SWIG_11</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1256,11 +1256,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="701" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="701" bodyend="715"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a77a2fd76b03fd001f9ec6ea61faf16d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a6d94cef2565a19fa0c2a1dc6402417e5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_delete_1Box</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Box</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_delete_1Box</name>
+        <name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Box</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1281,11 +1281,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="718" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="718" bodyend="725"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1af34764a0ea3699dd2c6f59fb9a02d6c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a162a78961d02643bca3e9c049e236c8a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_DIAG_1SUCCESS_1get</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_DIAG_1SUCCESS_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_DIAG_1SUCCESS_1get</name>
+        <name>Java_core_1modelerJNI_DIAG_1SUCCESS_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1302,11 +1302,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="728" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="728" bodyend="737"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a427948422b88029c4e9e06d142e3cae6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a77ec08aa5c88090f82cddffe317d3cac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_DIAG_1FAILURE_1get</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_DIAG_1FAILURE_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_DIAG_1FAILURE_1get</name>
+        <name>Java_core_1modelerJNI_DIAG_1FAILURE_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1323,11 +1323,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="740" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="740" bodyend="749"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a99c7ebd1ab6e23556caa3b4f5964f7e6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a5c34b4c484a0bb66310b5de12170a354" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_g_1diagnosticRunCount_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_g_1diagnosticRunCount_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_g_1diagnosticRunCount_1set</name>
+        <name>Java_core_1modelerJNI_g_1diagnosticRunCount_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1348,11 +1348,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="752" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="752" bodyend="759"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a332058ff608bd55d00ecaf14f8244f21" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a28732fc1940605254b739f4ed52a4163" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_g_1diagnosticRunCount_1get</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_g_1diagnosticRunCount_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_g_1diagnosticRunCount_1get</name>
+        <name>Java_core_1modelerJNI_g_1diagnosticRunCount_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1369,11 +1369,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="762" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="762" bodyend="771"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a5a68b93fb50d300e827e3f92492984ec" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab2dba2c39801abc510d21e17d8b5f584" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_checkSystemHealth</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_checkSystemHealth</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_checkSystemHealth</name>
+        <name>Java_core_1modelerJNI_checkSystemHealth</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1390,11 +1390,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="774" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="774" bodyend="783"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a03e808b97999b756912cc60e4ee1b4bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a3360df622ceedd4b62263b926eb913dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jboolean JNICALL</type>
-        <definition>SWIGEXPORT jboolean JNICALL Java_CoreModeler_core_1modelerJNI_pingSubsystem_1_1SWIG_10</definition>
+        <definition>SWIGEXPORT jboolean JNICALL Java_core_1modelerJNI_pingSubsystem_1_1SWIG_10</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_pingSubsystem_1_1SWIG_10</name>
+        <name>Java_core_1modelerJNI_pingSubsystem_1_1SWIG_10</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1415,11 +1415,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="786" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="786" bodyend="797"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1adbd286a993c81aa4b24e71f07bb3cb04" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aea28d396f270d06c0180f797fb06f8e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jboolean JNICALL</type>
-        <definition>SWIGEXPORT jboolean JNICALL Java_CoreModeler_core_1modelerJNI_pingSubsystem_1_1SWIG_11</definition>
+        <definition>SWIGEXPORT jboolean JNICALL Java_core_1modelerJNI_pingSubsystem_1_1SWIG_11</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_pingSubsystem_1_1SWIG_11</name>
+        <name>Java_core_1modelerJNI_pingSubsystem_1_1SWIG_11</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1436,11 +1436,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="800" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="800" bodyend="809"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1adab47c253aadb690e4891341f20be9cd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a299b57c36d9212eab60378984be448ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_resetCounters</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_resetCounters</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_resetCounters</name>
+        <name>Java_core_1modelerJNI_resetCounters</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1457,11 +1457,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="812" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="812" bodyend="816"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1acddaea26c34e2b78a3a14ba69a1ee477" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aa7a1197c0cb1e6af015762f10ce01a77" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Di_1x_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1x_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Di_1x_1set</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1x_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1490,11 +1490,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="819" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="819" bodyend="829"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a40cb39ddf1e0eaf0d87700502abfbb09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab51a64c9f98d4fe56335e7bc6a3be822" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jint JNICALL</type>
-        <definition>SWIGEXPORT jint JNICALL Java_CoreModeler_core_1modelerJNI_Point3Di_1x_1get</definition>
+        <definition>SWIGEXPORT jint JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1x_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Di_1x_1get</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1x_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1519,11 +1519,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="832" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="832" bodyend="844"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1af8a656e04e3b91157f705f662b0e04ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a00535aae8b027cc684e7fd370754f403" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Di_1y_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1y_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Di_1y_1set</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1y_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1552,11 +1552,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="847" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="847" bodyend="857"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a20246e4a16bc173b8137954ebd989409" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae2f7747c6a56695e59dc5b6ab6d92166" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jint JNICALL</type>
-        <definition>SWIGEXPORT jint JNICALL Java_CoreModeler_core_1modelerJNI_Point3Di_1y_1get</definition>
+        <definition>SWIGEXPORT jint JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1y_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Di_1y_1get</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1y_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1581,11 +1581,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="860" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="860" bodyend="872"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ad720eabb7fe52c9fa76194e8b0a69c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a04eb650d1756c8011a4d795b0329b7d5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Di_1z_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1z_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Di_1z_1set</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1z_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1614,11 +1614,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="875" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="875" bodyend="885"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a82c2b745a6257cf3c54572b8b8580a54" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aa194fd5ac4c4d544a6750337d045bd2a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jint JNICALL</type>
-        <definition>SWIGEXPORT jint JNICALL Java_CoreModeler_core_1modelerJNI_Point3Di_1z_1get</definition>
+        <definition>SWIGEXPORT jint JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1z_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Di_1z_1get</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1z_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1643,11 +1643,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="888" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="888" bodyend="900"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a79e53ea2f326adcc15e9fbc687f8de22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a18ef707fd70104499b736f1481ca55c2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_new_1Point3Di_1_1SWIG_10</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Di_1_1SWIG_10</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_new_1Point3Di_1_1SWIG_10</name>
+        <name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Di_1_1SWIG_10</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1664,11 +1664,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="903" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="903" bodyend="912"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a263b0e71c43131ce57184343944dc460" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae0baeba9c5f257a4ae000154c45488e9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_new_1Point3Di_1_1SWIG_11</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Di_1_1SWIG_11</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jint jarg1, jint jarg2, jint jarg3)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_new_1Point3Di_1_1SWIG_11</name>
+        <name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Di_1_1SWIG_11</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1697,11 +1697,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="915" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="915" bodyend="930"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ac6cc85e2d9acb3f811dfa321aacdb268" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a9342f70377ff1969fffc5faffedd874c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Di_1translate</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1translate</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jint jarg2, jint jarg3, jint jarg4)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Di_1translate</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1translate</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1738,11 +1738,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="933" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="933" bodyend="947"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1abe4f1cb86c54036fd28054c90edb1434" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a238dff1553f8653dc841cb428e944626" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_delete_1Point3Di</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Point3Di</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_delete_1Point3Di</name>
+        <name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Point3Di</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1763,11 +1763,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="950" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="950" bodyend="957"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1afbfac380265b34f9ba38480f660df0f7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a94767f51a52c7697012f9da3a41cdd7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Df_1x_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1x_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Df_1x_1set</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1x_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1796,11 +1796,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="960" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="960" bodyend="970"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a6c03728f38e8dc51e761d3fd450d8148" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a1091b1e00c8358f1e2ff0029a762c366" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jfloat JNICALL</type>
-        <definition>SWIGEXPORT jfloat JNICALL Java_CoreModeler_core_1modelerJNI_Point3Df_1x_1get</definition>
+        <definition>SWIGEXPORT jfloat JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1x_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Df_1x_1get</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1x_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1825,11 +1825,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="973" column="27" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="973" bodyend="985"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab7b3e4067fc508120b395732655a6657" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a16c37b5aeded8713f129699f2d46ab7a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Df_1y_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1y_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Df_1y_1set</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1y_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1858,11 +1858,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="988" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="988" bodyend="998"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a3dab22cb87479c968ccde24b473973c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae689a0ba7a340a105e01ea5c03a65369" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jfloat JNICALL</type>
-        <definition>SWIGEXPORT jfloat JNICALL Java_CoreModeler_core_1modelerJNI_Point3Df_1y_1get</definition>
+        <definition>SWIGEXPORT jfloat JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1y_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Df_1y_1get</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1y_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1887,11 +1887,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1001" column="27" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1001" bodyend="1013"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a5577296f967c26b76d07701b645bbf28" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a49ec768600cd6c487cb834107fde5ab9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Df_1z_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1z_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Df_1z_1set</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1z_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1920,11 +1920,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1016" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1016" bodyend="1026"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae527274541e44461901ebcbf3efd0d4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a9f7844afe65017c14d30c526448d01ce" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jfloat JNICALL</type>
-        <definition>SWIGEXPORT jfloat JNICALL Java_CoreModeler_core_1modelerJNI_Point3Df_1z_1get</definition>
+        <definition>SWIGEXPORT jfloat JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1z_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Df_1z_1get</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1z_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1949,11 +1949,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1029" column="27" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1029" bodyend="1041"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae13b85b7627f4c88c921dc979a15e9de" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a42e13f3e351061db294929db57c8ce46" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_new_1Point3Df_1_1SWIG_10</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Df_1_1SWIG_10</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_new_1Point3Df_1_1SWIG_10</name>
+        <name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Df_1_1SWIG_10</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -1970,11 +1970,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1044" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1044" bodyend="1053"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ad0af47cbf3a8bba93c1569ad04ac8073" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ad075e7295f3280a94fdf3b40442bfcb0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_new_1Point3Df_1_1SWIG_11</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Df_1_1SWIG_11</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jfloat jarg1, jfloat jarg2, jfloat jarg3)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_new_1Point3Df_1_1SWIG_11</name>
+        <name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Df_1_1SWIG_11</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2003,11 +2003,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1056" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1056" bodyend="1071"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab44983987fe19c052d800b1928e90d84" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a053e9347929efe308c6c28cb511cff8d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Df_1translate</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1translate</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jfloat jarg2, jfloat jarg3, jfloat jarg4)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Df_1translate</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1translate</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2044,11 +2044,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1074" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1074" bodyend="1088"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ac0b91134027c2a29ad2a9c84599d3629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a290626012b84aef16cc84a02c4cf4fcc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_delete_1Point3Df</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Point3Df</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_delete_1Point3Df</name>
+        <name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Point3Df</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2069,11 +2069,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1091" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1091" bodyend="1098"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab33a8d96a8c375f4b4c70ca906bccfd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a2ceca0d9231331b943724748801da1ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Dd_1x_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1x_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jdouble jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1x_1set</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1x_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2102,11 +2102,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1101" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1101" bodyend="1111"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a8ca40ac979fb397671d0e3fece76e816" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a4b4046f3d934433bf11dd69eada644a7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jdouble JNICALL</type>
-        <definition>SWIGEXPORT jdouble JNICALL Java_CoreModeler_core_1modelerJNI_Point3Dd_1x_1get</definition>
+        <definition>SWIGEXPORT jdouble JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1x_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1x_1get</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1x_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2131,11 +2131,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1114" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1114" bodyend="1126"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1accf110db7dfa003920cbe10fb0fea336" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a5bf99120ca0d7416befc9cbf1a9f09f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Dd_1y_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1y_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jdouble jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1y_1set</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1y_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2164,11 +2164,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1129" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1129" bodyend="1139"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a4ada57ab20fdfe40fd2295e6df6a54c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a9d5b1aaa029a21c96dee321a1027a20b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jdouble JNICALL</type>
-        <definition>SWIGEXPORT jdouble JNICALL Java_CoreModeler_core_1modelerJNI_Point3Dd_1y_1get</definition>
+        <definition>SWIGEXPORT jdouble JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1y_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1y_1get</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1y_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2193,11 +2193,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1142" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1142" bodyend="1154"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a60e71ab3c408dcdb310d60f2c9e19f09" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aed266dfb8eeaa8c83ad6edbbfc869782" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Dd_1z_1set</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1z_1set</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jdouble jarg2)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1z_1set</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1z_1set</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2226,11 +2226,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1157" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1157" bodyend="1167"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a09f7eb7609a0feee35c261273fcbcd42" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1afb8e5fe67a922b715fbac2b11073bb81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jdouble JNICALL</type>
-        <definition>SWIGEXPORT jdouble JNICALL Java_CoreModeler_core_1modelerJNI_Point3Dd_1z_1get</definition>
+        <definition>SWIGEXPORT jdouble JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1z_1get</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1z_1get</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1z_1get</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2255,11 +2255,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1170" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1170" bodyend="1182"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aa919ef339f3b7f69c65d1617725fe37f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a20babb4574ec68831f4e707ed004ba9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_new_1Point3Dd_1_1SWIG_10</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Dd_1_1SWIG_10</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_new_1Point3Dd_1_1SWIG_10</name>
+        <name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Dd_1_1SWIG_10</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2276,11 +2276,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1185" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1185" bodyend="1194"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a3ef0ed007af07a3153b2ece38433db22" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1af6ace4cacb005266f121b46d43ce7ee3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_new_1Point3Dd_1_1SWIG_11</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Dd_1_1SWIG_11</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jdouble jarg1, jdouble jarg2, jdouble jarg3)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_new_1Point3Dd_1_1SWIG_11</name>
+        <name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Dd_1_1SWIG_11</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2309,11 +2309,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1197" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1197" bodyend="1212"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a7695025fdf446c60f377e05966a5faf6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a2ba25609adf7512c8f47d49336dde390" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_Point3Dd_1translate</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1translate</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1, jobject jarg1_, jdouble jarg2, jdouble jarg3, jdouble jarg4)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1translate</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1translate</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2350,11 +2350,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1215" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1215" bodyend="1229"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a5dd2c530aa4e357b03e76bb7fa6d8c78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a7f04935f03f05cdd29de13e634ac0105" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT void JNICALL</type>
-        <definition>SWIGEXPORT void JNICALL Java_CoreModeler_core_1modelerJNI_delete_1Point3Dd</definition>
+        <definition>SWIGEXPORT void JNICALL Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Point3Dd</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_delete_1Point3Dd</name>
+        <name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Point3Dd</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>
@@ -2375,11 +2375,11 @@
         </inbodydescription>
         <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" line="1232" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler_wrap.cxx" bodystart="1232" bodyend="1239"/>
       </memberdef>
-      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aed730e65be34dd6a88ce5cf3a98ec817" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a1159f6b7930049b8304da05949ae4ac0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>SWIGEXPORT jlong JNICALL</type>
-        <definition>SWIGEXPORT jlong JNICALL Java_CoreModeler_core_1modelerJNI_Box_1SWIGUpcast</definition>
+        <definition>SWIGEXPORT jlong JNICALL Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1SWIGUpcast</definition>
         <argsstring>(JNIEnv *jenv, jclass jcls, jlong jarg1)</argsstring>
-        <name>Java_CoreModeler_core_1modelerJNI_Box_1SWIGUpcast</name>
+        <name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1SWIGUpcast</name>
         <param>
           <type>JNIEnv *</type>
           <declname>jenv</declname>

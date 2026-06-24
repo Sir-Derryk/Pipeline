@@ -1,6 +1,6 @@
 ---
 title: "GlobalConfig_swiginit function"
-sidebar_position: 121
+sidebar_position: 334
 parent: "Functions"
 ---
 

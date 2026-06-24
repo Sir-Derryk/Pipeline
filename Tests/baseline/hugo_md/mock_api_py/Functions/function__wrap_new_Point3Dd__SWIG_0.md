@@ -1,6 +1,6 @@
 ---
 title: "_wrap_new_Point3Dd__SWIG_0 function"
-sidebar_position: 201
+sidebar_position: 414
 parent: "Functions"
 ---
 

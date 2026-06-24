@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="238" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="238" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="367" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="367" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classcore__modeler_1_1_point3_dd_1aa0d9ef8974b093675baab8b1d7280e81" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type></type>
@@ -25,14 +25,14 @@
         <argsstring></argsstring>
         <name>x</name>
         <qualifiedname>core_modeler.Point3Dd.x</qualifiedname>
-        <initializer>=  property(_core_modeler.Point3Dd_x_get, _core_modeler.Point3Dd_x_set)</initializer>
+        <initializer>=  property(_core_modeler.Point3Dd_x_get, _core_modeler.Point3Dd_x_set, doc=)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="240" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="240" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="369" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="369" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classcore__modeler_1_1_point3_dd_1a22061d1375634facf849ec8d358b716a" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type></type>
@@ -40,14 +40,14 @@
         <argsstring></argsstring>
         <name>y</name>
         <qualifiedname>core_modeler.Point3Dd.y</qualifiedname>
-        <initializer>=  property(_core_modeler.Point3Dd_y_get, _core_modeler.Point3Dd_y_set)</initializer>
+        <initializer>=  property(_core_modeler.Point3Dd_y_get, _core_modeler.Point3Dd_y_set, doc=)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="241" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="241" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="370" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="370" bodyend="-1"/>
       </memberdef>
       <memberdef kind="property" id="classcore__modeler_1_1_point3_dd_1ae4cf342366e0e3641ba1b3e21ed1d184" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
         <type></type>
@@ -55,14 +55,14 @@
         <argsstring></argsstring>
         <name>z</name>
         <qualifiedname>core_modeler.Point3Dd.z</qualifiedname>
-        <initializer>=  property(_core_modeler.Point3Dd_z_get, _core_modeler.Point3Dd_z_set)</initializer>
+        <initializer>=  property(_core_modeler.Point3Dd_z_get, _core_modeler.Point3Dd_z_set, doc=)</initializer>
         <briefdescription>
         </briefdescription>
         <detaileddescription>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="242" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="242" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="371" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="371" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="239" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="239" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="368" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="368" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcore__modeler_1_1_point3_dd_1add408c1027d5b1fd6d0beb636dfa5bfd" prot="private" static="yes" mutable="no">
         <type></type>
@@ -94,7 +94,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="253" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="253" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="399" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="399" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -115,13 +115,18 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>__init__(Point3Dd self) -&gt; Point3Dd
-__init__(Point3Dd self, double valX, double valY, double valZ) -&gt; Point3Dd
-</verbatim> </para>
+<para><verbatim>    __init__(Point3Dd self) -&gt; Point3Dd
+    __init__(Point3Dd self, double valX, double valY, double valZ) -&gt; Point3Dd
+
+    Parameters
+    ----------
+    valX: double
+    valY: double
+    valZ: double</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="244" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="244" bodyend="250"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="373" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="373" bodyend="386"/>
       </memberdef>
       <memberdef kind="function" id="classcore__modeler_1_1_point3_dd_1a2abf05631f18703c45e5de928989dfd8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -148,15 +153,23 @@ __init__(Point3Dd self, double valX, double valY, double valZ) -&gt; Point3Dd
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><verbatim>    translate(Point3Dd self, double dx, double dy, double dz)
+
+    Parameters
+    ----------
+    dx: double
+    dy: double
+    dz: double</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="251" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="251" bodyend="252"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="387" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="387" bodyend="398"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para><verbatim>Proxy of C++ CoreModeler::Geometry::Point3D&lt; double &gt; class.</verbatim> </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -180,7 +193,7 @@ __init__(Point3Dd self, double valX, double valY, double valZ) -&gt; Point3Dd
         <label>object</label>
       </node>
     </collaborationgraph>
-    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="237" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="237" bodyend="260"/>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="364" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="364" bodyend="406"/>
     <listofallmembers>
       <member refid="classcore__modeler_1_1_point3_dd_1ac87276edbf609bdbf7cbf0ec22b14fc2" prot="public" virt="non-virtual"><scope>core_modeler::Point3Dd</scope><name>__init__</name></member>
       <member refid="classcore__modeler_1_1_point3_dd_1ae6c8fc84944c2ea6502f2db2ecd93d41" prot="private" virt="non-virtual"><scope>core_modeler::Point3Dd</scope><name>__repr__</name></member>

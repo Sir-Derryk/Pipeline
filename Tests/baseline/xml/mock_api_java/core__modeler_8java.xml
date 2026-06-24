@@ -2,8 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
   <compounddef id="core__modeler_8java" kind="file" language="Java">
     <compoundname>core_modeler.java</compoundname>
-    <innerclass refid="class_core_modeler_1_1core__modeler" prot="public">CoreModeler::core_modeler</innerclass>
-    <innernamespace refid="namespace_core_modeler">CoreModeler</innernamespace>
+    <innerclass refid="classcore__modeler" prot="public">core_modeler</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

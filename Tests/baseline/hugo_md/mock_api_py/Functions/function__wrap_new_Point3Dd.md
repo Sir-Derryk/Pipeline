@@ -1,6 +1,6 @@
 ---
 title: "_wrap_new_Point3Dd function"
-sidebar_position: 203
+sidebar_position: 416
 parent: "Functions"
 ---
 

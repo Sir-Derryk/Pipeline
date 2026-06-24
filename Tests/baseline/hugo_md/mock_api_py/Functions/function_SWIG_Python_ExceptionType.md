@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_ExceptionType function"
-sidebar_position: 43
+sidebar_position: 256
 parent: "Functions"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "_wrap_new_GlobalConfig function"
-sidebar_position: 118
+sidebar_position: 331
 parent: "Functions"
 ---
 

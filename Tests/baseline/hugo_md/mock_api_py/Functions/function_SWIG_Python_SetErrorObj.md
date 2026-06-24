@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_SetErrorObj function"
-sidebar_position: 35
+sidebar_position: 248
 parent: "Functions"
 ---
 

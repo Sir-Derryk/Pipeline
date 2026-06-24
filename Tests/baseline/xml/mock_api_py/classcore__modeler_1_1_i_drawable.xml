@@ -18,7 +18,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="121" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="121" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="165" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="165" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -35,7 +35,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="125" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="125" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="169" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="169" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcore__modeler_1_1_i_drawable_1ab24f3e8a898ff8cfaf7a330421b7663f" prot="private" static="yes" mutable="no">
         <type></type>
@@ -50,7 +50,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="126" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="126" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="170" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="170" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -79,7 +79,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="123" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="123" bodyend="124"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="167" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="167" bodyend="168"/>
       </memberdef>
       <memberdef kind="function" id="classcore__modeler_1_1_i_drawable_1a29efe1da54d7d942411b64e69fae3ed0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -99,18 +99,22 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>renderToScreen(IDrawable self)
-renderToScreen(IDrawable self, RenderMode mode) -&gt; int
-</verbatim> </para>
+<para><verbatim>    renderToScreen(IDrawable self)
+    renderToScreen(IDrawable self, CoreModeler::RenderMode mode) -&gt; int
+
+    Parameters
+    ----------
+    mode: enum CoreModeler::RenderMode</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="128" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="128" bodyend="135"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="172" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="172" bodyend="184"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para><verbatim>Proxy of C++ CoreModeler::Geometry::IDrawable class.</verbatim> </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -140,7 +144,7 @@ renderToScreen(IDrawable self, RenderMode mode) -&gt; int
         <label>object</label>
       </node>
     </collaborationgraph>
-    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="120" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="120" bodyend="137"/>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="162" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="162" bodyend="186"/>
     <listofallmembers>
       <member refid="classcore__modeler_1_1_i_drawable_1ad515e54368116d3ea0e71e071c52c98a" prot="public" virt="non-virtual"><scope>core_modeler::IDrawable</scope><name>__init__</name></member>
       <member refid="classcore__modeler_1_1_i_drawable_1a603f4550e5ee44c7329c1f31e0a537a3" prot="private" virt="non-virtual"><scope>core_modeler::IDrawable</scope><name>__repr__</name></member>

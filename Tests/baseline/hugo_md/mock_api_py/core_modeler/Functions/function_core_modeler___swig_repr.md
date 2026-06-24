@@ -11,5 +11,5 @@ parent: "core_modeler.Functions"
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-|  | `self` |  |
+| self | `Any` |  |
 

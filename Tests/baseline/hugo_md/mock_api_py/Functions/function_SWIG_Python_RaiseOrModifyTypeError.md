@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_RaiseOrModifyTypeError function"
-sidebar_position: 34
+sidebar_position: 247
 parent: "Functions"
 ---
 

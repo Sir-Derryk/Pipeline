@@ -1,6 +1,6 @@
 ---
 title: "Point3Di_swiginit function"
-sidebar_position: 181
+sidebar_position: 394
 parent: "Functions"
 ---
 

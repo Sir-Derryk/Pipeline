@@ -1,6 +1,6 @@
 ---
 title: "SWIG_PyInstanceMethod_New function"
-sidebar_position: 95
+sidebar_position: 308
 parent: "Functions"
 ---
 

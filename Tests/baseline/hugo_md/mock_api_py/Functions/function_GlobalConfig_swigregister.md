@@ -1,6 +1,6 @@
 ---
 title: "GlobalConfig_swigregister function"
-sidebar_position: 120
+sidebar_position: 333
 parent: "Functions"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_FixMethods function"
-sidebar_position: 222
+sidebar_position: 435
 parent: "Functions"
 ---
 

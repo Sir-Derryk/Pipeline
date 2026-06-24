@@ -1,6 +1,6 @@
 ---
 title: "SWIG_JavaExceptionCodes enum"
-sidebar_position: 78
+sidebar_position: 83
 parent: "Enumerations"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "_wrap_delete_IDrawable function"
-sidebar_position: 139
+sidebar_position: 352
 parent: "Functions"
 ---
 

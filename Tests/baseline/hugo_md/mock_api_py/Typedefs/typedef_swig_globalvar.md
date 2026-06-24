@@ -1,6 +1,6 @@
 ---
 title: "swig_globalvar typedef"
-sidebar_position: 229
+sidebar_position: 450
 parent: "Typedefs"
 ---
 

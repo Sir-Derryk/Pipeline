@@ -1,6 +1,6 @@
 ---
 title: "_swigc__p_GlobalLogger variable"
-sidebar_position: 257
+sidebar_position: 509
 parent: "Variables"
 ---
 

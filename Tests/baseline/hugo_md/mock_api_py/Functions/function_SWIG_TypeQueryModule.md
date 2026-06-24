@@ -1,6 +1,6 @@
 ---
 title: "SWIG_TypeQueryModule function"
-sidebar_position: 22
+sidebar_position: 235
 parent: "Functions"
 ---
 

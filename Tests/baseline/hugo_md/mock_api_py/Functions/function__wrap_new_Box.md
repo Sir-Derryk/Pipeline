@@ -1,6 +1,6 @@
 ---
 title: "_wrap_new_Box function"
-sidebar_position: 147
+sidebar_position: 360
 parent: "Functions"
 ---
 

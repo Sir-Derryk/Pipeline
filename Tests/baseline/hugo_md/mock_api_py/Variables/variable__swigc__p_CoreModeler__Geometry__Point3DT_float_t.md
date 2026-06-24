@@ -1,6 +1,6 @@
 ---
 title: "_swigc__p_CoreModeler__Geometry__Point3DT_float_t variable"
-sidebar_position: 252
+sidebar_position: 504
 parent: "Variables"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "_swigt__p_GlobalConfig variable"
-sidebar_position: 244
+sidebar_position: 496
 parent: "Variables"
 ---
 

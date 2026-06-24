@@ -17,7 +17,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="82" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="82" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="90" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="90" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="private-static-attrib">
@@ -34,7 +34,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="83" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="83" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="91" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="91" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="classcore__modeler_1_1_global_logger_proxy_1ae4737847630d5cea8600d333b1860337" prot="private" static="yes" mutable="no">
         <type></type>
@@ -49,7 +49,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="97" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="97" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="118" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="118" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <sectiondef kind="public-func">
@@ -70,13 +70,22 @@
         <briefdescription>
         </briefdescription>
         <detaileddescription>
-<para><verbatim>logMessage(GlobalLoggerProxy self, char const * message)
-logMessage(GlobalLoggerProxy self, char const * message, int severity) -&gt; bool
-</verbatim> </para>
+<para><verbatim>    logMessage(GlobalLoggerProxy self, char const * message)
+
+    Parameters
+    ----------
+    message: char const *
+
+    logMessage(GlobalLoggerProxy self, char const * message, int severity) -&gt; bool
+
+    Parameters
+    ----------
+    message: char const *
+    severity: int</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="85" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="85" bodyend="91"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="93" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="93" bodyend="110"/>
       </memberdef>
       <memberdef kind="function" id="classcore__modeler_1_1_global_logger_proxy_1a9ce5d89a2568b32fc644e294b6ca5e4d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -91,10 +100,11 @@ logMessage(GlobalLoggerProxy self, char const * message, int severity) -&gt; boo
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><verbatim>forceFlush(GlobalLoggerProxy self)</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="92" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="92" bodyend="94"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="111" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="111" bodyend="114"/>
       </memberdef>
       <memberdef kind="function" id="classcore__modeler_1_1_global_logger_proxy_1af75e33f195f5d5f8d9bdbb1067c9874a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type></type>
@@ -109,15 +119,17 @@ logMessage(GlobalLoggerProxy self, char const * message, int severity) -&gt; boo
         <briefdescription>
         </briefdescription>
         <detaileddescription>
+<para><verbatim>__init__(GlobalLoggerProxy self) -&gt; GlobalLoggerProxy</verbatim> </para>
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="95" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="95" bodyend="96"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="115" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="115" bodyend="117"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
     </briefdescription>
     <detaileddescription>
+<para><verbatim>Proxy of C++ GlobalLogger class.</verbatim> </para>
     </detaileddescription>
     <inheritancegraph>
       <node id="1">
@@ -141,7 +153,7 @@ logMessage(GlobalLoggerProxy self, char const * message, int severity) -&gt; boo
         <label>object</label>
       </node>
     </collaborationgraph>
-    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="81" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="81" bodyend="100"/>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="87" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="87" bodyend="121"/>
     <listofallmembers>
       <member refid="classcore__modeler_1_1_global_logger_proxy_1af75e33f195f5d5f8d9bdbb1067c9874a" prot="public" virt="non-virtual"><scope>core_modeler::GlobalLoggerProxy</scope><name>__init__</name></member>
       <member refid="classcore__modeler_1_1_global_logger_proxy_1a111859c7f76cc1d01ada97a0bf891e38" prot="private" virt="non-virtual"><scope>core_modeler::GlobalLoggerProxy</scope><name>__repr__</name></member>

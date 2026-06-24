@@ -1,6 +1,6 @@
 ---
 title: "swig_type_initial variable"
-sidebar_position: 248
+sidebar_position: 500
 parent: "Variables"
 ---
 

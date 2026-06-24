@@ -1,6 +1,6 @@
 ---
 title: "SWIG_JavaExceptions_t struct"
-sidebar_position: 1
+sidebar_position: 6
 parent: "Classes"
 ---
 

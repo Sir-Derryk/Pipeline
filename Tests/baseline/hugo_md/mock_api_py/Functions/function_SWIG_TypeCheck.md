@@ -1,6 +1,6 @@
 ---
 title: "SWIG_TypeCheck function"
-sidebar_position: 13
+sidebar_position: 226
 parent: "Functions"
 ---
 

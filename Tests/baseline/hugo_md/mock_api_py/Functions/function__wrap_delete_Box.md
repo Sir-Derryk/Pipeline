@@ -1,6 +1,6 @@
 ---
 title: "_wrap_delete_Box function"
-sidebar_position: 155
+sidebar_position: 368
 parent: "Functions"
 ---
 

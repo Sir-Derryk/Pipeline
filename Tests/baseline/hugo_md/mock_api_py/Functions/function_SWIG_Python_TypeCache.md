@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_TypeCache function"
-sidebar_position: 87
+sidebar_position: 300
 parent: "Functions"
 ---
 

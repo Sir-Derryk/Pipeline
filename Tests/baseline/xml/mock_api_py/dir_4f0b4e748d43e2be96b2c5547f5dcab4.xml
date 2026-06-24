@@ -3,6 +3,7 @@
   <compounddef id="dir_4f0b4e748d43e2be96b2c5547f5dcab4" kind="dir">
     <compoundname>D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock</compoundname>
     <innerfile refid="core__modeler_8py">core_modeler.py</innerfile>
+    <innerfile refid="core__modeler__wrap_8cpp">core_modeler_wrap.cpp</innerfile>
     <innerfile refid="core__modeler__wrap_8cxx">core_modeler_wrap.cxx</innerfile>
     <briefdescription>
     </briefdescription>

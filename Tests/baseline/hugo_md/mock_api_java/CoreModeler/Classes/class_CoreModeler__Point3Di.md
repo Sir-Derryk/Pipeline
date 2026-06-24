@@ -1,6 +1,6 @@
 ---
 title: "Point3Di class"
-sidebar_position: 11
+sidebar_position: 6
 parent: "CoreModeler.Classes"
 ---
 

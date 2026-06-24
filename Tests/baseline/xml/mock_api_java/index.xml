@@ -13,139 +13,162 @@
     <member refid="class_core_modeler_1_1_box_1a00c3b72c0d428346c90543fe175fbd89" kind="function"><name>scale</name></member>
     <member refid="class_core_modeler_1_1_box_1a13c4ae71acc84a5d0201028813679513" kind="function"><name>scale</name></member>
   </compound>
-  <compound refid="class_core_modeler_1_1core__modeler" kind="class"><name>CoreModeler::core_modeler</name>
-    <member refid="class_core_modeler_1_1core__modeler_1aebdef05d796bdf40a9d70ba85f90accc" kind="function"><name>setG_systemState</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1adf00ede4b2ffeae51ead9891dcc53683" kind="function"><name>getG_systemState</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1a42595cec27df0ede81c459837a4ba094" kind="function"><name>setG_piValue</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1a680d52d7a3a950092d7174139127d5f5" kind="function"><name>getG_piValue</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1a5af8003e827ee9e141a7bf6da2a2df7e" kind="function"><name>globalInitialize</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1aaa5ab93e1be6f7f64648b709bbaf55ed" kind="function"><name>getDIAG_SUCCESS</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1a752e35243098d61be2f55e8e815eafcf" kind="function"><name>getDIAG_FAILURE</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1af7c855a9c2586279719ed5389f1f823a" kind="function"><name>setG_diagnosticRunCount</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1a4424b5f55ff75dd110a250ad44eee127" kind="function"><name>getG_diagnosticRunCount</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1a94c5c20e9cce4ecd8d2bd12cc32bcc3a" kind="function"><name>checkSystemHealth</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1aac51b28b0094d54d3ca69eaa2d025deb" kind="function"><name>pingSubsystem</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1ad603d6319c04d9c91826d4451fdaeb19" kind="function"><name>pingSubsystem</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_1a737d6975f2085b46f00fca74589d1eed" kind="function"><name>resetCounters</name></member>
+  <compound refid="class_core_modeler_1_1_geometry_1_1_box" kind="class"><name>CoreModeler::Geometry::Box</name>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1aaaeb00794f4e21c6af0b07fb7869432c" kind="variable"><name>swigCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1a623b72c10b3bf2877ecb19ef3e4b5af2" kind="function"><name>Box</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1a35b6ff3ace9bdde2e2cf088e23d9c121" kind="function"><name>finalize</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1a9e33be47e569fc73f2c8e26a98221052" kind="function"><name>getCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1a18f1ddf39b89cf2bc8196e2671fe64fb" kind="function"><name>delete</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1a64512d3fe5f5cb83e198c6eda162ec2b" kind="function"><name>Box</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1ad18bbe94cac34e0232ff77ee832de0ce" kind="function"><name>getVolume</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1a03eb01c6d2b96ebe1c7fa876cbd50625" kind="function"><name>renderToScreen</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1abf3db30e8c7c01ee43ee3ec09646671a" kind="function"><name>renderToScreen</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1aa521e5ac6b3db87fe6e5d8a45bfa78c3" kind="function"><name>scale</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1aa668e5b998b6b7ffa1158cb3fdf2bff7" kind="function"><name>scale</name></member>
   </compound>
-  <compound refid="class_core_modeler_1_1core__modeler_j_n_i" kind="class"><name>CoreModeler::core_modelerJNI</name>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a8f9efbb52aadef5a9e0016dc74269b03" kind="function"><name>GlobalConfig_maxThreads_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1af8fe76ea007f42005128bd58fe99ee68" kind="function"><name>GlobalConfig_maxThreads_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1af7397e5625f87171813c38d227dc830f" kind="function"><name>GlobalConfig_enableLogging_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1adaf0efbdf91eb3365f318ee79c7c882e" kind="function"><name>GlobalConfig_enableLogging_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a9130ee07e46df5e79db8f581f9c844ab" kind="function"><name>GlobalConfig_timeoutSeconds_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a5d082105a3c3f283e9b83c86753a4257" kind="function"><name>GlobalConfig_timeoutSeconds_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a698b1fbe1f4328106a2662fa4f5e0950" kind="function"><name>new_GlobalConfig</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ae98ca7d1a7ad43f818a82dcc564c87a2" kind="function"><name>delete_GlobalConfig</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a17bd057fb4bb1f83e8944de5964f712c" kind="function"><name>g_systemState_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a60096114afda4765b786f16d79d1358d" kind="function"><name>g_systemState_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a541ff1a9349ace07af5912f0896106dd" kind="function"><name>g_piValue_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a006fce1f155447fd5664f4f028a3a37b" kind="function"><name>g_piValue_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a5f53e0172fa11710df0d5c3a8dd6c474" kind="function"><name>GlobalLoggerProxy_logMessage__SWIG_0</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1aa8fde1220dc68fe92222ca38a165e3d5" kind="function"><name>GlobalLoggerProxy_logMessage__SWIG_1</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a3fa0962ee4c58360aaa177f43dc689af" kind="function"><name>GlobalLoggerProxy_forceFlush</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a24d4276176d9f84d535560574046af9d" kind="function"><name>new_GlobalLoggerProxy</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a2c4cf82c0f268a09db3799fd73f07609" kind="function"><name>delete_GlobalLoggerProxy</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ab1319c873fbf3ab888542348635fda54" kind="function"><name>globalInitialize</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a612663aab4eeead4f160e9072a725bf8" kind="function"><name>new_Model</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a565fd56e8a7d441b448c401894b115a3" kind="function"><name>Model_MetadataIterator_hasNext</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a824816a195e15a5a60b0de6da5c4ee36" kind="function"><name>Model_MetadataIterator_next</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a88ccac7db8920811036b8214b261bea2" kind="function"><name>new_Model_MetadataIterator</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1af62345d51e4dea2ff1dff22407121be1" kind="function"><name>delete_Model_MetadataIterator</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a1021a49fbf5b7a7665a7d7a4bfb1b64e" kind="function"><name>delete_Model</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a01e45127cb6eb4966670bfb1cae03d00" kind="function"><name>delete_IDrawable</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a143648d2202909859633c7db482e1070" kind="function"><name>IDrawable_renderToScreen__SWIG_0</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ae82f8e39698544af2114e6b3f5587980" kind="function"><name>IDrawable_renderToScreen__SWIG_1</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1afb863ed5835c3931d2b6f903f8ca65bd" kind="function"><name>delete_Shape</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a93b3b06150cf4e5dfa864ed94ae02764" kind="function"><name>Shape_getVolume</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1af801c90cc794a45453170e86305343c3" kind="function"><name>new_Box</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a76ca75d7d6b0f3b5dd2c7bd91afaaa3b" kind="function"><name>Box_getVolume</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a6bff0c469a7d4ca574771d90eceec93d" kind="function"><name>Box_renderToScreen__SWIG_0</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ae56f6dead1b4e748e8446160a4f8d95e" kind="function"><name>Box_renderToScreen__SWIG_1</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a7e9e2b50f0ca5712469931b20cde5978" kind="function"><name>Box_scale__SWIG_0</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a55658a74ce03f72a266ba6f9a326f158" kind="function"><name>Box_scale__SWIG_1</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a8d0d555dd91e5e358910a255a0321f24" kind="function"><name>delete_Box</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ade531b3486b9b109fed5542351218441" kind="function"><name>DIAG_SUCCESS_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a94b706c328664d7858c681487ed92b90" kind="function"><name>DIAG_FAILURE_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a28947b89737969e0cb48a925a77e1501" kind="function"><name>g_diagnosticRunCount_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a916ede6207a0c3068a3fa79eea6562a2" kind="function"><name>g_diagnosticRunCount_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ac14a407b992ead3de48a83c4fc42c77c" kind="function"><name>checkSystemHealth</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a38bca32efc148bd56d9ae794adc0a88f" kind="function"><name>pingSubsystem__SWIG_0</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a54757539903123bb45a7e842ebeec559" kind="function"><name>pingSubsystem__SWIG_1</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a13bdfe1c463a912b0dd2d13fe167a421" kind="function"><name>resetCounters</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ad030494deda29cee712322f74f22ef15" kind="function"><name>Point3Di_x_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a3028fa78d89511e46f3b2d7113eb9326" kind="function"><name>Point3Di_x_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a87635da878af3f29b9937798fd0a34c4" kind="function"><name>Point3Di_y_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ab841f8ea989728359fca747cdc96e9bf" kind="function"><name>Point3Di_y_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a57cb773303e21602b9924e10b1225365" kind="function"><name>Point3Di_z_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a10d8c1e077ef64d175001cab0a850bdf" kind="function"><name>Point3Di_z_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ab1319e8101d81222d05d38ce6fef9648" kind="function"><name>new_Point3Di__SWIG_0</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a8ebb0a0e431bf47a496ae4f40c18ab93" kind="function"><name>new_Point3Di__SWIG_1</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a8d491080cdb3bdab3c9efb88eca0e4a7" kind="function"><name>Point3Di_translate</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a3a4adaa84e4a0b2c5b7db66f9acc2252" kind="function"><name>delete_Point3Di</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1af2a1c2d26c13ff3145c80996d14d990f" kind="function"><name>Point3Df_x_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ad0ff3e915143f89e92eb04b8269b6bff" kind="function"><name>Point3Df_x_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a1db26e29886eaf47146f241fef941556" kind="function"><name>Point3Df_y_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a4326953a537e391b2c46744ea0a1aaab" kind="function"><name>Point3Df_y_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a373bda3c9b64a0142646254893ae6e68" kind="function"><name>Point3Df_z_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a375d694badcd40e75fe6a6005d1de2df" kind="function"><name>Point3Df_z_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a041605831bb993e00720cdca1074cbeb" kind="function"><name>new_Point3Df__SWIG_0</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a3483653080dff0ef2a6017e838efa1ec" kind="function"><name>new_Point3Df__SWIG_1</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1acdb41d36c502d603c09154e69e95f938" kind="function"><name>Point3Df_translate</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a0a46988474c29b117ef0620f3ac67423" kind="function"><name>delete_Point3Df</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a71329874e487f1157c262a3a8752c308" kind="function"><name>Point3Dd_x_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ad202322f394d0c3ba7ca373dc6510306" kind="function"><name>Point3Dd_x_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a72175edece52c0954126ed2bad083664" kind="function"><name>Point3Dd_y_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ab5edb24a6ed66d55c64c1bf85253bc23" kind="function"><name>Point3Dd_y_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a1d8a292dd200b83971e1d781df936998" kind="function"><name>Point3Dd_z_set</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a2a6e3dc7a8f1a41215e1c4eabf459b00" kind="function"><name>Point3Dd_z_get</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ad4efb8cf6a4f0eee19f12ea52a15cbf5" kind="function"><name>new_Point3Dd__SWIG_0</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a6572ee264b12634741a2b8fbd2a9ad83" kind="function"><name>new_Point3Dd__SWIG_1</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1a208c6a049da01456168d517fcef51cfc" kind="function"><name>Point3Dd_translate</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ab6fb1d8b364ab0417bc4db74887769cf" kind="function"><name>delete_Point3Dd</name></member>
-    <member refid="class_core_modeler_1_1core__modeler_j_n_i_1ad5966b592896e8468954ba387f6972b2" kind="function"><name>Box_SWIGUpcast</name></member>
+  <compound refid="classcore__modeler" kind="class"><name>core_modeler</name>
+    <member refid="classcore__modeler_1a5a2ad35b96222d5d6741d72e71ec3af7" kind="function"><name>setG_systemState</name></member>
+    <member refid="classcore__modeler_1ae8875836b5ed272d5d477ea64bc419d6" kind="function"><name>getG_systemState</name></member>
+    <member refid="classcore__modeler_1a65c5c20194de9f7489baecc0d33a7d76" kind="function"><name>setG_piValue</name></member>
+    <member refid="classcore__modeler_1a884f0adc841dfeda92760b1a6bc247cc" kind="function"><name>getG_piValue</name></member>
+    <member refid="classcore__modeler_1ae70b25a77d58ce2c25db465468c5be5a" kind="function"><name>globalInitialize</name></member>
+    <member refid="classcore__modeler_1ab9c09b3474d9a75f49b9fb71808dc7de" kind="function"><name>getDIAG_SUCCESS</name></member>
+    <member refid="classcore__modeler_1af448947975374658455d0f4c503bf9f9" kind="function"><name>getDIAG_FAILURE</name></member>
+    <member refid="classcore__modeler_1a882839e60ddbce98f537fbfcc5756e80" kind="function"><name>setG_diagnosticRunCount</name></member>
+    <member refid="classcore__modeler_1a6f4ab2996e122cdef7ad3d01b40b9de6" kind="function"><name>getG_diagnosticRunCount</name></member>
+    <member refid="classcore__modeler_1ad0aef352df9982e671e60fc159dcd747" kind="function"><name>checkSystemHealth</name></member>
+    <member refid="classcore__modeler_1ae1ded71a3e07713af832080a4ab7e7e2" kind="function"><name>pingSubsystem</name></member>
+    <member refid="classcore__modeler_1a712af2363215e36443cf573756da0d55" kind="function"><name>pingSubsystem</name></member>
+    <member refid="classcore__modeler_1a7b0e26fb841a2bc45a935c93d0626f93" kind="function"><name>resetCounters</name></member>
   </compound>
-  <compound refid="class_core_modeler_1_1_global_config" kind="class"><name>CoreModeler::GlobalConfig</name>
-    <member refid="class_core_modeler_1_1_global_config_1a29aa899902c8cd104d80775dff5f0242" kind="variable"><name>swigCPtr</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1a46df12d26cf0f4612824bc39233defa4" kind="variable"><name>swigCMemOwn</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1abfadbf9297a57b4869e293c6e8c2740e" kind="function"><name>GlobalConfig</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1a9f1fc02d757723b1ad53983326c49df5" kind="function"><name>finalize</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1a80c77c7d2e53e621325a01e253f22def" kind="function"><name>getCPtr</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1a5d046db0a471e71b5006bc6bcfbb6db5" kind="function"><name>delete</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1a59e5d527b951407f95cc3686d6fd70df" kind="function"><name>setMaxThreads</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1a38b271783c8e0503fbf09f5ad93b8013" kind="function"><name>getMaxThreads</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1a27ad4f2eee585d835a79ea6a1d3e6994" kind="function"><name>setEnableLogging</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1a2d06839ba0072d017edb3be0f63f06c2" kind="function"><name>getEnableLogging</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1abe5608f9cd1cfa629169278336661b1c" kind="function"><name>setTimeoutSeconds</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1a0e74a40ac2993081db58c8c0db7c3f8f" kind="function"><name>getTimeoutSeconds</name></member>
-    <member refid="class_core_modeler_1_1_global_config_1af3716aeed1dc0a4d87e6622b441e3ee8" kind="function"><name>GlobalConfig</name></member>
+  <compound refid="classcore__modeler_j_n_i" kind="class"><name>core_modelerJNI</name>
+    <member refid="classcore__modeler_j_n_i_1aacec96bea0bdaabba335a3285eff3b7d" kind="function"><name>GlobalConfig_maxThreads_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1af72cd3b4342b5023d8c6d8beb2f9c9d4" kind="function"><name>GlobalConfig_maxThreads_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1ac46993e959a640d80f6688fab790fb85" kind="function"><name>GlobalConfig_enableLogging_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1afb51cb640d536da51f44da51614d1bf9" kind="function"><name>GlobalConfig_enableLogging_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1a6ea1032ab74c7dedf2594c1cb59ab95d" kind="function"><name>GlobalConfig_timeoutSeconds_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1a168ba61069cff7e2d06a2b6ed25c1929" kind="function"><name>GlobalConfig_timeoutSeconds_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1a3c2ec9c0c92bc85d4750ecc082633a8e" kind="function"><name>new_GlobalConfig</name></member>
+    <member refid="classcore__modeler_j_n_i_1a15d94711e680624c9b2ba3b2063a0533" kind="function"><name>delete_GlobalConfig</name></member>
+    <member refid="classcore__modeler_j_n_i_1a63dfa4d80a4308132f26d7a1ab858e2a" kind="function"><name>g_systemState_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1a5283afda14d3c8a7ebc0c6d2a0af4d5a" kind="function"><name>g_systemState_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1ab66d7f75057ab76fabc1e31269b2fbd5" kind="function"><name>g_piValue_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1ac077b261479540002086b8665a0b204d" kind="function"><name>g_piValue_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1a177e1ccf5edf8a91fe7e6e343343e07d" kind="function"><name>GlobalLoggerProxy_logMessage__SWIG_0</name></member>
+    <member refid="classcore__modeler_j_n_i_1a82822c2d75ba64279df9ef2a14f149fd" kind="function"><name>GlobalLoggerProxy_logMessage__SWIG_1</name></member>
+    <member refid="classcore__modeler_j_n_i_1a0e926bfa49485f4dd6a42b35341e1d7c" kind="function"><name>GlobalLoggerProxy_forceFlush</name></member>
+    <member refid="classcore__modeler_j_n_i_1ab1b46c62774340f619cd935bf83def2a" kind="function"><name>new_GlobalLoggerProxy</name></member>
+    <member refid="classcore__modeler_j_n_i_1a483d0535b7213c6cdf6b5bb4bec78e3f" kind="function"><name>delete_GlobalLoggerProxy</name></member>
+    <member refid="classcore__modeler_j_n_i_1af1f85be7453df3819eba742207254778" kind="function"><name>globalInitialize</name></member>
+    <member refid="classcore__modeler_j_n_i_1ae14c3bf0e8d55eefaee056c1c7e5e7d7" kind="function"><name>new_CoreModeler_Model</name></member>
+    <member refid="classcore__modeler_j_n_i_1a4890986e99f5436af3cb10c0196b36b6" kind="function"><name>CoreModeler_Model_MetadataIterator_hasNext</name></member>
+    <member refid="classcore__modeler_j_n_i_1a531e166d055b48cdf22e3357c832a82d" kind="function"><name>CoreModeler_Model_MetadataIterator_next</name></member>
+    <member refid="classcore__modeler_j_n_i_1a09341ed9d1b3d13d2233d01ba597a9cd" kind="function"><name>new_CoreModeler_Model_MetadataIterator</name></member>
+    <member refid="classcore__modeler_j_n_i_1a397e08e320b5220066a1af57764bfd56" kind="function"><name>delete_CoreModeler_Model_MetadataIterator</name></member>
+    <member refid="classcore__modeler_j_n_i_1af292c5993e5c7567946b4fe495a56082" kind="function"><name>delete_CoreModeler_Model</name></member>
+    <member refid="classcore__modeler_j_n_i_1ab2fa34be8ec18aeb077b20cbc7a47ad7" kind="function"><name>delete_CoreModeler_Geometry_IDrawable</name></member>
+    <member refid="classcore__modeler_j_n_i_1a37cf367ac0da3a4eb45a63bdbd6dd907" kind="function"><name>CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_0</name></member>
+    <member refid="classcore__modeler_j_n_i_1ad5d0c86b34aa647b2f6c8da2bc48a999" kind="function"><name>CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_1</name></member>
+    <member refid="classcore__modeler_j_n_i_1a779f282558ea2af48a7f10361d1f6030" kind="function"><name>delete_CoreModeler_Geometry_Shape</name></member>
+    <member refid="classcore__modeler_j_n_i_1adb43378e674b8619c3d389469643abfe" kind="function"><name>CoreModeler_Geometry_Shape_getVolume</name></member>
+    <member refid="classcore__modeler_j_n_i_1a9e8891c062002fb3c4922a8505ec09b6" kind="function"><name>new_CoreModeler_Geometry_Box</name></member>
+    <member refid="classcore__modeler_j_n_i_1a837a3dfba41480ecf253137cd9f92d9e" kind="function"><name>CoreModeler_Geometry_Box_getVolume</name></member>
+    <member refid="classcore__modeler_j_n_i_1abe4528102b65d6a169be6a6bf3eaa850" kind="function"><name>CoreModeler_Geometry_Box_renderToScreen__SWIG_0</name></member>
+    <member refid="classcore__modeler_j_n_i_1a1261b8fe9d5ad21d3f5a476a575537ec" kind="function"><name>CoreModeler_Geometry_Box_renderToScreen__SWIG_1</name></member>
+    <member refid="classcore__modeler_j_n_i_1af09303f4bfb00116a1da644a7b61b3ee" kind="function"><name>CoreModeler_Geometry_Box_scale__SWIG_0</name></member>
+    <member refid="classcore__modeler_j_n_i_1af2c17de10b996a581ba16ed398377e6c" kind="function"><name>CoreModeler_Geometry_Box_scale__SWIG_1</name></member>
+    <member refid="classcore__modeler_j_n_i_1aaf5e39c3b1d15b4bd4645db524fdec02" kind="function"><name>delete_CoreModeler_Geometry_Box</name></member>
+    <member refid="classcore__modeler_j_n_i_1aed6d6d78e09ded613bb23131d3024a2d" kind="function"><name>DIAG_SUCCESS_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1aa56e31cf11f316382f07aa48cf37430b" kind="function"><name>DIAG_FAILURE_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1aca48b6a7433408de8667c477a67bd493" kind="function"><name>g_diagnosticRunCount_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1a40bf8b752af66f4491a27179edb1b967" kind="function"><name>g_diagnosticRunCount_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1a01ab4262f1f8577ec43d85e9e27a30f8" kind="function"><name>checkSystemHealth</name></member>
+    <member refid="classcore__modeler_j_n_i_1abbdd67ab5fa6121c1afd21585396e28d" kind="function"><name>pingSubsystem__SWIG_0</name></member>
+    <member refid="classcore__modeler_j_n_i_1abd4d033aa6cea0b0f3d5bd06e1cb82b4" kind="function"><name>pingSubsystem__SWIG_1</name></member>
+    <member refid="classcore__modeler_j_n_i_1a470506ad4bdfb7156d7cbc1c11ff4179" kind="function"><name>resetCounters</name></member>
+    <member refid="classcore__modeler_j_n_i_1a5eca28a2fd258412d31e17796e3f7d57" kind="function"><name>CoreModeler_Geometry_Point3Di_x_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1a3ddb800dd80536ef151b89c8f58886ce" kind="function"><name>CoreModeler_Geometry_Point3Di_x_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1af154238ca32a224e010d7a94d55c48c6" kind="function"><name>CoreModeler_Geometry_Point3Di_y_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1abefcd7819510e8c66957d8fed59a46b6" kind="function"><name>CoreModeler_Geometry_Point3Di_y_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1a3e23c8bb91acc7c1cf15ef37003f4d6c" kind="function"><name>CoreModeler_Geometry_Point3Di_z_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1a21975ea3cc9da8b9e2be7e34693ec45e" kind="function"><name>CoreModeler_Geometry_Point3Di_z_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1ab1cf36120fe55e2f6cf3da388672126d" kind="function"><name>new_CoreModeler_Geometry_Point3Di__SWIG_0</name></member>
+    <member refid="classcore__modeler_j_n_i_1a9b8fe59b63b3522965564304d60537e3" kind="function"><name>new_CoreModeler_Geometry_Point3Di__SWIG_1</name></member>
+    <member refid="classcore__modeler_j_n_i_1aef333a361fd0ba5cd396fcdf89bc3a55" kind="function"><name>CoreModeler_Geometry_Point3Di_translate</name></member>
+    <member refid="classcore__modeler_j_n_i_1aac23ee9c02ced63ee08179e39d76fccb" kind="function"><name>delete_CoreModeler_Geometry_Point3Di</name></member>
+    <member refid="classcore__modeler_j_n_i_1a69068b5c7e8a515e2866bb6c30772430" kind="function"><name>CoreModeler_Geometry_Point3Df_x_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1a8e6f81c3874e800037eb22da601e1fa1" kind="function"><name>CoreModeler_Geometry_Point3Df_x_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1a80852302b7df6bb8bebc758c290569b8" kind="function"><name>CoreModeler_Geometry_Point3Df_y_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1a2933a30d6412475242767d9e5656eeab" kind="function"><name>CoreModeler_Geometry_Point3Df_y_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1a86f67218465013ca709492edacb0df0c" kind="function"><name>CoreModeler_Geometry_Point3Df_z_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1a7bc55186bf88744e2d885842ee612662" kind="function"><name>CoreModeler_Geometry_Point3Df_z_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1aefc3ba8dac626f85602cef2c6af2ba67" kind="function"><name>new_CoreModeler_Geometry_Point3Df__SWIG_0</name></member>
+    <member refid="classcore__modeler_j_n_i_1a27ecb18139d6277a484a6bde13621908" kind="function"><name>new_CoreModeler_Geometry_Point3Df__SWIG_1</name></member>
+    <member refid="classcore__modeler_j_n_i_1a00547e28f79c026c86d281fa702542bc" kind="function"><name>CoreModeler_Geometry_Point3Df_translate</name></member>
+    <member refid="classcore__modeler_j_n_i_1aed2a984dc38cd6583059fc36206a7e54" kind="function"><name>delete_CoreModeler_Geometry_Point3Df</name></member>
+    <member refid="classcore__modeler_j_n_i_1a027950389fe4b1c08aab67ee4b5864cd" kind="function"><name>CoreModeler_Geometry_Point3Dd_x_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1aafeb6eda547ba15afbc50bcb2b9d4249" kind="function"><name>CoreModeler_Geometry_Point3Dd_x_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1a56e42718bb4f9171fa629f41d1aa5e75" kind="function"><name>CoreModeler_Geometry_Point3Dd_y_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1a20f58d899405425c2ec998986ee14796" kind="function"><name>CoreModeler_Geometry_Point3Dd_y_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1a180a4122349f50fdcd82b3d0d0f0f7df" kind="function"><name>CoreModeler_Geometry_Point3Dd_z_set</name></member>
+    <member refid="classcore__modeler_j_n_i_1af485d1fd042e0d4d17f9c7ae39f4f2bf" kind="function"><name>CoreModeler_Geometry_Point3Dd_z_get</name></member>
+    <member refid="classcore__modeler_j_n_i_1a2dafa22a75a16c3213105b5f338831aa" kind="function"><name>new_CoreModeler_Geometry_Point3Dd__SWIG_0</name></member>
+    <member refid="classcore__modeler_j_n_i_1ac58268cd6fef73ba7f1a3223e51c68c5" kind="function"><name>new_CoreModeler_Geometry_Point3Dd__SWIG_1</name></member>
+    <member refid="classcore__modeler_j_n_i_1a787f726720e249299a6e0c0d197f35c2" kind="function"><name>CoreModeler_Geometry_Point3Dd_translate</name></member>
+    <member refid="classcore__modeler_j_n_i_1a8212449533083daa3aac6c8601c04adb" kind="function"><name>delete_CoreModeler_Geometry_Point3Dd</name></member>
+    <member refid="classcore__modeler_j_n_i_1afc7de93a2752b552e4b5f003baefdfd0" kind="function"><name>CoreModeler_Geometry_Box_SWIGUpcast</name></member>
   </compound>
-  <compound refid="class_core_modeler_1_1_global_logger_proxy" kind="class"><name>CoreModeler::GlobalLoggerProxy</name>
-    <member refid="class_core_modeler_1_1_global_logger_proxy_1a748d7cdeabbfb4dc8f8d766f6c1c0ad5" kind="variable"><name>swigCPtr</name></member>
-    <member refid="class_core_modeler_1_1_global_logger_proxy_1ae4b170578139ea2ebb436b14bb248361" kind="variable"><name>swigCMemOwn</name></member>
-    <member refid="class_core_modeler_1_1_global_logger_proxy_1a8f3a3265bca70f18990c309208790504" kind="function"><name>GlobalLoggerProxy</name></member>
-    <member refid="class_core_modeler_1_1_global_logger_proxy_1a891c543ef7408447eb20b556c5fab3f7" kind="function"><name>finalize</name></member>
-    <member refid="class_core_modeler_1_1_global_logger_proxy_1abff354e4b2769d13634ac0c526f005c3" kind="function"><name>getCPtr</name></member>
-    <member refid="class_core_modeler_1_1_global_logger_proxy_1abd352e28c644d289d71b8ed7e7d74ab9" kind="function"><name>delete</name></member>
-    <member refid="class_core_modeler_1_1_global_logger_proxy_1a1c2eb613908db70b07db0d2cb927d3f4" kind="function"><name>logMessage</name></member>
-    <member refid="class_core_modeler_1_1_global_logger_proxy_1af80a5a9dca81dade961fd66b5a22b7bf" kind="function"><name>logMessage</name></member>
-    <member refid="class_core_modeler_1_1_global_logger_proxy_1a9845c9cef5c15db0b72f4733995fadcc" kind="function"><name>forceFlush</name></member>
-    <member refid="class_core_modeler_1_1_global_logger_proxy_1af80d3df7909b4185154aed8b8b0110c2" kind="function"><name>GlobalLoggerProxy</name></member>
+  <compound refid="class_global_config" kind="class"><name>GlobalConfig</name>
+    <member refid="class_global_config_1abceb63a75e7c35624eb6afd662bbea9d" kind="variable"><name>swigCPtr</name></member>
+    <member refid="class_global_config_1a0f7203abae42727e16eb1581da959eb5" kind="variable"><name>swigCMemOwn</name></member>
+    <member refid="class_global_config_1a89ac25994fc7cdcbce66fe5113b46726" kind="function"><name>GlobalConfig</name></member>
+    <member refid="class_global_config_1af335a4d0fe07b7e10371ff85ed95ce29" kind="function"><name>finalize</name></member>
+    <member refid="class_global_config_1a9fd2b9a52682acf09963240f4f514970" kind="function"><name>getCPtr</name></member>
+    <member refid="class_global_config_1a6dee871f6ae96d80862af31f0a9847e0" kind="function"><name>delete</name></member>
+    <member refid="class_global_config_1aadf5d95434c1c4efe75d9863376853c4" kind="function"><name>setMaxThreads</name></member>
+    <member refid="class_global_config_1a10e7218bb36194a9459f3a4a58a185d3" kind="function"><name>getMaxThreads</name></member>
+    <member refid="class_global_config_1a9babbd6d150aedbd82941364c64abebe" kind="function"><name>setEnableLogging</name></member>
+    <member refid="class_global_config_1a6dd96b032d058e63a1b61baaa82c55f9" kind="function"><name>getEnableLogging</name></member>
+    <member refid="class_global_config_1a7b8addc8cb9df490854ef697b7482e1e" kind="function"><name>setTimeoutSeconds</name></member>
+    <member refid="class_global_config_1abd5b9ae58e400d047b80ffa99d30fa9a" kind="function"><name>getTimeoutSeconds</name></member>
+    <member refid="class_global_config_1ae0922c6846f80e674e065c92cea057c4" kind="function"><name>GlobalConfig</name></member>
   </compound>
-  <compound refid="class_core_modeler_1_1_global_status" kind="class"><name>CoreModeler::GlobalStatus</name>
-    <member refid="class_core_modeler_1_1_global_status_1a04f5de6089faf7f87370dfdfa325c6ab" kind="variable"><name>GLOBAL_STATUS_OK</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1a62f46fc27b6a19d1fe16ae7995475ba7" kind="variable"><name>GLOBAL_STATUS_WARNING</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1a0daa448a28e6e04ef4636a67cd877af3" kind="variable"><name>GLOBAL_STATUS_ERROR</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1ad4b7d80a687d4a696b8f3da845ebecfe" kind="variable"><name>swigValues</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1a338f998f285f2e786e325281e1875bb8" kind="variable"><name>swigNext</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1aca87d77c46604bf45bc7977af136014d" kind="variable"><name>swigValue</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1ae4677c35f89e54ad673ecde52955b7d1" kind="variable"><name>swigName</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1a6c6db787fc6ec395c859de54cad21453" kind="function"><name>swigValue</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1abd8518826911d4ccdeb4f68930122745" kind="function"><name>toString</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1a0ccb42dd7a865ecebd91265a2003ab97" kind="function"><name>swigToEnum</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1aa38a9f825b6fe594170f9a55c4c615d1" kind="function"><name>GlobalStatus</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1aad673843e49e4609a0f66252f9f2d113" kind="function"><name>GlobalStatus</name></member>
-    <member refid="class_core_modeler_1_1_global_status_1ab9c11aaba49ddd1f24d2b99417ba9ed5" kind="function"><name>GlobalStatus</name></member>
+  <compound refid="class_global_logger_proxy" kind="class"><name>GlobalLoggerProxy</name>
+    <member refid="class_global_logger_proxy_1ac1d15118fd6f934c4d733e68819d7270" kind="variable"><name>swigCPtr</name></member>
+    <member refid="class_global_logger_proxy_1a9922fe3839581f0796b390aa0cb03bbe" kind="variable"><name>swigCMemOwn</name></member>
+    <member refid="class_global_logger_proxy_1aa6c370041b534c56623b3742d0443461" kind="function"><name>GlobalLoggerProxy</name></member>
+    <member refid="class_global_logger_proxy_1aa98bf9b71da4e773c7f8b05ee6ce4ff8" kind="function"><name>finalize</name></member>
+    <member refid="class_global_logger_proxy_1a3751e75d035d3abc29da587e9491add5" kind="function"><name>getCPtr</name></member>
+    <member refid="class_global_logger_proxy_1a6770068f27347e5ac4ae056f41bb6637" kind="function"><name>delete</name></member>
+    <member refid="class_global_logger_proxy_1aa077463674d62033edc7577053e37d53" kind="function"><name>logMessage</name></member>
+    <member refid="class_global_logger_proxy_1a9e37e63fbaafa569be1d17a95868bbf0" kind="function"><name>logMessage</name></member>
+    <member refid="class_global_logger_proxy_1a91b108ad900292afb1adcd4d7e7a2f0f" kind="function"><name>forceFlush</name></member>
+    <member refid="class_global_logger_proxy_1a4ce5c75f0c541489b84e10996e6c33e8" kind="function"><name>GlobalLoggerProxy</name></member>
+  </compound>
+  <compound refid="class_global_status" kind="class"><name>GlobalStatus</name>
+    <member refid="class_global_status_1aae33bf05357114fcdfa85c03220ee2b3" kind="variable"><name>GLOBAL_STATUS_OK</name></member>
+    <member refid="class_global_status_1ad2b5b7fc12d1c1aa14d5c3186a70f61c" kind="variable"><name>GLOBAL_STATUS_WARNING</name></member>
+    <member refid="class_global_status_1a4b22ff2ecb681eee22acf097a6764acc" kind="variable"><name>GLOBAL_STATUS_ERROR</name></member>
+    <member refid="class_global_status_1a02d66c7e4f1af889394ef314b1fe8e1f" kind="variable"><name>swigValues</name></member>
+    <member refid="class_global_status_1a0e3507a90f0e9529576b285bd82255da" kind="variable"><name>swigNext</name></member>
+    <member refid="class_global_status_1a6e8023626f0a4bc91f1d841ba75c45d0" kind="variable"><name>swigValue</name></member>
+    <member refid="class_global_status_1aceefee686fbdce643f4fbbdae0997e40" kind="variable"><name>swigName</name></member>
+    <member refid="class_global_status_1a763bc2bc86b98508fd2de27be7058ea7" kind="function"><name>swigValue</name></member>
+    <member refid="class_global_status_1a1b8cdd8722ae33f1a9c14c7398b71905" kind="function"><name>toString</name></member>
+    <member refid="class_global_status_1a3025a9b2566d88f4fbb3fbff6057985f" kind="function"><name>swigToEnum</name></member>
+    <member refid="class_global_status_1a9d7b5d41e18e8bc6c5aa2cb474250b48" kind="function"><name>GlobalStatus</name></member>
+    <member refid="class_global_status_1ad597013e767bd3e2de0d6c9ba085ba2a" kind="function"><name>GlobalStatus</name></member>
+    <member refid="class_global_status_1a2880bf7eeab8427499828fbf19c55722" kind="function"><name>GlobalStatus</name></member>
+  </compound>
+  <compound refid="class_core_modeler_1_1_geometry_1_1_i_drawable" kind="class"><name>CoreModeler::Geometry::IDrawable</name>
+    <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a5b47a8614263e3e2f2faba40f465296e" kind="variable"><name>swigCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1ab974d937da9d99925b4a600c6ac7968a" kind="variable"><name>swigCMemOwn</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1aaeed2a77b1504d0a4d77877b1973a59a" kind="function"><name>IDrawable</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a5bd7f3f2c4816f4ec83cf5fda0fa1f3e" kind="function"><name>finalize</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a0db32369d9df2a2b53140e747eedcbe3" kind="function"><name>getCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a56dc3dd34baff7121ff74e6da0317ffc" kind="function"><name>delete</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a89eb67ea2a7a0084b9456d62d0b2492e" kind="function"><name>renderToScreen</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1ae5de7d2f3f4796754dff29ff13650502" kind="function"><name>renderToScreen</name></member>
   </compound>
   <compound refid="class_core_modeler_1_1_i_drawable" kind="class"><name>CoreModeler::IDrawable</name>
     <member refid="class_core_modeler_1_1_i_drawable_1a9519c4443f78d67c05b1e49283c2cc3f" kind="variable"><name>swigCPtr</name></member>
@@ -158,24 +181,53 @@
     <member refid="class_core_modeler_1_1_i_drawable_1adf02c94c2c44ce55bb1b8cffe5b2d03c" kind="function"><name>renderToScreen</name></member>
   </compound>
   <compound refid="class_core_modeler_1_1_model_1_1_metadata_iterator" kind="class"><name>CoreModeler::Model::MetadataIterator</name>
-    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1afe9747116856c607def6086e43d8d100" kind="variable"><name>swigCPtr</name></member>
-    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1aaa987f0eb309e14af27eebabfaecafa1" kind="variable"><name>swigCMemOwn</name></member>
+    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac59ce43bcdac56a3f0ea4b5d4fe34f6f" kind="variable"><name>swigCPtr</name></member>
+    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a3b0f810842c8a8cb01cdf636587f75db" kind="variable"><name>swigCMemOwn</name></member>
+    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a55d93720831be817111714ebdb4bb585" kind="function"><name>MetadataIterator</name></member>
+    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ab9632b8e3bb839ff1bf1e9890a530319" kind="function"><name>finalize</name></member>
     <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a55d93720831be817111714ebdb4bb585" kind="function"><name>MetadataIterator</name></member>
     <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ab9632b8e3bb839ff1bf1e9890a530319" kind="function"><name>finalize</name></member>
     <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a4a9b30981b724ac528271d2ff21cef52" kind="function"><name>getCPtr</name></member>
+    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a4a9b30981b724ac528271d2ff21cef52" kind="function"><name>getCPtr</name></member>
+    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a251f983e364174206808852e22aa1489" kind="function"><name>delete</name></member>
+    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac4ceb3ff21f0683822247e1414d33d73" kind="function"><name>hasNext</name></member>
+    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1afd2186351511a345fe13441295b140dd" kind="function"><name>next</name></member>
+    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac82903db56c4dcb44801a8ee0c4706dd" kind="function"><name>MetadataIterator</name></member>
     <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1a251f983e364174206808852e22aa1489" kind="function"><name>delete</name></member>
     <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac4ceb3ff21f0683822247e1414d33d73" kind="function"><name>hasNext</name></member>
     <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1afd2186351511a345fe13441295b140dd" kind="function"><name>next</name></member>
     <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1ac82903db56c4dcb44801a8ee0c4706dd" kind="function"><name>MetadataIterator</name></member>
   </compound>
   <compound refid="class_core_modeler_1_1_model" kind="class"><name>CoreModeler::Model</name>
-    <member refid="class_core_modeler_1_1_model_1a96b08e214b9322ad592fb03babc61664" kind="variable"><name>swigCPtr</name></member>
-    <member refid="class_core_modeler_1_1_model_1a01aaf3d0d672055fe6cdb503e74735ce" kind="variable"><name>swigCMemOwn</name></member>
+    <member refid="class_core_modeler_1_1_model_1ada4180e42814fba45ed6bf4c534763a9" kind="variable"><name>swigCPtr</name></member>
+    <member refid="class_core_modeler_1_1_model_1ab7b787080a32f9a6c85d211bb4537f56" kind="variable"><name>swigCMemOwn</name></member>
+    <member refid="class_core_modeler_1_1_model_1a5d4bd1443671caf07b69fd7852c1e8d6" kind="function"><name>Model</name></member>
+    <member refid="class_core_modeler_1_1_model_1af0c11c125716e490c03e6bef386fb110" kind="function"><name>finalize</name></member>
     <member refid="class_core_modeler_1_1_model_1a5d4bd1443671caf07b69fd7852c1e8d6" kind="function"><name>Model</name></member>
     <member refid="class_core_modeler_1_1_model_1af0c11c125716e490c03e6bef386fb110" kind="function"><name>finalize</name></member>
     <member refid="class_core_modeler_1_1_model_1aa8e78b21040c13c7c7617cf3dfb8960a" kind="function"><name>getCPtr</name></member>
+    <member refid="class_core_modeler_1_1_model_1aa8e78b21040c13c7c7617cf3dfb8960a" kind="function"><name>getCPtr</name></member>
+    <member refid="class_core_modeler_1_1_model_1a0064c395cb682139453473d3a7d73766" kind="function"><name>delete</name></member>
+    <member refid="class_core_modeler_1_1_model_1a1c5bf9c179560eae10f91e814bb0db72" kind="function"><name>Model</name></member>
     <member refid="class_core_modeler_1_1_model_1a0064c395cb682139453473d3a7d73766" kind="function"><name>delete</name></member>
     <member refid="class_core_modeler_1_1_model_1aa4567c849c18549449cef205bb6be968" kind="function"><name>Model</name></member>
+  </compound>
+  <compound refid="class_core_modeler_1_1_geometry_1_1_point3_dd" kind="class"><name>CoreModeler::Geometry::Point3Dd</name>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1aa0ee668f199dddc9441382537d693f11" kind="variable"><name>swigCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1a8e396eed61fdf3bedb30ecb52981e701" kind="variable"><name>swigCMemOwn</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1ade2b0734c01f1b626c551a271be349df" kind="function"><name>Point3Dd</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1aceb653bf5f256e437de0f746c18afecd" kind="function"><name>finalize</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1aec2fcc8ebf799d2c076f814487a9f39c" kind="function"><name>getCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1adaab8d98113ae217784df2b381120076" kind="function"><name>delete</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1a9d23dba25bbc1099f1e5ab0ebd1c7df6" kind="function"><name>setX</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1ac07ce0e8c047243dfb435645f5b32ddc" kind="function"><name>getX</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1a5e91232a863b48ab9ec10b957cd8d1f1" kind="function"><name>setY</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1a05cca4532b2c008fa6df8c46b95b27a5" kind="function"><name>getY</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1ac5b8b0a73e703b8c761f26ff5ae6658c" kind="function"><name>setZ</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1a5a1c91da2d9fa4a8a38d13cd0269996b" kind="function"><name>getZ</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1a0857ffaee9e9bda62ccd72dfdc938ee5" kind="function"><name>Point3Dd</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1aa7e617ad1269d15d6bee9fa8bfaa85e9" kind="function"><name>Point3Dd</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_dd_1a761f7b7d38a4c7691650f38c001afa21" kind="function"><name>translate</name></member>
   </compound>
   <compound refid="class_core_modeler_1_1_point3_dd" kind="class"><name>CoreModeler::Point3Dd</name>
     <member refid="class_core_modeler_1_1_point3_dd_1a35b5afcb5a851978e997564919049d3a" kind="variable"><name>swigCPtr</name></member>
@@ -194,6 +246,23 @@
     <member refid="class_core_modeler_1_1_point3_dd_1af4bb669482649ae3e096b3d91b21e9fb" kind="function"><name>Point3Dd</name></member>
     <member refid="class_core_modeler_1_1_point3_dd_1af8cd34dd3c11287a5bfe2fcf4efc9178" kind="function"><name>translate</name></member>
   </compound>
+  <compound refid="class_core_modeler_1_1_geometry_1_1_point3_df" kind="class"><name>CoreModeler::Geometry::Point3Df</name>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1afb39bc6027957017e19cdf9a1ce371c6" kind="variable"><name>swigCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1a5395e7400a395bceb75bfeb969ebc5e7" kind="variable"><name>swigCMemOwn</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1a77df2fdae6a6e48faf9bcad0ae526799" kind="function"><name>Point3Df</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1a39dc81c4e9af36ac130a9a93eac1a24a" kind="function"><name>finalize</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1a938c93c902ea9fbf0c3271c77afcc19c" kind="function"><name>getCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1acf06be2d87e304bd8bcbfce018a4d38d" kind="function"><name>delete</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1a1bb7901817fcf1f6d600ee7ff1f0f607" kind="function"><name>setX</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1a2045bea0666cf0e1673a924ff55db390" kind="function"><name>getX</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1aa48dc03c018e6e72b7928f6d0947c5ef" kind="function"><name>setY</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1af07267a5a0fd2fb80c1dd4436e3bbcbc" kind="function"><name>getY</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1a8fc70056912b7a85219b8c1495c3feab" kind="function"><name>setZ</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1a8fb8efb8a5af0a0d499a0f44131ed96f" kind="function"><name>getZ</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1a176dbee24af6a07523a715de89a2489b" kind="function"><name>Point3Df</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1a91c5970fbc26ceffc1d54aba1caf73be" kind="function"><name>Point3Df</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_df_1a5e2cbc878d21b9e6ff1d8bf3d32378e1" kind="function"><name>translate</name></member>
+  </compound>
   <compound refid="class_core_modeler_1_1_point3_df" kind="class"><name>CoreModeler::Point3Df</name>
     <member refid="class_core_modeler_1_1_point3_df_1a3618ebbd9863ee6cac539fe385976a3e" kind="variable"><name>swigCPtr</name></member>
     <member refid="class_core_modeler_1_1_point3_df_1a8b38e20e830a052aeff7f8029186a806" kind="variable"><name>swigCMemOwn</name></member>
@@ -210,6 +279,23 @@
     <member refid="class_core_modeler_1_1_point3_df_1aae2c84c5744fdb0f5fb8479e96b0d86d" kind="function"><name>Point3Df</name></member>
     <member refid="class_core_modeler_1_1_point3_df_1ad85b4a387f2732a68cc2eaf99b0bef43" kind="function"><name>Point3Df</name></member>
     <member refid="class_core_modeler_1_1_point3_df_1a0a124cdfeeae5b6993771d8a722a7830" kind="function"><name>translate</name></member>
+  </compound>
+  <compound refid="class_core_modeler_1_1_geometry_1_1_point3_di" kind="class"><name>CoreModeler::Geometry::Point3Di</name>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1aeb07049bacddf0eddd46e20191393395" kind="variable"><name>swigCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a715796fcc6fda25de03145116393b65f" kind="variable"><name>swigCMemOwn</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a1fb4407b2bdbf0506ed70e10199a46c6" kind="function"><name>Point3Di</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a11fa74d067da57c6286c68ef096e1063" kind="function"><name>finalize</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a16d91823d387eea50c27d3eea591723a" kind="function"><name>getCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a91e284045d1c8f0cd2f490362852f0fa" kind="function"><name>delete</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a8e88e792c63246af317cbee27d421c1b" kind="function"><name>setX</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a13b803cfd4b167cbcfc776471918c051" kind="function"><name>getX</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a270bbc652b985a4b89258555217373f1" kind="function"><name>setY</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a65c39b4e584f2be862139b0d4bc2e757" kind="function"><name>getY</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a94be9512a6865cf3a215f91edb5ebd5d" kind="function"><name>setZ</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a57200b852c3d1aab2aaca191c1c49fc4" kind="function"><name>getZ</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a3e9bdf1e5837d451319b24d011652230" kind="function"><name>Point3Di</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1a82f7301ac4788ee35aa83bbd5b103205" kind="function"><name>Point3Di</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_di_1ae07e21044ceac2f0c3091115b538252d" kind="function"><name>translate</name></member>
   </compound>
   <compound refid="class_core_modeler_1_1_point3_di" kind="class"><name>CoreModeler::Point3Di</name>
     <member refid="class_core_modeler_1_1_point3_di_1ad89b1bb257d2345e1ce81b9207ba3154" kind="variable"><name>swigCPtr</name></member>
@@ -229,19 +315,37 @@
     <member refid="class_core_modeler_1_1_point3_di_1a526663fc147b9b5ee5a2121ef2f99fd6" kind="function"><name>translate</name></member>
   </compound>
   <compound refid="class_core_modeler_1_1_render_mode" kind="class"><name>CoreModeler::RenderMode</name>
+    <member refid="class_core_modeler_1_1_render_mode_1a0dcff1868e3749014b502f945fc9ad5e" kind="variable"><name>Wireframe</name></member>
+    <member refid="class_core_modeler_1_1_render_mode_1ac20da742b560eb545de356d95d1f852b" kind="variable"><name>Shaded</name></member>
+    <member refid="class_core_modeler_1_1_render_mode_1a3ff7ded58ac8b7e5e40cad9cfaf5774d" kind="variable"><name>Textured</name></member>
     <member refid="class_core_modeler_1_1_render_mode_1aa24c32e644db9dffde3a3cfe3f96961f" kind="variable"><name>Wireframe</name></member>
     <member refid="class_core_modeler_1_1_render_mode_1aaf400b9a1cba0f1a36324af009cbdf38" kind="variable"><name>Shaded</name></member>
     <member refid="class_core_modeler_1_1_render_mode_1ac7873a37bb6a647224ddf06187e771c3" kind="variable"><name>Textured</name></member>
     <member refid="class_core_modeler_1_1_render_mode_1a37f2e9a62414df508c832599a57b2738" kind="variable"><name>swigValues</name></member>
-    <member refid="class_core_modeler_1_1_render_mode_1a197501b3071f4d338ed988cd13b6858d" kind="variable"><name>swigNext</name></member>
-    <member refid="class_core_modeler_1_1_render_mode_1ae359a615e95fa209d129b175679ec3b5" kind="variable"><name>swigValue</name></member>
-    <member refid="class_core_modeler_1_1_render_mode_1a8e65c57b3f5cbe27d74d1e176af10044" kind="variable"><name>swigName</name></member>
+    <member refid="class_core_modeler_1_1_render_mode_1ad87173ec77df8647ad63a3ef4efb1bb4" kind="variable"><name>swigNext</name></member>
+    <member refid="class_core_modeler_1_1_render_mode_1a47400ebd990dc548ac6ae662084c4b18" kind="variable"><name>swigValue</name></member>
+    <member refid="class_core_modeler_1_1_render_mode_1a03c8f0b1ca63c7efdb10533a0c2443cd" kind="variable"><name>swigName</name></member>
     <member refid="class_core_modeler_1_1_render_mode_1a889c1e7297d23d2a5888e5605638b68e" kind="function"><name>swigValue</name></member>
     <member refid="class_core_modeler_1_1_render_mode_1aafa4a5578ac96e7eb67af1fac0bd2177" kind="function"><name>toString</name></member>
+    <member refid="class_core_modeler_1_1_render_mode_1a889c1e7297d23d2a5888e5605638b68e" kind="function"><name>swigValue</name></member>
+    <member refid="class_core_modeler_1_1_render_mode_1aafa4a5578ac96e7eb67af1fac0bd2177" kind="function"><name>toString</name></member>
+    <member refid="class_core_modeler_1_1_render_mode_1a2d1da0b755aa70d2a92cf985a9f5031d" kind="function"><name>swigToEnum</name></member>
     <member refid="class_core_modeler_1_1_render_mode_1a2d1da0b755aa70d2a92cf985a9f5031d" kind="function"><name>swigToEnum</name></member>
     <member refid="class_core_modeler_1_1_render_mode_1ab3c22abf003835ce13261fd2926c58fc" kind="function"><name>RenderMode</name></member>
     <member refid="class_core_modeler_1_1_render_mode_1a17fdb24d566ba5076201270aa55683bc" kind="function"><name>RenderMode</name></member>
     <member refid="class_core_modeler_1_1_render_mode_1a97aa9249d37cc39eb30cf328d256b449" kind="function"><name>RenderMode</name></member>
+    <member refid="class_core_modeler_1_1_render_mode_1ab3c22abf003835ce13261fd2926c58fc" kind="function"><name>RenderMode</name></member>
+    <member refid="class_core_modeler_1_1_render_mode_1a17fdb24d566ba5076201270aa55683bc" kind="function"><name>RenderMode</name></member>
+    <member refid="class_core_modeler_1_1_render_mode_1a97aa9249d37cc39eb30cf328d256b449" kind="function"><name>RenderMode</name></member>
+  </compound>
+  <compound refid="class_core_modeler_1_1_geometry_1_1_shape" kind="class"><name>CoreModeler::Geometry::Shape</name>
+    <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a758524c8978c7c4ddbb4cb2508fed5d8" kind="variable"><name>swigCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_shape_1ac672a1a07f1c93f56ff9fb07e85e86dd" kind="variable"><name>swigCMemOwn</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_shape_1abdb5630c04fca9b73db915f7fcf047d9" kind="function"><name>Shape</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a7a74d59ac582c4f8fbd5dae8dc04f7aa" kind="function"><name>finalize</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a52ee933a81c873f055998532a7546a4a" kind="function"><name>getCPtr</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_shape_1afff445e515df34d640fc87201cd40492" kind="function"><name>delete</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_shape_1ac8b576befe0f113073ad3bbf8272a9e7" kind="function"><name>getVolume</name></member>
   </compound>
   <compound refid="class_core_modeler_1_1_shape" kind="class"><name>CoreModeler::Shape</name>
     <member refid="class_core_modeler_1_1_shape_1ae385b085963c75d9bac4efc9127d8baa" kind="variable"><name>swigCPtr</name></member>
@@ -258,9 +362,13 @@
   </compound>
   <compound refid="namespace_core_modeler" kind="namespace"><name>CoreModeler</name>
   </compound>
+  <compound refid="namespace_core_modeler_1_1_geometry" kind="namespace"><name>CoreModeler::Geometry</name>
+  </compound>
   <compound refid="namespacejava_1_1lang" kind="namespace"><name>java::lang</name>
   </compound>
   <compound refid="_box_8java" kind="file"><name>Box.java</name>
+  </compound>
+  <compound refid="_core_modeler_2_geometry_2_box_8java" kind="file"><name>Box.java</name>
   </compound>
   <compound refid="core__modeler_8java" kind="file"><name>core_modeler.java</name>
   </compound>
@@ -287,83 +395,111 @@
     <member refid="core__modeler__wrap_8cxx_1a759553ce11c7722bea834d8ff7c1bbd6a6aacbda6ab6e6550234dace9d04e9e60" kind="enumvalue"><name>SWIG_JavaUnknownError</name></member>
     <member refid="core__modeler__wrap_8cxx_1a759553ce11c7722bea834d8ff7c1bbd6acdc2eeef9f09f076ca508d8020a849db" kind="enumvalue"><name>SWIG_JavaIllegalStateException</name></member>
     <member refid="core__modeler__wrap_8cxx_1a73a49625f6336c7c9fda44dece5e5c56" kind="function"><name>SWIG_JavaThrowException</name></member>
-    <member refid="core__modeler__wrap_8cxx_1affa1b70f404e1cfd1035059da7b23fbf" kind="function"><name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1maxThreads_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ae1087e737647e9ecaef626c19d92535c" kind="function"><name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1maxThreads_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a36c6b51b4f2be275424ba96cf7194b8e" kind="function"><name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1enableLogging_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ac5abda3289f82ca59b2f0533e730cc60" kind="function"><name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1enableLogging_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a0693e7c156dc824cc56998ad56e0983d" kind="function"><name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a29337f8ca9876c301ba56eeb618b35a7" kind="function"><name>Java_CoreModeler_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a4fbb9a88ee33d4098b43f47e9b24b7c6" kind="function"><name>Java_CoreModeler_core_1modelerJNI_new_1GlobalConfig</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ab006332bcc1502ede58a380017584a1d" kind="function"><name>Java_CoreModeler_core_1modelerJNI_delete_1GlobalConfig</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a0ee337026b0d291c903592d26c1b4978" kind="function"><name>Java_CoreModeler_core_1modelerJNI_g_1systemState_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a14fa61440b51d237dad9398964fd8be4" kind="function"><name>Java_CoreModeler_core_1modelerJNI_g_1systemState_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a7c304da96e2eefddb509b190eda4f08f" kind="function"><name>Java_CoreModeler_core_1modelerJNI_g_1piValue_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a76d204aaace88602e2165049c8cdfd9c" kind="function"><name>Java_CoreModeler_core_1modelerJNI_g_1piValue_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a46a061b6614ff9a5dd46e6e548e2deda" kind="function"><name>Java_CoreModeler_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_10</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a4447b561648b918f33a74b5789fc5795" kind="function"><name>Java_CoreModeler_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_11</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a4dc6650f6d96086c3ca7bb8d31167df6" kind="function"><name>Java_CoreModeler_core_1modelerJNI_GlobalLoggerProxy_1forceFlush</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a476848e1c88b3a5caf5bb9162f21cbe4" kind="function"><name>Java_CoreModeler_core_1modelerJNI_new_1GlobalLoggerProxy</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a3342efc29bf37701cc3528e983bfca62" kind="function"><name>Java_CoreModeler_core_1modelerJNI_delete_1GlobalLoggerProxy</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a622465fc2903acfbcfe1c96d9dff6a08" kind="function"><name>Java_CoreModeler_core_1modelerJNI_globalInitialize</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a655accfc82804477180c17bceae6ac4e" kind="function"><name>Java_CoreModeler_core_1modelerJNI_new_1Model</name></member>
-    <member refid="core__modeler__wrap_8cxx_1abf056dc5554eecc0af31f48833975a16" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Model_1MetadataIterator_1hasNext</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a101b3bbfd068b496efae1e59f937d20d" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Model_1MetadataIterator_1next</name></member>
-    <member refid="core__modeler__wrap_8cxx_1af3e4eca2dd57d476ee32227244c8d577" kind="function"><name>Java_CoreModeler_core_1modelerJNI_new_1Model_1MetadataIterator</name></member>
-    <member refid="core__modeler__wrap_8cxx_1afd2fb59e0c6485760655de099b01cbae" kind="function"><name>Java_CoreModeler_core_1modelerJNI_delete_1Model_1MetadataIterator</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a354ccb5e69da34512fcce170359add4f" kind="function"><name>Java_CoreModeler_core_1modelerJNI_delete_1Model</name></member>
-    <member refid="core__modeler__wrap_8cxx_1adb50d36ebd52d849840954bde84e12c3" kind="function"><name>Java_CoreModeler_core_1modelerJNI_delete_1IDrawable</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ab3d234fb1590faba0024190e1c4374a1" kind="function"><name>Java_CoreModeler_core_1modelerJNI_IDrawable_1renderToScreen_1_1SWIG_10</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a3f102d7e82b18a8c2ed761b94f552a34" kind="function"><name>Java_CoreModeler_core_1modelerJNI_IDrawable_1renderToScreen_1_1SWIG_11</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a0ab31a34836b3597d6a37cdf466edff7" kind="function"><name>Java_CoreModeler_core_1modelerJNI_delete_1Shape</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a99197177b4ee236dcc7c6735afaec106" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Shape_1getVolume</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ae44cc4528b3560f472e3c83f6b7a0336" kind="function"><name>Java_CoreModeler_core_1modelerJNI_new_1Box</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a0ca4c29331e8a2a9df6ef8ab57b855df" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Box_1getVolume</name></member>
-    <member refid="core__modeler__wrap_8cxx_1aac0af5c453ab9aebb6cdf4c428f392e8" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Box_1renderToScreen_1_1SWIG_10</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a16eed4dab63129684de01e4ce25e2640" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Box_1renderToScreen_1_1SWIG_11</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a83399e739411124370f71d9751e945f3" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Box_1scale_1_1SWIG_10</name></member>
-    <member refid="core__modeler__wrap_8cxx_1acc4810ff60fef6925bf20e091acffed3" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Box_1scale_1_1SWIG_11</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a77a2fd76b03fd001f9ec6ea61faf16d2" kind="function"><name>Java_CoreModeler_core_1modelerJNI_delete_1Box</name></member>
-    <member refid="core__modeler__wrap_8cxx_1af34764a0ea3699dd2c6f59fb9a02d6c6" kind="function"><name>Java_CoreModeler_core_1modelerJNI_DIAG_1SUCCESS_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a427948422b88029c4e9e06d142e3cae6" kind="function"><name>Java_CoreModeler_core_1modelerJNI_DIAG_1FAILURE_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a99c7ebd1ab6e23556caa3b4f5964f7e6" kind="function"><name>Java_CoreModeler_core_1modelerJNI_g_1diagnosticRunCount_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a332058ff608bd55d00ecaf14f8244f21" kind="function"><name>Java_CoreModeler_core_1modelerJNI_g_1diagnosticRunCount_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a5a68b93fb50d300e827e3f92492984ec" kind="function"><name>Java_CoreModeler_core_1modelerJNI_checkSystemHealth</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a03e808b97999b756912cc60e4ee1b4bf" kind="function"><name>Java_CoreModeler_core_1modelerJNI_pingSubsystem_1_1SWIG_10</name></member>
-    <member refid="core__modeler__wrap_8cxx_1adbd286a993c81aa4b24e71f07bb3cb04" kind="function"><name>Java_CoreModeler_core_1modelerJNI_pingSubsystem_1_1SWIG_11</name></member>
-    <member refid="core__modeler__wrap_8cxx_1adab47c253aadb690e4891341f20be9cd" kind="function"><name>Java_CoreModeler_core_1modelerJNI_resetCounters</name></member>
-    <member refid="core__modeler__wrap_8cxx_1acddaea26c34e2b78a3a14ba69a1ee477" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Di_1x_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a40cb39ddf1e0eaf0d87700502abfbb09" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Di_1x_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1af8a656e04e3b91157f705f662b0e04ff" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Di_1y_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a20246e4a16bc173b8137954ebd989409" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Di_1y_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ad720eabb7fe52c9fa76194e8b0a69c3a" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Di_1z_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a82c2b745a6257cf3c54572b8b8580a54" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Di_1z_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a79e53ea2f326adcc15e9fbc687f8de22" kind="function"><name>Java_CoreModeler_core_1modelerJNI_new_1Point3Di_1_1SWIG_10</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a263b0e71c43131ce57184343944dc460" kind="function"><name>Java_CoreModeler_core_1modelerJNI_new_1Point3Di_1_1SWIG_11</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ac6cc85e2d9acb3f811dfa321aacdb268" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Di_1translate</name></member>
-    <member refid="core__modeler__wrap_8cxx_1abe4f1cb86c54036fd28054c90edb1434" kind="function"><name>Java_CoreModeler_core_1modelerJNI_delete_1Point3Di</name></member>
-    <member refid="core__modeler__wrap_8cxx_1afbfac380265b34f9ba38480f660df0f7" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Df_1x_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a6c03728f38e8dc51e761d3fd450d8148" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Df_1x_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ab7b3e4067fc508120b395732655a6657" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Df_1y_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a3dab22cb87479c968ccde24b473973c1" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Df_1y_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a5577296f967c26b76d07701b645bbf28" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Df_1z_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ae527274541e44461901ebcbf3efd0d4d" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Df_1z_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ae13b85b7627f4c88c921dc979a15e9de" kind="function"><name>Java_CoreModeler_core_1modelerJNI_new_1Point3Df_1_1SWIG_10</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ad0af47cbf3a8bba93c1569ad04ac8073" kind="function"><name>Java_CoreModeler_core_1modelerJNI_new_1Point3Df_1_1SWIG_11</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ab44983987fe19c052d800b1928e90d84" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Df_1translate</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ac0b91134027c2a29ad2a9c84599d3629" kind="function"><name>Java_CoreModeler_core_1modelerJNI_delete_1Point3Df</name></member>
-    <member refid="core__modeler__wrap_8cxx_1ab33a8d96a8c375f4b4c70ca906bccfd6" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1x_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a8ca40ac979fb397671d0e3fece76e816" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1x_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1accf110db7dfa003920cbe10fb0fea336" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1y_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a4ada57ab20fdfe40fd2295e6df6a54c9" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1y_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a60e71ab3c408dcdb310d60f2c9e19f09" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1z_1set</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a09f7eb7609a0feee35c261273fcbcd42" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1z_1get</name></member>
-    <member refid="core__modeler__wrap_8cxx_1aa919ef339f3b7f69c65d1617725fe37f" kind="function"><name>Java_CoreModeler_core_1modelerJNI_new_1Point3Dd_1_1SWIG_10</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a3ef0ed007af07a3153b2ece38433db22" kind="function"><name>Java_CoreModeler_core_1modelerJNI_new_1Point3Dd_1_1SWIG_11</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a7695025fdf446c60f377e05966a5faf6" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Point3Dd_1translate</name></member>
-    <member refid="core__modeler__wrap_8cxx_1a5dd2c530aa4e357b03e76bb7fa6d8c78" kind="function"><name>Java_CoreModeler_core_1modelerJNI_delete_1Point3Dd</name></member>
-    <member refid="core__modeler__wrap_8cxx_1aed730e65be34dd6a88ce5cf3a98ec817" kind="function"><name>Java_CoreModeler_core_1modelerJNI_Box_1SWIGUpcast</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a2af1e00973b6c35697cfba5c5ae7b031" kind="function"><name>Java_core_1modelerJNI_GlobalConfig_1maxThreads_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a484ba456c10150bcd362c24379437b55" kind="function"><name>Java_core_1modelerJNI_GlobalConfig_1maxThreads_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a38a0e9611c18ce1bd9648db21b999881" kind="function"><name>Java_core_1modelerJNI_GlobalConfig_1enableLogging_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1aae62e5e0effd7a5e9fc00d30c0f23d98" kind="function"><name>Java_core_1modelerJNI_GlobalConfig_1enableLogging_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a1d1e6cb44ad5db2a9c97f86729e874a3" kind="function"><name>Java_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a00d5e5dee34561893e67d7fa7bc45da2" kind="function"><name>Java_core_1modelerJNI_GlobalConfig_1timeoutSeconds_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a6f45ca1c29041baa51e5da6238625bf1" kind="function"><name>Java_core_1modelerJNI_new_1GlobalConfig</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a68dc9b2d71a28e5968bb233da9c37bed" kind="function"><name>Java_core_1modelerJNI_delete_1GlobalConfig</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a5ae01b6156b376203afff8da83e4a849" kind="function"><name>Java_core_1modelerJNI_g_1systemState_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a53de751058a64a79971caa6a4afe4b6a" kind="function"><name>Java_core_1modelerJNI_g_1systemState_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a332809424d8229d004fa98412d883a4f" kind="function"><name>Java_core_1modelerJNI_g_1piValue_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a34b9ec64e1d8a9abc19766688c75a17e" kind="function"><name>Java_core_1modelerJNI_g_1piValue_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a3d7d359dfe6142399edbd213c7a59443" kind="function"><name>Java_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_10</name></member>
+    <member refid="core__modeler__wrap_8cxx_1ae4740b4e7fe758ccbaaf7e858cdcae3c" kind="function"><name>Java_core_1modelerJNI_GlobalLoggerProxy_1logMessage_1_1SWIG_11</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a112a3adf7eb50337e4778134555a161d" kind="function"><name>Java_core_1modelerJNI_GlobalLoggerProxy_1forceFlush</name></member>
+    <member refid="core__modeler__wrap_8cxx_1aee71bbb6083c4e0624f5fec61b6778a5" kind="function"><name>Java_core_1modelerJNI_new_1GlobalLoggerProxy</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a547174c181afe36db5ebf8fe2c668ea3" kind="function"><name>Java_core_1modelerJNI_delete_1GlobalLoggerProxy</name></member>
+    <member refid="core__modeler__wrap_8cxx_1abe320c9979dd49d3b7800ffffdf1d5bb" kind="function"><name>Java_core_1modelerJNI_globalInitialize</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a336309bb902fafd51185a5e766133951" kind="function"><name>Java_core_1modelerJNI_new_1CoreModeler_1Model</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a84190477bbf7b62c6bcb27f70758610e" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Model_1MetadataIterator_1hasNext</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a319b374b25fa30275d56a7050814e5c3" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Model_1MetadataIterator_1next</name></member>
+    <member refid="core__modeler__wrap_8cxx_1acd95d0dd91e8ebb425d4258907322e01" kind="function"><name>Java_core_1modelerJNI_new_1CoreModeler_1Model_1MetadataIterator</name></member>
+    <member refid="core__modeler__wrap_8cxx_1adf664b0253c36cb1f8353af2c3b684f4" kind="function"><name>Java_core_1modelerJNI_delete_1CoreModeler_1Model_1MetadataIterator</name></member>
+    <member refid="core__modeler__wrap_8cxx_1ab9fcf8b4ea4c1803c38ba6c2aa97e0b0" kind="function"><name>Java_core_1modelerJNI_delete_1CoreModeler_1Model</name></member>
+    <member refid="core__modeler__wrap_8cxx_1acb975b986efa8acb15e3d6cac1a95886" kind="function"><name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1IDrawable</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a00ec51a32438233f39dacb7d8b0f5407" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1IDrawable_1renderToScreen_1_1SWIG_10</name></member>
+    <member refid="core__modeler__wrap_8cxx_1aa5604c0e9be36b0628ba1ee9d1b573d6" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1IDrawable_1renderToScreen_1_1SWIG_11</name></member>
+    <member refid="core__modeler__wrap_8cxx_1ac3b16e70ec418031ebd37647d494c510" kind="function"><name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Shape</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a361f844bfe9ac27486cd6c1607527b6e" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Shape_1getVolume</name></member>
+    <member refid="core__modeler__wrap_8cxx_1aa09a70493a866ea2ec55f068e97ed674" kind="function"><name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Box</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a6df11aa3ecc9270816329a72abce60af" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1getVolume</name></member>
+    <member refid="core__modeler__wrap_8cxx_1ab782e9df6dd7131d56e20d37aa577502" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1renderToScreen_1_1SWIG_10</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a03dc37084c2077ece030947a4be22191" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1renderToScreen_1_1SWIG_11</name></member>
+    <member refid="core__modeler__wrap_8cxx_1addd1a2fdc2cec76f6c2f157d8a312c02" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1scale_1_1SWIG_10</name></member>
+    <member refid="core__modeler__wrap_8cxx_1aaf096fa3185aca860922c7fbe2b36fbb" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1scale_1_1SWIG_11</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a6d94cef2565a19fa0c2a1dc6402417e5" kind="function"><name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Box</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a162a78961d02643bca3e9c049e236c8a" kind="function"><name>Java_core_1modelerJNI_DIAG_1SUCCESS_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a77ec08aa5c88090f82cddffe317d3cac" kind="function"><name>Java_core_1modelerJNI_DIAG_1FAILURE_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a5c34b4c484a0bb66310b5de12170a354" kind="function"><name>Java_core_1modelerJNI_g_1diagnosticRunCount_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a28732fc1940605254b739f4ed52a4163" kind="function"><name>Java_core_1modelerJNI_g_1diagnosticRunCount_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1ab2dba2c39801abc510d21e17d8b5f584" kind="function"><name>Java_core_1modelerJNI_checkSystemHealth</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a3360df622ceedd4b62263b926eb913dd" kind="function"><name>Java_core_1modelerJNI_pingSubsystem_1_1SWIG_10</name></member>
+    <member refid="core__modeler__wrap_8cxx_1aea28d396f270d06c0180f797fb06f8e2" kind="function"><name>Java_core_1modelerJNI_pingSubsystem_1_1SWIG_11</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a299b57c36d9212eab60378984be448ce" kind="function"><name>Java_core_1modelerJNI_resetCounters</name></member>
+    <member refid="core__modeler__wrap_8cxx_1aa7a1197c0cb1e6af015762f10ce01a77" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1x_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1ab51a64c9f98d4fe56335e7bc6a3be822" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1x_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a00535aae8b027cc684e7fd370754f403" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1y_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1ae2f7747c6a56695e59dc5b6ab6d92166" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1y_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a04eb650d1756c8011a4d795b0329b7d5" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1z_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1aa194fd5ac4c4d544a6750337d045bd2a" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1z_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a18ef707fd70104499b736f1481ca55c2" kind="function"><name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Di_1_1SWIG_10</name></member>
+    <member refid="core__modeler__wrap_8cxx_1ae0baeba9c5f257a4ae000154c45488e9" kind="function"><name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Di_1_1SWIG_11</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a9342f70377ff1969fffc5faffedd874c" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Di_1translate</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a238dff1553f8653dc841cb428e944626" kind="function"><name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Point3Di</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a94767f51a52c7697012f9da3a41cdd7f" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1x_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a1091b1e00c8358f1e2ff0029a762c366" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1x_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a16c37b5aeded8713f129699f2d46ab7a" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1y_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1ae689a0ba7a340a105e01ea5c03a65369" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1y_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a49ec768600cd6c487cb834107fde5ab9" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1z_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a9f7844afe65017c14d30c526448d01ce" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1z_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a42e13f3e351061db294929db57c8ce46" kind="function"><name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Df_1_1SWIG_10</name></member>
+    <member refid="core__modeler__wrap_8cxx_1ad075e7295f3280a94fdf3b40442bfcb0" kind="function"><name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Df_1_1SWIG_11</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a053e9347929efe308c6c28cb511cff8d" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Df_1translate</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a290626012b84aef16cc84a02c4cf4fcc" kind="function"><name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Point3Df</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a2ceca0d9231331b943724748801da1ee" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1x_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a4b4046f3d934433bf11dd69eada644a7" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1x_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a5bf99120ca0d7416befc9cbf1a9f09f5" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1y_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a9d5b1aaa029a21c96dee321a1027a20b" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1y_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1aed266dfb8eeaa8c83ad6edbbfc869782" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1z_1set</name></member>
+    <member refid="core__modeler__wrap_8cxx_1afb8e5fe67a922b715fbac2b11073bb81" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1z_1get</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a20babb4574ec68831f4e707ed004ba9d" kind="function"><name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Dd_1_1SWIG_10</name></member>
+    <member refid="core__modeler__wrap_8cxx_1af6ace4cacb005266f121b46d43ce7ee3" kind="function"><name>Java_core_1modelerJNI_new_1CoreModeler_1Geometry_1Point3Dd_1_1SWIG_11</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a2ba25609adf7512c8f47d49336dde390" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Point3Dd_1translate</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a7f04935f03f05cdd29de13e634ac0105" kind="function"><name>Java_core_1modelerJNI_delete_1CoreModeler_1Geometry_1Point3Dd</name></member>
+    <member refid="core__modeler__wrap_8cxx_1a1159f6b7930049b8304da05949ae4ac0" kind="function"><name>Java_core_1modelerJNI_CoreModeler_1Geometry_1Box_1SWIGUpcast</name></member>
   </compound>
   <compound refid="core__modeler_j_n_i_8java" kind="file"><name>core_modelerJNI.java</name>
+  </compound>
+  <compound refid="_core_modeler_2_geometry_2_i_drawable_8java" kind="file"><name>IDrawable.java</name>
+  </compound>
+  <compound refid="_i_drawable_8java" kind="file"><name>IDrawable.java</name>
+  </compound>
+  <compound refid="_core_modeler_2_geometry_2_point3_dd_8java" kind="file"><name>Point3Dd.java</name>
+  </compound>
+  <compound refid="_point3_dd_8java" kind="file"><name>Point3Dd.java</name>
+  </compound>
+  <compound refid="_core_modeler_2_geometry_2_point3_df_8java" kind="file"><name>Point3Df.java</name>
+  </compound>
+  <compound refid="_point3_df_8java" kind="file"><name>Point3Df.java</name>
+  </compound>
+  <compound refid="_core_modeler_2_geometry_2_point3_di_8java" kind="file"><name>Point3Di.java</name>
+  </compound>
+  <compound refid="_point3_di_8java" kind="file"><name>Point3Di.java</name>
+  </compound>
+  <compound refid="_core_modeler_2_geometry_2_shape_8java" kind="file"><name>Shape.java</name>
+  </compound>
+  <compound refid="_shape_8java" kind="file"><name>Shape.java</name>
+  </compound>
+  <compound refid="_core_modeler_2_model_8java" kind="file"><name>Model.java</name>
+  </compound>
+  <compound refid="_model_8java" kind="file"><name>Model.java</name>
+  </compound>
+  <compound refid="_core_modeler_2_render_mode_8java" kind="file"><name>RenderMode.java</name>
+  </compound>
+  <compound refid="_render_mode_8java" kind="file"><name>RenderMode.java</name>
   </compound>
   <compound refid="_global_config_8java" kind="file"><name>GlobalConfig.java</name>
   </compound>
@@ -371,25 +507,15 @@
   </compound>
   <compound refid="_global_status_8java" kind="file"><name>GlobalStatus.java</name>
   </compound>
-  <compound refid="_i_drawable_8java" kind="file"><name>IDrawable.java</name>
-  </compound>
-  <compound refid="_model_8java" kind="file"><name>Model.java</name>
-  </compound>
-  <compound refid="_point3_dd_8java" kind="file"><name>Point3Dd.java</name>
-  </compound>
-  <compound refid="_point3_df_8java" kind="file"><name>Point3Df.java</name>
-  </compound>
-  <compound refid="_point3_di_8java" kind="file"><name>Point3Di.java</name>
-  </compound>
-  <compound refid="_render_mode_8java" kind="file"><name>RenderMode.java</name>
-  </compound>
-  <compound refid="_shape_8java" kind="file"><name>Shape.java</name>
-  </compound>
   <compound refid="dir_f58d78e138311a3bce92ea238d662322" kind="dir"><name>D:/My repositories/Pipeline/engine/tests/assets/main/_swig</name>
   </compound>
   <compound refid="dir_cc5b8324a1c9680f676e1b6042a02774" kind="dir"><name>D:/My repositories/Pipeline/engine/tests/assets</name>
   </compound>
+  <compound refid="dir_4fe7d3dea3c6904b24d572417f5db15d" kind="dir"><name>D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler</name>
+  </compound>
   <compound refid="dir_996f45160da62e1a3d7f6046fad68f51" kind="dir"><name>D:/My repositories/Pipeline/engine</name>
+  </compound>
+  <compound refid="dir_21496a7a9b578f8b47a0d18336b26a65" kind="dir"><name>D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry</name>
   </compound>
   <compound refid="dir_1a356caf6a2ec41c4edbb9b4a8e231d6" kind="dir"><name>D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java</name>
   </compound>

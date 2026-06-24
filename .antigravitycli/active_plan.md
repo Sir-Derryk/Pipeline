@@ -159,3 +159,25 @@ gantt
 3. **Parameterized Golden Master Complexes**: Тест золотого стандарта должен поддерживать работу с несколькими независимыми наборами (комплексами) парсеров и рендереров (например, "modern" и "legacy") с сохранением эталонов в изолированные подкаталоги (`html_legacy`, `markdown_legacy`), предотвращая взаимное перезаписывание.
 
 
+## 📋 План реализации кодовых изменений (TOC-рефакторинг REQ-FUN-50 и переименование конфигураций)
+
+### 1. Переименование конфигурационных файлов
+* **Цель**: Приведение тестовой базы и ссылок UDE в соответствие с новой схемой именования конфигураций.
+* **Изменения**:
+  * Переименовать создание и считывание `ude_global.json` на `ude_global_config.json` и `ude_config.json` на `ude_doc_config.json` во всех файлах тестов ([test_orchestrator.py](file:///D:/My%20repositories/Pipeline/engine/tests/test_orchestrator.py), [test_integration_pipeline.py](file:///D:/My%20repositories/Pipeline/engine/tests/test_integration_pipeline.py), [test_doxygen_collector.py](file:///D:/My%20repositories/Pipeline/engine/tests/test_doxygen_collector.py)).
+  * Обновить упоминания в docstring-комментариях в `engine/ude/interfaces.py` и `engine/ude/collectors/doxygen.py`.
+
+### 2. Поддержка рендерер-зависимых TOC-конфигураций (`REQ-FUN-50`)
+* **Цель**: Обеспечение загрузки файлов настроек TOC с уникальными именами по маске `toc_<RendererClassName>.json` для каждого из 16 рендереров.
+* **Изменения**:
+  * В базовых классах/конкретных реализациях рендереров переопределить метод `_get_toc_filename(self) -> str` так, чтобы он динамически возвращал имя `toc_{self.__class__.__name__}.json`.
+  * Создать 16 соответствующих файлов конфигурации TOC (например, `toc_CppHtmlRenderer.json`) в каталоге шаблонов `SidebarStructures/default/`.
+
+### 3. Рендеринг кастомных страниц (`static`, `inline`, `redirect`) в sidebar и интерполяция Jinja2
+* **Цель**: Сборка навигационного меню в соответствии с разделом `"sidebar"` нового формата TOC и поддержка переменных Jinja2 в кастомном контенте.
+* **Изменения**:
+  * Расширить рендереры `HtmlRenderer` и `HugoMarkdownRenderer` для парсинга и обхода структуры `"sidebar"` из JSON.
+  * Для элементов `static` — считывать указанный `source_file` из папок `static_source_path` и генерировать страницу.
+  * Для элементов `inline` — записывать переданное в `content` тело страницы.
+  * Проводить рендеринг шаблона Jinja2 для текста страниц `static` и `inline` с использованием объединенного контекста конфигураций.
+  * Добавлять сгенерированные кастомные страницы в боковое меню наряду с деревом `api_reference`.

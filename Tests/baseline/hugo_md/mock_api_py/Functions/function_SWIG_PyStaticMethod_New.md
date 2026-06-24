@@ -1,6 +1,6 @@
 ---
 title: "SWIG_PyStaticMethod_New function"
-sidebar_position: 96
+sidebar_position: 309
 parent: "Functions"
 ---
 

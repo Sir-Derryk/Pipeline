@@ -1,6 +1,6 @@
 ---
 title: "_wrap_new_Model function"
-sidebar_position: 135
+sidebar_position: 348
 parent: "Functions"
 ---
 

@@ -15,5 +15,5 @@ Class decorator for adding a metaclass to a SWIG wrapped class - a slimmed down 
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-|  | `metaclass` |  |
+| metaclass | `Any` |  |
 

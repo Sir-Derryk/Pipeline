@@ -1,6 +1,6 @@
 ---
 title: "SwigPyObject_own function"
-sidebar_position: 63
+sidebar_position: 276
 parent: "Functions"
 ---
 

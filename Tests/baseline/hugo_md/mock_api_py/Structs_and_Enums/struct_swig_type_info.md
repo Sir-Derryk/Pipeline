@@ -6,10 +6,10 @@ parent: "Structs and Enums"
 
 ## Fields
 
-- `const char* swig_type_info::name`
-- `const char* swig_type_info::str`
+- `const char * swig_type_info::name`
+- `const char * swig_type_info::str`
 - `swig_dycast_func swig_type_info::dcast`
-- `struct swig_cast_info* swig_type_info::cast`
-- `void* swig_type_info::clientdata`
+- `struct swig_cast_info * swig_type_info::cast`
+- `void * swig_type_info::clientdata`
 - `int swig_type_info::owndata`
 

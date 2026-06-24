@@ -15,11 +15,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="1052" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="1052" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1052" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1052" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structswig__const__info_1a0e22becc2b5b8fb084626b84c9524627" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="structswig__const__info_1a1ecbc1f33ce46189b97cb8abbfc8ab2e" prot="public" static="no" mutable="no">
         <type>const char *</type>
-        <definition>const char* swig_const_info::name</definition>
+        <definition>const char * swig_const_info::name</definition>
         <argsstring></argsstring>
         <name>name</name>
         <qualifiedname>swig_const_info::name</qualifiedname>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="1053" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="1053" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1053" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1053" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structswig__const__info_1af142e4c21ad4fe61f6c2624bff034583" prot="public" static="no" mutable="no">
         <type>long</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="1054" column="8" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="1054" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1054" column="8" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1054" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="structswig__const__info_1a74e477f1dbf515bcb7e2ef07a1d34c35" prot="public" static="no" mutable="no">
         <type>double</type>
@@ -57,11 +57,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="1055" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="1055" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1055" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1055" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structswig__const__info_1abbc43512c364bff11fac5961c1155090" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="structswig__const__info_1a37585059046a4951907eb779c97e7cc8" prot="public" static="no" mutable="no">
         <type>void *</type>
-        <definition>void* swig_const_info::pvalue</definition>
+        <definition>void * swig_const_info::pvalue</definition>
         <argsstring></argsstring>
         <name>pvalue</name>
         <qualifiedname>swig_const_info::pvalue</qualifiedname>
@@ -71,11 +71,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="1056" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="1056" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1056" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1056" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="structswig__const__info_1aedd46d173c5b5ed4ee60ad5660233557" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="structswig__const__info_1a374efde326bb281d91791c91306e3f08" prot="public" static="no" mutable="no">
         <type><ref refid="structswig__type__info" kindref="compound">swig_type_info</ref> **</type>
-        <definition>swig_type_info** swig_const_info::ptype</definition>
+        <definition>swig_type_info ** swig_const_info::ptype</definition>
         <argsstring></argsstring>
         <name>ptype</name>
         <qualifiedname>swig_const_info::ptype</qualifiedname>
@@ -85,7 +85,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="1057" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="1057" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1057" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1057" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -122,13 +122,13 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="1051" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="1051" bodyend="1058"/>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1051" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1051" bodyend="1058"/>
     <listofallmembers>
       <member refid="structswig__const__info_1a74e477f1dbf515bcb7e2ef07a1d34c35" prot="public" virt="non-virtual"><scope>swig_const_info</scope><name>dvalue</name></member>
       <member refid="structswig__const__info_1af142e4c21ad4fe61f6c2624bff034583" prot="public" virt="non-virtual"><scope>swig_const_info</scope><name>lvalue</name></member>
-      <member refid="structswig__const__info_1a0e22becc2b5b8fb084626b84c9524627" prot="public" virt="non-virtual"><scope>swig_const_info</scope><name>name</name></member>
-      <member refid="structswig__const__info_1aedd46d173c5b5ed4ee60ad5660233557" prot="public" virt="non-virtual"><scope>swig_const_info</scope><name>ptype</name></member>
-      <member refid="structswig__const__info_1abbc43512c364bff11fac5961c1155090" prot="public" virt="non-virtual"><scope>swig_const_info</scope><name>pvalue</name></member>
+      <member refid="structswig__const__info_1a1ecbc1f33ce46189b97cb8abbfc8ab2e" prot="public" virt="non-virtual"><scope>swig_const_info</scope><name>name</name></member>
+      <member refid="structswig__const__info_1a374efde326bb281d91791c91306e3f08" prot="public" virt="non-virtual"><scope>swig_const_info</scope><name>ptype</name></member>
+      <member refid="structswig__const__info_1a37585059046a4951907eb779c97e7cc8" prot="public" virt="non-virtual"><scope>swig_const_info</scope><name>pvalue</name></member>
       <member refid="structswig__const__info_1ae8bbc99e1cda11f24e306365cbf33893" prot="public" virt="non-virtual"><scope>swig_const_info</scope><name>type</name></member>
     </listofallmembers>
   </compounddef>

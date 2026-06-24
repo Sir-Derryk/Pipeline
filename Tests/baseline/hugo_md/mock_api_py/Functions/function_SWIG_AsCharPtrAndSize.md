@@ -1,6 +1,6 @@
 ---
 title: "SWIG_AsCharPtrAndSize function"
-sidebar_position: 105
+sidebar_position: 318
 parent: "Functions"
 ---
 

@@ -4,6 +4,8 @@ sidebar_position: 3
 parent: "core_modeler.Classes"
 ---
 
+Proxy of C++ GlobalConfig class.
+
 ## Fields
 
 - `core_modeler.GlobalConfig::__repr__`
@@ -13,8 +15,9 @@ parent: "core_modeler.Classes"
 
 ### __init__
 `core_modeler.GlobalConfig.__init__(self)`
+`def __init__(GlobalConfig self) -> GlobalConfig`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-|  | `self` |  |
+| self | `Any` |  |
 

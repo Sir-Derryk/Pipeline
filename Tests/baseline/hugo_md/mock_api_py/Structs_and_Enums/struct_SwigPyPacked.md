@@ -6,7 +6,7 @@ parent: "Structs and Enums"
 
 ## Fields
 
-- `PyObject_HEAD void* SwigPyPacked::pack`
-- `swig_type_info* SwigPyPacked::ty`
+- `PyObject_HEAD void * SwigPyPacked::pack`
+- `swig_type_info * SwigPyPacked::ty`
 - `size_t SwigPyPacked::size`
 

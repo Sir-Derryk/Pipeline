@@ -1,6 +1,6 @@
 ---
 title: "_wrap_GlobalLoggerProxy_forceFlush function"
-sidebar_position: 129
+sidebar_position: 342
 parent: "Functions"
 ---
 

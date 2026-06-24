@@ -1,6 +1,6 @@
 ---
 title: "_swigt__p_CoreModeler__Geometry__Box variable"
-sidebar_position: 237
+sidebar_position: 489
 parent: "Variables"
 ---
 

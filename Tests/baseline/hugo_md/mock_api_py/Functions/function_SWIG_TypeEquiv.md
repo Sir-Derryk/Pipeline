@@ -1,6 +1,6 @@
 ---
 title: "SWIG_TypeEquiv function"
-sidebar_position: 12
+sidebar_position: 225
 parent: "Functions"
 ---
 

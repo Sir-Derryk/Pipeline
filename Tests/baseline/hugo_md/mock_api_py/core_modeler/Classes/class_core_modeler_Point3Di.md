@@ -4,6 +4,8 @@ sidebar_position: 9
 parent: "core_modeler.Classes"
 ---
 
+Proxy of C++ CoreModeler::Geometry::Point3D&lt; int &gt; class.
+
 ## Fields
 
 - `core_modeler.Point3Di::__repr__`
@@ -18,16 +20,19 @@ parent: "core_modeler.Classes"
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-|  | `self` |  |
-| args | `*` |  |
+| self | `Any` |  |
+| valX | `int` |  |
+| valY | `int` |  |
+| valZ | `int` |  |
 
 ### translate
 `core_modeler.Point3Di.translate(self, dx, dy, dz)`
+`def translate(Point3Di self, int dx, int dy, int dz)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-|  | `self` |  |
-|  | `dx` |  |
-|  | `dy` |  |
-|  | `dz` |  |
+| self | `Any` |  |
+| dx | `int` |  |
+| dy | `int` |  |
+| dz | `int` |  |
 

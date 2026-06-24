@@ -1,6 +1,6 @@
 ---
 title: "Swig_var_DIAG_FAILURE_set function"
-sidebar_position: 160
+sidebar_position: 373
 parent: "Functions"
 ---
 

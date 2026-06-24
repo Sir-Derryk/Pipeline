@@ -1,6 +1,6 @@
 ---
 title: "_wrap_delete_GlobalLoggerProxy function"
-sidebar_position: 131
+sidebar_position: 344
 parent: "Functions"
 ---
 

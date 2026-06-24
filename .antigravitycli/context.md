@@ -228,3 +228,6 @@ Pipeline/ (Umbrella Repository)
 - [x] Implement regression baselines validation and generation for LegacyHtmlRenderer and LegacyHugoMarkdownRenderer under dedicated subfolders (`html_legacy` and `markdown_legacy`) across C++, C#, and Java.
 - [x] Rename and integrate the Docomatic search script as `oda_search.js` inside CSS default templates and standard HTML layout templates for C++, C#, Java, and Python, positioning the search elements at the right-aligned section of the breadcrumbs bar.
 - [x] Enforce strict layout template existence gating by raising a `RendererError` when assets or templates are missing on disk, completely removing the `dummy_assets` fallback.
+- [ ] Rename configurations to `ude_global_config.json` and `ude_doc_config.json` in test files and docstrings.
+- [ ] Implement support for class-specific TOC files `toc_<RendererClassName>.json` across the 16 concrete renderer classes.
+- [ ] Implement parsing of custom pages (`static`, `inline`, `redirect`) inside TOC sidebar layouts with Jinja2 variable interpolation.

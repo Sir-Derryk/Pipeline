@@ -1,6 +1,6 @@
 ---
 title: "GlobalLoggerProxy_swigregister function"
-sidebar_position: 132
+sidebar_position: 345
 parent: "Functions"
 ---
 

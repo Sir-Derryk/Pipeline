@@ -3,9 +3,9 @@
   <compounddef id="structswig__varlinkobject" kind="struct" language="C++" prot="public">
     <compoundname>swig_varlinkobject</compoundname>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="structswig__varlinkobject_1a8cf96d999cdf0b28a0e90ccb6804c9bd" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="structswig__varlinkobject_1a7c03e9f19969e73923a456aefd82ff05" prot="public" static="no" mutable="no">
         <type>PyObject_HEAD <ref refid="structswig__globalvar" kindref="compound">swig_globalvar</ref> *</type>
-        <definition>PyObject_HEAD swig_globalvar* swig_varlinkobject::vars</definition>
+        <definition>PyObject_HEAD swig_globalvar * swig_varlinkobject::vars</definition>
         <argsstring></argsstring>
         <name>vars</name>
         <qualifiedname>swig_varlinkobject::vars</qualifiedname>
@@ -15,7 +15,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="5805" column="20" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="5805" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="6049" column="20" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="6049" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -38,9 +38,9 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="5803" column="3" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="5803" bodyend="5806"/>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="6047" column="3" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="6047" bodyend="6050"/>
     <listofallmembers>
-      <member refid="structswig__varlinkobject_1a8cf96d999cdf0b28a0e90ccb6804c9bd" prot="public" virt="non-virtual"><scope>swig_varlinkobject</scope><name>vars</name></member>
+      <member refid="structswig__varlinkobject_1a7c03e9f19969e73923a456aefd82ff05" prot="public" virt="non-virtual"><scope>swig_varlinkobject</scope><name>vars</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

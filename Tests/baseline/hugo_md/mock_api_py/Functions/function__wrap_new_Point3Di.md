@@ -1,6 +1,6 @@
 ---
 title: "_wrap_new_Point3Di function"
-sidebar_position: 177
+sidebar_position: 390
 parent: "Functions"
 ---
 

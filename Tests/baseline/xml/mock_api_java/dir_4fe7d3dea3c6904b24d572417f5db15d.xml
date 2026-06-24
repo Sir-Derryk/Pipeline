@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_4fe7d3dea3c6904b24d572417f5db15d" kind="dir">
+    <compoundname>D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler</compoundname>
+    <innerdir refid="dir_21496a7a9b578f8b47a0d18336b26a65">D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry</innerdir>
+    <innerfile refid="_core_modeler_2_model_8java">Model.java</innerfile>
+    <innerfile refid="_core_modeler_2_render_mode_8java">RenderMode.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/"/>
+  </compounddef>
+</doxygen>

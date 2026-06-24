@@ -3,7 +3,45 @@
   <compounddef id="structswig_1_1_swig_var___py_object" kind="struct" language="C++" prot="public">
     <compoundname>swig::SwigVar_PyObject</compoundname>
     <basecompoundref refid="classswig_1_1_swig_ptr___py_object" prot="public" virt="non-virtual">swig::SwigPtr_PyObject</basecompoundref>
+    <basecompoundref refid="classswig_1_1_swig_ptr___py_object" prot="public" virt="non-virtual">swig::SwigPtr_PyObject</basecompoundref>
     <sectiondef kind="public-func">
+      <memberdef kind="function" id="structswig_1_1_swig_var___py_object_1a2b61f843215bceaff8ec2ea6e92d46c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>swig::SwigVar_PyObject::SwigVar_PyObject</definition>
+        <argsstring>(PyObject *obj=0)</argsstring>
+        <name>SwigVar_PyObject</name>
+        <qualifiedname>swig::SwigVar_PyObject::SwigVar_PyObject</qualifiedname>
+        <param>
+          <type>PyObject *</type>
+          <declname>obj</declname>
+          <defval>0</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="2796" column="5" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="2796" bodyend="2796"/>
+      </memberdef>
+      <memberdef kind="function" id="structswig_1_1_swig_var___py_object_1a39878e2555cbf0724ffa93cc476ec799" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="structswig_1_1_swig_var___py_object" kindref="compound">SwigVar_PyObject</ref> &amp;</type>
+        <definition>SwigVar_PyObject &amp; swig::SwigVar_PyObject::operator=</definition>
+        <argsstring>(PyObject *obj)</argsstring>
+        <name>operator=</name>
+        <qualifiedname>swig::SwigVar_PyObject::operator=</qualifiedname>
+        <param>
+          <type>PyObject *</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="2798" column="23" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="2798" bodyend="2803"/>
+      </memberdef>
       <memberdef kind="function" id="structswig_1_1_swig_var___py_object_1a2b61f843215bceaff8ec2ea6e92d46c2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
         <type></type>
         <definition>swig::SwigVar_PyObject::SwigVar_PyObject</definition>
@@ -56,6 +94,8 @@
         <link refid="structswig_1_1_swig_var___py_object"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
       </node>
     </inheritancegraph>
     <collaborationgraph>
@@ -68,19 +108,29 @@
         <link refid="structswig_1_1_swig_var___py_object"/>
         <childnode refid="2" relation="public-inheritance">
         </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
       </node>
     </collaborationgraph>
-    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="2795" column="3" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="2795" bodyend="2804"/>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="2795" column="3" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="2795" bodyend="2804"/>
     <listofallmembers>
-      <member refid="classswig_1_1_swig_ptr___py_object_1ae617c5726496db423cd19688e3264618" prot="protected" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>_obj</name></member>
+      <member refid="classswig_1_1_swig_ptr___py_object_1abb14c2948572bd4bf429540f7770831e" prot="protected" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>_obj</name></member>
+      <member refid="classswig_1_1_swig_ptr___py_object_1a488cefbaa1b44892dca63570d463f926" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>operator PyObject *</name></member>
       <member refid="classswig_1_1_swig_ptr___py_object_1a488cefbaa1b44892dca63570d463f926" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>operator PyObject *</name></member>
       <member refid="classswig_1_1_swig_ptr___py_object_1a41bd12c5ef663af39a56236918f2002e" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>operator-&gt;</name></member>
+      <member refid="classswig_1_1_swig_ptr___py_object_1a41bd12c5ef663af39a56236918f2002e" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>operator-&gt;</name></member>
+      <member refid="structswig_1_1_swig_var___py_object_1a39878e2555cbf0724ffa93cc476ec799" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>operator=</name></member>
       <member refid="structswig_1_1_swig_var___py_object_1a39878e2555cbf0724ffa93cc476ec799" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>operator=</name></member>
       <member refid="classswig_1_1_swig_ptr___py_object_1a0c495ce3409b105433b4347ce18fa964" prot="public" virt="non-virtual" ambiguityscope="swig::SwigPtr_PyObject::"><scope>swig::SwigVar_PyObject</scope><name>operator=</name></member>
       <member refid="classswig_1_1_swig_ptr___py_object_1abf8e6dbea1c465582b210f732034b3ab" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>SwigPtr_PyObject</name></member>
       <member refid="classswig_1_1_swig_ptr___py_object_1a4282f20207f8cd22c9b079203c832a04" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>SwigPtr_PyObject</name></member>
       <member refid="classswig_1_1_swig_ptr___py_object_1a4503d58d577d209f5e1fa67026852505" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>SwigPtr_PyObject</name></member>
+      <member refid="classswig_1_1_swig_ptr___py_object_1abf8e6dbea1c465582b210f732034b3ab" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>SwigPtr_PyObject</name></member>
+      <member refid="classswig_1_1_swig_ptr___py_object_1a4282f20207f8cd22c9b079203c832a04" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>SwigPtr_PyObject</name></member>
+      <member refid="classswig_1_1_swig_ptr___py_object_1a4503d58d577d209f5e1fa67026852505" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>SwigPtr_PyObject</name></member>
       <member refid="structswig_1_1_swig_var___py_object_1a2b61f843215bceaff8ec2ea6e92d46c2" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>SwigVar_PyObject</name></member>
+      <member refid="structswig_1_1_swig_var___py_object_1a2b61f843215bceaff8ec2ea6e92d46c2" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>SwigVar_PyObject</name></member>
+      <member refid="classswig_1_1_swig_ptr___py_object_1a3f2d2edd8a4eda4bf8a1243e50aa3849" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>~SwigPtr_PyObject</name></member>
       <member refid="classswig_1_1_swig_ptr___py_object_1a3f2d2edd8a4eda4bf8a1243e50aa3849" prot="public" virt="non-virtual"><scope>swig::SwigVar_PyObject</scope><name>~SwigPtr_PyObject</name></member>
     </listofallmembers>
   </compounddef>

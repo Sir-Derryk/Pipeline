@@ -2,6 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
   <compounddef id="dir_ce87232013c33fe6b3a8e74801d88dd7" kind="dir">
     <compoundname>D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock</compoundname>
+    <innerdir refid="dir_4fe7d3dea3c6904b24d572417f5db15d">D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler</innerdir>
     <innerfile refid="_box_8java">Box.java</innerfile>
     <innerfile refid="core__modeler_8java">core_modeler.java</innerfile>
     <innerfile refid="core__modeler__wrap_8cxx">core_modeler_wrap.cxx</innerfile>

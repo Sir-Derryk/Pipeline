@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_TypeError function"
-sidebar_position: 92
+sidebar_position: 305
 parent: "Functions"
 ---
 

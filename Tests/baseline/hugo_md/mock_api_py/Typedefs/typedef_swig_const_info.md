@@ -1,6 +1,6 @@
 ---
 title: "swig_const_info typedef"
-sidebar_position: 228
+sidebar_position: 449
 parent: "Typedefs"
 ---
 

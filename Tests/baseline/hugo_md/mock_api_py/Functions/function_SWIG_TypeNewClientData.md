@@ -1,6 +1,6 @@
 ---
 title: "SWIG_TypeNewClientData function"
-sidebar_position: 20
+sidebar_position: 233
 parent: "Functions"
 ---
 

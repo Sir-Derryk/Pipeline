@@ -1,6 +1,6 @@
 ---
 title: "_wrap_Point3Di_x_get function"
-sidebar_position: 170
+sidebar_position: 383
 parent: "Functions"
 ---
 

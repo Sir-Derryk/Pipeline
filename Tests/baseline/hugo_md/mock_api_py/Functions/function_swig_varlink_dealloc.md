@@ -1,6 +1,6 @@
 ---
 title: "swig_varlink_dealloc function"
-sidebar_position: 214
+sidebar_position: 427
 parent: "Functions"
 ---
 

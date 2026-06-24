@@ -1,6 +1,6 @@
 ---
 title: "Point3Df class"
-sidebar_position: 10
+sidebar_position: 5
 parent: "CoreModeler.Classes"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "SwigPyClientData_Del function"
-sidebar_position: 45
+sidebar_position: 258
 parent: "Functions"
 ---
 

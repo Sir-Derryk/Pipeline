@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_ErrorType function"
-sidebar_position: 31
+sidebar_position: 244
 parent: "Functions"
 ---
 

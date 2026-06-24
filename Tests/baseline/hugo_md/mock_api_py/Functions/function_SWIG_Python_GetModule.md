@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_GetModule function"
-sidebar_position: 84
+sidebar_position: 297
 parent: "Functions"
 ---
 

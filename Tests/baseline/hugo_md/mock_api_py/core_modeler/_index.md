@@ -9,23 +9,23 @@ List of classes in the `core_modeler` namespace.
 | Entity Name | Description |
 | --- | --- |
 | [_SwigNonDynamicMeta](classes/class_core_modeler___swignondynamicmeta.html) | Meta class to enforce nondynamic attributes (no new attributes) for a class |
-| [Box](classes/class_core_modeler_box.html) |  |
-| [GlobalConfig](classes/class_core_modeler_globalconfig.html) |  |
-| [GlobalLoggerProxy](classes/class_core_modeler_globalloggerproxy.html) |  |
-| [IDrawable](classes/class_core_modeler_idrawable.html) |  |
-| [Model](classes/class_core_modeler_model.html) |  |
-| [Point3Dd](classes/class_core_modeler_point3dd.html) |  |
-| [Point3Df](classes/class_core_modeler_point3df.html) |  |
-| [Point3Di](classes/class_core_modeler_point3di.html) |  |
-| [Shape](classes/class_core_modeler_shape.html) |  |
+| [Box](classes/class_core_modeler_box.html) | Proxy of C++ CoreModeler::Geometry::Box class. |
+| [GlobalConfig](classes/class_core_modeler_globalconfig.html) | Proxy of C++ GlobalConfig class. |
+| [GlobalLoggerProxy](classes/class_core_modeler_globalloggerproxy.html) | Proxy of C++ GlobalLogger class. |
+| [IDrawable](classes/class_core_modeler_idrawable.html) | Proxy of C++ CoreModeler::Geometry::IDrawable class. |
+| [Model](classes/class_core_modeler_model.html) | Proxy of C++ CoreModeler::Model class. |
+| [Point3Dd](classes/class_core_modeler_point3dd.html) | Proxy of C++ CoreModeler::Geometry::Point3D< double > class. |
+| [Point3Df](classes/class_core_modeler_point3df.html) | Proxy of C++ CoreModeler::Geometry::Point3D< float > class. |
+| [Point3Di](classes/class_core_modeler_point3di.html) | Proxy of C++ CoreModeler::Geometry::Point3D< int > class. |
+| [Shape](classes/class_core_modeler_shape.html) | Proxy of C++ CoreModeler::Geometry::Shape class. |
 | [_swig_repr](functions/function_core_modeler___swig_repr.html) |  |
 | [_swig_setattr_nondynamic_instance_variable](functions/function_core_modeler___swig_setattr_nondynamic_instance_variable.html) |  |
 | [_swig_setattr_nondynamic_class_variable](functions/function_core_modeler___swig_setattr_nondynamic_class_variable.html) |  |
 | [_swig_add_metaclass](functions/function_core_modeler___swig_add_metaclass.html) | Class decorator for adding a metaclass to a SWIG wrapped class - a slimmed down version of six.add_metaclass |
-| [globalInitialize](functions/function_core_modeler__globalinitialize.html) |  |
-| [checkSystemHealth](functions/function_core_modeler__checksystemhealth.html) |  |
-| [pingSubsystem](functions/function_core_modeler__pingsubsystem.html) | pingSubsystem() -> bool pingSubsystem(unsigned int timeoutMs) -> bool |
-| [resetCounters](functions/function_core_modeler__resetcounters.html) |  |
+| [globalInitialize](functions/function_core_modeler__globalinitialize.html) | globalInitialize(GlobalConfig config) -> int |
+| [checkSystemHealth](functions/function_core_modeler__checksystemhealth.html) | checkSystemHealth() -> SystemDiagnostics::DiagnosticCode |
+| [pingSubsystem](functions/function_core_modeler__pingsubsystem.html) | pingSubsystem(unsigned int timeoutMs) -> bool |
+| [resetCounters](functions/function_core_modeler__resetcounters.html) | resetCounters() |
 | [GLOBAL_STATUS_OK](variables/variable_core_modeler_global_status_ok.html) |  |
 | [GLOBAL_STATUS_WARNING](variables/variable_core_modeler_global_status_warning.html) |  |
 | [GLOBAL_STATUS_ERROR](variables/variable_core_modeler_global_status_error.html) |  |

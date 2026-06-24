@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_TypeQuery function"
-sidebar_position: 88
+sidebar_position: 301
 parent: "Functions"
 ---
 

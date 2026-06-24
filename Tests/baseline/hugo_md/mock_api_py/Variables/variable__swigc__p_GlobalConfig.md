@@ -1,6 +1,6 @@
 ---
 title: "_swigc__p_GlobalConfig variable"
-sidebar_position: 256
+sidebar_position: 508
 parent: "Variables"
 ---
 

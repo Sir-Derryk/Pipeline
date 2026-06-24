@@ -1,6 +1,6 @@
 ---
 title: "IDrawable class"
-sidebar_position: 7
+sidebar_position: 2
 parent: "CoreModeler.Classes"
 ---
 

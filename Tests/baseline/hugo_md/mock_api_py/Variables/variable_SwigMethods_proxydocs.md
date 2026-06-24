@@ -1,6 +1,6 @@
 ---
 title: "SwigMethods_proxydocs variable"
-sidebar_position: 236
+sidebar_position: 488
 parent: "Variables"
 ---
 

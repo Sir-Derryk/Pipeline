@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_str_FromChar function"
-sidebar_position: 30
+sidebar_position: 243
 parent: "Functions"
 ---
 

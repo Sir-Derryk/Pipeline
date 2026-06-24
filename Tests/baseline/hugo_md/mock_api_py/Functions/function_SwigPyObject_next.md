@@ -1,6 +1,6 @@
 ---
 title: "SwigPyObject_next function"
-sidebar_position: 60
+sidebar_position: 273
 parent: "Functions"
 ---
 

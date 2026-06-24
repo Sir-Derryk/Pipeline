@@ -3,11 +3,6 @@
   <compounddef id="namespace_core_modeler" kind="namespace" language="Java">
     <compoundname>CoreModeler</compoundname>
     <innerclass refid="class_core_modeler_1_1_box" prot="public">CoreModeler::Box</innerclass>
-    <innerclass refid="class_core_modeler_1_1core__modeler" prot="public">CoreModeler::core_modeler</innerclass>
-    <innerclass refid="class_core_modeler_1_1core__modeler_j_n_i" prot="public">CoreModeler::core_modelerJNI</innerclass>
-    <innerclass refid="class_core_modeler_1_1_global_config" prot="public">CoreModeler::GlobalConfig</innerclass>
-    <innerclass refid="class_core_modeler_1_1_global_logger_proxy" prot="public">CoreModeler::GlobalLoggerProxy</innerclass>
-    <innerclass refid="class_core_modeler_1_1_global_status" prot="public">CoreModeler::GlobalStatus</innerclass>
     <innerclass refid="class_core_modeler_1_1_i_drawable" prot="public">CoreModeler::IDrawable</innerclass>
     <innerclass refid="class_core_modeler_1_1_model" prot="public">CoreModeler::Model</innerclass>
     <innerclass refid="class_core_modeler_1_1_point3_dd" prot="public">CoreModeler::Point3Dd</innerclass>
@@ -15,6 +10,7 @@
     <innerclass refid="class_core_modeler_1_1_point3_di" prot="public">CoreModeler::Point3Di</innerclass>
     <innerclass refid="class_core_modeler_1_1_render_mode" prot="public">CoreModeler::RenderMode</innerclass>
     <innerclass refid="class_core_modeler_1_1_shape" prot="public">CoreModeler::Shape</innerclass>
+    <innernamespace refid="namespace_core_modeler_1_1_geometry">CoreModeler::Geometry</innernamespace>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

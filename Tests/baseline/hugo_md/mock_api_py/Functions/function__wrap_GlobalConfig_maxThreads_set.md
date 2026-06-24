@@ -1,6 +1,6 @@
 ---
 title: "_wrap_GlobalConfig_maxThreads_set function"
-sidebar_position: 112
+sidebar_position: 325
 parent: "Functions"
 ---
 

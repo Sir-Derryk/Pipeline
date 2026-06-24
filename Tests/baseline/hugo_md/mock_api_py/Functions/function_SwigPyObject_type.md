@@ -1,6 +1,6 @@
 ---
 title: "SwigPyObject_type function"
-sidebar_position: 55
+sidebar_position: 268
 parent: "Functions"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "_wrap_delete_Shape function"
-sidebar_position: 144
+sidebar_position: 357
 parent: "Functions"
 ---
 

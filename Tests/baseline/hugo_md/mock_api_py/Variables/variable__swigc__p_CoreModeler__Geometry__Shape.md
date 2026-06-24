@@ -1,6 +1,6 @@
 ---
 title: "_swigc__p_CoreModeler__Geometry__Shape variable"
-sidebar_position: 254
+sidebar_position: 506
 parent: "Variables"
 ---
 

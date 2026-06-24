@@ -1,0 +1,177 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_geometry_1_1_i_drawable" kind="class" language="Java" prot="public">
+    <compoundname>CoreModeler::Geometry::IDrawable</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_i_drawable_1a5b47a8614263e3e2f2faba40f465296e" prot="private" static="no" mutable="no">
+        <type>transient long</type>
+        <definition>transient long CoreModeler.Geometry.IDrawable.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Geometry.IDrawable.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" line="16" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_i_drawable_1ab974d937da9d99925b4a600c6ac7968a" prot="protected" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean CoreModeler.Geometry.IDrawable.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.Geometry.IDrawable.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" line="17" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_i_drawable_1aaeed2a77b1504d0a4d77877b1973a59a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Geometry.IDrawable.IDrawable</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>IDrawable</name>
+        <qualifiedname>CoreModeler.Geometry.IDrawable.IDrawable</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" line="19" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_i_drawable_1a5bd7f3f2c4816f4ec83cf5fda0fa1f3e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Geometry.IDrawable.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>CoreModeler.Geometry.IDrawable.finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" line="29" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" bodystart="29" bodyend="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_i_drawable_1a0db32369d9df2a2b53140e747eedcbe3" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long CoreModeler.Geometry.IDrawable.getCPtr</definition>
+        <argsstring>(IDrawable obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Geometry.IDrawable.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_geometry_1_1_i_drawable" kindref="compound">IDrawable</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" line="24" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" bodystart="24" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_i_drawable_1a56dc3dd34baff7121ff74e6da0317ffc" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void CoreModeler.Geometry.IDrawable.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>CoreModeler.Geometry.IDrawable.delete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" line="33" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" bodystart="33" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_i_drawable_1a89eb67ea2a7a0084b9456d62d0b2492e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Geometry.IDrawable.renderToScreen</definition>
+        <argsstring>()</argsstring>
+        <name>renderToScreen</name>
+        <qualifiedname>CoreModeler.Geometry.IDrawable.renderToScreen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Renders the drawable element to the screen. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" line="46" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_i_drawable_1ae5de7d2f3f4796754dff29ff13650502" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CoreModeler.Geometry.IDrawable.renderToScreen</definition>
+        <argsstring>(CoreModeler.RenderMode mode)</argsstring>
+        <name>renderToScreen</name>
+        <qualifiedname>CoreModeler.Geometry.IDrawable.renderToScreen</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_render_mode" kindref="compound">CoreModeler.RenderMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Renders the drawable element using a specific render mode.<linebreak/>
+ Note: Overloaded method.<linebreak/>
+ <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rendering mode to use.<linebreak/>
+ Warning: Missing </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>tag and incomplete documentation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" line="56" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Interface for any elements that can be rendered to the display.<linebreak/>
+ Represents a pure virtual C++ interface. </para>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" line="15" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/IDrawable.java" bodystart="15" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a56dc3dd34baff7121ff74e6da0317ffc" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::IDrawable</scope><name>delete</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a5bd7f3f2c4816f4ec83cf5fda0fa1f3e" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::IDrawable</scope><name>finalize</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a0db32369d9df2a2b53140e747eedcbe3" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::IDrawable</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1aaeed2a77b1504d0a4d77877b1973a59a" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::IDrawable</scope><name>IDrawable</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a89eb67ea2a7a0084b9456d62d0b2492e" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::IDrawable</scope><name>renderToScreen</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1ae5de7d2f3f4796754dff29ff13650502" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::IDrawable</scope><name>renderToScreen</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1ab974d937da9d99925b4a600c6ac7968a" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::IDrawable</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a5b47a8614263e3e2f2faba40f465296e" prot="private" virt="non-virtual"><scope>CoreModeler::Geometry::IDrawable</scope><name>swigCPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

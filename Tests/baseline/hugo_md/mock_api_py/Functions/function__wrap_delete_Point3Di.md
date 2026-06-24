@@ -1,6 +1,6 @@
 ---
 title: "_wrap_delete_Point3Di function"
-sidebar_position: 179
+sidebar_position: 392
 parent: "Functions"
 ---
 

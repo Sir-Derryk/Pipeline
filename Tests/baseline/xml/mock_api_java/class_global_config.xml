@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_global_config" kind="class" language="Java" prot="public">
+    <compoundname>GlobalConfig</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_global_config_1abceb63a75e7c35624eb6afd662bbea9d" prot="private" static="no" mutable="no">
+        <type>transient long</type>
+        <definition>transient long GlobalConfig.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>GlobalConfig.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="14" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_global_config_1a0f7203abae42727e16eb1581da959eb5" prot="protected" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean GlobalConfig.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>GlobalConfig.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="15" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_global_config_1a89ac25994fc7cdcbce66fe5113b46726" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalConfig.GlobalConfig</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>GlobalConfig</name>
+        <qualifiedname>GlobalConfig.GlobalConfig</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="17" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_config_1af335a4d0fe07b7e10371ff85ed95ce29" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalConfig.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>GlobalConfig.finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="27" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="27" bodyend="29"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_global_config_1a9fd2b9a52682acf09963240f4f514970" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long GlobalConfig.getCPtr</definition>
+        <argsstring>(GlobalConfig obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>GlobalConfig.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_global_config" kindref="compound">GlobalConfig</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="22" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="22" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_global_config_1a6dee871f6ae96d80862af31f0a9847e0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void GlobalConfig.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>GlobalConfig.delete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="31" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="31" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_config_1aadf5d95434c1c4efe75d9863376853c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalConfig.setMaxThreads</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setMaxThreads</name>
+        <qualifiedname>GlobalConfig.setMaxThreads</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The maximum number of concurrent threads. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="44" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="44" bodyend="46"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_config_1a10e7218bb36194a9459f3a4a58a185d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int GlobalConfig.getMaxThreads</definition>
+        <argsstring>()</argsstring>
+        <name>getMaxThreads</name>
+        <qualifiedname>GlobalConfig.getMaxThreads</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>The maximum number of concurrent threads. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="51" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_config_1a9babbd6d150aedbd82941364c64abebe" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalConfig.setEnableLogging</definition>
+        <argsstring>(boolean value)</argsstring>
+        <name>setEnableLogging</name>
+        <qualifiedname>GlobalConfig.setEnableLogging</qualifiedname>
+        <param>
+          <type>boolean</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Flag to enable or disable verbose log output. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="58" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_config_1a6dd96b032d058e63a1b61baaa82c55f9" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean GlobalConfig.getEnableLogging</definition>
+        <argsstring>()</argsstring>
+        <name>getEnableLogging</name>
+        <qualifiedname>GlobalConfig.getEnableLogging</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Flag to enable or disable verbose log output. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="65" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="65" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_config_1a7b8addc8cb9df490854ef697b7482e1e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalConfig.setTimeoutSeconds</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setTimeoutSeconds</name>
+        <qualifiedname>GlobalConfig.setTimeoutSeconds</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Timeout duration in seconds. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="72" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="72" bodyend="74"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_config_1abd5b9ae58e400d047b80ffa99d30fa9a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double GlobalConfig.getTimeoutSeconds</definition>
+        <argsstring>()</argsstring>
+        <name>getTimeoutSeconds</name>
+        <qualifiedname>GlobalConfig.getTimeoutSeconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Timeout duration in seconds. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="79" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_config_1ae0922c6846f80e674e065c92cea057c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalConfig.GlobalConfig</definition>
+        <argsstring>()</argsstring>
+        <name>GlobalConfig</name>
+        <qualifiedname>GlobalConfig.GlobalConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="83" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="83" bodyend="85"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Global configuration structure used to initialize the SDK. </para>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" line="13" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalConfig.java" bodystart="13" bodyend="87"/>
+    <listofallmembers>
+      <member refid="class_global_config_1a6dee871f6ae96d80862af31f0a9847e0" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>delete</name></member>
+      <member refid="class_global_config_1af335a4d0fe07b7e10371ff85ed95ce29" prot="protected" virt="non-virtual"><scope>GlobalConfig</scope><name>finalize</name></member>
+      <member refid="class_global_config_1a9fd2b9a52682acf09963240f4f514970" prot="protected" virt="non-virtual"><scope>GlobalConfig</scope><name>getCPtr</name></member>
+      <member refid="class_global_config_1a6dd96b032d058e63a1b61baaa82c55f9" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>getEnableLogging</name></member>
+      <member refid="class_global_config_1a10e7218bb36194a9459f3a4a58a185d3" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>getMaxThreads</name></member>
+      <member refid="class_global_config_1abd5b9ae58e400d047b80ffa99d30fa9a" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>getTimeoutSeconds</name></member>
+      <member refid="class_global_config_1a89ac25994fc7cdcbce66fe5113b46726" prot="protected" virt="non-virtual"><scope>GlobalConfig</scope><name>GlobalConfig</name></member>
+      <member refid="class_global_config_1ae0922c6846f80e674e065c92cea057c4" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>GlobalConfig</name></member>
+      <member refid="class_global_config_1a9babbd6d150aedbd82941364c64abebe" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>setEnableLogging</name></member>
+      <member refid="class_global_config_1aadf5d95434c1c4efe75d9863376853c4" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>setMaxThreads</name></member>
+      <member refid="class_global_config_1a7b8addc8cb9df490854ef697b7482e1e" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>setTimeoutSeconds</name></member>
+      <member refid="class_global_config_1a0f7203abae42727e16eb1581da959eb5" prot="protected" virt="non-virtual"><scope>GlobalConfig</scope><name>swigCMemOwn</name></member>
+      <member refid="class_global_config_1abceb63a75e7c35624eb6afd662bbea9d" prot="private" virt="non-virtual"><scope>GlobalConfig</scope><name>swigCPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

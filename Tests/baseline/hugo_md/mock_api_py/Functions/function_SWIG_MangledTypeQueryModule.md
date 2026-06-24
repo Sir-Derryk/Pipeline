@@ -1,6 +1,6 @@
 ---
 title: "SWIG_MangledTypeQueryModule function"
-sidebar_position: 21
+sidebar_position: 234
 parent: "Functions"
 ---
 

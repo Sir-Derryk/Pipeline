@@ -1,6 +1,6 @@
 ---
 title: "SWIG_JavaThrowException function"
-sidebar_position: 2
+sidebar_position: 7
 parent: "Classes"
 ---
 

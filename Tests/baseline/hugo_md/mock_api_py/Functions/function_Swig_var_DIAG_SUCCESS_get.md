@@ -1,6 +1,6 @@
 ---
 title: "Swig_var_DIAG_SUCCESS_get function"
-sidebar_position: 159
+sidebar_position: 372
 parent: "Functions"
 ---
 

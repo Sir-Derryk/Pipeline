@@ -1,6 +1,6 @@
 ---
 title: "_wrap_Box_scale__SWIG_0 function"
-sidebar_position: 152
+sidebar_position: 365
 parent: "Functions"
 ---
 

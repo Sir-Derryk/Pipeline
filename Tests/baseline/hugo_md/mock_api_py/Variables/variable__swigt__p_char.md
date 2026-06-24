@@ -1,6 +1,6 @@
 ---
 title: "_swigt__p_char variable"
-sidebar_position: 246
+sidebar_position: 498
 parent: "Variables"
 ---
 

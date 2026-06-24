@@ -1,6 +1,6 @@
 ---
 title: "swig_module variable"
-sidebar_position: 234
+sidebar_position: 486
 parent: "Variables"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "_wrap_GlobalLoggerProxy_logMessage function"
-sidebar_position: 128
+sidebar_position: 341
 parent: "Functions"
 ---
 

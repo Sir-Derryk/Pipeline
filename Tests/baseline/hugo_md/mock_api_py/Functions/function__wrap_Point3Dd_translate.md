@@ -1,6 +1,6 @@
 ---
 title: "_wrap_Point3Dd_translate function"
-sidebar_position: 204
+sidebar_position: 417
 parent: "Functions"
 ---
 

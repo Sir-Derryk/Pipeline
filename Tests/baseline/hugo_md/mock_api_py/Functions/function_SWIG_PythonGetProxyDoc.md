@@ -1,6 +1,6 @@
 ---
 title: "SWIG_PythonGetProxyDoc function"
-sidebar_position: 94
+sidebar_position: 307
 parent: "Functions"
 ---
 

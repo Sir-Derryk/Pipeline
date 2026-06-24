@@ -1,6 +1,6 @@
 ---
 title: "_wrap_GlobalConfig_enableLogging_get function"
-sidebar_position: 115
+sidebar_position: 328
 parent: "Functions"
 ---
 

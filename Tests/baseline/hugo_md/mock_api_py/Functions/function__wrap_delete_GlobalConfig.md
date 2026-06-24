@@ -1,6 +1,6 @@
 ---
 title: "_wrap_delete_GlobalConfig function"
-sidebar_position: 119
+sidebar_position: 332
 parent: "Functions"
 ---
 

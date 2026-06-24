@@ -1,6 +1,6 @@
 ---
 title: "GlobalLoggerProxy_swiginit function"
-sidebar_position: 133
+sidebar_position: 346
 parent: "Functions"
 ---
 

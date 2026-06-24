@@ -2,8 +2,7 @@
 <doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
   <compounddef id="_global_status_8java" kind="file" language="Java">
     <compoundname>GlobalStatus.java</compoundname>
-    <innerclass refid="class_core_modeler_1_1_global_status" prot="public">CoreModeler::GlobalStatus</innerclass>
-    <innernamespace refid="namespace_core_modeler">CoreModeler</innernamespace>
+    <innerclass refid="class_global_status" prot="public">GlobalStatus</innerclass>
     <briefdescription>
     </briefdescription>
     <detaileddescription>

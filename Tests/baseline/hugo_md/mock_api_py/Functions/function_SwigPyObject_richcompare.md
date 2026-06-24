@@ -1,6 +1,6 @@
 ---
 title: "SwigPyObject_richcompare function"
-sidebar_position: 53
+sidebar_position: 266
 parent: "Functions"
 ---
 

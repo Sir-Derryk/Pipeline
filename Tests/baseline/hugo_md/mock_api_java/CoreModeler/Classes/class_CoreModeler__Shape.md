@@ -1,6 +1,6 @@
 ---
 title: "Shape class"
-sidebar_position: 13
+sidebar_position: 8
 parent: "CoreModeler.Classes"
 ---
 

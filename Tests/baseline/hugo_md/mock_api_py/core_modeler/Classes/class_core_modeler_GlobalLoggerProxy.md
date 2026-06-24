@@ -4,6 +4,8 @@ sidebar_position: 4
 parent: "core_modeler.Classes"
 ---
 
+Proxy of C++ GlobalLogger class.
+
 ## Fields
 
 - `core_modeler.GlobalLoggerProxy::__repr__`
@@ -14,24 +16,26 @@ parent: "core_modeler.Classes"
 ### logMessage
 `core_modeler.GlobalLoggerProxy.logMessage(self, *args)`
 `def logMessage(GlobalLoggerProxy self, char const * message)`
-`def logMessage(GlobalLoggerProxy self, char const * message, int severity) -> bool`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-|  | `self` |  |
-| args | `*` |  |
+| self | `Any` |  |
+| message | `char const *` |  |
+| severity | `int` |  |
 
 ### forceFlush
 `core_modeler.GlobalLoggerProxy.forceFlush(self)`
+`def forceFlush(GlobalLoggerProxy self)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-|  | `self` |  |
+| self | `Any` |  |
 
 ### __init__
 `core_modeler.GlobalLoggerProxy.__init__(self)`
+`def __init__(GlobalLoggerProxy self) -> GlobalLoggerProxy`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-|  | `self` |  |
+| self | `Any` |  |
 

@@ -1,6 +1,6 @@
 ---
 title: "SwigPyClientData_New function"
-sidebar_position: 44
+sidebar_position: 257
 parent: "Functions"
 ---
 

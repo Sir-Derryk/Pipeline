@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_NewShadowInstance function"
-sidebar_position: 79
+sidebar_position: 292
 parent: "Functions"
 ---
 

@@ -1,6 +1,6 @@
 ---
 title: "SWIG_InitializeModule function"
-sidebar_position: 210
+sidebar_position: 423
 parent: "Functions"
 ---
 

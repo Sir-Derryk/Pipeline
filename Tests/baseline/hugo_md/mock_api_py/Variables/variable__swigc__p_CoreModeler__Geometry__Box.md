@@ -1,6 +1,6 @@
 ---
 title: "_swigc__p_CoreModeler__Geometry__Box variable"
-sidebar_position: 249
+sidebar_position: 501
 parent: "Variables"
 ---
 

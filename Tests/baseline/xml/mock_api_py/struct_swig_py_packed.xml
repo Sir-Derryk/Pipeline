@@ -3,9 +3,9 @@
   <compounddef id="struct_swig_py_packed" kind="struct" language="C++" prot="public">
     <compoundname>SwigPyPacked</compoundname>
     <sectiondef kind="public-attrib">
-      <memberdef kind="variable" id="struct_swig_py_packed_1af5122bcb9e73bf2dec4ce5f58f004e1b" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="struct_swig_py_packed_1a90bf060d4d9b7924acc8bc81525244d4" prot="public" static="no" mutable="no">
         <type>PyObject_HEAD void *</type>
-        <definition>PyObject_HEAD void* SwigPyPacked::pack</definition>
+        <definition>PyObject_HEAD void * SwigPyPacked::pack</definition>
         <argsstring></argsstring>
         <name>pack</name>
         <qualifiedname>SwigPyPacked::pack</qualifiedname>
@@ -15,11 +15,11 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="1817" column="8" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="1817" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1817" column="8" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1817" bodyend="-1"/>
       </memberdef>
-      <memberdef kind="variable" id="struct_swig_py_packed_1aa6f6be0a8a1bff7710200fbe8d51acf0" prot="public" static="no" mutable="no">
+      <memberdef kind="variable" id="struct_swig_py_packed_1ae179dcfa49ddb42652601334198d4271" prot="public" static="no" mutable="no">
         <type><ref refid="structswig__type__info" kindref="compound">swig_type_info</ref> *</type>
-        <definition>swig_type_info* SwigPyPacked::ty</definition>
+        <definition>swig_type_info * SwigPyPacked::ty</definition>
         <argsstring></argsstring>
         <name>ty</name>
         <qualifiedname>SwigPyPacked::ty</qualifiedname>
@@ -29,7 +29,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="1818" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="1818" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1818" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1818" bodyend="-1"/>
       </memberdef>
       <memberdef kind="variable" id="struct_swig_py_packed_1aed2bfb8fb3c9f804c386215db63921cb" prot="public" static="no" mutable="no">
         <type>size_t</type>
@@ -43,7 +43,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="1819" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="1819" bodyend="-1"/>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1819" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1819" bodyend="-1"/>
       </memberdef>
     </sectiondef>
     <briefdescription>
@@ -80,11 +80,11 @@
         </childnode>
       </node>
     </collaborationgraph>
-    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" line="1815" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cxx" bodystart="1815" bodyend="1820"/>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1815" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1815" bodyend="1820"/>
     <listofallmembers>
-      <member refid="struct_swig_py_packed_1af5122bcb9e73bf2dec4ce5f58f004e1b" prot="public" virt="non-virtual"><scope>SwigPyPacked</scope><name>pack</name></member>
+      <member refid="struct_swig_py_packed_1a90bf060d4d9b7924acc8bc81525244d4" prot="public" virt="non-virtual"><scope>SwigPyPacked</scope><name>pack</name></member>
       <member refid="struct_swig_py_packed_1aed2bfb8fb3c9f804c386215db63921cb" prot="public" virt="non-virtual"><scope>SwigPyPacked</scope><name>size</name></member>
-      <member refid="struct_swig_py_packed_1aa6f6be0a8a1bff7710200fbe8d51acf0" prot="public" virt="non-virtual"><scope>SwigPyPacked</scope><name>ty</name></member>
+      <member refid="struct_swig_py_packed_1ae179dcfa49ddb42652601334198d4271" prot="public" virt="non-virtual"><scope>SwigPyPacked</scope><name>ty</name></member>
     </listofallmembers>
   </compounddef>
 </doxygen>

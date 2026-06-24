@@ -1,6 +1,6 @@
 ---
 title: "Point3Di_swigregister function"
-sidebar_position: 180
+sidebar_position: 393
 parent: "Functions"
 ---
 

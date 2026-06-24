@@ -1,6 +1,6 @@
 ---
 title: "_wrap_globalInitialize function"
-sidebar_position: 134
+sidebar_position: 347
 parent: "Functions"
 ---
 

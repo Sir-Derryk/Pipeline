@@ -1,6 +1,6 @@
 ---
 title: "_swigt__p_CoreModeler__Geometry__Shape variable"
-sidebar_position: 242
+sidebar_position: 494
 parent: "Variables"
 ---
 

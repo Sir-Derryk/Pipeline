@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_NewPointerObj function"
-sidebar_position: 82
+sidebar_position: 295
 parent: "Functions"
 ---
 

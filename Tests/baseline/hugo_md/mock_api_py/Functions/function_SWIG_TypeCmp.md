@@ -1,6 +1,6 @@
 ---
 title: "SWIG_TypeCmp function"
-sidebar_position: 11
+sidebar_position: 224
 parent: "Functions"
 ---
 

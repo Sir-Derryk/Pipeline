@@ -4,6 +4,8 @@ sidebar_position: 10
 parent: "core_modeler.Classes"
 ---
 
+Proxy of C++ CoreModeler::Geometry::Shape class.
+
 ## Fields
 
 - `core_modeler.Shape::__repr__`
@@ -16,14 +18,13 @@ parent: "core_modeler.Classes"
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-|  | `self` |  |
-| args | `*` |  |
-| kwargs | `**` |  |
+| self | `Any` |  |
 
 ### getVolume
 `core_modeler.Shape.getVolume(self)`
+`def getVolume(Shape self) -> double`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-|  | `self` |  |
+| self | `Any` |  |
 

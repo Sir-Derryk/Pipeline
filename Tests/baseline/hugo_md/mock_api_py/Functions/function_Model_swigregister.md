@@ -1,6 +1,6 @@
 ---
 title: "Model_swigregister function"
-sidebar_position: 137
+sidebar_position: 350
 parent: "Functions"
 ---
 

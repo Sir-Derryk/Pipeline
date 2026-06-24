@@ -1,6 +1,6 @@
 ---
 title: "SWIG_globals function"
-sidebar_position: 220
+sidebar_position: 433
 parent: "Functions"
 ---
 

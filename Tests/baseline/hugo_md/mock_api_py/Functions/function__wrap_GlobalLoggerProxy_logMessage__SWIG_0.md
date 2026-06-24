@@ -1,6 +1,6 @@
 ---
 title: "_wrap_GlobalLoggerProxy_logMessage__SWIG_0 function"
-sidebar_position: 126
+sidebar_position: 339
 parent: "Functions"
 ---
 

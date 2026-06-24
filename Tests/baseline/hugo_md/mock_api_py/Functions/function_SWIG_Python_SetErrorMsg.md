@@ -1,6 +1,6 @@
 ---
 title: "SWIG_Python_SetErrorMsg function"
-sidebar_position: 36
+sidebar_position: 249
 parent: "Functions"
 ---
 

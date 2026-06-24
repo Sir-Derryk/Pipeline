@@ -6,5 +6,5 @@ parent: "Structs and Enums"
 
 ## Fields
 
-- `PyObject_HEAD swig_globalvar* swig_varlinkobject::vars`
+- `PyObject_HEAD swig_globalvar * swig_varlinkobject::vars`
 

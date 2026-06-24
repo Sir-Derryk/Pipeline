@@ -1,6 +1,6 @@
 ---
 title: "_wrap_delete_Point3Df function"
-sidebar_position: 192
+sidebar_position: 405
 parent: "Functions"
 ---
 
