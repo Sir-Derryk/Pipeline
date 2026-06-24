@@ -3909,5 +3909,12 @@ window.UDE_NAV_DATA = [
         ]
       }
     ]
+  },
+  {
+    "id": "node_developer_guide",
+    "label": "Developer Guide",
+    "type": "topic",
+    "url": "api_ref2dg.html",
+    "children": []
   }
 ];
