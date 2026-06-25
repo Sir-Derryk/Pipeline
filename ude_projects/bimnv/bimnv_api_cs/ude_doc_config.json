@@ -9,17 +9,20 @@
     "incremental": true,
     "max_workers": 8,
     "collector": {
-        "type": "cs",
+        "type": "CsDoxygenCollector",
         "file_patterns": [
             "**/*.cs"
         ],
         "include_private": false
     },
     "parser": {
-        "type": "doxygen_xml"
+        "type": "CsDoxygenParser"
     },
     "renderer": {
-        "type": "html"
+        "type": "CsHtmlDefaultRenderer"
     },
-    "output_subdir": "bimnv_api_cs"
+    "output_subdir": "bimnv_api_cs",
+    "validator": {
+        "type": "CsCommentValidator"
+    }
 }

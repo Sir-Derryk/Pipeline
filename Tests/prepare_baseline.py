@@ -118,6 +118,55 @@ def custom_parse(self, xml_dir_path):
 
 DoxygenXmlParser.parse = custom_parse
 
+# 3. Monkeypatch UdeOrchestrator.run_target to temporarily map renderer/collector class names during baseline preparation
+original_run_target = UdeOrchestrator.run_target
+
+def custom_run_target(self, config_path):
+    config_path = Path(config_path)
+    with open(config_path, "r", encoding="utf-8") as f:
+        original_content = f.read()
+        config = json.loads(original_content)
+    
+    renderer_cfg = config.get("renderer", {})
+    fmt = renderer_cfg.get("type", "").lower()
+    
+    modified = False
+    if "html" in fmt:
+        config["renderer"]["type"] = "html"
+        modified = True
+    elif "hugo" in fmt or "markdown" in fmt:
+        config["renderer"]["type"] = "hugo_markdown"
+        modified = True
+        
+    collector_cfg = config.get("collector", {})
+    coll_type = collector_cfg.get("type", "").lower()
+    if coll_type.startswith("cpp"):
+        config["collector"]["type"] = "cpp"
+        modified = True
+    elif coll_type.startswith("cs"):
+        config["collector"]["type"] = "cs"
+        modified = True
+    elif coll_type.startswith("java"):
+        config["collector"]["type"] = "java"
+        modified = True
+    elif coll_type.startswith("py"):
+        config["collector"]["type"] = "py"
+        modified = True
+
+    if modified:
+        with open(config_path, "w", encoding="utf-8") as f:
+            json.dump(config, f, indent=4)
+            
+    try:
+        return original_run_target(self, config_path)
+    finally:
+        if modified:
+            with open(config_path, "w", encoding="utf-8") as f:
+                f.write(original_content)
+
+UdeOrchestrator.run_target = custom_run_target
+
+
 def main():
     parser = argparse.ArgumentParser(description="Prepare UDE test baselines.")
     parser.add_argument(

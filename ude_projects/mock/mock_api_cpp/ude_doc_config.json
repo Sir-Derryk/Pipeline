@@ -8,17 +8,20 @@
     "incremental": true,
     "max_workers": 8,
     "collector": {
-        "type": "cpp",
+        "type": "CppDoxygenCollector",
         "file_patterns": [
             "**/*.h"
         ],
         "include_private": false
     },
     "parser": {
-        "type": "doxygen_xml"
+        "type": "CppDoxygenParser"
     },
     "renderer": {
-        "type": "html"
+        "type": "CppHtmlDefaultRenderer"
     },
-    "output_subdir": "mock_api_cpp"
+    "output_subdir": "mock_api_cpp",
+    "validator": {
+        "type": "CppCommentValidator"
+    }
 }

@@ -9,17 +9,20 @@
     "incremental": true,
     "max_workers": 8,
     "collector": {
-        "type": "java",
+        "type": "JavaDoxygenCollector",
         "file_patterns": [
             "**/*.java"
         ],
         "include_private": false
     },
     "parser": {
-        "type": "doxygen_xml"
+        "type": "JavaDoxygenParser"
     },
     "renderer": {
-        "type": "html"
+        "type": "JavaHtmlDefaultRenderer"
     },
-    "output_subdir": "facetmodeler_api_java"
+    "output_subdir": "facetmodeler_api_java",
+    "validator": {
+        "type": "JavaCommentValidator"
+    }
 }

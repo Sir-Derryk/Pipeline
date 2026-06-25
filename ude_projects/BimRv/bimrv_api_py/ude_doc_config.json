@@ -9,17 +9,20 @@
     "incremental": true,
     "max_workers": 8,
     "collector": {
-        "type": "python",
+        "type": "PyDoxygenCollector",
         "file_patterns": [
             "**/*.py"
         ],
         "include_private": false
     },
     "parser": {
-        "type": "doxygen_xml"
+        "type": "PyDoxygenParser"
     },
     "renderer": {
-        "type": "html"
+        "type": "PyHtmlDefaultRenderer"
     },
-    "output_subdir": "bimrv_api_py"
+    "output_subdir": "bimrv_api_py",
+    "validator": {
+        "type": "PyCommentValidator"
+    }
 }
