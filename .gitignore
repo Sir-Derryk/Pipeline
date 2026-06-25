@@ -239,11 +239,11 @@ __marimo__/
 
 # UDE Generated build outputs (XML intermediate folders, HTML outputs, and IRs)
 /ude_output/
-ude/**/*.json.gz
-ude/**/.build_cache.json
-ude/**/output/
-ude/**/xml/
-ude/**/html/
+ude_projects/**/*.json.gz
+ude_projects/**/.build_cache.json
+ude_projects/**/output/
+ude_projects/**/xml/
+ude_projects/**/html/
 
 # ==============================================================================
 # Golden Baselines Tests/baseline/

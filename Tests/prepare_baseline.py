@@ -25,24 +25,24 @@ from ude.orchestrator import UdeOrchestrator
 
 # Target Projects Configurations
 FACETMODELER_PROJECTS = [
-    {"id": "facetmodeler_api_cpp", "config": WORKSPACE_ROOT / "ude/FacetModeler/facetmodeler_api_cpp/ude_doc_config.json", "lang": "cpp"},
-    {"id": "facetmodeler_api_cs", "config": WORKSPACE_ROOT / "ude/FacetModeler/facetmodeler_api_cs/ude_doc_config.json", "lang": "cs"},
-    {"id": "facetmodeler_api_java", "config": WORKSPACE_ROOT / "ude/FacetModeler/facetmodeler_api_java/ude_doc_config.json", "lang": "java"},
-    {"id": "facetmodeler_api_py", "config": WORKSPACE_ROOT / "ude/FacetModeler/facetmodeler_api_py/ude_doc_config.json", "lang": "py"},
+    {"id": "facetmodeler_api_cpp", "config": WORKSPACE_ROOT / "ude_projects/FacetModeler/facetmodeler_api_cpp/ude_doc_config.json", "lang": "cpp"},
+    {"id": "facetmodeler_api_cs", "config": WORKSPACE_ROOT / "ude_projects/FacetModeler/facetmodeler_api_cs/ude_doc_config.json", "lang": "cs"},
+    {"id": "facetmodeler_api_java", "config": WORKSPACE_ROOT / "ude_projects/FacetModeler/facetmodeler_api_java/ude_doc_config.json", "lang": "java"},
+    {"id": "facetmodeler_api_py", "config": WORKSPACE_ROOT / "ude_projects/FacetModeler/facetmodeler_api_py/ude_doc_config.json", "lang": "py"},
 ]
 
 BIMNV_PROJECTS = [
-    {"id": "bimnv_api_cpp", "config": WORKSPACE_ROOT / "ude/bimnv/bimnv_api_cpp/ude_doc_config.json", "lang": "cpp"},
-    {"id": "bimnv_api_cs", "config": WORKSPACE_ROOT / "ude/bimnv/bimnv_api_cs/ude_doc_config.json", "lang": "cs"},
-    {"id": "bimnv_api_java", "config": WORKSPACE_ROOT / "ude/bimnv/bimnv_api_java/ude_doc_config.json", "lang": "java"},
-    {"id": "bimnv_api_py", "config": WORKSPACE_ROOT / "ude/bimnv/bimnv_api_py/ude_doc_config.json", "lang": "py"},
+    {"id": "bimnv_api_cpp", "config": WORKSPACE_ROOT / "ude_projects/bimnv/bimnv_api_cpp/ude_doc_config.json", "lang": "cpp"},
+    {"id": "bimnv_api_cs", "config": WORKSPACE_ROOT / "ude_projects/bimnv/bimnv_api_cs/ude_doc_config.json", "lang": "cs"},
+    {"id": "bimnv_api_java", "config": WORKSPACE_ROOT / "ude_projects/bimnv/bimnv_api_java/ude_doc_config.json", "lang": "java"},
+    {"id": "bimnv_api_py", "config": WORKSPACE_ROOT / "ude_projects/bimnv/bimnv_api_py/ude_doc_config.json", "lang": "py"},
 ]
 
 MOCK_PROJECTS = [
-    {"id": "mock_api_cpp", "config": WORKSPACE_ROOT / "ude/mock/mock_api_cpp/ude_doc_config.json", "lang": "cpp"},
-    {"id": "mock_api_cs", "config": WORKSPACE_ROOT / "ude/mock/mock_api_cs/ude_doc_config.json", "lang": "cs"},
-    {"id": "mock_api_java", "config": WORKSPACE_ROOT / "ude/mock/mock_api_java/ude_doc_config.json", "lang": "java"},
-    {"id": "mock_api_py", "config": WORKSPACE_ROOT / "ude/mock/mock_api_py/ude_doc_config.json", "lang": "py"},
+    {"id": "mock_api_cpp", "config": WORKSPACE_ROOT / "ude_projects/mock/mock_api_cpp/ude_doc_config.json", "lang": "cpp"},
+    {"id": "mock_api_cs", "config": WORKSPACE_ROOT / "ude_projects/mock/mock_api_cs/ude_doc_config.json", "lang": "cs"},
+    {"id": "mock_api_java", "config": WORKSPACE_ROOT / "ude_projects/mock/mock_api_java/ude_doc_config.json", "lang": "java"},
+    {"id": "mock_api_py", "config": WORKSPACE_ROOT / "ude_projects/mock/mock_api_py/ude_doc_config.json", "lang": "py"},
 ]
 
 

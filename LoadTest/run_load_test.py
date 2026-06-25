@@ -15,7 +15,7 @@ except ImportError:
 
 WORKSPACE_ROOT = Path("D:/My repositories/Pipeline")
 LOAD_TEST_DIR = WORKSPACE_ROOT / "LoadTest"
-GLOBAL_CONFIG = "ude/ude_global_config.json"
+GLOBAL_CONFIG = "ude_projects/ude_global_config.json"
 
 # Sorted list of SDKs with Python SWIG wrappers, ordered by size ascending
 SDKS = [
@@ -223,8 +223,8 @@ def run_pipeline_for_sdk(sdk):
     results[name]["status"] = "Running..."
     write_report()
     
-    sdk_config = f"ude/{folder}/ude_sdk_config.json"
-    doc_config = f"ude/{folder}/{lower_id}/ude_doc_config.json"
+    sdk_config = f"ude_projects/{folder}/ude_sdk_config.json"
+    doc_config = f"ude_projects/{folder}/{lower_id}/ude_doc_config.json"
     
     cmd = [
         sys.executable,
