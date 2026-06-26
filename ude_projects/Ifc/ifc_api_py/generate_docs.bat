@@ -1,9 +1,8 @@
-@echo off
+﻿@echo off
 chcp 65001 >nul
 setlocal enabledelayedexpansion
 
 set "SCRIPT_DIR=%~dp0"
-set "PYTHON_ROOT=%SCRIPT_DIR%..\..\..\engine"
 
 set "GLOBAL_CONFIG=..\..\ude_global_config.json"
 set "SDK_CONFIG=..\ude_sdk_config.json"
@@ -13,7 +12,14 @@ echo ============================================================
 echo   Universal Doc Engine: UDE API Generation Launcher
 echo ============================================================
 
-:: 1. Verify Python availability
+:: Release mode: use isolated venv created by install.bat (no PYTHONPATH conflicts)
+set "VENV_PYTHON=%SCRIPT_DIR%..\..\..\.venv\Scripts\python.exe"
+if exist "%VENV_PYTHON%" (
+    set "UDE_PYTHON=%VENV_PYTHON%"
+    goto :run_ude
+)
+
+:: Dev mode: use system Python with PYTHONPATH pointing to engine source
 python --version >nul 2>&1
 if %errorlevel% neq 0 (
     echo [ERROR] Python is not installed or not found on system PATH.
@@ -21,21 +27,20 @@ if %errorlevel% neq 0 (
     exit /b 5
 )
 
-:: 2. Pre-flight auto-install dependencies if missing
-python -c "import pydantic, lxml, jinja2" >nul 2>&1
+python -c "import pydantic, lxml, jinja2, markdown" >nul 2>&1
 if %errorlevel% neq 0 (
     echo [INFO] Missing required python libraries. Attempting automatic installation...
-    python -m pip install pydantic lxml jinja2
+    python -m pip install pydantic lxml jinja2 markdown
     if !errorlevel! neq 0 (
-        echo [ERROR] Failed to install required python packages: pydantic, lxml, jinja2.
+        echo [ERROR] Failed to install required python packages: pydantic, lxml, jinja2, markdown.
         exit /b 5
     )
 )
+set "PYTHONPATH=%SCRIPT_DIR%..\..\..\engine"
+set "UDE_PYTHON=python"
 
-:: 3. Run UDE CLI with 3 configurations
-set "PYTHONPATH=%PYTHON_ROOT%"
-python -m ude.cli --global-config "%GLOBAL_CONFIG%" --sdk-config "%SDK_CONFIG%" --doc-config "%DOC_CONFIG%" --format html
-
+:run_ude
+"%UDE_PYTHON%" -m ude.cli --global-config "%GLOBAL_CONFIG%" --sdk-config "%SDK_CONFIG%" --doc-config "%DOC_CONFIG%" --format html
 if %errorlevel% neq 0 (
     echo [ERROR] UDE Pipeline failed.
     exit /b 1
