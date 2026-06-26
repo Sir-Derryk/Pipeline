@@ -2,7 +2,7 @@
     "project_name": "Components Python API Reference",
     "short_project_name": "Components",
     "src_dir": [
-        "../../../src/_swig/Python/Components"
+        "../../../main/_swig/Python/Components"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2026,

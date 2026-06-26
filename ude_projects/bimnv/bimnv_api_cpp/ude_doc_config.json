@@ -1,7 +1,7 @@
 {
     "project_name": "BimNv C++ API Reference",
     "src_dir": [
-        "../../../src/BimNv/Include"
+        "../../../main/BimNv/Include"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2002,

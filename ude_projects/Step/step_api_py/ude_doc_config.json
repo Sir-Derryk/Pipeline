@@ -2,7 +2,7 @@
     "project_name": "Step Python API Reference",
     "short_project_name": "Step",
     "src_dir": [
-        "../../../src/_swig/Python/Step"
+        "../../../main/_swig/Python/Step"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2026,

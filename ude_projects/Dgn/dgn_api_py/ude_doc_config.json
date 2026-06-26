@@ -2,7 +2,7 @@
     "project_name": "Dgn Python API Reference",
     "short_project_name": "Dgn",
     "src_dir": [
-        "../../../src/_swig/Python/Dgn"
+        "../../../main/_swig/Python/Dgn"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2026,

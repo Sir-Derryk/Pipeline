@@ -1,7 +1,7 @@
 {
     "project_name": "Map C++ API Reference",
     "src_dir": [
-        "../../../src/Map/Include"
+        "../../../main/Map/Include"
     ],
     "static_pages_dir": "Dev_Guides/Map",
     "copyright_start_year": 2002,

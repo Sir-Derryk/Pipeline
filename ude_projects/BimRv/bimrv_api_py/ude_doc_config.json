@@ -2,7 +2,7 @@
     "project_name": "BimRv Python API Reference",
     "short_project_name": "BimRv",
     "src_dir": [
-        "../../../src/_swig/Python/BimRv"
+        "../../../main/_swig/Python/BimRv"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2026,

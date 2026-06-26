@@ -2,7 +2,7 @@
     "project_name": "Sdai Python API Reference",
     "short_project_name": "Sdai",
     "src_dir": [
-        "../../../src/_swig/Python/Sdai"
+        "../../../main/_swig/Python/Sdai"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2026,

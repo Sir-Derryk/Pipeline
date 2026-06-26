@@ -2,7 +2,7 @@
     "project_name": "Kernel Python API Reference",
     "short_project_name": "Kernel",
     "src_dir": [
-        "../../../src/_swig/Python/Kernel"
+        "../../../main/_swig/Python/Kernel"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2026,

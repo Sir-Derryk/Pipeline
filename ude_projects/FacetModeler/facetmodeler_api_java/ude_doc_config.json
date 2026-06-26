@@ -2,7 +2,7 @@
     "project_name": "FacetModeler Java API Reference",
     "short_project_name": "FacetModeler",
     "src_dir": [
-        "../../../src/_swig/Java/com/opendesign/facetmodeler"
+        "../../../main/_swig/Java/com/opendesign/facetmodeler"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2002,
