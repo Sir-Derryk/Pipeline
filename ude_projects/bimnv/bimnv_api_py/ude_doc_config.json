@@ -16,7 +16,8 @@
         "include_private": false
     },
     "parser": {
-        "type": "PyDoxygenParser"
+        "type": "PyDoxygenParser",
+        "docstring_format": "sphinx_rst"
     },
     "renderer": {
         "type": "PyHtmlDefaultRenderer"
