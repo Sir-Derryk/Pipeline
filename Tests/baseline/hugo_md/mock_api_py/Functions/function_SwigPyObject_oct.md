@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_oct
-`SWIGRUNTIME PyObject * SwigPyObject_oct(SwigPyObject *v)`
+`SwigPyObject_oct(v: SwigPyObject *) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

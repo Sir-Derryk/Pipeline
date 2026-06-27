@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_PythonGetProxyDoc
-`SWIGINTERN PyMethodDef * SWIG_PythonGetProxyDoc(const char *name)`
+`SWIG_PythonGetProxyDoc(name: const char *) -> SWIGINTERN PyMethodDef *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

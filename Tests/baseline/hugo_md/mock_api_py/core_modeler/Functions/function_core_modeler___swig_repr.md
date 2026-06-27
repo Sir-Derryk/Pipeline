@@ -7,9 +7,5 @@ parent: "core_modeler.Functions"
 ## Methods
 
 ### _swig_repr
-`core_modeler._swig_repr(self)`
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| self | `Any` |  |
+`_swig_repr(self)`
 

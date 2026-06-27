@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_InitializeModule
-`SWIGRUNTIME void SWIG_InitializeModule(void *clientdata)`
+`SWIG_InitializeModule(clientdata: void *) -> SWIGRUNTIME void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

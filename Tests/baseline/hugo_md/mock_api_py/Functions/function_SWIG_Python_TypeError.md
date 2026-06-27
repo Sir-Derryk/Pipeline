@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_TypeError
-`SWIGRUNTIME void SWIG_Python_TypeError(const char *type, PyObject *obj)`
+`SWIG_Python_TypeError(type: const char *, obj: PyObject *) -> SWIGRUNTIME void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

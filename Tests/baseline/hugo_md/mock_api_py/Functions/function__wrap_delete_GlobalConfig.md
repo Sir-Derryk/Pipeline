@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_delete_GlobalConfig
-`SWIGINTERN PyObject * _wrap_delete_GlobalConfig(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_delete_GlobalConfig(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

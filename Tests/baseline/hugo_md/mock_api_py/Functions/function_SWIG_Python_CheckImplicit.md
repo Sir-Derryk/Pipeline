@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_CheckImplicit
-`SWIGRUNTIMEINLINE int SWIG_Python_CheckImplicit(swig_type_info *ty)`
+`SWIG_Python_CheckImplicit(ty: swig_type_info *) -> SWIGRUNTIMEINLINE int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

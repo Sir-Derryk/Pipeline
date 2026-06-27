@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_TypeCheckStruct
-`SWIGRUNTIME swig_cast_info * SWIG_TypeCheckStruct(swig_type_info *from, swig_type_info *ty)`
+`SWIG_TypeCheckStruct(from: swig_type_info *, ty: swig_type_info *) -> SWIGRUNTIME swig_cast_info *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

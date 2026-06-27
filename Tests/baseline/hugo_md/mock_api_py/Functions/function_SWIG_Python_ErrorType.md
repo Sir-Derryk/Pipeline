@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_ErrorType
-`SWIGRUNTIME PyObject * SWIG_Python_ErrorType(int code)`
+`SWIG_Python_ErrorType(code: int) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

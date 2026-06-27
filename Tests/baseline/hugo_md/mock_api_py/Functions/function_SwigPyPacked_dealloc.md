@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyPacked_dealloc
-`SWIGRUNTIME void SwigPyPacked_dealloc(PyObject *v)`
+`SwigPyPacked_dealloc(v: PyObject *) -> SWIGRUNTIME void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

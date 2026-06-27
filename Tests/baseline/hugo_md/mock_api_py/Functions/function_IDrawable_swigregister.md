@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### IDrawable_swigregister
-`SWIGINTERN PyObject * IDrawable_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`IDrawable_swigregister(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

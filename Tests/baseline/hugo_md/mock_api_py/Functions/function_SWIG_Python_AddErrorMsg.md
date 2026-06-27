@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_AddErrorMsg
-`SWIGRUNTIME void SWIG_Python_AddErrorMsg(const char *mesg)`
+`SWIG_Python_AddErrorMsg(mesg: const char *) -> SWIGRUNTIME void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

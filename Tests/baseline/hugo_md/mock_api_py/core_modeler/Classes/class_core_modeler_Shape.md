@@ -14,17 +14,8 @@ Proxy of C++ CoreModeler::Geometry::Shape class.
 ## Methods
 
 ### __init__
-`core_modeler.Shape.__init__(self, *args, **kwargs)`
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| self | `Any` |  |
+`__init__(self)`
 
 ### getVolume
-`core_modeler.Shape.getVolume(self)`
-`def getVolume(Shape self) -> double`
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| self | `Any` |  |
+`getVolume(self)`
 

@@ -7,9 +7,5 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_GetDesc
-`SWIGRUNTIMEINLINE const char * SwigPyObject_GetDesc(PyObject *self)`
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| self | `PyObject *` |  |
+`SwigPyObject_GetDesc(self) -> SWIGRUNTIMEINLINE const char *`
 

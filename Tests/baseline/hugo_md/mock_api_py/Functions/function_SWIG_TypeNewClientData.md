@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_TypeNewClientData
-`SWIGRUNTIME void SWIG_TypeNewClientData(swig_type_info *ti, void *clientdata)`
+`SWIG_TypeNewClientData(ti: swig_type_info *, clientdata: void *) -> SWIGRUNTIME void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

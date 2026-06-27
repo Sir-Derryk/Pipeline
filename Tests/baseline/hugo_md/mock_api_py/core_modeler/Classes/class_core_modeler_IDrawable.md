@@ -14,19 +14,12 @@ Proxy of C++ CoreModeler::Geometry::IDrawable class.
 ## Methods
 
 ### __init__
-`core_modeler.IDrawable.__init__(self, *args, **kwargs)`
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| self | `Any` |  |
+`__init__(self)`
 
 ### renderToScreen
-`core_modeler.IDrawable.renderToScreen(self, *args)`
-`def renderToScreen(IDrawable self)`
-`def renderToScreen(IDrawable self, CoreModeler::RenderMode mode) -> int`
+`renderToScreen(self, mode: enum CoreModeler::RenderMode)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `Any` |  |
 | mode | `enum CoreModeler::RenderMode` |  |
 

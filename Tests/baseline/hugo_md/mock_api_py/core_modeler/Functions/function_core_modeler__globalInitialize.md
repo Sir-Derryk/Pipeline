@@ -9,8 +9,7 @@ globalInitialize(GlobalConfig config) -&gt; int
 ## Methods
 
 ### globalInitialize
-`core_modeler.globalInitialize(config)`
-`def globalInitialize(GlobalConfig config) -> int`
+`globalInitialize(config: GlobalConfig const &)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_CoreModeler_Geometry_Box_getVolume
-`SWIGINTERN PyObject * _wrap_CoreModeler_Geometry_Box_getVolume(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_CoreModeler_Geometry_Box_getVolume(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

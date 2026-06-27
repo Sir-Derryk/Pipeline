@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_TypeQuery
-`SWIGRUNTIME swig_type_info * SWIG_Python_TypeQuery(const char *type)`
+`SWIG_Python_TypeQuery(type: const char *) -> SWIGRUNTIME swig_type_info *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

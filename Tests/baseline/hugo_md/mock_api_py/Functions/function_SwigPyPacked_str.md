@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyPacked_str
-`SWIGRUNTIME PyObject * SwigPyPacked_str(SwigPyPacked *v)`
+`SwigPyPacked_str(v: SwigPyPacked *) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

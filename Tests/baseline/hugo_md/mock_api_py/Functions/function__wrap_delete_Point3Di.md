@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_delete_Point3Di
-`SWIGINTERN PyObject * _wrap_delete_Point3Di(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_delete_Point3Di(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

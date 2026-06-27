@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_ConvertPacked
-`SWIGRUNTIME int SWIG_Python_ConvertPacked(PyObject *obj, void *ptr, size_t sz, swig_type_info *ty)`
+`SWIG_Python_ConvertPacked(obj: PyObject *, ptr: void *, sz: size_t, ty: swig_type_info *) -> SWIGRUNTIME int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

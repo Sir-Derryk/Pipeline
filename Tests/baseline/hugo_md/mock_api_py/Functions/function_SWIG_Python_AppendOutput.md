@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_AppendOutput
-`SWIGINTERN PyObject * SWIG_Python_AppendOutput(PyObject *result, PyObject *obj)`
+`SWIG_Python_AppendOutput(result: PyObject *, obj: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

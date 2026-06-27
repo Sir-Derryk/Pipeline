@@ -7,10 +7,9 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_new_CoreModeler_Geometry_Point3Dd
-`SWIGINTERN PyObject * _wrap_new_CoreModeler_Geometry_Point3Dd(PyObject *self, PyObject *args)`
+`_wrap_new_CoreModeler_Geometry_Point3Dd(self) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `PyObject *` |  |
 | args | `PyObject *` |  |
 

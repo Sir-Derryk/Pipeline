@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_TypeEquiv
-`SWIGRUNTIME int SWIG_TypeEquiv(const char *nb, const char *tb)`
+`SWIG_TypeEquiv(nb: const char *, tb: const char *) -> SWIGRUNTIME int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

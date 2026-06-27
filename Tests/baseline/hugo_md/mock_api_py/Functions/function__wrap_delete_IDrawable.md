@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_delete_IDrawable
-`SWIGINTERN PyObject * _wrap_delete_IDrawable(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_delete_IDrawable(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

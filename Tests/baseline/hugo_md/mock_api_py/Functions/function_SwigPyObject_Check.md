@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_Check
-`SWIGRUNTIMEINLINE int SwigPyObject_Check(PyObject *op)`
+`SwigPyObject_Check(op: PyObject *) -> SWIGRUNTIMEINLINE int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### Shape_swigregister
-`SWIGINTERN PyObject * Shape_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`Shape_swigregister(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

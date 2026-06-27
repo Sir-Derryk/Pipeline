@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyPacked_UnpackData
-`SWIGRUNTIME swig_type_info * SwigPyPacked_UnpackData(PyObject *obj, void *ptr, size_t size)`
+`SwigPyPacked_UnpackData(obj: PyObject *, ptr: void *, size: size_t) -> SWIGRUNTIME swig_type_info *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

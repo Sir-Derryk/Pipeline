@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_AsVal_bool
-`SWIGINTERN int SWIG_AsVal_bool(PyObject *obj, bool *val)`
+`SWIG_AsVal_bool(obj: PyObject *, val: bool *) -> SWIGINTERN int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

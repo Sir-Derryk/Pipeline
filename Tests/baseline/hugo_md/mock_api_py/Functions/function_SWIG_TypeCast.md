@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_TypeCast
-`SWIGRUNTIMEINLINE void * SWIG_TypeCast(swig_cast_info *ty, void *ptr, int *newmemory)`
+`SWIG_TypeCast(ty: swig_cast_info *, ptr: void *, newmemory: int *) -> SWIGRUNTIMEINLINE void *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

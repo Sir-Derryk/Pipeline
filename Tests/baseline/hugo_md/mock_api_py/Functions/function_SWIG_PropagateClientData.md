@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_PropagateClientData
-`SWIGRUNTIME void SWIG_PropagateClientData(void)`
+`SWIG_PropagateClientData(: void) -> SWIGRUNTIME void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

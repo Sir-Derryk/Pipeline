@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_TypeErrorOccurred
-`SWIGRUNTIME int SWIG_Python_TypeErrorOccurred(PyObject *obj)`
+`SWIG_Python_TypeErrorOccurred(obj: PyObject *) -> SWIGRUNTIME int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_PackVoidPtr
-`SWIGRUNTIME char * SWIG_PackVoidPtr(char *buff, void *ptr, const char *name, size_t bsz)`
+`SWIG_PackVoidPtr(buff: char *, ptr: void *, name: const char *, bsz: size_t) -> SWIGRUNTIME char *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

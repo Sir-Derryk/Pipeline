@@ -14,41 +14,29 @@ Proxy of C++ CoreModeler::Geometry::Box class.
 ## Methods
 
 ### __init__
-`core_modeler.Box.__init__(self, width, height, depth)`
-`def __init__(Box self, double width, double height, double depth) -> Box`
+`__init__(self, width: double, height: double, depth: double)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `Any` |  |
 | width | `double` |  |
 | height | `double` |  |
 | depth | `double` |  |
 
 ### getVolume
-`core_modeler.Box.getVolume(self)`
-`def getVolume(Box self) -> double`
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| self | `Any` |  |
+`getVolume(self)`
 
 ### renderToScreen
-`core_modeler.Box.renderToScreen(self, *args)`
-`def renderToScreen(Box self)`
-`def renderToScreen(Box self, CoreModeler::RenderMode mode) -> int`
+`renderToScreen(self, mode: enum CoreModeler::RenderMode)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `Any` |  |
 | mode | `enum CoreModeler::RenderMode` |  |
 
 ### scale
-`core_modeler.Box.scale(self, *args)`
-`def scale(Box self, double factor)`
+`scale(self, factor: double, xFactor: double, yFactor: double, zFactor: double)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `Any` |  |
 | factor | `double` |  |
 | xFactor | `double` |  |
 | yFactor | `double` |  |

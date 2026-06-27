@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_NewPackedObj
-`SWIGRUNTIMEINLINE PyObject * SWIG_Python_NewPackedObj(void *ptr, size_t sz, swig_type_info *type)`
+`SWIG_Python_NewPackedObj(ptr: void *, sz: size_t, type: swig_type_info *) -> SWIGRUNTIMEINLINE PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

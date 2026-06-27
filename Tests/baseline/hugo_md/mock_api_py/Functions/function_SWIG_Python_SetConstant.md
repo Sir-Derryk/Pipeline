@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_SetConstant
-`SWIGINTERN void SWIG_Python_SetConstant(PyObject *d, const char *name, PyObject *obj)`
+`SWIG_Python_SetConstant(d: PyObject *, name: const char *, obj: PyObject *) -> SWIGINTERN void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### Model_swiginit
-`SWIGINTERN PyObject * Model_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`Model_swiginit(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

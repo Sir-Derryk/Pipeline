@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_checkSystemHealth
-`SWIGINTERN PyObject * _wrap_checkSystemHealth(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_checkSystemHealth(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

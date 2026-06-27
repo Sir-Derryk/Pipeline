@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_newvarlink
-`SWIGINTERN PyObject * SWIG_Python_newvarlink(void)`
+`SWIG_Python_newvarlink(: void) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -218,13 +218,6 @@ window.UDE_NAV_DATA = [
         ]
       },
       {
-        "id": "global",
-        "label": "global namespace",
-        "type": "namespace",
-        "url": "namespace_global.html",
-        "children": []
-      },
-      {
         "id": "global_classes",
         "label": "Classes",
         "type": "folder",

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_MangledTypeQueryModule
-`SWIGRUNTIME swig_type_info * SWIG_MangledTypeQueryModule(swig_module_info *start, swig_module_info *end, const char *name)`
+`SWIG_MangledTypeQueryModule(start: swig_module_info *, end: swig_module_info *, name: const char *) -> SWIGRUNTIME swig_type_info *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

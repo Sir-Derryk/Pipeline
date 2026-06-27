@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_new_Model
-`SWIGINTERN PyObject * _wrap_new_Model(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_new_Model(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

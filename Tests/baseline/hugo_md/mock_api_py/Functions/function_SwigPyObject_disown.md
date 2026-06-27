@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_disown
-`SWIGINTERN PyObject * SwigPyObject_disown(PyObject *v, PyObject *SWIGUNUSEDPARM(args))`
+`SwigPyObject_disown(v: PyObject *, SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_hex
-`SWIGRUNTIME PyObject * SwigPyObject_hex(SwigPyObject *v)`
+`SwigPyObject_hex(v: SwigPyObject *) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

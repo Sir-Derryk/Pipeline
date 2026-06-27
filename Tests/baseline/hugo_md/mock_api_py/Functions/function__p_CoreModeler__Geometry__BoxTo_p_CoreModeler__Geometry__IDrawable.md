@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _p_CoreModeler__Geometry__BoxTo_p_CoreModeler__Geometry__IDrawable
-`static void * _p_CoreModeler__Geometry__BoxTo_p_CoreModeler__Geometry__IDrawable(void *x, int *SWIGUNUSEDPARM(newmemory))`
+`_p_CoreModeler__Geometry__BoxTo_p_CoreModeler__Geometry__IDrawable(x: void *, SWIGUNUSEDPARM: int *) -> void *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

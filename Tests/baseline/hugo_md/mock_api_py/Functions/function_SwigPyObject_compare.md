@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_compare
-`SWIGRUNTIME int SwigPyObject_compare(SwigPyObject *v, SwigPyObject *w)`
+`SwigPyObject_compare(v: SwigPyObject *, w: SwigPyObject *) -> SWIGRUNTIME int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

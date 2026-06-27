@@ -7,28 +7,28 @@ parent: "swig.Structs and Enums"
 ## Methods
 
 ### SwigVar_PyObject
-`swig::SwigVar_PyObject::SwigVar_PyObject(PyObject *obj=0)`
+`SwigVar_PyObject(obj: PyObject *)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | `PyObject *` |  |
 
 ### operator=
-`SwigVar_PyObject & swig::SwigVar_PyObject::operator=(PyObject *obj)`
+`operator=(obj: PyObject *) -> SwigVar_PyObject &`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | `PyObject *` |  |
 
 ### SwigVar_PyObject
-`swig::SwigVar_PyObject::SwigVar_PyObject(PyObject *obj=0)`
+`SwigVar_PyObject(obj: PyObject *)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | obj | `PyObject *` |  |
 
 ### operator=
-`SwigVar_PyObject & swig::SwigVar_PyObject::operator=(PyObject *obj)`
+`operator=(obj: PyObject *) -> SwigVar_PyObject &`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

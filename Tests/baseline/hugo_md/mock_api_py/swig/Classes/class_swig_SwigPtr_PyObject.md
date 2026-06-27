@@ -11,17 +11,17 @@ parent: "swig.Classes"
 ## Methods
 
 ### SwigPtr_PyObject
-`swig::SwigPtr_PyObject::SwigPtr_PyObject()`
+`SwigPtr_PyObject()`
 
 ### SwigPtr_PyObject
-`swig::SwigPtr_PyObject::SwigPtr_PyObject(const SwigPtr_PyObject &item)`
+`SwigPtr_PyObject(item: const SwigPtr_PyObject &)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | item | `const SwigPtr_PyObject &` |  |
 
 ### SwigPtr_PyObject
-`swig::SwigPtr_PyObject::SwigPtr_PyObject(PyObject *obj, bool initial_ref=true)`
+`SwigPtr_PyObject(obj: PyObject *, initial_ref: bool)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -29,33 +29,33 @@ parent: "swig.Classes"
 | initial_ref | `bool` |  |
 
 ### operator=
-`SwigPtr_PyObject & swig::SwigPtr_PyObject::operator=(const SwigPtr_PyObject &item)`
+`operator=(item: const SwigPtr_PyObject &) -> SwigPtr_PyObject &`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | item | `const SwigPtr_PyObject &` |  |
 
 ### ~SwigPtr_PyObject
-`swig::SwigPtr_PyObject::~SwigPtr_PyObject()`
+`~SwigPtr_PyObject()`
 
 ### operator PyObject *
-`swig::SwigPtr_PyObject::operator PyObject *() const`
+`operator PyObject *()`
 
 ### operator->
-`PyObject * swig::SwigPtr_PyObject::operator->() const`
+`operator->() -> PyObject *`
 
 ### SwigPtr_PyObject
-`swig::SwigPtr_PyObject::SwigPtr_PyObject()`
+`SwigPtr_PyObject()`
 
 ### SwigPtr_PyObject
-`swig::SwigPtr_PyObject::SwigPtr_PyObject(const SwigPtr_PyObject &item)`
+`SwigPtr_PyObject(item: const SwigPtr_PyObject &)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | item | `const SwigPtr_PyObject &` |  |
 
 ### SwigPtr_PyObject
-`swig::SwigPtr_PyObject::SwigPtr_PyObject(PyObject *obj, bool initial_ref=true)`
+`SwigPtr_PyObject(obj: PyObject *, initial_ref: bool)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
@@ -63,18 +63,18 @@ parent: "swig.Classes"
 | initial_ref | `bool` |  |
 
 ### operator=
-`SwigPtr_PyObject & swig::SwigPtr_PyObject::operator=(const SwigPtr_PyObject &item)`
+`operator=(item: const SwigPtr_PyObject &) -> SwigPtr_PyObject &`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
 | item | `const SwigPtr_PyObject &` |  |
 
 ### ~SwigPtr_PyObject
-`swig::SwigPtr_PyObject::~SwigPtr_PyObject()`
+`~SwigPtr_PyObject()`
 
 ### operator PyObject *
-`swig::SwigPtr_PyObject::operator PyObject *() const`
+`operator PyObject *()`
 
 ### operator->
-`PyObject * swig::SwigPtr_PyObject::operator->() const`
+`operator->() -> PyObject *`
 

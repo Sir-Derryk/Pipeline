@@ -14,10 +14,5 @@ Proxy of C++ GlobalConfig class.
 ## Methods
 
 ### __init__
-`core_modeler.GlobalConfig.__init__(self)`
-`def __init__(GlobalConfig self) -> GlobalConfig`
-
-| Parameter | Type | Description |
-| --- | --- | --- |
-| self | `Any` |  |
+`__init__(self)`
 

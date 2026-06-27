@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_Shape_getVolume
-`SWIGINTERN PyObject * _wrap_Shape_getVolume(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_Shape_getVolume(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

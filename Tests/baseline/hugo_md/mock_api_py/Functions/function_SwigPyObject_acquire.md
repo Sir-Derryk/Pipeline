@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_acquire
-`SWIGINTERN PyObject * SwigPyObject_acquire(PyObject *v, PyObject *SWIGUNUSEDPARM(args))`
+`SwigPyObject_acquire(v: PyObject *, SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

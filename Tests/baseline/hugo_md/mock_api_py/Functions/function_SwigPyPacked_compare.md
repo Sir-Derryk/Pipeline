@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyPacked_compare
-`SWIGRUNTIME int SwigPyPacked_compare(SwigPyPacked *v, SwigPyPacked *w)`
+`SwigPyPacked_compare(v: SwigPyPacked *, w: SwigPyPacked *) -> SWIGRUNTIME int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

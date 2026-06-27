@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_ArgFail
-`SWIGRUNTIME int SWIG_Python_ArgFail(int argnum)`
+`SWIG_Python_ArgFail(argnum: int) -> SWIGRUNTIME int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

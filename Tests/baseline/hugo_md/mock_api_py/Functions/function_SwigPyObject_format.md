@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_format
-`SWIGRUNTIME PyObject * SwigPyObject_format(const char *fmt, SwigPyObject *v)`
+`SwigPyObject_format(fmt: const char *, v: SwigPyObject *) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

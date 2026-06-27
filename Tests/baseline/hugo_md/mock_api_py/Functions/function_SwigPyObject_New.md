@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_New
-`SWIGRUNTIME PyObject * SwigPyObject_New(void *ptr, swig_type_info *ty, int own)`
+`SwigPyObject_New(ptr: void *, ty: swig_type_info *, own: int) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_SetErrorObj
-`SWIGINTERN void SWIG_Python_SetErrorObj(PyObject *errtype, PyObject *obj)`
+`SWIG_Python_SetErrorObj(errtype: PyObject *, obj: PyObject *) -> SWIGINTERN void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_PyStaticMethod_New
-`SWIGINTERN PyObject * SWIG_PyStaticMethod_New(PyObject *SWIGUNUSEDPARM(self), PyObject *func)`
+`SWIG_PyStaticMethod_New(SWIGUNUSEDPARM: PyObject *, func: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

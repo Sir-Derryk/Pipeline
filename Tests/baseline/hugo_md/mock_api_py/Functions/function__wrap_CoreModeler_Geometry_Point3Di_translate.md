@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_CoreModeler_Geometry_Point3Di_translate
-`SWIGINTERN PyObject * _wrap_CoreModeler_Geometry_Point3Di_translate(PyObject *SWIGUNUSEDPARM(self), PyObject *args, PyObject *kwargs)`
+`_wrap_CoreModeler_Geometry_Point3Di_translate(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

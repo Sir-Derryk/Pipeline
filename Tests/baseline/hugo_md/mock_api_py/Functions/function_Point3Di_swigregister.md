@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### Point3Di_swigregister
-`SWIGINTERN PyObject * Point3Di_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`Point3Di_swigregister(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_SetModule
-`SWIGRUNTIME void SWIG_Python_SetModule(swig_module_info *swig_module)`
+`SWIG_Python_SetModule(swig_module: swig_module_info *) -> SWIGRUNTIME void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

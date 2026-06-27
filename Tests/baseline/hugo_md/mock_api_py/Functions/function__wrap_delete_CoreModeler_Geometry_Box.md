@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_delete_CoreModeler_Geometry_Box
-`SWIGINTERN PyObject * _wrap_delete_CoreModeler_Geometry_Box(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_delete_CoreModeler_Geometry_Box(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

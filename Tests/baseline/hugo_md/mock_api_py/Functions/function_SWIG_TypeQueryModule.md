@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_TypeQueryModule
-`SWIGRUNTIME swig_type_info * SWIG_TypeQueryModule(swig_module_info *start, swig_module_info *end, const char *name)`
+`SWIG_TypeQueryModule(start: swig_module_info *, end: swig_module_info *, name: const char *) -> SWIGRUNTIME swig_type_info *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

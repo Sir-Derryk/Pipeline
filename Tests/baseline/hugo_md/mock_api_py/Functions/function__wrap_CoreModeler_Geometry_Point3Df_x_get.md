@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_CoreModeler_Geometry_Point3Df_x_get
-`SWIGINTERN PyObject * _wrap_CoreModeler_Geometry_Point3Df_x_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_CoreModeler_Geometry_Point3Df_x_get(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

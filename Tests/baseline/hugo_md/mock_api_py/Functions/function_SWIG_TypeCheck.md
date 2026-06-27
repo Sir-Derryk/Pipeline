@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_TypeCheck
-`SWIGRUNTIME swig_cast_info * SWIG_TypeCheck(const char *c, swig_type_info *ty)`
+`SWIG_TypeCheck(c: const char *, ty: swig_type_info *) -> SWIGRUNTIME swig_cast_info *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

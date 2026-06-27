@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_ExceptionType
-`SWIGRUNTIMEINLINE PyObject * SWIG_Python_ExceptionType(swig_type_info *desc)`
+`SWIG_Python_ExceptionType(desc: swig_type_info *) -> SWIGRUNTIMEINLINE PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

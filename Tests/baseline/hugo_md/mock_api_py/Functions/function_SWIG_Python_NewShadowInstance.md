@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_NewShadowInstance
-`SWIGRUNTIME PyObject * SWIG_Python_NewShadowInstance(SwigPyClientData *data, PyObject *swig_this)`
+`SWIG_Python_NewShadowInstance(data: SwigPyClientData *, swig_this: PyObject *) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

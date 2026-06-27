@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_SetSwigThis
-`SWIGRUNTIME int SWIG_Python_SetSwigThis(PyObject *inst, PyObject *swig_this)`
+`SWIG_Python_SetSwigThis(inst: PyObject *, swig_this: PyObject *) -> SWIGRUNTIME int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

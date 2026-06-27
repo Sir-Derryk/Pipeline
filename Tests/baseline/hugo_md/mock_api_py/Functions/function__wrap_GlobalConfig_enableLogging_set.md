@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_GlobalConfig_enableLogging_set
-`SWIGINTERN PyObject * _wrap_GlobalConfig_enableLogging_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_GlobalConfig_enableLogging_set(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

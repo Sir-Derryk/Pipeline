@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_UnpackData
-`SWIGRUNTIME const char * SWIG_UnpackData(const char *c, void *ptr, size_t sz)`
+`SWIG_UnpackData(c: const char *, ptr: void *, sz: size_t) -> SWIGRUNTIME const char *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

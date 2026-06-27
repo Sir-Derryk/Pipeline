@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_GetModule
-`SWIGRUNTIME swig_module_info * SWIG_Python_GetModule(void *SWIGUNUSEDPARM(clientdata))`
+`SWIG_Python_GetModule(SWIGUNUSEDPARM: void *) -> SWIGRUNTIME swig_module_info *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

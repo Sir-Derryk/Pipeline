@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_resetCounters
-`SWIGINTERN PyObject * _wrap_resetCounters(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_resetCounters(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

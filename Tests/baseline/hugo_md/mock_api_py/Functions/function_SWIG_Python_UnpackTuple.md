@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_UnpackTuple
-`SWIGINTERN Py_ssize_t SWIG_Python_UnpackTuple(PyObject *args, const char *name, Py_ssize_t min, Py_ssize_t max, PyObject **objs)`
+`SWIG_Python_UnpackTuple(name: const char *, min: Py_ssize_t, max: Py_ssize_t, objs: PyObject **) -> SWIGINTERN Py_ssize_t`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

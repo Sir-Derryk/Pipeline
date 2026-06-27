@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### swig_varlink_setattr
-`SWIGINTERN int swig_varlink_setattr(swig_varlinkobject *v, char *n, PyObject *p)`
+`swig_varlink_setattr(v: swig_varlinkobject *, n: char *, p: PyObject *) -> SWIGINTERN int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

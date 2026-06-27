@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_RaiseOrModifyTypeError
-`SWIGRUNTIME void SWIG_Python_RaiseOrModifyTypeError(const char *message)`
+`SWIG_Python_RaiseOrModifyTypeError(message: const char *) -> SWIGRUNTIME void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

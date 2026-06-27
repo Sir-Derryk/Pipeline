@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_TypeCache
-`SWIGRUNTIME PyObject * SWIG_Python_TypeCache(void)`
+`SWIG_Python_TypeCache(: void) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

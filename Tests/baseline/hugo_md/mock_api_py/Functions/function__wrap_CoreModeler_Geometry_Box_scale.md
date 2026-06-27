@@ -7,10 +7,9 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_CoreModeler_Geometry_Box_scale
-`SWIGINTERN PyObject * _wrap_CoreModeler_Geometry_Box_scale(PyObject *self, PyObject *args)`
+`_wrap_CoreModeler_Geometry_Box_scale(self) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `PyObject *` |  |
 | args | `PyObject *` |  |
 

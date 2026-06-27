@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### Swig_var_g_diagnosticRunCount_set
-`SWIGINTERN int Swig_var_g_diagnosticRunCount_set(PyObject *_val)`
+`Swig_var_g_diagnosticRunCount_set(_val: PyObject *) -> SWIGINTERN int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

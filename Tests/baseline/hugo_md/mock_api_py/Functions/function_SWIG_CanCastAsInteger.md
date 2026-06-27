@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_CanCastAsInteger
-`SWIGINTERNINLINE int SWIG_CanCastAsInteger(double *d, double min, double max)`
+`SWIG_CanCastAsInteger(d: double *, min: double, max: double) -> SWIGINTERNINLINE int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

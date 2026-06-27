@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_From_float
-`SWIGINTERNINLINE PyObject * SWIG_From_float(float value)`
+`SWIG_From_float(value: float) -> SWIGINTERNINLINE PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

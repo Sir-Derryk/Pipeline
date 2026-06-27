@@ -9,6 +9,5 @@ checkSystemHealth() -&gt; SystemDiagnostics::DiagnosticCode
 ## Methods
 
 ### checkSystemHealth
-`core_modeler.checkSystemHealth()`
-`def checkSystemHealth() -> SystemDiagnostics::DiagnosticCode`
+`checkSystemHealth()`
 

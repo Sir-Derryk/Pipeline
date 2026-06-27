@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### swig_varlink_dealloc
-`SWIGINTERN void swig_varlink_dealloc(swig_varlinkobject *v)`
+`swig_varlink_dealloc(v: swig_varlinkobject *) -> SWIGINTERN void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,11 +7,10 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_NewPointerObj
-`SWIGRUNTIME PyObject * SWIG_Python_NewPointerObj(PyObject *self, void *ptr, swig_type_info *type, int flags)`
+`SWIG_Python_NewPointerObj(self, ptr: void *, type: swig_type_info *, flags: int) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `PyObject *` |  |
 | ptr | `void *` |  |
 | type | `swig_type_info *` |  |
 | flags | `int` |  |

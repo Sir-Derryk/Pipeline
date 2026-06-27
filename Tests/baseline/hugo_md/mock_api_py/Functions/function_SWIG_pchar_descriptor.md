@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_pchar_descriptor
-`SWIGINTERN swig_type_info * SWIG_pchar_descriptor(void)`
+`SWIG_pchar_descriptor(: void) -> SWIGINTERN swig_type_info *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

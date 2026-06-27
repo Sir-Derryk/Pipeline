@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_str_FromChar
-`SWIGINTERN PyObject * SWIG_Python_str_FromChar(const char *c)`
+`SWIG_Python_str_FromChar(c: const char *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

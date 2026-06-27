@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_InstallConstants
-`SWIGINTERN void SWIG_Python_InstallConstants(PyObject *d, swig_const_info constants[])`
+`SWIG_Python_InstallConstants(d: PyObject *, constants: swig_const_info) -> SWIGINTERN void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

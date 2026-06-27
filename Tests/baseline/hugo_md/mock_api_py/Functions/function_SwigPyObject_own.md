@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_own
-`SWIGINTERN PyObject * SwigPyObject_own(PyObject *v, PyObject *args)`
+`SwigPyObject_own(v: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

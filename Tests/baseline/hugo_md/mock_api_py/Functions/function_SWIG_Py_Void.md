@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Py_Void
-`SWIGRUNTIMEINLINE PyObject * SWIG_Py_Void(void)`
+`SWIG_Py_Void(: void) -> SWIGRUNTIMEINLINE PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

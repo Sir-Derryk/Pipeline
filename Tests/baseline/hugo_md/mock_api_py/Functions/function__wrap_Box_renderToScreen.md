@@ -7,10 +7,9 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_Box_renderToScreen
-`SWIGINTERN PyObject * _wrap_Box_renderToScreen(PyObject *self, PyObject *args)`
+`_wrap_Box_renderToScreen(self) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `PyObject *` |  |
 | args | `PyObject *` |  |
 

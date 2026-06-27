@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_From_bool
-`SWIGINTERNINLINE PyObject * SWIG_From_bool(bool value)`
+`SWIG_From_bool(value: bool) -> SWIGINTERNINLINE PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

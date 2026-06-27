@@ -9,7 +9,7 @@ Class decorator for adding a metaclass to a SWIG wrapped class - a slimmed down 
 ## Methods
 
 ### _swig_add_metaclass
-`core_modeler._swig_add_metaclass(metaclass)`
+`_swig_add_metaclass(metaclass)`
 
 Class decorator for adding a metaclass to a SWIG wrapped class - a slimmed down version of six.add_metaclass
 

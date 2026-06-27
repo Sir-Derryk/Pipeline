@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_append
-`SWIGRUNTIME PyObject * SwigPyObject_append(PyObject *v, PyObject *next)`
+`SwigPyObject_append(v: PyObject *, next: PyObject *) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

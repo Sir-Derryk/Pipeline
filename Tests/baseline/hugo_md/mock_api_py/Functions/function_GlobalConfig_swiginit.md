@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### GlobalConfig_swiginit
-`SWIGINTERN PyObject * GlobalConfig_swiginit(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`GlobalConfig_swiginit(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

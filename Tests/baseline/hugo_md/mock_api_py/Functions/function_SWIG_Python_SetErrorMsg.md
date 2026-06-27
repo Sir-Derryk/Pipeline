@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_SetErrorMsg
-`SWIGINTERN void SWIG_Python_SetErrorMsg(PyObject *errtype, const char *msg)`
+`SWIG_Python_SetErrorMsg(errtype: PyObject *, msg: const char *) -> SWIGINTERN void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_TypeOnce
-`SWIGRUNTIME PyTypeObject * SwigPyObject_TypeOnce(void)`
+`SwigPyObject_TypeOnce(: void) -> SWIGRUNTIME PyTypeObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

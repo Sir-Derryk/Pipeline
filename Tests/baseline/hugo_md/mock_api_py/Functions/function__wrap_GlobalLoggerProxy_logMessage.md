@@ -7,10 +7,9 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_GlobalLoggerProxy_logMessage
-`SWIGINTERN PyObject * _wrap_GlobalLoggerProxy_logMessage(PyObject *self, PyObject *args)`
+`_wrap_GlobalLoggerProxy_logMessage(self) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `PyObject *` |  |
 | args | `PyObject *` |  |
 

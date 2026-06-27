@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_Point3Df_y_set
-`SWIGINTERN PyObject * _wrap_Point3Df_y_set(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_Point3Df_y_set(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

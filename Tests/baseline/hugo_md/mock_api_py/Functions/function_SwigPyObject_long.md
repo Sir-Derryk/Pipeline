@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_long
-`SWIGRUNTIME PyObject * SwigPyObject_long(SwigPyObject *v)`
+`SwigPyObject_long(v: SwigPyObject *) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

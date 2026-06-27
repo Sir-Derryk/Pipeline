@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_InitShadowInstance
-`SWIGINTERN PyObject * SWIG_Python_InitShadowInstance(PyObject *args)`
+`SWIG_Python_InitShadowInstance() -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

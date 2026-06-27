@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_GetSwigThis
-`SWIGRUNTIME SwigPyObject * SWIG_Python_GetSwigThis(PyObject *pyobj)`
+`SWIG_Python_GetSwigThis(pyobj: PyObject *) -> SWIGRUNTIME SwigPyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

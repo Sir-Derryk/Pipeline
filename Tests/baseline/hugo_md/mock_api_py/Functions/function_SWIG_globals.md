@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_globals
-`SWIGINTERN PyObject * SWIG_globals(void)`
+`SWIG_globals(: void) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

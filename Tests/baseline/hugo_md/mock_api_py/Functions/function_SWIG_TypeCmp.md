@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_TypeCmp
-`SWIGRUNTIME int SWIG_TypeCmp(const char *nb, const char *tb)`
+`SWIG_TypeCmp(nb: const char *, tb: const char *) -> SWIGRUNTIME int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

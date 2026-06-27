@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_TypeDynamicCast
-`SWIGRUNTIME swig_type_info * SWIG_TypeDynamicCast(swig_type_info *ty, void **ptr)`
+`SWIG_TypeDynamicCast(ty: swig_type_info *, ptr: void **) -> SWIGRUNTIME swig_type_info *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_AsCharPtrAndSize
-`SWIGINTERN int SWIG_AsCharPtrAndSize(PyObject *obj, char **cptr, size_t *psize, int *alloc)`
+`SWIG_AsCharPtrAndSize(obj: PyObject *, cptr: char **, psize: size_t *, alloc: int *) -> SWIGINTERN int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

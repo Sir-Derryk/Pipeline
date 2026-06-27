@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### Box_swigregister
-`SWIGINTERN PyObject * Box_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`Box_swigregister(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -115,16 +115,9 @@ document.addEventListener("DOMContentLoaded", () => {
     const treeElement = buildTree(navData);
     toctreeContainer.appendChild(treeElement);
 
-    // Auto-scroll the active row as high as possible inside the toctree container
     const activeRow = toctreeContainer.querySelector(".OdaDocTOCRow.active");
     if (activeRow) {
-        let offset = 0;
-        let curr = activeRow;
-        while (curr && curr !== toctreeContainer) {
-            offset += curr.offsetTop;
-            curr = curr.offsetParent;
-        }
-        toctreeContainer.scrollTop = offset;
+        activeRow.scrollIntoView({ block: "nearest", behavior: "instant" });
     }
 
     // Dynamic Panel Resize Splitter Implementation

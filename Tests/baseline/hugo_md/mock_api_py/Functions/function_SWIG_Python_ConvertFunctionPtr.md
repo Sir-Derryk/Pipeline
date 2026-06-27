@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_ConvertFunctionPtr
-`SWIGRUNTIME int SWIG_Python_ConvertFunctionPtr(PyObject *obj, void **ptr, swig_type_info *ty)`
+`SWIG_Python_ConvertFunctionPtr(obj: PyObject *, ptr: void **, ty: swig_type_info *) -> SWIGRUNTIME int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

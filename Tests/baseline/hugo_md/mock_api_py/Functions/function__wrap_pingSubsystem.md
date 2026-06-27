@@ -7,10 +7,9 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_pingSubsystem
-`SWIGINTERN PyObject * _wrap_pingSubsystem(PyObject *self, PyObject *args)`
+`_wrap_pingSubsystem(self) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `PyObject *` |  |
 | args | `PyObject *` |  |
 

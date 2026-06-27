@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_PackData
-`SWIGRUNTIME char * SWIG_PackData(char *c, void *ptr, size_t sz)`
+`SWIG_PackData(c: char *, ptr: void *, sz: size_t) -> SWIGRUNTIME char *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

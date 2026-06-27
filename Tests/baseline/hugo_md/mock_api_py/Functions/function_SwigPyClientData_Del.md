@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyClientData_Del
-`SWIGRUNTIME void SwigPyClientData_Del(SwigPyClientData *data)`
+`SwigPyClientData_Del(data: SwigPyClientData *) -> SWIGRUNTIME void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

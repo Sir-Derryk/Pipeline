@@ -9,6 +9,5 @@ resetCounters()
 ## Methods
 
 ### resetCounters
-`core_modeler.resetCounters()`
-`def resetCounters()`
+`resetCounters()`
 

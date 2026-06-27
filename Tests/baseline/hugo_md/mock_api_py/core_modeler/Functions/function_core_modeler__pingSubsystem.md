@@ -9,8 +9,7 @@ pingSubsystem(unsigned int timeoutMs) -&gt; bool
 ## Methods
 
 ### pingSubsystem
-`core_modeler.pingSubsystem(*args)`
-`def pingSubsystem(unsigned int timeoutMs) -> bool`
+`pingSubsystem(timeoutMs: unsigned int)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

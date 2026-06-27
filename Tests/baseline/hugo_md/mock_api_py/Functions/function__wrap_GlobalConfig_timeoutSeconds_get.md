@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_GlobalConfig_timeoutSeconds_get
-`SWIGINTERN PyObject * _wrap_GlobalConfig_timeoutSeconds_get(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_GlobalConfig_timeoutSeconds_get(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

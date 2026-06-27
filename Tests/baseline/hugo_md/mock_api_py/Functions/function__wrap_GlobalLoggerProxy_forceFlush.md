@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_GlobalLoggerProxy_forceFlush
-`SWIGINTERN PyObject * _wrap_GlobalLoggerProxy_forceFlush(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_GlobalLoggerProxy_forceFlush(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

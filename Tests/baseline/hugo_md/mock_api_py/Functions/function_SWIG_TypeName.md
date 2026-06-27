@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_TypeName
-`SWIGRUNTIMEINLINE const char * SWIG_TypeName(const swig_type_info *ty)`
+`SWIG_TypeName(ty: const swig_type_info *) -> SWIGRUNTIMEINLINE const char *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### _wrap_delete_Model
-`SWIGINTERN PyObject * _wrap_delete_Model(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`_wrap_delete_Model(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

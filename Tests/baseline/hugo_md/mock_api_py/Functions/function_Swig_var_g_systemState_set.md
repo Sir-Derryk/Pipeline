@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### Swig_var_g_systemState_set
-`SWIGINTERN int Swig_var_g_systemState_set(PyObject *_val)`
+`Swig_var_g_systemState_set(_val: PyObject *) -> SWIGINTERN int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

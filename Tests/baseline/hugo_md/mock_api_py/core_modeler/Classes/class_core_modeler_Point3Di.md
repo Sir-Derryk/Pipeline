@@ -14,24 +14,19 @@ Proxy of C++ CoreModeler::Geometry::Point3D&lt; int &gt; class.
 ## Methods
 
 ### __init__
-`core_modeler.Point3Di.__init__(self, *args)`
-`def __init__(Point3Di self) -> Point3Di`
-`def __init__(Point3Di self, int valX, int valY, int valZ) -> Point3Di`
+`__init__(self, valX: int, valY: int, valZ: int)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `Any` |  |
 | valX | `int` |  |
 | valY | `int` |  |
 | valZ | `int` |  |
 
 ### translate
-`core_modeler.Point3Di.translate(self, dx, dy, dz)`
-`def translate(Point3Di self, int dx, int dy, int dz)`
+`translate(self, dx: int, dy: int, dz: int)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `Any` |  |
 | dx | `int` |  |
 | dy | `int` |  |
 | dz | `int` |  |

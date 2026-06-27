@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### GlobalConfig_swigregister
-`SWIGINTERN PyObject * GlobalConfig_swigregister(PyObject *SWIGUNUSEDPARM(self), PyObject *args)`
+`GlobalConfig_swigregister(SWIGUNUSEDPARM: PyObject *) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

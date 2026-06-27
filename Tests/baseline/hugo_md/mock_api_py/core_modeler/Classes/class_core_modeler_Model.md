@@ -14,11 +14,9 @@ Proxy of C++ CoreModeler::Model class.
 ## Methods
 
 ### __init__
-`core_modeler.Model.__init__(self, mode)`
-`def __init__(Model self, CoreModeler::RenderMode mode) -> Model`
+`__init__(self, mode: enum CoreModeler::RenderMode)`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
-| self | `Any` |  |
 | mode | `enum CoreModeler::RenderMode` |  |
 

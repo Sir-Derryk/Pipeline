@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_addvarlink
-`SWIGINTERN void SWIG_Python_addvarlink(PyObject *p, const char *name, PyObject *(*get_attr)(void), int(*set_attr)(PyObject *p))`
+`SWIG_Python_addvarlink(p: PyObject *, name: const char *, get_attr: PyObject *(*)(void), set_attr: int(*)(PyObject *p)) -> SWIGINTERN void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

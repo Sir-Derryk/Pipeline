@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### Swig_var_DIAG_SUCCESS_set
-`SWIGINTERN int Swig_var_DIAG_SUCCESS_set(PyObject *)`
+`Swig_var_DIAG_SUCCESS_set(: PyObject *) -> SWIGINTERN int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

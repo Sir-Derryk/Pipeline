@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyObject_next
-`SWIGRUNTIME PyObject * SwigPyObject_next(PyObject *v, PyObject *SWIGUNUSEDPARM(args))`
+`SwigPyObject_next(v: PyObject *, SWIGUNUSEDPARM: PyObject *) -> SWIGRUNTIME PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### swig_varlink_type
-`SWIGINTERN PyTypeObject * swig_varlink_type(void)`
+`swig_varlink_type(: void) -> SWIGINTERN PyTypeObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

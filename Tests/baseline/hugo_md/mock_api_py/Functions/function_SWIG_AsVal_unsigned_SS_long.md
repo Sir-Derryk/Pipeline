@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_AsVal_unsigned_SS_long
-`SWIGINTERN int SWIG_AsVal_unsigned_SS_long(PyObject *obj, unsigned long *val)`
+`SWIG_AsVal_unsigned_SS_long(obj: PyObject *, val: unsigned long *) -> SWIGINTERN int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

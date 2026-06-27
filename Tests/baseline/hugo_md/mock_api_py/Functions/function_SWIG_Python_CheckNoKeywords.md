@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_CheckNoKeywords
-`SWIGINTERN int SWIG_Python_CheckNoKeywords(PyObject *kwargs, const char *name)`
+`SWIG_Python_CheckNoKeywords(name: const char *) -> SWIGINTERN int`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

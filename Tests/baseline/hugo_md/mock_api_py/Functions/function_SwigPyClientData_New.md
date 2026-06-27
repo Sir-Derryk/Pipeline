@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SwigPyClientData_New
-`SWIGRUNTIME SwigPyClientData * SwigPyClientData_New(PyObject *obj)`
+`SwigPyClientData_New(obj: PyObject *) -> SWIGRUNTIME SwigPyClientData *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

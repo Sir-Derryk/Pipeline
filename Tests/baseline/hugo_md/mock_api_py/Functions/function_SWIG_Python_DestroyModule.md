@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### SWIG_Python_DestroyModule
-`SWIGRUNTIME void SWIG_Python_DestroyModule(PyObject *obj)`
+`SWIG_Python_DestroyModule(obj: PyObject *) -> SWIGRUNTIME void`
 
 | Parameter | Type | Description |
 | --- | --- | --- |

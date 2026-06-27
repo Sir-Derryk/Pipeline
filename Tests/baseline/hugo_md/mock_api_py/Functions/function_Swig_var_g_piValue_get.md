@@ -7,7 +7,7 @@ parent: "Functions"
 ## Methods
 
 ### Swig_var_g_piValue_get
-`SWIGINTERN PyObject * Swig_var_g_piValue_get(void)`
+`Swig_var_g_piValue_get(: void) -> SWIGINTERN PyObject *`
 
 | Parameter | Type | Description |
 | --- | --- | --- |
