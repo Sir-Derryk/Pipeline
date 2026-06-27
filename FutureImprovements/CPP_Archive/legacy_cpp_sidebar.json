@@ -1,0 +1,402 @@
+[
+  {
+    "title": "Symbol Reference",
+    "url": "",
+    "children": [
+      {
+        "title": "CoreModeler Namespace",
+        "url": "CoreModeler.html",
+        "children": [
+          {
+            "title": "CoreModeler::Geometry Namespace",
+            "url": "CoreModeler__Geometry.html",
+            "children": [
+              {
+                "title": "Classes",
+                "url": "!!CLASSES_CoreModeler__Geometry.html",
+                "children": [
+                  {
+                    "title": "Box Class",
+                    "url": "CoreModeler__Geometry__Box.html",
+                    "children": [
+                      {
+                        "title": "Box::Box Constructor",
+                        "url": "CoreModeler__Geometry__Box__Box@double@double@double.html",
+                        "children": []
+                      },
+                      {
+                        "title": "Box Methods",
+                        "url": "!!MEMBERTYPE_Methods_CoreModeler__Geometry__Box.html",
+                        "children": [
+                          {
+                            "title": "draw Method",
+                            "url": "!!OVERLOADED_Methods_draw_CoreModeler__Geometry__Box.html",
+                            "children": [
+                              {
+                                "title": "Box::draw Method ()",
+                                "url": "CoreModeler__Geometry__Box__draw.html",
+                                "children": []
+                              },
+                              {
+                                "title": "Box::draw Method (RenderMode)",
+                                "url": "CoreModeler__Geometry__Box__draw@RenderMode.html",
+                                "children": []
+                              }
+                            ]
+                          },
+                          {
+                            "title": "Box::getVolume Method",
+                            "url": "CoreModeler__Geometry__Box__getVolume@const.html",
+                            "children": []
+                          },
+                          {
+                            "title": "scale Method",
+                            "url": "!!OVERLOADED_Methods_scale_CoreModeler__Geometry__Box.html",
+                            "children": [
+                              {
+                                "title": "Box::scale Method (double)",
+                                "url": "CoreModeler__Geometry__Box__scale@double.html",
+                                "children": []
+                              },
+                              {
+                                "title": "Box::scale Method (double, double, double)",
+                                "url": "CoreModeler__Geometry__Box__scale@double@double@double.html",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "IDrawable Class",
+                    "url": "CoreModeler__Geometry__IDrawable.html",
+                    "children": [
+                      {
+                        "title": "IDrawable::~IDrawable Destructor",
+                        "url": "CoreModeler__Geometry__IDrawable__~IDrawable.html",
+                        "children": []
+                      },
+                      {
+                        "title": "IDrawable Methods",
+                        "url": "!!MEMBERTYPE_Methods_CoreModeler__Geometry__IDrawable.html",
+                        "children": [
+                          {
+                            "title": "draw Method",
+                            "url": "!!OVERLOADED_Methods_draw_CoreModeler__Geometry__IDrawable.html",
+                            "children": [
+                              {
+                                "title": "IDrawable::draw Method ()",
+                                "url": "CoreModeler__Geometry__IDrawable__draw.html",
+                                "children": []
+                              },
+                              {
+                                "title": "IDrawable::draw Method (RenderMode)",
+                                "url": "CoreModeler__Geometry__IDrawable__draw@RenderMode.html",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Point3D<typename T> Template",
+                    "url": "CoreModeler__Geometry__Point3D@typenameT.html",
+                    "children": [
+                      {
+                        "title": "Point3D Constructor",
+                        "url": "!!OVERLOADED_Point3D_CoreModeler__Geometry__Point3D@typenameT.html",
+                        "children": [
+                          {
+                            "title": "Point3D<typename T>::Point3D Constructor ()",
+                            "url": "CoreModeler__Geometry__Point3D@typenameT__Point3D.html",
+                            "children": []
+                          },
+                          {
+                            "title": "Point3D<typename T>::Point3D Constructor (T, T, T)",
+                            "url": "CoreModeler__Geometry__Point3D@typenameT__Point3D@T@T@T.html",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Point3D<typename T> Data Members",
+                        "url": "!!MEMBERTYPE_Data_Members_CoreModeler__Geometry__Point3D@typenameT.html",
+                        "children": [
+                          {
+                            "title": "Point3D<typename T>::x Data Member",
+                            "url": "CoreModeler__Geometry__Point3D@typenameT__x.html",
+                            "children": []
+                          },
+                          {
+                            "title": "Point3D<typename T>::y Data Member",
+                            "url": "CoreModeler__Geometry__Point3D@typenameT__y.html",
+                            "children": []
+                          },
+                          {
+                            "title": "Point3D<typename T>::z Data Member",
+                            "url": "CoreModeler__Geometry__Point3D@typenameT__z.html",
+                            "children": []
+                          }
+                        ]
+                      },
+                      {
+                        "title": "Point3D<typename T> Methods",
+                        "url": "!!MEMBERTYPE_Methods_CoreModeler__Geometry__Point3D@typenameT.html",
+                        "children": [
+                          {
+                            "title": "Point3D<typename T>::translate Method",
+                            "url": "CoreModeler__Geometry__Point3D@typenameT__translate@T@T@T.html",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Shape Class",
+                    "url": "CoreModeler__Geometry__Shape.html",
+                    "children": [
+                      {
+                        "title": "Shape::~Shape Destructor",
+                        "url": "CoreModeler__Geometry__Shape__~Shape.html",
+                        "children": []
+                      },
+                      {
+                        "title": "Shape Methods",
+                        "url": "!!MEMBERTYPE_Methods_CoreModeler__Geometry__Shape.html",
+                        "children": [
+                          {
+                            "title": "Shape::getVolume Method",
+                            "url": "CoreModeler__Geometry__Shape__getVolume@const.html",
+                            "children": []
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Classes",
+            "url": "!!CLASSES_CoreModeler.html",
+            "children": [
+              {
+                "title": "Model Class",
+                "url": "CoreModeler__Model.html",
+                "children": [
+                  {
+                    "title": "Model::Model Constructor",
+                    "url": "CoreModeler__Model__Model@RenderMode.html",
+                    "children": []
+                  },
+                  {
+                    "title": "Model Classes",
+                    "url": "!!MEMBERTYPE_Classes_CoreModeler__Model.html",
+                    "children": [
+                      {
+                        "title": "Model::MetadataIterator Class",
+                        "url": "CoreModeler__Model__MetadataIterator.html",
+                        "children": [
+                          {
+                            "title": "MetadataIterator Methods",
+                            "url": "!!MEMBERTYPE_Methods_CoreModeler__Model__MetadataIterator.html",
+                            "children": [
+                              {
+                                "title": "Model::MetadataIterator::hasNext Method",
+                                "url": "CoreModeler__Model__MetadataIterator__hasNext@const.html",
+                                "children": []
+                              },
+                              {
+                                "title": "Model::MetadataIterator::next Method",
+                                "url": "CoreModeler__Model__MetadataIterator__next.html",
+                                "children": []
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "title": "Model Methods",
+                    "url": "!!MEMBERTYPE_Methods_CoreModeler__Model.html",
+                    "children": [
+                      {
+                        "title": "Model::clear Method",
+                        "url": "CoreModeler__Model__clear.html",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Structs, Records, Enums",
+            "url": "!!RECORDS_CoreModeler.html",
+            "children": [
+              {
+                "title": "CoreModeler::RenderMode Enumeration",
+                "url": "CoreModeler__RenderMode.html",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "SystemDiagnostics Namespace",
+        "url": "SystemDiagnostics.html",
+        "children": [
+          {
+            "title": "Functions",
+            "url": "!!FUNCTIONS_SystemDiagnostics.html",
+            "children": [
+              {
+                "title": "SystemDiagnostics::checkSystemHealth Function",
+                "url": "SystemDiagnostics__checkSystemHealth.html",
+                "children": []
+              },
+              {
+                "title": "SystemDiagnostics::pingSubsystem Function",
+                "url": "SystemDiagnostics__pingSubsystem.html",
+                "children": []
+              },
+              {
+                "title": "SystemDiagnostics::pingSubsystem Function",
+                "url": "SystemDiagnostics__pingSubsystem@unsigned_int.html",
+                "children": []
+              },
+              {
+                "title": "SystemDiagnostics::resetCounters Function",
+                "url": "SystemDiagnostics__resetCounters.html",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Types",
+            "url": "!!TYPES_SystemDiagnostics.html",
+            "children": [
+              {
+                "title": "SystemDiagnostics::DiagnosticCode Type",
+                "url": "SystemDiagnostics__DiagnosticCode.html",
+                "children": []
+              }
+            ]
+          },
+          {
+            "title": "Variables",
+            "url": "!!VARIABLES_SystemDiagnostics.html",
+            "children": [
+              {
+                "title": "SystemDiagnostics::DIAG_FAILURE Variable",
+                "url": "SystemDiagnostics__DIAG_FAILURE.html",
+                "children": []
+              },
+              {
+                "title": "SystemDiagnostics::DIAG_SUCCESS Variable",
+                "url": "SystemDiagnostics__DIAG_SUCCESS.html",
+                "children": []
+              },
+              {
+                "title": "SystemDiagnostics::g_diagnosticRunCount Variable",
+                "url": "SystemDiagnostics__g_diagnosticRunCount.html",
+                "children": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Classes",
+        "url": "!!CLASSES.html",
+        "children": [
+          {
+            "title": "GlobalLogger Class",
+            "url": "GlobalLogger.html",
+            "children": [
+              {
+                "title": "GlobalLogger Methods",
+                "url": "!!MEMBERTYPE_Methods_GlobalLogger.html",
+                "children": [
+                  {
+                    "title": "GlobalLogger::forceFlush Method",
+                    "url": "GlobalLogger__forceFlush.html",
+                    "children": []
+                  },
+                  {
+                    "title": "logMessage Method",
+                    "url": "!!OVERLOADED_Methods_logMessage_GlobalLogger.html",
+                    "children": [
+                      {
+                        "title": "GlobalLogger::logMessage Method (const char*)",
+                        "url": "GlobalLogger__logMessage@const_char_.html",
+                        "children": []
+                      },
+                      {
+                        "title": "GlobalLogger::logMessage Method (const char*, int)",
+                        "url": "GlobalLogger__logMessage@const_char_@int.html",
+                        "children": []
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Functions",
+        "url": "!!FUNCTIONS.html",
+        "children": [
+          {
+            "title": "globalInitialize Function",
+            "url": "globalInitialize@const_GlobalConfig_.html",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Structs, Records, Enums",
+        "url": "!!RECORDS.html",
+        "children": [
+          {
+            "title": "GlobalConfig Structure",
+            "url": "GlobalConfig.html",
+            "children": []
+          },
+          {
+            "title": "GlobalStatus Enumeration",
+            "url": "GlobalStatus.html",
+            "children": []
+          }
+        ]
+      },
+      {
+        "title": "Variables",
+        "url": "!!VARIABLES.html",
+        "children": [
+          {
+            "title": "g_piValue Variable",
+            "url": "g_piValue.html",
+            "children": []
+          },
+          {
+            "title": "g_systemState Variable",
+            "url": "g_systemState.html",
+            "children": []
+          }
+        ]
+      }
+    ]
+  }
+]
