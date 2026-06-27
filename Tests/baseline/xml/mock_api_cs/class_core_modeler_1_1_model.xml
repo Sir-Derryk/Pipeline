@@ -1,0 +1,306 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_model" kind="class" language="C#" prot="public">
+    <compoundname>CoreModeler::Model</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemIDisposable</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemIDisposable</basecompoundref>
+    <innerclass refid="class_core_modeler_1_1_model_1_1_metadata_iterator" prot="public">CoreModeler::Model::MetadataIterator</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_model_1a68b6e6098f0eb3324ec4823841da3ecc" prot="private" static="no" mutable="no">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>System Runtime InteropServices global::HandleRef CoreModeler.Model::swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Model.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="14" column="57" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_model_1a48b92b430c38a5a98f444725b169c89f" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CoreModeler.Model::swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.Model.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="15" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1a1129de62f373d3c25f9f898fc1d2d8f7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.Model</definition>
+        <argsstring>(global::System.IntPtr cPtr, bool cMemoryOwn)</argsstring>
+        <name>Model</name>
+        <qualifiedname>CoreModeler.Model.Model</qualifiedname>
+        <param>
+          <type>global::System.IntPtr</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="17" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1a1129de62f373d3c25f9f898fc1d2d8f7" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.Model</definition>
+        <argsstring>(global::System.IntPtr cPtr, bool cMemoryOwn)</argsstring>
+        <name>Model</name>
+        <qualifiedname>CoreModeler.Model.Model</qualifiedname>
+        <param>
+          <type>global::System.IntPtr</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="17" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1ad1cac0b84dfaf498564534f2b6febed2" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>static global::System.Runtime.InteropServices.HandleRef CoreModeler.Model.getCPtr</definition>
+        <argsstring>(Model obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Model.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_model" kindref="compound">Model</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="22" column="65" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="22" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1ad1cac0b84dfaf498564534f2b6febed2" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>static global::System.Runtime.InteropServices.HandleRef CoreModeler.Model.getCPtr</definition>
+        <argsstring>(Model obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Model.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_model" kindref="compound">Model</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="22" column="65" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="22" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1aadfe5dd4db599cf137fccefd2816aaf3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.~Model</definition>
+        <argsstring>()</argsstring>
+        <name>~Model</name>
+        <qualifiedname>CoreModeler.Model.~Model</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="26" column="3" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="26" bodyend="28"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1aadfe5dd4db599cf137fccefd2816aaf3" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.~Model</definition>
+        <argsstring>()</argsstring>
+        <name>~Model</name>
+        <qualifiedname>CoreModeler.Model.~Model</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="26" column="3" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="26" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1ac480c8c27e8c65ebacf91d36cde11de4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Model.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Model.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="30" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1a1c5bf9c179560eae10f91e814bb0db72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.Model</definition>
+        <argsstring>(CoreModeler.RenderMode mode)</argsstring>
+        <name>Model</name>
+        <qualifiedname>CoreModeler.Model.Model</qualifiedname>
+        <param>
+          <type>CoreModeler.RenderMode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="47" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="47" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1ac480c8c27e8c65ebacf91d36cde11de4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Model.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Model.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="30" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1aa4567c849c18549449cef205bb6be968" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.Model</definition>
+        <argsstring>(RenderMode mode)</argsstring>
+        <name>Model</name>
+        <qualifiedname>CoreModeler.Model.Model</qualifiedname>
+        <param>
+          <type>RenderMode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="47" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="47" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1ad2473e8a32be81e058397a589beb81f3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CoreModeler.Model.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Model.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="35" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="35" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1ad2473e8a32be81e058397a589beb81f3" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CoreModeler.Model.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Model.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" line="35" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Model.cs" bodystart="35" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CoreModeler.Model</label>
+        <link refid="class_core_modeler_1_1_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CoreModeler.Model</label>
+        <link refid="class_core_modeler_1_1_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" line="13" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Model.cs" bodystart="13" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_model_1ac480c8c27e8c65ebacf91d36cde11de4" prot="public" virt="non-virtual"><scope>CoreModeler::Model</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_model_1ad2473e8a32be81e058397a589beb81f3" prot="protected" virt="virtual"><scope>CoreModeler::Model</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_model_1ac480c8c27e8c65ebacf91d36cde11de4" prot="public" virt="non-virtual"><scope>CoreModeler::Model</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_model_1ad2473e8a32be81e058397a589beb81f3" prot="protected" virt="virtual"><scope>CoreModeler::Model</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_model_1ad1cac0b84dfaf498564534f2b6febed2" prot="package" virt="non-virtual"><scope>CoreModeler::Model</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_model_1ad1cac0b84dfaf498564534f2b6febed2" prot="package" virt="non-virtual"><scope>CoreModeler::Model</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_model_1a1129de62f373d3c25f9f898fc1d2d8f7" prot="package" virt="non-virtual"><scope>CoreModeler::Model</scope><name>Model</name></member>
+      <member refid="class_core_modeler_1_1_model_1a1c5bf9c179560eae10f91e814bb0db72" prot="public" virt="non-virtual"><scope>CoreModeler::Model</scope><name>Model</name></member>
+      <member refid="class_core_modeler_1_1_model_1a1129de62f373d3c25f9f898fc1d2d8f7" prot="package" virt="non-virtual"><scope>CoreModeler::Model</scope><name>Model</name></member>
+      <member refid="class_core_modeler_1_1_model_1aa4567c849c18549449cef205bb6be968" prot="public" virt="non-virtual"><scope>CoreModeler::Model</scope><name>Model</name></member>
+      <member refid="class_core_modeler_1_1_model_1a48b92b430c38a5a98f444725b169c89f" prot="protected" virt="non-virtual"><scope>CoreModeler::Model</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_model_1a68b6e6098f0eb3324ec4823841da3ecc" prot="private" virt="non-virtual"><scope>CoreModeler::Model</scope><name>swigCPtr</name></member>
+      <member refid="class_core_modeler_1_1_model_1aadfe5dd4db599cf137fccefd2816aaf3" prot="private" virt="non-virtual"><scope>CoreModeler::Model</scope><name>~Model</name></member>
+      <member refid="class_core_modeler_1_1_model_1aadfe5dd4db599cf137fccefd2816aaf3" prot="private" virt="non-virtual"><scope>CoreModeler::Model</scope><name>~Model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

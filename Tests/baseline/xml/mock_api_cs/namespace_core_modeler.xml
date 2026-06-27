@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespace_core_modeler" kind="namespace" language="C#">
+    <compoundname>CoreModeler</compoundname>
+    <innerclass refid="class_core_modeler_1_1_box" prot="public">CoreModeler::Box</innerclass>
+    <innerclass refid="class_core_modeler_1_1_i_drawable" prot="public">CoreModeler::IDrawable</innerclass>
+    <innerclass refid="class_core_modeler_1_1_model" prot="public">CoreModeler::Model</innerclass>
+    <innerclass refid="class_core_modeler_1_1_point3_dd" prot="public">CoreModeler::Point3Dd</innerclass>
+    <innerclass refid="class_core_modeler_1_1_point3_df" prot="public">CoreModeler::Point3Df</innerclass>
+    <innerclass refid="class_core_modeler_1_1_point3_di" prot="public">CoreModeler::Point3Di</innerclass>
+    <innerclass refid="class_core_modeler_1_1_shape" prot="public">CoreModeler::Shape</innerclass>
+    <innernamespace refid="namespace_core_modeler_1_1_geometry">CoreModeler::Geometry</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddf" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>RenderMode</name>
+        <qualifiedname>CoreModeler.RenderMode</qualifiedname>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa33e42d0f3b166a4c405127e4412fbef2" prot="public">
+          <name>Wireframe</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa95e4c683b31aacc6c251c95780ff6808" prot="public">
+          <name>Shaded</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa727faf49bd334ad8c6692934ff652843" prot="public">
+          <name>Textured</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa33e42d0f3b166a4c405127e4412fbef2" prot="public">
+          <name>Wireframe</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa95e4c683b31aacc6c251c95780ff6808" prot="public">
+          <name>Shaded</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa727faf49bd334ad8c6692934ff652843" prot="public">
+          <name>Textured</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/RenderMode.cs" line="13" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/RenderMode.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddf" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>RenderMode</name>
+        <qualifiedname>CoreModeler.RenderMode</qualifiedname>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa33e42d0f3b166a4c405127e4412fbef2" prot="public">
+          <name>Wireframe</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa95e4c683b31aacc6c251c95780ff6808" prot="public">
+          <name>Shaded</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa727faf49bd334ad8c6692934ff652843" prot="public">
+          <name>Textured</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa33e42d0f3b166a4c405127e4412fbef2" prot="public">
+          <name>Wireframe</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa95e4c683b31aacc6c251c95780ff6808" prot="public">
+          <name>Shaded</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_core_modeler_1a153e4d50ee475f71a62b61fc887c3ddfa727faf49bd334ad8c6692934ff652843" prot="public">
+          <name>Textured</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/RenderMode.cs" line="13" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/RenderMode.cs" bodystart="13" bodyend="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/Box.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

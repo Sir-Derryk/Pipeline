@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="core__modeler_8py" kind="file" language="Python">
+    <compoundname>core_modeler.py</compoundname>
+    <innerclass refid="classcore__modeler_1_1___swig_non_dynamic_meta" prot="protected">core_modeler::_SwigNonDynamicMeta</innerclass>
+    <innerclass refid="classcore__modeler_1_1_global_config" prot="public">core_modeler::GlobalConfig</innerclass>
+    <innerclass refid="classcore__modeler_1_1_global_logger_proxy" prot="public">core_modeler::GlobalLoggerProxy</innerclass>
+    <innerclass refid="classcore__modeler_1_1_model" prot="public">core_modeler::Model</innerclass>
+    <innerclass refid="classcore__modeler_1_1_i_drawable" prot="public">core_modeler::IDrawable</innerclass>
+    <innerclass refid="classcore__modeler_1_1_shape" prot="public">core_modeler::Shape</innerclass>
+    <innerclass refid="classcore__modeler_1_1_box" prot="public">core_modeler::Box</innerclass>
+    <innerclass refid="classcore__modeler_1_1_point3_di" prot="public">core_modeler::Point3Di</innerclass>
+    <innerclass refid="classcore__modeler_1_1_point3_df" prot="public">core_modeler::Point3Df</innerclass>
+    <innerclass refid="classcore__modeler_1_1_point3_dd" prot="public">core_modeler::Point3Dd</innerclass>
+    <innernamespace refid="namespacecore__modeler">core_modeler</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,17 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_21496a7a9b578f8b47a0d18336b26a65" kind="dir">
+    <compoundname>D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry</compoundname>
+    <innerfile refid="_core_modeler_2_geometry_2_box_8java">Box.java</innerfile>
+    <innerfile refid="_core_modeler_2_geometry_2_i_drawable_8java">IDrawable.java</innerfile>
+    <innerfile refid="_core_modeler_2_geometry_2_point3_dd_8java">Point3Dd.java</innerfile>
+    <innerfile refid="_core_modeler_2_geometry_2_point3_df_8java">Point3Df.java</innerfile>
+    <innerfile refid="_core_modeler_2_geometry_2_point3_di_8java">Point3Di.java</innerfile>
+    <innerfile refid="_core_modeler_2_geometry_2_shape_8java">Shape.java</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/"/>
+  </compounddef>
+</doxygen>

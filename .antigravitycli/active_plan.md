@@ -33,7 +33,7 @@ gantt
     TSK-RND-01 (Jinja2 & Hugo Markdown)  :done, t11, after t10, 4d
     TSK-RND-02 (Standalone Static HTML)  :done, t12, after t11, 3d
     TSK-RND-09 (Signature Strategies)    :done, t12_1, after t12, 2d
-    TSK-RND-10 (Layout Fallbacks)        :done, t12_2, after t12_1, 2d
+    TSK-RND-10 (Strict Layout Loading)   :done, t12_2, after t12_1, 2d
     TSK-RND-03 (Sidebar Refactoring)     :done, t13, after t12_2, 2d
     TSK-RND-04 (Auto-Focus & Scroll)     :done, t14, after t13, 2d
     TSK-RND-05 (Language layouts HTML)   :done, t15, after t14, 3d
@@ -42,6 +42,7 @@ gantt
     TSK-CLI-01 (Non-interactive CLI Core):done, t17, after t16, 2d
     TSK-CLI-03 (Multi-Target Orchestration):done, t18, after t17, 2d
     TSK-CLI-02 (E2E Integration & Coverage):done, t19, after t18, 3d
+    TSK-TST-02 (Integration Tests Spec)  :done, t20, after t19, 1d
 ```
 
 ---
@@ -97,9 +98,9 @@ gantt
 13. **`TSK-RND-09` (Language-Specific Signature Formatting Strategy)** [COMPLETED]
     * *Goal*: Implement an extensible Strategy Pattern to handle formatting of code declarations, namespace structures, scopes, and names tailored to target programming languages (C++, C#, Java, Python).
     * *Success Criterion*: Formatters output exact language-compliant declarations, and scope delimiters (`::` for C++, `.` for other languages) are dynamically resolved.
-14. **`TSK-RND-10` (Robust Layout Template Loading & Inline Fallback)** [COMPLETED]
-    * *Goal*: Implement a dual-stage fallback layout loading mechanism with a fail-safe inline backup layout string to ensure complete resilience against physical filesystem template absence.
-    * *Success Criterion*: Physical template absence triggers fail-safe inline string loading, and no crashing occurs during rendering if standard folders are missing.
+14. **`TSK-RND-10` (Strict Layout Template Existence Policy)** [COMPLETED]
+    * *Goal*: Enforce strict pipeline validation where physical layout templates must exist on disk. Under the fail-fast standard, any absence of templates must immediately halt compilation and raise an explicit `RendererError`.
+    * *Success Criterion*: Render process crashes with `RendererError("Layout template not found: ...")` when templates are missing from disk, ensuring immediate visual regression detection.
 15. **`TSK-RND-03` (Sidebar Navigation Refactoring & Namespace Landing Pages)** [COMPLETED]
     * *Goal*: Refactor the standalone HTML compiler sidebar tree to eliminate pageless category folders and implement dedicated index landing pages for all logical namespaces (`REQ-FUN-32`, `REQ-FUN-35`).
     * *Success Criterion*: Redundant `Classes` folders are removed, and collapsible sidebar elements collapse or expand dynamically, resolving to valid target namespace landing pages.
@@ -124,7 +125,7 @@ gantt
     * *Goal*: Build `ude/cli.py` on top of `argparse`. Expose parameter switches: `--config`, `--input`, `--format`, `--output`. Return system exit code `0` on success, and custom non-zero codes (like `1` or `2`) on standard failures, logging messages to `stderr`.
     * *Success Criterion*: Seamless, non-interactive execution inside automated scripts with zero prompt dialog blockers.
 14. **`TSK-CLI-03` (Multi-Target Orchestration Engine)** [COMPLETED]
-    * *Goal*: Build `UdeOrchestrator` in `ude/orchestrator.py`. Parse decentral `ude_config.json` templates, resolve relative paths relative to the config file's physical parent directory, execute the pipeline chain (collector ➡️ parser ➡️ renderer), and enforce custom error policies.
+    * *Goal*: Build `UdeOrchestrator` in `ude/orchestrator.py`. Parse decentral `ude_doc_config.json` templates, resolve relative paths relative to the config file's physical parent directory, execute the pipeline chain (collector ➡️ parser ➡️ renderer), and enforce custom error policies.
     * *Success Criterion*: Seamless operation regardless of execution's Current Working Directory (CWD) - verifying path portability.
 15. **`TSK-CLI-02` (E2E Integration Testing & Coverage Verification)** [COMPLETED]
     * *Goal*: Create a comprehensive integration script `tests/test_integration_pipeline.py`. Run a full E2E lifecycle (XML ➡️ IR ➡️ Gzip ➡️ HTML) and write targeted unit tests until total statement coverage reaches `>= 98%`.
@@ -138,6 +139,9 @@ gantt
 18. **`TSK-RND-11` (Global Navigation Flat Refactoring & Fields/Structures/Enums Merging)** [COMPLETED]
     * *Goal*: Refactor the standalone HTML compiler and Hugo markdown generator to flat-render global-scope entities at the root of the sidebar, remove the Global Namespace landing page, merge variable fields, structures, and enums into a single combined folder named "Fields, Structures and Enums", and ensure actual namespaces sort first.
     * *Success Criterion*: Sidebar has namespaces first, then global entity folders in exact order: Classes, Fields, Structures and Enums, Functions, Types. The Global Namespace page is skipped entirely during build, and both HTML and Hugo renderers generate identical hierarchies.
+19. **`TSK-TST-02` (Integration Tests Specification Document)** [COMPLETED]
+    * *Goal*: Specify the 4 post-build integration and artifact verification tests in a dedicated document inside `design-docs` and link them relatively from the requirements specifications.
+    * *Success Criterion*: The integration specification is written to `design-docs/docs/srs/integration_tests_specification.md`, and all references in `functional.md` and `quality_audit.md` are relative and successfully validated.
 
 ---
 
@@ -148,3 +152,36 @@ gantt
 1. **Test Coverage**: statement coverage verified by `pytest-cov` is `>= 98%`.
 2. **Execution Speed**: Compiling 1,000 API-classes takes `< 5 seconds`.
 3. **Git Hygiene**: Output generated files must never be committed to active source control repositories (100% clean Git). All 11 projects output strictly to the unified, root-level `ude_output` directory which is kept out of source control.
+
+## 🧪 Дополнения к доработке тестовой инфраструктуры (Addenda)
+1. **Docomatic Comparison Count Header**: Тест сравнения Docomatic и UDE должен автоматически вычислять общее количество отклонений и записывать его в начало каждого файла различий JSON под ключом `"total_differences"`.
+2. **Golden Master Exception Gating**: Тест золотого стандарта должен на входе принимать список исключений — путей к выходным файлам (`exceptions`). Если расхождения обнаруживаются исключительно в этих файлах, тест не должен падать.
+3. **Parameterized Golden Master Complexes**: Тест золотого стандарта должен поддерживать работу с несколькими независимыми наборами (комплексами) парсеров и рендереров (например, "modern" и "legacy") с сохранением эталонов в изолированные подкаталоги (`html_legacy`, `markdown_legacy`), предотвращая взаимное перезаписывание.
+
+
+## 📋 План реализации кодовых изменений (TOC-рефакторинг REQ-FUN-50 и переименование конфигураций)
+
+### 1. Переименование конфигурационных файлов
+* **Цель**: Приведение тестовой базы и ссылок UDE в соответствие с новой схемой именования конфигураций.
+* **Изменения**:
+  * Переименовать создание и считывание `ude_global.json` на `ude_global_config.json` и `ude_config.json` на `ude_doc_config.json` во всех файлах тестов ([test_orchestrator.py](file:///D:/My%20repositories/Pipeline/engine/tests/test_orchestrator.py), [test_integration_pipeline.py](file:///D:/My%20repositories/Pipeline/engine/tests/test_integration_pipeline.py), [test_doxygen_collector.py](file:///D:/My%20repositories/Pipeline/engine/tests/test_doxygen_collector.py)).
+  * Обновить упоминания в docstring-комментариях в `engine/ude/interfaces.py` и `engine/ude/collectors/doxygen.py`.
+
+### 2. Поддержка рендерер-зависимых TOC-конфигураций (`REQ-FUN-50`)
+* **Цель**: Обеспечение загрузки файлов настроек TOC с уникальными именами по маске `toc_<RendererClassName>.json` для каждого из 16 рендереров.
+* **Изменения**:
+  * В базовых классах/конкретных реализациях рендереров переопределить метод `_get_toc_filename(self) -> str` так, чтобы он динамически возвращал имя `toc_{self.__class__.__name__}.json`.
+  * Создать 16 соответствующих файлов конфигурации TOC (например, `toc_CppHtmlRenderer.json`) в каталоге шаблонов `SidebarStructures/default/`.
+
+### 3. Рендеринг кастомных страниц (`static`, `inline`, `redirect`) в sidebar и интерполяция Jinja2
+* **Цель**: Сборка навигационного меню в соответствии с разделом `"sidebar"` нового формата TOC и поддержка переменных Jinja2 в кастомном контенте.
+* **Изменения**:
+  * Расширить рендереры `HtmlRenderer` и `HugoMarkdownRenderer` для парсинга и обхода структуры `"sidebar"` из JSON.
+  * Для элементов `static` — считывать указанный `source_file` из папок `static_source_path` и генерировать страницу.
+  * Для элементов `inline` — записывать переданное в `content` тело страницы.
+  * Проводить рендеринг шаблона Jinja2 для текста страниц `static` и `inline` с использованием объединенного контекста конфигураций.
+  * Добавлять сгенерированные кастомные страницы в боковое меню наряду с деревом `api_reference`.
+  * Внедрить инлайн-страницу версии API в качестве первой страницы сайдбара во все 16 TOC-конфигураций с поддержкой интерполяции заголовков и содержимого (Product_name, Lang, api_version).
+
+---
+**Статус выполнения**: Все три пункта плана успешно реализованы, протестированы и интегрированы. Все 209 тестов подмодуля `engine` и внешние регрессионные тесты mock-проектов в корневом каталоге успешно проходят.

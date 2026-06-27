@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_cc5b8324a1c9680f676e1b6042a02774" kind="dir">
+    <compoundname>D:/My repositories/Pipeline/engine/tests/assets</compoundname>
+    <innerdir refid="dir_0b0f8b0144fd3ee082517a1bf8706797">D:/My repositories/Pipeline/engine/tests/assets/main</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/"/>
+  </compounddef>
+</doxygen>

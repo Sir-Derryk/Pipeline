@@ -1,0 +1,156 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_shape" kind="class" language="Java" prot="public">
+    <compoundname>CoreModeler::Shape</compoundname>
+    <derivedcompoundref refid="class_core_modeler_1_1_box" prot="public" virt="non-virtual">CoreModeler.Box</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_shape_1ae385b085963c75d9bac4efc9127d8baa" prot="private" static="no" mutable="no">
+        <type>transient long</type>
+        <definition>transient long CoreModeler.Shape.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Shape.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" line="12" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_shape_1aa24fc107d295f22d2b1fedcc4710e810" prot="protected" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean CoreModeler.Shape.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.Shape.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" line="13" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_shape_1a967874be30250e08e76ed01e625a5bfc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Shape.Shape</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>Shape</name>
+        <qualifiedname>CoreModeler.Shape.Shape</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" line="15" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_shape_1a17bfaf582067996335a882ce800a0653" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Shape.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>CoreModeler.Shape.finalize</qualifiedname>
+        <reimplementedby refid="class_core_modeler_1_1_box_1a223f1ff13560e26a27dc8f12a3b56ec2">finalize</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" line="25" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" bodystart="25" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_shape_1a5234a7c8f1c69a03bbbd917855a98237" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long CoreModeler.Shape.getCPtr</definition>
+        <argsstring>(Shape obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Shape.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_shape" kindref="compound">Shape</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" line="20" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_shape_1a0943619e3fd11f7b61484d7add6c98b2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void CoreModeler.Shape.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>CoreModeler.Shape.delete</qualifiedname>
+        <reimplementedby refid="class_core_modeler_1_1_box_1ad9cea07824a84d407b2ea8d7a7f7fbfd">delete</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" line="29" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_shape_1a43fb2f29eb4cdfec450edaca7daabea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double CoreModeler.Shape.getVolume</definition>
+        <argsstring>()</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>CoreModeler.Shape.getVolume</qualifiedname>
+        <reimplementedby refid="class_core_modeler_1_1_box_1a7958fababc82c7152afc857f1d46193d">getVolume</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" line="39" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CoreModeler.Shape</label>
+        <link refid="class_core_modeler_1_1_shape"/>
+      </node>
+      <node id="2">
+        <label>CoreModeler.Box</label>
+        <link refid="class_core_modeler_1_1_box"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" line="11" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Shape.java" bodystart="11" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_shape_1a0943619e3fd11f7b61484d7add6c98b2" prot="public" virt="non-virtual"><scope>CoreModeler::Shape</scope><name>delete</name></member>
+      <member refid="class_core_modeler_1_1_shape_1a17bfaf582067996335a882ce800a0653" prot="protected" virt="non-virtual"><scope>CoreModeler::Shape</scope><name>finalize</name></member>
+      <member refid="class_core_modeler_1_1_shape_1a5234a7c8f1c69a03bbbd917855a98237" prot="protected" virt="non-virtual"><scope>CoreModeler::Shape</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_shape_1a43fb2f29eb4cdfec450edaca7daabea7" prot="public" virt="non-virtual"><scope>CoreModeler::Shape</scope><name>getVolume</name></member>
+      <member refid="class_core_modeler_1_1_shape_1a967874be30250e08e76ed01e625a5bfc" prot="protected" virt="non-virtual"><scope>CoreModeler::Shape</scope><name>Shape</name></member>
+      <member refid="class_core_modeler_1_1_shape_1aa24fc107d295f22d2b1fedcc4710e810" prot="protected" virt="non-virtual"><scope>CoreModeler::Shape</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_shape_1ae385b085963c75d9bac4efc9127d8baa" prot="private" virt="non-virtual"><scope>CoreModeler::Shape</scope><name>swigCPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

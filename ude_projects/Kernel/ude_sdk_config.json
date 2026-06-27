@@ -1,0 +1,14 @@
+{
+    "product_name": "Kernel",
+    "docs": [
+        {
+            "type": "api",
+            "id": "kernel_api_py",
+            "title": "Python API Reference",
+            "lang": "py",
+            "devguide_lang_suffix": "py",
+            "path": "kernel_api_py",
+            "main_page": "kernel_api_ref.html"
+        }
+    ]
+}

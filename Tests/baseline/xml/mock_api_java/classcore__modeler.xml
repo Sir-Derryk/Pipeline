@@ -1,0 +1,277 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcore__modeler" kind="class" language="Java" prot="public">
+    <compoundname>core_modeler</compoundname>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcore__modeler_1a5a2ad35b96222d5d6741d72e71ec3af7" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modeler.setG_systemState</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setG_systemState</name>
+        <qualifiedname>core_modeler.setG_systemState</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A global variable containing the current system state.<linebreak/>
+ This variable is updated by the global initialization functions. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="15" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="15" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1ae8875836b5ed272d5d477ea64bc419d6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int core_modeler.getG_systemState</definition>
+        <argsstring>()</argsstring>
+        <name>getG_systemState</name>
+        <qualifiedname>core_modeler.getG_systemState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A global variable containing the current system state.<linebreak/>
+ This variable is updated by the global initialization functions. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="23" column="21" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1a65c5c20194de9f7489baecc0d33a7d76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modeler.setG_piValue</definition>
+        <argsstring>(double value)</argsstring>
+        <name>setG_piValue</name>
+        <qualifiedname>core_modeler.setG_piValue</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A global mathematical constant for Pi.<linebreak/>
+ No documentation tags here, testing completely missing tag description. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="31" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1a884f0adc841dfeda92760b1a6bc247cc" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>static double core_modeler.getG_piValue</definition>
+        <argsstring>()</argsstring>
+        <name>getG_piValue</name>
+        <qualifiedname>core_modeler.getG_piValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A global mathematical constant for Pi.<linebreak/>
+ No documentation tags here, testing completely missing tag description. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="39" column="24" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1ae70b25a77d58ce2c25db465468c5be5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int core_modeler.globalInitialize</definition>
+        <argsstring>(GlobalConfig config)</argsstring>
+        <name>globalInitialize</name>
+        <qualifiedname>core_modeler.globalInitialize</qualifiedname>
+        <param>
+          <type><ref refid="class_global_config" kindref="compound">GlobalConfig</ref></type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Initializes the global system components.<linebreak/>
+ This function is undocumented for parameters and return values.<linebreak/>
+ <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The configuration to apply. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="48" column="21" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="48" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1ab9c09b3474d9a75f49b9fb71808dc7de" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long core_modeler.getDIAG_SUCCESS</definition>
+        <argsstring>()</argsstring>
+        <name>getDIAG_SUCCESS</name>
+        <qualifiedname>core_modeler.getDIAG_SUCCESS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constant representing a successful diagnostic run. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="55" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1af448947975374658455d0f4c503bf9f9" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long core_modeler.getDIAG_FAILURE</definition>
+        <argsstring>()</argsstring>
+        <name>getDIAG_FAILURE</name>
+        <qualifiedname>core_modeler.getDIAG_FAILURE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constant representing a generic diagnostic failure. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="62" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="62" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1a882839e60ddbce98f537fbfcc5756e80" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modeler.setG_diagnosticRunCount</definition>
+        <argsstring>(long value)</argsstring>
+        <name>setG_diagnosticRunCount</name>
+        <qualifiedname>core_modeler.setG_diagnosticRunCount</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A global variable representing the total number of diagnostic runs. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="69" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="69" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1a6f4ab2996e122cdef7ad3d01b40b9de6" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long core_modeler.getG_diagnosticRunCount</definition>
+        <argsstring>()</argsstring>
+        <name>getG_diagnosticRunCount</name>
+        <qualifiedname>core_modeler.getG_diagnosticRunCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>A global variable representing the total number of diagnostic runs. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="76" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1ad0aef352df9982e671e60fc159dcd747" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long core_modeler.checkSystemHealth</definition>
+        <argsstring>()</argsstring>
+        <name>checkSystemHealth</name>
+        <qualifiedname>core_modeler.checkSystemHealth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Checks the current health status of the system.<linebreak/>
+ Note: Missing <simplesect kind="return"><para>tag. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="84" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="84" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1ae1ded71a3e07713af832080a4ab7e7e2" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean core_modeler.pingSubsystem</definition>
+        <argsstring>(long timeoutMs)</argsstring>
+        <name>pingSubsystem</name>
+        <qualifiedname>core_modeler.pingSubsystem</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>timeoutMs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs a ping to verify subsystem responsiveness.<linebreak/>
+ This is an overloaded function.<linebreak/>
+ <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timeoutMs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Timeout in milliseconds.<linebreak/>
+ Note: Missing </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>tag. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="94" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="94" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1a712af2363215e36443cf573756da0d55" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>static boolean core_modeler.pingSubsystem</definition>
+        <argsstring>()</argsstring>
+        <name>pingSubsystem</name>
+        <qualifiedname>core_modeler.pingSubsystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Performs a ping to verify subsystem responsiveness using a default timeout.<linebreak/>
+ This is an overloaded function.<linebreak/>
+ Note: Completely undocumented function, tests parser fallback. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="103" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="103" bodyend="105"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1a7b0e26fb841a2bc45a935c93d0626f93" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modeler.resetCounters</definition>
+        <argsstring>()</argsstring>
+        <name>resetCounters</name>
+        <qualifiedname>core_modeler.resetCounters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Resets the internal diagnostic counters. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="110" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="110" bodyend="112"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" line="10" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/core_modeler.java" bodystart="10" bodyend="114"/>
+    <listofallmembers>
+      <member refid="classcore__modeler_1ad0aef352df9982e671e60fc159dcd747" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>checkSystemHealth</name></member>
+      <member refid="classcore__modeler_1af448947975374658455d0f4c503bf9f9" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>getDIAG_FAILURE</name></member>
+      <member refid="classcore__modeler_1ab9c09b3474d9a75f49b9fb71808dc7de" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>getDIAG_SUCCESS</name></member>
+      <member refid="classcore__modeler_1a6f4ab2996e122cdef7ad3d01b40b9de6" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>getG_diagnosticRunCount</name></member>
+      <member refid="classcore__modeler_1a884f0adc841dfeda92760b1a6bc247cc" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>getG_piValue</name></member>
+      <member refid="classcore__modeler_1ae8875836b5ed272d5d477ea64bc419d6" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>getG_systemState</name></member>
+      <member refid="classcore__modeler_1ae70b25a77d58ce2c25db465468c5be5a" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>globalInitialize</name></member>
+      <member refid="classcore__modeler_1ae1ded71a3e07713af832080a4ab7e7e2" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>pingSubsystem</name></member>
+      <member refid="classcore__modeler_1a712af2363215e36443cf573756da0d55" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>pingSubsystem</name></member>
+      <member refid="classcore__modeler_1a7b0e26fb841a2bc45a935c93d0626f93" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>resetCounters</name></member>
+      <member refid="classcore__modeler_1a882839e60ddbce98f537fbfcc5756e80" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>setG_diagnosticRunCount</name></member>
+      <member refid="classcore__modeler_1a65c5c20194de9f7489baecc0d33a7d76" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>setG_piValue</name></member>
+      <member refid="classcore__modeler_1a5a2ad35b96222d5d6741d72e71ec3af7" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>setG_systemState</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

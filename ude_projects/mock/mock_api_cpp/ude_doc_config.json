@@ -1,0 +1,27 @@
+{
+    "project_name": "Mock C++ API Reference",
+    "src_dir": [
+        "../../../engine/tests/assets/main/mock"
+    ],
+    "static_pages_dir": "./",
+    "copyright_start_year": 2026,
+    "incremental": true,
+    "max_workers": 8,
+    "collector": {
+        "type": "CppDoxygenCollector",
+        "file_patterns": [
+            "**/*.h"
+        ],
+        "include_private": false
+    },
+    "parser": {
+        "type": "CppDoxygenParser"
+    },
+    "renderer": {
+        "type": "CppHtmlDefaultRenderer"
+    },
+    "output_subdir": "mock_api_cpp",
+    "validator": {
+        "type": "CppCommentValidator"
+    }
+}

@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="core__modeler_p_i_n_v_o_k_e_8cs" kind="file" language="C#">
+    <compoundname>core_modelerPINVOKE.cs</compoundname>
+    <innerclass refid="classcore__modeler_p_i_n_v_o_k_e" prot="public">core_modelerPINVOKE</innerclass>
+    <innerclass refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper" prot="protected">core_modelerPINVOKE::SWIGExceptionHelper</innerclass>
+    <innerclass refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception" prot="public">core_modelerPINVOKE::SWIGPendingException</innerclass>
+    <innerclass refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_string_helper" prot="protected">core_modelerPINVOKE::SWIGStringHelper</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs"/>
+  </compounddef>
+</doxygen>

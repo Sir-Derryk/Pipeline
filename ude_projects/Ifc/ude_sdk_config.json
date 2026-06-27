@@ -1,0 +1,14 @@
+{
+    "product_name": "Ifc",
+    "docs": [
+        {
+            "type": "api",
+            "id": "ifc_api_py",
+            "title": "Python API Reference",
+            "lang": "py",
+            "devguide_lang_suffix": "py",
+            "path": "ifc_api_py",
+            "main_page": "ifc_api_ref.html"
+        }
+    ]
+}

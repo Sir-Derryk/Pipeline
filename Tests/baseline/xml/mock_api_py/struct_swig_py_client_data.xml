@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_swig_py_client_data" kind="struct" language="C++" prot="public">
+    <compoundname>SwigPyClientData</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_swig_py_client_data_1afe15f48c719784bf245534c4999ea387" prot="public" static="no" mutable="no">
+        <type>PyObject *</type>
+        <definition>PyObject * SwigPyClientData::klass</definition>
+        <argsstring></argsstring>
+        <name>klass</name>
+        <qualifiedname>SwigPyClientData::klass</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1306" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1306" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_swig_py_client_data_1aef35885524e7defa5cbcc00714c4a5c1" prot="public" static="no" mutable="no">
+        <type>PyObject *</type>
+        <definition>PyObject * SwigPyClientData::newraw</definition>
+        <argsstring></argsstring>
+        <name>newraw</name>
+        <qualifiedname>SwigPyClientData::newraw</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1307" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1307" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_swig_py_client_data_1a8080712504b1249851e64d0baa3926bb" prot="public" static="no" mutable="no">
+        <type>PyObject *</type>
+        <definition>PyObject * SwigPyClientData::newargs</definition>
+        <argsstring></argsstring>
+        <name>newargs</name>
+        <qualifiedname>SwigPyClientData::newargs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1308" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1308" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_swig_py_client_data_1a1e3e0efca34cf915f74fdd66ecb9a01e" prot="public" static="no" mutable="no">
+        <type>PyObject *</type>
+        <definition>PyObject * SwigPyClientData::destroy</definition>
+        <argsstring></argsstring>
+        <name>destroy</name>
+        <qualifiedname>SwigPyClientData::destroy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1309" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1309" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_swig_py_client_data_1a9cb4b9b02743d09dbe216f304e2b7df0" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SwigPyClientData::delargs</definition>
+        <argsstring></argsstring>
+        <name>delargs</name>
+        <qualifiedname>SwigPyClientData::delargs</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1310" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1310" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_swig_py_client_data_1a5f9ebdbc04a774559a64b926b6ec4070" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int SwigPyClientData::implicitconv</definition>
+        <argsstring></argsstring>
+        <name>implicitconv</name>
+        <qualifiedname>SwigPyClientData::implicitconv</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1311" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1311" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_swig_py_client_data_1a489eefb474298d8b2c2e7d6d2583ca98" prot="public" static="no" mutable="no">
+        <type>PyTypeObject *</type>
+        <definition>PyTypeObject * SwigPyClientData::pytype</definition>
+        <argsstring></argsstring>
+        <name>pytype</name>
+        <qualifiedname>SwigPyClientData::pytype</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1312" column="16" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1312" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="1305" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="1305" bodyend="1313"/>
+    <listofallmembers>
+      <member refid="struct_swig_py_client_data_1a9cb4b9b02743d09dbe216f304e2b7df0" prot="public" virt="non-virtual"><scope>SwigPyClientData</scope><name>delargs</name></member>
+      <member refid="struct_swig_py_client_data_1a1e3e0efca34cf915f74fdd66ecb9a01e" prot="public" virt="non-virtual"><scope>SwigPyClientData</scope><name>destroy</name></member>
+      <member refid="struct_swig_py_client_data_1a5f9ebdbc04a774559a64b926b6ec4070" prot="public" virt="non-virtual"><scope>SwigPyClientData</scope><name>implicitconv</name></member>
+      <member refid="struct_swig_py_client_data_1afe15f48c719784bf245534c4999ea387" prot="public" virt="non-virtual"><scope>SwigPyClientData</scope><name>klass</name></member>
+      <member refid="struct_swig_py_client_data_1a8080712504b1249851e64d0baa3926bb" prot="public" virt="non-virtual"><scope>SwigPyClientData</scope><name>newargs</name></member>
+      <member refid="struct_swig_py_client_data_1aef35885524e7defa5cbcc00714c4a5c1" prot="public" virt="non-virtual"><scope>SwigPyClientData</scope><name>newraw</name></member>
+      <member refid="struct_swig_py_client_data_1a489eefb474298d8b2c2e7d6d2583ca98" prot="public" virt="non-virtual"><scope>SwigPyClientData</scope><name>pytype</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

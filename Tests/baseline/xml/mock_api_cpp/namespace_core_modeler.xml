@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespace_core_modeler" kind="namespace" language="C++">
+    <compoundname>CoreModeler</compoundname>
+    <innerclass refid="class_core_modeler_1_1_model" prot="public">CoreModeler::Model</innerclass>
+    <innernamespace refid="namespace_core_modeler_1_1_geometry">CoreModeler::Geometry</innernamespace>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_core_modeler_8h_1a153e4d50ee475f71a62b61fc887c3ddf" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>RenderMode</name>
+        <qualifiedname>CoreModeler::RenderMode</qualifiedname>
+        <enumvalue id="_core_modeler_8h_1a153e4d50ee475f71a62b61fc887c3ddfa33e42d0f3b166a4c405127e4412fbef2" prot="public">
+          <name>Wireframe</name>
+          <briefdescription>
+<para>Wireframe mode. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_core_modeler_8h_1a153e4d50ee475f71a62b61fc887c3ddfa95e4c683b31aacc6c251c95780ff6808" prot="public">
+          <name>Shaded</name>
+          <briefdescription>
+<para>Solid shaded mode. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_core_modeler_8h_1a153e4d50ee475f71a62b61fc887c3ddfa727faf49bd334ad8c6692934ff652843" prot="public">
+          <name>Textured</name>
+          <briefdescription>
+<para>Fully textured shaded mode. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>Rendering modes for the CoreModeler display engine. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="8" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="8" bodyend="12"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="3" column="1"/>
+  </compounddef>
+</doxygen>

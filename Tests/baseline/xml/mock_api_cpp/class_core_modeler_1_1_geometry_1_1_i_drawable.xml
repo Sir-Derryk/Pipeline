@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_geometry_1_1_i_drawable" kind="class" language="C++" prot="public" abstract="yes">
+    <compoundname>CoreModeler::Geometry::IDrawable</compoundname>
+    <derivedcompoundref refid="class_core_modeler_1_1_geometry_1_1_box" prot="public" virt="non-virtual">CoreModeler::Geometry::Box</derivedcompoundref>
+    <includes refid="_core_modeler_8h" local="no">CoreModeler.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_i_drawable_1a3cdbf62f571fa669ac44ced46d8aba68" prot="public" static="no" const="no" explicit="no" inline="no" virt="virtual">
+        <type></type>
+        <definition>virtual CoreModeler::Geometry::IDrawable::~IDrawable</definition>
+        <argsstring>()=default</argsstring>
+        <name>~IDrawable</name>
+        <qualifiedname>CoreModeler::Geometry::IDrawable::~IDrawable</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="58" column="13"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_i_drawable_1a0efed8530d1a99769eda8c8d0161ead3" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>void</type>
+        <definition>virtual void CoreModeler::Geometry::IDrawable::draw</definition>
+        <argsstring>()=0</argsstring>
+        <name>draw</name>
+        <qualifiedname>CoreModeler::Geometry::IDrawable::draw</qualifiedname>
+        <reimplementedby refid="class_core_modeler_1_1_geometry_1_1_box_1a856b4a6a39a51b7729681542f2d95a8e">draw</reimplementedby>
+        <briefdescription>
+<para>Renders the drawable element to the screen. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="63" column="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_i_drawable_1a17a979b5e4905f9126bde0edbb21c56a" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>int</type>
+        <definition>virtual int CoreModeler::Geometry::IDrawable::draw</definition>
+        <argsstring>(RenderMode mode)=0</argsstring>
+        <name>draw</name>
+        <qualifiedname>CoreModeler::Geometry::IDrawable::draw</qualifiedname>
+        <reimplementedby refid="class_core_modeler_1_1_geometry_1_1_box_1a6107490824dd46bcc70e106971696889">draw</reimplementedby>
+        <param>
+          <type>RenderMode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>Renders the drawable element using a specific render mode. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Overloaded method. </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>mode</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The rendering mode to use. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="warning"><para>Missing </para>
+</simplesect>
+<simplesect kind="return"><para>tag and incomplete documentation. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="71" column="17"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Interface for any elements that can be rendered to the display. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>Represents a pure virtual C++ interface. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="2">
+        <label>CoreModeler::Geometry::Box</label>
+        <link refid="class_core_modeler_1_1_geometry_1_1_box"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>CoreModeler::Geometry::IDrawable</label>
+        <link refid="class_core_modeler_1_1_geometry_1_1_i_drawable"/>
+      </node>
+    </inheritancegraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="56" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="56" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a0efed8530d1a99769eda8c8d0161ead3" prot="public" virt="pure-virtual"><scope>CoreModeler::Geometry::IDrawable</scope><name>draw</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a17a979b5e4905f9126bde0edbb21c56a" prot="public" virt="pure-virtual"><scope>CoreModeler::Geometry::IDrawable</scope><name>draw</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a3cdbf62f571fa669ac44ced46d8aba68" prot="public" virt="virtual"><scope>CoreModeler::Geometry::IDrawable</scope><name>~IDrawable</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

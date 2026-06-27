@@ -1,0 +1,1906 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="core__modeler__wrap_8cxx" kind="file" language="C++">
+    <compoundname>core_modeler_wrap.cxx</compoundname>
+    <includes local="no">stdlib.h</includes>
+    <includes local="no">string.h</includes>
+    <includes local="no">stdio.h</includes>
+    <includes local="yes">GlobalEntities.h</includes>
+    <includes local="yes">CoreModeler.h</includes>
+    <includes local="yes">SystemDiagnostics.h</includes>
+    <incdepgraph>
+      <node id="6">
+        <label>CoreModeler.h</label>
+      </node>
+      <node id="1">
+        <label>D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx</label>
+        <link refid="core__modeler__wrap_8cxx"/>
+        <childnode refid="2" relation="include">
+        </childnode>
+        <childnode refid="3" relation="include">
+        </childnode>
+        <childnode refid="4" relation="include">
+        </childnode>
+        <childnode refid="5" relation="include">
+        </childnode>
+        <childnode refid="6" relation="include">
+        </childnode>
+        <childnode refid="7" relation="include">
+        </childnode>
+      </node>
+      <node id="5">
+        <label>GlobalEntities.h</label>
+      </node>
+      <node id="7">
+        <label>SystemDiagnostics.h</label>
+      </node>
+      <node id="4">
+        <label>stdio.h</label>
+      </node>
+      <node id="2">
+        <label>stdlib.h</label>
+      </node>
+      <node id="3">
+        <label>string.h</label>
+      </node>
+    </incdepgraph>
+    <innerclass refid="struct_s_w_i_g___c_sharp_exception__t" prot="public">SWIG_CSharpException_t</innerclass>
+    <innerclass refid="struct_s_w_i_g___c_sharp_exception_argument__t" prot="public">SWIG_CSharpExceptionArgument_t</innerclass>
+    <sectiondef kind="define">
+      <memberdef kind="define" id="core__modeler__wrap_8cxx_1a8b1bf5bd8374ca61c5ac75d346cfb824" prot="public" static="no">
+        <name>SWIGCSHARP</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="13" column="9" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="core__modeler__wrap_8cxx_1a7e84031693895e512662f5b390c6d0e4" prot="public" static="no">
+        <name>SWIGTEMPLATEDISAMBIGUATOR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="55" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="core__modeler__wrap_8cxx_1a6d0a7c65b3712775e92c8bdb7acdd0ee" prot="public" static="no">
+        <name>SWIGINLINE</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="64" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="core__modeler__wrap_8cxx_1a6ee41cd160d397aa76668bf4db65e2d1" prot="public" static="no">
+        <name>SWIGUNUSED</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="79" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="core__modeler__wrap_8cxx_1a6a54164d0685c632e7540c5ad32a453a" prot="public" static="no">
+        <name>SWIGUNUSEDPARM</name>
+        <param><defname>p</defname></param>
+        <initializer>p SWIGUNUSED</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="93" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="core__modeler__wrap_8cxx_1a8f2319f775e5b9d5906c9ef25d9b819a" prot="public" static="no">
+        <name>SWIGINTERN</name>
+        <initializer>static SWIGUNUSED</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="99" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="99" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="core__modeler__wrap_8cxx_1afc5b08bb3c3cd2e3fb2e34b775346153" prot="public" static="no">
+        <name>SWIGINTERNINLINE</name>
+        <initializer>SWIGINTERN SWIGINLINE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="104" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="core__modeler__wrap_8cxx_1aea3c8b056dcc8c1ab93f6b825cd1371b" prot="public" static="no">
+        <name>SWIGEXPORT</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="127" column="20" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="127" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="core__modeler__wrap_8cxx_1adcd6410456ea7a76147d3ad95b9bcb36" prot="public" static="no">
+        <name>SWIGSTDCALL</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="137" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="core__modeler__wrap_8cxx_1a348dca0399dff2bcea8e49cb9cb04991" prot="public" static="no">
+        <name>SWIG_contract_assert</name>
+        <param><defname>nullreturn</defname></param>
+        <param><defname>expr</defname></param>
+        <param><defname>msg</defname></param>
+        <initializer>if (!(expr)) {SWIG_CSharpSetPendingExceptionArgument(SWIG_CSharpArgumentOutOfRangeException, msg, &quot;&quot;); return nullreturn; } else</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="299" column="9" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="299" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696d" prot="public" static="no" strong="no">
+        <type></type>
+        <name>SWIG_CSharpExceptionCodes</name>
+        <enumvalue id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696da69262c7d7afa064846600b8c24771785" prot="public">
+          <name>SWIG_CSharpApplicationException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696da5763deee13f7a5735de6958edcabf368" prot="public">
+          <name>SWIG_CSharpArithmeticException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696da291e1d4e9c2b45cae4b5cf8acc46fa96" prot="public">
+          <name>SWIG_CSharpDivideByZeroException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696daef72dc6cf6fba64f7752f60601e1bda3" prot="public">
+          <name>SWIG_CSharpIndexOutOfRangeException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696da988e3a73ac4992bd1a627988ad8cb017" prot="public">
+          <name>SWIG_CSharpInvalidCastException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696daa91cfd78181281017684581278c3f055" prot="public">
+          <name>SWIG_CSharpInvalidOperationException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696dadd2b1c4946931216b3e090df3f4ad11e" prot="public">
+          <name>SWIG_CSharpIOException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696da8c62b351364168d0ff745bcb823a6735" prot="public">
+          <name>SWIG_CSharpNullReferenceException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696da30fa713c47003931415140f77ec41955" prot="public">
+          <name>SWIG_CSharpOutOfMemoryException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696dad116186fd18e46d768b34f12458664dd" prot="public">
+          <name>SWIG_CSharpOverflowException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1af68ebade407536ee03e4e28d8c58696da649d43db5e7715eeb27ba60a8a1f3736" prot="public">
+          <name>SWIG_CSharpSystemException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="173" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="173" bodyend="185"/>
+      </memberdef>
+      <memberdef kind="enum" id="core__modeler__wrap_8cxx_1a96af968a8ad5d2e899c24200d52959b0" prot="public" static="no" strong="no">
+        <type></type>
+        <name>SWIG_CSharpExceptionArgumentCodes</name>
+        <enumvalue id="core__modeler__wrap_8cxx_1a96af968a8ad5d2e899c24200d52959b0a62b3c566de468b7704bfca018aed4ade" prot="public">
+          <name>SWIG_CSharpArgumentException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1a96af968a8ad5d2e899c24200d52959b0aa8107996714f2635d64cc979be44caf4" prot="public">
+          <name>SWIG_CSharpArgumentNullException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="core__modeler__wrap_8cxx_1a96af968a8ad5d2e899c24200d52959b0a9bbceb36dd494a91360ee2e8fe9ddc2d" prot="public">
+          <name>SWIG_CSharpArgumentOutOfRangeException</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="187" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="187" bodyend="191"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="core__modeler__wrap_8cxx_1a141dcf424eeb81c0fc19f8d78a0e86cb" prot="public" static="no">
+        <type>void(SWIGSTDCALL *</type>
+        <definition>typedef void(SWIGSTDCALL * SWIG_CSharpExceptionCallback_t) (const char *)</definition>
+        <argsstring>)(const char *)</argsstring>
+        <name>SWIG_CSharpExceptionCallback_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="193" column="9" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="193" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="core__modeler__wrap_8cxx_1a155a1c468e733a290674994d211b0da1" prot="public" static="no">
+        <type>void(SWIGSTDCALL *</type>
+        <definition>typedef void(SWIGSTDCALL * SWIG_CSharpExceptionArgumentCallback_t) (const char *, const char *)</definition>
+        <argsstring>)(const char *, const char *)</argsstring>
+        <name>SWIG_CSharpExceptionArgumentCallback_t</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="194" column="9" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="typedef" id="core__modeler__wrap_8cxx_1a9f10617088f69d0d95af160880cd79b7" prot="public" static="no">
+        <type>char *(SWIGSTDCALL *</type>
+        <definition>typedef char *(SWIGSTDCALL * SWIG_CSharpStringHelperCallback) (const char *)</definition>
+        <argsstring>)(const char *)</argsstring>
+        <name>SWIG_CSharpStringHelperCallback</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="285" column="9" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="285" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="core__modeler__wrap_8cxx_1a718039b4be15239aaf8163bb83b9db68" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct_s_w_i_g___c_sharp_exception__t" kindref="compound">SWIG_CSharpException_t</ref></type>
+        <definition>SWIG_CSharpException_t SWIG_csharp_exceptions[]</definition>
+        <argsstring>[]</argsstring>
+        <name>SWIG_csharp_exceptions</name>
+        <initializer>= {
+  { SWIG_CSharpApplicationException, NULL },
+  { SWIG_CSharpArithmeticException, NULL },
+  { SWIG_CSharpDivideByZeroException, NULL },
+  { SWIG_CSharpIndexOutOfRangeException, NULL },
+  { SWIG_CSharpInvalidCastException, NULL },
+  { SWIG_CSharpInvalidOperationException, NULL },
+  { SWIG_CSharpIOException, NULL },
+  { SWIG_CSharpNullReferenceException, NULL },
+  { SWIG_CSharpOutOfMemoryException, NULL },
+  { SWIG_CSharpOverflowException, NULL },
+  { SWIG_CSharpSystemException, NULL }
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="206" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="206" bodyend="218"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler__wrap_8cxx_1a10c6b3146b22912605a5b334544b19d2" prot="public" static="yes" mutable="no">
+        <type><ref refid="struct_s_w_i_g___c_sharp_exception_argument__t" kindref="compound">SWIG_CSharpExceptionArgument_t</ref></type>
+        <definition>SWIG_CSharpExceptionArgument_t SWIG_csharp_exceptions_argument[]</definition>
+        <argsstring>[]</argsstring>
+        <name>SWIG_csharp_exceptions_argument</name>
+        <initializer>= {
+  { SWIG_CSharpArgumentException, NULL },
+  { SWIG_CSharpArgumentNullException, NULL },
+  { SWIG_CSharpArgumentOutOfRangeException, NULL }
+}</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="220" column="39" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="220" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler__wrap_8cxx_1a6bd73a85bfa02945423cdd32c1e7abb3" prot="public" static="yes" mutable="no">
+        <type>SWIG_CSharpStringHelperCallback</type>
+        <definition>SWIG_CSharpStringHelperCallback SWIG_csharp_string_callback</definition>
+        <argsstring></argsstring>
+        <name>SWIG_csharp_string_callback</name>
+        <initializer>= NULL</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="286" column="40" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="286" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ac606468865baa90db9b5b058abfefd09" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void SWIGUNUSED</type>
+        <definition>static void SWIGUNUSED SWIG_CSharpSetPendingException</definition>
+        <argsstring>(SWIG_CSharpExceptionCodes code, const char *msg)</argsstring>
+        <name>SWIG_CSharpSetPendingException</name>
+        <param>
+          <type>SWIG_CSharpExceptionCodes</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>msg</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="226" column="24" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="226" bodyend="232"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a212b5837164225dfff7c2403bb6f48a9" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void SWIGUNUSED</type>
+        <definition>static void SWIGUNUSED SWIG_CSharpSetPendingExceptionArgument</definition>
+        <argsstring>(SWIG_CSharpExceptionArgumentCodes code, const char *msg, const char *param_name)</argsstring>
+        <name>SWIG_CSharpSetPendingExceptionArgument</name>
+        <param>
+          <type>SWIG_CSharpExceptionArgumentCodes</type>
+          <declname>code</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>msg</declname>
+        </param>
+        <param>
+          <type>const char *</type>
+          <declname>param_name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="234" column="24" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="234" bodyend="240"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a97dc506fc1ad65824d316a4a315ccb74" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL SWIGRegisterExceptionCallbacks_core_modeler</definition>
+        <argsstring>(SWIG_CSharpExceptionCallback_t applicationCallback, SWIG_CSharpExceptionCallback_t arithmeticCallback, SWIG_CSharpExceptionCallback_t divideByZeroCallback, SWIG_CSharpExceptionCallback_t indexOutOfRangeCallback, SWIG_CSharpExceptionCallback_t invalidCastCallback, SWIG_CSharpExceptionCallback_t invalidOperationCallback, SWIG_CSharpExceptionCallback_t ioCallback, SWIG_CSharpExceptionCallback_t nullReferenceCallback, SWIG_CSharpExceptionCallback_t outOfMemoryCallback, SWIG_CSharpExceptionCallback_t overflowCallback, SWIG_CSharpExceptionCallback_t systemCallback)</argsstring>
+        <name>SWIGRegisterExceptionCallbacks_core_modeler</name>
+        <param>
+          <type>SWIG_CSharpExceptionCallback_t</type>
+          <declname>applicationCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionCallback_t</type>
+          <declname>arithmeticCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionCallback_t</type>
+          <declname>divideByZeroCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionCallback_t</type>
+          <declname>indexOutOfRangeCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionCallback_t</type>
+          <declname>invalidCastCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionCallback_t</type>
+          <declname>invalidOperationCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionCallback_t</type>
+          <declname>ioCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionCallback_t</type>
+          <declname>nullReferenceCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionCallback_t</type>
+          <declname>outOfMemoryCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionCallback_t</type>
+          <declname>overflowCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionCallback_t</type>
+          <declname>systemCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="246" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="246" bodyend="269"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aece1df1df0904b8f2acd1c02f106cd94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL SWIGRegisterExceptionArgumentCallbacks_core_modeler</definition>
+        <argsstring>(SWIG_CSharpExceptionArgumentCallback_t argumentCallback, SWIG_CSharpExceptionArgumentCallback_t argumentNullCallback, SWIG_CSharpExceptionArgumentCallback_t argumentOutOfRangeCallback)</argsstring>
+        <name>SWIGRegisterExceptionArgumentCallbacks_core_modeler</name>
+        <param>
+          <type>SWIG_CSharpExceptionArgumentCallback_t</type>
+          <declname>argumentCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionArgumentCallback_t</type>
+          <declname>argumentNullCallback</declname>
+        </param>
+        <param>
+          <type>SWIG_CSharpExceptionArgumentCallback_t</type>
+          <declname>argumentOutOfRangeCallback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="274" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="274" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a50c1fa78c1691a2d01975acfae89f8f3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL SWIGRegisterStringCallback_core_modeler</definition>
+        <argsstring>(SWIG_CSharpStringHelperCallback callback)</argsstring>
+        <name>SWIGRegisterStringCallback_core_modeler</name>
+        <param>
+          <type>SWIG_CSharpStringHelperCallback</type>
+          <declname>callback</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="292" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="292" bodyend="294"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a852af98acc910f5393458c2f69f8b870" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_GlobalConfig_maxThreads_set</definition>
+        <argsstring>(void *jarg1, int jarg2)</argsstring>
+        <name>CSharp_GlobalConfig_maxThreads_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="311" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="311" bodyend="318"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a6fb30a33e5bc574e716622591b7a03cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT int SWIGSTDCALL CSharp_GlobalConfig_maxThreads_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_GlobalConfig_maxThreads_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="321" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="321" bodyend="330"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a03e95e952e86283ff88dd754d62ffef3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_GlobalConfig_enableLogging_set</definition>
+        <argsstring>(void *jarg1, unsigned int jarg2)</argsstring>
+        <name>CSharp_GlobalConfig_enableLogging_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>unsigned int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="333" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="333" bodyend="340"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1afc00574ab426db6d60511134c70fde55" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT unsigned int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT unsigned int SWIGSTDCALL CSharp_GlobalConfig_enableLogging_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_GlobalConfig_enableLogging_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="343" column="37" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="343" bodyend="352"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a539c231cf3610d4d1fc1dd8fa1876781" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_GlobalConfig_timeoutSeconds_set</definition>
+        <argsstring>(void *jarg1, double jarg2)</argsstring>
+        <name>CSharp_GlobalConfig_timeoutSeconds_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="355" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="355" bodyend="362"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae52f0d526fa6f745cd8865a712e1ffc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT double SWIGSTDCALL</type>
+        <definition>SWIGEXPORT double SWIGSTDCALL CSharp_GlobalConfig_timeoutSeconds_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_GlobalConfig_timeoutSeconds_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="365" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="365" bodyend="374"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae1e0ffc3391d045a5259cda45aa6b5cc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void *SWIGSTDCALL CSharp_new_GlobalConfig</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_new_GlobalConfig</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="377" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="377" bodyend="384"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1af4f94c4d2c240222b13c0ca81c6706c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_delete_GlobalConfig</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_delete_GlobalConfig</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="387" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="387" bodyend="392"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a17826b4678ffd1de1127833e919f4c24" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_g_systemState_set</definition>
+        <argsstring>(int jarg1)</argsstring>
+        <name>CSharp_g_systemState_set</name>
+        <param>
+          <type>int</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="395" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="395" bodyend="400"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab924de85bb5ca8ceebe98db4566866c6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT int SWIGSTDCALL CSharp_g_systemState_get</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_g_systemState_get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="403" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="403" bodyend="410"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a16e679a0a860e58c2e6e8bfddd6f8f85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_g_piValue_set</definition>
+        <argsstring>(double jarg1)</argsstring>
+        <name>CSharp_g_piValue_set</name>
+        <param>
+          <type>double</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="413" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="413" bodyend="418"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a9f2599273c318fe591339a889ea79ab3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT double SWIGSTDCALL</type>
+        <definition>SWIGEXPORT double SWIGSTDCALL CSharp_g_piValue_get</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_g_piValue_get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="421" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="421" bodyend="428"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae3a17b2ddf11a6218b30e4ac7462e9ee" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_GlobalLoggerProxy_logMessage__SWIG_0</definition>
+        <argsstring>(void *jarg1, char *jarg2)</argsstring>
+        <name>CSharp_GlobalLoggerProxy_logMessage__SWIG_0</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="431" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="431" bodyend="438"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a8f948d23f0f4c689009ba99027790d93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT unsigned int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT unsigned int SWIGSTDCALL CSharp_GlobalLoggerProxy_logMessage__SWIG_1</definition>
+        <argsstring>(void *jarg1, char *jarg2, int jarg3)</argsstring>
+        <name>CSharp_GlobalLoggerProxy_logMessage__SWIG_1</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>char *</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="441" column="37" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="441" bodyend="454"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a83425640e3e3dba2ba040f6ef04b0fff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_GlobalLoggerProxy_forceFlush</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_GlobalLoggerProxy_forceFlush</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="457" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="457" bodyend="462"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aadf6cd5f9d048486fb710a009b077017" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void *SWIGSTDCALL CSharp_new_GlobalLoggerProxy</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_new_GlobalLoggerProxy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="465" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="465" bodyend="472"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aae090cd5d69fdb8427482c7d9f7ee864" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_delete_GlobalLoggerProxy</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_delete_GlobalLoggerProxy</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="475" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="475" bodyend="480"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a6983a0020ea8075fb945cd373bb95718" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT int SWIGSTDCALL CSharp_globalInitialize</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_globalInitialize</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="483" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="483" bodyend="496"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aeea1c6cf757578ce480f4511ae1f48e3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void *SWIGSTDCALL CSharp_new_CoreModeler_Model</definition>
+        <argsstring>(int jarg1)</argsstring>
+        <name>CSharp_new_CoreModeler_Model</name>
+        <param>
+          <type>int</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="499" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="499" bodyend="508"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae928c94112c0bc7db387abf192344248" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT unsigned int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT unsigned int SWIGSTDCALL CSharp_CoreModeler_Model_MetadataIterator_hasNext</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Model_MetadataIterator_hasNext</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="511" column="37" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="511" bodyend="520"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a4e94e7118004a494fd43a97f521d3994" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT char *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT char *SWIGSTDCALL CSharp_CoreModeler_Model_MetadataIterator_next</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Model_MetadataIterator_next</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="523" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="523" bodyend="532"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a9b6de37f4a75ffa74687c03abd1870c1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void *SWIGSTDCALL CSharp_new_CoreModeler_Model_MetadataIterator</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_new_CoreModeler_Model_MetadataIterator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="535" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="535" bodyend="542"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a7e3afa360ee874da3fac45980f7a9819" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_delete_CoreModeler_Model_MetadataIterator</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_delete_CoreModeler_Model_MetadataIterator</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="545" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="545" bodyend="550"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab1b42972606870393d280fb69420c756" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_delete_CoreModeler_Model</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_delete_CoreModeler_Model</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="553" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="553" bodyend="558"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a849afacd82fe4ad9d1e01625aad79e26" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_delete_CoreModeler_Geometry_IDrawable</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_delete_CoreModeler_Geometry_IDrawable</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="561" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="561" bodyend="566"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ad4401d21b8fa6d4bf095bc50b8f17bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_0</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_0</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="569" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="569" bodyend="574"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a6856f7900fbe91b8eab1bff8e6d70235" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT int SWIGSTDCALL CSharp_CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_1</definition>
+        <argsstring>(void *jarg1, int jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_1</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="577" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="577" bodyend="588"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aed20c22fe3b23a10760090d342b8b1e4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_delete_CoreModeler_Geometry_Shape</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_delete_CoreModeler_Geometry_Shape</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="591" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="591" bodyend="596"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1af0fba5e3b307cedd875251426ea5389e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT double SWIGSTDCALL</type>
+        <definition>SWIGEXPORT double SWIGSTDCALL CSharp_CoreModeler_Geometry_Shape_getVolume</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Shape_getVolume</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="599" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="599" bodyend="608"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a8a2a18dd7fd3ef1702a4b3b02277488c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void *SWIGSTDCALL CSharp_new_CoreModeler_Geometry_Box</definition>
+        <argsstring>(double jarg1, double jarg2, double jarg3)</argsstring>
+        <name>CSharp_new_CoreModeler_Geometry_Box</name>
+        <param>
+          <type>double</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="611" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="611" bodyend="624"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a2a4e4c4bc96ebe5bcd9811354a600df0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT double SWIGSTDCALL</type>
+        <definition>SWIGEXPORT double SWIGSTDCALL CSharp_CoreModeler_Geometry_Box_getVolume</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Box_getVolume</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="627" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="627" bodyend="636"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a5047a64b2bd0fb89375d98d7863cba3e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Box_renderToScreen__SWIG_0</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Box_renderToScreen__SWIG_0</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="639" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="639" bodyend="644"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a7660791b10060ff0e56a5acc67c05cd6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT int SWIGSTDCALL CSharp_CoreModeler_Geometry_Box_renderToScreen__SWIG_1</definition>
+        <argsstring>(void *jarg1, int jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Box_renderToScreen__SWIG_1</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="647" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="647" bodyend="658"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1abf20d88d89ac2cc4fc6cb5803f9997a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Box_scale__SWIG_0</definition>
+        <argsstring>(void *jarg1, double jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Box_scale__SWIG_0</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="661" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="661" bodyend="668"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a7508da316313fa771cb06ebf547ba5af" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Box_scale__SWIG_1</definition>
+        <argsstring>(void *jarg1, double jarg2, double jarg3, double jarg4)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Box_scale__SWIG_1</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="671" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="671" bodyend="682"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a717d0676e4fe90fcee71f97d7cefe7eb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_delete_CoreModeler_Geometry_Box</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_delete_CoreModeler_Geometry_Box</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="685" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="685" bodyend="690"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a3d345645900e666c32675c05a1c969b2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT unsigned long SWIGSTDCALL</type>
+        <definition>SWIGEXPORT unsigned long SWIGSTDCALL CSharp_DIAG_SUCCESS_get</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_DIAG_SUCCESS_get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="693" column="38" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="693" bodyend="700"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a8ad56044f9a1790b738565e22edae202" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT unsigned long SWIGSTDCALL</type>
+        <definition>SWIGEXPORT unsigned long SWIGSTDCALL CSharp_DIAG_FAILURE_get</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_DIAG_FAILURE_get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="703" column="38" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="703" bodyend="710"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab877dbf0cdc990765302b0c32c011072" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_g_diagnosticRunCount_set</definition>
+        <argsstring>(unsigned int jarg1)</argsstring>
+        <name>CSharp_g_diagnosticRunCount_set</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="713" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="713" bodyend="718"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae88f21c46681963529178f6dfe233cdd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT unsigned int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT unsigned int SWIGSTDCALL CSharp_g_diagnosticRunCount_get</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_g_diagnosticRunCount_get</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="721" column="37" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="721" bodyend="728"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae6f628a2156651c5158433cd79348363" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT unsigned long SWIGSTDCALL</type>
+        <definition>SWIGEXPORT unsigned long SWIGSTDCALL CSharp_checkSystemHealth</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_checkSystemHealth</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="731" column="38" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="731" bodyend="738"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae29fe2b586e184dbedbbd42b11ca4115" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT unsigned int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT unsigned int SWIGSTDCALL CSharp_pingSubsystem__SWIG_0</definition>
+        <argsstring>(unsigned int jarg1)</argsstring>
+        <name>CSharp_pingSubsystem__SWIG_0</name>
+        <param>
+          <type>unsigned int</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="741" column="37" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="741" bodyend="750"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a4d8d84cc0904f9c3ea24cd7ec5022b2e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT unsigned int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT unsigned int SWIGSTDCALL CSharp_pingSubsystem__SWIG_1</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_pingSubsystem__SWIG_1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="753" column="37" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="753" bodyend="760"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ad324ca87ddccabc3976de0cbb38dc800" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_resetCounters</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_resetCounters</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="763" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="763" bodyend="765"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a5492d2480d2d9ef12eadcab125b050df" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Di_x_set</definition>
+        <argsstring>(void *jarg1, int jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Di_x_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="768" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="768" bodyend="775"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a5655880fdd1dacd2289cf202aa94f26e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT int SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Di_x_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Di_x_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="778" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="778" bodyend="787"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a57501bf67dbad0c4fc688a8b87d41975" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Di_y_set</definition>
+        <argsstring>(void *jarg1, int jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Di_y_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="790" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="790" bodyend="797"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a201544978c0943574ae5cb4c25022d6a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT int SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Di_y_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Di_y_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="800" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="800" bodyend="809"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a9df61160958cc0765733fb3a515036d1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Di_z_set</definition>
+        <argsstring>(void *jarg1, int jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Di_z_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="812" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="812" bodyend="819"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a812fed81e699244e09daeab7b7765fc6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT int SWIGSTDCALL</type>
+        <definition>SWIGEXPORT int SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Di_z_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Di_z_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="822" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="822" bodyend="831"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a380acd4e0b54daba1ad268bf5835fee5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void *SWIGSTDCALL CSharp_new_CoreModeler_Geometry_Point3Di__SWIG_0</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_new_CoreModeler_Geometry_Point3Di__SWIG_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="834" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="834" bodyend="841"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a2979af704bc0e8e25bd85e354f345700" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void *SWIGSTDCALL CSharp_new_CoreModeler_Geometry_Point3Di__SWIG_1</definition>
+        <argsstring>(int jarg1, int jarg2, int jarg3)</argsstring>
+        <name>CSharp_new_CoreModeler_Geometry_Point3Di__SWIG_1</name>
+        <param>
+          <type>int</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="844" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="844" bodyend="857"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ad436e263f2f995fb807056475d703d43" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Di_translate</definition>
+        <argsstring>(void *jarg1, int jarg2, int jarg3, int jarg4)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Di_translate</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="860" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="860" bodyend="871"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1abefe546327d3a6eb5ad7f6973626c429" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_delete_CoreModeler_Geometry_Point3Di</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_delete_CoreModeler_Geometry_Point3Di</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="874" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="874" bodyend="879"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a57317cd78a814c07e529b978a8585f6f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Df_x_set</definition>
+        <argsstring>(void *jarg1, float jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Df_x_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="882" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="882" bodyend="889"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1af52c54ed185bb974afbbb10e004c64c4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT float SWIGSTDCALL</type>
+        <definition>SWIGEXPORT float SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Df_x_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Df_x_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="892" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="892" bodyend="901"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a590473d034c9bdc382f1a84420a6f095" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Df_y_set</definition>
+        <argsstring>(void *jarg1, float jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Df_y_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="904" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="904" bodyend="911"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a619c07698bf866b2db54fe8481913bae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT float SWIGSTDCALL</type>
+        <definition>SWIGEXPORT float SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Df_y_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Df_y_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="914" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="914" bodyend="923"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a13ec38d779bf08fa5b0c85eeb5580491" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Df_z_set</definition>
+        <argsstring>(void *jarg1, float jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Df_z_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="926" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="926" bodyend="933"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a9e256aba15d5be691421eb6b081fc6c3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT float SWIGSTDCALL</type>
+        <definition>SWIGEXPORT float SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Df_z_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Df_z_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="936" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="936" bodyend="945"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a7fdb3273120d192d4ab03b5554ca4a90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void *SWIGSTDCALL CSharp_new_CoreModeler_Geometry_Point3Df__SWIG_0</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_new_CoreModeler_Geometry_Point3Df__SWIG_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="948" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="948" bodyend="955"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1affb9fe7ea84e3dad14da7f0f5eda1aed" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void *SWIGSTDCALL CSharp_new_CoreModeler_Geometry_Point3Df__SWIG_1</definition>
+        <argsstring>(float jarg1, float jarg2, float jarg3)</argsstring>
+        <name>CSharp_new_CoreModeler_Geometry_Point3Df__SWIG_1</name>
+        <param>
+          <type>float</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="958" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="958" bodyend="971"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a83c02c502b7795df60a561911d5cb06f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Df_translate</definition>
+        <argsstring>(void *jarg1, float jarg2, float jarg3, float jarg4)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Df_translate</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="974" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="974" bodyend="985"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a82e90e393c1aac5694722221debcd505" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_delete_CoreModeler_Geometry_Point3Df</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_delete_CoreModeler_Geometry_Point3Df</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="988" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="988" bodyend="993"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1af66397eae734155cb180defe4e6229ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Dd_x_set</definition>
+        <argsstring>(void *jarg1, double jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Dd_x_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="996" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="996" bodyend="1003"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1add52f9659d3ded599a3b3734c55fa695" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT double SWIGSTDCALL</type>
+        <definition>SWIGEXPORT double SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Dd_x_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Dd_x_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="1006" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="1006" bodyend="1015"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ae9f56dd51bc0a5a2f92b8670ccaf5a7f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Dd_y_set</definition>
+        <argsstring>(void *jarg1, double jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Dd_y_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="1018" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="1018" bodyend="1025"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a8dfa011dad922362a5289371d915f63d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT double SWIGSTDCALL</type>
+        <definition>SWIGEXPORT double SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Dd_y_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Dd_y_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="1028" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="1028" bodyend="1037"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a222e5e0e1c6caa39bb17df292f1958a3" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Dd_z_set</definition>
+        <argsstring>(void *jarg1, double jarg2)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Dd_z_set</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="1040" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="1040" bodyend="1047"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a21e1e672b0ba23af28a30f66e10e6b52" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT double SWIGSTDCALL</type>
+        <definition>SWIGEXPORT double SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Dd_z_get</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Dd_z_get</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="1050" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="1050" bodyend="1059"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a008ce0e467e76be47c7e8ba65b44d542" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void *SWIGSTDCALL CSharp_new_CoreModeler_Geometry_Point3Dd__SWIG_0</definition>
+        <argsstring>()</argsstring>
+        <name>CSharp_new_CoreModeler_Geometry_Point3Dd__SWIG_0</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="1062" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="1062" bodyend="1069"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1a4fa2fcd9a59a4a328bb0e7899f6a7cf2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void *SWIGSTDCALL CSharp_new_CoreModeler_Geometry_Point3Dd__SWIG_1</definition>
+        <argsstring>(double jarg1, double jarg2, double jarg3)</argsstring>
+        <name>CSharp_new_CoreModeler_Geometry_Point3Dd__SWIG_1</name>
+        <param>
+          <type>double</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="1072" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="1072" bodyend="1085"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1ab66bed27a24abfc0eab04c2cdba5fff7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_CoreModeler_Geometry_Point3Dd_translate</definition>
+        <argsstring>(void *jarg1, double jarg2, double jarg3, double jarg4)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Point3Dd_translate</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="1088" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="1088" bodyend="1099"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1aaa114ddfdb693f177e9b5f60b7a85290" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT void SWIGSTDCALL</type>
+        <definition>SWIGEXPORT void SWIGSTDCALL CSharp_delete_CoreModeler_Geometry_Point3Dd</definition>
+        <argsstring>(void *jarg1)</argsstring>
+        <name>CSharp_delete_CoreModeler_Geometry_Point3Dd</name>
+        <param>
+          <type>void *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="1102" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="1102" bodyend="1107"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler__wrap_8cxx_1af793441315fa95447c5f04fadd54ff81" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>SWIGEXPORT <ref refid="class_core_modeler_1_1_geometry_1_1_shape" kindref="compound">CoreModeler::Geometry::Shape</ref> *SWIGSTDCALL</type>
+        <definition>SWIGEXPORT CoreModeler::Geometry::Shape *SWIGSTDCALL CSharp_CoreModeler_Geometry_Box_SWIGUpcast</definition>
+        <argsstring>(CoreModeler::Geometry::Box *jarg1)</argsstring>
+        <name>CSharp_CoreModeler_Geometry_Box_SWIGUpcast</name>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_geometry_1_1_box" kindref="compound">CoreModeler::Geometry::Box</ref> *</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="1110" column="54" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="1110" bodyend="1112"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx"/>
+  </compounddef>
+</doxygen>

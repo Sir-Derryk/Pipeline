@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>{{ entity_title }} - API Reference</title>
+  {% if redirect_url %}
+  <meta http-equiv="refresh" content="0; url={{ redirect_url }}">
+  <script>
+    window.location.replace("{{ redirect_url }}");
+  </script>
+  {% endif %}
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Styles -->
+  <link rel="stylesheet" href="main.css">
+  <!-- Syntax Highlighting -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <!-- Navigation Scripts (Offline, CORS-Free) -->
+  <script src="nav_data.js"></script>
+  <script src="sidebar.js" defer></script>
+  <script src="search.js" defer></script>
+  <script src="oda_search.js" defer></script>
+</head>
+<body>
+  <header class="OdaDocMainHeader">
+    <section class="OdaDocProductInfo">
+      <img class="OdaDocLogoImg" src="logo.svg" alt="Open Design Alliance" onerror="this.style.display='none'">
+      <span class="OdaDocProductName">{{ product_name|default("Universal Documentation Engine") }} Reference</span>
+    </section>
+    <nav class="OdaDocNavSearch">
+      <div class="OdaDocBreadCrumbs">
+        <a class="OdaDocBreadCrumbsElement" href="index.html">Home</a>
+        <span class="OdaDocBreadCrumbsSeparator" style="color: rgba(255, 255, 255, 0.4); margin: 0 4px;">/</span>
+        {% if entity_type == "portal" %}
+          <span class="OdaDocBreadCrumbsElement active" style="color: #fff; font-weight: 500;">{{ entity_title }}</span>
+        {% elif entity_type == "namespace" %}
+          <span class="OdaDocBreadCrumbsElement active" style="color: #fff; font-weight: 500;">{{ entity_title }}</span>
+        {% else %}
+          {% if namespace_name and namespace_name != "Global" %}
+            <a class="OdaDocBreadCrumbsElement" href="{{ resolve_filename(namespace_name, entity_type='namespace') }}">
+              {{ namespace_name | format_scope }}
+            </a>
+            <span class="OdaDocBreadCrumbsSeparator" style="color: rgba(255, 255, 255, 0.4); margin: 0 4px;">/</span>
+          {% endif %}
+          <span class="OdaDocBreadCrumbsElement active" style="color: #fff; font-weight: 500;">{{ entity_title }}</span>
+        {% endif %}
+      </div>
+      <!-- Поле глобального поиска Docomatic по правому краю -->
+      <div class="OdaDocGlobalSearch" style="margin-left: auto; display: flex; align-items: center; gap: 6px;">
+        <input type="text" id="odaSearchInput" placeholder="Global Search..." onkeydown="if(event.keyCode==13) odaSearch();" style="padding: 4px 8px; border: 1px solid rgba(255,255,255,0.2); border-radius: 4px; background: rgba(255,255,255,0.1); color: #fff; font-size: 13px; outline: none; width: 150px;">
+        <button onclick="odaSearch();" style="padding: 4px 10px; border: none; border-radius: 4px; background: #228be6; color: #fff; font-size: 13px; cursor: pointer; font-weight: 500; transition: background 0.2s;">Search</button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <aside class="OdaDocTOCPanel">
+      <header class="OdaDocTOCHeader">Table of Contents</header>
+      <div class="OdaDocSearchBox">
+        <input type="text" id="sidebarSearch" placeholder="Filter API...">
+      </div>
+      <nav class="OdaDocTOC">
+        <div class="PageContentSidebar" id="toctree" data-content-url="nav_data.json">Loading...</div>
+      </nav>
+    </aside>
+    <div class="OdaDocSplitter" role="separator" aria-label="Resize panels" tabindex="0"></div>
+    <section class="OdaDocContainer">
+      <article class="OdaDocTopic">
+        <div class="OdaDocTopicContent">
+          <header class="OdaDocTopicHeader">
+            <h1 id="{{ entity.name|lower }}">{{ entity_title }}</h1>
+          </header>
+
+          <div class="OdaDocBrief">
+            {% if entity_type == "namespace" %}
+              <p>List of classes in the <code>{{ namespace_name | format_scope }}</code> namespace.</p>
+            {% elif entity.docstring %}
+              {{ entity.docstring | markdown | safe }}
+            {% else %}
+              <p>Namespace container for API classes.</p>
+            {% endif %}
+          </div>
+
+          {% if entity_type != "portal" %}
+          <div class="OdaDocContainerInfoPanel">
+            <table class="OdaDocContainerTable">
+              <tbody>
+                <tr>
+                  <td class="OdaDocContainerLabel">Scope:</td>
+                  <td class="OdaDocContainerValue"><code>{{ namespace_name|default("Global") | format_scope }}</code></td>
+                </tr>
+                {% if entity.fully_qualified_name %}
+                <tr>
+                  <td class="OdaDocContainerLabel">Fully Qualified Name:</td>
+                  <td class="OdaDocContainerValue"><code>{{ entity.fully_qualified_name | format_fqn }}</code></td>
+                </tr>
+                {% endif %}
+              </tbody>
+            </table>
+          </div>
+          {% endif %}
+
+          {% if entity_type == "class" or entity_type == "struct" or entity_type == "interface" %}
+          <div class="OdaDocCodeProto">
+            <div class="OdaDocCodeProtoInner">
+              <pre><code class="{{ language }}">{{ entity | format_class_proto }}</code></pre>
+            </div>
+          </div>
+          {% elif entity_type == "namespace" %}
+          <div class="OdaDocCodeProto">
+            <div class="OdaDocCodeProtoInner">
+              <pre><code class="{{ language }}">{{ entity | format_ns_proto }}</code></pre>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if entity_type == "namespace" and entity.classes %}
+          <div class="SectionHeading expandable">Classes</div>
+          <div class="NavigationTable">
+            <div class="TableDiv">
+              <table cellspacing="0" class="Table0">
+                <tbody>
+                  {% for cls in entity.classes %}
+                  <tr>
+                    <td class="NavigationTableLink_block" valign="top" width="25%">
+                      <div class="NavigationTableLink">
+                        <span class="OdaDocMemberArrow">▶</span>
+                        {% if entity.name %}
+                          {% set class_path = entity.name ~ "::" ~ cls.name %}
+
+
+                        {% else %}
+                          {% set class_path = cls.fully_qualified_name %}
+                        {% endif %}
+                        <strong><a href="{{ resolve_filename(class_path, entity_type=cls.entity_type) }}">{{ cls.name }}</a></strong>
+                      </div>
+                    </td>
+                    <td class="NavigationTableDescription_block" valign="top" width="75%">
+                      <div class="NavigationTableDescription">
+                        {% if cls.docstring %}
+                          {{ cls.docstring | brief_summary | markdown | safe }}
+                        {% else %}
+                          <p>No description provided.</p>
+                        {% endif %}
+                      </div>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if entity.methods %}
+          <div class="SectionHeading expandable">Methods</div>
+          <div class="NavigationTable">
+            <div class="TableDiv">
+              <table cellspacing="0" class="Table0">
+                <tbody>
+                  {% for method in entity.methods %}
+                  <tr id="{{ method.name|lower }}">
+                    <td class="NavigationTableLink_block" valign="top" width="25%">
+                      <div class="NavigationTableLink">
+                        <span class="OdaDocMemberArrow">▶</span>
+                        <strong>{{ method.name }}</strong>
+                      </div>
+                    </td>
+                    <td class="NavigationTableDescription_block" valign="top" width="75%">
+                      <div class="NavigationTableDescription">
+                        <code>{{ method.signature }}</code>
+                        {% if method.docstring %}
+                        {{ method.docstring | brief_summary | markdown | safe }}
+                        {% endif %}
+                        {% if method.parameters %}
+                        <table class="OdaDocParamsTable" style="margin-top: 8px; font-size: 0.9em; border-collapse: collapse; width: 100%;">
+                          <thead>
+                            <tr style="border-bottom: 1px solid #ddd; background: rgba(0,0,0,0.02);">
+                              <th align="left" style="padding: 6px;">Parameter</th>
+                              <th align="left" style="padding: 6px;">Type</th>
+                              <th align="left" style="padding: 6px;">Description</th>
+                            </tr>
+                          </thead>
+                          <tbody>
+                            {% for param in method.parameters %}
+                            <tr>
+                              <td style="padding: 6px; border-bottom: 1px solid #eee;"><code>{{ param.name }}</code></td>
+                              <td style="padding: 6px; border-bottom: 1px solid #eee;"><code>{{ param.type }}</code></td>
+                              <td style="padding: 6px; border-bottom: 1px solid #eee;">{{ param.description }}</td>
+                            </tr>
+                            {% endfor %}
+                          </tbody>
+                        </table>
+                        {% endif %}
+                        {% if method.overloads %}
+                        <div class="OdaDocOverloads" style="margin-top: 12px;">
+                          {% for ov in method.overloads %}
+                          <div class="OdaDocOverload" style="margin-top: 8px; padding: 8px; border-left: 3px solid #228be6; background: rgba(34,139,230,0.04);">
+                            <strong>Overload {{ ov.index }}:</strong>
+                            {% if ov.description %}{{ ov.description | markdown | safe }}{% endif %}
+                            {% if ov.parameters %}
+                            <table class="OdaDocParamsTable" style="margin-top: 6px; font-size: 0.9em; border-collapse: collapse; width: 100%;">
+                              <thead>
+                                <tr style="border-bottom: 1px solid #ddd;">
+                                  <th align="left" style="padding: 6px;">Parameter</th>
+                                  <th align="left" style="padding: 6px;">Type</th>
+                                  <th align="left" style="padding: 6px;">Description</th>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                {% for param in ov.parameters %}
+                                <tr>
+                                  <td style="padding: 6px; border-bottom: 1px solid #eee;"><code>{{ param.name }}</code></td>
+                                  <td style="padding: 6px; border-bottom: 1px solid #eee;"><code>{{ param.type }}</code></td>
+                                  <td style="padding: 6px; border-bottom: 1px solid #eee;">{{ param.description }}</td>
+                                </tr>
+                                {% endfor %}
+                              </tbody>
+                            </table>
+                            {% endif %}
+                          </div>
+                          {% endfor %}
+                        </div>
+                        {% endif %}
+                      </div>
+                    </td>
+                  </tr>
+                  {% endfor %}
+                </tbody>
+              </table>
+            </div>
+          </div>
+          {% endif %}
+
+          {% if catalog_links %}
+          <footer class="OdaDocFooter" style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd;">
+            <div class="OdaDocFooterLinks" style="display: flex; gap: 20px; align-items: center;">
+              {% for link in catalog_links %}
+              <a href="{{ link.url }}" class="OdaDocFooterLink" target="_blank" rel="noopener noreferrer" style="color: #2563eb; text-decoration: none; font-weight: 500; display: inline-flex; align-items: center; gap: 4px; font-family: 'Inter', sans-serif;">
+                <span>{{ link.label }}</span>
+                <svg viewBox="0 0 24 24" width="14" height="14">
+                  <path fill="currentColor" d="M14,3V5H17.59L7.76,14.83L9.17,16.24L19,6.41V10H21V3M19,19H5V5H12V3H5C3.89,3 3,3.9 3,5V19A2,2 0 0,0 5,21H19A2,2 0 0,0 21,19V12H19V19Z" />
+                </svg>
+              </a>
+              {% endfor %}
+            </div>
+          </footer>
+          {% endif %}
+        </div>
+      </article>
+    </section>
+  </main>
+  <footer class="OdaDocFooter">
+    <div class="OdaDocCopyright">
+      Copyright &copy; {{ current_year }}
+    </div>
+  </footer>
+</body>
+</html>

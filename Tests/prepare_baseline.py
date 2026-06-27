@@ -25,18 +25,26 @@ from ude.orchestrator import UdeOrchestrator
 
 # Target Projects Configurations
 FACETMODELER_PROJECTS = [
-    {"id": "facetmodeler_api_cpp", "config": WORKSPACE_ROOT / "ude/FacetModeler/facetmodeler_api_cpp/ude_config.json", "lang": "cpp"},
-    {"id": "facetmodeler_api_cs", "config": WORKSPACE_ROOT / "ude/FacetModeler/facetmodeler_api_cs/ude_config.json", "lang": "cs"},
-    {"id": "facetmodeler_api_java", "config": WORKSPACE_ROOT / "ude/FacetModeler/facetmodeler_api_java/ude_config.json", "lang": "java"},
-    {"id": "facetmodeler_api_py", "config": WORKSPACE_ROOT / "ude/FacetModeler/facetmodeler_api_py/ude_config.json", "lang": "py"},
+    {"id": "facetmodeler_api_cpp", "config": WORKSPACE_ROOT / "ude_projects/FacetModeler/facetmodeler_api_cpp/ude_doc_config.json", "lang": "cpp"},
+    {"id": "facetmodeler_api_cs", "config": WORKSPACE_ROOT / "ude_projects/FacetModeler/facetmodeler_api_cs/ude_doc_config.json", "lang": "cs"},
+    {"id": "facetmodeler_api_java", "config": WORKSPACE_ROOT / "ude_projects/FacetModeler/facetmodeler_api_java/ude_doc_config.json", "lang": "java"},
+    {"id": "facetmodeler_api_py", "config": WORKSPACE_ROOT / "ude_projects/FacetModeler/facetmodeler_api_py/ude_doc_config.json", "lang": "py"},
 ]
 
 BIMNV_PROJECTS = [
-    {"id": "bimnv_api_cpp", "config": WORKSPACE_ROOT / "ude/bimnv/bimnv_api_cpp/ude_config.json", "lang": "cpp"},
-    {"id": "bimnv_api_cs", "config": WORKSPACE_ROOT / "ude/bimnv/bimnv_api_cs/ude_config.json", "lang": "cs"},
-    {"id": "bimnv_api_java", "config": WORKSPACE_ROOT / "ude/bimnv/bimnv_api_java/ude_config.json", "lang": "java"},
-    {"id": "bimnv_api_py", "config": WORKSPACE_ROOT / "ude/bimnv/bimnv_api_py/ude_config.json", "lang": "py"},
+    {"id": "bimnv_api_cpp", "config": WORKSPACE_ROOT / "ude_projects/bimnv/bimnv_api_cpp/ude_doc_config.json", "lang": "cpp"},
+    {"id": "bimnv_api_cs", "config": WORKSPACE_ROOT / "ude_projects/bimnv/bimnv_api_cs/ude_doc_config.json", "lang": "cs"},
+    {"id": "bimnv_api_java", "config": WORKSPACE_ROOT / "ude_projects/bimnv/bimnv_api_java/ude_doc_config.json", "lang": "java"},
+    {"id": "bimnv_api_py", "config": WORKSPACE_ROOT / "ude_projects/bimnv/bimnv_api_py/ude_doc_config.json", "lang": "py"},
 ]
+
+MOCK_PROJECTS = [
+    {"id": "mock_api_cpp", "config": WORKSPACE_ROOT / "ude_projects/mock/mock_api_cpp/ude_doc_config.json", "lang": "cpp"},
+    {"id": "mock_api_cs", "config": WORKSPACE_ROOT / "ude_projects/mock/mock_api_cs/ude_doc_config.json", "lang": "cs"},
+    {"id": "mock_api_java", "config": WORKSPACE_ROOT / "ude_projects/mock/mock_api_java/ude_doc_config.json", "lang": "java"},
+    {"id": "mock_api_py", "config": WORKSPACE_ROOT / "ude_projects/mock/mock_api_py/ude_doc_config.json", "lang": "py"},
+]
+
 
 # Track current project being compiled for our hooks
 global_current_project_id = None
@@ -110,19 +118,75 @@ def custom_parse(self, xml_dir_path):
 
 DoxygenXmlParser.parse = custom_parse
 
+# 3. Monkeypatch UdeOrchestrator.run_target to temporarily map renderer/collector class names during baseline preparation
+original_run_target = UdeOrchestrator.run_target
+
+def custom_run_target(self, config_path):
+    config_path = Path(config_path)
+    with open(config_path, "r", encoding="utf-8") as f:
+        original_content = f.read()
+        config = json.loads(original_content)
+    
+    renderer_cfg = config.get("renderer", {})
+    fmt = renderer_cfg.get("type", "").lower()
+    
+    modified = False
+    if "html" in fmt:
+        config["renderer"]["type"] = "html"
+        modified = True
+    elif "hugo" in fmt or "markdown" in fmt:
+        config["renderer"]["type"] = "hugo_markdown"
+        modified = True
+        
+    collector_cfg = config.get("collector", {})
+    coll_type = collector_cfg.get("type", "").lower()
+    if coll_type.startswith("cpp"):
+        config["collector"]["type"] = "cpp"
+        modified = True
+    elif coll_type.startswith("cs"):
+        config["collector"]["type"] = "cs"
+        modified = True
+    elif coll_type.startswith("java"):
+        config["collector"]["type"] = "java"
+        modified = True
+    elif coll_type.startswith("py"):
+        config["collector"]["type"] = "py"
+        modified = True
+
+    if modified:
+        with open(config_path, "w", encoding="utf-8") as f:
+            json.dump(config, f, indent=4)
+            
+    try:
+        return original_run_target(self, config_path)
+    finally:
+        if modified:
+            with open(config_path, "w", encoding="utf-8") as f:
+                f.write(original_content)
+
+UdeOrchestrator.run_target = custom_run_target
+
+
 def main():
     parser = argparse.ArgumentParser(description="Prepare UDE test baselines.")
     parser.add_argument(
         "--suite",
-        choices=["facetmodeler", "both"],
+        choices=["facetmodeler", "both", "mock", "all"],
         default="facetmodeler",
         help="Which projects suite to run. Default is facetmodeler."
     )
     args = parser.parse_args()
     
-    projects_to_run = FACETMODELER_PROJECTS
-    if args.suite == "both":
+    projects_to_run = []
+    if args.suite == "facetmodeler":
+        projects_to_run = FACETMODELER_PROJECTS
+    elif args.suite == "both":
         projects_to_run = FACETMODELER_PROJECTS + BIMNV_PROJECTS
+    elif args.suite == "mock":
+        projects_to_run = MOCK_PROJECTS
+    elif args.suite == "all":
+        projects_to_run = FACETMODELER_PROJECTS + BIMNV_PROJECTS + MOCK_PROJECTS
+
         
     print("=" * 60)
     print(f"Preparing 3-Tier Golden Master baseline (Suite: {args.suite.upper()})...")

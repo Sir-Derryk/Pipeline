@@ -1,0 +1,243 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_global_logger_proxy" kind="class" language="C#" prot="public">
+    <compoundname>GlobalLoggerProxy</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemIDisposable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_global_logger_proxy_1ae64bc240b6b3a064894c515d60bb4fad" prot="private" static="no" mutable="no">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>global::System.Runtime.InteropServices.HandleRef GlobalLoggerProxy.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>GlobalLoggerProxy.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="13" column="57" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_global_logger_proxy_1a68b1a0b9e6a4e6b535405206e2950338" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GlobalLoggerProxy.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>GlobalLoggerProxy.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="14" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_global_logger_proxy_1af814ab53c1c1f6b05cca1efa45d9a85a" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalLoggerProxy.GlobalLoggerProxy</definition>
+        <argsstring>(global::System.IntPtr cPtr, bool cMemoryOwn)</argsstring>
+        <name>GlobalLoggerProxy</name>
+        <qualifiedname>GlobalLoggerProxy.GlobalLoggerProxy</qualifiedname>
+        <param>
+          <type>global::System.IntPtr</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="16" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_global_logger_proxy_1a78c1322f2d1c8dfa4ca2bb17cf6dca3f" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>static global::System.Runtime.InteropServices.HandleRef GlobalLoggerProxy.getCPtr</definition>
+        <argsstring>(GlobalLoggerProxy obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>GlobalLoggerProxy.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_global_logger_proxy" kindref="compound">GlobalLoggerProxy</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="21" column="65" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="21" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_global_logger_proxy_1aff7d283b89a7f2fc9f181ac222ee5d6e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalLoggerProxy.~GlobalLoggerProxy</definition>
+        <argsstring>()</argsstring>
+        <name>~GlobalLoggerProxy</name>
+        <qualifiedname>GlobalLoggerProxy.~GlobalLoggerProxy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="25" column="3" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="25" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_global_logger_proxy_1af451902df7645e0af4ded5c8eb4f83cd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalLoggerProxy.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>GlobalLoggerProxy.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="29" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_logger_proxy_1a5e5a9b934abe8e3c25b0be91b7ed73d6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalLoggerProxy.logMessage</definition>
+        <argsstring>(string message)</argsstring>
+        <name>logMessage</name>
+        <qualifiedname>GlobalLoggerProxy.logMessage</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="46" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_logger_proxy_1a08105ddaeafd8b41c18b52de302ef21a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GlobalLoggerProxy.logMessage</definition>
+        <argsstring>(string message, int severity)</argsstring>
+        <name>logMessage</name>
+        <qualifiedname>GlobalLoggerProxy.logMessage</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>severity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="50" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_logger_proxy_1a91b108ad900292afb1adcd4d7e7a2f0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalLoggerProxy.forceFlush</definition>
+        <argsstring>()</argsstring>
+        <name>forceFlush</name>
+        <qualifiedname>GlobalLoggerProxy.forceFlush</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="55" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_logger_proxy_1a4ce5c75f0c541489b84e10996e6c33e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalLoggerProxy.GlobalLoggerProxy</definition>
+        <argsstring>()</argsstring>
+        <name>GlobalLoggerProxy</name>
+        <qualifiedname>GlobalLoggerProxy.GlobalLoggerProxy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="59" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="59" bodyend="60"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_global_logger_proxy_1a34e55c4e81f4bb4a557ae562f142609b" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GlobalLoggerProxy.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>GlobalLoggerProxy.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="34" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="34" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GlobalLoggerProxy</label>
+        <link refid="class_global_logger_proxy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GlobalLoggerProxy</label>
+        <link refid="class_global_logger_proxy"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" line="12" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalLoggerProxy.cs" bodystart="12" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_global_logger_proxy_1af451902df7645e0af4ded5c8eb4f83cd" prot="public" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>Dispose</name></member>
+      <member refid="class_global_logger_proxy_1a34e55c4e81f4bb4a557ae562f142609b" prot="protected" virt="virtual"><scope>GlobalLoggerProxy</scope><name>Dispose</name></member>
+      <member refid="class_global_logger_proxy_1a91b108ad900292afb1adcd4d7e7a2f0f" prot="public" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>forceFlush</name></member>
+      <member refid="class_global_logger_proxy_1a78c1322f2d1c8dfa4ca2bb17cf6dca3f" prot="package" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>getCPtr</name></member>
+      <member refid="class_global_logger_proxy_1af814ab53c1c1f6b05cca1efa45d9a85a" prot="package" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>GlobalLoggerProxy</name></member>
+      <member refid="class_global_logger_proxy_1a4ce5c75f0c541489b84e10996e6c33e8" prot="public" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>GlobalLoggerProxy</name></member>
+      <member refid="class_global_logger_proxy_1a5e5a9b934abe8e3c25b0be91b7ed73d6" prot="public" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>logMessage</name></member>
+      <member refid="class_global_logger_proxy_1a08105ddaeafd8b41c18b52de302ef21a" prot="public" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>logMessage</name></member>
+      <member refid="class_global_logger_proxy_1a68b1a0b9e6a4e6b535405206e2950338" prot="protected" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>swigCMemOwn</name></member>
+      <member refid="class_global_logger_proxy_1ae64bc240b6b3a064894c515d60bb4fad" prot="private" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>swigCPtr</name></member>
+      <member refid="class_global_logger_proxy_1aff7d283b89a7f2fc9f181ac222ee5d6e" prot="private" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>~GlobalLoggerProxy</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,29 @@
+{
+    "project_name": "BimNv Python API Reference",
+    "short_project_name": "BimNv",
+    "src_dir": [
+        "../../../main/_swig/Python/BimNv"
+    ],
+    "static_pages_dir": "./",
+    "copyright_start_year": 2002,
+    "incremental": true,
+    "max_workers": 8,
+    "collector": {
+        "type": "PyDoxygenCollector",
+        "file_patterns": [
+            "**/*.py"
+        ],
+        "include_private": false
+    },
+    "parser": {
+        "type": "PyDoxygenParser",
+        "docstring_format": "sphinx_rst"
+    },
+    "renderer": {
+        "type": "PyHtmlDefaultRenderer"
+    },
+    "output_subdir": "bimnv_api_py",
+    "validator": {
+        "type": "PyCommentValidator"
+    }
+}

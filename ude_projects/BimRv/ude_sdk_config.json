@@ -1,0 +1,14 @@
+{
+    "product_name": "BimRv",
+    "docs": [
+        {
+            "type": "api",
+            "id": "bimrv_api_py",
+            "title": "Python API Reference",
+            "lang": "py",
+            "devguide_lang_suffix": "py",
+            "path": "bimrv_api_py",
+            "main_page": "bimrv_api_ref.html"
+        }
+    ]
+}

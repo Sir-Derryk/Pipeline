@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_global_status_8cs" kind="file" language="C#">
+    <compoundname>GlobalStatus.cs</compoundname>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_global_status_8cs_1a4dd0d066439b41b801e641efc3156b50" prot="public" static="no" strong="yes">
+        <type></type>
+        <name>GlobalStatus</name>
+        <enumvalue id="_global_status_8cs_1a4dd0d066439b41b801e641efc3156b50afb4dac1c1ee511039f7660f4212b4374" prot="public">
+          <name>GLOBAL_STATUS_OK</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_global_status_8cs_1a4dd0d066439b41b801e641efc3156b50ad78dae28d79ef44b01fe4d4bac5e3d58" prot="public">
+          <name>GLOBAL_STATUS_WARNING</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_global_status_8cs_1a4dd0d066439b41b801e641efc3156b50a51ef1d7c4a5dbbcf4819b0e50ac883f6" prot="public">
+          <name>GLOBAL_STATUS_ERROR</name>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalStatus.cs" line="12" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalStatus.cs" bodystart="12" bodyend="16"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalStatus.cs"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,159 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcore__modeler_1_1_global_config" kind="class" language="Python" prot="public">
+    <compoundname>core_modeler::GlobalConfig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classcore__modeler_1_1_global_config_1a7bf95c02eef73fb7be30f8ffcaac4651" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type></type>
+        <definition>core_modeler.GlobalConfig::thisown</definition>
+        <argsstring></argsstring>
+        <name>thisown</name>
+        <qualifiedname>core_modeler.GlobalConfig.thisown</qualifiedname>
+        <initializer>=  property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc=&quot;The membership flag&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="73" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="73" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classcore__modeler_1_1_global_config_1a3408404f450be5f7be7973cf392bd147" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type></type>
+        <definition>core_modeler.GlobalConfig::maxThreads</definition>
+        <argsstring></argsstring>
+        <name>maxThreads</name>
+        <qualifiedname>core_modeler.GlobalConfig.maxThreads</qualifiedname>
+        <initializer>=  property(_core_modeler.GlobalConfig_maxThreads_get, _core_modeler.GlobalConfig_maxThreads_set, doc=)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="75" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classcore__modeler_1_1_global_config_1ac2d823da509ae05a1e0b587bf0c4e5dc" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type></type>
+        <definition>core_modeler.GlobalConfig::enableLogging</definition>
+        <argsstring></argsstring>
+        <name>enableLogging</name>
+        <qualifiedname>core_modeler.GlobalConfig.enableLogging</qualifiedname>
+        <initializer>=  property(_core_modeler.GlobalConfig_enableLogging_get, _core_modeler.GlobalConfig_enableLogging_set, doc=)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="76" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="76" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="classcore__modeler_1_1_global_config_1ad5bc29c5cd7d50be236f8485cc78eddb" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type></type>
+        <definition>core_modeler.GlobalConfig::timeoutSeconds</definition>
+        <argsstring></argsstring>
+        <name>timeoutSeconds</name>
+        <qualifiedname>core_modeler.GlobalConfig.timeoutSeconds</qualifiedname>
+        <initializer>=  property(_core_modeler.GlobalConfig_timeoutSeconds_get, _core_modeler.GlobalConfig_timeoutSeconds_set, doc=)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="77" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="77" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcore__modeler_1_1_global_config_1ae8e27dfc1fb9f6546771a68197715efe" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>core_modeler.GlobalConfig::__repr__</definition>
+        <argsstring></argsstring>
+        <name>__repr__</name>
+        <qualifiedname>core_modeler.GlobalConfig.__repr__</qualifiedname>
+        <initializer>=  _swig_repr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="74" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="74" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_1_1_global_config_1a0ad315dd225c3461634f29a16f09952b" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>core_modeler.GlobalConfig::__swig_destroy__</definition>
+        <argsstring></argsstring>
+        <name>__swig_destroy__</name>
+        <qualifiedname>core_modeler.GlobalConfig.__swig_destroy__</qualifiedname>
+        <initializer>=  _core_modeler.delete_GlobalConfig</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="82" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="82" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcore__modeler_1_1_global_config_1a3f2603885855d3ba7dbe073461769e9c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.GlobalConfig.__init__</definition>
+        <argsstring>(self)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>core_modeler.GlobalConfig.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>__init__(GlobalConfig self) -&gt; GlobalConfig</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="79" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="79" bodyend="81"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Proxy of C++ GlobalConfig class.</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>core_modeler.GlobalConfig</label>
+        <link refid="classcore__modeler_1_1_global_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>core_modeler.GlobalConfig</label>
+        <link refid="classcore__modeler_1_1_global_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="70" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="70" bodyend="86"/>
+    <listofallmembers>
+      <member refid="classcore__modeler_1_1_global_config_1a3f2603885855d3ba7dbe073461769e9c" prot="public" virt="non-virtual"><scope>core_modeler::GlobalConfig</scope><name>__init__</name></member>
+      <member refid="classcore__modeler_1_1_global_config_1ae8e27dfc1fb9f6546771a68197715efe" prot="private" virt="non-virtual"><scope>core_modeler::GlobalConfig</scope><name>__repr__</name></member>
+      <member refid="classcore__modeler_1_1_global_config_1a0ad315dd225c3461634f29a16f09952b" prot="private" virt="non-virtual"><scope>core_modeler::GlobalConfig</scope><name>__swig_destroy__</name></member>
+      <member refid="classcore__modeler_1_1_global_config_1ac2d823da509ae05a1e0b587bf0c4e5dc" prot="public" virt="non-virtual"><scope>core_modeler::GlobalConfig</scope><name>enableLogging</name></member>
+      <member refid="classcore__modeler_1_1_global_config_1a3408404f450be5f7be7973cf392bd147" prot="public" virt="non-virtual"><scope>core_modeler::GlobalConfig</scope><name>maxThreads</name></member>
+      <member refid="classcore__modeler_1_1_global_config_1a7bf95c02eef73fb7be30f8ffcaac4651" prot="public" virt="non-virtual"><scope>core_modeler::GlobalConfig</scope><name>thisown</name></member>
+      <member refid="classcore__modeler_1_1_global_config_1ad5bc29c5cd7d50be236f8485cc78eddb" prot="public" virt="non-virtual"><scope>core_modeler::GlobalConfig</scope><name>timeoutSeconds</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_model" kind="class" language="C++" prot="public">
+    <compoundname>CoreModeler::Model</compoundname>
+    <includes refid="_core_modeler_8h" local="no">CoreModeler.h</includes>
+    <innerclass refid="class_core_modeler_1_1_model_1_1_metadata_iterator" prot="public">CoreModeler::Model::MetadataIterator</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_model_1ad51519540a5238f99c922ca1659b00cb" prot="private" static="no" mutable="no">
+        <type>RenderMode</type>
+        <definition>RenderMode CoreModeler::Model::m_mode</definition>
+        <argsstring></argsstring>
+        <name>m_mode</name>
+        <qualifiedname>CoreModeler::Model::m_mode</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="47" column="16" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1a85da5077d403779065f92c7e41d3a5ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler::Model::Model</definition>
+        <argsstring>(RenderMode mode)</argsstring>
+        <name>Model</name>
+        <qualifiedname>CoreModeler::Model::Model</qualifiedname>
+        <param>
+          <type>RenderMode</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+<para>Constructs a new <ref refid="class_core_modeler_1_1_model" kindref="compound">Model</ref> with a specified render mode. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="22" column="5"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1acd827bb997e4b25a797fb33c8805eb9a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler::Model::clear</definition>
+        <argsstring>()</argsstring>
+        <name>clear</name>
+        <qualifiedname>CoreModeler::Model::clear</qualifiedname>
+        <briefdescription>
+<para>Completely undocumented method that returns void. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="27" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>The main model class representing a 3D model entity. </para>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="17" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="17" bodyend="48"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_model_1acd827bb997e4b25a797fb33c8805eb9a" prot="public" virt="non-virtual"><scope>CoreModeler::Model</scope><name>clear</name></member>
+      <member refid="class_core_modeler_1_1_model_1ad51519540a5238f99c922ca1659b00cb" prot="private" virt="non-virtual"><scope>CoreModeler::Model</scope><name>m_mode</name></member>
+      <member refid="class_core_modeler_1_1_model_1a85da5077d403779065f92c7e41d3a5ca" prot="public" virt="non-virtual"><scope>CoreModeler::Model</scope><name>Model</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

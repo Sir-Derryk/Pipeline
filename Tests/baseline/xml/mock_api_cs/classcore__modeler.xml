@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcore__modeler" kind="class" language="C#" prot="public">
+    <compoundname>core_modeler</compoundname>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classcore__modeler_1a0e874feaf6338d9616addbc0c4e0bdab" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int core_modeler.g_systemState</definition>
+        <argsstring></argsstring>
+        <name>g_systemState</name>
+        <qualifiedname>core_modeler.g_systemState</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" line="13" column="21" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="property" id="classcore__modeler_1aa2e5bd772abc02520dd1af5ba7830856" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double core_modeler.g_piValue</definition>
+        <argsstring></argsstring>
+        <name>g_piValue</name>
+        <qualifiedname>core_modeler.g_piValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" line="23" column="24" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" bodystart="23" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="property" id="classcore__modeler_1a54f7a2099ed297185d8adf4cfecddb36" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>uint</type>
+        <definition>uint core_modeler.DIAG_SUCCESS</definition>
+        <argsstring></argsstring>
+        <name>DIAG_SUCCESS</name>
+        <qualifiedname>core_modeler.DIAG_SUCCESS</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" line="39" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" bodystart="39" bodyend="44"/>
+      </memberdef>
+      <memberdef kind="property" id="classcore__modeler_1a24ebf30f3aaafb51d5a55d8205bed18c" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>uint</type>
+        <definition>uint core_modeler.DIAG_FAILURE</definition>
+        <argsstring></argsstring>
+        <name>DIAG_FAILURE</name>
+        <qualifiedname>core_modeler.DIAG_FAILURE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" line="46" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" bodystart="46" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="property" id="classcore__modeler_1a5f4aa8d4c4413522b206117e03f79c4e" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>uint</type>
+        <definition>uint core_modeler.g_diagnosticRunCount</definition>
+        <argsstring></argsstring>
+        <name>g_diagnosticRunCount</name>
+        <qualifiedname>core_modeler.g_diagnosticRunCount</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" line="53" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" bodystart="53" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcore__modeler_1ae70b25a77d58ce2c25db465468c5be5a" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int core_modeler.globalInitialize</definition>
+        <argsstring>(GlobalConfig config)</argsstring>
+        <name>globalInitialize</name>
+        <qualifiedname>core_modeler.globalInitialize</qualifiedname>
+        <param>
+          <type><ref refid="class_global_config" kindref="compound">GlobalConfig</ref></type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" line="33" column="21" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" bodystart="33" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1ae78613e8cdd3e17c4e6ca8faa109d854" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>uint</type>
+        <definition>static uint core_modeler.checkSystemHealth</definition>
+        <argsstring>()</argsstring>
+        <name>checkSystemHealth</name>
+        <qualifiedname>core_modeler.checkSystemHealth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" line="63" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1a3cf3d913e31bdfb47d05efd936f6ab76" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool core_modeler.pingSubsystem</definition>
+        <argsstring>(uint timeoutMs)</argsstring>
+        <name>pingSubsystem</name>
+        <qualifiedname>core_modeler.pingSubsystem</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>timeoutMs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" line="68" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1af19d1694ce95105a60c516c58202d8a4" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool core_modeler.pingSubsystem</definition>
+        <argsstring>()</argsstring>
+        <name>pingSubsystem</name>
+        <qualifiedname>core_modeler.pingSubsystem</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" line="73" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" bodystart="73" bodyend="76"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1a7b0e26fb841a2bc45a935c93d0626f93" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modeler.resetCounters</definition>
+        <argsstring>()</argsstring>
+        <name>resetCounters</name>
+        <qualifiedname>core_modeler.resetCounters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" line="78" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" bodystart="78" bodyend="80"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" line="12" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler.cs" bodystart="12" bodyend="82"/>
+    <listofallmembers>
+      <member refid="classcore__modeler_1ae78613e8cdd3e17c4e6ca8faa109d854" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>checkSystemHealth</name></member>
+      <member refid="classcore__modeler_1a24ebf30f3aaafb51d5a55d8205bed18c" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>DIAG_FAILURE</name></member>
+      <member refid="classcore__modeler_1a54f7a2099ed297185d8adf4cfecddb36" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>DIAG_SUCCESS</name></member>
+      <member refid="classcore__modeler_1a5f4aa8d4c4413522b206117e03f79c4e" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>g_diagnosticRunCount</name></member>
+      <member refid="classcore__modeler_1aa2e5bd772abc02520dd1af5ba7830856" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>g_piValue</name></member>
+      <member refid="classcore__modeler_1a0e874feaf6338d9616addbc0c4e0bdab" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>g_systemState</name></member>
+      <member refid="classcore__modeler_1ae70b25a77d58ce2c25db465468c5be5a" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>globalInitialize</name></member>
+      <member refid="classcore__modeler_1a3cf3d913e31bdfb47d05efd936f6ab76" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>pingSubsystem</name></member>
+      <member refid="classcore__modeler_1af19d1694ce95105a60c516c58202d8a4" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>pingSubsystem</name></member>
+      <member refid="classcore__modeler_1a7b0e26fb841a2bc45a935c93d0626f93" prot="public" virt="non-virtual"><scope>core_modeler</scope><name>resetCounters</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

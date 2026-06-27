@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_global_status_8java" kind="file" language="Java">
+    <compoundname>GlobalStatus.java</compoundname>
+    <innerclass refid="class_global_status" prot="public">GlobalStatus</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java"/>
+  </compounddef>
+</doxygen>
