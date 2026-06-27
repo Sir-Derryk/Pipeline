@@ -15,3 +15,9 @@ label = "Developer Guide"
 url = "api_ref2dg.html"
 redirect_url = "../{{sdk_name}}/{{sdk_name}}_devguide.html"
 content = "The Developer Guide for {{SDK_Name}} SDK is available via <a onclick=\"openExternalLink(&#39;../{{sdk_name}}/{{sdk_name}}_devguide.html&#39;);\" style=\"cursor: pointer;\">this</a> link."
+
+[[sidebar]]
+type = "static"
+label = "License and Copyright"
+url = "license_copyright.html"
+source_file = "../../../Dev_Guides/Drawings/drw_license_copyright.html"

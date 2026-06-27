@@ -41,6 +41,17 @@
     "engine/README.md"
   ],
   "projects": [
-    "BimNv API Py"
+    "BimNv API Py",
+    "BimRv API Py",
+    "BrepModeler API Py",
+    "Components API Py",
+    "Dgn API Py",
+    "Drawings API Py",
+    "FacetModeler API Py",
+    "Ifc API Py",
+    "Kernel API Py",
+    "Mock API Py",
+    "Sdai API Py",
+    "Step API Py"
   ]
 }

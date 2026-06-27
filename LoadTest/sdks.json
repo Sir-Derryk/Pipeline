@@ -1,0 +1,13 @@
+[
+  {"name": "Sdai", "folder": "Sdai", "lower_id": "sdai_api_py", "files": 2, "size": "30.53 KB"},
+  {"name": "BrepModeler", "folder": "BrepModeler", "lower_id": "brepmodeler_api_py", "files": 1, "size": "434.10 KB"},
+  {"name": "FacetModeler", "folder": "FacetModeler", "lower_id": "facetmodeler_api_py", "files": 2, "size": "514.58 KB"},
+  {"name": "Components", "folder": "Components", "lower_id": "components_api_py", "files": 7, "size": "952.82 KB"},
+  {"name": "bimnv", "folder": "bimnv", "lower_id": "bimnv_api_py", "files": 20, "size": "3.30 MB"},
+  {"name": "Step", "folder": "Step", "lower_id": "step_api_py", "files": 6, "size": "5.19 MB"},
+  {"name": "Drawings", "folder": "Drawings", "lower_id": "drawings_api_py", "files": 28, "size": "7.13 MB"},
+  {"name": "Kernel", "folder": "Kernel", "lower_id": "kernel_api_py", "files": 22, "size": "9.18 MB"},
+  {"name": "Dgn", "folder": "Dgn", "lower_id": "dgn_api_py", "files": 6, "size": "14.99 MB"},
+  {"name": "BimRv", "folder": "BimRv", "lower_id": "bimrv_api_py", "files": 28, "size": "54.24 MB"},
+  {"name": "Ifc", "folder": "Ifc", "lower_id": "ifc_api_py", "files": 18, "size": "82.94 MB"}
+]

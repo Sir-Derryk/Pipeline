@@ -18,19 +18,19 @@ LOAD_TEST_DIR = WORKSPACE_ROOT / "LoadTest"
 GLOBAL_CONFIG = "ude_projects/ude_global_config.json"
 
 # Sorted list of SDKs with Python SWIG wrappers, ordered by size ascending
-SDKS = [
-    {"name": "Sdai", "folder": "Sdai", "lower_id": "sdai_api_py", "files": 2, "size": "30.53 KB"},
-    {"name": "BrepModeler", "folder": "BrepModeler", "lower_id": "brepmodeler_api_py", "files": 1, "size": "434.10 KB"},
-    {"name": "FacetModeler", "folder": "FacetModeler", "lower_id": "facetmodeler_api_py", "files": 2, "size": "514.58 KB"},
-    {"name": "Components", "folder": "Components", "lower_id": "components_api_py", "files": 7, "size": "952.82 KB"},
-    {"name": "bimnv", "folder": "bimnv", "lower_id": "bimnv_api_py", "files": 20, "size": "3.30 MB"},
-    {"name": "Step", "folder": "Step", "lower_id": "step_api_py", "files": 6, "size": "5.19 MB"},
-    {"name": "Drawings", "folder": "Drawings", "lower_id": "drawings_api_py", "files": 28, "size": "7.13 MB"},
-    {"name": "Kernel", "folder": "Kernel", "lower_id": "kernel_api_py", "files": 22, "size": "9.18 MB"},
-    {"name": "Dgn", "folder": "Dgn", "lower_id": "dgn_api_py", "files": 6, "size": "14.99 MB"},
-    {"name": "BimRv", "folder": "BimRv", "lower_id": "bimrv_api_py", "files": 28, "size": "54.24 MB"},
-    {"name": "Ifc", "folder": "Ifc", "lower_id": "ifc_api_py", "files": 18, "size": "82.94 MB"}
-]
+SDKS_JSON_PATH = LOAD_TEST_DIR / "sdks.json"
+
+if not SDKS_JSON_PATH.exists():
+    print(f"[ERROR] SDKs definition file not found at: {SDKS_JSON_PATH}")
+    sys.exit(1)
+
+try:
+    with open(SDKS_JSON_PATH, "r", encoding="utf-8") as f:
+        SDKS = json.load(f)
+except Exception as e:
+    print(f"[ERROR] Failed to parse SDKs definition file {SDKS_JSON_PATH}: {e}")
+    sys.exit(1)
+
 
 # Results dictionary to store stats for each SDK
 # Status options: "Pending", "Running...", "Completed", "Failed"
@@ -39,10 +39,8 @@ results = {
         "status": "Pending",
         "doxygen_time": 0.0,
         "doxygen_mem": 0.0,
-        "doxygen_cpu": 0.0,
         "ude_time": 0.0,
         "ude_mem": 0.0,
-        "ude_cpu": 0.0,
         "error_msg": ""
     }
     for sdk in SDKS
@@ -76,8 +74,8 @@ def write_report():
         "",
         "## Real-time Metrics Table",
         "",
-        "| SDK Name | Wrapper Files | Total Size | Status | Doxygen Time | Doxygen Max Mem | Doxygen CPU | UDE Time | UDE Max Mem | UDE CPU |",
-        "| :--- | ---: | ---: | :--- | ---: | ---: | ---: | ---: | ---: | ---: |"
+        "| SDK Name | Wrapper Files | Total Size | Status | Doxygen Time | Doxygen Max Mem | UDE Time | UDE Max Mem | Total Time |",
+        "| :--- | ---: | ---: | :--- | ---: | ---: | ---: | ---: | ---: |"
     ]
     
     for sdk in SDKS:
@@ -94,14 +92,14 @@ def write_report():
         
         dox_time = format_time(res["doxygen_time"]) if res["doxygen_time"] > 0 or res["status"] in ["Completed", "Failed"] else "-"
         dox_mem = format_memory(res["doxygen_mem"]) if res["doxygen_mem"] > 0 else "-"
-        dox_cpu = f"{res['doxygen_cpu']:.1f} cores" if res["doxygen_cpu"] > 0 else "-"
-        
         ude_time = format_time(res["ude_time"]) if res["ude_time"] > 0 or res["status"] in ["Completed", "Failed"] else "-"
         ude_mem = format_memory(res["ude_mem"]) if res["ude_mem"] > 0 else "-"
-        ude_cpu = f"{res['ude_cpu']:.1f} cores" if res["ude_cpu"] > 0 else "-"
+        
+        total_time_val = res["doxygen_time"] + res["ude_time"]
+        total_time = format_time(total_time_val) if total_time_val > 0 or res["status"] in ["Completed", "Failed"] else "-"
         
         lines.append(
-            f"| {name} | {sdk['files']} | {sdk['size']} | {status_str} | {dox_time} | {dox_mem} | {dox_cpu} | {ude_time} | {ude_mem} | {ude_cpu} |"
+            f"| {name} | {sdk['files']} | {sdk['size']} | {status_str} | {dox_time} | {dox_mem} | {ude_time} | {ude_mem} | {total_time} |"
         )
         
     lines.append("")
@@ -135,11 +133,16 @@ def monitor_process_tree(proc_id, sdk_name):
     # Track time and stats
     last_check_time = time.time()
     
-    # To filter out initial 0.0 cpu readings
-    main_proc.cpu_percent(interval=None)
+
 
     # Poll process tree until main process exits
-    while main_proc.is_running() and main_proc.status() != psutil.STATUS_ZOMBIE:
+    while True:
+        try:
+            if not main_proc.is_running() or main_proc.status() == psutil.STATUS_ZOMBIE:
+                break
+        except psutil.NoSuchProcess:
+            break
+
         current_time = time.time()
         elapsed = current_time - last_check_time
         last_check_time = current_time
@@ -168,14 +171,7 @@ def monitor_process_tree(proc_id, sdk_name):
                 except (psutil.NoSuchProcess, psutil.AccessDenied):
                     pass
                     
-                # Monitor Doxygen CPU
-                try:
-                    dox_cpu = doxygen_proc.cpu_percent(interval=None)
-                    # Convert percent to cores (e.g. 200.0% -> 2.0 cores)
-                    cores = dox_cpu / 100.0
-                    results[sdk_name]["doxygen_cpu"] = max(results[sdk_name]["doxygen_cpu"], cores)
-                except (psutil.NoSuchProcess, psutil.AccessDenied):
-                    pass
+
             else:
                 # UDE is running (Python parser/renderer phases)
                 results[sdk_name]["ude_time"] += elapsed
@@ -193,19 +189,7 @@ def monitor_process_tree(proc_id, sdk_name):
                 except (psutil.NoSuchProcess, psutil.AccessDenied):
                     pass
                     
-                # Monitor UDE CPU
-                try:
-                    ude_cpu = main_proc.cpu_percent(interval=None)
-                    for child in children:
-                        try:
-                            if "doxygen" not in child.name().lower():
-                                ude_cpu += child.cpu_percent(interval=None)
-                        except (psutil.NoSuchProcess, psutil.AccessDenied):
-                            continue
-                    cores = ude_cpu / 100.0
-                    results[sdk_name]["ude_cpu"] = max(results[sdk_name]["ude_cpu"], cores)
-                except (psutil.NoSuchProcess, psutil.AccessDenied):
-                    pass
+
 
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             pass
