@@ -48,7 +48,10 @@ jobs:
           npm run docs:build
           cd ..
           # 2. API Reference Generation via UDE
-          python -m ude.cli --config ./user-docs/ude_config_self.json
+          python -m ude.cli \
+            --global-config ./ude_projects/ude_global_config.json \
+            --sdk-config ./ude_projects/ude_self_sdk_config.json \
+            --doc-config ./user-docs/ude_config_self.json
           # 3. Compile Hugo API Reference into the nested subdirectory of VitePress dist
           cd user-docs/hugo-site
           hugo --destination ../.vitepress/dist/api

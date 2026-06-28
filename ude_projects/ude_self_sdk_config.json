@@ -1,0 +1,13 @@
+{
+    "product_name": "UDE",
+    "docs": [
+        {
+            "type": "api",
+            "id": "ude_api_py",
+            "title": "Python API Reference",
+            "lang": "py",
+            "path": "ude_api_py",
+            "main_page": "index.html"
+        }
+    ]
+}
