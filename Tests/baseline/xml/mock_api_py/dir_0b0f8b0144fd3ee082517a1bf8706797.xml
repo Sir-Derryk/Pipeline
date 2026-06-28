@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="dir_0b0f8b0144fd3ee082517a1bf8706797" kind="dir">
+    <compoundname>D:/My repositories/Pipeline/engine/tests/assets/main</compoundname>
+    <innerdir refid="dir_f58d78e138311a3bce92ea238d662322">D:/My repositories/Pipeline/engine/tests/assets/main/_swig</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/"/>
+  </compounddef>
+</doxygen>

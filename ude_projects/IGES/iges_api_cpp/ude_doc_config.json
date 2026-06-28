@@ -1,0 +1,27 @@
+{
+    "project_name": "IGES C++ API Reference",
+    "src_dir": [
+        "../../../main/IGES/Include"
+    ],
+    "static_pages_dir": "Dev_Guides/IGES",
+    "copyright_start_year": 2002,
+    "incremental": true,
+    "max_workers": 8,
+    "collector": {
+        "type": "CppDoxygenCollector",
+        "file_patterns": [
+            "**/*.h"
+        ],
+        "include_private": false
+    },
+    "parser": {
+        "type": "CppDoxygenParser"
+    },
+    "renderer": {
+        "type": "CppHtmlDefaultRenderer"
+    },
+    "output_subdir": "iges_api_cpp",
+    "validator": {
+        "type": "CppCommentValidator"
+    }
+}

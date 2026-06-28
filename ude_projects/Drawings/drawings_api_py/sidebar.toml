@@ -1,0 +1,23 @@
+[[sidebar]]
+type = "inline"
+label = "{{Product_name}} {{Lang}} API Version"
+url = "api_ref_version.html"
+content = "This Reference contains documentation for {{Product_name}} {{Lang}} API <strong>{{api_version}}</strong> version."
+
+[[sidebar]]
+type = "api_reference"
+label = "API Reference (PY)"
+url = "index.html"
+
+[[sidebar]]
+type = "redirect"
+label = "Developer Guide"
+url = "api_ref2dg.html"
+redirect_url = "../{{sdk_name}}/{{sdk_name}}_devguide.html"
+content = "The Developer Guide for {{SDK_Name}} SDK is available via <a onclick=\"openExternalLink(&#39;../{{sdk_name}}/{{sdk_name}}_devguide.html&#39;);\" style=\"cursor: pointer;\">this</a> link."
+
+[[sidebar]]
+type = "static"
+label = "License and Copyright"
+url = "license_copyright.html"
+source_file = "../../../Dev_Guides/Drawings/drw_license_copyright.html"

@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_geometry_1_1_point3_d" kind="class" language="C++" prot="public">
+    <compoundname>CoreModeler::Geometry::Point3D</compoundname>
+    <includes refid="_core_modeler_8h" local="no">CoreModeler.h</includes>
+    <templateparamlist>
+      <param>
+        <type>typename T</type>
+      </param>
+    </templateparamlist>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_point3_d_1afdcfff3d9ab28868591b0f2b3865c356" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T CoreModeler::Geometry::Point3D&lt; T &gt;::x</definition>
+        <argsstring></argsstring>
+        <name>x</name>
+        <qualifiedname>CoreModeler::Geometry::Point3D::x</qualifiedname>
+        <briefdescription>
+<para>X coordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="81" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_point3_d_1a1bfa4b9544fab42510f04e4882d4fb63" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T CoreModeler::Geometry::Point3D&lt; T &gt;::y</definition>
+        <argsstring></argsstring>
+        <name>y</name>
+        <qualifiedname>CoreModeler::Geometry::Point3D::y</qualifiedname>
+        <briefdescription>
+<para>Y coordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="82" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_point3_d_1a74ef66c4dd0a15f65a5a7172c3bc538e" prot="public" static="no" mutable="no">
+        <type>T</type>
+        <definition>T CoreModeler::Geometry::Point3D&lt; T &gt;::z</definition>
+        <argsstring></argsstring>
+        <name>z</name>
+        <qualifiedname>CoreModeler::Geometry::Point3D::z</qualifiedname>
+        <briefdescription>
+<para>Z coordinate. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="83" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="83" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_d_1acf4cba0a8067526120bf30dc958e524c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler::Geometry::Point3D&lt; T &gt;::Point3D</definition>
+        <argsstring>()</argsstring>
+        <name>Point3D</name>
+        <qualifiedname>CoreModeler::Geometry::Point3D::Point3D</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="85" column="5" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="85" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_d_1a69ff94f4f25cb40ddf84c926e739ed71" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler::Geometry::Point3D&lt; T &gt;::Point3D</definition>
+        <argsstring>(T valX, T valY, T valZ)</argsstring>
+        <name>Point3D</name>
+        <qualifiedname>CoreModeler::Geometry::Point3D::Point3D</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>valX</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>valY</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>valZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="86" column="5" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="86" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_point3_d_1afefcafef5d3b9ef9b1204653703a9d4d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler::Geometry::Point3D&lt; T &gt;::translate</definition>
+        <argsstring>(T dx, T dy, T dz)</argsstring>
+        <name>translate</name>
+        <qualifiedname>CoreModeler::Geometry::Point3D::translate</qualifiedname>
+        <param>
+          <type>T</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>T</type>
+          <declname>dz</declname>
+        </param>
+        <briefdescription>
+<para>Translates the point by given offsets. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dx</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Offset in X direction. </para>
+</parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>dy</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Offset in Y direction. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Missing</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>dz</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>documentation tag. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="94" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="94" bodyend="98"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Generic template representing a 3D coordinate point. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><parameterlist kind="templateparam"><parameteritem>
+<parameternamelist>
+<parametername>T</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The numeric type (e.g., int, float, double). </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" line="79" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/CoreModeler.h" bodystart="79" bodyend="99"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1acf4cba0a8067526120bf30dc958e524c" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3D</scope><name>Point3D</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1a69ff94f4f25cb40ddf84c926e739ed71" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3D</scope><name>Point3D</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1afefcafef5d3b9ef9b1204653703a9d4d" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3D</scope><name>translate</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1afdcfff3d9ab28868591b0f2b3865c356" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3D</scope><name>x</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1a1bfa4b9544fab42510f04e4882d4fb63" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3D</scope><name>y</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1a74ef66c4dd0a15f65a5a7172c3bc538e" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Point3D</scope><name>z</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

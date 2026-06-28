@@ -1,0 +1,226 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_global_logger_proxy" kind="class" language="Java" prot="public">
+    <compoundname>GlobalLoggerProxy</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_global_logger_proxy_1ac1d15118fd6f934c4d733e68819d7270" prot="private" static="no" mutable="no">
+        <type>transient long</type>
+        <definition>transient long GlobalLoggerProxy.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>GlobalLoggerProxy.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" line="15" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_global_logger_proxy_1a9922fe3839581f0796b390aa0cb03bbe" prot="protected" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean GlobalLoggerProxy.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>GlobalLoggerProxy.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" line="16" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_global_logger_proxy_1aa6c370041b534c56623b3742d0443461" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalLoggerProxy.GlobalLoggerProxy</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>GlobalLoggerProxy</name>
+        <qualifiedname>GlobalLoggerProxy.GlobalLoggerProxy</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" line="18" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_logger_proxy_1aa98bf9b71da4e773c7f8b05ee6ce4ff8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalLoggerProxy.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>GlobalLoggerProxy.finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" line="28" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_global_logger_proxy_1a3751e75d035d3abc29da587e9491add5" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long GlobalLoggerProxy.getCPtr</definition>
+        <argsstring>(GlobalLoggerProxy obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>GlobalLoggerProxy.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_global_logger_proxy" kindref="compound">GlobalLoggerProxy</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" line="23" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_global_logger_proxy_1a6770068f27347e5ac4ae056f41bb6637" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void GlobalLoggerProxy.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>GlobalLoggerProxy.delete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" line="32" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" bodystart="32" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_logger_proxy_1aa077463674d62033edc7577053e37d53" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalLoggerProxy.logMessage</definition>
+        <argsstring>(String message)</argsstring>
+        <name>logMessage</name>
+        <qualifiedname>GlobalLoggerProxy.logMessage</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes a message to the global log.<linebreak/>
+ <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message to write. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" line="46" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_logger_proxy_1a9e37e63fbaafa569be1d17a95868bbf0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>boolean</type>
+        <definition>boolean GlobalLoggerProxy.logMessage</definition>
+        <argsstring>(String message, int severity)</argsstring>
+        <name>logMessage</name>
+        <qualifiedname>GlobalLoggerProxy.logMessage</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>severity</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Writes a formatted message to the global log with a severity level.<linebreak/>
+ Note: This is an overloaded method.<linebreak/>
+ <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message to write.<linebreak/>
+ Warning: The documentation for this overloaded method is missing the </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>tag. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" line="56" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" bodystart="56" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_logger_proxy_1a91b108ad900292afb1adcd4d7e7a2f0f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalLoggerProxy.forceFlush</definition>
+        <argsstring>()</argsstring>
+        <name>forceFlush</name>
+        <qualifiedname>GlobalLoggerProxy.forceFlush</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Completely undocumented method returning void. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" line="63" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_logger_proxy_1a4ce5c75f0c541489b84e10996e6c33e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalLoggerProxy.GlobalLoggerProxy</definition>
+        <argsstring>()</argsstring>
+        <name>GlobalLoggerProxy</name>
+        <qualifiedname>GlobalLoggerProxy.GlobalLoggerProxy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" line="67" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" bodystart="67" bodyend="69"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A global helper class for system-wide logging.<linebreak/>
+ This class is not inside any namespace. </para>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" line="14" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalLoggerProxy.java" bodystart="14" bodyend="71"/>
+    <listofallmembers>
+      <member refid="class_global_logger_proxy_1a6770068f27347e5ac4ae056f41bb6637" prot="public" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>delete</name></member>
+      <member refid="class_global_logger_proxy_1aa98bf9b71da4e773c7f8b05ee6ce4ff8" prot="protected" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>finalize</name></member>
+      <member refid="class_global_logger_proxy_1a91b108ad900292afb1adcd4d7e7a2f0f" prot="public" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>forceFlush</name></member>
+      <member refid="class_global_logger_proxy_1a3751e75d035d3abc29da587e9491add5" prot="protected" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>getCPtr</name></member>
+      <member refid="class_global_logger_proxy_1aa6c370041b534c56623b3742d0443461" prot="protected" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>GlobalLoggerProxy</name></member>
+      <member refid="class_global_logger_proxy_1a4ce5c75f0c541489b84e10996e6c33e8" prot="public" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>GlobalLoggerProxy</name></member>
+      <member refid="class_global_logger_proxy_1aa077463674d62033edc7577053e37d53" prot="public" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>logMessage</name></member>
+      <member refid="class_global_logger_proxy_1a9e37e63fbaafa569be1d17a95868bbf0" prot="public" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>logMessage</name></member>
+      <member refid="class_global_logger_proxy_1a9922fe3839581f0796b390aa0cb03bbe" prot="protected" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>swigCMemOwn</name></member>
+      <member refid="class_global_logger_proxy_1ac1d15118fd6f934c4d733e68819d7270" prot="private" virt="non-virtual"><scope>GlobalLoggerProxy</scope><name>swigCPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_geometry_1_1_shape" kind="class" language="C#" prot="public">
+    <compoundname>CoreModeler::Geometry::Shape</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemIDisposable</basecompoundref>
+    <derivedcompoundref refid="class_core_modeler_1_1_geometry_1_1_box" prot="public" virt="non-virtual">CoreModeler.Geometry.Box</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_shape_1a5c19ef0d357af3036be0855d68c33ad6" prot="private" static="no" mutable="no">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>global::System.Runtime.InteropServices.HandleRef CoreModeler.Geometry.Shape.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" line="14" column="57" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_shape_1afd825bf03206be4054453820eb797d2c" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool CoreModeler.Geometry.Shape.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" line="15" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_shape_1abf28786349076cddb4381230d21e2651" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Geometry.Shape.Shape</definition>
+        <argsstring>(global::System.IntPtr cPtr, bool cMemoryOwn)</argsstring>
+        <name>Shape</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.Shape</qualifiedname>
+        <param>
+          <type>global::System.IntPtr</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" line="17" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" bodystart="17" bodyend="20"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_shape_1a79905c2fa77d87aa315f50840961b5d5" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>static global::System.Runtime.InteropServices.HandleRef CoreModeler.Geometry.Shape.getCPtr</definition>
+        <argsstring>(Shape obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_geometry_1_1_shape" kindref="compound">Shape</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" line="22" column="65" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" bodystart="22" bodyend="24"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_shape_1a3e35e292ae04e3b8aeef28f82ba641d1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Geometry.Shape.~Shape</definition>
+        <argsstring>()</argsstring>
+        <name>~Shape</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.~Shape</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" line="26" column="3" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" bodystart="26" bodyend="28"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_shape_1ad55b0cfa524780d2281490f5cdb9c6bb" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Geometry.Shape.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" line="30" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_shape_1a773a57f7a90469e82e097b1a7619d435" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>double</type>
+        <definition>virtual double CoreModeler.Geometry.Shape.getVolume</definition>
+        <argsstring>()</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.getVolume</qualifiedname>
+        <reimplementedby refid="class_core_modeler_1_1_geometry_1_1_box_1a16e8a24ac44519566076f80ee1a5cf2a">getVolume</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" line="47" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" bodystart="47" bodyend="50"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_shape_1ad1ae8e0f8e74eeb335e54b19c2fbd8fa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void CoreModeler.Geometry.Shape.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.Dispose</qualifiedname>
+        <reimplementedby refid="class_core_modeler_1_1_geometry_1_1_box_1a08bab21f273d6d44957a7409b2ee0d30">Dispose</reimplementedby>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" line="35" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" bodystart="35" bodyend="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CoreModeler.Geometry.Shape</label>
+        <link refid="class_core_modeler_1_1_geometry_1_1_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>CoreModeler.Geometry.Box</label>
+        <link refid="class_core_modeler_1_1_geometry_1_1_box"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CoreModeler.Geometry.Shape</label>
+        <link refid="class_core_modeler_1_1_geometry_1_1_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" line="13" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/CoreModeler/Geometry/Shape.cs" bodystart="13" bodyend="52"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1ad55b0cfa524780d2281490f5cdb9c6bb" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1ad1ae8e0f8e74eeb335e54b19c2fbd8fa" prot="protected" virt="virtual"><scope>CoreModeler::Geometry::Shape</scope><name>Dispose</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a79905c2fa77d87aa315f50840961b5d5" prot="package" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a773a57f7a90469e82e097b1a7619d435" prot="public" virt="virtual"><scope>CoreModeler::Geometry::Shape</scope><name>getVolume</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1abf28786349076cddb4381230d21e2651" prot="package" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>Shape</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1afd825bf03206be4054453820eb797d2c" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a5c19ef0d357af3036be0855d68c33ad6" prot="private" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>swigCPtr</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a3e35e292ae04e3b8aeef28f82ba641d1" prot="private" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>~Shape</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

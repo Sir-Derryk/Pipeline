@@ -1,0 +1,238 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_model" kind="class" language="Java" prot="public">
+    <compoundname>CoreModeler::Model</compoundname>
+    <innerclass refid="class_core_modeler_1_1_model_1_1_metadata_iterator" prot="public">CoreModeler::Model::MetadataIterator</innerclass>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_model_1ada4180e42814fba45ed6bf4c534763a9" prot="private" static="no" mutable="no">
+        <type>transient long</type>
+        <definition>transient long CoreModeler.Model::swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Model.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" line="15" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_model_1ab7b787080a32f9a6c85d211bb4537f56" prot="protected" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean CoreModeler.Model::swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.Model.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" line="16" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1a5d4bd1443671caf07b69fd7852c1e8d6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.Model</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>Model</name>
+        <qualifiedname>CoreModeler.Model.Model</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" line="18" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1af0c11c125716e490c03e6bef386fb110" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Model.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>CoreModeler.Model.finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" line="28" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1a5d4bd1443671caf07b69fd7852c1e8d6" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.Model</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>Model</name>
+        <qualifiedname>CoreModeler.Model.Model</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="15" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1af0c11c125716e490c03e6bef386fb110" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Model.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>CoreModeler.Model.finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="25" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="25" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1aa8e78b21040c13c7c7617cf3dfb8960a" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long CoreModeler.Model.getCPtr</definition>
+        <argsstring>(Model obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Model.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_model" kindref="compound">Model</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" line="23" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1aa8e78b21040c13c7c7617cf3dfb8960a" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long CoreModeler.Model.getCPtr</definition>
+        <argsstring>(Model obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Model.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_model" kindref="compound">Model</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="20" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1a0064c395cb682139453473d3a7d73766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void CoreModeler.Model.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>CoreModeler.Model.delete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" line="32" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" bodystart="32" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1a1c5bf9c179560eae10f91e814bb0db72" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.Model</definition>
+        <argsstring>(CoreModeler.RenderMode mode)</argsstring>
+        <name>Model</name>
+        <qualifiedname>CoreModeler.Model.Model</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_render_mode" kindref="compound">CoreModeler.RenderMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Constructs a new Model with a specified render mode. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" line="45" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" bodystart="45" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1a0064c395cb682139453473d3a7d73766" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void CoreModeler.Model.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>CoreModeler.Model.delete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="29" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_model_1aa4567c849c18549449cef205bb6be968" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Model.Model</definition>
+        <argsstring>(RenderMode mode)</argsstring>
+        <name>Model</name>
+        <qualifiedname>CoreModeler.Model.Model</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" line="39" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Model.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>The main model class representing a 3D model entity. </para>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" line="14" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Model.java" bodystart="14" bodyend="101"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_model_1a0064c395cb682139453473d3a7d73766" prot="public" virt="non-virtual"><scope>CoreModeler::Model</scope><name>delete</name></member>
+      <member refid="class_core_modeler_1_1_model_1a0064c395cb682139453473d3a7d73766" prot="public" virt="non-virtual"><scope>CoreModeler::Model</scope><name>delete</name></member>
+      <member refid="class_core_modeler_1_1_model_1af0c11c125716e490c03e6bef386fb110" prot="protected" virt="non-virtual"><scope>CoreModeler::Model</scope><name>finalize</name></member>
+      <member refid="class_core_modeler_1_1_model_1af0c11c125716e490c03e6bef386fb110" prot="protected" virt="non-virtual"><scope>CoreModeler::Model</scope><name>finalize</name></member>
+      <member refid="class_core_modeler_1_1_model_1aa8e78b21040c13c7c7617cf3dfb8960a" prot="protected" virt="non-virtual"><scope>CoreModeler::Model</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_model_1aa8e78b21040c13c7c7617cf3dfb8960a" prot="protected" virt="non-virtual"><scope>CoreModeler::Model</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_model_1a5d4bd1443671caf07b69fd7852c1e8d6" prot="protected" virt="non-virtual"><scope>CoreModeler::Model</scope><name>Model</name></member>
+      <member refid="class_core_modeler_1_1_model_1a1c5bf9c179560eae10f91e814bb0db72" prot="public" virt="non-virtual"><scope>CoreModeler::Model</scope><name>Model</name></member>
+      <member refid="class_core_modeler_1_1_model_1a5d4bd1443671caf07b69fd7852c1e8d6" prot="protected" virt="non-virtual"><scope>CoreModeler::Model</scope><name>Model</name></member>
+      <member refid="class_core_modeler_1_1_model_1aa4567c849c18549449cef205bb6be968" prot="public" virt="non-virtual"><scope>CoreModeler::Model</scope><name>Model</name></member>
+      <member refid="class_core_modeler_1_1_model_1ab7b787080a32f9a6c85d211bb4537f56" prot="protected" virt="non-virtual"><scope>CoreModeler::Model</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_model_1ada4180e42814fba45ed6bf4c534763a9" prot="private" virt="non-virtual"><scope>CoreModeler::Model</scope><name>swigCPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

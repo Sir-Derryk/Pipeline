@@ -1,0 +1,161 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_geometry_1_1_shape" kind="class" language="Java" prot="public">
+    <compoundname>CoreModeler::Geometry::Shape</compoundname>
+    <derivedcompoundref refid="class_core_modeler_1_1_geometry_1_1_box" prot="public" virt="non-virtual">CoreModeler.Geometry.Box</derivedcompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_shape_1a758524c8978c7c4ddbb4cb2508fed5d8" prot="private" static="no" mutable="no">
+        <type>transient long</type>
+        <definition>transient long CoreModeler.Geometry.Shape.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" line="15" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" bodystart="15" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_geometry_1_1_shape_1ac672a1a07f1c93f56ff9fb07e85e86dd" prot="protected" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean CoreModeler.Geometry.Shape.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" line="16" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" bodystart="16" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_shape_1abdb5630c04fca9b73db915f7fcf047d9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Geometry.Shape.Shape</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>Shape</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.Shape</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" line="18" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" bodystart="18" bodyend="21"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_shape_1a7a74d59ac582c4f8fbd5dae8dc04f7aa" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Geometry.Shape.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.finalize</qualifiedname>
+        <reimplementedby refid="class_core_modeler_1_1_geometry_1_1_box_1a35b6ff3ace9bdde2e2cf088e23d9c121">finalize</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" line="28" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" bodystart="28" bodyend="30"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_shape_1a52ee933a81c873f055998532a7546a4a" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long CoreModeler.Geometry.Shape.getCPtr</definition>
+        <argsstring>(Shape obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_geometry_1_1_shape" kindref="compound">Shape</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" line="23" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" bodystart="23" bodyend="25"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_shape_1afff445e515df34d640fc87201cd40492" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void CoreModeler.Geometry.Shape.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.delete</qualifiedname>
+        <reimplementedby refid="class_core_modeler_1_1_geometry_1_1_box_1a18f1ddf39b89cf2bc8196e2671fe64fb">delete</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" line="32" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" bodystart="32" bodyend="40"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_geometry_1_1_shape_1ac8b576befe0f113073ad3bbf8272a9e7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double CoreModeler.Geometry.Shape.getVolume</definition>
+        <argsstring>()</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>CoreModeler.Geometry.Shape.getVolume</qualifiedname>
+        <reimplementedby refid="class_core_modeler_1_1_geometry_1_1_box_1ad18bbe94cac34e0232ff77ee832de0ce">getVolume</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Retrieves the volume of the shape.<linebreak/>
+ <simplesect kind="return"><para>The shape&apos;s volume as a double. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" line="46" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" bodystart="46" bodyend="48"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>Base abstract class for geometric shapes. </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CoreModeler.Geometry.Shape</label>
+        <link refid="class_core_modeler_1_1_geometry_1_1_shape"/>
+      </node>
+      <node id="2">
+        <label>CoreModeler.Geometry.Box</label>
+        <link refid="class_core_modeler_1_1_geometry_1_1_box"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" line="14" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/CoreModeler/Geometry/Shape.java" bodystart="14" bodyend="50"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1afff445e515df34d640fc87201cd40492" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>delete</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a7a74d59ac582c4f8fbd5dae8dc04f7aa" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>finalize</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a52ee933a81c873f055998532a7546a4a" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1ac8b576befe0f113073ad3bbf8272a9e7" prot="public" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>getVolume</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1abdb5630c04fca9b73db915f7fcf047d9" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>Shape</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1ac672a1a07f1c93f56ff9fb07e85e86dd" prot="protected" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a758524c8978c7c4ddbb4cb2508fed5d8" prot="private" virt="non-virtual"><scope>CoreModeler::Geometry::Shape</scope><name>swigCPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

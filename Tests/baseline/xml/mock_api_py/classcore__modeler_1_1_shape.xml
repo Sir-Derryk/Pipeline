@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcore__modeler_1_1_shape" kind="class" language="Python" prot="public">
+    <compoundname>core_modeler::Shape</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <derivedcompoundref refid="classcore__modeler_1_1_box" prot="public" virt="non-virtual">core_modeler.Box</derivedcompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classcore__modeler_1_1_shape_1a28faf400da778fd9b3b7a8bde38a36aa" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type></type>
+        <definition>core_modeler.Shape::thisown</definition>
+        <argsstring></argsstring>
+        <name>thisown</name>
+        <qualifiedname>core_modeler.Shape.thisown</qualifiedname>
+        <initializer>=  property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc=&quot;The membership flag&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="190" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="190" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcore__modeler_1_1_shape_1a5b5ab847db6d80c3335cb1a769708bcb" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>core_modeler.Shape::__repr__</definition>
+        <argsstring></argsstring>
+        <name>__repr__</name>
+        <qualifiedname>core_modeler.Shape.__repr__</qualifiedname>
+        <initializer>=  _swig_repr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="194" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="194" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_1_1_shape_1a81cb70ec928a0472aff4728723dd4d3f" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>core_modeler.Shape::__swig_destroy__</definition>
+        <argsstring></argsstring>
+        <name>__swig_destroy__</name>
+        <qualifiedname>core_modeler.Shape.__swig_destroy__</qualifiedname>
+        <initializer>=  _core_modeler.delete_Shape</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="195" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="195" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcore__modeler_1_1_shape_1a400ed7f7c63208bf111a44250efefbe0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.Shape.__init__</definition>
+        <argsstring>(self, *args, **kwargs)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>core_modeler.Shape.__init__</qualifiedname>
+        <reimplementedby refid="classcore__modeler_1_1_box_1a3e18dddb8a5518cb55dc74f896d55910">__init__</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <param>
+          <type>**</type>
+          <declname>kwargs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="192" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="192" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_1_1_shape_1a2501734391f718eb98f42acc36b6b57a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.Shape.getVolume</definition>
+        <argsstring>(self)</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>core_modeler.Shape.getVolume</qualifiedname>
+        <reimplementedby refid="classcore__modeler_1_1_box_1a1d233dc78fa5c78843e53c85643b0777">getVolume</reimplementedby>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>getVolume(Shape self) -&gt; double</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="197" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="197" bodyend="201"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Proxy of C++ CoreModeler::Geometry::Shape class.</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>core_modeler.Shape</label>
+        <link refid="classcore__modeler_1_1_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="3">
+        <label>core_modeler.Box</label>
+        <link refid="classcore__modeler_1_1_box"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>core_modeler.Shape</label>
+        <link refid="classcore__modeler_1_1_shape"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="187" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="187" bodyend="203"/>
+    <listofallmembers>
+      <member refid="classcore__modeler_1_1_shape_1a400ed7f7c63208bf111a44250efefbe0" prot="public" virt="non-virtual"><scope>core_modeler::Shape</scope><name>__init__</name></member>
+      <member refid="classcore__modeler_1_1_shape_1a5b5ab847db6d80c3335cb1a769708bcb" prot="private" virt="non-virtual"><scope>core_modeler::Shape</scope><name>__repr__</name></member>
+      <member refid="classcore__modeler_1_1_shape_1a81cb70ec928a0472aff4728723dd4d3f" prot="private" virt="non-virtual"><scope>core_modeler::Shape</scope><name>__swig_destroy__</name></member>
+      <member refid="classcore__modeler_1_1_shape_1a2501734391f718eb98f42acc36b6b57a" prot="public" virt="non-virtual"><scope>core_modeler::Shape</scope><name>getVolume</name></member>
+      <member refid="classcore__modeler_1_1_shape_1a28faf400da778fd9b3b7a8bde38a36aa" prot="public" virt="non-virtual"><scope>core_modeler::Shape</scope><name>thisown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

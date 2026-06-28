@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_global_logger" kind="class" language="C++" prot="public">
+    <compoundname>GlobalLogger</compoundname>
+    <includes refid="_global_entities_8h" local="no">GlobalEntities.h</includes>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_global_logger_1ad40c267a4ba7b2a574d2542fdf78ceac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalLogger::logMessage</definition>
+        <argsstring>(const char *message)</argsstring>
+        <name>logMessage</name>
+        <qualifiedname>GlobalLogger::logMessage</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+<para>Writes a message to the global log. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message to write. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" line="43" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_logger_1ac6e54ed937568cc57b86ce33ab4bb663" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool GlobalLogger::logMessage</definition>
+        <argsstring>(const char *message, int severity)</argsstring>
+        <name>logMessage</name>
+        <qualifiedname>GlobalLogger::logMessage</qualifiedname>
+        <param>
+          <type>const char *</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>severity</declname>
+        </param>
+        <briefdescription>
+<para>Writes a formatted message to the global log with a severity level. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>This is an overloaded method. </para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>message</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The message to write. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="warning"><para>The documentation for this overloaded method is missing the</para>
+</simplesect>
+<parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>tag</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>for severity and the </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>tag. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" line="51" column="10"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_logger_1ae5785d0528e02b9d3968c7e95ffc414d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalLogger::forceFlush</definition>
+        <argsstring>()</argsstring>
+        <name>forceFlush</name>
+        <qualifiedname>GlobalLogger::forceFlush</qualifiedname>
+        <briefdescription>
+<para>Completely undocumented method returning void. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" line="56" column="10"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>A global helper class for system-wide logging. </para>
+    </briefdescription>
+    <detaileddescription>
+<para>This class is not inside any namespace. </para>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" line="37" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" bodystart="37" bodyend="57"/>
+    <listofallmembers>
+      <member refid="class_global_logger_1ae5785d0528e02b9d3968c7e95ffc414d" prot="public" virt="non-virtual"><scope>GlobalLogger</scope><name>forceFlush</name></member>
+      <member refid="class_global_logger_1ad40c267a4ba7b2a574d2542fdf78ceac" prot="public" virt="non-virtual"><scope>GlobalLogger</scope><name>logMessage</name></member>
+      <member refid="class_global_logger_1ac6e54ed937568cc57b86ce33ab4bb663" prot="public" virt="non-virtual"><scope>GlobalLogger</scope><name>logMessage</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

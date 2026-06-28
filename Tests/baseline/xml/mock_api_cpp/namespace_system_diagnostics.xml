@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespace_system_diagnostics" kind="namespace" language="C++">
+    <compoundname>SystemDiagnostics</compoundname>
+    <sectiondef kind="typedef">
+      <memberdef kind="typedef" id="namespace_system_diagnostics_1aa43fb07d0200f04a1713979c47bbc749" prot="public" static="no">
+        <type>unsigned long</type>
+        <definition>typedef unsigned long SystemDiagnostics::DiagnosticCode</definition>
+        <argsstring></argsstring>
+        <name>DiagnosticCode</name>
+        <qualifiedname>SystemDiagnostics::DiagnosticCode</qualifiedname>
+        <briefdescription>
+<para>Typedef for a diagnostic status code. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" line="12" column="23" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="namespace_system_diagnostics_1ad19530932b25a821a7d8cd246004a539" prot="public" static="no" mutable="no">
+        <type>const <ref refid="namespace_system_diagnostics_1aa43fb07d0200f04a1713979c47bbc749" kindref="member">DiagnosticCode</ref></type>
+        <definition>const DiagnosticCode SystemDiagnostics::DIAG_SUCCESS</definition>
+        <argsstring></argsstring>
+        <name>DIAG_SUCCESS</name>
+        <qualifiedname>SystemDiagnostics::DIAG_SUCCESS</qualifiedname>
+        <initializer>= 0x00000000</initializer>
+        <briefdescription>
+<para>Constant representing a successful diagnostic run. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" line="17" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_system_diagnostics_1add57f04bde98003bdea40b9e441f047e" prot="public" static="no" mutable="no">
+        <type>const <ref refid="namespace_system_diagnostics_1aa43fb07d0200f04a1713979c47bbc749" kindref="member">DiagnosticCode</ref></type>
+        <definition>const DiagnosticCode SystemDiagnostics::DIAG_FAILURE</definition>
+        <argsstring></argsstring>
+        <name>DIAG_FAILURE</name>
+        <qualifiedname>SystemDiagnostics::DIAG_FAILURE</qualifiedname>
+        <initializer>= 0xFFFFFFFF</initializer>
+        <briefdescription>
+<para>Constant representing a generic diagnostic failure. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" line="22" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="namespace_system_diagnostics_1a897c5b9418be08831ad415ba5949143b" prot="public" static="no" extern="yes" mutable="no">
+        <type>unsigned int</type>
+        <definition>unsigned int SystemDiagnostics::g_diagnosticRunCount</definition>
+        <argsstring></argsstring>
+        <name>g_diagnosticRunCount</name>
+        <qualifiedname>SystemDiagnostics::g_diagnosticRunCount</qualifiedname>
+        <briefdescription>
+<para>A global variable representing the total number of diagnostic runs. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" line="27" column="21" declfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" declline="27" declcolumn="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="namespace_system_diagnostics_1af76c6441a795734cca4cacf22bf247b7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type><ref refid="namespace_system_diagnostics_1aa43fb07d0200f04a1713979c47bbc749" kindref="member">DiagnosticCode</ref></type>
+        <definition>DiagnosticCode SystemDiagnostics::checkSystemHealth</definition>
+        <argsstring>()</argsstring>
+        <name>checkSystemHealth</name>
+        <qualifiedname>SystemDiagnostics::checkSystemHealth</qualifiedname>
+        <briefdescription>
+<para>Checks the current health status of the system. </para>
+        </briefdescription>
+        <detaileddescription>
+<para><simplesect kind="note"><para>Missing </para>
+</simplesect>
+<simplesect kind="return"><para>tag. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" line="33" column="16" declfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" declline="33" declcolumn="16"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_system_diagnostics_1ac9de12db8a5673df0ab3366b0684e83d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SystemDiagnostics::pingSubsystem</definition>
+        <argsstring>(unsigned int timeoutMs)</argsstring>
+        <name>pingSubsystem</name>
+        <qualifiedname>SystemDiagnostics::pingSubsystem</qualifiedname>
+        <param>
+          <type>unsigned int</type>
+          <declname>timeoutMs</declname>
+        </param>
+        <briefdescription>
+<para>Performs a ping to verify subsystem responsiveness. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is an overloaded function. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>timeoutMs</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Timeout in milliseconds. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="note"><para>Missing </para>
+</simplesect>
+<simplesect kind="return"><para>tag. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" line="41" column="6" declfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" declline="41" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_system_diagnostics_1a318eeab57e3756e18c7109616b415e6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool SystemDiagnostics::pingSubsystem</definition>
+        <argsstring>()</argsstring>
+        <name>pingSubsystem</name>
+        <qualifiedname>SystemDiagnostics::pingSubsystem</qualifiedname>
+        <briefdescription>
+<para>Performs a ping to verify subsystem responsiveness using a default timeout. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This is an overloaded function. <simplesect kind="note"><para>Completely undocumented function, tests parser fallback. </para>
+</simplesect>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" line="48" column="6" declfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" declline="48" declcolumn="6"/>
+      </memberdef>
+      <memberdef kind="function" id="namespace_system_diagnostics_1a270bbdbfadc6cab34e088588594993e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void SystemDiagnostics::resetCounters</definition>
+        <argsstring>()</argsstring>
+        <name>resetCounters</name>
+        <qualifiedname>SystemDiagnostics::resetCounters</qualifiedname>
+        <briefdescription>
+<para>Resets the internal diagnostic counters. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" line="53" column="6" declfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" declline="53" declcolumn="6"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+<para>Namespace for system-level diagnostics and health monitoring utilities. </para>
+    </briefdescription>
+    <detaileddescription>
+<para><simplesect kind="note"><para>This namespace contains NO class-like elements (no struct, class, or interface). </para>
+</simplesect>
+</para>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/SystemDiagnostics.h" line="7" column="1"/>
+  </compounddef>
+</doxygen>

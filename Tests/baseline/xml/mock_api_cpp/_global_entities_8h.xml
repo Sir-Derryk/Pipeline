@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="_global_entities_8h" kind="file" language="C++">
+    <compoundname>GlobalEntities.h</compoundname>
+    <innerclass refid="struct_global_config" prot="public">GlobalConfig</innerclass>
+    <innerclass refid="class_global_logger" prot="public">GlobalLogger</innerclass>
+    <sectiondef kind="enum">
+      <memberdef kind="enum" id="_global_entities_8h_1a4dd0d066439b41b801e641efc3156b50" prot="public" static="no" strong="no">
+        <type></type>
+        <name>GlobalStatus</name>
+        <enumvalue id="_global_entities_8h_1a4dd0d066439b41b801e641efc3156b50a76c442c3a24245535a54071229946ec4" prot="public">
+          <name>GLOBAL_STATUS_OK</name>
+          <briefdescription>
+<para>System is running normally. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_global_entities_8h_1a4dd0d066439b41b801e641efc3156b50af9afea101cc55bd5a721ea99f89a3e6a" prot="public">
+          <name>GLOBAL_STATUS_WARNING</name>
+          <briefdescription>
+<para>Warning state. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="_global_entities_8h_1a4dd0d066439b41b801e641efc3156b50abeefaf02331e128c044a04d5ec4d6af3" prot="public">
+          <name>GLOBAL_STATUS_ERROR</name>
+          <briefdescription>
+<para>Critical error state. </para>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+<para>A global enumeration of system status states. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" line="6" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" bodystart="6" bodyend="10"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="_global_entities_8h_1a6a3d8f79d60f832731d6dc445758d439" prot="public" static="no" extern="yes" mutable="no">
+        <type>int</type>
+        <definition>int g_systemState</definition>
+        <argsstring></argsstring>
+        <name>g_systemState</name>
+        <briefdescription>
+<para>A global variable containing the current system state. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This variable is updated by the global initialization functions. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" line="25" column="12" declfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" declline="25" declcolumn="12"/>
+      </memberdef>
+      <memberdef kind="variable" id="_global_entities_8h_1a1104f09256ec505676e7eca144e8eda0" prot="public" static="no" extern="yes" mutable="no">
+        <type>double</type>
+        <definition>double g_piValue</definition>
+        <argsstring></argsstring>
+        <name>g_piValue</name>
+        <briefdescription>
+<para>A global mathematical constant for Pi. No documentation tags here, testing completely missing tag description. </para>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" line="31" column="15" declfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" declline="31" declcolumn="15"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="_global_entities_8h_1a8c7c9485a8fdf62ccf2c907faecd10ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>int globalInitialize</definition>
+        <argsstring>(const GlobalConfig &amp;config)</argsstring>
+        <name>globalInitialize</name>
+        <param>
+          <type>const <ref refid="struct_global_config" kindref="compound">GlobalConfig</ref> &amp;</type>
+          <declname>config</declname>
+        </param>
+        <briefdescription>
+<para>Initializes the global system components. </para>
+        </briefdescription>
+        <detaileddescription>
+<para>This function is undocumented for parameters and return values. <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>config</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>The configuration to apply. </para>
+</parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" line="64" column="5" declfile="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h" declline="64" declcolumn="5"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/mock/GlobalEntities.h"/>
+  </compounddef>
+</doxygen>

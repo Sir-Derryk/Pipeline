@@ -1,0 +1,296 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_point3_di" kind="class" language="Java" prot="public">
+    <compoundname>CoreModeler::Point3Di</compoundname>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_point3_di_1ad89b1bb257d2345e1ce81b9207ba3154" prot="private" static="no" mutable="no">
+        <type>transient long</type>
+        <definition>transient long CoreModeler.Point3Di.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Point3Di.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="12" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_point3_di_1a4998240f58603237869fe8da5702fa7f" prot="protected" static="no" mutable="no">
+        <type>transient boolean</type>
+        <definition>transient boolean CoreModeler.Point3Di.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>CoreModeler.Point3Di.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="13" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a141fbf4c29ef6f2ff6774e4d33804d9e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Point3Di.Point3Di</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>Point3Di</name>
+        <qualifiedname>CoreModeler.Point3Di.Point3Di</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="15" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="15" bodyend="18"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a4a58091cc6d121471ec710475dfb9e51" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Point3Di.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>CoreModeler.Point3Di.finalize</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="25" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="25" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a264c55e77dbeea616163a9e7bd3e7dcc" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long CoreModeler.Point3Di.getCPtr</definition>
+        <argsstring>(Point3Di obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Point3Di.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_point3_di" kindref="compound">Point3Di</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="20" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="20" bodyend="22"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a271c6da2097bc338d7a5885a5cb10bc5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void CoreModeler.Point3Di.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>CoreModeler.Point3Di.delete</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="29" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="29" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a0129a0801b222c79fad0e6ddef358fb0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Point3Di.setX</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setX</name>
+        <qualifiedname>CoreModeler.Point3Di.setX</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="39" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a6b44dc60ecd23a350ab7d1afeb32aaa8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CoreModeler.Point3Di.getX</definition>
+        <argsstring>()</argsstring>
+        <name>getX</name>
+        <qualifiedname>CoreModeler.Point3Di.getX</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="43" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a3573604024324d35f3d4fe0f0b38470c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Point3Di.setY</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setY</name>
+        <qualifiedname>CoreModeler.Point3Di.setY</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="47" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a5c0f7586bf2a785ae073cc3bae083e0c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CoreModeler.Point3Di.getY</definition>
+        <argsstring>()</argsstring>
+        <name>getY</name>
+        <qualifiedname>CoreModeler.Point3Di.getY</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="51" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1ae3ffcf138d82933ea71bd7c5806a99a2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Point3Di.setZ</definition>
+        <argsstring>(int value)</argsstring>
+        <name>setZ</name>
+        <qualifiedname>CoreModeler.Point3Di.setZ</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="55" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a3fc3427786cf57cc99f369c771e8c610" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CoreModeler.Point3Di.getZ</definition>
+        <argsstring>()</argsstring>
+        <name>getZ</name>
+        <qualifiedname>CoreModeler.Point3Di.getZ</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="59" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="59" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a775b9bd3a2f5b169e6fc831acfcf197b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Point3Di.Point3Di</definition>
+        <argsstring>()</argsstring>
+        <name>Point3Di</name>
+        <qualifiedname>CoreModeler.Point3Di.Point3Di</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="63" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="63" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a5d93634af0dfbb699447bc4341effc86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Point3Di.Point3Di</definition>
+        <argsstring>(int valX, int valY, int valZ)</argsstring>
+        <name>Point3Di</name>
+        <qualifiedname>CoreModeler.Point3Di.Point3Di</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>valX</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>valY</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>valZ</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="67" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="67" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_point3_di_1a526663fc147b9b5ee5a2121ef2f99fd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Point3Di.translate</definition>
+        <argsstring>(int dx, int dy, int dz)</argsstring>
+        <name>translate</name>
+        <qualifiedname>CoreModeler.Point3Di.translate</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>dx</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dy</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>dz</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="71" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="71" bodyend="73"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" line="11" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Point3Di.java" bodystart="11" bodyend="75"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_point3_di_1a271c6da2097bc338d7a5885a5cb10bc5" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>delete</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a4a58091cc6d121471ec710475dfb9e51" prot="protected" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>finalize</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a264c55e77dbeea616163a9e7bd3e7dcc" prot="protected" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a6b44dc60ecd23a350ab7d1afeb32aaa8" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>getX</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a5c0f7586bf2a785ae073cc3bae083e0c" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>getY</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a3fc3427786cf57cc99f369c771e8c610" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>getZ</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a141fbf4c29ef6f2ff6774e4d33804d9e" prot="protected" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>Point3Di</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a775b9bd3a2f5b169e6fc831acfcf197b" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>Point3Di</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a5d93634af0dfbb699447bc4341effc86" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>Point3Di</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a0129a0801b222c79fad0e6ddef358fb0" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>setX</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a3573604024324d35f3d4fe0f0b38470c" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>setY</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1ae3ffcf138d82933ea71bd7c5806a99a2" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>setZ</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a4998240f58603237869fe8da5702fa7f" prot="protected" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1ad89b1bb257d2345e1ce81b9207ba3154" prot="private" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>swigCPtr</name></member>
+      <member refid="class_core_modeler_1_1_point3_di_1a526663fc147b9b5ee5a2121ef2f99fd6" prot="public" virt="non-virtual"><scope>CoreModeler::Point3Di</scope><name>translate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

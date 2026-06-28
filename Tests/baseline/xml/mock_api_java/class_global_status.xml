@@ -1,0 +1,264 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_global_status" kind="class" language="Java" prot="public">
+    <compoundname>GlobalStatus</compoundname>
+    <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_global_status_1aae33bf05357114fcdfa85c03220ee2b3" prot="public" static="yes" mutable="no">
+        <type>final <ref refid="class_global_status" kindref="compound">GlobalStatus</ref></type>
+        <definition>final GlobalStatus GlobalStatus.GLOBAL_STATUS_OK</definition>
+        <argsstring></argsstring>
+        <name>GLOBAL_STATUS_OK</name>
+        <qualifiedname>GlobalStatus.GLOBAL_STATUS_OK</qualifiedname>
+        <initializer>= new <ref refid="class_global_status" kindref="compound">GlobalStatus</ref>(&quot;GLOBAL_STATUS_OK&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>System is running normally. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="17" column="36" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_global_status_1ad2b5b7fc12d1c1aa14d5c3186a70f61c" prot="public" static="yes" mutable="no">
+        <type>final <ref refid="class_global_status" kindref="compound">GlobalStatus</ref></type>
+        <definition>final GlobalStatus GlobalStatus.GLOBAL_STATUS_WARNING</definition>
+        <argsstring></argsstring>
+        <name>GLOBAL_STATUS_WARNING</name>
+        <qualifiedname>GlobalStatus.GLOBAL_STATUS_WARNING</qualifiedname>
+        <initializer>= new <ref refid="class_global_status" kindref="compound">GlobalStatus</ref>(&quot;GLOBAL_STATUS_WARNING&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Warning state. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="21" column="36" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_global_status_1a4b22ff2ecb681eee22acf097a6764acc" prot="public" static="yes" mutable="no">
+        <type>final <ref refid="class_global_status" kindref="compound">GlobalStatus</ref></type>
+        <definition>final GlobalStatus GlobalStatus.GLOBAL_STATUS_ERROR</definition>
+        <argsstring></argsstring>
+        <name>GLOBAL_STATUS_ERROR</name>
+        <qualifiedname>GlobalStatus.GLOBAL_STATUS_ERROR</qualifiedname>
+        <initializer>= new <ref refid="class_global_status" kindref="compound">GlobalStatus</ref>(&quot;GLOBAL_STATUS_ERROR&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Critical error state. </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="25" column="36" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="25" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_global_status_1a02d66c7e4f1af889394ef314b1fe8e1f" prot="private" static="yes" mutable="no">
+        <type><ref refid="class_global_status" kindref="compound">GlobalStatus</ref>[]</type>
+        <definition>GlobalStatus [] GlobalStatus.swigValues</definition>
+        <argsstring></argsstring>
+        <name>swigValues</name>
+        <qualifiedname>GlobalStatus.swigValues</qualifiedname>
+        <initializer>= { <ref refid="class_global_status_1aae33bf05357114fcdfa85c03220ee2b3" kindref="member">GLOBAL_STATUS_OK</ref>, <ref refid="class_global_status_1ad2b5b7fc12d1c1aa14d5c3186a70f61c" kindref="member">GLOBAL_STATUS_WARNING</ref>, <ref refid="class_global_status_1a4b22ff2ecb681eee22acf097a6764acc" kindref="member">GLOBAL_STATUS_ERROR</ref> }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="61" column="31" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="61" bodyend="61"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_global_status_1a0e3507a90f0e9529576b285bd82255da" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int GlobalStatus.swigNext</definition>
+        <argsstring></argsstring>
+        <name>swigNext</name>
+        <qualifiedname>GlobalStatus.swigNext</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="62" column="22" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="62" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_global_status_1a6e8023626f0a4bc91f1d841ba75c45d0" prot="private" static="no" mutable="no">
+        <type>final int</type>
+        <definition>final int GlobalStatus.swigValue</definition>
+        <argsstring></argsstring>
+        <name>swigValue</name>
+        <qualifiedname>GlobalStatus.swigValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="63" column="21" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_global_status_1aceefee686fbdce643f4fbbdae0997e40" prot="private" static="no" mutable="no">
+        <type>final String</type>
+        <definition>final String GlobalStatus.swigName</definition>
+        <argsstring></argsstring>
+        <name>swigName</name>
+        <qualifiedname>GlobalStatus.swigName</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="64" column="24" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="64" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_global_status_1a763bc2bc86b98508fd2de27be7058ea7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>final int</type>
+        <definition>final int GlobalStatus.swigValue</definition>
+        <argsstring>()</argsstring>
+        <name>swigValue</name>
+        <qualifiedname>GlobalStatus.swigValue</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="27" column="20" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="27" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_status_1a1b8cdd8722ae33f1a9c14c7398b71905" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>String</type>
+        <definition>String GlobalStatus.toString</definition>
+        <argsstring>()</argsstring>
+        <name>toString</name>
+        <qualifiedname>GlobalStatus.toString</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="31" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="31" bodyend="33"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_global_status_1a3025a9b2566d88f4fbb3fbff6057985f" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_global_status" kindref="compound">GlobalStatus</ref></type>
+        <definition>static GlobalStatus GlobalStatus.swigToEnum</definition>
+        <argsstring>(int swigValue)</argsstring>
+        <name>swigToEnum</name>
+        <qualifiedname>GlobalStatus.swigToEnum</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>swigValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="35" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="35" bodyend="42"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_global_status_1a9d7b5d41e18e8bc6c5aa2cb474250b48" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalStatus.GlobalStatus</definition>
+        <argsstring>(String swigName)</argsstring>
+        <name>GlobalStatus</name>
+        <qualifiedname>GlobalStatus.GlobalStatus</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>swigName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="44" column="11" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="44" bodyend="47"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_status_1ad597013e767bd3e2de0d6c9ba085ba2a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalStatus.GlobalStatus</definition>
+        <argsstring>(String swigName, int swigValue)</argsstring>
+        <name>GlobalStatus</name>
+        <qualifiedname>GlobalStatus.GlobalStatus</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>swigName</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>swigValue</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="49" column="11" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="49" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_status_1a2880bf7eeab8427499828fbf19c55722" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalStatus.GlobalStatus</definition>
+        <argsstring>(String swigName, GlobalStatus swigEnum)</argsstring>
+        <name>GlobalStatus</name>
+        <qualifiedname>GlobalStatus.GlobalStatus</qualifiedname>
+        <param>
+          <type>String</type>
+          <declname>swigName</declname>
+        </param>
+        <param>
+          <type><ref refid="class_global_status" kindref="compound">GlobalStatus</ref></type>
+          <declname>swigEnum</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="55" column="11" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="55" bodyend="59"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para>A global enumeration of system status states. </para>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>GlobalStatus</label>
+        <link refid="class_global_status"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>GLOBAL_STATUS_ERROR</edgelabel>
+          <edgelabel>GLOBAL_STATUS_OK</edgelabel>
+          <edgelabel>GLOBAL_STATUS_WARNING</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" line="13" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/GlobalStatus.java" bodystart="13" bodyend="65"/>
+    <listofallmembers>
+      <member refid="class_global_status_1a4b22ff2ecb681eee22acf097a6764acc" prot="public" virt="non-virtual"><scope>GlobalStatus</scope><name>GLOBAL_STATUS_ERROR</name></member>
+      <member refid="class_global_status_1aae33bf05357114fcdfa85c03220ee2b3" prot="public" virt="non-virtual"><scope>GlobalStatus</scope><name>GLOBAL_STATUS_OK</name></member>
+      <member refid="class_global_status_1ad2b5b7fc12d1c1aa14d5c3186a70f61c" prot="public" virt="non-virtual"><scope>GlobalStatus</scope><name>GLOBAL_STATUS_WARNING</name></member>
+      <member refid="class_global_status_1a9d7b5d41e18e8bc6c5aa2cb474250b48" prot="private" virt="non-virtual"><scope>GlobalStatus</scope><name>GlobalStatus</name></member>
+      <member refid="class_global_status_1ad597013e767bd3e2de0d6c9ba085ba2a" prot="private" virt="non-virtual"><scope>GlobalStatus</scope><name>GlobalStatus</name></member>
+      <member refid="class_global_status_1a2880bf7eeab8427499828fbf19c55722" prot="private" virt="non-virtual"><scope>GlobalStatus</scope><name>GlobalStatus</name></member>
+      <member refid="class_global_status_1aceefee686fbdce643f4fbbdae0997e40" prot="private" virt="non-virtual"><scope>GlobalStatus</scope><name>swigName</name></member>
+      <member refid="class_global_status_1a0e3507a90f0e9529576b285bd82255da" prot="private" virt="non-virtual"><scope>GlobalStatus</scope><name>swigNext</name></member>
+      <member refid="class_global_status_1a3025a9b2566d88f4fbb3fbff6057985f" prot="public" virt="non-virtual"><scope>GlobalStatus</scope><name>swigToEnum</name></member>
+      <member refid="class_global_status_1a6e8023626f0a4bc91f1d841ba75c45d0" prot="private" virt="non-virtual"><scope>GlobalStatus</scope><name>swigValue</name></member>
+      <member refid="class_global_status_1a763bc2bc86b98508fd2de27be7058ea7" prot="public" virt="non-virtual"><scope>GlobalStatus</scope><name>swigValue</name></member>
+      <member refid="class_global_status_1a02d66c7e4f1af889394ef314b1fe8e1f" prot="private" virt="non-virtual"><scope>GlobalStatus</scope><name>swigValues</name></member>
+      <member refid="class_global_status_1a1b8cdd8722ae33f1a9c14c7398b71905" prot="public" virt="non-virtual"><scope>GlobalStatus</scope><name>toString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

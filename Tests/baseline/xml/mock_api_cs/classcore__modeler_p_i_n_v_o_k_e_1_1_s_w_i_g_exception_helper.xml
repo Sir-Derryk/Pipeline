@@ -1,0 +1,664 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper" kind="class" language="C#" prot="protected">
+    <compoundname>core_modelerPINVOKE::SWIGExceptionHelper</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a2168a0cd0049b5f3d2faeecfec10c514" prot="private" static="yes" mutable="no">
+        <type>ExceptionDelegate</type>
+        <definition>ExceptionDelegate core_modelerPINVOKE.SWIGExceptionHelper.applicationDelegate</definition>
+        <argsstring></argsstring>
+        <name>applicationDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.applicationDelegate</qualifiedname>
+        <initializer>= new ExceptionDelegate(SetPendingApplicationException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="19" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a15ef62bfc728f0a7a791c386035759b3" prot="private" static="yes" mutable="no">
+        <type>ExceptionDelegate</type>
+        <definition>ExceptionDelegate core_modelerPINVOKE.SWIGExceptionHelper.arithmeticDelegate</definition>
+        <argsstring></argsstring>
+        <name>arithmeticDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.arithmeticDelegate</qualifiedname>
+        <initializer>= new ExceptionDelegate(SetPendingArithmeticException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="20" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a88fda6fac0e70d0b879aed845f9528b0" prot="private" static="yes" mutable="no">
+        <type>ExceptionDelegate</type>
+        <definition>ExceptionDelegate core_modelerPINVOKE.SWIGExceptionHelper.divideByZeroDelegate</definition>
+        <argsstring></argsstring>
+        <name>divideByZeroDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.divideByZeroDelegate</qualifiedname>
+        <initializer>= new ExceptionDelegate(SetPendingDivideByZeroException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="21" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a7440260d024d49cef1c4ffe96f609642" prot="private" static="yes" mutable="no">
+        <type>ExceptionDelegate</type>
+        <definition>ExceptionDelegate core_modelerPINVOKE.SWIGExceptionHelper.indexOutOfRangeDelegate</definition>
+        <argsstring></argsstring>
+        <name>indexOutOfRangeDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.indexOutOfRangeDelegate</qualifiedname>
+        <initializer>= new ExceptionDelegate(SetPendingIndexOutOfRangeException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="22" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a01afef7eb3b42bf1d8e326e80e62b0bd" prot="private" static="yes" mutable="no">
+        <type>ExceptionDelegate</type>
+        <definition>ExceptionDelegate core_modelerPINVOKE.SWIGExceptionHelper.invalidCastDelegate</definition>
+        <argsstring></argsstring>
+        <name>invalidCastDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.invalidCastDelegate</qualifiedname>
+        <initializer>= new ExceptionDelegate(SetPendingInvalidCastException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="23" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a949ca9959ad86a9622ec7f57db755470" prot="private" static="yes" mutable="no">
+        <type>ExceptionDelegate</type>
+        <definition>ExceptionDelegate core_modelerPINVOKE.SWIGExceptionHelper.invalidOperationDelegate</definition>
+        <argsstring></argsstring>
+        <name>invalidOperationDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.invalidOperationDelegate</qualifiedname>
+        <initializer>= new ExceptionDelegate(SetPendingInvalidOperationException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="24" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1aca32e376ec59a365cd536994b1a3d9a5" prot="private" static="yes" mutable="no">
+        <type>ExceptionDelegate</type>
+        <definition>ExceptionDelegate core_modelerPINVOKE.SWIGExceptionHelper.ioDelegate</definition>
+        <argsstring></argsstring>
+        <name>ioDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.ioDelegate</qualifiedname>
+        <initializer>= new ExceptionDelegate(SetPendingIOException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="25" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a9bc315f64ad3fc50169d085ef68f377b" prot="private" static="yes" mutable="no">
+        <type>ExceptionDelegate</type>
+        <definition>ExceptionDelegate core_modelerPINVOKE.SWIGExceptionHelper.nullReferenceDelegate</definition>
+        <argsstring></argsstring>
+        <name>nullReferenceDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.nullReferenceDelegate</qualifiedname>
+        <initializer>= new ExceptionDelegate(SetPendingNullReferenceException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="26" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a827c59861f541ffc1a379af018a2a976" prot="private" static="yes" mutable="no">
+        <type>ExceptionDelegate</type>
+        <definition>ExceptionDelegate core_modelerPINVOKE.SWIGExceptionHelper.outOfMemoryDelegate</definition>
+        <argsstring></argsstring>
+        <name>outOfMemoryDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.outOfMemoryDelegate</qualifiedname>
+        <initializer>= new ExceptionDelegate(SetPendingOutOfMemoryException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="27" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a0cf6588cdefd20a3ab7132d4b143b5e0" prot="private" static="yes" mutable="no">
+        <type>ExceptionDelegate</type>
+        <definition>ExceptionDelegate core_modelerPINVOKE.SWIGExceptionHelper.overflowDelegate</definition>
+        <argsstring></argsstring>
+        <name>overflowDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.overflowDelegate</qualifiedname>
+        <initializer>= new ExceptionDelegate(SetPendingOverflowException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="28" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a4fd7dd911e8971897739297047b439d4" prot="private" static="yes" mutable="no">
+        <type>ExceptionDelegate</type>
+        <definition>ExceptionDelegate core_modelerPINVOKE.SWIGExceptionHelper.systemDelegate</definition>
+        <argsstring></argsstring>
+        <name>systemDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.systemDelegate</qualifiedname>
+        <initializer>= new ExceptionDelegate(SetPendingSystemException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="29" column="30" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ae5a6a2be7ea447c8941bf61729d25486" prot="private" static="yes" mutable="no">
+        <type>ExceptionArgumentDelegate</type>
+        <definition>ExceptionArgumentDelegate core_modelerPINVOKE.SWIGExceptionHelper.argumentDelegate</definition>
+        <argsstring></argsstring>
+        <name>argumentDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.argumentDelegate</qualifiedname>
+        <initializer>= new ExceptionArgumentDelegate(SetPendingArgumentException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="31" column="38" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ac819f782cab2d4587c975b5694d8df4b" prot="private" static="yes" mutable="no">
+        <type>ExceptionArgumentDelegate</type>
+        <definition>ExceptionArgumentDelegate core_modelerPINVOKE.SWIGExceptionHelper.argumentNullDelegate</definition>
+        <argsstring></argsstring>
+        <name>argumentNullDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.argumentNullDelegate</qualifiedname>
+        <initializer>= new ExceptionArgumentDelegate(SetPendingArgumentNullException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="32" column="38" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="32" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ad64f3caaf45f8bfdae51999b3daa7f49" prot="private" static="yes" mutable="no">
+        <type>ExceptionArgumentDelegate</type>
+        <definition>ExceptionArgumentDelegate core_modelerPINVOKE.SWIGExceptionHelper.argumentOutOfRangeDelegate</definition>
+        <argsstring></argsstring>
+        <name>argumentOutOfRangeDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.argumentOutOfRangeDelegate</qualifiedname>
+        <initializer>= new ExceptionArgumentDelegate(SetPendingArgumentOutOfRangeException)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="33" column="38" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="33" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a4a4414ab3ad636bd7362f42c371b7838" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void core_modelerPINVOKE.SWIGExceptionHelper.ExceptionDelegate</definition>
+        <argsstring>(string message)</argsstring>
+        <name>ExceptionDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.ExceptionDelegate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="16" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1af310e651e91c0042bca266a5bc1dda8e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void core_modelerPINVOKE.SWIGExceptionHelper.ExceptionArgumentDelegate</definition>
+        <argsstring>(string message, string paramName)</argsstring>
+        <name>ExceptionArgumentDelegate</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.ExceptionArgumentDelegate</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>paramName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="17" column="26"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ad16bb790877a0a680e686b5599a520a9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_core_modeler</definition>
+        <argsstring>(ExceptionDelegate applicationDelegate, ExceptionDelegate arithmeticDelegate, ExceptionDelegate divideByZeroDelegate, ExceptionDelegate indexOutOfRangeDelegate, ExceptionDelegate invalidCastDelegate, ExceptionDelegate invalidOperationDelegate, ExceptionDelegate ioDelegate, ExceptionDelegate nullReferenceDelegate, ExceptionDelegate outOfMemoryDelegate, ExceptionDelegate overflowDelegate, ExceptionDelegate systemExceptionDelegate)</argsstring>
+        <name>SWIGRegisterExceptionCallbacks_core_modeler</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacks_core_modeler</qualifiedname>
+        <param>
+          <type>ExceptionDelegate</type>
+          <declname>applicationDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionDelegate</type>
+          <declname>arithmeticDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionDelegate</type>
+          <declname>divideByZeroDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionDelegate</type>
+          <declname>indexOutOfRangeDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionDelegate</type>
+          <declname>invalidCastDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionDelegate</type>
+          <declname>invalidOperationDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionDelegate</type>
+          <declname>ioDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionDelegate</type>
+          <declname>nullReferenceDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionDelegate</type>
+          <declname>outOfMemoryDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionDelegate</type>
+          <declname>overflowDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionDelegate</type>
+          <declname>systemExceptionDelegate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="36" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a1920d22a212aa3e12ce25db8f5ad2ad9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacksArgument_core_modeler</definition>
+        <argsstring>(ExceptionArgumentDelegate argumentDelegate, ExceptionArgumentDelegate argumentNullDelegate, ExceptionArgumentDelegate argumentOutOfRangeDelegate)</argsstring>
+        <name>SWIGRegisterExceptionCallbacksArgument_core_modeler</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SWIGRegisterExceptionCallbacksArgument_core_modeler</qualifiedname>
+        <param>
+          <type>ExceptionArgumentDelegate</type>
+          <declname>argumentDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionArgumentDelegate</type>
+          <declname>argumentNullDelegate</declname>
+        </param>
+        <param>
+          <type>ExceptionArgumentDelegate</type>
+          <declname>argumentOutOfRangeDelegate</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="50" column="31"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a4bb7fb5445a477a90ff8242eb15ef858" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingApplicationException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SetPendingApplicationException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingApplicationException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="55" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a545d315105f8f158e8e8bb2120e9ca5c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingArithmeticException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SetPendingArithmeticException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingArithmeticException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="58" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="58" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a564338297c8fa08e2667c3f8c7916408" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingDivideByZeroException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SetPendingDivideByZeroException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingDivideByZeroException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="61" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="61" bodyend="63"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1aaa2bb9b06341d2900b2c5892e5386237" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingIndexOutOfRangeException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SetPendingIndexOutOfRangeException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingIndexOutOfRangeException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="64" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="64" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1aa43409c24251a9b8c49be7bd5262e484" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingInvalidCastException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SetPendingInvalidCastException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingInvalidCastException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="67" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="67" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a83fe3fb65054aad74fda16090a015465" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingInvalidOperationException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SetPendingInvalidOperationException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingInvalidOperationException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="70" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="70" bodyend="72"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a3057aa01c7811d3348fa91fb73e2e2b2" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingIOException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SetPendingIOException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingIOException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="73" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="73" bodyend="75"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a751f32cc1626039797abf2d798b14c50" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingNullReferenceException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SetPendingNullReferenceException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingNullReferenceException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="76" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="76" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1af3d961c941dffbfac109eb4623d6e7dc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingOutOfMemoryException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SetPendingOutOfMemoryException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingOutOfMemoryException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="79" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="79" bodyend="81"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ab9eb1ba9ef80215d1f8d21738549ba87" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingOverflowException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SetPendingOverflowException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingOverflowException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="82" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="82" bodyend="84"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a678a678798782d4bca465e1bc2e628e6" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingSystemException</definition>
+        <argsstring>(string message)</argsstring>
+        <name>SetPendingSystemException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingSystemException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="85" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="85" bodyend="87"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1af8970b4adce6320ca810f26efa078c6e" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingArgumentException</definition>
+        <argsstring>(string message, string paramName)</argsstring>
+        <name>SetPendingArgumentException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingArgumentException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>paramName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="89" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="89" bodyend="91"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ac1e80a52932156a9a7a67fac1433d34d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingArgumentNullException</definition>
+        <argsstring>(string message, string paramName)</argsstring>
+        <name>SetPendingArgumentNullException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingArgumentNullException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>paramName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="92" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="92" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ac457b5ec900074f759928ce00e05eacc" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGExceptionHelper.SetPendingArgumentOutOfRangeException</definition>
+        <argsstring>(string message, string paramName)</argsstring>
+        <name>SetPendingArgumentOutOfRangeException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SetPendingArgumentOutOfRangeException</qualifiedname>
+        <param>
+          <type>string</type>
+          <declname>message</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>paramName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="97" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ae93994ef982bd74c1749743f302a9715" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static core_modelerPINVOKE.SWIGExceptionHelper.SWIGExceptionHelper</definition>
+        <argsstring>()</argsstring>
+        <name>SWIGExceptionHelper</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGExceptionHelper.SWIGExceptionHelper</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="103" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="103" bodyend="121"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="14" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="14" bodyend="122"/>
+    <listofallmembers>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a2168a0cd0049b5f3d2faeecfec10c514" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>applicationDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ae5a6a2be7ea447c8941bf61729d25486" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>argumentDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ac819f782cab2d4587c975b5694d8df4b" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>argumentNullDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ad64f3caaf45f8bfdae51999b3daa7f49" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>argumentOutOfRangeDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a15ef62bfc728f0a7a791c386035759b3" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>arithmeticDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a88fda6fac0e70d0b879aed845f9528b0" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>divideByZeroDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1af310e651e91c0042bca266a5bc1dda8e" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>ExceptionArgumentDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a4a4414ab3ad636bd7362f42c371b7838" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>ExceptionDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a7440260d024d49cef1c4ffe96f609642" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>indexOutOfRangeDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a01afef7eb3b42bf1d8e326e80e62b0bd" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>invalidCastDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a949ca9959ad86a9622ec7f57db755470" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>invalidOperationDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1aca32e376ec59a365cd536994b1a3d9a5" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>ioDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a9bc315f64ad3fc50169d085ef68f377b" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>nullReferenceDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a827c59861f541ffc1a379af018a2a976" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>outOfMemoryDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a0cf6588cdefd20a3ab7132d4b143b5e0" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>overflowDelegate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a4bb7fb5445a477a90ff8242eb15ef858" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingApplicationException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1af8970b4adce6320ca810f26efa078c6e" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingArgumentException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ac1e80a52932156a9a7a67fac1433d34d" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingArgumentNullException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ac457b5ec900074f759928ce00e05eacc" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingArgumentOutOfRangeException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a545d315105f8f158e8e8bb2120e9ca5c" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingArithmeticException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a564338297c8fa08e2667c3f8c7916408" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingDivideByZeroException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1aaa2bb9b06341d2900b2c5892e5386237" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingIndexOutOfRangeException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1aa43409c24251a9b8c49be7bd5262e484" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingInvalidCastException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a83fe3fb65054aad74fda16090a015465" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingInvalidOperationException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a3057aa01c7811d3348fa91fb73e2e2b2" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingIOException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a751f32cc1626039797abf2d798b14c50" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingNullReferenceException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1af3d961c941dffbfac109eb4623d6e7dc" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingOutOfMemoryException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ab9eb1ba9ef80215d1f8d21738549ba87" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingOverflowException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a678a678798782d4bca465e1bc2e628e6" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SetPendingSystemException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ae93994ef982bd74c1749743f302a9715" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SWIGExceptionHelper</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1ad16bb790877a0a680e686b5599a520a9" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SWIGRegisterExceptionCallbacks_core_modeler</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a1920d22a212aa3e12ce25db8f5ad2ad9" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>SWIGRegisterExceptionCallbacksArgument_core_modeler</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper_1a4fd7dd911e8971897739297047b439d4" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGExceptionHelper</scope><name>systemDelegate</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

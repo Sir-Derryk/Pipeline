@@ -1,0 +1,14 @@
+{
+    "product_name": "Sdai",
+    "docs": [
+        {
+            "type": "api",
+            "id": "sdai_api_py",
+            "title": "Python API Reference",
+            "lang": "py",
+            "devguide_lang_suffix": "py",
+            "path": "sdai_api_py",
+            "main_page": "sdai_api_ref.html"
+        }
+    ]
+}

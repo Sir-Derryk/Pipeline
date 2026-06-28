@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcore__modeler_1_1_model" kind="class" language="Python" prot="public">
+    <compoundname>core_modeler::Model</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">object</basecompoundref>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classcore__modeler_1_1_model_1ab3e945ad7e3b0ac333d4e9d1a6736f47" prot="public" static="yes" readable="no" writable="no" gettable="no" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type></type>
+        <definition>core_modeler.Model::thisown</definition>
+        <argsstring></argsstring>
+        <name>thisown</name>
+        <qualifiedname>core_modeler.Model.thisown</qualifiedname>
+        <initializer>=  property(lambda x: x.this.own(), lambda x, v: x.this.own(v), doc=&quot;The membership flag&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="144" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="144" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcore__modeler_1_1_model_1aeaf5290968d88aa22713b9edc82624fe" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>core_modeler.Model::__repr__</definition>
+        <argsstring></argsstring>
+        <name>__repr__</name>
+        <qualifiedname>core_modeler.Model.__repr__</qualifiedname>
+        <initializer>=  _swig_repr</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="145" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="145" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_1_1_model_1aa523b283ad0fb43b1e067590e9a0219c" prot="private" static="yes" mutable="no">
+        <type></type>
+        <definition>core_modeler.Model::__swig_destroy__</definition>
+        <argsstring></argsstring>
+        <name>__swig_destroy__</name>
+        <qualifiedname>core_modeler.Model.__swig_destroy__</qualifiedname>
+        <initializer>=  _core_modeler.delete_Model</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="157" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="157" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcore__modeler_1_1_model_1a4fd49aa8ad156ed44c15be02d8b50365" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.Model.__init__</definition>
+        <argsstring>(self, mode)</argsstring>
+        <name>__init__</name>
+        <qualifiedname>core_modeler.Model.__init__</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <param>
+          <type>mode</type>
+          <defname>mode</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>    __init__(Model self, CoreModeler::RenderMode mode) -&gt; Model
+
+    Parameters
+    ----------
+    mode: enum CoreModeler::RenderMode</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="147" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="147" bodyend="156"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+<para><verbatim>Proxy of C++ CoreModeler::Model class.</verbatim> </para>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>core_modeler.Model</label>
+        <link refid="classcore__modeler_1_1_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>core_modeler.Model</label>
+        <link refid="classcore__modeler_1_1_model"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>object</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="141" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="141" bodyend="161"/>
+    <listofallmembers>
+      <member refid="classcore__modeler_1_1_model_1a4fd49aa8ad156ed44c15be02d8b50365" prot="public" virt="non-virtual"><scope>core_modeler::Model</scope><name>__init__</name></member>
+      <member refid="classcore__modeler_1_1_model_1aeaf5290968d88aa22713b9edc82624fe" prot="private" virt="non-virtual"><scope>core_modeler::Model</scope><name>__repr__</name></member>
+      <member refid="classcore__modeler_1_1_model_1aa523b283ad0fb43b1e067590e9a0219c" prot="private" virt="non-virtual"><scope>core_modeler::Model</scope><name>__swig_destroy__</name></member>
+      <member refid="classcore__modeler_1_1_model_1ab3e945ad7e3b0ac333d4e9d1a6736f47" prot="public" virt="non-virtual"><scope>core_modeler::Model</scope><name>thisown</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

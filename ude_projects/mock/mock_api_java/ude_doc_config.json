@@ -1,0 +1,28 @@
+{
+    "project_name": "Mock Java API Reference",
+    "short_project_name": "Mock",
+    "src_dir": [
+        "../../../engine/tests/assets/main/_swig/java/mock"
+    ],
+    "static_pages_dir": "./",
+    "copyright_start_year": 2026,
+    "incremental": true,
+    "max_workers": 8,
+    "collector": {
+        "type": "JavaDoxygenCollector",
+        "file_patterns": [
+            "**/*.java"
+        ],
+        "include_private": false
+    },
+    "parser": {
+        "type": "JavaDoxygenParser"
+    },
+    "renderer": {
+        "type": "JavaHtmlDefaultRenderer"
+    },
+    "output_subdir": "mock_api_java",
+    "validator": {
+        "type": "JavaCommentValidator"
+    }
+}

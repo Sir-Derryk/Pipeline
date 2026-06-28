@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="structswig__type__info" kind="struct" language="C++" prot="public">
+    <compoundname>swig_type_info</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structswig__type__info_1aa6c9f9ed3037043b6d346162cf932daf" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char * swig_type_info::name</definition>
+        <argsstring></argsstring>
+        <name>name</name>
+        <qualifiedname>swig_type_info::name</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="368" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="368" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structswig__type__info_1aaafd19f362ddc521d6a846ce41044471" prot="public" static="no" mutable="no">
+        <type>const char *</type>
+        <definition>const char * swig_type_info::str</definition>
+        <argsstring></argsstring>
+        <name>str</name>
+        <qualifiedname>swig_type_info::str</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="369" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="369" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structswig__type__info_1a07df4bedf85be77b23756b531b60e0dd" prot="public" static="no" mutable="no">
+        <type>swig_dycast_func</type>
+        <definition>swig_dycast_func swig_type_info::dcast</definition>
+        <argsstring></argsstring>
+        <name>dcast</name>
+        <qualifiedname>swig_type_info::dcast</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="370" column="27" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="370" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structswig__type__info_1ae535f16234db99893f07880cb94a848e" prot="public" static="no" mutable="no">
+        <type>struct <ref refid="structswig__cast__info" kindref="compound">swig_cast_info</ref> *</type>
+        <definition>struct swig_cast_info * swig_type_info::cast</definition>
+        <argsstring></argsstring>
+        <name>cast</name>
+        <qualifiedname>swig_type_info::cast</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="371" column="23" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structswig__type__info_1a2e1f9087e639dd7c8c131fbc6e399194" prot="public" static="no" mutable="no">
+        <type>void *</type>
+        <definition>void * swig_type_info::clientdata</definition>
+        <argsstring></argsstring>
+        <name>clientdata</name>
+        <qualifiedname>swig_type_info::clientdata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="372" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structswig__type__info_1a93c25d5903cbfcb82208eea7227c32bd" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int swig_type_info::owndata</definition>
+        <argsstring></argsstring>
+        <name>owndata</name>
+        <qualifiedname>swig_type_info::owndata</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="373" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="373" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="2">
+        <label>swig_cast_info</label>
+        <link refid="structswig__cast__info"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>type</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>next</edgelabel>
+          <edgelabel>prev</edgelabel>
+        </childnode>
+      </node>
+      <node id="1">
+        <label>swig_type_info</label>
+        <link refid="structswig__type__info"/>
+        <childnode refid="1" relation="usage">
+          <edgelabel>dcast</edgelabel>
+        </childnode>
+        <childnode refid="2" relation="usage">
+          <edgelabel>cast</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" line="367" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler_wrap.cpp" bodystart="367" bodyend="374"/>
+    <listofallmembers>
+      <member refid="structswig__type__info_1ae535f16234db99893f07880cb94a848e" prot="public" virt="non-virtual"><scope>swig_type_info</scope><name>cast</name></member>
+      <member refid="structswig__type__info_1a2e1f9087e639dd7c8c131fbc6e399194" prot="public" virt="non-virtual"><scope>swig_type_info</scope><name>clientdata</name></member>
+      <member refid="structswig__type__info_1a07df4bedf85be77b23756b531b60e0dd" prot="public" virt="non-virtual"><scope>swig_type_info</scope><name>dcast</name></member>
+      <member refid="structswig__type__info_1aa6c9f9ed3037043b6d346162cf932daf" prot="public" virt="non-virtual"><scope>swig_type_info</scope><name>name</name></member>
+      <member refid="structswig__type__info_1a93c25d5903cbfcb82208eea7227c32bd" prot="public" virt="non-virtual"><scope>swig_type_info</scope><name>owndata</name></member>
+      <member refid="structswig__type__info_1aaafd19f362ddc521d6a846ce41044471" prot="public" virt="non-virtual"><scope>swig_type_info</scope><name>str</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

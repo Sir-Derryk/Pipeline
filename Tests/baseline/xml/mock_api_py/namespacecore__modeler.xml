@@ -1,0 +1,340 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="namespacecore__modeler" kind="namespace" language="Python">
+    <compoundname>core_modeler</compoundname>
+    <innerclass refid="classcore__modeler_1_1___swig_non_dynamic_meta" prot="protected">core_modeler::_SwigNonDynamicMeta</innerclass>
+    <innerclass refid="classcore__modeler_1_1_box" prot="public">core_modeler::Box</innerclass>
+    <innerclass refid="classcore__modeler_1_1_global_config" prot="public">core_modeler::GlobalConfig</innerclass>
+    <innerclass refid="classcore__modeler_1_1_global_logger_proxy" prot="public">core_modeler::GlobalLoggerProxy</innerclass>
+    <innerclass refid="classcore__modeler_1_1_i_drawable" prot="public">core_modeler::IDrawable</innerclass>
+    <innerclass refid="classcore__modeler_1_1_model" prot="public">core_modeler::Model</innerclass>
+    <innerclass refid="classcore__modeler_1_1_point3_dd" prot="public">core_modeler::Point3Dd</innerclass>
+    <innerclass refid="classcore__modeler_1_1_point3_df" prot="public">core_modeler::Point3Df</innerclass>
+    <innerclass refid="classcore__modeler_1_1_point3_di" prot="public">core_modeler::Point3Di</innerclass>
+    <innerclass refid="classcore__modeler_1_1_shape" prot="public">core_modeler::Shape</innerclass>
+    <sectiondef kind="var">
+      <memberdef kind="variable" id="core__modeler_8py_1a4ed2d073c12698ed59b3ec6eceb2493b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>core_modeler.GLOBAL_STATUS_OK</definition>
+        <argsstring></argsstring>
+        <name>GLOBAL_STATUS_OK</name>
+        <qualifiedname>core_modeler.GLOBAL_STATUS_OK</qualifiedname>
+        <initializer>=  _core_modeler.GLOBAL_STATUS_OK</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="64" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler_8py_1a45ade31dbf188484a5ec20077dd69802" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>core_modeler.GLOBAL_STATUS_WARNING</definition>
+        <argsstring></argsstring>
+        <name>GLOBAL_STATUS_WARNING</name>
+        <qualifiedname>core_modeler.GLOBAL_STATUS_WARNING</qualifiedname>
+        <initializer>=  _core_modeler.GLOBAL_STATUS_WARNING</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="66" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler_8py_1a8f829657a666ffabcb575000f6cbd163" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>core_modeler.GLOBAL_STATUS_ERROR</definition>
+        <argsstring></argsstring>
+        <name>GLOBAL_STATUS_ERROR</name>
+        <qualifiedname>core_modeler.GLOBAL_STATUS_ERROR</qualifiedname>
+        <initializer>=  _core_modeler.GLOBAL_STATUS_ERROR</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="68" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="68" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler_8py_1a8bcb40efd6805babec116eca647ba832" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>core_modeler.cvar</definition>
+        <argsstring></argsstring>
+        <name>cvar</name>
+        <qualifiedname>core_modeler.cvar</qualifiedname>
+        <initializer>=  _core_modeler.cvar</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="122" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="122" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler_8py_1ab534ca171b2c49f1dbc2818e8b3cea9e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>core_modeler.RenderMode_Wireframe</definition>
+        <argsstring></argsstring>
+        <name>RenderMode_Wireframe</name>
+        <qualifiedname>core_modeler.RenderMode_Wireframe</qualifiedname>
+        <initializer>=  _core_modeler.RenderMode_Wireframe</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="135" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler_8py_1a6b5e018959dc862647db81e2dd27146d" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>core_modeler.RenderMode_Shaded</definition>
+        <argsstring></argsstring>
+        <name>RenderMode_Shaded</name>
+        <qualifiedname>core_modeler.RenderMode_Shaded</qualifiedname>
+        <initializer>=  _core_modeler.RenderMode_Shaded</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="137" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler_8py_1a2a2c45a33fe8ac51bcf6e216f0a53f2e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>core_modeler.RenderMode_Textured</definition>
+        <argsstring></argsstring>
+        <name>RenderMode_Textured</name>
+        <qualifiedname>core_modeler.RenderMode_Textured</qualifiedname>
+        <initializer>=  _core_modeler.RenderMode_Textured</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="139" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler_8py_1a7d8b7c6e7d6960358c8a2dd367a3721b" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>core_modeler.DIAG_SUCCESS</definition>
+        <argsstring></argsstring>
+        <name>DIAG_SUCCESS</name>
+        <qualifiedname>core_modeler.DIAG_SUCCESS</qualifiedname>
+        <initializer>=  cvar.DIAG_SUCCESS</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="321" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="321" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler_8py_1a9571037405d119f6d35b916e0ee0c57e" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>core_modeler.DIAG_FAILURE</definition>
+        <argsstring></argsstring>
+        <name>DIAG_FAILURE</name>
+        <qualifiedname>core_modeler.DIAG_FAILURE</qualifiedname>
+        <initializer>=  cvar.DIAG_FAILURE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="322" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="322" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler_8py_1a730351125ab0be373ecb4002dd557ce6" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>core_modeler.__name__</definition>
+        <argsstring></argsstring>
+        <name>__name__</name>
+        <qualifiedname>core_modeler.__name__</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="55" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="core__modeler_8py_1aaf467d26a917d6fa9630912d93f2545e" prot="private" static="no" mutable="no">
+        <type></type>
+        <definition>core_modeler.__bases__</definition>
+        <argsstring></argsstring>
+        <name>__bases__</name>
+        <qualifiedname>core_modeler.__bases__</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="55" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="55" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="func">
+      <memberdef kind="function" id="core__modeler_8py_1ad0a5f52187ba51260d5978ca88acdb18" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler._swig_repr</definition>
+        <argsstring>(self)</argsstring>
+        <name>_swig_repr</name>
+        <qualifiedname>core_modeler._swig_repr</qualifiedname>
+        <param>
+          <type>self</type>
+          <defname>self</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="22" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="22" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler_8py_1ab7622613e9384973f294f4973f70057c" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler._swig_setattr_nondynamic_instance_variable</definition>
+        <argsstring>(set)</argsstring>
+        <name>_swig_setattr_nondynamic_instance_variable</name>
+        <qualifiedname>core_modeler._swig_setattr_nondynamic_instance_variable</qualifiedname>
+        <param>
+          <type>set</type>
+          <defname>set</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="30" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="30" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler_8py_1a6141f6b979334df7564ed0ab9d6663e3" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler._swig_setattr_nondynamic_class_variable</definition>
+        <argsstring>(set)</argsstring>
+        <name>_swig_setattr_nondynamic_class_variable</name>
+        <qualifiedname>core_modeler._swig_setattr_nondynamic_class_variable</qualifiedname>
+        <param>
+          <type>set</type>
+          <defname>set</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="43" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="43" bodyend="51"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler_8py_1acf953b9b453edfeecc1a82c9421de4c1" prot="protected" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler._swig_add_metaclass</definition>
+        <argsstring>(metaclass)</argsstring>
+        <name>_swig_add_metaclass</name>
+        <qualifiedname>core_modeler._swig_add_metaclass</qualifiedname>
+        <param>
+          <type>metaclass</type>
+          <defname>metaclass</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>Class decorator for adding a metaclass to a SWIG wrapped class - a slimmed down version of six.add_metaclass</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="52" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="52" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler_8py_1afdaab5a2ef2678f112ecbf32df3b7be4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.globalInitialize</definition>
+        <argsstring>(config)</argsstring>
+        <name>globalInitialize</name>
+        <qualifiedname>core_modeler.globalInitialize</qualifiedname>
+        <param>
+          <type>config</type>
+          <defname>config</defname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>globalInitialize(GlobalConfig config) -&gt; int
+
+Parameters
+----------
+config: GlobalConfig const &amp;</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="125" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="125" bodyend="134"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler_8py_1aedc536a37fd87b46bd5d9a2eb2f24127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.checkSystemHealth</definition>
+        <argsstring>()</argsstring>
+        <name>checkSystemHealth</name>
+        <qualifiedname>core_modeler.checkSystemHealth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>checkSystemHealth() -&gt; SystemDiagnostics::DiagnosticCode</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="263" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="263" bodyend="266"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler_8py_1ace316c53d7624c9e0c6ab1468020fd71" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.pingSubsystem</definition>
+        <argsstring>(*args)</argsstring>
+        <name>pingSubsystem</name>
+        <qualifiedname>core_modeler.pingSubsystem</qualifiedname>
+        <param>
+          <type>*</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>pingSubsystem(unsigned int timeoutMs) -&gt; bool
+
+Parameters
+----------
+timeoutMs: unsigned int
+
+pingSubsystem() -&gt; bool
+</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="267" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="267" bodyend="278"/>
+      </memberdef>
+      <memberdef kind="function" id="core__modeler_8py_1af1a2e07490b402d7dfa76feb0a1f3c88" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>core_modeler.resetCounters</definition>
+        <argsstring>()</argsstring>
+        <name>resetCounters</name>
+        <qualifiedname>core_modeler.resetCounters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para><verbatim>resetCounters()</verbatim> </para>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="279" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" bodystart="279" bodyend="281"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/python/mock/core_modeler.py" line="1" column="1"/>
+  </compounddef>
+</doxygen>

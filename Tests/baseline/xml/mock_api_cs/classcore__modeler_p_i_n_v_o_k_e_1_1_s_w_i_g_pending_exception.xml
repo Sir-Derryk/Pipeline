@@ -1,0 +1,133 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception" kind="class" language="C#" prot="public">
+    <compoundname>core_modelerPINVOKE::SWIGPendingException</compoundname>
+    <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1a56a6484c2a47920231dde4c4cf8d953b" prot="private" static="yes" mutable="no">
+        <type>global::System.Exception</type>
+        <definition>global::System.Exception core_modelerPINVOKE.SWIGPendingException.pendingException</definition>
+        <argsstring></argsstring>
+        <name>pendingException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGPendingException.pendingException</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="128" column="44" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1a8d004d58726a8ab075f04036a547a96c" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int core_modelerPINVOKE.SWIGPendingException.numExceptionsPending</definition>
+        <argsstring></argsstring>
+        <name>numExceptionsPending</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGPendingException.numExceptionsPending</qualifiedname>
+        <initializer>= 0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="129" column="24" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1adf9c1e876bd8075ca6902d800356a06e" prot="private" static="yes" mutable="no">
+        <type>global::System.Object</type>
+        <definition>global::System.Object core_modelerPINVOKE.SWIGPendingException.exceptionsLock</definition>
+        <argsstring></argsstring>
+        <name>exceptionsLock</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGPendingException.exceptionsLock</qualifiedname>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="130" column="41" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1a8ceb7557b743231a694de84654880067" prot="public" static="yes" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="no" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool core_modelerPINVOKE.SWIGPendingException.Pending</definition>
+        <argsstring></argsstring>
+        <name>Pending</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGPendingException.Pending</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="132" column="24" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="132" bodyend="140"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1a4d6301b2ea0c3abe6132ec98c66d9919" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.SWIGPendingException.Set</definition>
+        <argsstring>(global::System.Exception e)</argsstring>
+        <name>Set</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGPendingException.Set</qualifiedname>
+        <param>
+          <type>global::System.Exception</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="142" column="24" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="142" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1aa81b6d363bd41d4da1b1fa7604629242" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Exception</type>
+        <definition>static global::System.Exception core_modelerPINVOKE.SWIGPendingException.Retrieve</definition>
+        <argsstring>()</argsstring>
+        <name>Retrieve</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGPendingException.Retrieve</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="151" column="43" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="151" bodyend="163"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1a3cb80e3d842a3e46008cc5bd552b2a9c" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static core_modelerPINVOKE.SWIGPendingException.SWIGPendingException</definition>
+        <argsstring>()</argsstring>
+        <name>SWIGPendingException</name>
+        <qualifiedname>core_modelerPINVOKE.SWIGPendingException.SWIGPendingException</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="165" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="165" bodyend="167"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="126" column="9" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="126" bodyend="168"/>
+    <listofallmembers>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1adf9c1e876bd8075ca6902d800356a06e" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGPendingException</scope><name>exceptionsLock</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1a8d004d58726a8ab075f04036a547a96c" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGPendingException</scope><name>numExceptionsPending</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1a8ceb7557b743231a694de84654880067" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGPendingException</scope><name>Pending</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1a56a6484c2a47920231dde4c4cf8d953b" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGPendingException</scope><name>pendingException</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1aa81b6d363bd41d4da1b1fa7604629242" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGPendingException</scope><name>Retrieve</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1a4d6301b2ea0c3abe6132ec98c66d9919" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGPendingException</scope><name>Set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception_1a3cb80e3d842a3e46008cc5bd552b2a9c" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE::SWIGPendingException</scope><name>SWIGPendingException</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.10.0" xml:lang="en-US">
+  <compound refid="class_core_modeler_1_1_geometry_1_1_box" kind="class"><name>CoreModeler::Geometry::Box</name>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1a732bffa48e4a6c257b540019007a867a" kind="function"><name>Box</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1a3b5e539df3b57945845268c8137da654" kind="function"><name>getVolume</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1a856b4a6a39a51b7729681542f2d95a8e" kind="function"><name>draw</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1a6107490824dd46bcc70e106971696889" kind="function"><name>draw</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1a316eaec2fde4a870c468b7ff3938f54f" kind="function"><name>scale</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_box_1ac6266b923eae415226c0e1099986f34f" kind="function"><name>scale</name></member>
+  </compound>
+  <compound refid="struct_global_config" kind="struct"><name>GlobalConfig</name>
+    <member refid="struct_global_config_1a28c35fc64d59cdb69fb5c1bf2d38197e" kind="variable"><name>maxThreads</name></member>
+    <member refid="struct_global_config_1a339e38f47ec0d9c3190c663d7dab3564" kind="variable"><name>enableLogging</name></member>
+    <member refid="struct_global_config_1a801b5bf8f782b951c229afdc441bc568" kind="variable"><name>timeoutSeconds</name></member>
+  </compound>
+  <compound refid="class_global_logger" kind="class"><name>GlobalLogger</name>
+    <member refid="class_global_logger_1ad40c267a4ba7b2a574d2542fdf78ceac" kind="function"><name>logMessage</name></member>
+    <member refid="class_global_logger_1ac6e54ed937568cc57b86ce33ab4bb663" kind="function"><name>logMessage</name></member>
+    <member refid="class_global_logger_1ae5785d0528e02b9d3968c7e95ffc414d" kind="function"><name>forceFlush</name></member>
+  </compound>
+  <compound refid="class_core_modeler_1_1_geometry_1_1_i_drawable" kind="class"><name>CoreModeler::Geometry::IDrawable</name>
+    <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a3cdbf62f571fa669ac44ced46d8aba68" kind="function"><name>~IDrawable</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a0efed8530d1a99769eda8c8d0161ead3" kind="function"><name>draw</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_i_drawable_1a17a979b5e4905f9126bde0edbb21c56a" kind="function"><name>draw</name></member>
+  </compound>
+  <compound refid="class_core_modeler_1_1_model_1_1_metadata_iterator" kind="class"><name>CoreModeler::Model::MetadataIterator</name>
+    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1af4c685b23b5e7952834e3f42ae1d5ec2" kind="function"><name>hasNext</name></member>
+    <member refid="class_core_modeler_1_1_model_1_1_metadata_iterator_1af23dc198754664541589cd89f9957157" kind="function"><name>next</name></member>
+  </compound>
+  <compound refid="class_core_modeler_1_1_model" kind="class"><name>CoreModeler::Model</name>
+    <member refid="class_core_modeler_1_1_model_1ad51519540a5238f99c922ca1659b00cb" kind="variable"><name>m_mode</name></member>
+    <member refid="class_core_modeler_1_1_model_1a85da5077d403779065f92c7e41d3a5ca" kind="function"><name>Model</name></member>
+    <member refid="class_core_modeler_1_1_model_1acd827bb997e4b25a797fb33c8805eb9a" kind="function"><name>clear</name></member>
+  </compound>
+  <compound refid="class_core_modeler_1_1_geometry_1_1_point3_d" kind="class"><name>CoreModeler::Geometry::Point3D</name>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1afdcfff3d9ab28868591b0f2b3865c356" kind="variable"><name>x</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1a1bfa4b9544fab42510f04e4882d4fb63" kind="variable"><name>y</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1a74ef66c4dd0a15f65a5a7172c3bc538e" kind="variable"><name>z</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1acf4cba0a8067526120bf30dc958e524c" kind="function"><name>Point3D</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1a69ff94f4f25cb40ddf84c926e739ed71" kind="function"><name>Point3D</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_point3_d_1afefcafef5d3b9ef9b1204653703a9d4d" kind="function"><name>translate</name></member>
+  </compound>
+  <compound refid="class_core_modeler_1_1_geometry_1_1_shape" kind="class"><name>CoreModeler::Geometry::Shape</name>
+    <member refid="class_core_modeler_1_1_geometry_1_1_shape_1ab9929cc3462ec56e237666f3817a30cc" kind="function"><name>~Shape</name></member>
+    <member refid="class_core_modeler_1_1_geometry_1_1_shape_1a5f7b2adb2901fbbbad153a526352de13" kind="function"><name>getVolume</name></member>
+  </compound>
+  <compound refid="namespace_core_modeler" kind="namespace"><name>CoreModeler</name>
+    <member refid="_core_modeler_8h_1a153e4d50ee475f71a62b61fc887c3ddf" kind="enum"><name>RenderMode</name></member>
+    <member refid="_core_modeler_8h_1a153e4d50ee475f71a62b61fc887c3ddfa33e42d0f3b166a4c405127e4412fbef2" kind="enumvalue"><name>Wireframe</name></member>
+    <member refid="_core_modeler_8h_1a153e4d50ee475f71a62b61fc887c3ddfa95e4c683b31aacc6c251c95780ff6808" kind="enumvalue"><name>Shaded</name></member>
+    <member refid="_core_modeler_8h_1a153e4d50ee475f71a62b61fc887c3ddfa727faf49bd334ad8c6692934ff652843" kind="enumvalue"><name>Textured</name></member>
+  </compound>
+  <compound refid="namespace_core_modeler_1_1_geometry" kind="namespace"><name>CoreModeler::Geometry</name>
+  </compound>
+  <compound refid="namespace_system_diagnostics" kind="namespace"><name>SystemDiagnostics</name>
+    <member refid="namespace_system_diagnostics_1aa43fb07d0200f04a1713979c47bbc749" kind="typedef"><name>DiagnosticCode</name></member>
+    <member refid="namespace_system_diagnostics_1ad19530932b25a821a7d8cd246004a539" kind="variable"><name>DIAG_SUCCESS</name></member>
+    <member refid="namespace_system_diagnostics_1add57f04bde98003bdea40b9e441f047e" kind="variable"><name>DIAG_FAILURE</name></member>
+    <member refid="namespace_system_diagnostics_1a897c5b9418be08831ad415ba5949143b" kind="variable"><name>g_diagnosticRunCount</name></member>
+    <member refid="namespace_system_diagnostics_1af76c6441a795734cca4cacf22bf247b7" kind="function"><name>checkSystemHealth</name></member>
+    <member refid="namespace_system_diagnostics_1ac9de12db8a5673df0ab3366b0684e83d" kind="function"><name>pingSubsystem</name></member>
+    <member refid="namespace_system_diagnostics_1a318eeab57e3756e18c7109616b415e6b" kind="function"><name>pingSubsystem</name></member>
+    <member refid="namespace_system_diagnostics_1a270bbdbfadc6cab34e088588594993e2" kind="function"><name>resetCounters</name></member>
+  </compound>
+  <compound refid="_core_modeler_8h" kind="file"><name>CoreModeler.h</name>
+  </compound>
+  <compound refid="_global_entities_8h" kind="file"><name>GlobalEntities.h</name>
+    <member refid="_global_entities_8h_1a4dd0d066439b41b801e641efc3156b50" kind="enum"><name>GlobalStatus</name></member>
+    <member refid="_global_entities_8h_1a4dd0d066439b41b801e641efc3156b50a76c442c3a24245535a54071229946ec4" kind="enumvalue"><name>GLOBAL_STATUS_OK</name></member>
+    <member refid="_global_entities_8h_1a4dd0d066439b41b801e641efc3156b50af9afea101cc55bd5a721ea99f89a3e6a" kind="enumvalue"><name>GLOBAL_STATUS_WARNING</name></member>
+    <member refid="_global_entities_8h_1a4dd0d066439b41b801e641efc3156b50abeefaf02331e128c044a04d5ec4d6af3" kind="enumvalue"><name>GLOBAL_STATUS_ERROR</name></member>
+    <member refid="_global_entities_8h_1a6a3d8f79d60f832731d6dc445758d439" kind="variable"><name>g_systemState</name></member>
+    <member refid="_global_entities_8h_1a1104f09256ec505676e7eca144e8eda0" kind="variable"><name>g_piValue</name></member>
+    <member refid="_global_entities_8h_1a8c7c9485a8fdf62ccf2c907faecd10ff" kind="function"><name>globalInitialize</name></member>
+  </compound>
+  <compound refid="_system_diagnostics_8h" kind="file"><name>SystemDiagnostics.h</name>
+  </compound>
+  <compound refid="dir_cc5b8324a1c9680f676e1b6042a02774" kind="dir"><name>D:/My repositories/Pipeline/engine/tests/assets</name>
+  </compound>
+  <compound refid="dir_996f45160da62e1a3d7f6046fad68f51" kind="dir"><name>D:/My repositories/Pipeline/engine</name>
+  </compound>
+  <compound refid="dir_0b0f8b0144fd3ee082517a1bf8706797" kind="dir"><name>D:/My repositories/Pipeline/engine/tests/assets/main</name>
+  </compound>
+  <compound refid="dir_994b05adaa22af5ce57dac7f310da5f3" kind="dir"><name>D:/My repositories/Pipeline/engine/tests/assets/main/mock</name>
+  </compound>
+  <compound refid="dir_6c76c4486b5a864c1f085cf72f526b2c" kind="dir"><name>D:/My repositories/Pipeline/engine/tests</name>
+  </compound>
+</doxygenindex>

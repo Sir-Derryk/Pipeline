@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="struct_s_w_i_g___c_sharp_exception__t" kind="struct" language="C++" prot="public">
+    <compoundname>SWIG_CSharpException_t</compoundname>
+    <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_s_w_i_g___c_sharp_exception__t_1aafa02b02869cd0423dcee68c867b4e53" prot="public" static="no" mutable="no">
+        <type>SWIG_CSharpExceptionCodes</type>
+        <definition>SWIG_CSharpExceptionCodes SWIG_CSharpException_t::code</definition>
+        <argsstring></argsstring>
+        <name>code</name>
+        <qualifiedname>SWIG_CSharpException_t::code</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="197" column="29" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_s_w_i_g___c_sharp_exception__t_1a6dccb706a135c7f0e48102b3b528f2bc" prot="public" static="no" mutable="no">
+        <type>SWIG_CSharpExceptionCallback_t</type>
+        <definition>SWIG_CSharpExceptionCallback_t SWIG_CSharpException_t::callback</definition>
+        <argsstring></argsstring>
+        <name>callback</name>
+        <qualifiedname>SWIG_CSharpException_t::callback</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="198" column="34" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="198" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" line="196" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modeler_wrap.cxx" bodystart="196" bodyend="199"/>
+    <listofallmembers>
+      <member refid="struct_s_w_i_g___c_sharp_exception__t_1a6dccb706a135c7f0e48102b3b528f2bc" prot="public" virt="non-virtual"><scope>SWIG_CSharpException_t</scope><name>callback</name></member>
+      <member refid="struct_s_w_i_g___c_sharp_exception__t_1aafa02b02869cd0423dcee68c867b4e53" prot="public" virt="non-virtual"><scope>SWIG_CSharpException_t</scope><name>code</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

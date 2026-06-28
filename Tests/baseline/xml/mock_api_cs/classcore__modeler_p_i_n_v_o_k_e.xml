@@ -1,0 +1,1610 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="classcore__modeler_p_i_n_v_o_k_e" kind="class" language="C#" prot="public">
+    <compoundname>core_modelerPINVOKE</compoundname>
+    <innerclass refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper" prot="protected">core_modelerPINVOKE::SWIGExceptionHelper</innerclass>
+    <innerclass refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_pending_exception" prot="public">core_modelerPINVOKE::SWIGPendingException</innerclass>
+    <innerclass refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_string_helper" prot="protected">core_modelerPINVOKE::SWIGStringHelper</innerclass>
+    <sectiondef kind="protected-static-attrib">
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1a6b24e4283ca68f5cdfeace37e4963370" prot="protected" static="yes" mutable="no">
+        <type><ref refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper" kindref="compound">SWIGExceptionHelper</ref></type>
+        <definition>SWIGExceptionHelper core_modelerPINVOKE.swigExceptionHelper</definition>
+        <argsstring></argsstring>
+        <name>swigExceptionHelper</name>
+        <qualifiedname>core_modelerPINVOKE.swigExceptionHelper</qualifiedname>
+        <initializer>= new <ref refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper" kindref="compound">SWIGExceptionHelper</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="124" column="40" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="124" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="classcore__modeler_p_i_n_v_o_k_e_1a841681979b07ebe5d553e071fa2bf14f" prot="protected" static="yes" mutable="no">
+        <type><ref refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_string_helper" kindref="compound">SWIGStringHelper</ref></type>
+        <definition>SWIGStringHelper core_modelerPINVOKE.swigStringHelper</definition>
+        <argsstring></argsstring>
+        <name>swigStringHelper</name>
+        <qualifiedname>core_modelerPINVOKE.swigStringHelper</qualifiedname>
+        <initializer>= new <ref refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_string_helper" kindref="compound">SWIGStringHelper</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="188" column="37" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="188" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a05199af0acd5d9a065ac04bcbcb7914d" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>static</type>
+        <definition>static core_modelerPINVOKE.core_modelerPINVOKE</definition>
+        <argsstring>()</argsstring>
+        <name>core_modelerPINVOKE</name>
+        <qualifiedname>core_modelerPINVOKE.core_modelerPINVOKE</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="191" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="191" bodyend="192"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1afe93e72d66f426e4cd2c8f4190b8d1ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.GlobalConfig_maxThreads_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2)</argsstring>
+        <name>GlobalConfig_maxThreads_set</name>
+        <qualifiedname>core_modelerPINVOKE.GlobalConfig_maxThreads_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="196" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a85c05a616c396f8da131d882bfd97723" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int core_modelerPINVOKE.GlobalConfig_maxThreads_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>GlobalConfig_maxThreads_get</name>
+        <qualifiedname>core_modelerPINVOKE.GlobalConfig_maxThreads_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="199" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1afc8a2d67740be85a675119c39c5b2d8c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.GlobalConfig_enableLogging_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, bool jarg2)</argsstring>
+        <name>GlobalConfig_enableLogging_set</name>
+        <qualifiedname>core_modelerPINVOKE.GlobalConfig_enableLogging_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="202" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1abaa04ae6c8b0a7b0212103daa63650c8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool core_modelerPINVOKE.GlobalConfig_enableLogging_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>GlobalConfig_enableLogging_get</name>
+        <qualifiedname>core_modelerPINVOKE.GlobalConfig_enableLogging_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="205" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a241e53928e93b10812519e97a18833f8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.GlobalConfig_timeoutSeconds_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2)</argsstring>
+        <name>GlobalConfig_timeoutSeconds_set</name>
+        <qualifiedname>core_modelerPINVOKE.GlobalConfig_timeoutSeconds_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="208" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1aa0a6d4f84314c5570b271b6912606c3a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>static double core_modelerPINVOKE.GlobalConfig_timeoutSeconds_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>GlobalConfig_timeoutSeconds_get</name>
+        <qualifiedname>core_modelerPINVOKE.GlobalConfig_timeoutSeconds_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="211" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ae126c8ccd8613a2d315179a2dea4ea29" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.new_GlobalConfig</definition>
+        <argsstring>()</argsstring>
+        <name>new_GlobalConfig</name>
+        <qualifiedname>core_modelerPINVOKE.new_GlobalConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="214" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a5526418a912f7a89692c5e64edeb3875" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.delete_GlobalConfig</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>delete_GlobalConfig</name>
+        <qualifiedname>core_modelerPINVOKE.delete_GlobalConfig</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="217" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1adccb68765d17ae09ed278f3c9883ad3d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.g_systemState_set</definition>
+        <argsstring>(int jarg1)</argsstring>
+        <name>g_systemState_set</name>
+        <qualifiedname>core_modelerPINVOKE.g_systemState_set</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="220" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ab700af7e4342dac829ee3cbd61abf889" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int core_modelerPINVOKE.g_systemState_get</definition>
+        <argsstring>()</argsstring>
+        <name>g_systemState_get</name>
+        <qualifiedname>core_modelerPINVOKE.g_systemState_get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="223" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1adaa92159992b0870692c8853b42b8129" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.g_piValue_set</definition>
+        <argsstring>(double jarg1)</argsstring>
+        <name>g_piValue_set</name>
+        <qualifiedname>core_modelerPINVOKE.g_piValue_set</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="226" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a3aa65ec6541f61651b5f13307cdbfd90" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>static double core_modelerPINVOKE.g_piValue_get</definition>
+        <argsstring>()</argsstring>
+        <name>g_piValue_get</name>
+        <qualifiedname>core_modelerPINVOKE.g_piValue_get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="229" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a7aa3a0cdb50955d79a52adaba7bde7ea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.GlobalLoggerProxy_logMessage__SWIG_0</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2)</argsstring>
+        <name>GlobalLoggerProxy_logMessage__SWIG_0</name>
+        <qualifiedname>core_modelerPINVOKE.GlobalLoggerProxy_logMessage__SWIG_0</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="232" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a7a0a3b15aa26886808078ccc7ea007f9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool core_modelerPINVOKE.GlobalLoggerProxy_logMessage__SWIG_1</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, string jarg2, int jarg3)</argsstring>
+        <name>GlobalLoggerProxy_logMessage__SWIG_1</name>
+        <qualifiedname>core_modelerPINVOKE.GlobalLoggerProxy_logMessage__SWIG_1</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="235" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a0b90b5c625395d3e7a93451ff4e49d6b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.GlobalLoggerProxy_forceFlush</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>GlobalLoggerProxy_forceFlush</name>
+        <qualifiedname>core_modelerPINVOKE.GlobalLoggerProxy_forceFlush</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="238" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1aeb593932fcdacde05b89e3e6078f56bf" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.new_GlobalLoggerProxy</definition>
+        <argsstring>()</argsstring>
+        <name>new_GlobalLoggerProxy</name>
+        <qualifiedname>core_modelerPINVOKE.new_GlobalLoggerProxy</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="241" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a260d730f7cc9eef5895485bf8faa033b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.delete_GlobalLoggerProxy</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>delete_GlobalLoggerProxy</name>
+        <qualifiedname>core_modelerPINVOKE.delete_GlobalLoggerProxy</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="244" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ae1a5dd56c826401021e04b744bd6db15" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int core_modelerPINVOKE.globalInitialize</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>globalInitialize</name>
+        <qualifiedname>core_modelerPINVOKE.globalInitialize</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="247" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a63cc1580aca1c3e72206ba7cfaa75a75" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.new_CoreModeler_Model</definition>
+        <argsstring>(int jarg1)</argsstring>
+        <name>new_CoreModeler_Model</name>
+        <qualifiedname>core_modelerPINVOKE.new_CoreModeler_Model</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="250" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1adae9dd49297d306ecf0cd4d1338bcce1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool core_modelerPINVOKE.CoreModeler_Model_MetadataIterator_hasNext</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Model_MetadataIterator_hasNext</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Model_MetadataIterator_hasNext</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="253" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ab667ab147ce5687ecbb9277eda25675e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string core_modelerPINVOKE.CoreModeler_Model_MetadataIterator_next</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Model_MetadataIterator_next</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Model_MetadataIterator_next</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="256" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ace12fbb1a110f213cbbcc5a9566409b4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.new_CoreModeler_Model_MetadataIterator</definition>
+        <argsstring>()</argsstring>
+        <name>new_CoreModeler_Model_MetadataIterator</name>
+        <qualifiedname>core_modelerPINVOKE.new_CoreModeler_Model_MetadataIterator</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="259" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a023ec581352fbfae7217c0335105fab1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.delete_CoreModeler_Model_MetadataIterator</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>delete_CoreModeler_Model_MetadataIterator</name>
+        <qualifiedname>core_modelerPINVOKE.delete_CoreModeler_Model_MetadataIterator</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="262" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a811841eb5839d4b9cdb46fce570b9db4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.delete_CoreModeler_Model</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>delete_CoreModeler_Model</name>
+        <qualifiedname>core_modelerPINVOKE.delete_CoreModeler_Model</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="265" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1aa230c7ce79386c1c6b27720372e96286" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.delete_CoreModeler_Geometry_IDrawable</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>delete_CoreModeler_Geometry_IDrawable</name>
+        <qualifiedname>core_modelerPINVOKE.delete_CoreModeler_Geometry_IDrawable</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="268" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1addca14796e099f38775ea0ab0485df9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_0</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_0</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_0</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="271" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ac4abb8269471268b3b4c572bd90b1b25" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int core_modelerPINVOKE.CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_1</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2)</argsstring>
+        <name>CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_1</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_1</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="274" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a289514141616942435e86401472f9bea" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.delete_CoreModeler_Geometry_Shape</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>delete_CoreModeler_Geometry_Shape</name>
+        <qualifiedname>core_modelerPINVOKE.delete_CoreModeler_Geometry_Shape</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="277" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1aeeaf4c380708bb469e3818f97a876b94" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>static double core_modelerPINVOKE.CoreModeler_Geometry_Shape_getVolume</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Shape_getVolume</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Shape_getVolume</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="280" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1afc7cd348b6cf4dd8876de55fc91c3d6c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.new_CoreModeler_Geometry_Box</definition>
+        <argsstring>(double jarg1, double jarg2, double jarg3)</argsstring>
+        <name>new_CoreModeler_Geometry_Box</name>
+        <qualifiedname>core_modelerPINVOKE.new_CoreModeler_Geometry_Box</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="283" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ab8a9e3e86ed9e36fcdb4e1ef6b747c2b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>static double core_modelerPINVOKE.CoreModeler_Geometry_Box_getVolume</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Box_getVolume</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Box_getVolume</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="286" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1acdfbe67186f4359ffb43470f110bd64a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Box_renderToScreen__SWIG_0</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Box_renderToScreen__SWIG_0</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Box_renderToScreen__SWIG_0</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="289" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ababe26d754e2160789384ff78a9280f0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int core_modelerPINVOKE.CoreModeler_Geometry_Box_renderToScreen__SWIG_1</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2)</argsstring>
+        <name>CoreModeler_Geometry_Box_renderToScreen__SWIG_1</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Box_renderToScreen__SWIG_1</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="292" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1af39d71835b74bf9351c14e89418498f6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Box_scale__SWIG_0</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2)</argsstring>
+        <name>CoreModeler_Geometry_Box_scale__SWIG_0</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Box_scale__SWIG_0</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="295" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a4448b04c183294610ed2ea01491f2044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Box_scale__SWIG_1</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2, double jarg3, double jarg4)</argsstring>
+        <name>CoreModeler_Geometry_Box_scale__SWIG_1</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Box_scale__SWIG_1</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="298" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a53face1c44669f9e75fce46484280c14" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.delete_CoreModeler_Geometry_Box</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>delete_CoreModeler_Geometry_Box</name>
+        <qualifiedname>core_modelerPINVOKE.delete_CoreModeler_Geometry_Box</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="301" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a20c83ca8d29647d353086ae207975a0e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>static uint core_modelerPINVOKE.DIAG_SUCCESS_get</definition>
+        <argsstring>()</argsstring>
+        <name>DIAG_SUCCESS_get</name>
+        <qualifiedname>core_modelerPINVOKE.DIAG_SUCCESS_get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="304" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a8d8f96c6743d55365360080424cca14b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>static uint core_modelerPINVOKE.DIAG_FAILURE_get</definition>
+        <argsstring>()</argsstring>
+        <name>DIAG_FAILURE_get</name>
+        <qualifiedname>core_modelerPINVOKE.DIAG_FAILURE_get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="307" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a96343c5f78303961c1b8bb7e6392a08a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.g_diagnosticRunCount_set</definition>
+        <argsstring>(uint jarg1)</argsstring>
+        <name>g_diagnosticRunCount_set</name>
+        <qualifiedname>core_modelerPINVOKE.g_diagnosticRunCount_set</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="310" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1af39f86a409f4eb90d02962b9804ad943" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>static uint core_modelerPINVOKE.g_diagnosticRunCount_get</definition>
+        <argsstring>()</argsstring>
+        <name>g_diagnosticRunCount_get</name>
+        <qualifiedname>core_modelerPINVOKE.g_diagnosticRunCount_get</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="313" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a17c5d93e3f706491e3acc701ff34f093" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>uint</type>
+        <definition>static uint core_modelerPINVOKE.checkSystemHealth</definition>
+        <argsstring>()</argsstring>
+        <name>checkSystemHealth</name>
+        <qualifiedname>core_modelerPINVOKE.checkSystemHealth</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="316" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a6c510595e1ef94dd8a9c86bf5f6c6269" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool core_modelerPINVOKE.pingSubsystem__SWIG_0</definition>
+        <argsstring>(uint jarg1)</argsstring>
+        <name>pingSubsystem__SWIG_0</name>
+        <qualifiedname>core_modelerPINVOKE.pingSubsystem__SWIG_0</qualifiedname>
+        <param>
+          <type>uint</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="319" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ad88101d8c1d5325e6a5e7d6a682ed9ac" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>static bool core_modelerPINVOKE.pingSubsystem__SWIG_1</definition>
+        <argsstring>()</argsstring>
+        <name>pingSubsystem__SWIG_1</name>
+        <qualifiedname>core_modelerPINVOKE.pingSubsystem__SWIG_1</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="322" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a49f1417ea42b6d9c8a7148f945d1ab16" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.resetCounters</definition>
+        <argsstring>()</argsstring>
+        <name>resetCounters</name>
+        <qualifiedname>core_modelerPINVOKE.resetCounters</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="325" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a4cfe612c0bb535c500b99ff8384d74f4" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_x_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2)</argsstring>
+        <name>CoreModeler_Geometry_Point3Di_x_set</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_x_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="328" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1acacf3d8b93783d2bd8fd297de443d9c5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_x_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Point3Di_x_get</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_x_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="331" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1afca723b26d96486098f23b483f6d4cab" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_y_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2)</argsstring>
+        <name>CoreModeler_Geometry_Point3Di_y_set</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_y_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="334" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a79aa7401acc300232ad39a8f83aa4e38" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_y_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Point3Di_y_get</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_y_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="337" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a6fad6a0f53c8aa6d87b4ebab7ec5e044" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_z_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2)</argsstring>
+        <name>CoreModeler_Geometry_Point3Di_z_set</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_z_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="340" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a1a5602c64e68722dc6730d8354dcb0cb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_z_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Point3Di_z_get</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_z_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="343" column="28"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a65582c3a269157326649b162261b1401" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Di__SWIG_0</definition>
+        <argsstring>()</argsstring>
+        <name>new_CoreModeler_Geometry_Point3Di__SWIG_0</name>
+        <qualifiedname>core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Di__SWIG_0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="346" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1aa4dbbe76ba0c8605df3cef2751079b9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Di__SWIG_1</definition>
+        <argsstring>(int jarg1, int jarg2, int jarg3)</argsstring>
+        <name>new_CoreModeler_Geometry_Point3Di__SWIG_1</name>
+        <qualifiedname>core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Di__SWIG_1</qualifiedname>
+        <param>
+          <type>int</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="349" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a68f06d464c54f3869f2c522ca46347c7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_translate</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, int jarg2, int jarg3, int jarg4)</argsstring>
+        <name>CoreModeler_Geometry_Point3Di_translate</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Di_translate</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="352" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a9c1a836d4ea4a4880b948d84da71a1d8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.delete_CoreModeler_Geometry_Point3Di</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>delete_CoreModeler_Geometry_Point3Di</name>
+        <qualifiedname>core_modelerPINVOKE.delete_CoreModeler_Geometry_Point3Di</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="355" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a8588da4cf5d2eabcdba6a10ed960bcad" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_x_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2)</argsstring>
+        <name>CoreModeler_Geometry_Point3Df_x_set</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_x_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="358" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1afa8e919556ab6c6d252b88a73ca2a396" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>static float core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_x_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Point3Df_x_get</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_x_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="361" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a6640887f453e6111d1f48b50af9bf3d2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_y_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2)</argsstring>
+        <name>CoreModeler_Geometry_Point3Df_y_set</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_y_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="364" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ac196fa859a04e70ceee512c17e0ef36d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>static float core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_y_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Point3Df_y_get</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_y_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="367" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a6caa676c9994f15b00dd667849cc6847" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_z_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2)</argsstring>
+        <name>CoreModeler_Geometry_Point3Df_z_set</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_z_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="370" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1afb57927f3408327d3589217c11ed4ae8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>float</type>
+        <definition>static float core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_z_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Point3Df_z_get</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_z_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="373" column="30"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1aa4df405b7a80cd9c71817359fe73f2fb" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Df__SWIG_0</definition>
+        <argsstring>()</argsstring>
+        <name>new_CoreModeler_Geometry_Point3Df__SWIG_0</name>
+        <qualifiedname>core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Df__SWIG_0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="376" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1aa6180e4bd58543c4fa88261b49f549dd" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Df__SWIG_1</definition>
+        <argsstring>(float jarg1, float jarg2, float jarg3)</argsstring>
+        <name>new_CoreModeler_Geometry_Point3Df__SWIG_1</name>
+        <qualifiedname>core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Df__SWIG_1</qualifiedname>
+        <param>
+          <type>float</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="379" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a8bc144910545416dc1ebb9f64d56c08c" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_translate</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, float jarg2, float jarg3, float jarg4)</argsstring>
+        <name>CoreModeler_Geometry_Point3Df_translate</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Df_translate</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>float</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="382" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a7a546df21fc069cd25fe37425a7fce9d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.delete_CoreModeler_Geometry_Point3Df</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>delete_CoreModeler_Geometry_Point3Df</name>
+        <qualifiedname>core_modelerPINVOKE.delete_CoreModeler_Geometry_Point3Df</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="385" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a3d06f5f5d1280f06845a26833ea0c71f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_x_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2)</argsstring>
+        <name>CoreModeler_Geometry_Point3Dd_x_set</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_x_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="388" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a49425872fd7df5b3626450204a8d4b78" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>static double core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_x_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Point3Dd_x_get</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_x_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="391" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1aeed855b535d92ba958df7ab6d3cff34d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_y_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2)</argsstring>
+        <name>CoreModeler_Geometry_Point3Dd_y_set</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_y_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="394" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1aa3970b88f9a307acba6f30ec94547e93" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>static double core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_y_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Point3Dd_y_get</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_y_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="397" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ad9d4f4fa333648451f7293abc70794dc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_z_set</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2)</argsstring>
+        <name>CoreModeler_Geometry_Point3Dd_z_set</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_z_set</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="400" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a977e5464e14bdaf61378dacd1548804e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>double</type>
+        <definition>static double core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_z_get</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Point3Dd_z_get</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_z_get</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="403" column="31"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a9423ea41ce0ff42a0da2c08b4133a42b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Dd__SWIG_0</definition>
+        <argsstring>()</argsstring>
+        <name>new_CoreModeler_Geometry_Point3Dd__SWIG_0</name>
+        <qualifiedname>core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Dd__SWIG_0</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="406" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1ad048af2612e873233ba63ea08b78e750" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Dd__SWIG_1</definition>
+        <argsstring>(double jarg1, double jarg2, double jarg3)</argsstring>
+        <name>new_CoreModeler_Geometry_Point3Dd__SWIG_1</name>
+        <qualifiedname>core_modelerPINVOKE.new_CoreModeler_Geometry_Point3Dd__SWIG_1</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="409" column="45"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a32e0aa1274651342dbd8ab3ee6df2ef6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_translate</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1, double jarg2, double jarg3, double jarg4)</argsstring>
+        <name>CoreModeler_Geometry_Point3Dd_translate</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Point3Dd_translate</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg2</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg3</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>jarg4</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="412" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a099506adfbc5be9250b60b832c0e0311" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>static void core_modelerPINVOKE.delete_CoreModeler_Geometry_Point3Dd</definition>
+        <argsstring>(global::System.Runtime.InteropServices.HandleRef jarg1)</argsstring>
+        <name>delete_CoreModeler_Geometry_Point3Dd</name>
+        <qualifiedname>core_modelerPINVOKE.delete_CoreModeler_Geometry_Point3Dd</qualifiedname>
+        <param>
+          <type>global::System.Runtime.InteropServices.HandleRef</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="415" column="29"/>
+      </memberdef>
+      <memberdef kind="function" id="classcore__modeler_p_i_n_v_o_k_e_1a09472849e98647b3623a96a286160f98" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>global::System.IntPtr</type>
+        <definition>static global::System.IntPtr core_modelerPINVOKE.CoreModeler_Geometry_Box_SWIGUpcast</definition>
+        <argsstring>(global::System.IntPtr jarg1)</argsstring>
+        <name>CoreModeler_Geometry_Box_SWIGUpcast</name>
+        <qualifiedname>core_modelerPINVOKE.CoreModeler_Geometry_Box_SWIGUpcast</qualifiedname>
+        <param>
+          <type>global::System.IntPtr</type>
+          <declname>jarg1</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="418" column="45"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1">
+        <label>core_modelerPINVOKE</label>
+        <link refid="classcore__modeler_p_i_n_v_o_k_e"/>
+        <childnode refid="2" relation="usage">
+          <edgelabel>swigExceptionHelper</edgelabel>
+        </childnode>
+        <childnode refid="3" relation="usage">
+          <edgelabel>swigStringHelper</edgelabel>
+        </childnode>
+      </node>
+      <node id="2">
+        <label>core_modelerPINVOKE.SWIGExceptionHelper</label>
+        <link refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_exception_helper"/>
+      </node>
+      <node id="3">
+        <label>core_modelerPINVOKE.SWIGStringHelper</label>
+        <link refid="classcore__modeler_p_i_n_v_o_k_e_1_1_s_w_i_g_string_helper"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" line="12" column="1" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/core_modelerPINVOKE.cs" bodystart="12" bodyend="419"/>
+    <listofallmembers>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a17c5d93e3f706491e3acc701ff34f093" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>checkSystemHealth</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a05199af0acd5d9a065ac04bcbcb7914d" prot="private" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>core_modelerPINVOKE</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ab8a9e3e86ed9e36fcdb4e1ef6b747c2b" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Box_getVolume</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1acdfbe67186f4359ffb43470f110bd64a" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Box_renderToScreen__SWIG_0</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ababe26d754e2160789384ff78a9280f0" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Box_renderToScreen__SWIG_1</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1af39d71835b74bf9351c14e89418498f6" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Box_scale__SWIG_0</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a4448b04c183294610ed2ea01491f2044" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Box_scale__SWIG_1</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a09472849e98647b3623a96a286160f98" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Box_SWIGUpcast</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1addca14796e099f38775ea0ab0485df9f" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_0</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ac4abb8269471268b3b4c572bd90b1b25" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_IDrawable_renderToScreen__SWIG_1</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a32e0aa1274651342dbd8ab3ee6df2ef6" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Dd_translate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a49425872fd7df5b3626450204a8d4b78" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Dd_x_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a3d06f5f5d1280f06845a26833ea0c71f" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Dd_x_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1aa3970b88f9a307acba6f30ec94547e93" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Dd_y_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1aeed855b535d92ba958df7ab6d3cff34d" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Dd_y_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a977e5464e14bdaf61378dacd1548804e" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Dd_z_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ad9d4f4fa333648451f7293abc70794dc" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Dd_z_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a8bc144910545416dc1ebb9f64d56c08c" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Df_translate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1afa8e919556ab6c6d252b88a73ca2a396" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Df_x_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a8588da4cf5d2eabcdba6a10ed960bcad" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Df_x_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ac196fa859a04e70ceee512c17e0ef36d" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Df_y_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a6640887f453e6111d1f48b50af9bf3d2" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Df_y_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1afb57927f3408327d3589217c11ed4ae8" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Df_z_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a6caa676c9994f15b00dd667849cc6847" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Df_z_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a68f06d464c54f3869f2c522ca46347c7" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Di_translate</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1acacf3d8b93783d2bd8fd297de443d9c5" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Di_x_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a4cfe612c0bb535c500b99ff8384d74f4" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Di_x_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a79aa7401acc300232ad39a8f83aa4e38" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Di_y_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1afca723b26d96486098f23b483f6d4cab" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Di_y_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a1a5602c64e68722dc6730d8354dcb0cb" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Di_z_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a6fad6a0f53c8aa6d87b4ebab7ec5e044" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Point3Di_z_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1aeeaf4c380708bb469e3818f97a876b94" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Geometry_Shape_getVolume</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1adae9dd49297d306ecf0cd4d1338bcce1" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Model_MetadataIterator_hasNext</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ab667ab147ce5687ecbb9277eda25675e" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>CoreModeler_Model_MetadataIterator_next</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a53face1c44669f9e75fce46484280c14" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>delete_CoreModeler_Geometry_Box</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1aa230c7ce79386c1c6b27720372e96286" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>delete_CoreModeler_Geometry_IDrawable</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a099506adfbc5be9250b60b832c0e0311" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>delete_CoreModeler_Geometry_Point3Dd</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a7a546df21fc069cd25fe37425a7fce9d" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>delete_CoreModeler_Geometry_Point3Df</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a9c1a836d4ea4a4880b948d84da71a1d8" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>delete_CoreModeler_Geometry_Point3Di</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a289514141616942435e86401472f9bea" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>delete_CoreModeler_Geometry_Shape</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a811841eb5839d4b9cdb46fce570b9db4" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>delete_CoreModeler_Model</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a023ec581352fbfae7217c0335105fab1" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>delete_CoreModeler_Model_MetadataIterator</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a5526418a912f7a89692c5e64edeb3875" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>delete_GlobalConfig</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a260d730f7cc9eef5895485bf8faa033b" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>delete_GlobalLoggerProxy</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a8d8f96c6743d55365360080424cca14b" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>DIAG_FAILURE_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a20c83ca8d29647d353086ae207975a0e" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>DIAG_SUCCESS_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1af39f86a409f4eb90d02962b9804ad943" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>g_diagnosticRunCount_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a96343c5f78303961c1b8bb7e6392a08a" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>g_diagnosticRunCount_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a3aa65ec6541f61651b5f13307cdbfd90" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>g_piValue_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1adaa92159992b0870692c8853b42b8129" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>g_piValue_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ab700af7e4342dac829ee3cbd61abf889" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>g_systemState_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1adccb68765d17ae09ed278f3c9883ad3d" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>g_systemState_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1abaa04ae6c8b0a7b0212103daa63650c8" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>GlobalConfig_enableLogging_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1afc8a2d67740be85a675119c39c5b2d8c" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>GlobalConfig_enableLogging_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a85c05a616c396f8da131d882bfd97723" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>GlobalConfig_maxThreads_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1afe93e72d66f426e4cd2c8f4190b8d1ac" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>GlobalConfig_maxThreads_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1aa0a6d4f84314c5570b271b6912606c3a" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>GlobalConfig_timeoutSeconds_get</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a241e53928e93b10812519e97a18833f8" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>GlobalConfig_timeoutSeconds_set</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ae1a5dd56c826401021e04b744bd6db15" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>globalInitialize</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a0b90b5c625395d3e7a93451ff4e49d6b" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>GlobalLoggerProxy_forceFlush</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a7aa3a0cdb50955d79a52adaba7bde7ea" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>GlobalLoggerProxy_logMessage__SWIG_0</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a7a0a3b15aa26886808078ccc7ea007f9" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>GlobalLoggerProxy_logMessage__SWIG_1</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1afc7cd348b6cf4dd8876de55fc91c3d6c" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>new_CoreModeler_Geometry_Box</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a9423ea41ce0ff42a0da2c08b4133a42b" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>new_CoreModeler_Geometry_Point3Dd__SWIG_0</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ad048af2612e873233ba63ea08b78e750" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>new_CoreModeler_Geometry_Point3Dd__SWIG_1</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1aa4df405b7a80cd9c71817359fe73f2fb" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>new_CoreModeler_Geometry_Point3Df__SWIG_0</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1aa6180e4bd58543c4fa88261b49f549dd" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>new_CoreModeler_Geometry_Point3Df__SWIG_1</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a65582c3a269157326649b162261b1401" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>new_CoreModeler_Geometry_Point3Di__SWIG_0</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1aa4dbbe76ba0c8605df3cef2751079b9d" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>new_CoreModeler_Geometry_Point3Di__SWIG_1</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a63cc1580aca1c3e72206ba7cfaa75a75" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>new_CoreModeler_Model</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ace12fbb1a110f213cbbcc5a9566409b4" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>new_CoreModeler_Model_MetadataIterator</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ae126c8ccd8613a2d315179a2dea4ea29" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>new_GlobalConfig</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1aeb593932fcdacde05b89e3e6078f56bf" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>new_GlobalLoggerProxy</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a6c510595e1ef94dd8a9c86bf5f6c6269" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>pingSubsystem__SWIG_0</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1ad88101d8c1d5325e6a5e7d6a682ed9ac" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>pingSubsystem__SWIG_1</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a49f1417ea42b6d9c8a7148f945d1ab16" prot="public" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>resetCounters</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a6b24e4283ca68f5cdfeace37e4963370" prot="protected" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>swigExceptionHelper</name></member>
+      <member refid="classcore__modeler_p_i_n_v_o_k_e_1a841681979b07ebe5d553e071fa2bf14f" prot="protected" virt="non-virtual"><scope>core_modelerPINVOKE</scope><name>swigStringHelper</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

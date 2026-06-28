@@ -1,0 +1,261 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_core_modeler_1_1_box" kind="class" language="Java" prot="public">
+    <compoundname>CoreModeler::Box</compoundname>
+    <basecompoundref refid="class_core_modeler_1_1_shape" prot="public" virt="non-virtual">CoreModeler.Shape</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_core_modeler_1_1_box_1a529a31214f124824d78acf0d82bb5410" prot="private" static="no" mutable="no">
+        <type>transient long</type>
+        <definition>transient long CoreModeler.Box.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>CoreModeler.Box.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="12" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="12" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_box_1a873115d388ce066030957910efc6dd51" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Box.Box</definition>
+        <argsstring>(long cPtr, boolean cMemoryOwn)</argsstring>
+        <name>Box</name>
+        <qualifiedname>CoreModeler.Box.Box</qualifiedname>
+        <param>
+          <type>long</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>boolean</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="14" column="13" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="14" bodyend="17"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_box_1a223f1ff13560e26a27dc8f12a3b56ec2" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Box.finalize</definition>
+        <argsstring>()</argsstring>
+        <name>finalize</name>
+        <qualifiedname>CoreModeler.Box.finalize</qualifiedname>
+        <reimplements refid="class_core_modeler_1_1_shape_1a17bfaf582067996335a882ce800a0653">finalize</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="24" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="24" bodyend="26"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-static-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_box_1a5878c3be9155e9f43016524f944161e3" prot="protected" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>long</type>
+        <definition>static long CoreModeler.Box.getCPtr</definition>
+        <argsstring>(Box obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>CoreModeler.Box.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_box" kindref="compound">Box</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="19" column="25" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="19" bodyend="21"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_core_modeler_1_1_box_1ad9cea07824a84d407b2ea8d7a7f7fbfd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>synchronized void</type>
+        <definition>synchronized void CoreModeler.Box.delete</definition>
+        <argsstring>()</argsstring>
+        <name>delete</name>
+        <qualifiedname>CoreModeler.Box.delete</qualifiedname>
+        <reimplements refid="class_core_modeler_1_1_shape_1a0943619e3fd11f7b61484d7add6c98b2">delete</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="28" column="28" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="28" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_box_1afcbcc03e986df0966c433324fdd8ae8c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CoreModeler.Box.Box</definition>
+        <argsstring>(double width, double height, double depth)</argsstring>
+        <name>Box</name>
+        <qualifiedname>CoreModeler.Box.Box</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>depth</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="39" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="39" bodyend="41"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_box_1a7958fababc82c7152afc857f1d46193d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>double</type>
+        <definition>double CoreModeler.Box.getVolume</definition>
+        <argsstring>()</argsstring>
+        <name>getVolume</name>
+        <qualifiedname>CoreModeler.Box.getVolume</qualifiedname>
+        <reimplements refid="class_core_modeler_1_1_shape_1a43fb2f29eb4cdfec450edaca7daabea7">getVolume</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="43" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="43" bodyend="45"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_box_1a8ba91280c1cf94b7a6d803137faace86" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Box.renderToScreen</definition>
+        <argsstring>()</argsstring>
+        <name>renderToScreen</name>
+        <qualifiedname>CoreModeler.Box.renderToScreen</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="47" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="47" bodyend="49"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_box_1ab05692800667a9516616760f39da3b69" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int CoreModeler.Box.renderToScreen</definition>
+        <argsstring>(RenderMode mode)</argsstring>
+        <name>renderToScreen</name>
+        <qualifiedname>CoreModeler.Box.renderToScreen</qualifiedname>
+        <param>
+          <type><ref refid="class_core_modeler_1_1_render_mode" kindref="compound">RenderMode</ref></type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="51" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="51" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_box_1a00c3b72c0d428346c90543fe175fbd89" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Box.scale</definition>
+        <argsstring>(double factor)</argsstring>
+        <name>scale</name>
+        <qualifiedname>CoreModeler.Box.scale</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>factor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="55" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="55" bodyend="57"/>
+      </memberdef>
+      <memberdef kind="function" id="class_core_modeler_1_1_box_1a13c4ae71acc84a5d0201028813679513" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CoreModeler.Box.scale</definition>
+        <argsstring>(double xFactor, double yFactor, double zFactor)</argsstring>
+        <name>scale</name>
+        <qualifiedname>CoreModeler.Box.scale</qualifiedname>
+        <param>
+          <type>double</type>
+          <declname>xFactor</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>yFactor</declname>
+        </param>
+        <param>
+          <type>double</type>
+          <declname>zFactor</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="59" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="59" bodyend="61"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>CoreModeler.Box</label>
+        <link refid="class_core_modeler_1_1_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreModeler.Shape</label>
+        <link refid="class_core_modeler_1_1_shape"/>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>CoreModeler.Box</label>
+        <link refid="class_core_modeler_1_1_box"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>CoreModeler.Shape</label>
+        <link refid="class_core_modeler_1_1_shape"/>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" line="11" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/java/mock/Box.java" bodystart="11" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_core_modeler_1_1_box_1a873115d388ce066030957910efc6dd51" prot="protected" virt="non-virtual"><scope>CoreModeler::Box</scope><name>Box</name></member>
+      <member refid="class_core_modeler_1_1_box_1afcbcc03e986df0966c433324fdd8ae8c" prot="public" virt="non-virtual"><scope>CoreModeler::Box</scope><name>Box</name></member>
+      <member refid="class_core_modeler_1_1_box_1ad9cea07824a84d407b2ea8d7a7f7fbfd" prot="public" virt="non-virtual"><scope>CoreModeler::Box</scope><name>delete</name></member>
+      <member refid="class_core_modeler_1_1_box_1a223f1ff13560e26a27dc8f12a3b56ec2" prot="protected" virt="non-virtual"><scope>CoreModeler::Box</scope><name>finalize</name></member>
+      <member refid="class_core_modeler_1_1_box_1a5878c3be9155e9f43016524f944161e3" prot="protected" virt="non-virtual"><scope>CoreModeler::Box</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_shape_1a5234a7c8f1c69a03bbbd917855a98237" prot="protected" virt="non-virtual" ambiguityscope="CoreModeler::Shape."><scope>CoreModeler::Box</scope><name>getCPtr</name></member>
+      <member refid="class_core_modeler_1_1_box_1a7958fababc82c7152afc857f1d46193d" prot="public" virt="non-virtual"><scope>CoreModeler::Box</scope><name>getVolume</name></member>
+      <member refid="class_core_modeler_1_1_box_1a8ba91280c1cf94b7a6d803137faace86" prot="public" virt="non-virtual"><scope>CoreModeler::Box</scope><name>renderToScreen</name></member>
+      <member refid="class_core_modeler_1_1_box_1ab05692800667a9516616760f39da3b69" prot="public" virt="non-virtual"><scope>CoreModeler::Box</scope><name>renderToScreen</name></member>
+      <member refid="class_core_modeler_1_1_box_1a00c3b72c0d428346c90543fe175fbd89" prot="public" virt="non-virtual"><scope>CoreModeler::Box</scope><name>scale</name></member>
+      <member refid="class_core_modeler_1_1_box_1a13c4ae71acc84a5d0201028813679513" prot="public" virt="non-virtual"><scope>CoreModeler::Box</scope><name>scale</name></member>
+      <member refid="class_core_modeler_1_1_shape_1a967874be30250e08e76ed01e625a5bfc" prot="protected" virt="non-virtual"><scope>CoreModeler::Box</scope><name>Shape</name></member>
+      <member refid="class_core_modeler_1_1_shape_1aa24fc107d295f22d2b1fedcc4710e810" prot="protected" virt="non-virtual"><scope>CoreModeler::Box</scope><name>swigCMemOwn</name></member>
+      <member refid="class_core_modeler_1_1_box_1a529a31214f124824d78acf0d82bb5410" prot="private" virt="non-virtual"><scope>CoreModeler::Box</scope><name>swigCPtr</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

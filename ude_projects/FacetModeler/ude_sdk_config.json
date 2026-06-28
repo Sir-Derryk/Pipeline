@@ -1,0 +1,41 @@
+{
+    "product_name": "FacetModeler",
+    "docs": [
+        {
+            "type": "api",
+            "id": "facetmodeler_api_cpp",
+            "title": "C++ API Reference",
+            "lang": "cpp",
+            "devguide_lang_suffix": "",
+            "path": "facetmodeler_api_cpp",
+            "main_page": "index.html"
+        },
+        {
+            "type": "api",
+            "id": "facetmodeler_api_cs",
+            "title": "C# API Reference",
+            "lang": "cs",
+            "devguide_lang_suffix": "net",
+            "path": "facetmodeler_api_cs",
+            "main_page": "index.html"
+        },
+        {
+            "type": "api",
+            "id": "facetmodeler_api_java",
+            "title": "Java API Reference",
+            "lang": "java",
+            "devguide_lang_suffix": "java",
+            "path": "facetmodeler_api_java",
+            "main_page": "index.html"
+        },
+        {
+            "type": "api",
+            "id": "facetmodeler_api_py",
+            "title": "Python API Reference",
+            "lang": "py",
+            "devguide_lang_suffix": "py",
+            "path": "facetmodeler_api_py",
+            "main_page": "index.html"
+        }
+    ]
+}

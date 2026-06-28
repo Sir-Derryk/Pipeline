@@ -1,0 +1,233 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.10.0" xml:lang="en-US">
+  <compounddef id="class_global_config" kind="class" language="C#" prot="public">
+    <compoundname>GlobalConfig</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">global.SystemIDisposable</basecompoundref>
+    <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_global_config_1aee6f1ee8f7ce85414422f156750b6839" prot="private" static="no" mutable="no">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>global::System.Runtime.InteropServices.HandleRef GlobalConfig.swigCPtr</definition>
+        <argsstring></argsstring>
+        <name>swigCPtr</name>
+        <qualifiedname>GlobalConfig.swigCPtr</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="13" column="57" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-attrib">
+      <memberdef kind="variable" id="class_global_config_1a5504a127e28d287f089b9ea9c4881f9a" prot="protected" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool GlobalConfig.swigCMemOwn</definition>
+        <argsstring></argsstring>
+        <name>swigCMemOwn</name>
+        <qualifiedname>GlobalConfig.swigCMemOwn</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="14" column="18" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="property">
+      <memberdef kind="property" id="class_global_config_1a8d26c771ee180cc50d0e649101534378" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>int</type>
+        <definition>int GlobalConfig.maxThreads</definition>
+        <argsstring></argsstring>
+        <name>maxThreads</name>
+        <qualifiedname>GlobalConfig.maxThreads</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="46" column="14" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="46" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="property" id="class_global_config_1a6bcb7a0e25c2af886f49a798d7e77aa7" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>bool</type>
+        <definition>bool GlobalConfig.enableLogging</definition>
+        <argsstring></argsstring>
+        <name>enableLogging</name>
+        <qualifiedname>GlobalConfig.enableLogging</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="56" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="56" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="property" id="class_global_config_1ad9cdb26291a507cb1944eb0626a55121" prot="public" static="no" readable="no" writable="no" gettable="yes" privategettable="no" protectedgettable="no" settable="yes" privatesettable="no" protectedsettable="no">
+        <type>double</type>
+        <definition>double GlobalConfig.timeoutSeconds</definition>
+        <argsstring></argsstring>
+        <name>timeoutSeconds</name>
+        <qualifiedname>GlobalConfig.timeoutSeconds</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="66" column="17" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="66" bodyend="74"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_global_config_1ac394625cc8853c4d0a47b4c02d9e654c" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalConfig.GlobalConfig</definition>
+        <argsstring>(global::System.IntPtr cPtr, bool cMemoryOwn)</argsstring>
+        <name>GlobalConfig</name>
+        <qualifiedname>GlobalConfig.GlobalConfig</qualifiedname>
+        <param>
+          <type>global::System.IntPtr</type>
+          <declname>cPtr</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>cMemoryOwn</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="16" column="12" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="16" bodyend="19"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="package-static-func">
+      <memberdef kind="function" id="class_global_config_1a6dae4b7aa14041e87207fb0c2e58cf1d" prot="package" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Runtime.InteropServices.HandleRef</type>
+        <definition>static global::System.Runtime.InteropServices.HandleRef GlobalConfig.getCPtr</definition>
+        <argsstring>(GlobalConfig obj)</argsstring>
+        <name>getCPtr</name>
+        <qualifiedname>GlobalConfig.getCPtr</qualifiedname>
+        <param>
+          <type><ref refid="class_global_config" kindref="compound">GlobalConfig</ref></type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="21" column="65" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="21" bodyend="23"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_global_config_1aa2e33f2dcc7a499f35f91d4e6624ea1d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalConfig.~GlobalConfig</definition>
+        <argsstring>()</argsstring>
+        <name>~GlobalConfig</name>
+        <qualifiedname>GlobalConfig.~GlobalConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="25" column="3" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="25" bodyend="27"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_global_config_1aa3f002cea0b397a3a77c97b30e1f130b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void GlobalConfig.Dispose</definition>
+        <argsstring>()</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>GlobalConfig.Dispose</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="29" column="15" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="29" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_global_config_1ae0922c6846f80e674e065c92cea057c4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>GlobalConfig.GlobalConfig</definition>
+        <argsstring>()</argsstring>
+        <name>GlobalConfig</name>
+        <qualifiedname>GlobalConfig.GlobalConfig</qualifiedname>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="76" column="10" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="76" bodyend="77"/>
+      </memberdef>
+    </sectiondef>
+    <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_global_config_1ad19fe0662de49b9979b8886f20745da4" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void GlobalConfig.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <qualifiedname>GlobalConfig.Dispose</qualifiedname>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="34" column="26" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="34" bodyend="44"/>
+      </memberdef>
+    </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1">
+        <label>GlobalConfig</label>
+        <link refid="class_global_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1">
+        <label>GlobalConfig</label>
+        <link refid="class_global_config"/>
+        <childnode refid="2" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="2">
+        <label>global::SystemIDisposable</label>
+      </node>
+    </collaborationgraph>
+    <location file="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" line="12" column="7" bodyfile="D:/My repositories/Pipeline/engine/tests/assets/main/_swig/csharp/mock/GlobalConfig.cs" bodystart="12" bodyend="79"/>
+    <listofallmembers>
+      <member refid="class_global_config_1aa3f002cea0b397a3a77c97b30e1f130b" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>Dispose</name></member>
+      <member refid="class_global_config_1ad19fe0662de49b9979b8886f20745da4" prot="protected" virt="virtual"><scope>GlobalConfig</scope><name>Dispose</name></member>
+      <member refid="class_global_config_1a6bcb7a0e25c2af886f49a798d7e77aa7" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>enableLogging</name></member>
+      <member refid="class_global_config_1a6dae4b7aa14041e87207fb0c2e58cf1d" prot="package" virt="non-virtual"><scope>GlobalConfig</scope><name>getCPtr</name></member>
+      <member refid="class_global_config_1ac394625cc8853c4d0a47b4c02d9e654c" prot="package" virt="non-virtual"><scope>GlobalConfig</scope><name>GlobalConfig</name></member>
+      <member refid="class_global_config_1ae0922c6846f80e674e065c92cea057c4" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>GlobalConfig</name></member>
+      <member refid="class_global_config_1a8d26c771ee180cc50d0e649101534378" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>maxThreads</name></member>
+      <member refid="class_global_config_1a5504a127e28d287f089b9ea9c4881f9a" prot="protected" virt="non-virtual"><scope>GlobalConfig</scope><name>swigCMemOwn</name></member>
+      <member refid="class_global_config_1aee6f1ee8f7ce85414422f156750b6839" prot="private" virt="non-virtual"><scope>GlobalConfig</scope><name>swigCPtr</name></member>
+      <member refid="class_global_config_1ad9cdb26291a507cb1944eb0626a55121" prot="public" virt="non-virtual"><scope>GlobalConfig</scope><name>timeoutSeconds</name></member>
+      <member refid="class_global_config_1aa2e33f2dcc7a499f35f91d4e6624ea1d" prot="private" virt="non-virtual"><scope>GlobalConfig</scope><name>~GlobalConfig</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

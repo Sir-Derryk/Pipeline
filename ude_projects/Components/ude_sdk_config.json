@@ -1,0 +1,14 @@
+{
+    "product_name": "Components",
+    "docs": [
+        {
+            "type": "api",
+            "id": "components_api_py",
+            "title": "Python API Reference",
+            "lang": "py",
+            "devguide_lang_suffix": "py",
+            "path": "components_api_py",
+            "main_page": "components_api_ref.html"
+        }
+    ]
+}
