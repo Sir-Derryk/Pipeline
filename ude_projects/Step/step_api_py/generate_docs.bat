@@ -15,9 +15,11 @@ python -m ude.cli --global-config "%GLOBAL_CONFIG%" --sdk-config "%SDK_CONFIG%" 
 if %errorlevel% neq 0 (
     echo [ERROR] UDE Pipeline failed.
     popd
+	pause
     exit /b 1
 )
 
 echo [OK]    Documentation generated successfully.
 popd
+pause
 endlocal

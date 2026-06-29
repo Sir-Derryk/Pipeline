@@ -39,20 +39,9 @@
 
 > **Цель:** Привести репозиторий в порядок до начала реализации v2.0. Выполняется один раз. Не блокирует Phase 1 полностью, но снижает технический долг.
 
-### 0.1 Структурные изменения репозитория (нулевой риск)
+### 0.1 Подтверждение базового состояния v1.0 (TDD: Baseline)
 
-- [ ] **[RS-T1]** 🔴 Закоммитить незакоммиченные архитектурные документы: `CICD.md`, `RepoStruct.md`, `RepoStruct_ToDo.md`
-- [ ] **[RS-T2]** 🔴 Удалить `FutureImprovements/` — 4 файла без ценности (`doxygen_cpp.py`, `cpp_signature_formatter.py`, `legacy_cpp_sidebar.json`, `cpp_class_layout.html`)
-- [ ] **[RS-T3]** 🔴 Задокументировать конвенцию `ude_`-префикса для корневых директорий в `CLAUDE.md`
-- [ ] **[RS-T4]** 🟡 Переименовать `/refs/` → `/sdk_refs/` в `.gitignore` (устраняет конфликт с git-терминологией)
-- [ ] **[RS-T5]** 🟡 Переместить утилиты `compress_history.bat`, `compress_history.ps1`, `run_swig.bat` в `scripts/`
-- [ ] **[RS-T6]** 🟢 Объединить `Tests/` + `LoadTest/` → `ude_tests/regression/` + `ude_tests/load/`; обновить пути в `.github/workflows/integration_tests.yml`
-- [ ] **[RS-T7]** 🟢 Проверить избыточность правил `.gitignore` для `ude_projects/` — запустить генерацию, проверить `git status`
-- [ ] **[RS-T8]** 🟢 Провести аудит `make_release.py` — понять логику ODA-совместимости (prerequisite для RS-T9)
-- [ ] **[RS-T9]** 🟢 Переименовать `main/` → `sdk_sources/` после RS-T8
-- [ ] **[RS-T10]** 🟢 Переименовать ветку umbrella `master` → `main` (требует координации с CI/CD)
-
-### 0.2 Подтверждение базового состояния v1.0 (TDD: Baseline)
+> Выполняется первым — до любых физических изменений репозитория. Гарантирует, что любая последующая регрессия диагностируется относительно сертифицированного зелёного baseline.
 
 - [ ] **[TST-0.1]** 🔴 **[Python]** Убедиться в прохождении всех 209 тестов движка: `poetry run pytest engine/tests/ -v`
 - [ ] **[TST-0.2]** 🔴 **[Python]** Подтвердить покрытие ≥ 98%: `poetry run pytest --cov=ude --cov-report=term-missing` (или `grep TOTAL`)
@@ -62,11 +51,28 @@
 - [ ] **[TST-0.6]** 🟡 **[Python]** Выявить модули с покрытием < 98% и зафиксировать пробелы в файле `Tests_ToDo.md`
 - [ ] **[TST-0.7]** 🟢 **[Python]** Создать тест `test_coverage_gate.py` с CI-ready параметром `--cov-fail-under=98`
 
+### 0.2 Структурные изменения репозитория
+
+> Выполняется строго после фиксации baseline (0.1). Большинство задач безопасны для тестов; исключение — RS-T9 (средний риск, требует синхронного обновления импортов и скриптов).
+
+- [ ] **[RS-T1]** 🔴 Закоммитить незакоммиченные архитектурные документы: `CICD.md`, `RepoStruct.md`, `RepoStruct_ToDo.md`
+- [ ] **[RS-T2]** 🔴 Удалить `FutureImprovements/` — 4 файла без ценности (`doxygen_cpp.py`, `cpp_signature_formatter.py`, `legacy_cpp_sidebar.json`, `cpp_class_layout.html`)
+- [ ] **[RS-T3]** 🔴 Задокументировать конвенцию `ude_`-префикса для корневых директорий в `CLAUDE.md`
+- [ ] **[RS-T4]** 🟡 Переименовать `/refs/` → `/sdk_refs/` в `.gitignore` (устраняет конфликт с git-терминологией)
+- [ ] **[RS-T5]** 🟡 Переместить утилиты `compress_history.bat`, `compress_history.ps1`, `run_swig.bat` в `scripts/`
+- [ ] **[RS-T6]** 🟢 Объединить `Tests/` + `LoadTest/` → `ude_tests/regression/` + `ude_tests/load/`; обновить пути в `.github/workflows/integration_tests.yml`
+- [ ] **[RS-T7]** 🟢 Проверить избыточность правил `.gitignore` для `ude_projects/` — запустить генерацию, проверить `git status`
+- [ ] **[RS-T8]** 🟢 Провести аудит `make_release.py` — понять логику ODA-совместимости (prerequisite для RS-T9)
+- [ ] **[RS-T9]** 🟢 **[СРЕДНИЙ РИСК]** Переименовать `main/` → `sdk_sources/` после RS-T8 — требует синхронного обновления Python-импортов, сборочных скриптов и IDE-настроек
+- [ ] **[RS-T10]** 🟢 Переименовать ветку umbrella `master` → `main` (требует координации с CI/CD)
+
 ### 0.3 Требования к документированию кода (применяются с этого момента)
 
 - [ ] **[DR-NEW-04]** 🟡 Зафиксировать в `CLAUDE.md` правило именования файлов: kebab-case для `user-docs/`, snake_case для `.antigravitycli/`
 - [ ] **[DR-NEW-21]** 🟡 Установить правило: каждый новый GitHub Actions workflow начинается с блока комментариев (назначение, триггеры, secrets, время выполнения)
 - [ ] **[DR-NEW-20]** 🟡 Ввести правило: каждый новый `TASK-*.md` содержит поле `Related Docs` — файлы user-docs/design-docs, требующие обновления
+
+> ⚠️ **Немедленно действующие правила из Раздела 8 (🔴):** DR-NEW-01 (markdownlint в CI), DR-NEW-06 (Mermaid-диаграммы), DR-NEW-10/11 (правила ссылок), DR-NEW-22–25 (secrets и workflow env), DR-NEW-29 (Docusaurus build gate), DR-NEW-32 (CLI smoke test в CI). Детали — в Разделе 8.
 
 ### 0.4 Рефакторинг и аудит существующей тест-базы (TDD: Refactor)
 
@@ -78,7 +84,6 @@
 - [ ] **[TST-0.13]** 🔴 **[Python]** В `engine/tests/` найти все `caplog`-ассерты с `"ude.renderers"` из `interfaces.py`
 - [ ] **[TST-0.14]** 🔴 **[Python]** Обновить найденные ассерты: `"ude.renderers"` → `"ude.interfaces"` (исправление логгера HC-05)
 - [ ] **[TST-0.15]** 🔴 **[Python]** Убедиться в прохождении тестов после исправления
-- [ ] **[TST-0.16]** 🟡 **[Python]** В `engine/tests/utils.py`: добавить `LanguageIntegrationBase` mixin с `LANGUAGE`, `XML_FIXTURE`, `RENDERER_CLASS` и `_run_pipeline()`
 - [ ] **[TST-0.17]** 🟡 **[Python]** Добавить вспомогательную функцию `_write_test_config(tmp_path, **kwargs) -> Path` для временных конфигураций
 - [ ] **[TST-0.18]** 🟢 **[Python]** Добавить фабрику `_make_mock_catalog` для создания синтетического `ProjectCatalog`
 
@@ -86,8 +91,8 @@
 
 ## Раздел 1 — Фаза 1: Инфраструктура движка
 
-> **Стратегический порядок:** GAP-09 → GAP-12 → GAP-07 → GAP-11  
-> Каждый GAP разблокирует следующий. Всё разделение полностью последовательно.
+> **Стратегический порядок:** GAP-09 → (GAP-12 ‖ GAP-07) → GAP-11  
+> GAP-12 и GAP-07 оба зависят только от GAP-09 и могут выполняться параллельно. GAP-11 независим от GAP-12/07 и выполняется последним в фазе.
 
 ### 1.1 GAP-09 — Активация полей GlobalConfig `[REQ-V2-01]`
 
@@ -131,7 +136,7 @@ poetry run pytest --cov=ude --cov-report=term-missing | grep TOTAL
 
 ### 1.2 GAP-12 — Унифицированное логирование `[REQ-V2-02]`
 
-> **Prerequisite:** GAP-09 завершён и смёрджен.
+> **Prerequisite:** GAP-09 завершён. Может выполняться параллельно с GAP-07 (1.3).
 
 **Тесты (RED):**
 
@@ -161,7 +166,7 @@ poetry run pytest tests/test_config.py -v -k "logging"
 
 ### 1.3 GAP-07 — Активация L2 Render Cache `[REQ-V2-03]`
 
-> **Prerequisite:** GAP-09 завершён (нужен `cache_root_dir` из `GlobalConfig`).
+> **Prerequisite:** GAP-09 завершён (нужен `cache_root_dir` из `GlobalConfig`). Может выполняться параллельно с GAP-12 (1.2).
 
 **Тесты (RED):**
 
@@ -475,7 +480,7 @@ ude audit --doc-config path/to/ude_doc_config.json --mode reject-undocumented --
 
 ## Раздел 4 — Фаза 3 / Трек F: QA и тестирование
 
-> **Параллельно с Треком D.** GAP-31 и GAP-32 независимы — можно чередовать спринты.
+> **Параллельно с Треком D:** GAP-31 полностью независим от GAP-03 — может идти параллельно. GAP-32 (тесты, использующие `EnumModel`, `VariableModel` и др.) требует завершения GAP-03; нейтральная инфраструктура GAP-32 (XML-фикстуры, базовые классы) допускает параллельный старт.
 
 ### 4.1 GAP-31 — Подтверждение внешних интеграционных скриптов [REQ-V2-09]
 
@@ -509,6 +514,8 @@ ude audit --doc-config path/to/ude_doc_config.json --mode reject-undocumented --
 - [ ] **[AD-QA-05]** 🟢 Добавить `actions/upload-artifact@v4` для pytest coverage HTML report и `verify_pages.py` output — retention 7 дней
 
 ### 4.3 GAP-32 — Per-language интеграционные тест-сюиты [REQ-V2-10]
+
+> **Prerequisite (частичный):** Тесты, использующие типизированные Pydantic-модели (`EnumModel`, `VariableModel`, `ConstantModel`), требуют завершения GAP-03. Без него эти тесты неимплементируемы — не просто RED, а заблокированы по API. Инфраструктурные задачи (XML-фикстуры, `LanguageIntegrationBase`) допускают параллельный старт с GAP-03.
 
 **Разработка базовой инфраструктуры:**
 
@@ -802,6 +809,8 @@ ude audit --doc-config path/to/ude_doc_config.json --mode reject-undocumented --
 ---
 
 ## Раздел 8 — Требования к качеству документации
+
+> ⚠️ Задачи с маркером 🔴 действуют **с начала работ**. Наиболее критичные продублированы по ссылке в Разделе 0.3.
 
 ### 8.1 Markdown и синтаксические требования
 
