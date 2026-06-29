@@ -10,6 +10,7 @@
 > - `ToDo/ActivitiesDoc_ToDo.md` — документация пайплайнов  
 > - `ToDo/DocReqs_ToDo.md` — требования к технической документации  
 > - `ToDo/UserDocs_ToDo.md` — пользовательская документация  
+> - `ToDo/Tests_ToDo.md` — план тестирования и обеспечения качества  
 >
 > **TDD-инвариант (обязателен для каждого коммита):**  
 > Red → Green → Refactor · Coverage gate ≥ 98% · Ни один шаг не снимается без пройденных тестов
@@ -51,18 +52,35 @@
 - [ ] **[RS-T9]** 🟢 Переименовать `main/` → `sdk_sources/` после RS-T8
 - [ ] **[RS-T10]** 🟢 Переименовать ветку umbrella `master` → `main` (требует координации с CI/CD)
 
-### 0.2 Подтверждение базового состояния v1.0
+### 0.2 Подтверждение базового состояния v1.0 (TDD: Baseline)
 
-- [ ] 🔴 Убедиться что 209 тестов движка проходят: `poetry run pytest engine/tests/ -v`
-- [ ] 🔴 Подтвердить coverage ≥ 98%: `poetry run pytest --cov=ude --cov-report=term-missing`
-- [ ] 🔴 Зафиксировать baseline метрики: количество тестов, % coverage, время прогона
-- [ ] 🟡 Запустить performance benchmark: `poetry run pytest tests/test_performance_benchmark.py -v` — убедиться что ≤ 5s для 1000 классов
+- [ ] **[TST-0.1]** 🔴 **[Python]** Убедиться в прохождении всех 209 тестов движка: `poetry run pytest engine/tests/ -v`
+- [ ] **[TST-0.2]** 🔴 **[Python]** Подтвердить покрытие ≥ 98%: `poetry run pytest --cov=ude --cov-report=term-missing` (или `grep TOTAL`)
+- [ ] **[TST-0.3]** 🔴 **[Python]** Зафиксировать baseline-метрики (количество тестов, % coverage, время прогона) в `ToDo/Tests_ToDo.md`
+- [ ] **[TST-0.4]** 🟡 **[Python]** Запустить performance-бенчмарк: `poetry run pytest tests/test_performance_benchmark.py -v` — убедиться в выполнении ≤ 5 с для 1000 классов
+- [ ] **[TST-0.5]** 🟡 **[Python]** Сгенерировать HTML-отчет покрытия: `poetry run pytest --cov=ude --cov-report=html`
+- [ ] **[TST-0.6]** 🟡 **[Python]** Выявить модули с покрытием < 98% и зафиксировать пробелы в файле `Tests_ToDo.md`
+- [ ] **[TST-0.7]** 🟢 **[Python]** Создать тест `test_coverage_gate.py` с CI-ready параметром `--cov-fail-under=98`
 
 ### 0.3 Требования к документированию кода (применяются с этого момента)
 
 - [ ] **[DR-NEW-04]** 🟡 Зафиксировать в `CLAUDE.md` правило именования файлов: kebab-case для `user-docs/`, snake_case для `.antigravitycli/`
 - [ ] **[DR-NEW-21]** 🟡 Установить правило: каждый новый GitHub Actions workflow начинается с блока комментариев (назначение, триггеры, secrets, время выполнения)
 - [ ] **[DR-NEW-20]** 🟡 Ввести правило: каждый новый `TASK-*.md` содержит поле `Related Docs` — файлы user-docs/design-docs, требующие обновления
+
+### 0.4 Рефакторинг и аудит существующей тест-базы (TDD: Refactor)
+
+- [ ] **[TST-0.8]** 🔴 **[Python]** В `engine/tests/test_orchestrator.py`: заменить все вхождения `"ude_global.json"` → `"ude_global_config.json"`, `"ude_config.json"` → `"ude_doc_config.json"`
+- [ ] **[TST-0.9]** 🔴 **[Python]** В `engine/tests/test_integration_pipeline.py`: аналогичная замена
+- [ ] **[TST-0.10]** 🔴 **[Python]** В `engine/tests/test_doxygen_collector.py`: аналогичная замена
+- [ ] **[TST-0.11]** 🟡 **[Python]** Обновить docstring-комментарии в `engine/ude/interfaces.py` и `engine/ude/collectors/doxygen.py`
+- [ ] **[TST-0.12]** 🟡 **[Python]** Запустить `poetry run pytest engine/tests/ -v` после замен — убедиться в 0 failed
+- [ ] **[TST-0.13]** 🔴 **[Python]** В `engine/tests/` найти все `caplog`-ассерты с `"ude.renderers"` из `interfaces.py`
+- [ ] **[TST-0.14]** 🔴 **[Python]** Обновить найденные ассерты: `"ude.renderers"` → `"ude.interfaces"` (исправление логгера HC-05)
+- [ ] **[TST-0.15]** 🔴 **[Python]** Убедиться в прохождении тестов после исправления
+- [ ] **[TST-0.16]** 🟡 **[Python]** В `engine/tests/utils.py`: добавить `LanguageIntegrationBase` mixin с `LANGUAGE`, `XML_FIXTURE`, `RENDERER_CLASS` и `_run_pipeline()`
+- [ ] **[TST-0.17]** 🟡 **[Python]** Добавить вспомогательную функцию `_write_test_config(tmp_path, **kwargs) -> Path` для временных конфигураций
+- [ ] **[TST-0.18]** 🟢 **[Python]** Добавить фабрику `_make_mock_catalog` для создания синтетического `ProjectCatalog`
 
 ---
 
@@ -77,13 +95,19 @@
 
 **Тесты (RED — написать первыми):**
 
-- [ ] 🔴 Создать `engine/tests/test_config.py` — 6 тест-кейсов:
-  - `test_global_config_defaults` — пустой JSON даёт все дефолты
-  - `test_global_config_full_round_trip` — все поля round-trip через `from_file()`
-  - `test_global_config_unknown_keys_ignored` — extra keys не бросают исключений
-  - `test_global_config_missing_file_raises` — `FileNotFoundError` при отсутствии файла
-  - `test_orchestrator_respects_doxygen_path` — mock `DoxygenXmlCollector`, проверить env var
-  - `test_orchestrator_respects_cache_root_dir` — `BuildCacheManager` получает абсолютный путь
+- [ ] **[TST-1.1]** 🔴 **[Python]** Написать тест `test_global_config_defaults` — пустой JSON дает все дефолты
+- [ ] **[TST-1.2]** 🔴 **[Python]** Написать тест `test_global_config_full_round_trip` — все поля round-trip через `from_file()`
+- [ ] **[TST-1.3]** 🔴 **[Python]** Написать тест `test_global_config_unknown_keys_ignored` — extra keys не вызывают ValidationError
+- [ ] **[TST-1.4]** 🔴 **[Python]** Написать тест `test_global_config_missing_file_raises` — FileNotFoundError при отсутствии файла
+- [ ] **[TST-1.5]** 🔴 **[Python]** Написать тест `test_global_config_bad_json_raises` — ValueError при некорректном JSON
+- [ ] **[TST-1.6]** 🔴 **[Python]** Написать тест `test_global_config_coverage_threshold_parses` — threshold 0.85 принимается без ошибок
+- [ ] **[TST-1.7]** 🔴 **[Python]** Написать тест `test_global_config_coverage_threshold_bounds` — threshold 1.5 → ValidationError
+- [ ] **[TST-1.8]** 🔴 **[Python]** Написать тест `test_apply_global_cfg_env_injects_path` — doxygen_path добавляется в PATH
+- [ ] **[TST-1.9]** 🔴 **[Python]** Написать тест `test_apply_global_cfg_env_idempotent` — двойной вызов не дублирует путь в PATH
+- [ ] **[TST-1.10]** 🔴 **[Python]** Написать тест `test_apply_global_cfg_env_noop_when_none` — doxygen_path=None не изменяет PATH
+- [ ] **[TST-1.11]** 🟡 **[Python]** Написать тест `test_orchestrator_stores_global_cfg_instance` — orchestrator._global_cfg содержит экземпляр GlobalConfig
+- [ ] **[TST-1.12]** 🟡 **[Python]** Написать тест `test_orchestrator_sets_path_from_doxygen_path` — mock subprocess.run; doxygen_path инжектируется до запуска doxygen
+- [ ] **[TST-1.13]** 🟡 **[Python]** Написать тест `test_orchestrator_cache_root_resolved_absolute` — cache_root_dir резолвится в абсолютный путь
 
 **Реализация (GREEN):**
 
@@ -111,11 +135,11 @@ poetry run pytest --cov=ude --cov-report=term-missing | grep TOTAL
 
 **Тесты (RED):**
 
-- [ ] ⚡ 🔴 Дополнить `engine/tests/test_config.py` — 4 новых тест-кейса:
-  - `test_logging_setup_stderr_only` — `log_file=None` → ровно 1 StreamHandler
-  - `test_logging_setup_with_file` — `log_file` установлен → 2 хэндлера, файл создан
-  - `test_logging_setup_level_applied` — `log_level="DEBUG"` → `logger.level == DEBUG`
-  - `test_hc05_logger_label_fixed` — `"ude.interfaces"` использован в `interfaces.py`
+- [ ] **[TST-1.14]** 🔴 **[Python]** Написать тест `test_logging_setup_stderr_only` — log_file=None → ровно 1 StreamHandler
+- [ ] **[TST-1.15]** 🔴 **[Python]** Написать тест `test_logging_setup_with_log_file` — log_file → 2 хэндлера, файл создан на диске
+- [ ] **[TST-1.16]** 🔴 **[Python]** Написать тест `test_logging_setup_level_debug` — log_level="DEBUG" → logger.level == DEBUG
+- [ ] **[TST-1.17]** 🔴 **[Python]** Написать тест `test_logging_setup_invalid_level` — VERBOSE (неверный) уровень падает к WARNING без краша
+- [ ] **[TST-1.18]** 🔴 **[Python]** Написать тест `test_logging_setup_idempotent` — двойной вызов не накопливает StreamHandler-ы
 
 **Реализация (GREEN):**
 
@@ -141,11 +165,20 @@ poetry run pytest tests/test_config.py -v -k "logging"
 
 **Тесты (RED):**
 
-- [ ] ⚡ 🔴 Дополнить `engine/tests/test_caching.py` — 4 новых тест-кейса:
-  - `test_l2_cache_hit_skips_file_write` — рендер дважды, второй не перезаписывает файл
-  - `test_l2_cache_miss_on_ir_change` — изменение в catalog → файл пересоздаётся
-  - `test_l2_cache_miss_on_template_change` — изменение шаблона → файл пересоздаётся
-  - `test_l2_cache_disabled_when_no_cache_dir` — `cache_dir=None` → поведение v1.0 без регрессии
+- [ ] **[TST-1.19]** 🔴 **[Python]** Написать тест `test_compute_template_hash_stable` — хэш стабилен при повторных вызовах
+- [ ] **[TST-1.20]** 🔴 **[Python]** Написать тест `test_compute_template_hash_changes_on_content_change` — изменение шаблона меняет хэш
+- [ ] **[TST-1.21]** 🔴 **[Python]** Написать тест `test_compute_template_hash_empty_dir` — пустая директория → ""
+- [ ] **[TST-1.22]** 🔴 **[Python]** Написать тест `test_compute_template_hash_missing_dir` — несуществующая директория → ""
+- [ ] **[TST-1.23]** 🔴 **[Python]** Написать тест `test_l2_html_cache_hit_skips_write` — повторный рендер не перезаписывает файл (spy на open)
+- [ ] **[TST-1.24]** 🔴 **[Python]** Написать тест `test_l2_html_cache_miss_on_catalog_change` — мутация метода в каталоге сбрасывает кэш
+- [ ] **[TST-1.25]** 🔴 **[Python]** Написать тест `test_l2_html_cache_miss_on_template_change` — изменение Jinja2-шаблона сбрасывает кэш
+- [ ] **[TST-1.26]** 🔴 **[Python]** Написать тест `test_l2_html_cache_disabled_when_no_manager` — cache_manager=None → файлы пишутся всегда (v1.0)
+- [ ] **[TST-1.27]** 🔴 **[Python]** Написать тест `test_l2_hugo_cache_hit_skips_write` — аналог L2 кэш для Hugo рендерера
+- [ ] **[TST-1.28]** 🔴 **[Python]** Написать тест `test_l2_legacy_cache_hit_skips_write` — аналог L2 кэш для Legacy рендерера
+- [ ] **[TST-1.29]** 🟡 **[Python]** Написать тест `test_sequential_build_l2_cache_hits` — интеграционный: при втором orchestrator.run() записи отсутствуют
+- [ ] **[TST-1.30]** 🔴 **[Python]** Выполнить grep-аудит (CB-04): убедиться, что `cache_manager` объявлен в `__new__` и прокидывается в `super().__init__()` рендереров
+- [ ] **[TST-1.31]** 🔴 **[Python]** Написать тест `test_cache_manager_forwarded_through_new_hugo` — HugoMarkdownRenderer сохраняет `_cache_mgr`
+- [ ] **[TST-1.32]** 🔴 **[Python]** Написать тест `test_cache_manager_forwarded_through_new_legacy` — LegacyRenderer сохраняет `_cache_mgr`
 
 **Реализация (GREEN):**
 
@@ -173,15 +206,17 @@ poetry run pytest tests/test_caching.py -v
 
 **Тесты (RED — TDD):**
 
-- [ ] ⚡ 🔴 Создать `engine/tests/test_doxyfile.py` — 8 тест-кейсов:
-  - `test_parse_doxyfile_basic`
-  - `test_parse_doxyfile_continuation_lines` — backslash-continuation сворачиваются
-  - `test_parse_doxyfile_skip_comments`
-  - `test_serialize_doxyfile_round_trip`
-  - `test_merge_tiers_t2_overrides_t1`
-  - `test_merge_tiers_t3_overrides_t2`
-  - `test_merge_tiers_debug_log_on_conflict` (с `caplog`)
-  - `test_collector_uses_merged_doxyfile` — mock `subprocess.run`, assert содержимое Doxyfile
+- [ ] **[TST-1.33]** 🔴 **[Python]** Написать тест `test_parse_basic` — парсинг простых пар Ключ = Значение в Doxyfile
+- [ ] **[TST-1.34]** 🔴 **[Python]** Написать тест `test_parse_skip_comments_and_blanks` — комментарии `#` и пустые строки игнорируются
+- [ ] **[TST-1.35]** 🔴 **[Python]** Написать тест `test_parse_continuation_lines` — переносы строк через backslash `\` сворачиваются в одну строку
+- [ ] **[TST-1.36]** 🔴 **[Python]** Написать тест `test_parse_value_with_equals` — значения с символом `=` (например, PREDEFINED) парсятся верно
+- [ ] **[TST-1.37]** 🔴 **[Python]** Написать тест `test_serialize_round_trip` — parse -> serialize -> parse сохраняет ключи в алфавитном порядке
+- [ ] **[TST-1.38]** 🔴 **[Python]** Написать тест `test_merge_t2_overrides_t1` — переопределение T1 ключей значениями из T2
+- [ ] **[TST-1.39]** 🔴 **[Python]** Написать тест `test_merge_t3_overrides_t2` — переопределение T2 ключей значениями из T3
+- [ ] **[TST-1.40]** 🔴 **[Python]** Написать тест `test_merge_debug_log_on_conflict` — конфликт T2 vs T1 логирует DEBUG-сообщение
+- [ ] **[TST-1.41]** 🔴 **[Python]** Написать тест `test_merge_missing_tiers` — корректная деградация мёрджа при отсутствии T1/T2
+- [ ] **[TST-1.42]** 🟡 **[Python]** Написать тест `test_collector_uses_merged_doxyfile` — mock subprocess.run; результирующий Doxyfile содержит T3 ключи по одному разу
+- [ ] **[TST-1.43]** 🟡 **[Python]** Написать тест `test_collector_t3_overrides_t2_key` — target-Doxyfile задает GENERATE_HTML=YES, мёрдж перебивает в NO
 
 **Реализация (GREEN):**
 
@@ -223,12 +258,17 @@ poetry run pytest --cov=ude --cov-report=term-missing | grep TOTAL
 
 **Тесты (RED):**
 
-- [ ] ⚡ 🔴 Дополнить `engine/tests/test_orchestrator.py` — 4 новых теста:
-  - `test_orchestrator_parse_returns_catalog`
-  - `test_orchestrator_render_produces_files`
-  - `test_orchestrator_run_end_to_end`
-  - `test_cli_delegates_to_orchestrator` (mock `UdeOrchestrator.run`)
-- [ ] ⚡ 🔴 Обновить `engine/tests/test_cli.py`: переместить тесты `deep_merge`/`find_product_json` на импорт из `ude.orchestrator`
+- [ ] **[TST-2.1]** 🔴 **[Python]** Написать тест `test_orchestrator_parse_returns_catalog` — `orchestrator.parse()` возвращает ProjectCatalog
+- [ ] **[TST-2.2]** 🔴 **[Python]** Написать тест `test_orchestrator_parse_skips_collector_when_xml_exists` — повторный запуск не вызывает DoxygenXmlCollector.collect
+- [ ] **[TST-2.3]** 🔴 **[Python]** Написать тест `test_orchestrator_render_produces_files` — `orchestrator.render()` создает файлы HTML/Markdown в out_dir
+- [ ] **[TST-2.4]** 🔴 **[Python]** Написать тест `test_orchestrator_render_respects_format_config` — выбор формата рендерера (static_html / hugo_markdown)
+- [ ] **[TST-2.5]** 🔴 **[Python]** Написать тест `test_orchestrator_run_end_to_end` — `orchestrator.run()` возвращает True при успехе, генерирует файлы
+- [ ] **[TST-2.6]** 🔴 **[Python]** Написать тест `test_run_target_is_alias` — run_target() вызывает run() для обратной совместимости
+- [ ] **[TST-2.7]** 🔴 **[Python]** Написать тест `test_orchestrator_run_returns_false_on_missing_config` — отсутствующий конфиг возвращает False
+- [ ] **[TST-2.8]** 🟡 **[Python]** Написать тест `test_resolve_config_returns_merged_dict` — корректные приоритеты при слиянии global/sdk/doc configs
+- [ ] **[TST-2.9]** 🟡 **[Python]** Написать тест `test_resolve_config_graceful_sidebar_missing` — отсутствие `sidebar.toml` не падает с ошибкой
+- [ ] **[TST-2.10]** 🟡 **[Python]** Написать тест `test_resolve_config_sidebar_static_paths_absolute` — статические пути из sidebar.toml преобразуются в абсолютные
+- [ ] **[TST-2.11]** 🟡 **[Python]** Написать тест `test_deep_merge_importable_from_both_modules` — импорт `deep_merge` работает и из `cli.py`, и из `orchestrator.py`
 
 **Реализация (GREEN):**
 
@@ -313,8 +353,18 @@ poetry run pytest tests/test_cli.py -v
 
 **Тесты (RED — написать до изменения models.py):**
 
-- [ ] ⚡ 🔴 Переписать `engine/tests/test_models.py` под 7 новых моделей — round-trip для каждой
-- [ ] ⚡ 🔴 Добавить тесты: `ProjectCatalog` с `project_name` и `version`; старые IR-файлы без этих полей десериализуются
+- [ ] **[TST-3.1]** 🔴 **[Python]** Написать тест `test_project_catalog_has_project_name_and_version` — имя и версия проекта round-trip через JSON
+- [ ] **[TST-3.2]** 🔴 **[Python]** Написать тест `test_class_model_fields_are_variable_models` — поля класса содержат экземпляры VariableModel, не строки
+- [ ] **[TST-3.3]** 🔴 **[Python]** Написать тест `test_old_ir_json_deserializes_without_error` — десериализация v1.0 IR без новых полей проходит успешно
+- [ ] **[TST-3.4]** 🔴 **[Python]** Написать тест `test_variable_model_nonempty_round_trip` — непустые поля VariableModel корректно кодируются/декодируются
+- [ ] **[TST-3.5]** 🔴 **[Python]** Написать тест `test_class_model_extra_field_ignored` — extra-поля при валидации ClassModel отсекаются
+- [ ] **[TST-3.6]** 🔴 **[Python]** Написать тест `test_project_catalog_extra_field_ignored` — extra-поля при валидации ProjectCatalog отсекаются
+- [ ] **[TST-3.7]** 🔴 **[Python]** Написать тест `test_backward_compat_alias` — алиас `ClassEntity is ClassModel` возвращает True
+- [ ] **[TST-3.8]** 🔴 **[Python]** Написать тест `test_7_model_round_trip` — round-trip каталога, содержащего все 7 новых моделей
+- [ ] **[TST-3.9]** 🟡 **[Python]** Написать тест `test_method_model_overloads` — `MethodModel.overloads` содержит список `OverloadModel`
+- [ ] **[TST-3.10]** 🟡 **[Python]** Написать тест `test_enum_model_values` — `EnumModel.values` содержит список значений `List[str]`
+- [ ] **[TST-3.11]** 🟡 **[Python]** Написать тест `test_constant_model_has_value` — `ConstantModel.value` сериализуется как `null` при значении `None`
+- [ ] **[TST-3.12]** 🟡 **[Python]** Написать тест `test_type_alias_model_round_trip` — корректность сериализации/десериализации `TypeAliasModel`
 
 **Реализация `models.py` (GREEN):**
 
@@ -344,6 +394,17 @@ poetry run pytest tests/test_cli.py -v
 - [ ] ⚡ 🔴 Регенерировать golden master baselines (`UPDATE_GOLDEN=1 poetry run pytest tests/test_golden_master.py`) — только после подтверждения `git diff --stat`
 - [ ] ⚡ 🔴 Перезапустить Docomatic alignment suite (`test_docomatic_alignment.py`); проверить что `"total_differences"` не вырос для незатронутых языков
 
+**Рефакторинг существующих тестов под v2.0 модели:**
+
+- [ ] **[TST-3.13]** 🔴 **[Python]** В `test_doxygen_parser.py`: обновить ассерты для `entity.fields` (доступ по `.name`, а не по индексам строк)
+- [ ] **[TST-3.14]** 🔴 **[Python]** В `test_doxygen_parser.py`: добавить тест `test_parser_populates_enum_model` (Kind="enum" в XML парсится в `EnumModel`)
+- [ ] **[TST-3.15]** 🔴 **[Python]** В `test_doxygen_parser.py`: добавить тест `test_parser_populates_constant_model` (Kind="variable" static=yes -> `ConstantModel`)
+- [ ] **[TST-3.16]** 🔴 **[Python]** В `test_html_renderer.py`: обновить тестовые фикстуры под ClassModel с VariableModel
+- [ ] **[TST-3.17]** 🔴 **[Python]** В `test_hugo_renderer.py`: обновить тестовые фикстуры аналогично
+- [ ] **[TST-3.18]** 🔴 **[Python]** В `test_legacy_renderer.py`: обновить тестовые фикстуры аналогично
+- [ ] **[TST-3.19]** 🔴 **[Python]** Выполнить проверку (Guard Step 4) на отсутствие `.fields` прямого обращения в рендерерах через grep
+- [ ] **[TST-3.20]** 🔴 **[Python]** Запустить `test_doxygen_parser.py` и все интеграционные тесты для верификации правок
+
 **Верификация Pydantic-совместимости (CB-02, CB-03 из `skills_compliance_report.md`):**
 
 - [ ] ⚡ 🔴 Проверить наличие `model_config = ConfigDict(extra="ignore")` на КАЖДОЙ из типизированных Pydantic-моделей в `engine/ude/models.py` (CB-02): `ParameterModel`, `OverloadModel`, `MethodModel`, `EnumModel`, `VariableModel`, `ConstantModel`, `TypeAliasModel`, `ClassModel`, `NamespaceModel`, `ProjectCatalog` — отсутствие хотя бы на одной делает загрузку v3.0+ IR-файлов несовместимой (`ValidationError` при неизвестных полях); выполнить: `grep -c "extra=\"ignore\"" engine/ude/models.py` — должно вернуть ≥ 10
@@ -367,13 +428,18 @@ poetry run pytest --cov=ude --cov-report=term-missing | grep TOTAL
 
 **Тесты (RED):**
 
-- [ ] ⚡ 🔴 Создать `engine/tests/test_coverage.py` — 6 тест-кейсов:
-  - `test_full_coverage_catalog` — все docstrings → `overall.coverage == 1.0`
-  - `test_zero_coverage_catalog` — все `None` → `overall.coverage == 0.0`
-  - `test_mixed_coverage` — 3 из 4 методов → `method.coverage == 0.75`
-  - `test_reject_mode_exits_nonzero` — 0% coverage + reject → exit code 2
-  - `test_allow_mode_exits_zero` — 0% coverage + allow → exit code 0
-  - `test_audit_output_contains_table` — stdout содержит `| class |`, `| method |`, `| overall |`
+- [ ] **[TST-3.21]** 🔴 **[Python]** Написать тест `test_full_coverage_catalog` — 100% задокументированных сущностей дает coverage == 1.0
+- [ ] **[TST-3.22]** 🔴 **[Python]** Написать тест `test_zero_coverage_catalog` — 0% задокументированных сущностей (docstrings = None) → coverage == 0.0
+- [ ] **[TST-3.23]** 🔴 **[Python]** Написать тест `test_mixed_coverage` — частичное документирование (например, 3 из 4 методов → coverage == 0.75)
+- [ ] **[TST-3.24]** 🔴 **[Python]** Написать тест `test_reject_mode_exits_nonzero` — `ude audit` в режиме `reject-undocumented` завершается с кодом 2 при покрытии ниже threshold
+- [ ] **[TST-3.25]** 🔴 **[Python]** Написать тест `test_allow_mode_exits_zero` — `ude audit` в режиме `allow-undocumented` завершается с кодом 0 даже при 0% покрытии
+- [ ] **[TST-3.26]** 🔴 **[Python]** Написать тест `test_audit_output_contains_table` — вывод аудита содержит форматированную markdown-таблицу покрытия
+- [ ] **[TST-3.27]** 🟡 **[Python]** Написать тест `test_coverage_gate_runs_on_compile` — coverage gate запускается внутри `ude compile`
+- [ ] **[TST-3.28]** 🟡 **[Python]** Написать тест `test_coverage_gate_absent_on_parse` — `ude parse` не выполняет аудит покрытия
+- [ ] **[TST-3.29]** 🟡 **[Python]** Написать тест `test_coverage_gate_absent_on_render` — `ude render` не выполняет аудит покрытия
+- [ ] **[TST-3.30]** 🟡 **[Python]** Выполнить проверку наличия трассировочных docstring-аннотаций `Implements TASK-D` / `Implements GAP-` во всех новых модулях Phase 3 через grep
+- [ ] **[TST-3.31]** 🟡 **[Python]** Выполнить ту же проверку на Windows PowerShell (проверка AW-08)
+- [ ] **[TST-3.32]** 🟡 **[Python]** Написать тест `test_phase3_modules_have_traceability_docstrings` — программный анализ AST модулей на наличие Implements-аннотаций
 
 **Реализация (GREEN):**
 
@@ -411,93 +477,172 @@ ude audit --doc-config path/to/ude_doc_config.json --mode reject-undocumented --
 
 > **Параллельно с Треком D.** GAP-31 и GAP-32 независимы — можно чередовать спринты.
 
-### 4.1 GAP-31 — Подтверждение внешних интеграционных скриптов `[REQ-V2-09]`
+### 4.1 GAP-31 — Подтверждение внешних интеграционных скриптов [REQ-V2-09]
 
-**Аудит (выполнить первым):**
+**Тесты и проверки существующих скриптов:**
 
-- [ ] ⚡ 🔴 Поиск по всему `Pipeline/`: `run_regression_tests.py`, `verify_pages.py`, `check_links.py`
-- [ ] ⚡ 🔴 Обновить `integration_tests_specification.md` — для каждого скрипта: Confirmed Present / Confirmed Absent / Replaced By
-- [ ] ⚡ 🔴 Зафиксировать: `engine/tests/test_golden_master.py` является каноническим TEST-INT-01
+- [ ] **[TST-6.1]** 🔴 **[Python]** Запустить существующий `python Tests/run_regression_tests.py` и проверить прохождение всех тестов L1/L2/L3 для всех 12 проектов
+- [ ] **[TST-6.2]** 🔴 **[Python]** Написать тест `test_run_regression_all_tiers_pass` — smoke-тест запуска `run_regression_tests.py` через `subprocess` (exit code 0)
+- [ ] **[TST-6.3]** 🟡 **[Python]** Убедиться, что `Tests/baseline/xml/` содержит эталонные Doxygen XML-файлы для `facetmodeler`
+- [ ] **[TST-6.4]** 🟡 **[Python]** Написать тест `test_prepare_baseline_mock_suite` — запуск `prepare_baseline.py --suite mock` создает файлы в `baseline/ir/` и `baseline/html/`
+- [ ] **[TST-6.5]** 🔴 **[Python]** Написать тест `test_verify_pages_local_all_pages_found` — все MD-файлы из `user-docs/docs/` найдены в скомпилированном dist → exit 0
+- [ ] **[TST-6.6]** 🔴 **[Python]** Написать тест `test_verify_pages_detects_missing_compiled_page` — один MD-файл не скомпилирован → exit 1 с выводом ошибки в stderr
+- [ ] **[TST-6.7]** 🟡 **[Python]** Написать тест `test_verify_pages_remote_mode` — удаленный режим работы `verify_pages.py` с mock HTTP (exit 0 на 200, exit 1 на 404)
+- [ ] **[TST-6.8]** 🟢 **[Python]** Уточнить необходимость разработки отдельного скрипта `verify_ude_links.py` для проверки внутренних ссылок UDE HTML (расхождение с REQ-V2-09)
+- [ ] **[TST-6.9]** 🔴 **[Python]** Написать тест `test_check_links_clean_site` — проверка скомпилированной директории без сломанных ссылок → exit 0
+- [ ] **[TST-6.10]** 🔴 **[Python]** Написать тест `test_check_links_detects_broken_internal_link` — битая внутренняя ссылка → exit 1 с именем файла
+- [ ] **[TST-6.11]** 🟡 **[Python]** Написать тест `test_check_links_detects_broken_external_link` — битая внешняя ссылка (mock requests 404) → exit 1
+- [ ] **[TST-6.12]** 🟡 **[Python]** Написать тест `test_check_links_ude_prefix_strip` — корректность резолвинга ссылок с префиксом `/ude-user-docs/api/`
 
-**Реализация отсутствующих скриптов:**
+**Разработка скрипта-агрегатора (с защитой AW-05):**
 
-- [ ] ⚡ 🔴 Проверить наличие `Tests/verify_pages.py`; если отсутствует — реализовать:
-  - Интерфейс: `python Tests/verify_pages.py --output-dir path/to/ude_output`
-  - Проверяет: все `<a href>` internal links резолвятся в локальные файлы
-  - Exit 0 / 1 с перечнем broken links; без сетевого доступа
-- [ ] ⚡ 🔴 Проверить наличие `Tests/check_links.py`; если отсутствует — реализовать:
-  - Интерфейс: `python Tests/check_links.py --site-dir path/to/hugo_output`
-  - Проверяет: cross-references markdown → HTML
-- [ ] ⚡ 🟡 Создать `Tests/run_all_integration_tests.sh` / `.bat` — агрегирует exit codes всех скриптов
-- [ ] ⚡ 🟡 Обновить `integration_tests_specification.md` с точными путями к файлам
-
-**Верификация:**
-```bash
-python Tests/verify_pages.py --output-dir ude_output/
-# Exit 0: "All X links verified."
-python Tests/check_links.py --site-dir hugo-site/public/
-# Exit 0 с количеством ссылок
-```
-
-**Коммит:** `feat(tests): confirm/implement verify_pages.py and check_links.py (GAP-31)`
+- [ ] **[TST-6.13]** 🔴 **[VB]** Создать `Tests/run_all_integration_tests.bat` (агрегатор для Windows) на базе безопасного batch-кода с проверкой %ERRORLEVEL%
+- [ ] **[TST-6.14]** 🔴 **[VB]** Использовать `pushd`/`popd` для изоляции перехода по каталогам, предотвращая мутацию CWD при ошибках
+- [ ] **[TST-6.15]** 🔴 **[VB]** Принимать путь к выходной директории в качестве аргумента `%1` с валидацией его существования (без хардкода)
+- [ ] **[TST-6.16]** 🔴 **[VB]** Валидировать наличие всех 3 дочерних скриптов до запуска, прерывать выполнение при их отсутствии
+- [ ] **[TST-6.17]** 🟡 **[Python]** Создать shell-агрегатор `Tests/run_all_integration_tests.sh` для CI (Linux) с использованием `trap` для CWD и `$1` для путей
 
 ### 4.2 GAP-31 — Интеграция скриптов в CI
 
 - [ ] **[AD-QA-04]** 🟡 Добавить step в `integration_tests.yml`: `Tests/check_links.py --site-dir ./user-docs/.vitepress/dist`
-- [ ] **[AD-V2-04]** 🟡 Добавить step `python Tests/run_regression_tests.py` в `integration_tests.yml` как отдельный stage после page verification
+- [ ] **[AD-V2-04]** 🟡 Добавить step `python Tests/run_regression_tests.py` in `integration_tests.yml` как отдельный stage после page verification
 - [ ] **[AD-QA-05]** 🟢 Добавить `actions/upload-artifact@v4` для pytest coverage HTML report и `verify_pages.py` output — retention 7 дней
 
----
+### 4.3 GAP-32 — Per-language интеграционные тест-сюиты [REQ-V2-10]
 
-### 4.3 GAP-32 — Per-language интеграционные тест-сюиты `[REQ-V2-10]`
+**Разработка базовой инфраструктуры:**
 
-**Shared infrastructure (первым):**
+- [ ] **[TST-5.1]** 🔴 **[Python]** Добавить `LanguageIntegrationBase` mixin в `engine/tests/utils.py` с `LANGUAGE`, `XML_FIXTURE`, `RENDERER_CLASS` и `_run_pipeline()`
 
-- [ ] ⚡ 🔴 Добавить `LanguageIntegrationBase` mixin в `engine/tests/utils.py` с `LANGUAGE`, `XML_FIXTURE`, `RENDERER_CLASS`, `_run_pipeline(tmp_path) -> Path`
+**C++ специфика (GAP-32-A):**
 
-**C++ (GAP-32-A):**
+- [ ] **[TST-5.2]** 🔴 **[Python]** Написать тест `test_cpp_category_landing_pages_exist` — существование `Classes/index.html` с таблицей классов
+- [ ] **[TST-5.3]** 🔴 **[Python]** Написать тест `test_cpp_overload_dispatcher_page` — создание dispatcher-страницы для перегрузок (строгий assert AW-04, без flat any)
+- [ ] **[TST-5.4]** 🔴 **[Python]** Написать тест `test_cpp_member_type_index_page` — существование `Fields, Structures and Enums/index.html`
+- [ ] **[TST-5.5]** 🔴 **[Python]** Написать тест `test_cpp_template_class_rendering` — экранирование угловых скобок у шаблонов вида `MyClass<T, U>` в HTML
+- [ ] **[TST-5.6]** 🔴 **[Python]** Написать тест `test_cpp_namespace_separator_double_colon` — использование разделителя `::` в breadcrumbs и prototype
+- [ ] **[TST-5.7]** 🟡 **[C++]** Создать XML-fixture `engine/tests/assets/cpp_templates.xml` с шаблонами, деструктором и перегруженными конструкторами
+- [ ] **[TST-5.8]** 🟡 **[Python]** Написать тест `test_cpp_destructor_rendering` — рендеринг деструктора `~MyClass()` в выводе
+- [ ] **[TST-5.9]** 🟡 **[Python]** Написать тест `test_cpp_global_functions_flat_rendered` — глобальные функции рендерятся у корня сайдбара
 
-- [ ] ⚡ 🔴 Создать `engine/tests/test_integration_cpp.py` (≥ 5 тестов):
-  - Category landing pages: `Classes/index.html` существует и содержит таблицу
-  - Overload dispatcher pages: сущность с `overloads` → dedicated page
-  - Member-type index pages: `Fields, Structures and Enums/index.html` существует
+**C# специфика (GAP-32-B):**
 
-**C# (GAP-32-B):**
+- [ ] **[TST-5.10]** 🔴 **[Python]** Написать тест `test_cs_interface_entity_rendering` — ключевое слово `interface` отображается в prototype
+- [ ] **[TST-5.11]** 🔴 **[Python]** Написать тест `test_cs_delegate_entity_rendering` — создание страниц для делегатов
+- [ ] **[TST-5.12]** 🔴 **[Python]** Написать тест `test_cs_event_member_rendering` — рендеринг событий (`event`) в секции memberlist
+- [ ] **[TST-5.13]** 🔴 **[Python]** Написать тест `test_cs_namespace_index_page` — создание `<Namespace>/index.html` с таблицей классов
+- [ ] **[TST-5.14]** 🔴 **[Python]** Написать тест `test_cs_dot_separator_in_fqn` — использование `.` вместо `::` для C#
+- [ ] **[TST-5.15]** 🟡 **[C#]** Создать XML-fixture `engine/tests/assets/cs_interface.xml` с интерфейсами и событиями
+- [ ] **[TST-5.16]** 🟡 **[Python]** Написать тест `test_cs_property_getter_setter_rendering` — отображение get/set аксессоров свойств
+- [ ] **[TST-5.17]** 🟡 **[Python]** Написать тест `test_cs_indexer_rendering` — индексаторы `this[int index]` отображаются в секции members
 
-- [ ] ⚡ 🔴 Создать `engine/tests/test_integration_cs.py` (≥ 5 тестов):
-  - Interface entity: `entity_type == "interface"` → `interface` keyword в prototype
-  - Delegate entity rendering
-  - Event member rendering
-  - Namespace index pages
+**Java специфика (GAP-32-C):**
 
-**Java (GAP-32-C):**
+- [ ] **[TST-5.18]** 🔴 **[Python]** Написать тест `test_java_extends_implements_in_prototype` — базовые классы/интерфейсы отображаются в prototype
+- [ ] **[TST-5.19]** 🔴 **[Python]** Написать тест `test_java_package_index_page` — создание `index.html` пакета с таблицей классов
+- [ ] **[TST-5.20]** 🔴 **[Python]** Написать тест `test_java_interface_rendering` — корректный рендеринг Java interface
+- [ ] **[TST-5.21]** 🔴 **[Python]** Написать тест `test_java_annotation_type_rendering` — рендеринг аннотаций (`@interface`) в Java
+- [ ] **[TST-5.22]** 🔴 **[Python]** Написать тест `test_java_dot_separator_in_fqn` — использование `.` для Java-путей
+- [ ] **[TST-5.23]** 🟡 **[Java]** Создать XML-fixture `engine/tests/assets/java_inheritance.xml` со связями наследования и имплементации
+- [ ] **[TST-5.24]** 🟡 **[Python]** Написать тест `test_java_enum_rendering` — рендеринг констант Java enum через EnumModel
+- [ ] **[TST-5.25]** 🟢 **[Python]** Написать тест `test_java_nested_class_rendering` — вложенные классы (`OuterClass.InnerClass`) в sidebar
 
-- [ ] ⚡ 🔴 Создать `engine/tests/test_integration_java.py` (≥ 5 тестов):
-  - `extends`/`implements`: `base_class` рендерится в prototype
-  - Package-level index pages
+**Python специфика (GAP-32-D):**
 
-**Python (GAP-32-D):**
-
-- [ ] ⚡ 🔴 Создать `engine/tests/test_integration_py.py` (≥ 5 тестов):
-  - `fget`/`fset` property: `[get]`/`[set]` accessors в member list
-  - Dunder methods (`__init__`, `__repr__`, `__eq__`) — в method list, не отфильтрованы
-
-**Финальная проверка:**
-```bash
-poetry run pytest tests/test_integration_cpp.py tests/test_integration_cs.py \
-  tests/test_integration_java.py tests/test_integration_py.py -v --tb=short
-# Ожидается: ≥ 20 новых тестов, все PASSED
-poetry run pytest --cov=ude --cov-report=term-missing | grep TOTAL
-# Ожидается: ≥ 98%
-```
-
-**Коммит:** `feat(tests): add per-language integration test suites cpp/cs/java/py (GAP-32)`
+- [ ] **[TST-5.26]** 🔴 **[Python]** Написать тест `test_py_fget_fset_property_rendering` — отображение аксессоров `[get]`/`[set]` для свойств Python
+- [ ] **[TST-5.27]** 🔴 **[Python]** Написать тест `test_py_dunder_methods_present` — методы `__init__`, `__repr__`, `__eq__` не отфильтрованы как приватные
+- [ ] **[TST-5.28]** 🔴 **[Python]** Написать тест `test_py_swig_wrapper_fields_excluded` — SWIG-поля (`swigCPtr`, `Dispose()`) отфильтрованы
+- [ ] **[TST-5.29]** 🔴 **[Python]** Написать тест `test_py_sphinx_rst_docstring_normalized` — Sphinx/RST-параметры (`:param`, `:type`) конвертируются в CommonMark
+- [ ] **[TST-5.30]** 🔴 **[Python]** Написать тест `test_py_dot_separator_in_fqn` — использование `.` для Python-путей
+- [ ] **[TST-5.31]** 🟡 **[Python]** Создать XML-fixture `engine/tests/assets/py_swig.xml` с SWIG-врапперами и свойствами
+- [ ] **[TST-5.32]** 🟡 **[Python]** Написать тест `test_py_class_variable_vs_instance_variable` — разделение классовых и инстанс-переменных в выводе
+- [ ] **[TST-5.33]** 🟢 **[Python]** Написать тест `test_py_module_level_functions` — рендеринг функций уровня модуля
 
 ### 4.4 Per-language CI matrix
 
-- [ ] **[AD-LANG-01]** 🟡 После реализации GAP-32: добавить job `integration-tests-per-language` в `integration_tests.yml` с `matrix: language: [cpp, cs, java, py]`
+- [ ] **[AD-LANG-01]** 🟡 После реализации GAP-32: добавить job `integration-tests-per-language` in `integration_tests.yml` с `matrix: language: [cpp, cs, java, py]`
 - [ ] **[AD-LANG-02]** 🟡 `continue-on-error: false` для матрицы языков
 - [ ] **[AD-LANG-03]** 🟢 Артефакт с per-language test reports
+
+### 4.5 Тесты полноты охвата сущностей (Entity Completeness) и структуры страниц
+
+**Проверка соответствия Doc-o-matic (Alignment):**
+
+- [ ] **[TST-4.1]** 🔴 **[Python]** Перезапустить `test_docomatic_alignment.py` и зафиксировать `total_differences` для каждого языка как новый baseline
+- [ ] **[TST-4.2]** 🔴 **[Python]** Написать тест `test_total_differences_not_increased_cpp` — расхождения для C++ не превышают baseline после правок рендерера
+- [ ] **[TST-4.3]** 🔴 **[Python]** Написать тест `test_total_differences_not_increased_cs` — расхождения для C# не превышают baseline
+- [ ] **[TST-4.4]** 🔴 **[Python]** Написать тест `test_total_differences_not_increased_java` — расхождения для Java не превышают baseline
+- [ ] **[TST-4.5]** 🟡 **[Python]** Написать тест `test_no_silent_entity_loss_cpp` — количество классов в UDE >= количеству в Docomatic-baseline для C++
+- [ ] **[TST-4.6]** 🟡 **[Python]** Написать тест `test_no_silent_entity_loss_cs` — аналогичная проверка для C#
+- [ ] **[TST-4.7]** 🟡 **[Python]** Написать тест `test_no_silent_entity_loss_java` — аналогичная проверка для Java
+
+**Количественная верификация полноты сущностей:**
+
+- [ ] **[TST-4.8]** 🔴 **[Python]** Написать тест `test_all_methods_present_after_aggregation_cpp` — число методов в IR = числу методов на HTML-страницах классов (lxml парсинг `<h3>`, `<section>`)
+- [ ] **[TST-4.9]** 🔴 **[Python]** Написать тест `test_all_methods_present_after_aggregation_cs` — аналогичная проверка для C#
+- [ ] **[TST-4.10]** 🔴 **[Python]** Написать тест `test_all_methods_present_after_aggregation_java` — аналогичная проверка для Java
+- [ ] **[TST-4.11]** 🔴 **[Python]** Написать тест `test_no_orphan_entities_cpp` — для каждого метода в IR существует якорная ссылка `<a id="...">` в HTML-файле
+- [ ] **[TST-4.12]** 🔴 **[Python]** Написать тест `test_no_orphan_entities_cs` — аналогичная проверка для C#
+- [ ] **[TST-4.13]** 🔴 **[Python]** Написать тест `test_no_orphan_entities_java` — аналогичная проверка для Java
+- [ ] **[TST-4.14]** 🟡 **[Python]** Написать тест `test_class_member_count_matches_toc_cpp` — количество членов класса в sidebar ToC совпадает с числом в IR
+- [ ] **[TST-4.15]** 🟡 **[Python]** Написать тест `test_class_member_count_matches_toc_cs` — аналогичная проверка для C#
+- [ ] **[TST-4.16]** 🟡 **[Python]** Написать тест `test_class_member_count_matches_toc_java` — аналогичная проверка для Java
+- [ ] **[TST-4.17]** 🟡 **[Python]** Написать тест `test_overloaded_methods_all_present` — все перегрузки представлены на overload dispatcher странице или inline
+- [ ] **[TST-4.18]** 🟡 **[Python]** Написать тест `test_inherited_members_not_silently_dropped` — унаследованные члены класса не теряются в выводе UDE
+- [ ] **[TST-4.19]** 🟢 **[Python]** Написать тест `test_static_vs_instance_segregation` — корректность разделения статических и инстанс-членов
+
+**Структурная целостность страниц:**
+
+- [ ] **[TST-4.20]** 🔴 **[Python]** Написать тест `test_class_page_has_method_section` — каждый класс с методами содержит HTML-секцию методов
+- [ ] **[TST-4.21]** 🔴 **[Python]** Написать тест `test_class_page_has_fields_section_when_fields_exist` — наличие секции Fields при наличии полей в IR
+- [ ] **[TST-4.22]** 🔴 **[Python]** Написать тест `test_namespace_index_lists_all_classes` — индекс namespace содержит ссылки на все его классы
+- [ ] **[TST-4.23]** 🟡 **[Python]** Написать тест `test_sidebar_links_resolve_to_existing_files` — ссылки в sidebar ведут на реальные сгенерированные файлы
+- [ ] **[TST-4.24]** 🟡 **[Python]** Написать тест `test_breadcrumbs_contain_correct_namespace` — хлебные крошки отображают верный путь пространства имен
+- [ ] **[TST-4.25]** 🟡 **[Python]** Написать тест `test_entity_titles_follow_convention` — заголовки следуют формату `<EntityID> <EntityType>`
+
+### 4.6 Производительность, нагрузка и регрессионные тесты
+
+**Бенчмаркинг производительности:**
+
+- [ ] **[TST-7.1]** 🟡 **[Python]** Убедиться, что benchmark тестирует 1000 классов за время ≤ 5 с
+- [ ] **[TST-7.2]** 🟡 **[Python]** Добавить нагрузочный тест с разделением по языкам (250 классов * 4 языка = 1000)
+- [ ] **[TST-7.3]** 🟡 **[Python]** Написать тест `test_benchmark_with_l2_cache_second_run` — второй запуск с L2 кэшем > 3x быстрее первого
+- [ ] **[TST-7.4]** 🟢 **[Python]** Написать тест `test_benchmark_large_class_many_methods` — корректная обработка класса с 200+ методами без truncation
+
+**Регрессионный тест Golden Master:**
+
+- [ ] **[TST-7.5]** 🔴 **[Python]** После GAP-03 обновить baselines для Golden Master (учесть обе формы для Linux и Windows PowerShell - AW-02)
+- [ ] **[TST-7.6]** 🔴 **[Python]** Проверить успешное выполнение `test_golden_master.py` после регенерации
+- [ ] **[TST-7.7]** 🔴 **[Python]** Убедиться, что golden master покрывает все 16 конфигураций (4 языка * 2 вывода * 2 варианта)
+- [ ] **[TST-7.8]** 🟡 **[Python]** Добавить тест `test_golden_master_html_legacy_cpp` (LegacyHtmlRenderer C++ vs baseline)
+- [ ] **[TST-7.9]** 🟡 **[Python]** Добавить тест `test_golden_master_hugo_legacy_java` (LegacyHugoMarkdownRenderer Java vs baseline)
+- [ ] **[TST-7.10]** 🟡 **[Python]** Проверить полноту PIPELINE_COMPLEXES (содержит все 16 комбинаций)
+
+**Reverse-Engineering Doc-o-matic:**
+
+- [ ] **[TST-7.11]** 🟡 **[Python]** Проверить наличие `Tests/docomatic_scraper.py` (или написать согласно SOP `skills/docomatic_semantics_analysis.md`)
+- [ ] **[TST-7.12]** 🟡 **[Python]** Написать тест `test_scraper_dry_run_output_valid_json` — JSON содержит entity_types и filename_prefixes
+- [ ] **[TST-7.13]** 🟡 **[Python]** Написать тест `test_scraper_detects_cpp_overload_patterns` — парсинг паттернов `!!OVERLOADED_`
+- [ ] **[TST-7.14]** 🟢 **[Python]** Написать тест `test_scraper_optionality_threshold` — пометка сущностей как OPTIONAL при < 50% присутствия
+
+**Граничные случаи по языкам:**
+
+- [ ] **[TST-7.15]** 🟡 **[Python]** Написать тест `test_cpp_nested_templates_parsing` — экранирование вложенных шаблонов `map<string, vector<...>>`
+- [ ] **[TST-7.16]** 🟡 **[Python]** Написать тест `test_cpp_anonymous_namespace_handling` — анонимные пространства имен не бросают KeyError
+- [ ] **[TST-7.17]** 🟡 **[Python]** Написать тест `test_cpp_export_macro_filtered` — макросы экспорта (`ODA_EXPORT`) вырезаются из сигнатур
+- [ ] **[TST-7.18]** 🟡 **[Python]** Написать тест `test_cpp_constructor_destructor_ordering` — конструктор и деструктор идут первыми в списке
+- [ ] **[TST-7.19]** 🟡 **[C++]** Создать XML-fixture `engine/tests/assets/cpp_edge_cases.xml`
+- [ ] **[TST-7.20]** 🟡 **[Python]** Написать тест `test_cs_generic_type_rendering` — рендеринг дженериков `Dictionary<TKey, TValue>`
+- [ ] **[TST-7.21]** 🟡 **[Python]** Написать тест `test_cs_extension_method_rendering` — детекция C# extension методов
+- [ ] **[TST-7.22]** 🟡 **[Python]** Написать тест `test_cs_nullable_type_rendering` — рендеринг nullable-типов `int?`, `string?`
+- [ ] **[TST-7.23]** 🟡 **[C#]** Создать XML-fixture `engine/tests/assets/cs_edge_cases.xml`
+- [ ] **[TST-7.24]** 🟡 **[Python]** Написать тест `test_java_generics_rendering` — рендеринг wildcard дженериков `Collection<? extends T>`
+- [ ] **[TST-7.25]** 🟡 **[Python]** Написать тест `test_java_varargs_rendering` — рендеринг Java varargs `String... args`
+- [ ] **[TST-7.26]** 🟡 **[Java]** Создать XML-fixture `engine/tests/assets/java_edge_cases.xml`
+- [ ] **[TST-7.27]** 🟡 **[Python]** Написать тест `test_legacy_html_output_matches_docomatic_naming` (имена вида `!!MEMBERTYPE_Methods_ClassName`)
+- [ ] **[TST-7.28]** 🟡 **[Python]** Написать тест `test_legacy_hugo_sidebar_matches_html_sidebar`
+- [ ] **[TST-7.29]** 🟡 **[Delphi]** Создать утилиту `Tests/generate_docomatic_baseline.dpr` для воспроизведения Docomatic naming
+- [ ] **[TST-7.30]** 🟢 **[VB]** Написать `Tests/generate_legacy_toc.vbs` для создания contents.html дерева
 
 ---
 
@@ -536,6 +681,18 @@ poetry run pytest --cov=ude --cov-report=term-missing | grep TOTAL
 - [ ] **[AD-QA-01]** 🟡 Добавить job `engine-tests` в `integration_tests.yml`: `pytest engine/tests/ --cov=ude --cov-report=term-missing`; TOTAL ≥ 98%
 - [ ] **[AD-QA-03]** 🟢 Добавить `markdownlint-cli2` step для `user-docs/docs/**/*.md`
 - [ ] **[CI-4.5]** 🟡 Добавить step запуска integration tests: все 4 языка `test_integration_*.py`
+
+### 5.4.1 Автоматизация тестов в CI/CD (Quality Gates)
+
+- [ ] **[TST-8.1]** 🔴 **[Python]** Добавить job `engine-tests` в `integration_tests.yml` (прогон pytest с cover-fail-under=98)
+- [ ] **[TST-8.2]** 🟡 **[Python]** Добавить CI-step для per-language integration: `pytest tests/test_integration_*.py`
+- [ ] **[TST-8.3]** 🟡 **[Python]** Добавить CI-step для Docomatic alignment: `pytest engine/tests/test_docomatic_alignment.py`
+- [ ] **[TST-8.4]** 🟡 **[Python]** Добавить CI-step для Entity Completeness: `pytest engine/tests/test_entity_completeness.py`
+- [ ] **[TST-8.5]** 🟢 **[Python]** Настроить upload артефакта coverage HTML report в GHA при сбоях (retention 7 дней)
+- [ ] **[TST-8.6]** 🟢 **[Python]** Настроить upload JSON-отчетов расхождений alignment suite при сбоях
+- [ ] **[TST-8.7]** 🔴 **[Python]** Создать `scripts/pydantic_guard.ps1` для блокировки обращений по ключу к полям в рендерерах (для Windows)
+- [ ] **[TST-8.8]** 🟡 **[Python]** Создать `scripts/pydantic_guard.sh` — аналогичный скрипт для Linux (CI runner)
+- [ ] **[TST-8.9]** 🟡 **[Python]** Добавить step запуска `pydantic_guard.sh` в `generate-api-ref.yml` после GAP-03
 
 ### 5.5 Фаза 5 CI/CD: Изоляция сред и защита веток
 
@@ -736,17 +893,17 @@ poetry run pytest --cov=ude --cov-report=term-missing | grep TOTAL
 
 | # | Раздел | Критичных 🔴 | Важных 🟡 | Желательных 🟢 | Блокирует |
 |---|--------|-------------|----------|----------------|-----------|
-| 0 | Подготовка репозитория | 3 | 3 | 4 | — |
-| 1 | Фаза 1: Инфраструктура | 20 | 4 | — | Фазу 2 |
-| 2 | Фаза 2: API & CLI | 14 | 6 | 2 | Фазу 3 |
-| 3 | Фаза 3/D: Typed IR | 18 | 3 | — | Релиз |
-| 4 | Фаза 3/F: QA | 12 | 5 | 2 | Релиз |
-| 5 | CI/CD деплой | 11 | 16 | 10 | Релиз |
-| 6 | User Docs | 16 | 15 | 6 | Релиз |
-| 7 | Pipeline Docs | 5 | 5 | 2 | Релиз |
-| 8 | Doc Requirements | 3 | 8 | 2 | Релиз |
-| 9 | Финализация | 12 | 5 | 5 | — |
-| **∑** | **Всего** | **114** | **70** | **33** | |
+| 0 | Подготовка репозитория и окружения | 12 | 12 | 7 | — |
+| 1 | Фаза 1: Инфраструктура | 59 | 11 | — | Фазу 2 |
+| 2 | Фаза 2: API & CLI | 21 | 15 | 1 | Фазу 3 |
+| 3 | Фаза 3/D: Typed IR | 45 | 14 | — | Релиз |
+| 4 | Фаза 3/F: QA | 47 | 55 | 9 | Релиз |
+| 5 | CI/CD деплой | 13 | 15 | 13 | Релиз |
+| 6 | User Docs | 17 | 12 | 4 | Релиз |
+| 7 | Pipeline Docs | 5 | 3 | 2 | Релиз |
+| 8 | Doc Requirements | 2 | 11 | 1 | Релиз |
+| 9 | Финализация | 13 | 5 | 4 | — |
+| **∑** | **Всего** | **234** | **153** | **41** | |
 
 ---
 
