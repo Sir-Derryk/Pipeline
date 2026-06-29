@@ -326,19 +326,6 @@ def main() -> None:
             sidebar.write_text(text, encoding="utf-8")
             print(f"Patched:      source_file paths in {sidebar.relative_to(RELEASE_UDE_DIR)}")
 
-    for gen_docs in release_projects_dir.rglob("generate_docs.bat"):
-        text = gen_docs.read_text(encoding="utf-8")
-        if 'python -m ude.cli' in text and 'UDE_PYTHON' not in text:
-            text = text.replace(
-                'python -m ude.cli',
-                'set "UDE_PYTHON=..\\..\\..\\.venv\\Scripts\\python.exe"\n'
-                'if not exist "%UDE_PYTHON%" set "UDE_PYTHON=python"\n'
-                '\n'
-                '%UDE_PYTHON% -m ude.cli',
-            )
-            gen_docs.write_text(text, encoding="utf-8")
-            print(f"Patched:      venv fallback in {gen_docs.relative_to(RELEASE_UDE_DIR)}")
-
     # Copy and patch environment configuration JSONs
     _copy_config_files(sdk_keys)
 
