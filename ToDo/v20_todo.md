@@ -661,6 +661,7 @@ ude audit --doc-config path/to/ude_doc_config.json --mode reject-undocumented --
 - [ ] **[AD-SEC-04]** 🔴 Добавить блок `permissions:` с least-privilege во все workflows
 - [ ] **[AD-SEC-05]** 🟡 Включить Dependabot для GitHub Actions: `.github/dependabot.yml`
 - [ ] **[AD-SEC-06]** 🟡 Включить GitHub Secret Scanning и Push Protection для всех репозиториев
+- [ ] **[AD-ISO-03]** 🔴 Удалить step создания симлинка `ln -s ../engine ./user-docs/engine` — заменить PYTHONPATH или sys.path в `ude_config_self.json`
 
 ### 5.2 Фаза 2 CI/CD: Базовые GitHub Actions Workflows
 
@@ -693,6 +694,8 @@ ude audit --doc-config path/to/ude_doc_config.json --mode reject-undocumented --
 - [ ] **[TST-8.7]** 🔴 **[Python]** Создать `scripts/pydantic_guard.ps1` для блокировки обращений по ключу к полям в рендерерах (для Windows)
 - [ ] **[TST-8.8]** 🟡 **[Python]** Создать `scripts/pydantic_guard.sh` — аналогичный скрипт для Linux (CI runner)
 - [ ] **[TST-8.9]** 🟡 **[Python]** Добавить step запуска `pydantic_guard.sh` в `generate-api-ref.yml` после GAP-03
+- [ ] **[AD-RENDERER-01]** 🔴 Ввести CI-требование (Gate): в `generate-api-ref.yml` ОБЯЗАН присутствовать шаг Renderer Factory Guard (CB-04), проверяющий сигнатуру `__new__`
+- [ ] **[AD-RENDERER-02]** 🔴 Шаг Renderer Factory Guard (CB-04) НЕ имеет `continue-on-error: true` — он всегда блокирующий
 
 ### 5.5 Фаза 5 CI/CD: Изоляция сред и защита веток
 
@@ -708,6 +711,8 @@ ude audit --doc-config path/to/ude_doc_config.json --mode reject-undocumented --
 - [ ] **[CI-6.4]** 🟢 Создать `RUNBOOK.md` в корне umbrella: ручной запуск, rollback, ротация токенов, troubleshooting
 - [ ] **[AD-MON-02]** 🟡 Добавить `timeout-minutes: 15` на уровне job
 - [ ] **[AD-MON-04]** 🟢 Step вывода summary в `$GITHUB_STEP_SUMMARY`: страницы, время UDE, результат verify_pages
+- [ ] **[AD-MON-01]** 🟡 Настроить GitHub Actions notification для failures на ветке master: email-уведомление через стандартные настройки GitHub или Slack webhook
+- [ ] **[AD-MON-03]** 🟢 Добавить `if: always()` для финального step (cleanup / report) — выполняется даже при failure предыдущих steps
 
 ### 5.7 Новые workflows v2.0
 
@@ -791,6 +796,8 @@ ude audit --doc-config path/to/ude_doc_config.json --mode reject-undocumented --
 
 - [ ] **[AD-DOC-09]** 🟢 Добавить WHY-комментарии в `integration_tests.yml` — для нетривиальных steps
 - [ ] **[AD-DOC-10]** 🟢 Задокументировать `PYTHONPATH: engine` — почему нужна, когда потребует обновления
+- [ ] **[AD-DOC-11]** 🟡 Задокументировать CI guard-скрипты в `admin-deployment.md` или выделенном разделе `cicd-pipelines.md`
+- [ ] **[AD-DOC-12]** 🟡 Задокументировать порядок CI steps в `generate-api-ref.yml` и обоснование (WHY): Pydantic Guard → Renderer Factory Guard → Traceability Check → Compile
 
 ---
 
@@ -802,16 +809,20 @@ ude audit --doc-config path/to/ude_doc_config.json --mode reject-undocumented --
 - [ ] **[DR-NEW-02]** 🟡 Конфигурация markdownlint: max 120 символов, `MD013` только к prose
 - [ ] **[DR-NEW-03]** 🟡 Правило: в design-docs все файлы начинаются с YAML front-matter (`sidebar_position`, `title`)
 - [ ] **[DR-NEW-05]** 🟡 Правило: H1 ровно один, первый, совпадает с `title` в front-matter
+- [ ] **[DR-NEW-06]** 🔴 Установить правило для Mermaid-диаграмм: каждая диаграмма содержит `%% Description` комментарий и title-ноду для accessibility
 
 ### 8.2 Автоматическая проверка ссылок
 
 - [ ] **[DR-NEW-07]** 🔴 `Tests/check_links.py` (GAP-31) должен быть реализован до релиза v2.0
 - [ ] **[DR-NEW-08]** 🟡 После GAP-31: `check_links.py` запускается в `integration_tests.yml` как отдельный step
 - [ ] **[DR-NEW-09]** 🟡 Проверка relative links в design-docs через `docusaurus-check-links` или аналог
+- [ ] **[DR-NEW-10]** 🔴 Установить правило: внешние ссылки (HTTPS) допустимы только в `admin-deployment.md` и `getting-started.md`; в design-docs внешние ссылки требуют review-комментария с обоснованием
+- [ ] **[DR-NEW-11]** 🔴 Ввести требование: ссылки на internal GitHub Pages (`Sir-Derryk.github.io`) в user-docs проверяются тестом page-existence (`verify_pages.py`)
 
 ### 8.3 Версионирование и архивирование
 
 - [ ] **[DR-NEW-12]** 🟡 Перед слиянием v2.0: создать versioned snapshot в Docusaurus (`docusaurus docs:version 1.0`)
+- [ ] **[DR-NEW-13]** 🟡 Ввести правило: в design-docs `roadmap/future_v2.md` разделы по мере реализации переносятся в `roadmap/mvp_v2/`, а не редактируются на месте
 - [ ] **[DR-NEW-14]** 🟡 Документировать процедуру версионирования в `CLAUDE.md`
 - [ ] **[DR-NEW-15]** 🟡 После freeze v2.0: `requirements_v2_next.md` → `requirements_v3_next.md`
 
@@ -821,6 +832,34 @@ ude audit --doc-config path/to/ude_doc_config.json --mode reject-undocumented --
 - [ ] **[DR-NEW-17]** 🟡 Глоссарий терминов: `Collector`, `Orchestrator`, `Parser`, `Renderer`, `IR`, `Catalog` — единообразное использование
 - [ ] **[DR-NEW-18]** 🟢 Создать Glossary-страницу в design-docs (15+ терминов)
 - [ ] **[DR-NEW-19]** 🟡 При удалении требования — запись в `quality_audit.md` с обоснованием
+
+### 8.5 Требования к безопасности и инфраструктуре доки
+
+- [ ] **[DR-NEW-22]** 🔴 Документировать все используемые secrets в отдельном файле `docs/deployment/secrets.md` (user-docs) или `CLAUDE.md`: имя, назначение, минимальные права, срок ротации
+- [ ] **[DR-NEW-23]** 🔴 Ввести требование: `PIPELINE_GITHUB_TOKEN` secret должен использовать **Fine-grained Personal Access Token** (не classic), с ограничением по репозиториям и permissions: `contents: read`, `actions: write` (для repository_dispatch)
+- [ ] **[DR-NEW-24]** 🔴 Ввести правило: все environment variables в workflow явно декларируются через `env:` на уровне job или step — не передаются через inline shell substitution без документирования
+- [ ] **[DR-NEW-25]** 🔴 Ввести требование: README или AGENTS.md в `.github/` описывает назначение каждого workflow, его триггеры и ожидаемые Check-статусы в GitHub UI
+- [ ] **[DR-NEW-26]** 🟡 Ввести формальную процедуру deprecation: файлы, помеченные для удаления, получают frontmatter `deprecated: true` и раздел `> ⚠️ DEPRECATED:` с указанием замены — не удаляются сразу
+- [ ] **[DR-NEW-27]** 🟡 Архивировать `brd/ude_portal_blueprint.md` — по статусу в design-docs он помечен как устаревший legacy; переместить в `design-docs/docs/_archive/`
+- [ ] **[DR-NEW-28]** 🟢 Ввести правило: при каждом major-релизе создавать GitHub Release с release notes, дублирующими `changelog.md` из user-docs, для portfolio-видимости
+
+### 8.6 Quality Gates для документации
+
+- [ ] **[DR-NEW-29]** 🔴 Ввести CI-step в `design-docs` workflow: Docusaurus build (`npm run build`) должен завершаться с exit 0 — warnings считаются ошибками при наличии broken links (флаг `--fail-on-warning` для broken links)
+- [ ] **[DR-NEW-30]** 🟡 Ввести CI-step: проверка, что все файлы в `design-docs/docs/` имеют корректный `sidebar_position` (числовой, уникальный в директории) — Python-скрипт или `remark-lint`
+- [ ] **[DR-NEW-31]** 🟡 Ввести правило: `v2_detailed_tasks.md` (2 364 строки) должен быть разбит на отдельные файлы в `tasks/` после freeze v2.0 — максимальный размер задокументированного файла: 500 строк
+- [ ] **[DR-NEW-32]** 🔴 Ввести требование: страницы user-docs, описывающие CLI-команды, тестируются в CI smoke-тестом — команда `python -m ude.cli --help` должна возвращать exit 0 и содержать ключевые флаги из документации
+
+### 8.7 Требования к документированию архитектурных решений (Cross-Phase)
+
+- [ ] **[DR-NEW-33]** 🟡 Ввести требование: TASK-A.1.1 (`GlobalConfig`) ОБЯЗАН содержать примечание о том, что поля `coverage_mode` и `coverage_threshold` являются **схемными заглушками фазы 1**
+- [ ] **[DR-NEW-34]** 🟡 Ввести требование: TASK-A.4.3 (`DoxygenXmlCollector` с 3-уровневым merge) обязан документировать **приоритет разрешения T1-шаблона Doxyfile**: `GlobalConfig.global_templates_dir` → `templates` → `{}`
+- [ ] **[DR-NEW-35]** 🟡 Ввести требование: задачи TASK-D.1.4 (C#), TASK-D.1.5 (Java), TASK-D.1.6 (Python) обязаны содержать **конкретные примеры кода** с языко-специфичными XML kind-маппингами Doxygen
+- [ ] **[DR-NEW-36]** 🟡 Ввести требование: разрешить неоднозначность в TASK-F.2.5 (Python integration tests) относительно полей `is_property`, `fget`, `fset` в `VariableModel` / `MethodModel`
+- [ ] **[DR-NEW-37]** 🟡 Ввести требование: каждый файл задачи `TASK-*.md` в `.antigravitycli/tasks/` при указании CLI-команд верификации ОБЯЗАН предоставлять обе формы — bash/sh и PowerShell (AW-02)
+- [ ] **[DR-NEW-38]** 🟡 Ввести требование: все проверочные команды в `TASK-*.md`, использующие сравнение директорий, ОБЯЗАНЫ использовать `filecmp.dircmp` или Python-скрипт `scripts/compare_dirs.py`, а не `diff -r` (AW-03)
+- [ ] **[DR-NEW-39]** 🟡 Ввести требование: конфигурация `sidebar.toml` документируется как отдельный справочный раздел (структура секций, 3-way deep_merge cascade, `_load_sidebar_toml_graceful()` при отсутствии)
+- [ ] **[DR-NEW-40]** 🟡 Ввести требование: метод `_load_static_file_from_path()` на `BaseRenderer` документируется в справочнике API рендереров
 
 ---
 
@@ -898,12 +937,12 @@ ude audit --doc-config path/to/ude_doc_config.json --mode reject-undocumented --
 | 2 | Фаза 2: API & CLI | 21 | 15 | 1 | Фазу 3 |
 | 3 | Фаза 3/D: Typed IR | 45 | 14 | — | Релиз |
 | 4 | Фаза 3/F: QA | 47 | 55 | 9 | Релиз |
-| 5 | CI/CD деплой | 13 | 15 | 13 | Релиз |
+| 5 | CI/CD деплой | 16 | 16 | 14 | Релиз |
 | 6 | User Docs | 17 | 12 | 4 | Релиз |
-| 7 | Pipeline Docs | 5 | 3 | 2 | Релиз |
-| 8 | Doc Requirements | 2 | 11 | 1 | Релиз |
+| 7 | Pipeline Docs | 5 | 5 | 2 | Релиз |
+| 8 | Doc Requirements | 11 | 24 | 2 | Релиз |
 | 9 | Финализация | 13 | 5 | 4 | — |
-| **∑** | **Всего** | **234** | **153** | **41** | |
+| **∑** | **Всего** | **246** | **169** | **43** | |
 
 ---
 

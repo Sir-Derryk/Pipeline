@@ -2,7 +2,10 @@
     "project_name": "Drawings Python API Reference",
     "short_project_name": "Drawings",
     "src_dir": [
-        "../../../main/_swig/Python/Drawings"
+        "../../../main/_swig/Python/Drawings",
+        "../../../main/_swig/Python/BrepModeler",
+        "../../../main/_swig/Python/Components",
+        "../../../main/_swig/Python/Dgn"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2026,
