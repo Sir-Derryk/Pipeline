@@ -13,8 +13,8 @@ except ImportError:
     print("[ERROR] psutil is not installed. Please install it with pip install psutil.")
     sys.exit(1)
 
-WORKSPACE_ROOT = Path("D:/My repositories/Pipeline")
-LOAD_TEST_DIR = WORKSPACE_ROOT / "LoadTest"
+LOAD_TEST_DIR = Path(__file__).resolve().parent
+WORKSPACE_ROOT = LOAD_TEST_DIR.parent.parent
 GLOBAL_CONFIG = "ude_projects/ude_global_config.json"
 
 # Sorted list of SDKs with Python SWIG wrappers, ordered by size ascending

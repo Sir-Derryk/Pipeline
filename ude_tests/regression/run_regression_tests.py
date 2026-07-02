@@ -11,7 +11,7 @@ from pathlib import Path
 from typing import Tuple, List
 
 TESTS_DIR = Path(__file__).resolve().parent
-WORKSPACE_ROOT = TESTS_DIR.parent
+WORKSPACE_ROOT = TESTS_DIR.parent.parent
 ENGINE_DIR = WORKSPACE_ROOT / "engine"
 
 sys.path.insert(0, str(ENGINE_DIR))

@@ -63,4 +63,4 @@ jobs:
           # Diagnostics: print all compiled HTML files inside user-docs/.vitepress/dist to trace their output paths
           python -c "import os; [print(os.path.join(r, f).replace('\\\\', '/')) for r, _, fs in os.walk('user-docs/.vitepress/dist') for f in fs if f.endswith('.html')]" || true
           # Run our verification script against the locally compiled distribution
-          python Tests/verify_pages.py --local-dir ./user-docs/.vitepress/dist
+          python ude_tests/regression/verify_pages.py --local-dir ./user-docs/.vitepress/dist

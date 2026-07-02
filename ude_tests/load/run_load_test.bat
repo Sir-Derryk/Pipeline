@@ -3,7 +3,7 @@ chcp 65001 >nul
 setlocal enabledelayedexpansion
 
 set "SCRIPT_DIR=%~dp0"
-cd /d "%SCRIPT_DIR%.."
+cd /d "%SCRIPT_DIR%..\.."
 
 echo ============================================================
 echo   Starting ODA SDK Python HTML Doc Load Testing...
@@ -18,10 +18,10 @@ if not exist "%PYTHON_EXE%" (
     exit /b 1
 )
 
-"%PYTHON_EXE%" LoadTest\run_load_test.py
+"%PYTHON_EXE%" ude_tests\load\run_load_test.py
 
 echo.
 echo ============================================================
-echo   Load Testing Finished. Check LoadTest\report.md for results.
+echo   Load Testing Finished. Check ude_tests\load\report.md for results.
 echo ============================================================
 endlocal

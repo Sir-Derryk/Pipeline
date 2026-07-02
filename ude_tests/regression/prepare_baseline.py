@@ -11,7 +11,7 @@ import argparse
 from pathlib import Path
 
 TESTS_DIR = Path(__file__).resolve().parent
-WORKSPACE_ROOT = TESTS_DIR.parent
+WORKSPACE_ROOT = TESTS_DIR.parent.parent
 ENGINE_DIR = WORKSPACE_ROOT / "engine"
 
 # Inject local engine folder to python path
