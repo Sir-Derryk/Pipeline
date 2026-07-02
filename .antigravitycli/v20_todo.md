@@ -60,7 +60,7 @@
 - [x] **[RS-T3]** 🔴 Document the `ude_` prefix convention for root directories in `CLAUDE.md` ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T3] ──► [Model: Antigravity - Gemini 3.5 Flash (Medium)]
 - [x] **[RS-T4]** 🟡 Rename `/refs/` → `/sdk_refs/` in `.gitignore` (resolves conflict with git terminology) ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T4] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
 - [x] **[RS-T5]** 🟡 Move utilities `compress_history.bat`, `compress_history.ps1`, `run_swig.bat` to `scripts/` ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T5] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
-- [ ] **[RS-T6]** 🟢 Merge `Tests/` + `LoadTest/` → `ude_tests/regression/` + `ude_tests/load/`; update paths in `.github/workflows/integration_tests.yml` ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T6] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
+- [x] **[RS-T6]** 🟢 Merge `Tests/` + `LoadTest/` → `ude_tests/regression/` + `ude_tests/load/`; update paths in `.github/workflows/integration_tests.yml` ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T6] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
 - [ ] **[RS-T7]** 🟢 Verify redundancy of `.gitignore` rules for `ude_projects/` — run generation, check `git status` ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T7] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
 - [ ] **[RS-T8]** 🟢 Audit `make_release.py` — understand ODA compatibility logic (prerequisite for RS-T9) ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T8] ──► [Model: Antigravity - Gemini 3.1 Pro (High)]
 - [ ] **[RS-T9]** 🟢 **[MEDIUM RISK]** Rename `main/` → `sdk_sources/` after RS-T8 — requires synchronous updates of Python imports, build scripts, and IDE settings ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T9] ──► [Model: Antigravity - Gemini 3.5 Flash (High)]
