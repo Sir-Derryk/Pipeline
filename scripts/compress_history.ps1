@@ -27,10 +27,10 @@ Read-Host | Out-Null
 
 # Список репозиториев для обработки
 $targets = @(
-    [PSCustomObject]@{ Name = "engine";      Path = "..\engine";      Branch = "master"; Msg = "Initial commit (Universal Documentation Engine Core)" },
+    [PSCustomObject]@{ Name = "engine";      Path = "..\engine";      Branch = "main"; Msg = "Initial commit (Universal Documentation Engine Core)" },
     [PSCustomObject]@{ Name = "user-docs";   Path = "..\user-docs";   Branch = "main";   Msg = "Initial commit (User and Admin Guides)" },
     [PSCustomObject]@{ Name = "design-docs"; Path = "..\design-docs"; Branch = "main";   Msg = "Initial commit (Design and SRS Documentation)" },
-    [PSCustomObject]@{ Name = "Pipeline";    Path = "..";           Branch = "master"; Msg = "Initial commit (Universal Documentation Portal)" }
+    [PSCustomObject]@{ Name = "Pipeline";    Path = "..";           Branch = "main"; Msg = "Initial commit (Universal Documentation Portal)" }
 )
 
 # Проверка окружения

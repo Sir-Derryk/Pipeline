@@ -2,7 +2,7 @@ name: Portal Integration Tests
 
 on:
   push:
-    branches: [ master ]  # Trigger on changes in the parent repository itself
+    branches: [ main ]  # Trigger on changes in the parent repository itself
   repository_dispatch:
     types: [ trigger-integration-tests ]  # Trigger on event dispatched from submodules
 
