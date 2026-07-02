@@ -2,7 +2,7 @@
     "project_name": "FacetModeler Python API Reference",
     "short_project_name": "FacetModeler",
     "src_dir": [
-        "../../../main/_swig/Python/FacetModeler"
+        "../../../sdk_sources/_swig/Python/FacetModeler"
     ],
     "static_pages_dir": "Dev_Guides/FacetModeler",
     "copyright_start_year": 2002,

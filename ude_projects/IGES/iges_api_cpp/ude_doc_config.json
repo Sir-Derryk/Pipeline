@@ -1,7 +1,7 @@
 {
     "project_name": "IGES C++ API Reference",
     "src_dir": [
-        "../../../main/IGES/Include"
+        "../../../sdk_sources/IGES/Include"
     ],
     "static_pages_dir": "Dev_Guides/IGES",
     "copyright_start_year": 2002,

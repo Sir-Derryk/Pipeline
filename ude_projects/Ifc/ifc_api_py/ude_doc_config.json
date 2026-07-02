@@ -2,8 +2,8 @@
     "project_name": "Ifc Python API Reference",
     "short_project_name": "Ifc",
     "src_dir": [
-        "../../../main/_swig/Python/Ifc",
-        "../../../main/_swig/Python/sdai"
+        "../../../sdk_sources/_swig/Python/Ifc",
+        "../../../sdk_sources/_swig/Python/sdai"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2026,

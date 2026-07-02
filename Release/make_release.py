@@ -315,8 +315,8 @@ def main() -> None:
     # release paths need extra levels because release root sits deeper in the filesystem
     for doc_config in release_projects_dir.rglob("ude_doc_config.json"):
         text = doc_config.read_text(encoding="utf-8")
-        if "../../../main/" in text:
-            doc_config.write_text(text.replace("../../../main/", "../../../../../main/"), encoding="utf-8")
+        if "../../../sdk_sources/" in text:
+            doc_config.write_text(text.replace("../../../sdk_sources/", "../../../../../sdk_sources/"), encoding="utf-8")
             print(f"Patched:      src_dir in {doc_config.relative_to(RELEASE_UDE_DIR)}")
 
     for sidebar in release_projects_dir.rglob("sidebar.toml"):

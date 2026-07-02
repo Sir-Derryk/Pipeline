@@ -2,7 +2,7 @@
     "project_name": "BimNv C# API Reference",
     "short_project_name": "BimNv",
     "src_dir": [
-        "../../../main/_swig/CSharp/BimNv"
+        "../../../sdk_sources/_swig/CSharp/BimNv"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2002,
