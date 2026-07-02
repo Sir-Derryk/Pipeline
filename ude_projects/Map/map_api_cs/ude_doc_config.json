@@ -2,7 +2,7 @@
     "project_name": "Map C# API Reference",
     "short_project_name": "Map",
     "src_dir": [
-        "../../../main/_swig/CSharp/Map"
+        "../../../sdk_sources/_swig/CSharp/Map"
     ],
     "static_pages_dir": "./",
     "copyright_start_year": 2002,

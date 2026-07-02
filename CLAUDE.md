@@ -38,3 +38,15 @@ Full class matrix:
 | `_api_py`     | `Py`       | Python   |
 
 See `.antigravitycli/rules.md` for the full audit gap analysis.
+
+## Root Directory Prefix Convention
+
+To maintain a clean and structured namespace in the repository root, all directories and files on the first level of the `Pipeline` repository that belong to the UDE (Unified Development Environment) system MUST use the `ude_` prefix.
+
+Examples of root paths adhering to this convention:
+- `ude_projects/` (source code projects and configurations)
+- `ude_output/` (generated artifacts and build output)
+- `ude_release_manifest.json` (release description)
+- `ude_tests/` (consolidated test suite)
+
+Note: This convention applies strictly to first-level (root) directories and files.
