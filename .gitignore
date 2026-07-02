@@ -233,7 +233,7 @@ __marimo__/
 !/src/Mock*/**
 !/src/mock*/**
 
-/refs
+/sdk_refs/
 /TOCStructures
 /.vs
 

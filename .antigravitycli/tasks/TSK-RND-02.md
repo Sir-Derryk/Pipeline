@@ -7,7 +7,7 @@
    * Create file `ude/renderers/static_html.py` subclassing `HtmlRenderer` from `BaseRenderer`.
    * **CORS-Free Navigation Compile**: Compile the entire project's hierarchical ToC database into a nested JSON structure and serialize it as a global JavaScript variable assignment: `window.UDE_NAV_DATA = { ... };` inside a dedicated file named `nav_data.js`.
    * **Page Generation**: Ingest standard layouts from `ude/templates/` and generate static HTML files using physical flat-mapped filenames (`REQ-FUN-30`). Ensure all relative hyperlinks among entities resolve correctly.
-   * **Asset Compilation**: The compiler must automatically copy the reference stylesheet `main.css` and all associated graphics (such as subtype indicator icons, e.g., `indicator-method-16.png`) from `refs/NewVersion/bimnv_api_cpp/` into the target output directory (`REQ-FUN-32`).
+   * **Asset Compilation**: The compiler must automatically copy the reference stylesheet `main.css` and all associated graphics (such as subtype indicator icons, e.g., `indicator-method-16.png`) from `sdk_refs/NewVersion/bimnv_api_cpp/` into the target output directory (`REQ-FUN-32`).
    * **Interactive Sidebar Features**:
      * Include a `<script>` tag in `index.html` loading `nav_data.js` and rendering the collapsible folder tree dynamically.
      * **Resize Splitter**: Include a draggable element `.OdaDocSplitter` which dynamically changes the width of the sidebar. Write Javascript listener to persist the selected width inside the browser's `localStorage` under the key `ude_sidebar_width` and apply it during page load.
@@ -49,7 +49,7 @@
    * [ ] `nav_data.js` file is written, enabling оffline-friendly CORS-free navigation on `file:///` protocol.
    * [ ] Draggable splitter writes state to `localStorage` under `ude_sidebar_width`.
    * [ ] Sidebar includes `#sidebarSearch` filtering input.
-   * [ ] The compiler automatically copies the reference `main.css` and visual indicator assets to the output directory, and generated pages render identically to `refs/NewVersion/`.
+   * [ ] The compiler automatically copies the reference `main.css` and visual indicator assets to the output directory, and generated pages render identically to `sdk_refs/NewVersion/`.
    * [ ] Pages feature standardized badges, `.OdaDocBrief`, `.OdaDocContainerTable`, and collapsible lists with indicators.
    * [ ] Custom catalog/index reference links are successfully injected inside sidebars or footers (`REQ-FUN-34`).
    * [ ] No empty sidebar sections are left; all collapsible nodes point to valid target index or child pages (`REQ-FUN-35`).
