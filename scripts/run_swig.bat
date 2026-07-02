@@ -15,7 +15,7 @@ echo Generating SWIG wrappers...
 
 :: Run SWIG for Python
 echo [Python] Running SWIG for core_modeler.i...
-swig -python -doxygen -c++ -Iengine\tests\assets\main\mock -outdir "engine\tests\assets\main\_swig\python\mock" -o "engine\tests\assets\main\_swig\python\mock\core_modeler_wrap.cpp" "engine\tests\assets\main\mock\core_modeler.i"
+swig -python -doxygen -c++ -I"%~dp0..\engine\tests\assets\main\mock" -outdir "%~dp0..\engine\tests\assets\main\_swig\python\mock" -o "%~dp0..\engine\tests\assets\main\_swig\python\mock\core_modeler_wrap.cpp" "%~dp0..\engine\tests\assets\main\mock\core_modeler.i"
 if %ERRORLEVEL% neq 0 (
     echo Error: Python SWIG generation failed.
     exit /b %ERRORLEVEL%
@@ -23,7 +23,7 @@ if %ERRORLEVEL% neq 0 (
 
 :: Run SWIG for C#
 echo [C#] Running SWIG for core_modeler.i...
-swig -csharp -c++ -Iengine\tests\assets\main\mock -outdir "engine\tests\assets\main\_swig\csharp\mock" -o "engine\tests\assets\main\_swig\csharp\mock\core_modeler_wrap.cxx" "engine\tests\assets\main\mock\core_modeler.i"
+swig -csharp -c++ -I"%~dp0..\engine\tests\assets\main\mock" -outdir "%~dp0..\engine\tests\assets\main\_swig\csharp\mock" -o "%~dp0..\engine\tests\assets\main\_swig\csharp\mock\core_modeler_wrap.cxx" "%~dp0..\engine\tests\assets\main\mock\core_modeler.i"
 if %ERRORLEVEL% neq 0 (
     echo Error: C# SWIG generation failed.
     exit /b %ERRORLEVEL%
@@ -31,7 +31,7 @@ if %ERRORLEVEL% neq 0 (
 
 :: Run SWIG for Java
 echo [Java] Running SWIG for core_modeler.i...
-swig -java -doxygen -c++ -Iengine\tests\assets\main\mock -outdir "engine\tests\assets\main\_swig\java\mock" -o "engine\tests\assets\main\_swig\java\mock\core_modeler_wrap.cxx" "engine\tests\assets\main\mock\core_modeler.i"
+swig -java -doxygen -c++ -I"%~dp0..\engine\tests\assets\main\mock" -outdir "%~dp0..\engine\tests\assets\main\_swig\java\mock" -o "%~dp0..\engine\tests\assets\main\_swig\java\mock\core_modeler_wrap.cxx" "%~dp0..\engine\tests\assets\main\mock\core_modeler.i"
 if %ERRORLEVEL% neq 0 (
     echo Error: Java SWIG generation failed.
     exit /b %ERRORLEVEL%
