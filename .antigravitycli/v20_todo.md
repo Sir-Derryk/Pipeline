@@ -43,22 +43,22 @@
 
 > Executed first — before any physical changes to the repository. Guarantees that any subsequent regression is diagnosed relative to the certified green baseline.
 
-- [ ] **[TST-0.1]** 🔴 **[Python]** Ensure all 209 engine tests pass: `poetry run pytest engine/tests/ -v` ──► [Model: Antigravity - Gemini 3.1 Pro (Low)]
-- [ ] **[TST-0.2]** 🔴 **[Python]** Confirm coverage ≥ 98%: `poetry run pytest --cov=ude --cov-report=term-missing` (or `grep TOTAL`) ──► [Model: Antigravity - Gemini 3.1 Pro (Low)]
-- [ ] **[TST-0.3]** 🔴 **[Python]** Record baseline metrics (number of tests, % coverage, run time) in `ToDo/Tests_ToDo.md` ──► [Model: Antigravity - Gemini 3.5 Flash (Medium)]
-- [ ] **[TST-0.4]** 🟡 **[Python]** Run performance benchmark: `poetry run pytest tests/test_performance_benchmark.py -v` — make sure it executes in ≤ 5 s for 1000 classes ──► [Model: Antigravity - Gemini 3.1 Pro (Low)]
-- [ ] **[TST-0.5]** 🟡 **[Python]** Generate HTML coverage report: `poetry run pytest --cov=ude --cov-report=html` ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
-- [ ] **[TST-0.6]** 🟡 **[Python]** Identify modules with coverage < 98% and record gaps in `Tests_ToDo.md` ──► [Model: Antigravity - Gemini 3.5 Flash (Medium)]
-- [ ] **[TST-0.7]** 🟢 **[Python]** Create test `test_coverage_gate.py` with CI-ready parameter `--cov-fail-under=98` ──► [Model: Antigravity - Gemini 3.1 Pro (Low)]
+- [x] **[TST-0.1]** 🔴 **[Python]** Ensure all 209 engine tests pass: `poetry run pytest engine/tests/ -v` ──► [Model: Antigravity - Gemini 3.1 Pro (Low)]
+- [x] **[TST-0.2]** 🔴 **[Python]** Confirm coverage ≥ 98%: `poetry run pytest --cov=ude --cov-report=term-missing` (or `grep TOTAL`) ──► [Model: Antigravity - Gemini 3.1 Pro (Low)]
+- [x] **[TST-0.3]** 🔴 **[Python]** Record baseline metrics (number of tests, % coverage, run time) in `ToDo/Tests_ToDo.md` ──► [Model: Antigravity - Gemini 3.5 Flash (Medium)]
+- [x] **[TST-0.4]** 🟡 **[Python]** Run performance benchmark: `poetry run pytest tests/test_performance_benchmark.py -v` — make sure it executes in ≤ 5 s for 1000 classes ──► [Model: Antigravity - Gemini 3.1 Pro (Low)]
+- [x] **[TST-0.5]** 🟡 **[Python]** Generate HTML coverage report: `poetry run pytest --cov=ude --cov-report=html` ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
+- [x] **[TST-0.6]** 🟡 **[Python]** Identify modules with coverage < 98% and record gaps in `Tests_ToDo.md` ──► [Model: Antigravity - Gemini 3.5 Flash (Medium)]
+- [x] **[TST-0.7]** 🟢 **[Python]** Create test `test_coverage_gate.py` with CI-ready parameter `--cov-fail-under=98` ──► [Model: Antigravity - Gemini 3.1 Pro (Low)]
 
 ### 0.2 Repository Structural Changes
 
 > Executed strictly after fixing baseline (0.1). Most tasks are safe for tests; the exception is RS-T9 (medium risk, requires synchronous updates of imports and scripts).
 
-- [ ] **[RS-T1]** 🔴 Commit uncommitted architectural documents: `CICD.md`, `RepoStruct.md`, `RepoStruct_ToDo.md` ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T1] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
-- [ ] **[RS-T2]** 🔴 Delete `FutureImprovements/` — 4 files without value (`doxygen_cpp.py`, `cpp_signature_formatter.py`, `legacy_cpp_sidebar.json`, `cpp_class_layout.html`) ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T2] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
+- [x] **[RS-T1]** 🔴 Commit uncommitted architectural documents: `CICD.md`, `RepoStruct.md`, `RepoStruct_ToDo.md` ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T1] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
+- [x] **[RS-T2]** 🔴 Delete `FutureImprovements/` — 4 files without value (`doxygen_cpp.py`, `cpp_signature_formatter.py`, `legacy_cpp_sidebar.json`, `cpp_class_layout.html`) ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T2] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
 - [x] **[RS-T3]** 🔴 Document the `ude_` prefix convention for root directories in `CLAUDE.md` ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T3] ──► [Model: Antigravity - Gemini 3.5 Flash (Medium)]
-- [ ] **[RS-T4]** 🟡 Rename `/refs/` → `/sdk_refs/` in `.gitignore` (resolves conflict with git terminology) ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T4] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
+- [x] **[RS-T4]** 🟡 Rename `/refs/` → `/sdk_refs/` in `.gitignore` (resolves conflict with git terminology) ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T4] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
 - [ ] **[RS-T5]** 🟡 Move utilities `compress_history.bat`, `compress_history.ps1`, `run_swig.bat` to `scripts/` ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T5] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
 - [ ] **[RS-T6]** 🟢 Merge `Tests/` + `LoadTest/` → `ude_tests/regression/` + `ude_tests/load/`; update paths in `.github/workflows/integration_tests.yml` ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T6] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
 - [ ] **[RS-T7]** 🟢 Verify redundancy of `.gitignore` rules for `ude_projects/` — run generation, check `git status` ──► [Source: ToDo/RepoStruct_ToDo.md #RS-T7] ──► [Model: Antigravity - Gemini 3.5 Flash (Low)]
